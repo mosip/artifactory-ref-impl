@@ -1,4 +1,25 @@
-FROM nginx:19
+FROM nginx
+
+# can be passed during Docker build as build time environment for github branch to pickup configuration from.
+ARG container_user=mosip
+
+# can be passed during Docker build as build time environment for github branch to pickup configuration from.
+ARG container_user_group=mosip
+
+# can be passed during Docker build as build time environment for github branch to pickup configuration from.
+ARG container_user_uid=1001
+
+# can be passed during Docker build as build time environment for github branch to pickup configuration from.
+ARG container_user_gid=1001
+
+# install packages and create user
+RUN apt-get -y update \
+&& apt-get install -y unzip \
+&& groupadd -g ${container_user_gid} ${container_user_group} \
+&& useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user}
+
+# set working directory for the user
+WORKDIR /home/${container_user}
 
 # environment variable for basepath
 ENV base_path=/usr/share/nginx/html/artifactory
@@ -24,17 +45,19 @@ ENV reprocessor_jar_path=${base_path}/io/mosip/testing/
 # environment variable for ref-idobjectvalidator jar
 ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel
 
-# environment variable for jar version to be downloaed, this needed to be passes runtime
+# environment variable for jar version to be downloaed, this needed to be passed runtime
 ENV version=${version}
 
-# environment variable for auth-adapter-jar url
-ENV auth_adapter_jar_url=https://repo1.maven.org/maven2/io/mosip/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
+# environment variable for maven central mosip artifacts 
+ENV maven_path=https://repo1.maven.org/maven2/io/mosip
+
+ENV auth_adapter_jar_url=${maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
 
 # environment variable for msg91_jar url
-ENV sms_msg91_url=https://repo1.maven.org/maven2/io/mosip/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
+ENV sms_msg91_url=${maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
 
 # environment variable for ref-idobjectvalidator_jar url
-ENV ref_idobjectvalidator_jar_url=https://repo1.maven.org/maven2/io/mosip/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
+ENV ref_idobjectvalidator_jar_url=${maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
 
 # Create all the Jar paths
 RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${reprocessor_jar_path} ${idobject_jar_path}
@@ -45,7 +68,7 @@ COPY /src/biosdk/biosdk.zip ${biosdk_zip_path}/
 
 COPY /src/deployment/docker/id-authentication/ ${ida_sh_path}/
 
-COPY /src/cache/cache-provider-jar ${cache_path}/
+COPY /src/cache/cache-provider.jar ${cache_path}/
 
 COPY /src/hsm/client.zip ${hsm_client_path}/
 
