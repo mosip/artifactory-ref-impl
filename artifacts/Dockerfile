@@ -85,6 +85,6 @@ COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${reprocessor_jar_pa
 
 # Download required respective all the jars
 
-CMD wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar ; 
+RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar ; 
 # wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar ; \
 # wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar ;
