@@ -1,25 +1,25 @@
 FROM nginx
 
 # can be passed during Docker build as build time environment for github branch to pickup configuration from.
-#ARG container_user=mosip
+ARG container_user=mosip
 
 # can be passed during Docker build as build time environment for github branch to pickup configuration from.
-#ARG container_user_group=mosip
+ARG container_user_group=mosip
 
 # can be passed during Docker build as build time environment for github branch to pickup configuration from.
-#ARG container_user_uid=1001
+ARG container_user_uid=1001
 
 # can be passed during Docker build as build time environment for github branch to pickup configuration from.
-#ARG container_user_gid=1001
+ARG container_user_gid=1001
 
 # install packages and create user
-RUN apt-get -y update \
-&& apt-get install -y unzip wget zip 
-#&& groupadd -g ${container_user_gid} ${container_user_group} \
-#&& useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user}
+RUN apt-get -y update &&\
+apt-get install -y unzip wget zip &&\
+groupadd -g ${container_user_gid} ${container_user_group} &&\
+useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user}
 
 # set working directory for the user
-#WORKDIR /home/${container_user}
+WORKDIR /home/${container_user}
 
 # Nginx Entrypoint
 
@@ -85,6 +85,6 @@ COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${reprocessor_jar_pa
 
 # Download required respective all the jars
 
-RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar && \ 
- wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar && \
+RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\ 
+ wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
  wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar
