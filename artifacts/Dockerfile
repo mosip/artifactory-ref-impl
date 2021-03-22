@@ -46,7 +46,7 @@ ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel
 
 # environment variable for jar version to be downloaed, this needed to be passed runtime
-ENV version=1.1.3
+ENV version=1.1.4
 
 # environment variable for maven central mosip artifacts 
 ENV maven_path=https://repo1.maven.org/maven2/io/mosip
