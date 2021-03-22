@@ -13,13 +13,21 @@ ARG container_user_uid=1001
 ARG container_user_gid=1001
 
 # install packages and create user
-RUN apt-get -y update \
-&& apt-get install -y unzip \
-&& groupadd -g ${container_user_gid} ${container_user_group} \
-&& useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user}
+RUN apt-get -y update &&\
+apt-get install -y unzip wget zip &&\
+groupadd -g ${container_user_gid} ${container_user_group} &&\
+useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user}
 
 # set working directory for the user
 WORKDIR /home/${container_user}
+
+# Nginx Entrypoint
+
+#ENTRYPOINT ["/docker-entrypoint.sh"]
+
+#STOPSIGNAL SIGQUIT
+
+#CMD ["nginx" "-g" "daemon off;"]
 
 # environment variable for basepath
 ENV base_path=/usr/share/nginx/html/artifactory
@@ -46,11 +54,12 @@ ENV reprocessor_jar_path=${base_path}/io/mosip/testing/
 ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel
 
 # environment variable for jar version to be downloaed, this needed to be passed runtime
-ENV version=${version}
+ENV version=1.1.3
 
 # environment variable for maven central mosip artifacts 
 ENV maven_path=https://repo1.maven.org/maven2/io/mosip
 
+# environment variable for maven central auth adapter 
 ENV auth_adapter_jar_url=${maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
 
 # environment variable for msg91_jar url
@@ -66,7 +75,7 @@ RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} 
 
 COPY /src/biosdk/biosdk.zip ${biosdk_zip_path}/
 
-COPY /src/deployment/docker/id-authentication/ ${ida_sh_path}/
+COPY /src/deployment/docker/id-authentication/* ${ida_sh_path}/
 
 COPY /src/cache/cache-provider.jar ${cache_path}/
 
@@ -76,7 +85,6 @@ COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${reprocessor_jar_pa
 
 # Download required respective all the jars
 
-CMD wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar ; \
-    wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar ; \
-	wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar ;\
-	fi
+RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\ 
+ wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
+ wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar
