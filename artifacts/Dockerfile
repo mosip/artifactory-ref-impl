@@ -43,13 +43,13 @@ ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
 ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 
 # environment variable for ref-idobjectvalidator jar path
-ENV idobject_jar_path=${base_path}/libs-release-local/io/mosip/kernel
+ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel
 
 # environment variable for prereg transliteration jar path
 ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
 
 # environment variable for i18n zip path
-ENV i18n_zip_path=${base_path}/libs-snapshot-local/i18n
+ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV version=1.1.5
