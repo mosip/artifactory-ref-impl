@@ -40,10 +40,7 @@ ENV hsm_client_path=${base_path}/libs-release-local/hsm
 ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
 
 # environment variable for regproc reprocessor ceylon cache jar
-ENV reprocessor_jar_path=${base_path}/io/mosip/testing/
-
-# environment variable for glowroot.zip
-ENV glowroot_zip_path=${base_path}/io/mosip/testing/
+ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 
 # environment variable for ref-idobjectvalidator jar
 ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel
@@ -64,7 +61,7 @@ ENV sms_msg91_url=${maven_path}/kernel/kernel-smsserviceprovider-msg91/${version
 ENV ref_idobjectvalidator_jar_url=${maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${reprocessor_jar_path} ${idobject_jar_path}
+RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path}
 
 # Copy all the respective jars to the location
 
@@ -76,9 +73,9 @@ COPY /src/cache/cache-provider.jar ${cache_path}/
 
 COPY /src/hsm/client.zip ${hsm_client_path}/
 
-COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${reprocessor_jar_path}/
+COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 
-COPY /src/glowroot.zip ${glowroot_zip_path}/
+COPY /src/testing/glowroot.zip ${test_jar_path}/
 
 # Download required respective all the jars
 
