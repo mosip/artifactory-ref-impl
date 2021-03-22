@@ -24,26 +24,32 @@ WORKDIR /home/${container_user}
 # environment variable for basepath
 ENV base_path=/usr/share/nginx/html/artifactory
 
-# environment variable for Biosdk Zip.
+# environment variable for Biosdk Zip path
 ENV biosdk_zip_path=${base_path}/libs-release-local/biosdk/mock/0.9
 
-# environment variable for Cache Provider Jar
+# environment variable for Cache Provider Jar path
 ENV cache_path=${base_path}/libs-release-local/cache
 
-# environment variable for ida shell scripts.
+# environment variable for ida shell scripts path
 ENV ida_sh_path=${base_path}/libs-release-local/deployment/docker/id-authentication
 
-# environment variable for hsm client
+# environment variable for hsm client path
 ENV hsm_client_path=${base_path}/libs-release-local/hsm
 
-# environment variable for Kernel Jars
+# environment variable for Kernel Jars path
 ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
 
-# environment variable for regproc reprocessor ceylon cache jar
+# environment variable for regproc reprocessor ceylon cache jar path
 ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 
-# environment variable for ref-idobjectvalidator jar
+# environment variable for ref-idobjectvalidator jar path
 ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel
+
+# environment variable for prereg transliteration jar path
+ENV icu4j_jar_path=${base_path}/libs-snapshot-local/icu4j
+
+# environment variable for i18n zip path
+ENV i18n_zip_path=${base_path}/libs-snapshot-local/i18n
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV version=1.1.5
@@ -64,7 +70,7 @@ ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/snapshots/
 ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20201120.073339-158.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path}
+RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${icu4j_jar_path} ${i18n_zip_path}
 
 # Copy all the respective jars to the location
 
@@ -77,6 +83,10 @@ COPY /src/hsm/client.zip ${hsm_client_path}/
 COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 
 COPY /src/testing/glowroot.zip ${test_jar_path}/
+
+COPY /src/i18n/pre-registration-i18n-bundle.zip ${i18n_zip_path}/
+
+COPY /src/icu4j/* ${icu4j_jar_path}/
 
 # Download required respective all the jars
 
