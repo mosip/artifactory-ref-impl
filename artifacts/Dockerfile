@@ -50,6 +50,9 @@ ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
 # environment variable for regproc reprocessor ceylon cache jar
 ENV reprocessor_jar_path=${base_path}/io/mosip/testing/
 
+# environment variable for glowroot.zip
+ENV glowroot_zip_path=${base_path}/io/mosip/testing/
+
 # environment variable for ref-idobjectvalidator jar
 ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel
 
@@ -82,6 +85,8 @@ COPY /src/cache/cache-provider.jar ${cache_path}/
 COPY /src/hsm/client.zip ${hsm_client_path}/
 
 COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${reprocessor_jar_path}/
+
+COPY /src/glowroot.zip ${glowroot_zip_path}/
 
 # Download required respective all the jars
 
