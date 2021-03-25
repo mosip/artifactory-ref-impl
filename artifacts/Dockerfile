@@ -43,7 +43,10 @@ ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
 ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 
 # environment variable for ref-idobjectvalidator jar
-ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel
+ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-ref-idobjectvalidator
+
+# environment variable for regproc auth jar
+ENV regproc_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-auth-adapter
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV version=1.1.5
@@ -64,7 +67,7 @@ ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/snapshots/
 ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20201120.073339-158.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path}
+RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path}
 
 # Copy all the respective jars to the location
 
@@ -77,6 +80,8 @@ COPY /src/hsm/client.zip ${hsm_client_path}/
 COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 
 COPY /src/testing/glowroot.zip ${test_jar_path}/
+
+COPY /src/auth/* ${regproc_jar_path}/
 
 # Download required respective all the jars
 
