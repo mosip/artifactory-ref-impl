@@ -89,6 +89,10 @@ COPY /src/testing/glowroot.zip ${test_jar_path}/
 
 COPY /src/i18n/pre-registration-i18n-bundle.zip ${i18n_zip_path}/
 
+COPY /src/i18n/admin-entity-spec-bundle.zip ${i18n_zip_path}/
+
+COPY /src/i18n/admin-i18n-bundle.zip ${i18n_zip_path}/
+
 COPY /src/icu4j/* ${icu4j_jar_path}/
 
 COPY /src/auth/* ${regproc_jar_path}/
