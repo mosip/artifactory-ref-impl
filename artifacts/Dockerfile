@@ -43,7 +43,10 @@ ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
 ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 
 # environment variable for ref-idobjectvalidator jar path
-ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel
+ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-ref-idobjectvalidator
+
+# environment variable for regproc auth jar
+ENV regproc_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-auth-adapter
 
 # environment variable for prereg transliteration jar path
 ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
@@ -70,7 +73,7 @@ ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/snapshots/
 ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20201120.073339-158.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${icu4j_jar_path} ${i18n_zip_path}
+RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${icu4j_jar_path} ${i18n_zip_path}  ${regproc_jar_path}
 
 # Copy all the respective jars to the location
 
@@ -88,6 +91,7 @@ COPY /src/i18n/pre-registration-i18n-bundle.zip ${i18n_zip_path}/
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
 
+COPY /src/auth/* ${regproc_jar_path}/
 # Download required respective all the jars
 
 RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\ 
