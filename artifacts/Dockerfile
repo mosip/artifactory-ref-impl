@@ -94,5 +94,5 @@ COPY /src/auth/* ${regproc_jar_path}/
 RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\ 
  wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
  wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
- wget https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/4.1.1/hazelcast-all-4.1.1.jar -O ${cache_path}/cache-provider.jar
- wget https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.1.5-SNAPSHOT/mock-sdk-1.1.5-20210329.042625-10.jar -O ${sdk_path}/mock-sdk.jar
+ wget https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/4.1.1/hazelcast-all-4.1.1.jar -O ${cache_path}/cache-provider.jar &&\
+ wget ${sdk_jar_url} -O ${sdk_path}/mock-sdk.jar
