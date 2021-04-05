@@ -51,6 +51,9 @@ ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-re
 # environment variable for regproc auth jar
 ENV regproc_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-auth-adapter
 
+# environment variable for prereg transliteration jar path
+ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
+
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV version=1.1.5
 
@@ -76,7 +79,7 @@ ENV sdk_jar_url=https://oss.sonatype.org/content/repositories/snapshots/io/mosip
 ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/4.1.1/hazelcast-all-4.1.1.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path}
+RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path}
 
 # Copy all the respective jars to the location
 
@@ -91,6 +94,8 @@ COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 COPY /src/testing/glowroot.zip ${test_jar_path}/
 
 COPY /src/auth/* ${regproc_jar_path}/
+
+COPY /src/icu4j/* ${icu4j_jar_path}/
 
 # Download required respective all the jars
 
