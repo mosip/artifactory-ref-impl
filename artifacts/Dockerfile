@@ -67,7 +67,7 @@ ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/snapshots/
 
 # environment variable for ref-idobjectvalidator_jar url
 #ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
-ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5-SNAPSHOT/kernel-auth-adapter-1.1.5-20210322.125226-19.jar
+ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.1.5-SNAPSHOT/kernel-ref-idobjectvalidator-1.1.5-20210405.112259-1.jar
 
 # environment variable for sdk url
 ENV sdk_jar_url=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.1.5-SNAPSHOT/mock-sdk-1.1.5-20210329.042625-10.jar
@@ -95,7 +95,6 @@ COPY /src/auth/* ${regproc_jar_path}/
 # Download required respective all the jars
 
 RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\ 
-echo "first jar" &&\
 wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
  wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
  wget ${cache_url} -O ${cache_path}/cache-provider.jar &&\
