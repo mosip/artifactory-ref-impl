@@ -95,7 +95,8 @@ COPY /src/auth/* ${regproc_jar_path}/
 # Download required respective all the jars
 
 RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\ 
- wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
+echo "first jar" &&\
+wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
  wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
  wget ${cache_url} -O ${cache_path}/cache-provider.jar &&\
  wget ${sdk_jar_url} -O ${sdk_path}/mock-sdk.jar
