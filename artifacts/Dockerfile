@@ -63,7 +63,7 @@ ENV auth_adapter_jar_url=https://oss.sonatype.org/service/local/repositories/sna
 
 # environment variable for msg91_jar url. 
 #ENV sms_msg91_url=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
-ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.2.0-SNAPSHOT/kernel-smsserviceprovider-msg91-1.2.0-20201120.073356-224.jar
+ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.1.5-SNAPSHOT/kernel-smsserviceprovider-msg91-1.1.5-20210405.112345-1.jar
 
 # environment variable for ref-idobjectvalidator_jar url
 #ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
