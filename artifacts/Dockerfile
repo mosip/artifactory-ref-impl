@@ -63,6 +63,9 @@ ENV sms_msg91_url=${maven_path}/kernel/kernel-smsserviceprovider-msg91/${version
 # environment variable for ref-idobjectvalidator_jar url
 ENV ref_idobjectvalidator_jar_url=${maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
 
+# environment variable for cache URL 
+ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/4.1.1/hazelcast-all-4.1.1.jar
+
 # Create all the Jar paths
 RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path}
 
@@ -71,8 +74,6 @@ RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} 
 COPY /src/biosdk/biosdk.zip ${biosdk_zip_path}/
 
 COPY /src/deployment/docker/id-authentication/* ${ida_sh_path}/
-
-COPY /src/cache/cache-provider.jar ${cache_path}/
 
 COPY /src/hsm/client.zip ${hsm_client_path}/
 
@@ -86,4 +87,5 @@ COPY /src/auth/* ${regproc_jar_path}/
 
 RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\ 
  wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
+ wget ${cache_url} -O ${cache_path}/cache-provider.jar
  wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar
