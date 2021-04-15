@@ -75,6 +75,12 @@ ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/releases/c
 #ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
 ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.1.5-rc1/kernel-ref-idobjectvalidator-1.1.5-rc1.jar
 
+# environment variable for sdk url
+ENV sdk_jar_url=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.1.5-SNAPSHOT/mock-sdk-1.1.5-20210329.042625-10.jar
+
+# environment variable for cache URL 
+ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/4.1.1/hazelcast-all-4.1.1.jar
+
 # Create all the Jar paths
 RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path}
 
