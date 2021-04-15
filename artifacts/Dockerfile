@@ -55,22 +55,22 @@ ENV regproc_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-aut
 ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
-ENV version=1.1.5
+ENV version=1.1.5-rc1
 
 # environment variable for maven central mosip artifacts 
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
-#ENV auth_adapter_jar_url=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
-ENV auth_adapter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5-SNAPSHOT/kernel-auth-adapter-1.1.5-20210402.053751-26.jar
+ENV auth_adapter_jar_url=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
+#ENV auth_adapter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5-SNAPSHOT/kernel-auth-adapter-1.1.5-20210402.053751-26.jar
 
 # environment variable for msg91_jar url. 
-#ENV sms_msg91_url=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
-ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.1.5-SNAPSHOT/kernel-smsserviceprovider-msg91-1.1.5-20210405.112345-1.jar
+ENV sms_msg91_url=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
+#ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.1.5-SNAPSHOT/kernel-smsserviceprovider-msg91-1.1.5-20210405.112345-1.jar
 
 # environment variable for ref-idobjectvalidator_jar url
-#ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
-ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.1.5-SNAPSHOT/kernel-ref-idobjectvalidator-1.1.5-20210405.112259-1.jar
+ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
+#ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.1.5-SNAPSHOT/kernel-ref-idobjectvalidator-1.1.5-20210405.112259-1.jar
 
 # environment variable for sdk url
 ENV sdk_jar_url=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.1.5-SNAPSHOT/mock-sdk-1.1.5-20210329.042625-10.jar
