@@ -36,13 +36,16 @@ ENV ida_sh_path=${base_path}/libs-release-local/deployment/docker/id-authenticat
 # environment variable for hsm client path
 ENV hsm_client_path=${base_path}/libs-release-local/hsm
 
-# environment variable for Kernel Jars path
+# environment valiable for sdk jar
+ENV sdk_path=${base_path}/libs-release-local/mock-sdk/1.1.5/
+
+# environment variable for Kernel Jars
 ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
 
 # environment variable for regproc reprocessor ceylon cache jar path
 ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 
-# environment variable for ref-idobjectvalidator jar path
+# environment variable for ref-idobjectvalidator jar
 ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-ref-idobjectvalidator
 
 # environment variable for regproc auth jar
@@ -55,7 +58,7 @@ ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
 ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
-ENV version=1.1.5
+ENV version=1.2.0-SNAPSHOT
 
 # environment variable for maven central mosip artifacts 
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
@@ -73,7 +76,7 @@ ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/releases/c
 ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.1.5-rc1/kernel-ref-idobjectvalidator-1.1.5-rc1.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${icu4j_jar_path} ${i18n_zip_path}  ${regproc_jar_path}
+RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path}
 
 # Copy all the respective jars to the location
 
@@ -96,9 +99,11 @@ COPY /src/i18n/admin-i18n-bundle.zip ${i18n_zip_path}/
 COPY /src/icu4j/* ${icu4j_jar_path}/
 
 COPY /src/auth/* ${regproc_jar_path}/
+
 # Download required respective all the jars
 
 RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\ 
- wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
- wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
- wget https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/4.1.1/hazelcast-all-4.1.1.jar -O ${cache_path}/cache-provider.jar
+wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
+wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
+wget ${cache_url} -O ${cache_path}/cache-provider.jar &&\
+wget ${sdk_jar_url} -O ${sdk_path}/mock-sdk.jar
