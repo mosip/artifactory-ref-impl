@@ -57,6 +57,9 @@ ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
 # environment variable for i18n zip path
 ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 
+# environment variable for Clamav dependency
+ENV clamav_path=${base_path}/libs-release-local/clamav
+
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV version=1.2.0-SNAPSHOT
 
@@ -73,7 +76,11 @@ ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/releases/c
 
 # environment variable for ref-idobjectvalidator_jar url
 #ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
-ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210419.073020-159.jar
+ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210421.124234-168.jar
+
+# environment variable for clamav jar and client url
+ENV clamav_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0-SNAPSHOT/kernel-virusscanner-clamav-1.2.0-20210421.124244-235.jar
+ENV clamav_client_url=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
 # environment variable for sdk url
 ENV sdk_jar_url=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.1.5-rc1/mock-sdk-1.1.5-rc1.jar
@@ -82,7 +89,7 @@ ENV sdk_jar_url=https://oss.sonatype.org/service/local/repositories/releases/con
 ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/4.1.1/hazelcast-all-4.1.1.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path}
+RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
 
 # Copy all the respective jars to the location
 
@@ -112,4 +119,6 @@ RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  
 wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
 wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
 wget ${cache_url} -O ${cache_path}/cache-provider.jar &&\
-wget ${sdk_jar_url} -O ${sdk_path}/mock-sdk.jar
+wget ${sdk_jar_url} -O ${sdk_path}/mock-sdk.jar &&\
+wget ${clamav_jar_url} -O ${clamav_path}/kernel-virusscanner-clamav.jar &&\
+wget ${clamav_client_url} -O ${clamav_path}/clamav.jar
