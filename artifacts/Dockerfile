@@ -68,7 +68,7 @@ ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
 #ENV auth_adapter_jar_url=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
-ENV auth_adapter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.2.0-SNAPSHOT/kernel-auth-adapter-1.2.0-20210423.052408-194.jar
+ENV auth_adapter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.2.0-SNAPSHOT/kernel-auth-adapter-1.2.0-20210506.100518-217.jar
 
 # environment variable for msg91_jar url. 
 #ENV sms_msg91_url=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
@@ -76,10 +76,10 @@ ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/releases/c
 
 # environment variable for ref-idobjectvalidator_jar url
 #ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
-ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210423.060531-174.jar
+ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210506.093618-236.jar
 
 # environment variable for clamav jar and client url
-ENV clamav_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0-SNAPSHOT/kernel-virusscanner-clamav-1.2.0-20210423.060541-241.jar
+ENV clamav_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0-SNAPSHOT/kernel-virusscanner-clamav-1.2.0-20210506.093621-303.jar
 
 ENV clamav_client_url=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
@@ -87,7 +87,7 @@ ENV clamav_client_url=https://oss.sonatype.org/service/local/repositories/releas
 ENV sdk_jar_url=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.1.5-rc1/mock-sdk-1.1.5-rc1.jar
 
 # environment variable for cache URL 
-ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/4.1.1/hazelcast-all-4.1.1.jar
+ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12/hazelcast-all-3.12.jar
 
 # Create all the Jar paths
 RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
