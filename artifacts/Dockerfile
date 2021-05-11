@@ -25,7 +25,10 @@ WORKDIR /home/${container_user}
 ENV base_path=/usr/share/nginx/html/artifactory
 
 # environment variable for Biosdk Zip path
-ENV biosdk_zip_path=${base_path}/libs-release-local/biosdk/mock/0.9
+ENV biosdk_client_zip_path=${base_path}/libs-release-local/biosdk/mock/0.9
+
+# environment variable for Biosdk Zip path
+ENV biosdk_lib_zip_path=${base_path}/libs-release-local/biosdk/
 
 # environment variable for Cache Provider Jar path
 ENV cache_path=${base_path}/libs-release-local/cache
@@ -67,34 +70,37 @@ ENV version=1.2.0-SNAPSHOT
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
-#ENV auth_adapter_jar_url=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
-ENV auth_adapter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.2.0-SNAPSHOT/kernel-auth-adapter-1.2.0-20210506.100518-217.jar
+#ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
+ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.2.0-SNAPSHOT/kernel-auth-adapter-1.2.0-20210506.100518-217.jar
 
 # environment variable for msg91_jar url. 
-#ENV sms_msg91_url=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
-ENV sms_msg91_url=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.1.5-rc1/kernel-smsserviceprovider-msg91-1.1.5-rc1.jar
+#ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
+ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.1.5-rc1/kernel-smsserviceprovider-msg91-1.1.5-rc1.jar
 
 # environment variable for ref-idobjectvalidator_jar url
-#ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
-ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210506.093618-236.jar
+#ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
+ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210506.093618-236.jar
 
 # environment variable for clamav jar and client url
-ENV clamav_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0-SNAPSHOT/kernel-virusscanner-clamav-1.2.0-20210506.093621-303.jar
+ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0-SNAPSHOT/kernel-virusscanner-clamav-1.2.0-20210506.093621-303.jar
 
-ENV clamav_client_url=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
+ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
 # environment variable for sdk url
-ENV sdk_jar_url=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.1.5-rc1/mock-sdk-1.1.5-rc1.jar
+ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.1.5/mock-sdk-1.1.5.jar
 
 # environment variable for cache URL 
-ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12/hazelcast-all-3.12.jar
+ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12/hazelcast-all-3.12.jar
+
+# environment variable for cache URL
+ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.2.0-SNAPSHOT/biosdk-client-1.2.0-20210504.130643-22-jar-with-dependencies.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
 
 # Copy all the respective jars to the location
 
-COPY /src/biosdk/biosdk.zip ${biosdk_zip_path}/
+COPY /src/biosdk/install.sh ${biosdk_client_zip_path}/biosdk-client/
 
 COPY /src/deployment/docker/id-authentication/* ${ida_sh_path}/
 
@@ -114,12 +120,25 @@ COPY /src/icu4j/* ${icu4j_jar_path}/
 
 COPY /src/auth/* ${regproc_jar_path}/
 
-# Download required respective all the jars
+# Download required respective all the jars and create biosdk zip
 
-RUN wget ${auth_adapter_jar_url} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\ 
-wget ${sms_msg91_url} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
-wget ${ref_idobjectvalidator_jar_url} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
-wget ${cache_url} -O ${cache_path}/cache-provider.jar &&\
-wget ${sdk_jar_url} -O ${sdk_path}/mock-sdk.jar &&\
-wget ${clamav_jar_url} -O ${clamav_path}/kernel-virusscanner-clamav.jar &&\
-wget ${clamav_client_url} -O ${clamav_path}/clamav.jar
+RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
+echo "Downloaded auth adapter jar" &&\
+wget ${sms_msg91_jar_url_env} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
+echo "Downloaded msg91 jar" &&\
+wget ${ref_idobjectvalidator_jar_url_env} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
+echo "Downloaded idobjectvalidator jar" &&\
+wget ${cache_url_env} -O ${cache_path}/cache-provider.jar &&\
+echo "Downloaded hazlecast cache jar" &&\
+wget ${sdk_jar_url_env} -O ${sdk_path}/mock-sdk.jar &&\
+echo "Downloaded Mock-sdk-jar" &&\
+wget ${clamav_jar_url_env} -O ${clamav_path}/kernel-virusscanner-clamav.jar &&\
+echo "Downloaded ClamAV jar" &&\
+wget ${clamav_client_url_env} -O ${clamav_path}/clamav.jar &&\
+echo "Downloaded ClamAV client" &&\
+wget ${biosdk_client_url_env} -P ${biosdk_client_zip_path}/biosdk-client/ &&\
+echo "Downloaded biosdk client creating the zip" &&\
+zip -r ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/biosdk-client/* &&\
+echo "zip creation completed" &&\
+rm -rf ${biosdk_client_zip_path}/biosdk-client &&\
+echo "folder biosdk client deleted" &&\
