@@ -93,7 +93,7 @@ ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12/hazelcast-all-3.12.jar
 
 # environment variable for cache URL
-ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.2.0-SNAPSHOT/biosdk-client-1.2.0-20210504.130643-22-jar-with-dependencies.jar
+ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.1.7-SNAPSHOT/biosdk-client-1.1.7-20210506.093634-17-jar-with-dependencies.jar
 
 # Create all the Jar paths
 RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
@@ -123,26 +123,49 @@ COPY /src/auth/* ${regproc_jar_path}/
 # Download required respective all the jars and create biosdk zip
 
 RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
+
 echo "Downloaded auth adapter jar" &&\
+
 wget ${sms_msg91_jar_url_env} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
+
 echo "Downloaded msg91 jar" &&\
+
 wget ${ref_idobjectvalidator_jar_url_env} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
+
 echo "Downloaded idobjectvalidator jar" &&\
+
 wget ${cache_url_env} -O ${cache_path}/cache-provider.jar &&\
+
 echo "Downloaded hazlecast cache jar" &&\
+
 wget ${sdk_jar_url_env} -O ${sdk_path}/mock-sdk.jar &&\
+
 echo "Downloaded Mock-sdk-jar" &&\
+
 wget ${clamav_jar_url_env} -O ${clamav_path}/kernel-virusscanner-clamav.jar &&\
+
 echo "Downloaded ClamAV jar" &&\
+
 wget ${clamav_client_url_env} -O ${clamav_path}/clamav.jar &&\
+
 echo "Downloaded ClamAV client" &&\
+
 wget ${biosdk_client_url_env} -P ${biosdk_client_zip_path}/biosdk-client/ &&\
+
 echo "Downloaded biosdk client creating the zip" &&\
-zip -r ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/biosdk-client/* &&\
+
+zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/biosdk-client/* &&\
+
 echo "zip creation completed" &&\
+
 rm -rf ${biosdk_client_zip_path}/biosdk-client &&\
+
 echo "folder biosdk client deleted" &&\
+
 wget ${sdk_jar_url_env} -P ${biosdk_lib_zip_path}/biosdk-lib/ &&\
-zip -r ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-lib/* &&\
+
+zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-lib/* &&\
+
 rm -rf ${biosdk_lib_zip_path}/biosdk-lib &&\
+
 echo "biosdk lib zip created"
