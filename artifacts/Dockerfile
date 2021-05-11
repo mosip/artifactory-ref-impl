@@ -142,3 +142,7 @@ zip -r ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/bio
 echo "zip creation completed" &&\
 rm -rf ${biosdk_client_zip_path}/biosdk-client &&\
 echo "folder biosdk client deleted" &&\
+wget ${sdk_jar_url_env} -P ${biosdk_lib_zip_path}/biosdk-lib/ &&\
+zip -r ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-lib/* &&\
+rm -rf ${biosdk_lib_zip_path}/biosdk-lib &&\
+echo "biosdk lib zip created"
