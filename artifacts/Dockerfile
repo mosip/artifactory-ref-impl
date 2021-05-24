@@ -123,3 +123,9 @@ wget ${cache_url} -O ${cache_path}/cache-provider.jar &&\
 wget ${sdk_jar_url} -O ${sdk_path}/mock-sdk.jar &&\
 wget ${clamav_jar_url} -O ${clamav_path}/kernel-virusscanner-clamav.jar &&\
 wget ${clamav_client_url} -O ${clamav_path}/clamav.jar
+
+# change permissions of file inside working dir
+RUN chown -R ${container_user}:${container_user} /home/${container_user}
+
+# select container user for all tasks
+USER ${container_user_uid}:${container_user_gid}
