@@ -17,6 +17,10 @@ RUN apt-get -y update &&\
 apt-get install -y unzip wget zip &&\
 groupadd -g ${container_user_gid} ${container_user_group} &&\
 useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user}
+&& mkdir -p /var/run/nginx /var/tmp/nginx \
+&& chown -R ${container_user}:${container_user} /usr/share/nginx /var/run/nginx /var/tmp/nginx
+
+COPY ./nginx.conf /etc/nginx/nginx.conf
 
 # set working directory for the user
 WORKDIR /home/${container_user}
@@ -123,3 +127,13 @@ wget ${cache_url} -O ${cache_path}/cache-provider.jar &&\
 wget ${sdk_jar_url} -O ${sdk_path}/mock-sdk.jar &&\
 wget ${clamav_jar_url} -O ${clamav_path}/kernel-virusscanner-clamav.jar &&\
 wget ${clamav_client_url} -O ${clamav_path}/clamav.jar
+
+
+RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
+
+EXPOSE 8080
+
+# select container user for all tasks
+USER mosip
+
+CMD ["nginx", "-g", "daemon off;"]
