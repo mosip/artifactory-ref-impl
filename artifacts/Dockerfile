@@ -128,12 +128,11 @@ wget ${sdk_jar_url} -O ${sdk_path}/mock-sdk.jar &&\
 wget ${clamav_jar_url} -O ${clamav_path}/kernel-virusscanner-clamav.jar &&\
 wget ${clamav_client_url} -O ${clamav_path}/clamav.jar
 
-
 RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
 
-EXPOSE 8080
-
 # select container user for all tasks
-USER mosip
+USER ${container_user_uid}:${container_user_gid}
+
+EXPOSE 8080
 
 CMD ["nginx", "-g", "daemon off;"]
