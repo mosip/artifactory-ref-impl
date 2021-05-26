@@ -16,7 +16,11 @@ ARG container_user_gid=1001
 RUN apt-get -y update &&\
 apt-get install -y unzip wget zip &&\
 groupadd -g ${container_user_gid} ${container_user_group} &&\
-useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user}
+useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user} \
+&& mkdir -p /var/run/nginx /var/tmp/nginx \
+&& chown -R ${container_user}:${container_user} /usr/share/nginx /var/run/nginx /var/tmp/nginx
+
+COPY ./nginx.conf /etc/nginx/nginx.conf
 
 # set working directory for the user
 WORKDIR /home/${container_user}
@@ -169,3 +173,12 @@ zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-li
 rm -rf ${biosdk_lib_zip_path}/biosdk-lib &&\
 
 echo "biosdk lib zip created"
+
+RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
+
+# select container user for all tasks
+USER ${container_user_uid}:${container_user_gid}
+
+EXPOSE 8080
+
+CMD ["nginx", "-g", "daemon off;"]
