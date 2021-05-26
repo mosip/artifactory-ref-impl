@@ -3,7 +3,7 @@
 #installs the pkcs11 libraries.
 set -e
 
-DEFAULT_ZIP_PATH=artifactory/libs-release-local/biosdk/mock/0.9/biosdk.zip
+DEFAULT_ZIP_PATH=artifactory/libs-release-local/biosdk/mock/0.9/biosdk-client.zip
 [ -z "$biosdk_zip_file_path" ] && zip_path="$DEFAULT_ZIP_PATH" || zip_path="$biosdk_zip_file_path"
 
 echo "Download the biosdk from $artifactory_url_env"
