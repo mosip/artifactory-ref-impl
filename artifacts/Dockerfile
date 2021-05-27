@@ -103,7 +103,7 @@ ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.1
 ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.2.0-SNAPSHOT/biosdk-client-1.2.0-20210527.083933-66-jar-with-dependencies.jar
 
 # environment variable for demosdk jar URL
-ENV demosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/1.2.0-SNAPSHOT/demosdk-1.2.0-20210527.083906-3-jar-with-dependencies.jar
+ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/1.2.0-SNAPSHOT/demosdk-1.2.0-20210527.083906-3-jar-with-dependencies.jar
 
 # Create all the Jar paths
 RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
