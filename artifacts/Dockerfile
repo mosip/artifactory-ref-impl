@@ -178,7 +178,7 @@ zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-li
 
 rm -rf ${biosdk_lib_zip_path}/biosdk-lib &&\
 
-echo "biosdk lib zip created"
+echo "biosdk lib zip created" &&\
 
 wget ${demosdk_jar_url_env} -P ${demosdk_zip_path}/demosdk/ &&\
 
