@@ -190,7 +190,7 @@ echo "zip creation completed" &&\
 
 rm -rf ${demosdk_zip_path}/demosdk &&\
 
-echo "folder demosdk deleted" &&\
+echo "folder demosdk deleted"
 
 
 RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
