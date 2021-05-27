@@ -28,10 +28,13 @@ WORKDIR /home/${container_user}
 # environment variable for basepath
 ENV base_path=/usr/share/nginx/html/artifactory
 
-# environment variable for Biosdk Zip path
+# environment variable for Biosdk client Zip path
 ENV biosdk_client_zip_path=${base_path}/libs-release-local/biosdk/mock/0.9
 
-# environment variable for Biosdk Zip path
+# environment variable for Demosdk Zip path
+ENV demosdk_zip_path=${base_path}/libs-release-local/demosdk/default/
+
+# environment variable for Biosdk lib Zip path
 ENV biosdk_lib_zip_path=${base_path}/libs-release-local/biosdk/
 
 # environment variable for Cache Provider Jar path
@@ -96,11 +99,14 @@ ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshot
 # environment variable for cache URL 
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12/hazelcast-all-3.12.jar
 
-# environment variable for cache URL
-ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.2.0-SNAPSHOT/biosdk-client-1.2.0-20210525.162910-44.jar
+# environment variable for biosdk client jar URL
+ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.2.0-SNAPSHOT/biosdk-client-1.2.0-20210527.083933-66-jar-with-dependencies.jar
+
+# environment variable for demosdk jar URL
+ENV demosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/1.2.0-SNAPSHOT/demosdk-1.2.0-20210527.083906-3-jar-with-dependencies.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
 
 # Copy all the respective jars to the location
 
@@ -173,6 +179,19 @@ zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-li
 rm -rf ${biosdk_lib_zip_path}/biosdk-lib &&\
 
 echo "biosdk lib zip created"
+
+wget ${demosdk_jar_url_env} -P ${demosdk_zip_path}/demosdk/ &&\
+
+echo "Downloaded demosdk jar with dependency creating the zip" &&\
+
+zip -r -j ${demosdk_zip_path}/demosdk.zip ${demosdk_zip_path}/demosdk/* &&\
+
+echo "zip creation completed" &&\
+
+rm -rf ${demosdk_zip_path}/demosdk &&\
+
+echo "folder demosdk deleted" &&\
+
 
 RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
 
