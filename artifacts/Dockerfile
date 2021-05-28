@@ -73,7 +73,7 @@ ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobje
 #ENV ref_idobjectvalidator_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.1.5-SNAPSHOT/kernel-ref-idobjectvalidator-1.1.5-20210405.112259-1.jar
 
 # environment variable for sdk url
-ENV sdk_jar_url=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.1.5-SNAPSHOT/mock-sdk-1.1.5-20210329.042625-10.jar
+ENV sdk_jar_url=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.1.5/mock-sdk-1.1.5.jar
 
 # environment variable for cache URL 
 ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
