@@ -55,7 +55,7 @@ ENV regproc_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-aut
 ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
-ENV version=1.1.5-rc1
+ENV version=1.1.5
 
 # environment variable for maven central mosip artifacts 
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
@@ -76,7 +76,7 @@ ENV ref_idobjectvalidator_jar_url=${release_maven_path}/kernel/kernel-ref-idobje
 ENV sdk_jar_url=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.1.5-SNAPSHOT/mock-sdk-1.1.5-20210329.042625-10.jar
 
 # environment variable for cache URL 
-ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12/hazelcast-all-3.12.jar
+ENV cache_url=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
 
 # Create all the Jar paths
 RUN mkdir -p ${biosdk_zip_path} ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path}
