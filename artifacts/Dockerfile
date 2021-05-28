@@ -97,7 +97,7 @@ ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/re
 ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/1.2.0-SNAPSHOT/mock-sdk-1.2.0-20210526.095342-1.jar
 
 # environment variable for cache URL 
-ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12/hazelcast-all-3.12.jar
+ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
 
 # environment variable for biosdk client jar URL
 ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.2.0-SNAPSHOT/biosdk-client-1.2.0-20210527.083933-66-jar-with-dependencies.jar
