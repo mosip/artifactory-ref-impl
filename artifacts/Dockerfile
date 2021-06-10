@@ -25,6 +25,8 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 # set working directory for the user
 WORKDIR /home/${container_user}
 
+ENV work_dir=/home/${container_user}
+
 # environment variable for basepath
 ENV base_path=/usr/share/nginx/html/artifactory
 
@@ -70,6 +72,8 @@ ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
 
+ENV regclient_jar_path=${base_path}/libs-release-local
+
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV version=1.2.0-SNAPSHOT
 
@@ -106,7 +110,7 @@ ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/sn
 ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/1.2.0-SNAPSHOT/demosdk-1.2.0-20210531.122032-15-jar-with-dependencies.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path}
 
 # Copy all the respective jars to the location
 
@@ -122,19 +126,21 @@ COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 
 COPY /src/testing/glowroot.zip ${test_jar_path}/
 
-COPY /src/i18n/regclient-i18n-bundle/*  ./regclient-i18n-bundle/
+COPY /src/i18n/regclient-i18n-bundle/*  ${work_dir}/regclient-i18n-bundle/
 
-COPY /src/i18n/admin-entity-spec-bundle/*  ./admin-entity-spec-bundle/
+COPY /src/i18n/admin-entity-spec-bundle/*  ${work_dir}/admin-entity-spec-bundle/
 
-COPY /src/i18n/admin-i18n-bundle/*  ./admin-i18n-bundle/
+COPY /src/i18n/admin-i18n-bundle/*  ${work_dir}/admin-i18n-bundle/
 
-COPY /src/i18n/pre-registration-i18n-bundle/*  ./pre-registration-i18n-bundle/
+COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n-bundle/
 
-RUN zip -r -j ${i18n_zip_path}/regclient-i18n-bundle.zip ./regclient-i18n-bundle/*  && \
-zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ./admin-entity-spec-bundle/*  && \
-zip -r -j ${i18n_zip_path}/admin-i18n-bundle.zip ./admin-i18n-bundle/*  && \
-zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ./pre-registration-i18n-bundle/*  && \
+RUN zip -r -j ${i18n_zip_path}/regclient-i18n-bundle.zip ${work_dir}/regclient-i18n-bundle/*  && \
+zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ${work_dir}/admin-entity-spec-bundle/*  && \
+zip -r -j ${i18n_zip_path}/admin-i18n-bundle.zip ${work_dir}/admin-i18n-bundle/*  && \
+zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ${work_dir}/pre-registration-i18n-bundle/*
 
+
+COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
 
 #COPY /src/i18n/pre-registration-i18n-bundle.zip ${i18n_zip_path}/
 
