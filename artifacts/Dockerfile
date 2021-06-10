@@ -122,13 +122,25 @@ COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 
 COPY /src/testing/glowroot.zip ${test_jar_path}/
 
-COPY /src/i18n/pre-registration-i18n-bundle.zip ${i18n_zip_path}/
+COPY /src/i18n/regclient-i18n-bundle/*  ./regclient-i18n-bundle/
 
-COPY /src/i18n/admin-entity-spec-bundle.zip ${i18n_zip_path}/
+COPY /src/i18n/admin-entity-spec-bundle/*  ./admin-entity-spec-bundle/
 
-COPY /src/i18n/admin-i18n-bundle.zip ${i18n_zip_path}/
+COPY /src/i18n/admin-i18n-bundle/*  ./admin-i18n-bundle/
 
-RUN cp -R /src/i18n/regclient-i18n-bundle  ${i18n_zip_path}/regclient-i18n-bundle
+COPY /src/i18n/pre-registration-i18n-bundle/*  ./pre-registration-i18n-bundle/
+
+RUN zip -r -j ${i18n_zip_path}/regclient-i18n-bundle.zip ./regclient-i18n-bundle/*  && \
+zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ./admin-entity-spec-bundle/*  && \
+zip -r -j ${i18n_zip_path}/admin-i18n-bundle.zip ./admin-i18n-bundle/*  && \
+zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ./pre-registration-i18n-bundle/*  && \
+
+
+#COPY /src/i18n/pre-registration-i18n-bundle.zip ${i18n_zip_path}/
+
+#COPY /src/i18n/admin-entity-spec-bundle.zip ${i18n_zip_path}/
+
+#COPY /src/i18n/admin-i18n-bundle.zip ${i18n_zip_path}/
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
 
