@@ -128,6 +128,8 @@ COPY /src/i18n/admin-entity-spec-bundle.zip ${i18n_zip_path}/
 
 COPY /src/i18n/admin-i18n-bundle.zip ${i18n_zip_path}/
 
+RUN cp -R /src/i18n/regclient-i18n-bundle  ${i18n_zip_path}/regclient-i18n-bundle
+
 COPY /src/icu4j/* ${icu4j_jar_path}/
 
 COPY /src/auth/* ${regproc_jar_path}/
