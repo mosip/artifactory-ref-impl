@@ -1,0 +1,31 @@
+{
+    "languages": {
+      "eng": {
+        "name": "English",
+        "nativeName": "English"
+      },
+      "ara": {
+        "name": "Arabic",
+        "nativeName": "العَرَبِيَّة‎"
+      },
+      "fra": {
+        "name": "French",
+        "nativeName": "français"
+      },
+      "hin": {
+        "name": "Hindi",
+        "nativeName": "हिंदी",
+        "locale": "hi_IN"
+      },
+      "tam": {
+        "name": "Tamil",
+        "nativeName": "தமிழ்",
+        "locale": "ta_IN",
+      },
+      "kan": {
+        "name": "Kannada",
+        "nativeName": "ಕನ್ನಡ",
+        "locale": "kn_IN"
+      }
+    }
+}
