@@ -35,4 +35,4 @@ cd ./$DIR_NAME && chmod +x install.sh && sudo -i | ./install.sh
 echo "Installation complete"
 cd $work_dir
 
-exec "$@
+exec "$@"
