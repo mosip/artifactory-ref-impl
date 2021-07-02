@@ -33,6 +33,11 @@
 			"subItem5": "अन्य डोमेन प्रमाणपत्र अपलोड करें"
 		}
 	},
+
+	"dashboard": {
+
+		"welcomeMessage": "मोसिप एडमिन पोर्टल में आपका स्वागत है!"
+	},
 	"center": {
 		"title": "केंद्र",
 		"center-detail-view": "केंद्र विवरण दृश्य",
@@ -411,7 +416,6 @@
 				"title": "सफलता",
 				"message": ["मशीन विवरण सफलतापूर्वक अपडेट किया गया। मशीन आईडी: ", " और मशीन का नाम: "],
 				"बीटीएन टेक्स्ट": "ओके"
-
 			},
 			"update-error": {
 				"title": "त्रुटि",
@@ -479,7 +483,6 @@
 		},
 		"statuscheckFailed": "विफल",
 		"statuscheckCompleted": "पूर्ण"
-
 	},
 	"packet-upload": {
 		"header": "पैकेट अपलोड",
@@ -499,12 +502,11 @@
 			"input-text2": "अपनी फाइल अपलोड करें",
 			"upload-btn": "अपलोड",
 			"cancel-btn": "रद्द करें",
-
 			"popupMessaages": {
 				"popup1": {
 					"uploadConfirm": "पैकेट अपलोड की पुष्टि करें",
 					"message": "पैकेट संसाधित किया जाएगा।\n कृपया सुनिश्चित करें कि सभी जानकारी सही है।\n\n\n कन्फर्म पर क्लिक करते ही लेनदेन शुरू हो जाएगा।",
-					"confirmBtnTxt": "CONFIRM",
+					"confirmBtnTxt": "पुष्टि करें",
 					"cancelBtnTxt": "रद्द करें"
 				},
 				"popup2": {
@@ -516,7 +518,6 @@
 					"message": "आपकी फ़ाइल सफलतापूर्वक अपलोड कर दी गई है। \n डेटा अपलोड वर्तमान में प्रगति पर है।\n\n\n लेन-देन आईडी:",
 					"btnTxt": "हो गया"
 				}
-
 			}
 		}
 	},
@@ -552,6 +553,94 @@
 			"yesBtnTxt": "पुष्टि करें",
 			"noBtnTxt": "रद्द करें",
 			"confirmation-message": ["क्या आप निष्क्रिय करना चाहते हैं ", " ? \n आप चाहें तो इसे बाद में सक्रिय कर सकते हैं। तब तक इसे निष्क्रिय के रूप में सेट किया जाएगा"],
+			"confirmation-title": "पुष्टिकरण"
+
+		},
+
+		"resumeprocessingandremovehotlistedtag": {
+
+			"success-message": ["", " रिज्यूम्ड प्रोसेसिंग और हॉटलिस्टेड टैग से हटा दिया गया है"],
+
+			"success-title": "सफलता",
+
+			"error-message": ["", " प्रसंस्करण फिर से शुरू नहीं किया जा सका और हॉटलिस्टेड टैग से हटाया जा सका"],
+
+			"error-title": "त्रुटि",
+
+			"btnTxt": "हो गया",
+
+			"yesBtnTxt": "पुष्टि करें",
+
+			"noBtnTxt": "रद्द करें",
+
+			"confirmation-message": ["क्या आप एक्शन रिज्यूमे प्रोसेसिंग करना चाहते हैं और RID पर हॉटलिस्टेड टैग को हटाना चाहते हैं", "? \n"],
+
+			"confirmation-title": "पुष्टिकरण"
+
+		},
+
+		"resumefrombeginning": {
+
+			"success-message": ["", "शुरुआत से फिर से शुरू किया गया है"],
+
+			"success-title": "सफलता",
+
+			"error-message": ["", "फिर से शुरू नहीं किया जा सका और हॉटलिस्टेड टैग से हटाया जा सका"],
+
+			"error-title": "त्रुटि",
+
+			"btnTxt": "हो गया",
+
+			"yesBtnTxt": "पुष्टि करें",
+
+			"noBtnTxt": "रद्द करें",
+
+			"confirmation-message": ["क्या आप रिज्यूमे फ्रॉम बिगिनिंग ऑन आरआईडी ", " ? \n"],
+
+			"confirmation-title": "पुष्टिकरण"
+
+		},
+
+		"resumefrombeginningandremovehotlistedtag": {
+
+			"success-message": ["", " शुरुआत से फिर से शुरू किया गया है और हॉटलिस्टेड टैग से हटा दिया गया है"],
+
+			"success-title": "सफलता",
+
+			"error-message": ["", "शुरुआत से फिर से शुरू नहीं किया जा सका और हॉटलिस्टेड टैग से हटाया जा सकता है"],
+
+			"error-title": "त्रुटि",
+
+			"btnTxt": "हो गया",
+
+			"yesBtnTxt": "पुष्टि करें",
+
+			"noBtnTxt": "रद्द करें",
+
+			"confirmation-message": ["क्या आप एक्शन रिज्यूम फ्रॉम बिगिनिंग एंड रिमूव हॉटलिस्टेड टैग को RID करना चाहते हैं।", " ? \n"],
+
+			"confirmation-title": "पुष्टिकरण"
+
+		},
+
+		"stopprocessing": {
+
+			"success-message": ["", " बंद कर दिया गया"],
+
+			"success-title": "सफलता",
+
+			"error-message": ["", "रोका नहीं जा सका"],
+
+			"error-title": "त्रुटि",
+
+			"btnTxt": "हो गया",
+
+			"yesBtnTxt": "पुष्टि करें",
+
+			"noBtnTxt": "रद्द करें",
+
+			"confirmation-message": ["क्या आप कार्रवाई करना चाहते हैं RID पर प्रसंस्करण रोकें ", " ? \n"],
+
 			"confirmation-title": "पुष्टिकरण"
 		}
 	},
