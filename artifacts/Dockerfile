@@ -90,7 +90,7 @@ ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/sn
 
 # environment variable for ref-idobjectvalidator_jar url
 #ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
-ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content//io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210719.083050-430.jar
+ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210719.083050-430.jar
 
 # environment variable for clamav jar and client url
 ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0-SNAPSHOT/kernel-virusscanner-clamav-1.2.0-20210624.112046-488.jar
