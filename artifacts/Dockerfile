@@ -74,6 +74,9 @@ ENV clamav_path=${base_path}/libs-release-local/clamav
 
 ENV regclient_jar_path=${base_path}/libs-release-local
 
+# environment variable for child auth filter jar path
+ENV child_auth_filter_jar_path=${base_path}/libs-snapshot-local/io/mosip/authentication/authentication-ref-impl
+
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV version=1.2.0-SNAPSHOT
 
@@ -109,8 +112,11 @@ ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/sn
 # environment variable for demosdk jar URL
 ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk-client/1.2.0-SNAPSHOT/demosdk-client-1.2.0-20210527.071414-3-jar-with-dependencies.jar
 
+# environment variable for child authentication filter jar URL
+ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/1.2.0-SNAPSHOT/authentication-childauthfilter-impl-1.2.0-20210719.095303-1.jar
+
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path}
 
 # Copy all the respective jars to the location
 
@@ -212,7 +218,11 @@ echo "zip creation completed" &&\
 
 rm -rf ${demosdk_zip_path}/demosdk &&\
 
-echo "folder demosdk deleted"
+echo "folder demosdk deleted" &&\
+
+wget ${child_auth_filter_jar_url} -O ${child_auth_filter_jar_path}/authentication-childauthfilter-impl.jar &&\
+
+echo "Downloaded Child Auth Filter Jar"
 
 
 RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
