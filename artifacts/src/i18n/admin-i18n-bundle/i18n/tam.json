@@ -34,8 +34,8 @@
         }
     },
     "center": {
-        "title":"மையங்கள்",
-        "center-detail-view" : "மைய விரிவான பார்வை",
+        "title": "மையங்கள்",
+        "center-detail-view": "மைய விரிவான பார்வை",
         "center-name": "மையத்தின் பெயர்",
         "center-id": "மைய ஐடி",
         "status": "நிலை",
@@ -79,8 +79,8 @@
         "workingDays": "வேலை நாட்கள்",
         "holidays": "விதிவிலக்கான விடுமுறைகள்",
         "add-button": "கூட்டு",
-        "datepicker-placeholder":"தேதியைத் தேர்வுசெய்க",
-        "devices-tooltip":"சாதனத்தில் கைரேகை ஸ்கேனர், ஐரிஸ் ஸ்கேனர், வலை கேமரா, அச்சுப்பொறி ஆகியவை அடங்கும்",
+        "datepicker-placeholder": "தேதியைத் தேர்வுசெய்க",
+        "devices-tooltip": "சாதனத்தில் கைரேகை ஸ்கேனர், ஐரிஸ் ஸ்கேனர், வலை கேமரா, அச்சுப்பொறி ஆகியவை அடங்கும்",
         "selectLanguage": "மொழியை தேர்ந்தெடுங்கள்",
         "editCommonDetails": "பிற மைய விவரங்களை இங்கே திருத்தவும்",
         "validationMessages": {
@@ -175,7 +175,7 @@
             },
             "update-success": {
                 "title": "வெற்றி",
-                "message": ["மைய விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்படுகின்றன. ID n \ n மைய ஐடி: "," \ n \ n மையத்தின் பெயர்:"],
+                "message": ["மைய விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்படுகின்றன. ID n \n மைய ஐடி: ", " \n \n மையத்தின் பெயர்:"],
                 "btnTxt": "சரி"
             },
             "update-error": {
@@ -185,7 +185,7 @@
             },
             "create-success": {
                 "title": "வெற்றி",
-                "message": ["மையம் ஐடி: "," மற்றும் மையத்தின் பெயர்:"],
+                "message": ["மையம் ஐடி: ", " மற்றும் மையத்தின் பெயர்:"],
                 "btnTxt": "சரி"
             },
             "create-error": {
@@ -212,7 +212,7 @@
         }
     },
     "singleView": {
-        "errorMessages" : [
+        "errorMessages": [
             "எந்த பதிவும் கிடைக்கவில்லை",
             "தொழில்நுட்ப பிழை ஏற்பட்டது"
         ],
@@ -237,8 +237,8 @@
         "title": "Master Data Upload"
     },
     "devices": {
-        "id":"Code",
-        "title":"Devices",
+        "id": "Code",
+        "title": "Devices",
         "header": "Device",
         "name": "Device Name",
         "serialNumber": "Serial Number",
@@ -337,7 +337,7 @@
         }
     },
     "machines": {
-        "title":"Machines",
+        "title": "Machines",
         "header": "Machine",
         "name": "Machine Name",
         "machineSpecId": "Machines Spec ID",
@@ -395,7 +395,7 @@
         "popupMessages": {
             "create": {
                 "title": "உறுதிப்படுத்தல்",
-                "message": ["நீங்கள் இயந்திர விவரங்களை உருவாக்க உள்ளீர்கள் ",". எல்லா தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். நீங்கள் உறுதிப்படுத்தியவுடன் இயந்திர ஐடி உருவாக்கப்படும்"],
+                "message": ["நீங்கள் இயந்திர விவரங்களை உருவாக்க உள்ளீர்கள் ", ". எல்லா தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். நீங்கள் உறுதிப்படுத்தியவுடன் இயந்திர ஐடி உருவாக்கப்படும்"],
                 "yesBtnText": "உறுதிப்படுத்தவும்",
                 "noBtnText": "ரத்துசெய்",
                 "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. இயந்திர விவரங்கள் முதன்மை மொழியில் மட்டுமே உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
@@ -409,7 +409,7 @@
             },
             "update-success": {
                 "title": "வெற்றி",
-                "message": ["இயந்திர விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்படுகின்றன. இயந்திர ஐடி: "," மற்றும் இயந்திர பெயர்:"],
+                "message": ["இயந்திர விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்படுகின்றன. இயந்திர ஐடி: ", " மற்றும் இயந்திர பெயர்:"],
                 "btnTxt": "சரி"
             },
             "update-error": {
@@ -419,7 +419,7 @@
             },
             "create-success": {
                 "title": "வெற்றி",
-                "message": ["இயந்திர ஐடியுடன் இயந்திரம் வெற்றிகரமாக உருவாக்கப்பட்டது: "," மற்றும் இயந்திர பெயர்: "],
+                "message": ["இயந்திர ஐடியுடன் இயந்திரம் வெற்றிகரமாக உருவாக்கப்பட்டது: ", " மற்றும் இயந்திர பெயர்: "],
                 "btnTxt": "சரி"
             },
             "create-error": {
@@ -476,58 +476,58 @@
             "message": "RID கிடைக்கவில்லை",
             "btnTxt": "சரி"
         },
-        "statuscheckFailed":"தோல்வி",
-        "statuscheckCompleted":"நிறைவு"
+        "statuscheckFailed": "தோல்வி",
+        "statuscheckCompleted": "நிறைவு"
 
     },
-    "packet-upload":{
-      "header":"பாக்கெட் பதிவேற்றம்",
-      "singleView":{
-        "detailed-view-txt":"விரிவான பார்வை",
-        "status-txt":"நிலை",
-        "uploadedBy-txt": "பதிவேற்றியது",
-        "count-txt":"எண்ணிக்கை",
-        "dataAndTime-txt" : "தேதி மற்றும் நேரம்",
-        "failureDescription-txt":"தோல்வி விளக்கம்",
-        "placeHolder1-txt":"அட்டவணை பெயர்",
-        "placeHolder2-txt":"செயல்பாடுகள்"
-      },
-      "createView":{
-        "input-btn-text":"கோப்பை தேர்ந்தெடுக்கவும்",
-        "input-text1":"கோப்பைப் பதிவேற்று ...",
-        "input-text2":"உங்கள் கோப்பை பதிவேற்றவும்",
-        "upload-btn":"பதிவேற்று",
-        "cancel-btn":"ரத்துசெய்",
-        "popupMessaages":{
-            "popup1":{
-                "uploadConfirm":"பாக்கெட் பதிவேற்றத்தை உறுதிப்படுத்தவும்",
-                "message":"பாக்கெட் செயலாக்கப்படும். Information n எல்லா தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். \ N \ n \ n உறுதிப்படுத்தல் என்பதைக் கிளிக் செய்தவுடன் பரிவர்த்தனை தொடங்கும்.",
-                "confirmBtnTxt":"உறுதிப்படுத்தவும்",
-                "cancelBtnTxt":"ரத்துசெய்"
-            },
-            "popup2":{
-                "title":"தோல்வி !",
-                "btnTxt":"முடிந்தது"
-            },
-            "popup3":{
-                "title":"வெற்றி",
-                "message" :"உங்கள் கோப்பு வெற்றிகரமாக பதிவேற்றப்பட்டது. up n தரவு பதிவேற்றம் தற்போது செயலில் உள்ளது. \ n \ n \ n பரிவர்த்தனை ஐடி :",
-                "btnTxt":"முடிந்தது"
+    "packet-upload": {
+        "header": "பாக்கெட் பதிவேற்றம்",
+        "singleView": {
+            "detailed-view-txt": "விரிவான பார்வை",
+            "status-txt": "நிலை",
+            "uploadedBy-txt": "பதிவேற்றியது",
+            "count-txt": "எண்ணிக்கை",
+            "dataAndTime-txt": "தேதி மற்றும் நேரம்",
+            "failureDescription-txt": "தோல்வி விளக்கம்",
+            "placeHolder1-txt": "அட்டவணை பெயர்",
+            "placeHolder2-txt": "செயல்பாடுகள்"
+        },
+        "createView": {
+            "input-btn-text": "கோப்பை தேர்ந்தெடுக்கவும்",
+            "input-text1": "கோப்பைப் பதிவேற்று ...",
+            "input-text2": "உங்கள் கோப்பை பதிவேற்றவும்",
+            "upload-btn": "பதிவேற்று",
+            "cancel-btn": "ரத்துசெய்",
+            "popupMessaages": {
+                "popup1": {
+                    "uploadConfirm": "பாக்கெட் பதிவேற்றத்தை உறுதிப்படுத்தவும்",
+                    "message": "பாக்கெட் செயலாக்கப்படும். Information n எல்லா தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். \n \n \n உறுதிப்படுத்தல் என்பதைக் கிளிக் செய்தவுடன் பரிவர்த்தனை தொடங்கும்.",
+                    "confirmBtnTxt": "உறுதிப்படுத்தவும்",
+                    "cancelBtnTxt": "ரத்துசெய்"
+                },
+                "popup2": {
+                    "title": "தோல்வி !",
+                    "btnTxt": "முடிந்தது"
+                },
+                "popup3": {
+                    "title": "வெற்றி",
+                    "message": "உங்கள் கோப்பு வெற்றிகரமாக பதிவேற்றப்பட்டது. up n தரவு பதிவேற்றம் தற்போது செயலில் உள்ளது. \n \n \n பரிவர்த்தனை ஐடி :",
+                    "btnTxt": "முடிந்தது"
+                }
+
             }
-
         }
-      }
     },
-    "actionMessages" : {
+    "actionMessages": {
         "decommission": {
             "success-message": ["", "வெற்றிகரமாக நீக்கப்பட்டது"],
             "success-title": "வெற்றி",
-            "error-message": [""," பணிநீக்கம் செய்ய முடியாது வேறு சில ஆதாரங்களுடன் இன்னும் வரைபடமாக்கப்பட்டுள்ளது. om n நீக்குவதற்கு முன் வளங்களை வரைபடமாக்குங்கள்"],
+            "error-message": ["", " பணிநீக்கம் செய்ய முடியாது வேறு சில ஆதாரங்களுடன் இன்னும் வரைபடமாக்கப்பட்டுள்ளது. om n நீக்குவதற்கு முன் வளங்களை வரைபடமாக்குங்கள்"],
             "error-title": "பிழை",
             "btnTxt": "முடிந்தது",
             "yesBtnTxt": "உறுதிப்படுத்தவும்",
             "noBtnTxt": "ரத்துசெய்",
-            "confirmation-message": ["நீக்குதல் "," வேண்டுமா? Confir n உறுதிப்படுத்தல் என்பதைக் கிளிக் செய்தவுடன் இந்த செயலைச் செயல்தவிர்க்க முடியாது."],
+            "confirmation-message": ["நீக்குதல் ", " வேண்டுமா? Confir n உறுதிப்படுத்தல் என்பதைக் கிளிக் செய்தவுடன் இந்த செயலைச் செயல்தவிர்க்க முடியாது."],
             "confirmation-title": "உறுதிப்படுத்தல்"
         },
         "activate": {
@@ -538,7 +538,7 @@
             "btnTxt": "முடிந்தது",
             "yesBtnTxt": "உறுதிப்படுத்தவும்",
             "noBtnTxt": "ரத்துசெய்",
-            "confirmation-message": [""," செயல்படுத்த விரும்புகிறீர்களா? \ n நீங்கள் விரும்பினால் பின்னர் அதை செயலிழக்க செய்யலாம். அதுவரை அது ஆக்டிவ் ஆக அமைக்கப்படும்"],
+            "confirmation-message": ["", " செயல்படுத்த விரும்புகிறீர்களா? \n நீங்கள் விரும்பினால் பின்னர் அதை செயலிழக்க செய்யலாம். அதுவரை அது ஆக்டிவ் ஆக அமைக்கப்படும்"],
             "confirmation-title": "உறுதிப்படுத்தல்"
         },
         "deactivate": {
@@ -549,32 +549,194 @@
             "btnTxt": "முடிந்தது",
             "yesBtnTxt": "Confirm",
             "noBtnTxt": "Cancel",
-            "confirmation-message": [""," ஐ செயலிழக்க விரும்புகிறீர்களா? \ n நீங்கள் விரும்பினால் பின்னர் அதை செயல்படுத்தலாம். அதுவரை அது செயலற்றதாக அமைக்கப்படும்"],
+            "confirmation-message": ["", " ஐ செயலிழக்க விரும்புகிறீர்களா? \n நீங்கள் விரும்பினால் பின்னர் அதை செயல்படுத்தலாம். அதுவரை அது செயலற்றதாக அமைக்கப்படும்"],
             "confirmation-title": "உறுதிப்படுத்தல்"
         }
     },
-    "detailView":{
-        "detail":"விரிவான பார்வை"
+    "detailView": {
+        "detail": "விரிவான பார்வை"
     },
-    "users":{
-        "redirectMessage":"கீக்லோக்கின் பயனர்கள் பட்டியலுக்கு திருப்பிவிட இங்கே கிளிக் செய்க"
+    "users": {
+        "redirectMessage": "கீக்லோக்கின் பயனர்கள் பட்டியலுக்கு திருப்பிவிட இங்கே கிளிக் செய்க"
     },
-    "bulkUpload":{
-        "operation":"Operation",
-        "operationCtrl":[{"label":"Insert","value":"Insert"},{"label":"Update","value":"Update"},{"label":"Delete","value":"Delete"}],
-        "tableName":"Select Table Name",
-        "chooseFile":"Choose File",
-        "uploadFile":"Upload Your File",
+    "bulkUpload": {
+        "operation": "Operation",
+        "operationCtrl": [{
+            "label": "Insert",
+            "value": "Insert"
+        }, {
+            "label": "Update",
+            "value": "Update"
+        }, {
+            "label": "Delete",
+            "value": "Delete"
+        }],
+        "tableName": "Select Table Name",
+        "chooseFile": "Choose File",
+        "uploadFile": "Upload Your File",
         "upload": "UPLOAD",
         "cancel": "Cancel",
-        "tableNames":[{"id":"applicant_valid_document","value":"Applicant Valid Document"},{"id":"appl_form_type","value":"Application"},{"id":"biometric_attribute","value":"BiometricAttribute"},{"id":"biometric_type","value":"BiometricType"},{"id":"blacklisted_words","value":"BlacklistedWords"},{"id":"daysofweek_list","value":"DaysOfWeek"},{"id":"device_master","value":"Device"},{"id":"registered_device_master","value":"DeviceRegister"},{"id":"device_spec","value":"DeviceSpecification"},{"id":"device_type","value":"DeviceType"},{"id":"doc_category","value":"DocumentCategory"},{"id":"doc_type","value":"DocumentType"},{"id":"dynamic_field","value":"DynamicField"},{"id":"reg_exceptional_holiday","value":"ExceptionalHoliday"},{"id":"foundational_trust_provider","value":"FoundationalTrustProvider"},{"id":"gender","value":"Gender"},{"id":"loc_holiday","value":"Holiday"},{"id":"identity_schema","value":"IdentitySchema"},{"id":"id_type","value":"IdType"},{"id":"individual_type","value":"IndividualType"},{"id":"language","value":"Language"},{"id":"location","value":"Location"},{"id":"loc_hierarchy_list","value":"LocationHierarchy"},{"id":"machine_master","value":"Machine"},{"id":"machine_spec","value":"MachineSpecification"},{"id":"machine_type","value":"MachineType"},{"id":"module_detail","value":"ModuleDetail"},{"id":"mosip_device_service","value":"MOSIPDeviceService"},{"id":"reason_category","value":"ReasonCategory"},{"id":"reason_list","value":"ReasonList"},{"id":"reg_exceptional_holiday","value":"RegExceptionalHoliday"},{"id":"registered_device_master","value":"RegisteredDevice"},{"id":"registration_center","value":"RegistrationCenter"},{"id":"reg_center_device","value":"RegistrationCenterDevice"},{"id":"reg_center_machine","value":"RegistrationCenterMachine"},{"id":"reg_center_machine_device","value":"RegistrationCenterMachineDevice"},{"id":"reg_center_type","value":"RegistrationCenterType"},{"id":"reg_center_user","value":"RegistrationCenterUser"},{"id":"reg_center_user_machine","value":"RegistrationCenterUserMachine"},{"id":"reg_device_sub_type","value":"RegistrationDeviceSubType"},{"id":"reg_device_type","value":"RegistrationDeviceType"},{"id":"reg_working_nonworking","value":"RegWorkingNonWorking"},{"id":"schema_def","value":"SchemaDefinition"},{"id":"template","value":"Template"},{"id":"template_file_format","value":"TemplateFileFormat"},{"id":"template_type","value":"TemplateType"},{"id":"title","value":"Title"},{"id":"user_detail","value":"UserDetails"},{"id":"valid_document","value":"ValidDocument"},{"id":"zone","value":"Zone"},{"id":"zone_user","value":"ZoneUser"}]
+        "tableNames": [{
+            "id": "applicant_valid_document",
+            "value": "Applicant Valid Document"
+        }, {
+            "id": "appl_form_type",
+            "value": "Application"
+        }, {
+            "id": "biometric_attribute",
+            "value": "BiometricAttribute"
+        }, {
+            "id": "biometric_type",
+            "value": "BiometricType"
+        }, {
+            "id": "blacklisted_words",
+            "value": "BlacklistedWords"
+        }, {
+            "id": "daysofweek_list",
+            "value": "DaysOfWeek"
+        }, {
+            "id": "device_master",
+            "value": "Device"
+        }, {
+            "id": "registered_device_master",
+            "value": "DeviceRegister"
+        }, {
+            "id": "device_spec",
+            "value": "DeviceSpecification"
+        }, {
+            "id": "device_type",
+            "value": "DeviceType"
+        }, {
+            "id": "doc_category",
+            "value": "DocumentCategory"
+        }, {
+            "id": "doc_type",
+            "value": "DocumentType"
+        }, {
+            "id": "dynamic_field",
+            "value": "DynamicField"
+        }, {
+            "id": "reg_exceptional_holiday",
+            "value": "ExceptionalHoliday"
+        }, {
+            "id": "foundational_trust_provider",
+            "value": "FoundationalTrustProvider"
+        }, {
+            "id": "gender",
+            "value": "Gender"
+        }, {
+            "id": "loc_holiday",
+            "value": "Holiday"
+        }, {
+            "id": "identity_schema",
+            "value": "IdentitySchema"
+        }, {
+            "id": "id_type",
+            "value": "IdType"
+        }, {
+            "id": "individual_type",
+            "value": "IndividualType"
+        }, {
+            "id": "language",
+            "value": "Language"
+        }, {
+            "id": "location",
+            "value": "Location"
+        }, {
+            "id": "loc_hierarchy_list",
+            "value": "LocationHierarchy"
+        }, {
+            "id": "machine_master",
+            "value": "Machine"
+        }, {
+            "id": "machine_spec",
+            "value": "MachineSpecification"
+        }, {
+            "id": "machine_type",
+            "value": "MachineType"
+        }, {
+            "id": "module_detail",
+            "value": "ModuleDetail"
+        }, {
+            "id": "mosip_device_service",
+            "value": "MOSIPDeviceService"
+        }, {
+            "id": "reason_category",
+            "value": "ReasonCategory"
+        }, {
+            "id": "reason_list",
+            "value": "ReasonList"
+        }, {
+            "id": "reg_exceptional_holiday",
+            "value": "RegExceptionalHoliday"
+        }, {
+            "id": "registered_device_master",
+            "value": "RegisteredDevice"
+        }, {
+            "id": "registration_center",
+            "value": "RegistrationCenter"
+        }, {
+            "id": "reg_center_device",
+            "value": "RegistrationCenterDevice"
+        }, {
+            "id": "reg_center_machine",
+            "value": "RegistrationCenterMachine"
+        }, {
+            "id": "reg_center_machine_device",
+            "value": "RegistrationCenterMachineDevice"
+        }, {
+            "id": "reg_center_type",
+            "value": "RegistrationCenterType"
+        }, {
+            "id": "reg_center_user",
+            "value": "RegistrationCenterUser"
+        }, {
+            "id": "reg_center_user_machine",
+            "value": "RegistrationCenterUserMachine"
+        }, {
+            "id": "reg_device_sub_type",
+            "value": "RegistrationDeviceSubType"
+        }, {
+            "id": "reg_device_type",
+            "value": "RegistrationDeviceType"
+        }, {
+            "id": "reg_working_nonworking",
+            "value": "RegWorkingNonWorking"
+        }, {
+            "id": "schema_def",
+            "value": "SchemaDefinition"
+        }, {
+            "id": "template",
+            "value": "Template"
+        }, {
+            "id": "template_file_format",
+            "value": "TemplateFileFormat"
+        }, {
+            "id": "template_type",
+            "value": "TemplateType"
+        }, {
+            "id": "title",
+            "value": "Title"
+        }, {
+            "id": "user_detail",
+            "value": "UserDetails"
+        }, {
+            "id": "valid_document",
+            "value": "ValidDocument"
+        }, {
+            "id": "zone",
+            "value": "Zone"
+        }, {
+            "id": "zone_user",
+            "value": "ZoneUser"
+        }]
     },
-    "filters":{
-        "titleTxt":"வடிப்பான்களைச் சேர்க்கவும்",
-        "footerButtons":{
-            "resetTxt":"மீட்டமை",
-            "cancelTxt":"ரத்துசெய்",
-            "applyTxt":"விண்ணப்பிக்கவும்"
+    "filters": {
+        "titleTxt": "வடிப்பான்களைச் சேர்க்கவும்",
+        "footerButtons": {
+            "resetTxt": "மீட்டமை",
+            "cancelTxt": "ரத்துசெய்",
+            "applyTxt": "விண்ணப்பிக்கவும்"
         }
     }
 }
