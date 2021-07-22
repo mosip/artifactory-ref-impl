@@ -624,7 +624,7 @@
 	"DAYS": ["ஞாயிற்றுக்கிழமை", "திங்கட்கிழமை", "செவ்வாய்", "புதன்கிழமை", "வியாழக்கிழமை", "வெள்ளி", "சனிக்கிழமை"],
 	"recaptcha": {
 		"errorMessage": "Recaptcha தோல்வியுற்றது. மீண்டும் முயற்சிக்கவும்"
-	},,
+	},
 	"API_ERROR_CODES": {
 	  "PRG_MSD_APP_001": "Failed to fetch masterdata information.",
 	  "KER-MSD-046": "Template not found.",
