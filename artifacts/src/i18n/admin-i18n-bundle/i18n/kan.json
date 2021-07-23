@@ -738,5 +738,60 @@
 			"cancelTxt": "ರದ್ದುಮಾಡು",
 			"applyTxt": "ಅನ್ವಯಿಸು"
 		}
+	},
+	"isActive":{
+		"Active":"ಸಕ್ರಿಯ",
+		"InActive":"ನಿಷ್ಕ್ರಿಯ"
+	},
+	"generatecsr": {
+		"title": "ಸಿಎಸ್ಆರ್ ರಚಿಸಿ",
+		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"referenceId": "ReferenceId",
+		"commonName": "ಸಾಮಾನ್ಯ ಹೆಸರು",
+		"organization": "ಸಂಸ್ಥೆ",
+		"organizationUnit": "ಸಂಸ್ಥೆ ಘಟಕ",
+		"location": "ಸ್ಥಳ",
+		"state": "ರಾಜ್ಯ",
+		"country": "ದೇಶ",
+		"button":"ರಚಿಸು"
+	},
+	"generatemasterkey": {
+		"title": "ಮಾಸ್ಟರ್\u200Cಕೀ ರಚಿಸಿ",
+		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"referenceId": "ReferenceId",
+		"commonName": "ಸಾಮಾನ್ಯ ಹೆಸರು",
+		"organization": "ಸಂಸ್ಥೆ",
+		"organizationUnit": "ಸಂಸ್ಥೆ ಘಟಕ",
+		"location": "ಸ್ಥಳ",
+		"state": "ರಾಜ್ಯ",
+		"country": "ದೇಶ",
+		"force": "ಫೋರ್ಸ್",
+		"objectType": "ಆಬ್ಜೆಕ್ಟ್ ಪ್ರಕಾರ",
+		"button":"ರಚಿಸು"
+	},
+	"getcertificate": {
+		"title": "ಪ್ರಮಾಣಪತ್ರ ಪಡೆಯಿರಿ",
+		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"referenceId": "ReferenceId",
+		"button":"ಪ್ರಮಾಣಪತ್ರ ಪಡೆಯಿರಿ"
+	},
+	"uploadcertificate": {
+		"title": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"referenceId": "ReferenceId",
+		"chooseFile" : "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
+		"uploadYourFile":"ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+		"button":"ರಚಿಸು"
+	},
+	"uploadotherdomaincertificate": {
+		"title": "ಇತರ ಡೊಮೇನ್ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"referenceId": "ReferenceId",
+		"chooseFile" : "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
+		"uploadYourFile":"ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+		"button":"ರಚಿಸು"
+	},
+	"genericerror":{
+		"fieldValidation":"ಈ ಕ್ಷೇತ್ರದ ಅಗತ್ಯವಿದೆ"
 	}
 }

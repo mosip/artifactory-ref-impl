@@ -737,6 +737,61 @@
             "resetTxt": "மீட்டமை",
             "cancelTxt": "ரத்துசெய்",
             "applyTxt": "விண்ணப்பிக்கவும்"
-        }
+        },
+    },
+    "isActive":{
+        "Active":"செயலில்",
+        "InActive":"செயலற்றது"
+    },
+    "generatecsr": {
+        "title": "CSR ஐ உருவாக்கு",
+        "applicationId" :"பயன்பாட்டு ஐடி",
+        "referenceId": "ReferenceId",
+        "commonName": "பொதுவான பெயர்",
+        "organization": "அமைப்பு",
+        "organizationUnit": "நிறுவன அலகுt",
+        "location": "இருப்பிடம்",
+        "state": "மாநிலம்",
+        "country": "நாடு",
+        "button":"உருவாக்கு"
+    },
+    "generatemasterkey": {
+        "title": "மாஸ்டர்கீவை உருவாக்கு",
+        "applicationId" :"பயன்பாட்டு ஐடி",
+        "referenceId": "referenceId",
+        "commonName": "பொதுவான பெயர்",
+        "organization": "அமைப்பு",
+        "organizationUnit": "நிறுவன அலகு",
+        "location": "இருப்பிடம்",
+        "state": "மாநிலம்",
+        "country": "நாடு",
+        "force": "படை",
+        "objectType": "பொருள் வகை",
+        "button":"உருவாக்கு"
+    },
+    "getcertificate": {
+        "title": "சான்றிதழைப் பெறு",
+        "applicationId" :"பயன்பாட்டு ஐடி",
+        "referenceId": "ReferenceId",
+        "button":"சான்றிதழ் பெறுக"
+    },
+    "uploadcertificate": {
+        "title": "பதிவேற்ற சான்றிதழ்",
+        "applicationId" :"பயன்பாட்டு ஐடி",
+        "referenceId": "ReferenceId",
+        "chooseFile" : "கோப்பைத் தேர்வுசெய்க",
+        "uploadYourFile":"உங்கள் கோப்பைப் பதிவேற்று",
+        "button":"உருவாக்கு"
+    },
+    "uploadotherdomaincertificate": {
+        "title": "பிற டொமைன் சான்றிதழைப் பதிவேற்றுக",
+        "applicationId" :"பயன்பாட்டு ஐடி",
+        "referenceId": "ReferenceId",
+        "chooseFile" : "கோப்பைத் தேர்வுசெய்க",
+        "uploadYourFile":"உங்கள் கோப்பைப் பதிவேற்று",
+        "button":"உருவாக்கு"
+    },
+    "genericerror":{
+        "fieldValidation":"இந்த புலம் தேவை"
     }
 }

@@ -829,5 +829,60 @@
 			"cancelTxt": "रद्द करें",
 			"applyTxt": "लागू करें"
 		}
+	},
+	"isActive":{
+		"Active":"सक्रिय",
+		"InActive":"निष्क्रिय"
+	},
+	"generatecsr": {
+		"title": "सीएसआर उत्पन्न करें",
+		"applicationId" :"एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"commonName": "सामान्य नाम",
+		"organization": "संगठन",
+		"organizationUnit": "संगठन इकाई",
+		"location": "स्थान",
+		"state": "राज्य",
+		"country": "देश",
+		"button":"उत्पन्न"
+	},
+	"generatemasterkey": {
+		"title": "मास्टरकी उत्पन्न करें",
+		"applicationId" :"एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"commonName": "सामान्य नाम",
+		"organization": "संगठन",
+		"organizationUnit": "संगठन इकाई",
+		"location": "स्थान",
+		"state": "राज्य",
+		"country": "देश",
+		"force": "बल",
+		"objectType": "ऑब्जेक्ट टाइप",
+		"button":"उत्पन्न"
+	},
+	"getcertificate": {
+		"title": "प्रमाण पत्र प्राप्त करें",
+		"applicationId" :"एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"button":"प्रमाण पत्र प्राप्त क"
+	},
+	"uploadcertificate": {
+		"title": "प्रमाण पत्र अपलोड करें",
+		"applicationId" :"एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"chooseFile" : "फाइल चुनें",
+		"uploadYourFile":"अपनी फाइल अपलोड करें",
+		"button":"उत्पन्न करें"
+	},
+	"uploadotherdomaincertificate": {
+		"title": "अन्य डोमेन प्रमाणपत्र अपलोड करें",
+		"applicationId" :"एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"chooseFile" : "फाइल चुनें",
+		"uploadYourFile":"अपनी फाइल अपलोड करें",
+		"button":"उत्पन्न"
+	},
+	"genericerror":{
+		"fieldValidation":"यह फ़ील्ड आवश्यक है"
 	}
 }
