@@ -220,43 +220,43 @@
         "title": "பிழை"
     },
     "masterData": {
-        "master-data": "Master Data",
-        "total-no": "Total No",
-        "common": "Common",
-        "device-definition": "Device Definition",
-        "machine-definition": "Machine Definition",
-        "document-definition": "Document Definition",
-        "doc-category-mapping": "Document Category - Type Mapping",
-        "category": "Category",
-        "mapped-documents": "Mapped Documents",
-        "unmapped-documents": "Unmapped Documents",
-        "masterDataTypes": "Masterdata Types",
-        "dynamicField": "Dynamic Field"
+        "master-data": "பிரதான தரவு",
+        "total-no": "மொத்த எண்",
+        "common": "பொதுவானது",
+        "device-definition": "சாதன வரையறை",
+        "machine-definition": "இயந்திர வரையறை",
+        "document-definition": "ஆவண வரையறை",
+        "doc-category-mapping": "ஆவண வகை - வகை மேப்பிங்",
+        "category": "வகை",
+        "mapped-documents": "வரைபட ஆவணங்கள்",
+        "unmapped-documents": "மாற்றப்படாத ஆவணங்கள்",
+        "masterDataTypes": "மாஸ்டர்டேட்டா வகைகள்",
+        "dynamicField": "டைனமிக் புலம்"
     },
     "masterdataupload": {
-        "title": "Master Data Upload"
+        "title": "முதன்மை தரவு பதிவேற்றம்"
     },
     "devices": {
-        "id": "Code",
-        "title": "Devices",
-        "header": "Device",
-        "name": "Device Name",
-        "serialNumber": "Serial Number",
-        "macAddress": "MAC Address",
-        "ipAddress": "IP Address",
-        "validity": "Valid Date Time",
-        "isActive": "Status",
-        "zone": "Administrative Zone",
-        "deviceSpecId": "Device Spec Name",
-        "language": "English",
-        "edit": "Edit",
-        "create": "Create",
-        "cancel": "Cancel",
-        "status": "Status",
-        "keyboard-tooltip": "Click for Virtual Keyboard (English)",
+        "id": "குறியீடு",
+        "title": "சாதனங்கள்",
+        "header": "சாதனம்",
+        "name": "சாதனத்தின் பெயர்",
+        "serialNumber": "வரிசை எண்",
+        "macAddress": "Mac முகவரி",
+        "ipAddress": "ஐபி முகவரி",
+        "validity": "செல்லுபடியாகும் தேதி நேரம்",
+        "isActive": "நிலை",
+        "zone": "நிர்வாக மண்டலம்",
+        "deviceSpecId": "சாதன விவரக்குறிப்பு பெயர்",
+        "language": "ஆங்கிலம்",
+        "edit": "தொகு",
+        "create": "உருவாக்கு",
+        "cancel": "ரத்துசெய்",
+        "status": "நிலை",
+        "keyboard-tooltip": "மெய்நிகர் விசைப்பலகை (தமிழ்) ஐக் கிளிக் செய்க",
         "errorMessages": {
-            "title": "Error",
-            "message": "No Data Found",
+            "title": "பிழை",
+            "message": "வேறு தகவல்கள் இல்லை",
             "btnTxt": "சரி"
         },
         "validationMessages": {
@@ -337,27 +337,27 @@
         }
     },
     "machines": {
-        "title": "Machines",
-        "header": "Machine",
-        "name": "Machine Name",
-        "machineSpecId": "Machines Spec ID",
-        "serialNumber": "Serial Number",
-        "macAddress": "MAC Address",
-        "ipAddress": "IP Address",
-        "validity": "Valid Date Time",
-        "isActive": "Status",
-        "zone": "Administrative Zone",
-        "publicKey": "Public Key",
-        "signPublicKey": "Sign Public Key",
-        "language": "English",
-        "edit": "Edit",
-        "create": "Create",
-        "cancel": "Cancel",
-        "update": "Update",
-        "keyboard-tooltip": "Click for Virtual Keyboard (English)",
+        "title": "இயந்திரங்கள்",
+        "header": "இயந்திரம்",
+        "name": "இயந்திரத்தின் பெயர்",
+        "machineSpecId": "இயந்திரங்கள் விவரக்குறிப்பு ஐடி",
+        "serialNumber": "வரிசை எண்",
+        "macAddress": "Mac முகவரி",
+        "ipAddress": "ஐபி முகவரி",
+        "validity": "செல்லுபடியாகும் தேதி நேரம்",
+        "isActive": "நிலை",
+        "zone": "நிர்வாக மண்டலம்",
+        "publicKey": "பொது விசை",
+        "signPublicKey": "பொது விசையில் கையொப்பமிடுங்கள்",
+        "language": "தமிழ்",
+        "edit": "தொகு",
+        "create": "உருவாக்கு",
+        "cancel": "ரத்துசெய்",
+        "update": "புதுப்பிப்பு",
+        "keyboard-tooltip": "மெய்நிகர் விசைப்பலகை (தமிழ்) ஐக் கிளிக் செய்க",
         "errorMessages": {
             "title": "பிழை",
-            "message": "No Data Found",
+            "message": "வேறு தகவல்கள் இல்லை",
             "btnTxt": "Ok"
         },
         "validationMessages": {
@@ -738,5 +738,60 @@
             "cancelTxt": "ரத்துசெய்",
             "applyTxt": "விண்ணப்பிக்கவும்"
         }
+    },
+    "isActive":{
+        "Active":"செயலில்",
+        "InActive":"செயலற்றது"
+    },
+    "generatecsr": {
+        "title": "சி.எஸ்.ஆரை உருவாக்குங்கள்",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "commonName": "பொது பெயர்",
+        "organization": "அமைப்பு",
+        "organizationUnit": "அமைப்பு அலகு",
+        "location": "இடம்",
+        "state": "நிலை",
+        "country": "நாடு",
+        "button":"உருவாக்கு"
+    },
+    "generatemasterkey": {
+        "title": "மாஸ்டர்கீவை உருவாக்குங்கள்",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "commonName": "பொது பெயர்",
+        "organization": "அமைப்பு",
+        "organizationUnit": "அமைப்பு அலகு",
+        "location": "இடம்",
+        "state": "நிலை",
+        "country": "நாடு",
+        "force": "படை",
+        "objectType": "பொருள் வகை",
+        "button":"உருவாக்கு"
+    },
+    "getcertificate": {
+        "title": "சான்றிதழ் பெறுங்கள்",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "button":"சான்றிதழ் பெறுங்கள்"
+    },
+    "uploadcertificate": {
+        "title": "பதிவேற்ற சான்றிதழ்",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "chooseFile" : "கோப்பை தேர்ந்தெடுங்கள்",
+        "uploadYourFile":"உங்கள் கோப்பை பதிவேற்றவும்",
+        "button":"உருவாக்கு"
+    },
+    "uploadotherdomaincertificate": {
+        "title": "பிற டொமைன் சான்றிதழைப் பதிவேற்றுக",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "chooseFile" : "கோப்பை தேர்ந்தெடுங்கள்",
+        "uploadYourFile":"உங்கள் கோப்பை பதிவேற்றவும்",
+        "button":"உருவாக்கு"
+    },
+    "genericerror":{
+        "fieldValidation":"இந்த புலம் தேவை"
     }
 }
