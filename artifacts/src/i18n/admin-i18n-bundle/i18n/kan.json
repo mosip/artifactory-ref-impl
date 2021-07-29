@@ -33,6 +33,9 @@
 			"subItem5": "ಇತರ ಡೊಮೇನ್ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
 		}
 	},
+	"dashboard": {
+		"welcomeMessage": "ಮೊಸಿಪ್ ಅಡ್ಮಿನ್ ಪೋರ್ಟಲ್ ಗೆ ಸ್ವಾಗತ!"
+	},
 	"center": {
 		"title": "ಕೇಂದ್ರಗಳು",
 		"center-detail-view": "ಕೇಂದ್ರ ವಿವರ ವೀಕ್ಷಣೆ",
@@ -72,7 +75,7 @@
 		"edit": "ಸಂಪಾದಿಸು",
 		"create": "ರಚಿಸು",
 		"cancel": "ರದ್ದುಮಾಡು",
-		"language": "ಇಂಗ್ಲಿಷ್",
+		"language": "ಕನ್ನಡ",
 		"keyboard-tooltip": "ವರ್ಚುವಲ್ ಕೀಬೋರ್ಡ್ (ಇಂಗ್ಲಿಷ್) ಗಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಿ",
 		"isActive": "ಸ್ಥಿತಿ",
 		"update": "ನವೀಕರಿಸಿ",
@@ -248,7 +251,7 @@
 		"isActive": "ಸ್ಥಿತಿ",
 		"zone": "ಆಡಳಿತ ವಲಯ",
 		"deviceSpecId": "ಸಾಧನ ನಿರ್ದಿಷ್ಟ ಹೆಸರು",
-		"language": "ಇಂಗ್ಲಿಷ್",
+		"language": "ಕನ್ನಡ",
 		"edit": "ಸಂಪಾದಿಸು",
 		"create": "ರಚಿಸು",
 		"cancel": "ರದ್ದುಮಾಡು",
@@ -349,7 +352,7 @@
 		"zone": "ಆಡಳಿತ ವಲಯ",
 		"publicKey": "ಪಬ್ಲಿಕ್ ಕೀ",
 		"signPublicKey": "ಸಾರ್ವಜನಿಕ ಕೀಲಿಯನ್ನು ಸಹಿ ಮಾಡಿ",
-		"language": "ಇಂಗ್ಲಿಷ್",
+		"language": "ಕನ್ನಡ",
 		"edit": "ಸಂಪಾದಿಸು",
 		"create": "ರಚಿಸು",
 		"cancel": "ರದ್ದುಮಾಡು",
@@ -553,6 +556,51 @@
 			"confirmation-title": "ದೃಢೀಕರಣ"
 		}
 	},
+	"resumeprocessingandremovehotlistedtag": {
+		"success-message": ["", " ಪ್ರಕ್ರಿಯೆಪುನರಾರಂಭಿಸಲಾಗಿದೆ ಮತ್ತು ಹಾಟ್ ಲಿಸ್ಟೆಡ್ ಟ್ಯಾಗ್ ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ"],
+		"success-title": "ಯಶಸ್ಸು",
+		"error-message": ["", " ಪ್ರಕ್ರಿಯೆಪುನರಾರಂಭ ಮಾಡಲು ಮತ್ತು ಹಾಟ್ ಲಿಸ್ಟೆಡ್ ಟ್ಯಾಗ್ ನಿಂದ ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಿಲ್ಲ"],
+		"error-title": "ದೋಷ",
+		"btnTxt": "ಮುಗಿದಿದೆ",
+		"yesBtnTxt": "ದೃಢೀಕರಣ",
+		"noBtnTxt": "ರದ್ದುಮಾಡಿ",
+		"confirmation-message": ["ನೀವು ಕ್ರಿಯೆ ರೆಸ್ಯೂಮ್ ಪ್ರೊಸೆಸಿಂಗ್ ಮಾಡಲು ಬಯಸುವಿರಾ ಮತ್ತು ಆರ್.ಐ.ಡಿ.ಯಲ್ಲಿ ಹಾಟ್ ಲಿಸ್ಟೆಡ್ ಟ್ಯಾಗ್ ತೆಗೆದುಹಾಕು ", " ? \n"],
+		"confirmation-title": "ದೃಢೀಕರಣ"
+	},
+	"resumefrombeginning": {
+		"success-message": ["", " ಆರಂಭದಿಂದ ಪುನರಾರಂಭವಾಗಿದೆ"],
+		"success-title": "ಯಶಸ್ಸು",
+		"error-message": ["", " ಮತ್ತೆ ಮತ್ತೆ ಮಾಡಲು ಮತ್ತು ಹಾಟ್ ಲಿಸ್ಟೆಡ್ ಟ್ಯಾಗ್ ನಿಂದ ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಿಲ್ಲ"],
+		"error-title": "ದೋಷ",
+		"btnTxt": "ಮುಗಿದಿದೆ",
+		"yesBtnTxt": "ದೃಢೀಕರಣ",
+		"noBtnTxt": "ರದ್ದುಮಾಡಿ",
+		"confirmation-message": ["ನೀವು ಆರ್.ಐ.ಡಿ.ಯಲ್ಲಿ ಆರಂಭದಿಂದ ಕ್ರಿಯೆ ಪುನರಾರಂಭ ಮಾಡಲು ಬಯಸುವಿರಾ ", " ? \n"],
+		"confirmation-title": "ದೃಢೀಕರಣ"
+	},
+	"resumefrombeginningandremovehotlistedtag": {
+		"success-message": ["", " ಆರಂಭದಿಂದ ಪುನರಾರಂಭಮಾಡಲು ಮತ್ತು ಹಾಟ್ ಲಿಸ್ಟೆಡ್ ಟ್ಯಾಗ್ ನಿಂದ ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಿಲ್ಲ"],
+		"success-title": "ಯಶಸ್ಸು",
+		"error-message": ["", " ಆರಂಭದಿಂದ ಪುನರಾರಂಭಮಾಡಲು ಮತ್ತು ಹಾಟ್ ಲಿಸ್ಟೆಡ್ ಟ್ಯಾಗ್ ನಿಂದ ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಿಲ್ಲ"],
+		"error-title": "ದೋಷ",
+		"btnTxt": "ಮುಗಿದಿದೆ",
+		"yesBtnTxt": "ದೃಢೀಕರಣ",
+		"noBtnTxt": "ರದ್ದುಮಾಡಿ",
+		"confirmation-message": ["ಆರಂಭದಿಂದ ಕ್ರಿಯೆ ರೆಸ್ಯೂಮ್ ಮಾಡಲು ನೀವು ಬಯಸುವಿರಾ ಮತ್ತು ಆರ್ ಐಡಿಯಲ್ಲಿ ಹಾಟ್ ಲಿಸ್ಟೆಡ್ ಟ್ಯಾಗ್ ತೆಗೆದುಹಾಕು ", " ? \n"],
+		"confirmation-title": "ದೃಢೀಕರಣ"
+	},
+	"stopprocessing": {
+		"success-message": ["", " ನಿಲ್ಲಿಸಲಾಗಿದೆ"],
+		"success-title": "ಯಶಸ್ಸು",
+		"error-message": ["", " ನಿಲ್ಲಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"],
+		"error-title": "ದೋಷ",
+		"btnTxt": "ಮುಗಿದಿದೆ",
+		"yesBtnTxt": "ದೃಢೀಕರಣ",
+		"noBtnTxt": "ರದ್ದುಮಾಡಿ",
+		"confirmation-message": ["ನೀವು ಆರ್.ಐ.ಡಿ.ಯಲ್ಲಿ ಕ್ರಿಯೆ ನಿಲ್ಲಿಸು ಪ್ರಕ್ರಿಯೆ ಮಾಡಲು ಬಯಸುವಿರಾ ", " ? \n"],
+		"confirmation-title": "ದೃಢೀಕರಣ"
+	},
+
 	"detailView": {
 		"detail": "ವಿವರ ವೀಕ್ಷಣೆ"
 	},
@@ -562,15 +610,18 @@
 	"bulkUpload": {
 		"operation": "ಕಾರ್ಯಾಚರಣೆ",
 		"operationCtrl": [{
-			"ಲೇಬಲ್": "ಸೇರಿಸಿ",
+			"ಲೇಬಲ್ಲೇಬಲ್ ": "ಸೇರಿಸಿ ",
 			"ಮೌಲ್ಯ": "ಸೇರಿಸಿ"
-		}, {
-			"ಲೇಬಲ್": "ನವೀಕರಿಸಿ",
-			"ಮೌಲ್ಯ": "ನವೀಕರಿಸಿ"
-		}, {
-			"ಲೇಬಲ್": "ಅಳಿಸು",
-			"ಮೌಲ್ಯ": "ಅಳಿಸು"
-		}],
+		},
+			{
+				"ಲೇಬಲ್": "ನವೀಕರಿಸಿ",
+				"ಮೌಲ್ಯ": "ನವೀಕರಿಸಿ"
+			},
+			{
+				"ಲೇಬಲ್": "ಅಳಿಸು",
+				"ಮೌಲ್ಯ": "ಅಳಿಸು"
+			}
+		],
 		"tableName": "ಟೇಬಲ್ ಹೆಸರನ್ನು ಆರಿಸಿ",
 		"chooseFile": "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
 		"uploadFile": "ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
@@ -578,157 +629,157 @@
 		"cancel": "ರದ್ದುಮಾಡು",
 		"tableNames": [{
 			"id": "applicant_valid_document",
-			"value": "Applicant Valid Document"
+			"value": "ಅರ್ಜಿದಾರ ಮಾನ್ಯ ದಾಖಲೆ"
 		}, {
 			"id": "appl_form_type",
-			"value": "Application"
+			"value": "ಅಪ್ಲಿಕೇಶನ್"
 		}, {
 			"id": "biometric_attribute",
-			"value": "BiometricAttribute"
+			"value": "ಬಯೋಮೆಟ್ರಿಕ್ ವಿಶೇಷಣ"
 		}, {
 			"id": "biometric_type",
-			"value": "BiometricType"
+			"value": "ಬಯೋಮೆಟ್ರಿಕ್ ಪ್ರಕಾರ"
 		}, {
 			"id": "blacklisted_words",
-			"value": "BlacklistedWords"
+			"value": "ಕಪ್ಪುಪಟ್ಟಿಗೆ ಸೇರಿಸಿದ ಪದಗಳು"
 		}, {
 			"id": "daysofweek_list",
-			"value": "DaysOfWeek"
+			"value": "ವಾರದ ದಿನಗಳು"
 		}, {
 			"id": "device_master",
-			"value": "Device"
+			"value": "ಸಾಧನ"
 		}, {
 			"id": "registered_device_master",
-			"value": "DeviceRegister"
+			"value": "ಸಾಧನ ನೋಂದಣಿ"
 		}, {
 			"id": "device_spec",
-			"value": "DeviceSpecification"
+			"value": "ಸಾಧನ ದ ವಿಶೇಷಣ"
 		}, {
 			"id": "device_type",
-			"value": "DeviceType"
+			"value": "ಸಾಧನಪ್ರಕಾರ"
 		}, {
 			"id": "doc_category",
-			"value": "DocumentCategory"
+			"value": "ದಾಖಲೆ ವರ್ಗ"
 		}, {
 			"id": "doc_type",
-			"value": "DocumentType"
+			"value": "ದಾಖಲೆ ಪ್ರಕಾರ"
 		}, {
 			"id": "dynamic_field",
-			"value": "DynamicField"
+			"value": "ಡೈನಾಮಿಕ್ ಫೀಲ್ಡ್"
 		}, {
 			"id": "reg_exceptional_holiday",
-			"value": "ExceptionalHoliday"
+			"value": "ಅಸಾಧಾರಣ ರಜಾದಿನ"
 		}, {
 			"id": "foundational_trust_provider",
-			"value": "FoundationalTrustProvider"
+			"value": "ಫೌಂಡೇಶನ್ ಟ್ರಸ್ಟ್ ಪ್ರೊವೈಡರ್"
 		}, {
 			"id": "gender",
-			"value": "Gender"
+			"value": "ಲಿಂಗ"
 		}, {
 			"id": "loc_holiday",
-			"value": "Holiday"
+			"value": "ರಜಾದಿನ"
 		}, {
 			"id": "identity_schema",
-			"value": "IdentitySchema"
+			"value": "ಗುರುತುಸ್ಕೀಮಾ"
 		}, {
 			"id": "id_type",
-			"value": "IdType"
+			"value": "ಐಡಿಟೈಪ್"
 		}, {
 			"id": "individual_type",
-			"value": "IndividualType"
+			"value": "ವೈಯಕ್ತಿಕ ಪ್ರಕಾರ"
 		}, {
 			"id": "language",
-			"value": "Language"
+			"value": "ಭಾಷೆ"
 		}, {
 			"id": "location",
-			"value": "Location"
+			"value": "ಸ್ಥಾನ"
 		}, {
 			"id": "loc_hierarchy_list",
-			"value": "LocationHierarchy"
+			"value": "ಸ್ಥಾನ ಶ್ರೇಣಿ"
 		}, {
 			"id": "machine_master",
-			"value": "Machine"
+			"value": "ಯಂತ್ರ"
 		}, {
 			"id": "machine_spec",
-			"value": "MachineSpecification"
+			"value": "ಯಂತ್ರ ವಿಶೇಷಣ"
 		}, {
 			"id": "machine_type",
-			"value": "MachineType"
+			"value": "ಯಂತ್ರಪ್ರಕಾರ"
 		}, {
 			"id": "module_detail",
-			"value": "ModuleDetail"
+			"value": "ಮಾಡ್ಯೂಲ್ ವಿವರ"
 		}, {
 			"id": "mosip_device_service",
-			"value": "MOSIPDeviceService"
+			"value": "ಮೊಸಿಪ್ ಸಾಧನ ಸೇವೆ"
 		}, {
 			"id": "reason_category",
-			"value": "ReasonCategory"
+			"value": "ಕಾರಣ ವರ್ಗ"
 		}, {
 			"id": "reason_list",
-			"value": "ReasonList"
+			"value": "ಕಾರಣ ಪಟ್ಟಿ"
 		}, {
 			"id": "reg_exceptional_holiday",
-			"value": "RegExceptionalHoliday"
+			"value": "ನೋಂದಣಿ ಅಸಾಧಾರಣ ರಜಾದಿನ"
 		}, {
 			"id": "registered_device_master",
-			"value": "RegisteredDevice"
+			"value": "ನೋಂದಾಯಿತ ಸಾಧನ"
 		}, {
 			"id": "registration_center",
-			"value": "RegistrationCenter"
+			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ"
 		}, {
 			"id": "reg_center_device",
-			"value": "RegistrationCenterDevice"
+			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಸಾಧನ"
 		}, {
 			"id": "reg_center_machine",
-			"value": "RegistrationCenterMachine"
+			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಸಾಧನ ..."
 		}, {
 			"id": "reg_center_machine_device",
-			"value": "RegistrationCenterMachineDevice"
+			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಯಂತ್ರ ಸಾಧನ"
 		}, {
 			"id": "reg_center_type",
-			"value": "RegistrationCenterType"
+			"value": "ನೋಂದಣಿಕೇಂದ್ರಪ್ರಕಾರ"
 		}, {
 			"id": "reg_center_user",
-			"value": "RegistrationCenterUser"
+			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಬಳಕೆದಾರ"
 		}, {
 			"id": "reg_center_user_machine",
-			"value": "RegistrationCenterUserMachine"
+			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಬಳಕೆದಾರ ಯಂತ್ರ"
 		}, {
 			"id": "reg_device_sub_type",
-			"value": "RegistrationDeviceSubType"
+			"value": "ನೋಂದಣಿ ಸಾಧನ ಉಪ ಪ್ರಕಾರ"
 		}, {
 			"id": "reg_device_type",
-			"value": "RegistrationDeviceType"
+			"value": "ನೋಂದಣಿ ಸಾಧನ ಪ್ರಕಾರ"
 		}, {
 			"id": "reg_working_nonworking",
-			"value": "RegWorkingNonWorking"
+			"value": "ನೋಂದಣಿ ಕೆಲಸ ಮಾಡದ ಕೆಲಸ"
 		}, {
 			"id": "schema_def",
-			"value": "SchemaDefinition"
+			"value": "ಸ್ಕೀಮಾ ವ್ಯಾಖ್ಯಾನ"
 		}, {
 			"id": "template",
-			"value": "Template"
+			"value": "ಟೆಂಪ್ಲೇಟ್"
 		}, {
 			"id": "template_file_format",
-			"value": "TemplateFileFormat"
+			"value": "ಟೆಂಪ್ಲೇಟ್ ಫೈಲ್ ಸ್ವರೂಪ"
 		}, {
 			"id": "template_type",
-			"value": "TemplateType"
+			"value": "ಟೆಂಪ್ಲೇಟ್ ಪ್ರಕಾರ"
 		}, {
 			"id": "title",
-			"value": "Title"
+			"value": "ಶೀರ್ಷಿಕೆ"
 		}, {
 			"id": "user_detail",
-			"value": "UserDetails"
+			"value": "ಬಳಕೆದಾರ ವಿವರಗಳು"
 		}, {
 			"id": "valid_document",
-			"value": "ValidDocument"
+			"value": "ಮಾನ್ಯ ದಾಖಲೆ"
 		}, {
 			"id": "zone",
-			"value": "Zone"
+			"value": "ವಲಯ"
 		}, {
 			"id": "zone_user",
-			"value": "ZoneUser"
+			"value": "ವಲಯ ಬಳಕೆದಾರ"
 		}]
 	},
 	"filters": {
@@ -739,13 +790,13 @@
 			"applyTxt": "ಅನ್ವಯಿಸು"
 		}
 	},
-	"isActive":{
-		"Active":"ಸಕ್ರಿಯ",
-		"InActive":"ನಿಷ್ಕ್ರಿಯ"
+	"isActive": {
+		"Active": "ಸಕ್ರಿಯ",
+		"InActive": "ನಿಷ್ಕ್ರಿಯ"
 	},
 	"generatecsr": {
 		"title": "ಸಿಎಸ್ಆರ್ ರಚಿಸಿ",
-		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"applicationId": "ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
 		"referenceId": "ReferenceId",
 		"commonName": "ಸಾಮಾನ್ಯ ಹೆಸರು",
 		"organization": "ಸಂಸ್ಥೆ",
@@ -753,11 +804,11 @@
 		"location": "ಸ್ಥಳ",
 		"state": "ರಾಜ್ಯ",
 		"country": "ದೇಶ",
-		"button":"ರಚಿಸು"
+		"button": "ರಚಿಸು"
 	},
 	"generatemasterkey": {
 		"title": "ಮಾಸ್ಟರ್\u200Cಕೀ ರಚಿಸಿ",
-		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"applicationId": "ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
 		"referenceId": "ReferenceId",
 		"commonName": "ಸಾಮಾನ್ಯ ಹೆಸರು",
 		"organization": "ಸಂಸ್ಥೆ",
@@ -767,31 +818,31 @@
 		"country": "ದೇಶ",
 		"force": "ಫೋರ್ಸ್",
 		"objectType": "ಆಬ್ಜೆಕ್ಟ್ ಪ್ರಕಾರ",
-		"button":"ರಚಿಸು"
+		"button": "ರಚಿಸು"
 	},
 	"getcertificate": {
 		"title": "ಪ್ರಮಾಣಪತ್ರ ಪಡೆಯಿರಿ",
-		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"applicationId": "ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
 		"referenceId": "ReferenceId",
-		"button":"ಪ್ರಮಾಣಪತ್ರ ಪಡೆಯಿರಿ"
+		"button": "ಪ್ರಮಾಣಪತ್ರ ಪಡೆಯಿರಿ"
 	},
 	"uploadcertificate": {
 		"title": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
-		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"applicationId": "ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
 		"referenceId": "ReferenceId",
-		"chooseFile" : "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
-		"uploadYourFile":"ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
-		"button":"ರಚಿಸು"
+		"chooseFile": "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
+		"uploadYourFile": "ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+		"button": "ರಚಿಸು"
 	},
 	"uploadotherdomaincertificate": {
 		"title": "ಇತರ ಡೊಮೇನ್ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
-		"applicationId" :"ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
+		"applicationId": "ಅಪ್ಲಿಕೇಶನ್ ಐಡಿ",
 		"referenceId": "ReferenceId",
-		"chooseFile" : "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
-		"uploadYourFile":"ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
-		"button":"ರಚಿಸು"
+		"chooseFile": "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
+		"uploadYourFile": "ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ಅಪ್\u200Cಲೋಡ್ ಮಾಡಿ",
+		"button": "ರಚಿಸು"
 	},
-	"genericerror":{
-		"fieldValidation":"ಈ ಕ್ಷೇತ್ರದ ಅಗತ್ಯವಿದೆ"
+	"genericerror": {
+		"fieldValidation": "ಈ ಕ್ಷೇತ್ರದ ಅಗತ್ಯವಿದೆ"
 	}
 }

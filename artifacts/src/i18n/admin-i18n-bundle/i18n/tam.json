@@ -33,6 +33,9 @@
             "subItem5": "UploadOtherDomainCertificate"
         }
     },
+    "dashboard": {
+        "welcomeMessage":" मोसिप वप्यवस्थापक पोर्टल पर आपका स्वागत है !"
+    },
     "center": {
         "title": "மையங்கள்",
         "center-detail-view": "மைய விரிவான பார்வை",
@@ -72,7 +75,7 @@
         "edit": "தொகு",
         "create": "உருவாக்கு",
         "cancel": "ரத்துசெய்",
-        "language": "ஆங்கிலம்",
+        "language": "தமிழ்",
         "keyboard-tooltip": "மெய்நிகர் விசைப்பலகைக்கு (ஆங்கிலம்) கிளிக் செய்க",
         "isActive": "நிலை",
         "update": "புதுப்பிப்பு",
@@ -248,7 +251,7 @@
         "isActive": "நிலை",
         "zone": "நிர்வாக மண்டலம்",
         "deviceSpecId": "சாதன விவரக்குறிப்பு பெயர்",
-        "language": "ஆங்கிலம்",
+        "language": "தமிழ்",
         "edit": "தொகு",
         "create": "உருவாக்கு",
         "cancel": "ரத்துசெய்",
@@ -551,6 +554,50 @@
             "noBtnTxt": "Cancel",
             "confirmation-message": ["", " ஐ செயலிழக்க விரும்புகிறீர்களா?  நீங்கள் விரும்பினால் பின்னர் அதை செயல்படுத்தலாம். அதுவரை அது செயலற்றதாக அமைக்கப்படும்"],
             "confirmation-title": "உறுதிப்படுத்தல்"
+        },
+        "resumeprocessingandremovehotlistedtag": {
+            "success-message": ["", " மீண்டும் செயலாக்கம் மற்றும் ஹாட்லிஸ்ட் குறிச்சொல்லிலிருந்து அகற்றப்பட்டது"],
+            "success-title": "வெற்றி",
+            "error-message": ["", " செயலாக்கத்தை மீண்டும் தொடங்கவும், பட்டியலிடப்பட்ட குறிச்சொல்லிலிருந்து அகற்றவும் முடியவில்லை "],
+            "error-title": "பிழை ",
+            "btnTxt": "முடிந்தது ",
+            "yesBtnTxt": "உறுதிப்படுத்தவும் ",
+            "noBtnTxt": "ரத்துசெய் ",
+            "confirmation-message": ["செயலாக்கத்தை மீண்டும் செய்ய விரும்புகிறீர்களா மற்றும் பதிவு ஐடியில் ஹாட்லிஸ்ட் குறிச்சொல்லை அகற்று ", " ? \n"],
+            "confirmation-title": "உறுதிப்படுத்தல் "
+        },
+        "resumefrombeginning": {
+            "success-message": ["", " ஆரம்பத்தில் இருந்து மீண்டும் தொடங்கப்படுகிறது "],
+            "success-title": "வெற்றி ",
+            "error-message": ["", " ஹாட்லிஸ்ட் செய்யப்பட்ட குறிச்சொல்லிலிருந்து மீண்டும் தொடங்கவும் அகற்றவும் முடியவில்லை "],
+            "error-title": "பிழை ",
+            "btnTxt": "முடிந்தது ",
+            "yesBtnTxt": "உறுதிப்படுத்தவும் ",
+            "noBtnTxt": "ரத்துசெய் ",
+            "confirmation-message": ["பதிவு ஐடியில் தொடங்கி மீண்டும் செயலைச் செய்ய விரும்புகிறீர்களா?  ", " ? \n"],
+            "confirmation-title": "உறுதிப்படுத்தல் "
+        },
+        "resumefrombeginningandremovehotlistedtag": {
+            "success-message": ["", " தொடக்கத்திலிருந்து மீண்டும் தொடங்கப்பட்டு, பட்டியலிடப்பட்ட குறிச்சொல்லிலிருந்து அகற்றப்பட்டது "],
+            "success-title": "வெற்றி ",
+            "error-message": ["", " தொடக்கத்தில் இருந்து மீண்டும் தொடங்கவும், பட்டியலிடப்பட்ட குறிச்சொல்லிலிருந்து அகற்றவும் முடியவில்லை "],
+            "error-title": "பிழை ",
+            "btnTxt": "முடிந்தது ",
+            "yesBtnTxt": "உறுதிப்படுத்தவும் ",
+            "noBtnTxt": "ரத்துசெய் ",
+            "confirmation-message": ["தொடக்கத்தில் இருந்து செயலை மீண்டும் செய்ய விரும்புகிறீர்களா மற்றும் பதிவு ஐடியில் ஹாட்லிஸ்ட் குறிச்சொல்லை அகற்று  ", " ? \n"],
+            "confirmation-title": "உறுதிப்படுத்தல்"
+        },
+        "stopprocessing": {
+            "success-message": ["", " நிறுத்தப்பட்டது "],
+            "success-title": "வெற்றி ",
+            "error-message": ["", " நிறுத்த முடியவில்லை "],
+            "error-title": "பிழை ",
+            "btnTxt": "முடிந்தது ",
+            "yesBtnTxt": "உறுதிப்படுத்தவும் ",
+            "noBtnTxt": "ரத்துசெய் ",
+            "confirmation-message": ["பதிவு ஐடியில் செயலாக்கத்தை நிறுத்துங்கள்  ", " ? \n"],
+            "confirmation-title": "உறுதிப்படுத்தல் "
         }
     },
     "detailView": {
@@ -578,157 +625,157 @@
         "cancel": "Cancel",
         "tableNames": [{
             "id": "applicant_valid_document",
-            "value": "Applicant Valid Document"
+            "value": "விண்ணப்பதாரர் செல்லுபடியாகும் ஆவணம் "
         }, {
             "id": "appl_form_type",
-            "value": "Application"
+            "value": "விண்ணப்பம்"
         }, {
             "id": "biometric_attribute",
-            "value": "BiometricAttribute"
+            "value": "பயோமெட்ரிக் அட்ரிபியூட் "
         }, {
             "id": "biometric_type",
-            "value": "BiometricType"
+            "value": "பயோமெட்ரிக் வகை "
         }, {
             "id": "blacklisted_words",
-            "value": "BlacklistedWords"
+            "value": "தடுப்புப்பட்டியல் "
         }, {
             "id": "daysofweek_list",
-            "value": "DaysOfWeek"
+            "value": "வாரத்தின் நாட்கள் "
         }, {
             "id": "device_master",
-            "value": "Device"
+            "value": "சாதனம் "
         }, {
             "id": "registered_device_master",
-            "value": "DeviceRegister"
+            "value": "சாதன பதிவு "
         }, {
             "id": "device_spec",
-            "value": "DeviceSpecification"
+            "value": "சாதன விவரக்குறிப்பு "
         }, {
             "id": "device_type",
-            "value": "DeviceType"
+            "value": "கருவியின் வகை"
         }, {
             "id": "doc_category",
-            "value": "DocumentCategory"
+            "value": "ஆவண வகை "
         }, {
             "id": "doc_type",
-            "value": "DocumentType"
+            "value": "ஆவண வகை "
         }, {
             "id": "dynamic_field",
-            "value": "DynamicField"
+            "value": "டைனமிக் புலம் "
         }, {
             "id": "reg_exceptional_holiday",
-            "value": "ExceptionalHoliday"
+            "value": "விதிவிலக்கான விடுமுறை "
         }, {
             "id": "foundational_trust_provider",
-            "value": "FoundationalTrustProvider"
+            "value": "அடித்தள அறக்கட்டளை வழங்குநர் "
         }, {
             "id": "gender",
-            "value": "Gender"
+            "value": "பாலினம்"
         }, {
             "id": "loc_holiday",
-            "value": "Holiday"
+            "value": "விடுமுறை "
         }, {
             "id": "identity_schema",
-            "value": "IdentitySchema"
+            "value": "அடையாளத் திட்டம் "
         }, {
             "id": "id_type",
-            "value": "IdType"
+            "value": "ஐடி வகை "
         }, {
             "id": "individual_type",
-            "value": "IndividualType"
+            "value": "தனிப்பட்ட வகை "
         }, {
             "id": "language",
-            "value": "Language"
+            "value": "மொழி "
         }, {
             "id": "location",
-            "value": "Location"
+            "value": "இடம்"
         }, {
             "id": "loc_hierarchy_list",
-            "value": "LocationHierarchy"
+            "value": "இருப்பிட வரிசைமுறை "
         }, {
             "id": "machine_master",
-            "value": "Machine"
+            "value": "இயந்திரம் "
         }, {
             "id": "machine_spec",
-            "value": "MachineSpecification"
+            "value": "இயந்திர விவரக்குறிப்பு "
         }, {
             "id": "machine_type",
-            "value": "MachineType"
+            "value": "மெஷின் டைப் "
         }, {
             "id": "module_detail",
-            "value": "ModuleDetail"
+            "value": "தொகுதி விவரம் "
         }, {
             "id": "mosip_device_service",
-            "value": "MOSIPDeviceService"
+            "value": "mosip சாதன சேவை "
         }, {
             "id": "reason_category",
-            "value": "ReasonCategory"
+            "value": "காரணம் வகை "
         }, {
             "id": "reason_list",
-            "value": "ReasonList"
+            "value": "காரணம் பட்டியல் "
         }, {
             "id": "reg_exceptional_holiday",
-            "value": "RegExceptionalHoliday"
+            "value": "பதிவு விதிவிலக்கான விடுமுறை "
         }, {
             "id": "registered_device_master",
-            "value": "RegisteredDevice"
+            "value": "பதிவுசெய்யப்பட்ட சாதனம் "
         }, {
             "id": "registration_center",
-            "value": "RegistrationCenter"
+            "value": "பதிவு மையம் "
         }, {
             "id": "reg_center_device",
-            "value": "RegistrationCenterDevice"
+            "value": "பதிவு மைய சாதனம் "
         }, {
             "id": "reg_center_machine",
-            "value": "RegistrationCenterMachine"
+            "value": "பதிவு மையம் இயந்திரம் "
         }, {
             "id": "reg_center_machine_device",
-            "value": "RegistrationCenterMachineDevice"
+            "value": "பதிவு மையம் இயந்திர சாதனம் "
         }, {
             "id": "reg_center_type",
-            "value": "RegistrationCenterType"
+            "value": "பதிவு மைய வகை "
         }, {
             "id": "reg_center_user",
-            "value": "RegistrationCenterUser"
+            "value": "பதிவு மைய பயனர் "
         }, {
             "id": "reg_center_user_machine",
-            "value": "RegistrationCenterUserMachine"
+            "value": "பதிவு மைய பயனர் இயந்திரம் "
         }, {
             "id": "reg_device_sub_type",
-            "value": "RegistrationDeviceSubType"
+            "value": "பதிவு சாதன துணை வகை "
         }, {
             "id": "reg_device_type",
-            "value": "RegistrationDeviceType"
+            "value": "பதிவு சாதன வகை"
         }, {
             "id": "reg_working_nonworking",
-            "value": "RegWorkingNonWorking"
+            "value": "பதிவு வேலை மற்றும் வேலை செய்யாதது "
         }, {
             "id": "schema_def",
-            "value": "SchemaDefinition"
+            "value": "திட்ட வரையறை "
         }, {
             "id": "template",
-            "value": "Template"
+            "value": "வார்ப்புரு "
         }, {
             "id": "template_file_format",
-            "value": "TemplateFileFormat"
+            "value": "வார்ப்புரு கோப்பு வடிவம் "
         }, {
             "id": "template_type",
-            "value": "TemplateType"
+            "value": "வார்ப்புரு வகை "
         }, {
             "id": "title",
-            "value": "Title"
+            "value": "தலைப்பு "
         }, {
             "id": "user_detail",
-            "value": "UserDetails"
+            "value": "பயனர் விவரங்கள் "
         }, {
             "id": "valid_document",
-            "value": "ValidDocument"
+            "value": "செல்லுபடியாகும் ஆவணம் "
         }, {
             "id": "zone",
-            "value": "Zone"
+            "value": "மண்டலம் "
         }, {
             "id": "zone_user",
-            "value": "ZoneUser"
+            "value": "மண்டல பயனர் "
         }]
     },
     "filters": {
