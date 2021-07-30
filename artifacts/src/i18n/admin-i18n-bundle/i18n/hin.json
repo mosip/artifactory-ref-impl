@@ -33,6 +33,11 @@
 			"subItem5": "अन्य डोमेन प्रमाणपत्र अपलोड करें"
 		}
 	},
+
+	"dashboard": {
+
+		"welcomeMessage": "मोसिप एडमिन पोर्टल में आपका स्वागत है!"
+	},
 	"center": {
 		"title": "केंद्र",
 		"center-detail-view": "केंद्र विवरण दृश्य",
@@ -72,7 +77,7 @@
 		"edit": "संपादित करें",
 		"create": "बनाएं",
 		"cancel": "रद्द करें",
-		"language": "अंग्रेजी",
+		"language": "हिंदी",
 		"keyboard-tooltip": "वर्चुअल कीबोर्ड (अंग्रेज़ी) के लिए क्लिक करें",
 		"isActive": "स्थिति",
 		"update": "अपडेट",
@@ -248,7 +253,7 @@
 		"isActive": "स्थिति",
 		"zone": "प्रशासनिक क्षेत्र",
 		"deviceSpecId": "डिवाइस विशिष्ट नाम",
-		"language": "अंग्रेजी",
+		"language": "हिंदी",
 		"edit": "संपादित करें",
 		"create": "बनाएं",
 		"cancel": "रद्द करें",
@@ -349,7 +354,7 @@
 		"zone": "प्रशासनिक क्षेत्र",
 		"publicKey": "सार्वजनिक कुंजी",
 		"signPublicKey": "सार्वजनिक कुंजी पर हस्ताक्षर करें",
-		"language": "अंग्रेजी",
+		"language": "हिंदी",
 		"edit": "संपादित करें",
 		"create": "बनाएं",
 		"cancel": "रद्द करें",
@@ -411,7 +416,6 @@
 				"title": "सफलता",
 				"message": ["मशीन विवरण सफलतापूर्वक अपडेट किया गया। मशीन आईडी: ", " और मशीन का नाम: "],
 				"बीटीएन टेक्स्ट": "ओके"
-
 			},
 			"update-error": {
 				"title": "त्रुटि",
@@ -479,7 +483,6 @@
 		},
 		"statuscheckFailed": "विफल",
 		"statuscheckCompleted": "पूर्ण"
-
 	},
 	"packet-upload": {
 		"header": "पैकेट अपलोड",
@@ -499,12 +502,11 @@
 			"input-text2": "अपनी फाइल अपलोड करें",
 			"upload-btn": "अपलोड",
 			"cancel-btn": "रद्द करें",
-
 			"popupMessaages": {
 				"popup1": {
 					"uploadConfirm": "पैकेट अपलोड की पुष्टि करें",
 					"message": "पैकेट संसाधित किया जाएगा।\n कृपया सुनिश्चित करें कि सभी जानकारी सही है।\n\n\n कन्फर्म पर क्लिक करते ही लेनदेन शुरू हो जाएगा।",
-					"confirmBtnTxt": "CONFIRM",
+					"confirmBtnTxt": "पुष्टि करें",
 					"cancelBtnTxt": "रद्द करें"
 				},
 				"popup2": {
@@ -516,7 +518,6 @@
 					"message": "आपकी फ़ाइल सफलतापूर्वक अपलोड कर दी गई है। \n डेटा अपलोड वर्तमान में प्रगति पर है।\n\n\n लेन-देन आईडी:",
 					"btnTxt": "हो गया"
 				}
-
 			}
 		}
 	},
@@ -553,6 +554,94 @@
 			"noBtnTxt": "रद्द करें",
 			"confirmation-message": ["क्या आप निष्क्रिय करना चाहते हैं ", " ? \n आप चाहें तो इसे बाद में सक्रिय कर सकते हैं। तब तक इसे निष्क्रिय के रूप में सेट किया जाएगा"],
 			"confirmation-title": "पुष्टिकरण"
+
+		},
+
+		"resumeprocessingandremovehotlistedtag": {
+
+			"success-message": ["", " रिज्यूम्ड प्रोसेसिंग और हॉटलिस्टेड टैग से हटा दिया गया है"],
+
+			"success-title": "सफलता",
+
+			"error-message": ["", " प्रसंस्करण फिर से शुरू नहीं किया जा सका और हॉटलिस्टेड टैग से हटाया जा सका"],
+
+			"error-title": "त्रुटि",
+
+			"btnTxt": "हो गया",
+
+			"yesBtnTxt": "पुष्टि करें",
+
+			"noBtnTxt": "रद्द करें",
+
+			"confirmation-message": ["क्या आप एक्शन रिज्यूमे प्रोसेसिंग करना चाहते हैं और RID पर हॉटलिस्टेड टैग को हटाना चाहते हैं", "? \n"],
+
+			"confirmation-title": "पुष्टिकरण"
+
+		},
+
+		"resumefrombeginning": {
+
+			"success-message": ["", "शुरुआत से फिर से शुरू किया गया है"],
+
+			"success-title": "सफलता",
+
+			"error-message": ["", "फिर से शुरू नहीं किया जा सका और हॉटलिस्टेड टैग से हटाया जा सका"],
+
+			"error-title": "त्रुटि",
+
+			"btnTxt": "हो गया",
+
+			"yesBtnTxt": "पुष्टि करें",
+
+			"noBtnTxt": "रद्द करें",
+
+			"confirmation-message": ["क्या आप रिज्यूमे फ्रॉम बिगिनिंग ऑन आरआईडी ", " ? \n"],
+
+			"confirmation-title": "पुष्टिकरण"
+
+		},
+
+		"resumefrombeginningandremovehotlistedtag": {
+
+			"success-message": ["", " शुरुआत से फिर से शुरू किया गया है और हॉटलिस्टेड टैग से हटा दिया गया है"],
+
+			"success-title": "सफलता",
+
+			"error-message": ["", "शुरुआत से फिर से शुरू नहीं किया जा सका और हॉटलिस्टेड टैग से हटाया जा सकता है"],
+
+			"error-title": "त्रुटि",
+
+			"btnTxt": "हो गया",
+
+			"yesBtnTxt": "पुष्टि करें",
+
+			"noBtnTxt": "रद्द करें",
+
+			"confirmation-message": ["क्या आप एक्शन रिज्यूम फ्रॉम बिगिनिंग एंड रिमूव हॉटलिस्टेड टैग को RID करना चाहते हैं।", " ? \n"],
+
+			"confirmation-title": "पुष्टिकरण"
+
+		},
+
+		"stopprocessing": {
+
+			"success-message": ["", " बंद कर दिया गया"],
+
+			"success-title": "सफलता",
+
+			"error-message": ["", "रोका नहीं जा सका"],
+
+			"error-title": "त्रुटि",
+
+			"btnTxt": "हो गया",
+
+			"yesBtnTxt": "पुष्टि करें",
+
+			"noBtnTxt": "रद्द करें",
+
+			"confirmation-message": ["क्या आप कार्रवाई करना चाहते हैं RID पर प्रसंस्करण रोकें ", " ? \n"],
+
+			"confirmation-title": "पुष्टिकरण"
 		}
 	},
 	"detailView": {
@@ -580,157 +669,157 @@
 		"cancel": "रद्द करें",
 		"tableNames": [{
 			"id": "applicant_valid_document",
-			"value": "Applicant Valid Document"
+			"value": "आवेदक वैध दस्तावेज "
 		}, {
 			"id": "appl_form_type",
-			"value": "Application"
+			"value": "आवेदन "
 		}, {
 			"id": "biometric_attribute",
-			"value": "BiometricAttribute"
+			"value": "बायोमेट्रिक विशेषता "
 		}, {
 			"id": "biometric_type",
-			"value": "BiometricType"
+			"value": "बॉयोमीट्रिक प्रकार "
 		}, {
 			"id": "blacklisted_words",
-			"value": "BlacklistedWords"
+			"value": "ब्लैक लिस्टेड शब्द "
 		}, {
 			"id": "daysofweek_list",
-			"value": "DaysOfWeek"
+			"value": "सप्ताह के दिन"
 		}, {
 			"id": "device_master",
-			"value": "Device"
+			"value": "युक्ति "
 		}, {
 			"id": "registered_device_master",
-			"value": "DeviceRegister"
+			"value": "डिवाइस रजिस्टर "
 		}, {
 			"id": "device_spec",
-			"value": "DeviceSpecification"
+			"value": "डिवाइस विशिष्टता "
 		}, {
 			"id": "device_type",
-			"value": "DeviceType"
+			"value": "उपकरण का प्रकार "
 		}, {
 			"id": "doc_category",
-			"value": "DocumentCategory"
+			"value": "दस्तावेज़ श्रेणी "
 		}, {
 			"id": "doc_type",
-			"value": "DocumentType"
+			"value": "दस्तावेज़ का प्रकार "
 		}, {
 			"id": "dynamic_field",
-			"value": "DynamicField"
+			"value": "गतिशील फ़ील्ड "
 		}, {
 			"id": "reg_exceptional_holiday",
-			"value": "ExceptionalHoliday"
+			"value": "असाधारण छुट्टी "
 		}, {
 			"id": "foundational_trust_provider",
-			"value": "FoundationalTrustProvider"
+			"value": "फाउंडेशनल ट्रस्ट प्रोवाइडर "
 		}, {
 			"id": "gender",
-			"value": "Gender"
+			"value": "लिंग "
 		}, {
 			"id": "loc_holiday",
-			"value": "Holiday"
+			"value": "छुट्टी "
 		}, {
 			"id": "identity_schema",
-			"value": "IdentitySchema"
+			"value": "पहचान स्कीमा "
 		}, {
 			"id": "id_type",
-			"value": "IdType"
+			"value": "आईडी का प्रकार"
 		}, {
 			"id": "individual_type",
-			"value": "IndividualType"
+			"value": "व्यक्तिगत प्रकार "
 		}, {
 			"id": "language",
-			"value": "Language"
+			"value": "भाषा "
 		}, {
 			"id": "location",
-			"value": "Location"
+			"value": "स्थान "
 		}, {
 			"id": "loc_hierarchy_list",
-			"value": "LocationHierarchy"
+			"value": "स्थान पदानुक्रम "
 		}, {
 			"id": "machine_master",
-			"value": "Machine"
+			"value": "मशीन "
 		}, {
 			"id": "machine_spec",
-			"value": "MachineSpecification"
+			"value": "मशीन विशिष्टता "
 		}, {
 			"id": "machine_type",
-			"value": "MachineType"
+			"value": "मशीन की तरह"
 		}, {
 			"id": "module_detail",
-			"value": "ModuleDetail"
+			"value": "मॉड्यूल विवरण "
 		}, {
 			"id": "mosip_device_service",
-			"value": "MOSIPDeviceService"
+			"value": "MOSIP डिवाइस सेवा"
 		}, {
 			"id": "reason_category",
-			"value": "ReasonCategory"
+			"value": "कारण श्रेणी "
 		}, {
 			"id": "reason_list",
-			"value": "ReasonList"
+			"value": "कारण सूची "
 		}, {
 			"id": "reg_exceptional_holiday",
-			"value": "RegExceptionalHoliday"
+			"value": "पंजीकरण असाधारणछुट्टी "
 		}, {
 			"id": "registered_device_master",
-			"value": "RegisteredDevice"
+			"value": "पंजीकृत डिवाइस "
 		}, {
 			"id": "registration_center",
-			"value": "RegistrationCenter"
+			"value": "पंजीकरण केंद्र "
 		}, {
 			"id": "reg_center_device",
-			"value": "RegistrationCenterDevice"
+			"value": "पंजीकरण केंद्र डिवाइस "
 		}, {
 			"id": "reg_center_machine",
-			"value": "RegistrationCenterMachine"
+			"value": "पंजीकरण केंद्र मशीन "
 		}, {
 			"id": "reg_center_machine_device",
-			"value": "RegistrationCenterMachineDevice"
+			"value": "पंजीकरण केंद्र मशीन डिवाइस "
 		}, {
 			"id": "reg_center_type",
-			"value": "RegistrationCenterType"
+			"value": "पंजीकरण केंद्र प्रकार "
 		}, {
 			"id": "reg_center_user",
-			"value": "RegistrationCenterUser"
+			"value": "पंजीकरण केंद्र उपयोगकर्ता "
 		}, {
 			"id": "reg_center_user_machine",
-			"value": "RegistrationCenterUserMachine"
+			"value": "पंजीकरण केंद्र उपयोगकर्ता मशीन "
 		}, {
 			"id": "reg_device_sub_type",
-			"value": "RegistrationDeviceSubType"
+			"value": "पंजीकरण उपकरण उप प्रकार "
 		}, {
 			"id": "reg_device_type",
-			"value": "RegistrationDeviceType"
+			"value": "पंजीकरण उपकरण प्रकार "
 		}, {
 			"id": "reg_working_nonworking",
-			"value": "RegWorkingNonWorking"
+			"value": "पंजीकरण कार्य गैर-कामकाजी "
 		}, {
 			"id": "schema_def",
-			"value": "SchemaDefinition"
+			"value": "स्कीमा परिभाषा "
 		}, {
 			"id": "template",
-			"value": "Template"
+			"value": "टेम्पलेट "
 		}, {
 			"id": "template_file_format",
-			"value": "TemplateFileFormat"
+			"value": "टेम्पलेट फ़ाइल स्वरूप "
 		}, {
 			"id": "template_type",
-			"value": "TemplateType"
+			"value": "टेम्पलेट प्रकार "
 		}, {
 			"id": "title",
-			"value": "Title"
+			"value": "शीर्षक "
 		}, {
 			"id": "user_detail",
-			"value": "UserDetails"
+			"value": "उपयोगकर्ता की जानकारी "
 		}, {
 			"id": "valid_document",
-			"value": "ValidDocument"
+			"value": "वैध दस्तावेज़ "
 		}, {
 			"id": "zone",
-			"value": "Zone"
+			"value": "क्षेत्र"
 		}, {
 			"id": "zone_user",
-			"value": "ZoneUser"
+			"value": "क्षेत्र उपयोगकर्ता "
 		}]
 	},
 	"filters": {
@@ -740,5 +829,60 @@
 			"cancelTxt": "रद्द करें",
 			"applyTxt": "लागू करें"
 		}
+	},
+	"isActive": {
+		"Active": "सक्रिय",
+		"InActive": "निष्क्रिय"
+	},
+	"generatecsr": {
+		"title": "सीएसआर उत्पन्न करें",
+		"applicationId": "एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"commonName": "सामान्य नाम",
+		"organization": "संगठन",
+		"organizationUnit": "संगठन इकाई",
+		"location": "स्थान",
+		"state": "राज्य",
+		"country": "देश",
+		"button": "उत्पन्न"
+	},
+	"generatemasterkey": {
+		"title": "मास्टरकी उत्पन्न करें",
+		"applicationId": "एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"commonName": "सामान्य नाम",
+		"organization": "संगठन",
+		"organizationUnit": "संगठन इकाई",
+		"location": "स्थान",
+		"state": "राज्य",
+		"country": "देश",
+		"force": "बल",
+		"objectType": "ऑब्जेक्ट टाइप",
+		"button": "उत्पन्न"
+	},
+	"getcertificate": {
+		"title": "प्रमाण पत्र प्राप्त करें",
+		"applicationId": "एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"button": "प्रमाण पत्र प्राप्त क"
+	},
+	"uploadcertificate": {
+		"title": "प्रमाण पत्र अपलोड करें",
+		"applicationId": "एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"chooseFile": "फाइल चुनें",
+		"uploadYourFile": "अपनी फाइल अपलोड करें",
+		"button": "उत्पन्न करें"
+	},
+	"uploadotherdomaincertificate": {
+		"title": "अन्य डोमेन प्रमाणपत्र अपलोड करें",
+		"applicationId": "एप्लिकेशन आईडी",
+		"referenceId": "संदर्भ आईडी",
+		"chooseFile": "फाइल चुनें",
+		"uploadYourFile": "अपनी फाइल अपलोड करें",
+		"button": "उत्पन्न"
+	},
+	"genericerror": {
+		"fieldValidation": "यह फ़ील्ड आवश्यक है"
 	}
 }

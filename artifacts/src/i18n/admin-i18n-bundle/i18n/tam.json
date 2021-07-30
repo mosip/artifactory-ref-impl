@@ -33,9 +33,12 @@
             "subItem5": "UploadOtherDomainCertificate"
         }
     },
+    "dashboard": {
+        "welcomeMessage":" मोसिप वप्यवस्थापक पोर्टल पर आपका स्वागत है !"
+    },
     "center": {
-        "title":"மையங்கள்",
-        "center-detail-view" : "மைய விரிவான பார்வை",
+        "title": "மையங்கள்",
+        "center-detail-view": "மைய விரிவான பார்வை",
         "center-name": "மையத்தின் பெயர்",
         "center-id": "மைய ஐடி",
         "status": "நிலை",
@@ -72,15 +75,15 @@
         "edit": "தொகு",
         "create": "உருவாக்கு",
         "cancel": "ரத்துசெய்",
-        "language": "ஆங்கிலம்",
+        "language": "தமிழ்",
         "keyboard-tooltip": "மெய்நிகர் விசைப்பலகைக்கு (ஆங்கிலம்) கிளிக் செய்க",
         "isActive": "நிலை",
         "update": "புதுப்பிப்பு",
         "workingDays": "வேலை நாட்கள்",
         "holidays": "விதிவிலக்கான விடுமுறைகள்",
         "add-button": "கூட்டு",
-        "datepicker-placeholder":"தேதியைத் தேர்வுசெய்க",
-        "devices-tooltip":"சாதனத்தில் கைரேகை ஸ்கேனர், ஐரிஸ் ஸ்கேனர், வலை கேமரா, அச்சுப்பொறி ஆகியவை அடங்கும்",
+        "datepicker-placeholder": "தேதியைத் தேர்வுசெய்க",
+        "devices-tooltip": "சாதனத்தில் கைரேகை ஸ்கேனர், ஐரிஸ் ஸ்கேனர், வலை கேமரா, அச்சுப்பொறி ஆகியவை அடங்கும்",
         "selectLanguage": "மொழியை தேர்ந்தெடுங்கள்",
         "editCommonDetails": "பிற மைய விவரங்களை இங்கே திருத்தவும்",
         "validationMessages": {
@@ -156,7 +159,7 @@
             },
             "workingDays": {
                 "required": "தயவுசெய்து ஒரு நாளாவது தேர்ந்தெடுக்கவும்"
-            } 
+            }
         },
         "popupMessages": {
             "create": {
@@ -175,7 +178,7 @@
             },
             "update-success": {
                 "title": "வெற்றி",
-                "message": ["மைய விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்படுகின்றன. ID n \ n மைய ஐடி: "," \ n \ n மையத்தின் பெயர்:"],
+                "message": ["மைய விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்படுகின்றன. ID மைய ஐடி: ", " மையத்தின் பெயர்:"],
                 "btnTxt": "சரி"
             },
             "update-error": {
@@ -185,7 +188,7 @@
             },
             "create-success": {
                 "title": "வெற்றி",
-                "message": ["மையம் ஐடி: "," மற்றும் மையத்தின் பெயர்:"],
+                "message": ["மையம் ஐடி: ", " மற்றும் மையத்தின் பெயர்:"],
                 "btnTxt": "சரி"
             },
             "create-error": {
@@ -212,51 +215,51 @@
         }
     },
     "singleView": {
-        "errorMessages" : [
+        "errorMessages": [
             "எந்த பதிவும் கிடைக்கவில்லை",
             "தொழில்நுட்ப பிழை ஏற்பட்டது"
         ],
         "buttonText": "சரி",
         "title": "பிழை"
-    }, 
+    },
     "masterData": {
-        "master-data": "Master Data",
-        "total-no": "Total No",
-        "common": "Common",
-        "device-definition": "Device Definition",
-        "machine-definition": "Machine Definition",
-        "document-definition": "Document Definition",
-        "doc-category-mapping": "Document Category - Type Mapping",
-        "category": "Category",
-        "mapped-documents": "Mapped Documents",
-        "unmapped-documents": "Unmapped Documents",
-        "masterDataTypes": "Masterdata Types",
-        "dynamicField": "Dynamic Field"
+        "master-data": "பிரதான தரவு",
+        "total-no": "மொத்த எண்",
+        "common": "பொதுவானது",
+        "device-definition": "சாதன வரையறை",
+        "machine-definition": "இயந்திர வரையறை",
+        "document-definition": "ஆவண வரையறை",
+        "doc-category-mapping": "ஆவண வகை - வகை மேப்பிங்",
+        "category": "வகை",
+        "mapped-documents": "வரைபட ஆவணங்கள்",
+        "unmapped-documents": "மாற்றப்படாத ஆவணங்கள்",
+        "masterDataTypes": "மாஸ்டர்டேட்டா வகைகள்",
+        "dynamicField": "டைனமிக் புலம்"
     },
     "masterdataupload": {
-        "title": "Master Data Upload"
+        "title": "முதன்மை தரவு பதிவேற்றம்"
     },
     "devices": {
-        "id":"Code",
-        "title":"Devices",
-        "header": "Device",
-        "name": "Device Name",
-        "serialNumber": "Serial Number",
-        "macAddress": "MAC Address",
-        "ipAddress": "IP Address",
-        "validity": "Valid Date Time",
-        "isActive": "Status",
-        "zone": "Administrative Zone",
-        "deviceSpecId": "Device Spec Name",
-        "language": "English",
-        "edit": "Edit",
-        "create": "Create",
-        "cancel": "Cancel",
-        "status": "Status",
-        "keyboard-tooltip": "Click for Virtual Keyboard (English)",
+        "id": "குறியீடு",
+        "title": "சாதனங்கள்",
+        "header": "சாதனம்",
+        "name": "சாதனத்தின் பெயர்",
+        "serialNumber": "வரிசை எண்",
+        "macAddress": "Mac முகவரி",
+        "ipAddress": "ஐபி முகவரி",
+        "validity": "செல்லுபடியாகும் தேதி நேரம்",
+        "isActive": "நிலை",
+        "zone": "நிர்வாக மண்டலம்",
+        "deviceSpecId": "சாதன விவரக்குறிப்பு பெயர்",
+        "language": "தமிழ்",
+        "edit": "தொகு",
+        "create": "உருவாக்கு",
+        "cancel": "ரத்துசெய்",
+        "status": "நிலை",
+        "keyboard-tooltip": "மெய்நிகர் விசைப்பலகை (தமிழ்) ஐக் கிளிக் செய்க",
         "errorMessages": {
-            "title": "Error",
-            "message": "No Data Found",
+            "title": "பிழை",
+            "message": "வேறு தகவல்கள் இல்லை",
             "btnTxt": "சரி"
         },
         "validationMessages": {
@@ -337,27 +340,27 @@
         }
     },
     "machines": {
-        "title":"Machines",
-        "header": "Machine",
-        "name": "Machine Name",
-        "machineSpecId": "Machines Spec ID",
-        "serialNumber": "Serial Number",
-        "macAddress": "MAC Address",
-        "ipAddress": "IP Address",
-        "validity": "Valid Date Time",
-        "isActive": "Status",
-        "zone": "Administrative Zone",
-        "publicKey": "Public Key",
-        "signPublicKey": "Sign Public Key",
-        "language": "English",
-        "edit": "Edit",
-        "create": "Create",
-        "cancel": "Cancel",
-        "update": "Update",
-        "keyboard-tooltip": "Click for Virtual Keyboard (English)",
+        "title": "இயந்திரங்கள்",
+        "header": "இயந்திரம்",
+        "name": "இயந்திரத்தின் பெயர்",
+        "machineSpecId": "இயந்திரங்கள் விவரக்குறிப்பு ஐடி",
+        "serialNumber": "வரிசை எண்",
+        "macAddress": "Mac முகவரி",
+        "ipAddress": "ஐபி முகவரி",
+        "validity": "செல்லுபடியாகும் தேதி நேரம்",
+        "isActive": "நிலை",
+        "zone": "நிர்வாக மண்டலம்",
+        "publicKey": "பொது விசை",
+        "signPublicKey": "பொது விசையில் கையொப்பமிடுங்கள்",
+        "language": "தமிழ்",
+        "edit": "தொகு",
+        "create": "உருவாக்கு",
+        "cancel": "ரத்துசெய்",
+        "update": "புதுப்பிப்பு",
+        "keyboard-tooltip": "மெய்நிகர் விசைப்பலகை (தமிழ்) ஐக் கிளிக் செய்க",
         "errorMessages": {
             "title": "பிழை",
-            "message": "No Data Found",
+            "message": "வேறு தகவல்கள் இல்லை",
             "btnTxt": "Ok"
         },
         "validationMessages": {
@@ -395,7 +398,7 @@
         "popupMessages": {
             "create": {
                 "title": "உறுதிப்படுத்தல்",
-                "message": ["நீங்கள் இயந்திர விவரங்களை உருவாக்க உள்ளீர்கள் ",". எல்லா தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். நீங்கள் உறுதிப்படுத்தியவுடன் இயந்திர ஐடி உருவாக்கப்படும்"],
+                "message": ["நீங்கள் இயந்திர விவரங்களை உருவாக்க உள்ளீர்கள் ", ". எல்லா தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். நீங்கள் உறுதிப்படுத்தியவுடன் இயந்திர ஐடி உருவாக்கப்படும்"],
                 "yesBtnText": "உறுதிப்படுத்தவும்",
                 "noBtnText": "ரத்துசெய்",
                 "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. இயந்திர விவரங்கள் முதன்மை மொழியில் மட்டுமே உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
@@ -409,7 +412,7 @@
             },
             "update-success": {
                 "title": "வெற்றி",
-                "message": ["இயந்திர விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்படுகின்றன. இயந்திர ஐடி: "," மற்றும் இயந்திர பெயர்:"],
+                "message": ["இயந்திர விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்படுகின்றன. இயந்திர ஐடி: ", " மற்றும் இயந்திர பெயர்:"],
                 "btnTxt": "சரி"
             },
             "update-error": {
@@ -419,7 +422,7 @@
             },
             "create-success": {
                 "title": "வெற்றி",
-                "message": ["இயந்திர ஐடியுடன் இயந்திரம் வெற்றிகரமாக உருவாக்கப்பட்டது: "," மற்றும் இயந்திர பெயர்: "],
+                "message": ["இயந்திர ஐடியுடன் இயந்திரம் வெற்றிகரமாக உருவாக்கப்பட்டது: ", " மற்றும் இயந்திர பெயர்: "],
                 "btnTxt": "சரி"
             },
             "create-error": {
@@ -476,58 +479,58 @@
             "message": "RID கிடைக்கவில்லை",
             "btnTxt": "சரி"
         },
-        "statuscheckFailed":"தோல்வி",
-        "statuscheckCompleted":"நிறைவு"
+        "statuscheckFailed": "தோல்வி",
+        "statuscheckCompleted": "நிறைவு"
 
     },
-    "packet-upload":{
-      "header":"பாக்கெட் பதிவேற்றம்",
-      "singleView":{
-        "detailed-view-txt":"விரிவான பார்வை",
-        "status-txt":"நிலை",
-        "uploadedBy-txt": "பதிவேற்றியது",
-        "count-txt":"எண்ணிக்கை",
-        "dataAndTime-txt" : "தேதி மற்றும் நேரம்",
-        "failureDescription-txt":"தோல்வி விளக்கம்",
-        "placeHolder1-txt":"அட்டவணை பெயர்",
-        "placeHolder2-txt":"செயல்பாடுகள்"
-      },
-      "createView":{
-        "input-btn-text":"கோப்பை தேர்ந்தெடுக்கவும்",
-        "input-text1":"கோப்பைப் பதிவேற்று ...",
-        "input-text2":"உங்கள் கோப்பை பதிவேற்றவும்",
-        "upload-btn":"பதிவேற்று",
-        "cancel-btn":"ரத்துசெய்",
-        "popupMessaages":{
-            "popup1":{
-                "uploadConfirm":"பாக்கெட் பதிவேற்றத்தை உறுதிப்படுத்தவும்",
-                "message":"பாக்கெட் செயலாக்கப்படும். Information n எல்லா தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். \ N \ n \ n உறுதிப்படுத்தல் என்பதைக் கிளிக் செய்தவுடன் பரிவர்த்தனை தொடங்கும்.",
-                "confirmBtnTxt":"உறுதிப்படுத்தவும்",
-                "cancelBtnTxt":"ரத்துசெய்"
-            },
-            "popup2":{
-                "title":"தோல்வி !",
-                "btnTxt":"முடிந்தது"
-            },
-            "popup3":{
-                "title":"வெற்றி",
-                "message" :"உங்கள் கோப்பு வெற்றிகரமாக பதிவேற்றப்பட்டது. up n தரவு பதிவேற்றம் தற்போது செயலில் உள்ளது. \ n \ n \ n பரிவர்த்தனை ஐடி :",
-                "btnTxt":"முடிந்தது"
+    "packet-upload": {
+        "header": "பாக்கெட் பதிவேற்றம்",
+        "singleView": {
+            "detailed-view-txt": "விரிவான பார்வை",
+            "status-txt": "நிலை",
+            "uploadedBy-txt": "பதிவேற்றியது",
+            "count-txt": "எண்ணிக்கை",
+            "dataAndTime-txt": "தேதி மற்றும் நேரம்",
+            "failureDescription-txt": "தோல்வி விளக்கம்",
+            "placeHolder1-txt": "அட்டவணை பெயர்",
+            "placeHolder2-txt": "செயல்பாடுகள்"
+        },
+        "createView": {
+            "input-btn-text": "கோப்பை தேர்ந்தெடுக்கவும்",
+            "input-text1": "கோப்பைப் பதிவேற்று ...",
+            "input-text2": "உங்கள் கோப்பை பதிவேற்றவும்",
+            "upload-btn": "பதிவேற்று",
+            "cancel-btn": "ரத்துசெய்",
+            "popupMessaages": {
+                "popup1": {
+                    "uploadConfirm": "பாக்கெட் பதிவேற்றத்தை உறுதிப்படுத்தவும்",
+                    "message": "பாக்கெட் செயலாக்கப்படும். Information n எல்லா தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். உறுதிப்படுத்தல் என்பதைக் கிளிக் செய்தவுடன் பரிவர்த்தனை தொடங்கும்.",
+                    "confirmBtnTxt": "உறுதிப்படுத்தவும்",
+                    "cancelBtnTxt": "ரத்துசெய்"
+                },
+                "popup2": {
+                    "title": "தோல்வி !",
+                    "btnTxt": "முடிந்தது"
+                },
+                "popup3": {
+                    "title": "வெற்றி",
+                    "message": "உங்கள் கோப்பு வெற்றிகரமாக பதிவேற்றப்பட்டது. up n தரவு பதிவேற்றம் தற்போது செயலில் உள்ளது. பரிவர்த்தனை ஐடி :",
+                    "btnTxt": "முடிந்தது"
+                }
+
             }
-     
         }
-      }
     },
-    "actionMessages" : {
+    "actionMessages": {
         "decommission": {
             "success-message": ["", "வெற்றிகரமாக நீக்கப்பட்டது"],
             "success-title": "வெற்றி",
-            "error-message": [""," பணிநீக்கம் செய்ய முடியாது வேறு சில ஆதாரங்களுடன் இன்னும் வரைபடமாக்கப்பட்டுள்ளது. om n நீக்குவதற்கு முன் வளங்களை வரைபடமாக்குங்கள்"],
+            "error-message": ["", " பணிநீக்கம் செய்ய முடியாது வேறு சில ஆதாரங்களுடன் இன்னும் வரைபடமாக்கப்பட்டுள்ளது. om n நீக்குவதற்கு முன் வளங்களை வரைபடமாக்குங்கள்"],
             "error-title": "பிழை",
             "btnTxt": "முடிந்தது",
             "yesBtnTxt": "உறுதிப்படுத்தவும்",
             "noBtnTxt": "ரத்துசெய்",
-            "confirmation-message": ["நீக்குதல் "," வேண்டுமா? Confir n உறுதிப்படுத்தல் என்பதைக் கிளிக் செய்தவுடன் இந்த செயலைச் செயல்தவிர்க்க முடியாது."],
+            "confirmation-message": ["நீக்குதல் ", " வேண்டுமா? Confir n உறுதிப்படுத்தல் என்பதைக் கிளிக் செய்தவுடன் இந்த செயலைச் செயல்தவிர்க்க முடியாது."],
             "confirmation-title": "உறுதிப்படுத்தல்"
         },
         "activate": {
@@ -538,7 +541,7 @@
             "btnTxt": "முடிந்தது",
             "yesBtnTxt": "உறுதிப்படுத்தவும்",
             "noBtnTxt": "ரத்துசெய்",
-            "confirmation-message": [""," செயல்படுத்த விரும்புகிறீர்களா? \ n நீங்கள் விரும்பினால் பின்னர் அதை செயலிழக்க செய்யலாம். அதுவரை அது ஆக்டிவ் ஆக அமைக்கப்படும்"],
+            "confirmation-message": ["", " செயல்படுத்த விரும்புகிறீர்களா? நீங்கள் விரும்பினால் பின்னர் அதை செயலிழக்க செய்யலாம். அதுவரை அது ஆக்டிவ் ஆக அமைக்கப்படும்"],
             "confirmation-title": "உறுதிப்படுத்தல்"
         },
         "deactivate": {
@@ -549,32 +552,293 @@
             "btnTxt": "முடிந்தது",
             "yesBtnTxt": "Confirm",
             "noBtnTxt": "Cancel",
-            "confirmation-message": [""," ஐ செயலிழக்க விரும்புகிறீர்களா? \ n நீங்கள் விரும்பினால் பின்னர் அதை செயல்படுத்தலாம். அதுவரை அது செயலற்றதாக அமைக்கப்படும்"],
+            "confirmation-message": ["", " ஐ செயலிழக்க விரும்புகிறீர்களா?  நீங்கள் விரும்பினால் பின்னர் அதை செயல்படுத்தலாம். அதுவரை அது செயலற்றதாக அமைக்கப்படும்"],
             "confirmation-title": "உறுதிப்படுத்தல்"
+        },
+        "resumeprocessingandremovehotlistedtag": {
+            "success-message": ["", " மீண்டும் செயலாக்கம் மற்றும் ஹாட்லிஸ்ட் குறிச்சொல்லிலிருந்து அகற்றப்பட்டது"],
+            "success-title": "வெற்றி",
+            "error-message": ["", " செயலாக்கத்தை மீண்டும் தொடங்கவும், பட்டியலிடப்பட்ட குறிச்சொல்லிலிருந்து அகற்றவும் முடியவில்லை "],
+            "error-title": "பிழை ",
+            "btnTxt": "முடிந்தது ",
+            "yesBtnTxt": "உறுதிப்படுத்தவும் ",
+            "noBtnTxt": "ரத்துசெய் ",
+            "confirmation-message": ["செயலாக்கத்தை மீண்டும் செய்ய விரும்புகிறீர்களா மற்றும் பதிவு ஐடியில் ஹாட்லிஸ்ட் குறிச்சொல்லை அகற்று ", " ? \n"],
+            "confirmation-title": "உறுதிப்படுத்தல் "
+        },
+        "resumefrombeginning": {
+            "success-message": ["", " ஆரம்பத்தில் இருந்து மீண்டும் தொடங்கப்படுகிறது "],
+            "success-title": "வெற்றி ",
+            "error-message": ["", " ஹாட்லிஸ்ட் செய்யப்பட்ட குறிச்சொல்லிலிருந்து மீண்டும் தொடங்கவும் அகற்றவும் முடியவில்லை "],
+            "error-title": "பிழை ",
+            "btnTxt": "முடிந்தது ",
+            "yesBtnTxt": "உறுதிப்படுத்தவும் ",
+            "noBtnTxt": "ரத்துசெய் ",
+            "confirmation-message": ["பதிவு ஐடியில் தொடங்கி மீண்டும் செயலைச் செய்ய விரும்புகிறீர்களா?  ", " ? \n"],
+            "confirmation-title": "உறுதிப்படுத்தல் "
+        },
+        "resumefrombeginningandremovehotlistedtag": {
+            "success-message": ["", " தொடக்கத்திலிருந்து மீண்டும் தொடங்கப்பட்டு, பட்டியலிடப்பட்ட குறிச்சொல்லிலிருந்து அகற்றப்பட்டது "],
+            "success-title": "வெற்றி ",
+            "error-message": ["", " தொடக்கத்தில் இருந்து மீண்டும் தொடங்கவும், பட்டியலிடப்பட்ட குறிச்சொல்லிலிருந்து அகற்றவும் முடியவில்லை "],
+            "error-title": "பிழை ",
+            "btnTxt": "முடிந்தது ",
+            "yesBtnTxt": "உறுதிப்படுத்தவும் ",
+            "noBtnTxt": "ரத்துசெய் ",
+            "confirmation-message": ["தொடக்கத்தில் இருந்து செயலை மீண்டும் செய்ய விரும்புகிறீர்களா மற்றும் பதிவு ஐடியில் ஹாட்லிஸ்ட் குறிச்சொல்லை அகற்று  ", " ? \n"],
+            "confirmation-title": "உறுதிப்படுத்தல்"
+        },
+        "stopprocessing": {
+            "success-message": ["", " நிறுத்தப்பட்டது "],
+            "success-title": "வெற்றி ",
+            "error-message": ["", " நிறுத்த முடியவில்லை "],
+            "error-title": "பிழை ",
+            "btnTxt": "முடிந்தது ",
+            "yesBtnTxt": "உறுதிப்படுத்தவும் ",
+            "noBtnTxt": "ரத்துசெய் ",
+            "confirmation-message": ["பதிவு ஐடியில் செயலாக்கத்தை நிறுத்துங்கள்  ", " ? \n"],
+            "confirmation-title": "உறுதிப்படுத்தல் "
         }
     },
-    "detailView":{
-        "detail":"விரிவான பார்வை"
+    "detailView": {
+        "detail": "விரிவான பார்வை"
     },
-    "users":{
-        "redirectMessage":"கீக்லோக்கின் பயனர்கள் பட்டியலுக்கு திருப்பிவிட இங்கே கிளிக் செய்க"
+    "users": {
+        "redirectMessage": "கீக்லோக்கின் பயனர்கள் பட்டியலுக்கு திருப்பிவிட இங்கே கிளிக் செய்க"
     },
-    "bulkUpload":{
-        "operation":"Operation",
-        "operationCtrl":[{"label":"Insert","value":"Insert"},{"label":"Update","value":"Update"},{"label":"Delete","value":"Delete"}],
-        "tableName":"Select Table Name",
-        "chooseFile":"Choose File",
-        "uploadFile":"Upload Your File",
+    "bulkUpload": {
+        "operation": "Operation",
+        "operationCtrl": [{
+            "label": "Insert",
+            "value": "Insert"
+        }, {
+            "label": "Update",
+            "value": "Update"
+        }, {
+            "label": "Delete",
+            "value": "Delete"
+        }],
+        "tableName": "Select Table Name",
+        "chooseFile": "Choose File",
+        "uploadFile": "Upload Your File",
         "upload": "UPLOAD",
         "cancel": "Cancel",
-        "tableNames":[{"id":"applicant_valid_document","value":"Applicant Valid Document"},{"id":"appl_form_type","value":"Application"},{"id":"biometric_attribute","value":"BiometricAttribute"},{"id":"biometric_type","value":"BiometricType"},{"id":"blacklisted_words","value":"BlacklistedWords"},{"id":"daysofweek_list","value":"DaysOfWeek"},{"id":"device_master","value":"Device"},{"id":"registered_device_master","value":"DeviceRegister"},{"id":"device_spec","value":"DeviceSpecification"},{"id":"device_type","value":"DeviceType"},{"id":"doc_category","value":"DocumentCategory"},{"id":"doc_type","value":"DocumentType"},{"id":"dynamic_field","value":"DynamicField"},{"id":"reg_exceptional_holiday","value":"ExceptionalHoliday"},{"id":"foundational_trust_provider","value":"FoundationalTrustProvider"},{"id":"gender","value":"Gender"},{"id":"loc_holiday","value":"Holiday"},{"id":"identity_schema","value":"IdentitySchema"},{"id":"id_type","value":"IdType"},{"id":"individual_type","value":"IndividualType"},{"id":"language","value":"Language"},{"id":"location","value":"Location"},{"id":"loc_hierarchy_list","value":"LocationHierarchy"},{"id":"machine_master","value":"Machine"},{"id":"machine_spec","value":"MachineSpecification"},{"id":"machine_type","value":"MachineType"},{"id":"module_detail","value":"ModuleDetail"},{"id":"mosip_device_service","value":"MOSIPDeviceService"},{"id":"reason_category","value":"ReasonCategory"},{"id":"reason_list","value":"ReasonList"},{"id":"reg_exceptional_holiday","value":"RegExceptionalHoliday"},{"id":"registered_device_master","value":"RegisteredDevice"},{"id":"registration_center","value":"RegistrationCenter"},{"id":"reg_center_device","value":"RegistrationCenterDevice"},{"id":"reg_center_machine","value":"RegistrationCenterMachine"},{"id":"reg_center_machine_device","value":"RegistrationCenterMachineDevice"},{"id":"reg_center_type","value":"RegistrationCenterType"},{"id":"reg_center_user","value":"RegistrationCenterUser"},{"id":"reg_center_user_machine","value":"RegistrationCenterUserMachine"},{"id":"reg_device_sub_type","value":"RegistrationDeviceSubType"},{"id":"reg_device_type","value":"RegistrationDeviceType"},{"id":"reg_working_nonworking","value":"RegWorkingNonWorking"},{"id":"schema_def","value":"SchemaDefinition"},{"id":"template","value":"Template"},{"id":"template_file_format","value":"TemplateFileFormat"},{"id":"template_type","value":"TemplateType"},{"id":"title","value":"Title"},{"id":"user_detail","value":"UserDetails"},{"id":"valid_document","value":"ValidDocument"},{"id":"zone","value":"Zone"},{"id":"zone_user","value":"ZoneUser"}]
+        "tableNames": [{
+            "id": "applicant_valid_document",
+            "value": "விண்ணப்பதாரர் செல்லுபடியாகும் ஆவணம் "
+        }, {
+            "id": "appl_form_type",
+            "value": "விண்ணப்பம்"
+        }, {
+            "id": "biometric_attribute",
+            "value": "பயோமெட்ரிக் அட்ரிபியூட் "
+        }, {
+            "id": "biometric_type",
+            "value": "பயோமெட்ரிக் வகை "
+        }, {
+            "id": "blacklisted_words",
+            "value": "தடுப்புப்பட்டியல் "
+        }, {
+            "id": "daysofweek_list",
+            "value": "வாரத்தின் நாட்கள் "
+        }, {
+            "id": "device_master",
+            "value": "சாதனம் "
+        }, {
+            "id": "registered_device_master",
+            "value": "சாதன பதிவு "
+        }, {
+            "id": "device_spec",
+            "value": "சாதன விவரக்குறிப்பு "
+        }, {
+            "id": "device_type",
+            "value": "கருவியின் வகை"
+        }, {
+            "id": "doc_category",
+            "value": "ஆவண வகை "
+        }, {
+            "id": "doc_type",
+            "value": "ஆவண வகை "
+        }, {
+            "id": "dynamic_field",
+            "value": "டைனமிக் புலம் "
+        }, {
+            "id": "reg_exceptional_holiday",
+            "value": "விதிவிலக்கான விடுமுறை "
+        }, {
+            "id": "foundational_trust_provider",
+            "value": "அடித்தள அறக்கட்டளை வழங்குநர் "
+        }, {
+            "id": "gender",
+            "value": "பாலினம்"
+        }, {
+            "id": "loc_holiday",
+            "value": "விடுமுறை "
+        }, {
+            "id": "identity_schema",
+            "value": "அடையாளத் திட்டம் "
+        }, {
+            "id": "id_type",
+            "value": "ஐடி வகை "
+        }, {
+            "id": "individual_type",
+            "value": "தனிப்பட்ட வகை "
+        }, {
+            "id": "language",
+            "value": "மொழி "
+        }, {
+            "id": "location",
+            "value": "இடம்"
+        }, {
+            "id": "loc_hierarchy_list",
+            "value": "இருப்பிட வரிசைமுறை "
+        }, {
+            "id": "machine_master",
+            "value": "இயந்திரம் "
+        }, {
+            "id": "machine_spec",
+            "value": "இயந்திர விவரக்குறிப்பு "
+        }, {
+            "id": "machine_type",
+            "value": "மெஷின் டைப் "
+        }, {
+            "id": "module_detail",
+            "value": "தொகுதி விவரம் "
+        }, {
+            "id": "mosip_device_service",
+            "value": "mosip சாதன சேவை "
+        }, {
+            "id": "reason_category",
+            "value": "காரணம் வகை "
+        }, {
+            "id": "reason_list",
+            "value": "காரணம் பட்டியல் "
+        }, {
+            "id": "reg_exceptional_holiday",
+            "value": "பதிவு விதிவிலக்கான விடுமுறை "
+        }, {
+            "id": "registered_device_master",
+            "value": "பதிவுசெய்யப்பட்ட சாதனம் "
+        }, {
+            "id": "registration_center",
+            "value": "பதிவு மையம் "
+        }, {
+            "id": "reg_center_device",
+            "value": "பதிவு மைய சாதனம் "
+        }, {
+            "id": "reg_center_machine",
+            "value": "பதிவு மையம் இயந்திரம் "
+        }, {
+            "id": "reg_center_machine_device",
+            "value": "பதிவு மையம் இயந்திர சாதனம் "
+        }, {
+            "id": "reg_center_type",
+            "value": "பதிவு மைய வகை "
+        }, {
+            "id": "reg_center_user",
+            "value": "பதிவு மைய பயனர் "
+        }, {
+            "id": "reg_center_user_machine",
+            "value": "பதிவு மைய பயனர் இயந்திரம் "
+        }, {
+            "id": "reg_device_sub_type",
+            "value": "பதிவு சாதன துணை வகை "
+        }, {
+            "id": "reg_device_type",
+            "value": "பதிவு சாதன வகை"
+        }, {
+            "id": "reg_working_nonworking",
+            "value": "பதிவு வேலை மற்றும் வேலை செய்யாதது "
+        }, {
+            "id": "schema_def",
+            "value": "திட்ட வரையறை "
+        }, {
+            "id": "template",
+            "value": "வார்ப்புரு "
+        }, {
+            "id": "template_file_format",
+            "value": "வார்ப்புரு கோப்பு வடிவம் "
+        }, {
+            "id": "template_type",
+            "value": "வார்ப்புரு வகை "
+        }, {
+            "id": "title",
+            "value": "தலைப்பு "
+        }, {
+            "id": "user_detail",
+            "value": "பயனர் விவரங்கள் "
+        }, {
+            "id": "valid_document",
+            "value": "செல்லுபடியாகும் ஆவணம் "
+        }, {
+            "id": "zone",
+            "value": "மண்டலம் "
+        }, {
+            "id": "zone_user",
+            "value": "மண்டல பயனர் "
+        }]
     },
-    "filters":{
-        "titleTxt":"வடிப்பான்களைச் சேர்க்கவும்",
-        "footerButtons":{
-            "resetTxt":"மீட்டமை",
-            "cancelTxt":"ரத்துசெய்",
-            "applyTxt":"விண்ணப்பிக்கவும்"
+    "filters": {
+        "titleTxt": "வடிப்பான்களைச் சேர்க்கவும்",
+        "footerButtons": {
+            "resetTxt": "மீட்டமை",
+            "cancelTxt": "ரத்துசெய்",
+            "applyTxt": "விண்ணப்பிக்கவும்"
         }
+    },
+    "isActive":{
+        "Active":"செயலில்",
+        "InActive":"செயலற்றது"
+    },
+    "generatecsr": {
+        "title": "சி.எஸ்.ஆரை உருவாக்குங்கள்",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "commonName": "பொது பெயர்",
+        "organization": "அமைப்பு",
+        "organizationUnit": "அமைப்பு அலகு",
+        "location": "இடம்",
+        "state": "நிலை",
+        "country": "நாடு",
+        "button":"உருவாக்கு"
+    },
+    "generatemasterkey": {
+        "title": "மாஸ்டர்கீவை உருவாக்குங்கள்",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "commonName": "பொது பெயர்",
+        "organization": "அமைப்பு",
+        "organizationUnit": "அமைப்பு அலகு",
+        "location": "இடம்",
+        "state": "நிலை",
+        "country": "நாடு",
+        "force": "படை",
+        "objectType": "பொருள் வகை",
+        "button":"உருவாக்கு"
+    },
+    "getcertificate": {
+        "title": "சான்றிதழ் பெறுங்கள்",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "button":"சான்றிதழ் பெறுங்கள்"
+    },
+    "uploadcertificate": {
+        "title": "பதிவேற்ற சான்றிதழ்",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "chooseFile" : "கோப்பை தேர்ந்தெடுங்கள்",
+        "uploadYourFile":"உங்கள் கோப்பை பதிவேற்றவும்",
+        "button":"உருவாக்கு"
+    },
+    "uploadotherdomaincertificate": {
+        "title": "பிற டொமைன் சான்றிதழைப் பதிவேற்றுக",
+        "applicationId" :"விண்ணப்ப ஐடி",
+        "referenceId": "குறிப்புஐடி",
+        "chooseFile" : "கோப்பை தேர்ந்தெடுங்கள்",
+        "uploadYourFile":"உங்கள் கோப்பை பதிவேற்றவும்",
+        "button":"உருவாக்கு"
+    },
+    "genericerror":{
+        "fieldValidation":"இந்த புலம் தேவை"
     }
 }
