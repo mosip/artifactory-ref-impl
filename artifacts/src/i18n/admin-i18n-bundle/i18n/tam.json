@@ -607,22 +607,22 @@
         "redirectMessage": "கீக்லோக்கின் பயனர்கள் பட்டியலுக்கு திருப்பிவிட இங்கே கிளிக் செய்க"
     },
     "bulkUpload": {
-        "operation": "Operation",
+        "operation": "செயல்பாடு",
         "operationCtrl": [{
-            "label": "Insert",
-            "value": "Insert"
+            "label": "செருக",
+            "value": "செருக"
         }, {
-            "label": "Update",
-            "value": "Update"
+            "label": "புதுப்பி",
+            "value": "புதுப்பி"
         }, {
-            "label": "Delete",
-            "value": "Delete"
+            "label": "அழி",
+            "value": "அழி"
         }],
-        "tableName": "Select Table Name",
-        "chooseFile": "Choose File",
-        "uploadFile": "Upload Your File",
-        "upload": "UPLOAD",
-        "cancel": "Cancel",
+        "tableName": "அட்டவணை பெயரைத் தேர்ந்தெடுக்கவும்",
+        "chooseFile": "கோப்பை தேர்ந்தெடுங்கள்",
+        "uploadFile": "உங்கள் கோப்பை பதிவேற்றவும்",
+        "upload": "பதிவேற்று",
+        "cancel": "ரத்துசெய்",
         "tableNames": [{
             "id": "applicant_valid_document",
             "value": "விண்ணப்பதாரர் செல்லுபடியாகும் ஆவணம் "
