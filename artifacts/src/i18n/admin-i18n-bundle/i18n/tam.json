@@ -840,5 +840,17 @@
     },
     "genericerror":{
         "fieldValidation":"இந்த புலம் தேவை"
+    },
+    "genericmessage":{
+        "successLabel":"வெற்றி",
+        "successButton":"சரி",
+        "errorLabel":"தவறு",
+        "createMessage":"வெற்றிகரமாக உருவாக்கப்பட்டது",
+        "updateMessage":"வெற்றிகரமாக புதுப்பிக்கப்பட்டது"
+    },
+    "headermessage":{
+        "vesion":"நிர்வாகி UI பதிப்பு",
+        "Zone":"மண்டலம்",
+        "Logout":"வெளியேறு"
     }
 }

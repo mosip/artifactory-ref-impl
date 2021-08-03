@@ -844,5 +844,17 @@
 	},
 	"genericerror": {
 		"fieldValidation": "ಈ ಕ್ಷೇತ್ರದ ಅಗತ್ಯವಿದೆ"
+	},
+	"genericmessage":{
+		"successLabel":"ಯಶಸ್ಸು",
+		"successButton":"ಸರಿ",
+		"errorLabel":"ತಪ್ಪು",
+		"createMessage":"ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+		"updateMessage":"ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ"
+	},
+	"headermessage":{
+		"vesion":"ನಿರ್ವಾಹಕ UI ಆವೃತ್ತಿ",
+		"Zone":"ವಲಯ",
+		"Logout":"ಲಾಗ್ ಔಟ್"
 	}
 }
