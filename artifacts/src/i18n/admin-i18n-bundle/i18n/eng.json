@@ -159,7 +159,7 @@
             },
             "workingDays": {
                 "required": "Please select atleast one day"
-            } 
+            }
         },
         "popupMessages": {
             "create": {
@@ -221,7 +221,7 @@
         ],
         "buttonText": "OK",
         "title": "Error"
-    }, 
+    },
     "masterData": {
         "master-data": "Master Data",
         "total-no": "Total No",
@@ -484,42 +484,42 @@
 
     },
     "packet-upload":{
-      "header":"Packet Upload",
-      "singleView":{
-        "detailed-view-txt":"Detailed View",
-        "status-txt":"Status",
-        "uploadedBy-txt": "Uploaded By",
-        "count-txt":"Count",
-        "dataAndTime-txt" : "Date And Time",
-        "failureDescription-txt":"Failure Description",
-        "placeHolder1-txt":"Table Name",
-        "placeHolder2-txt":"Operations"
-      },
-      "createView":{
-        "input-btn-text":"Choose File",
-        "input-text1":"Upload file...",
-        "input-text2":"Upload Your File",
-        "upload-btn":"UPLOAD",
-        "cancel-btn":"CANCEL",
-        "popupMessaages":{
-            "popup1":{
-                "uploadConfirm":"Confirm Packet Upload",
-                "message":"Packet will be processed.\n Please ensure that all information is correct.\n\n\n Transaction will start once you click on confirm.",
-                "confirmBtnTxt":"CONFIRM",
-                "cancelBtnTxt":"Cancel"
-            },
-            "popup2":{
-                "title":"Failure !",
-                "btnTxt":"DONE"
-            },
-            "popup3":{
-                "title":"Success",
-                "message" :"Your file has been uploaded successfully. \n Data upload is currently in progress.\n\n\n Transaction ID :",
-                "btnTxt":"DONE"
+        "header":"Packet Upload",
+        "singleView":{
+            "detailed-view-txt":"Detailed View",
+            "status-txt":"Status",
+            "uploadedBy-txt": "Uploaded By",
+            "count-txt":"Count",
+            "dataAndTime-txt" : "Date And Time",
+            "failureDescription-txt":"Failure Description",
+            "placeHolder1-txt":"Table Name",
+            "placeHolder2-txt":"Operations"
+        },
+        "createView":{
+            "input-btn-text":"Choose File",
+            "input-text1":"Upload file...",
+            "input-text2":"Upload Your File",
+            "upload-btn":"UPLOAD",
+            "cancel-btn":"CANCEL",
+            "popupMessaages":{
+                "popup1":{
+                    "uploadConfirm":"Confirm Packet Upload",
+                    "message":"Packet will be processed.\n Please ensure that all information is correct.\n\n\n Transaction will start once you click on confirm.",
+                    "confirmBtnTxt":"CONFIRM",
+                    "cancelBtnTxt":"Cancel"
+                },
+                "popup2":{
+                    "title":"Failure !",
+                    "btnTxt":"DONE"
+                },
+                "popup3":{
+                    "title":"Success",
+                    "message" :"Your file has been uploaded successfully. \n Data upload is currently in progress.\n\n\n Transaction ID :",
+                    "btnTxt":"DONE"
+                }
+
             }
-     
         }
-      }
     },
     "actionMessages" : {
         "decommission": {
@@ -678,5 +678,17 @@
     },
     "genericerror":{
         "fieldValidation":"This field is required"
+    },
+    "genericmessage":{
+        "successLabel":"Success",
+        "successButton":"OK",
+        "errorLabel":"Error",
+        "createMessage":"Created Successfully",
+        "updateMessage":"Updated Successfully"
+    },
+    "headermessage":{
+        "vesion":"Admin UI version",
+        "Zone":"Zone",
+        "Logout":"Logout"
     }
 }

@@ -159,7 +159,7 @@
             },
             "workingDays": {
                 "required": "Veuillez sélectionner au moins un jour"
-            } 
+            }
         },
         "popupMessages": {
             "create": {
@@ -476,50 +476,50 @@
         "viewMore": "Afficher plus",
         "viewLess": "Voir moins",
         "errorMessages": {
-                "title": "Erreur",
-                "message": "RID introuvable",
-                "btnTxt": "D'accord"
+            "title": "Erreur",
+            "message": "RID introuvable",
+            "btnTxt": "D'accord"
         },
         "statuscheckFailed":"Échoué",
         "statuscheckCompleted":"Terminé"
     },"packet-upload":{
-        "header":"Téléchargement de paquets",
-        "singleView":{
-          "detailed-view-txt":"Vue détaillée",
-          "status-txt":"Statut",
-          "uploadedBy-txt": "Telechargé par",
-          "count-txt":"Compter",
-          "dataAndTime-txt" : "Date et l'heure",
-          "failureDescription-txt":"description de l'échec",
-          "placeHolder1-txt":"Nom de la table",
-          "placeHolder2-txt":"Opérations"
-        },
-        "createView":{
-          "input-btn-text":"Choisir le fichier",
-          "input-text1":"Téléverser un fichier...",
-          "input-text2":"Téléchargez votre fichier",
-          "upload-btn":"TÉLÉCHARGER",
-          "cancel-btn":"ANNULER",
-          "popupMessaages":{
-              "popup1":{
-                  "uploadConfirm":"Confirmer le téléchargement des paquets",
-                  "message":"Le paquet sera traité. \n Veuillez vous assurer que toutes les informations sont correctes. \n \n \n La transaction démarrera une fois que vous aurez cliqué sur Confirmer.",
-                  "confirmBtnTxt":"CONFIRMER",
-                  "cancelBtnTxt":"Annuler"
-              },
-              "popup2":{
-                  "title":"Échec !",
-                  "btnTxt":"TERMINÉ"
-              },
-              "popup3":{
-                  "title":"Succès",
-                  "message" :"Votre fichier a été téléchargé avec succès. \n Le téléchargement des données est en cours. \n \n \n ID de transaction:",
-                  "btnTxt":"TERMINÉ"
-              }
-       
-          }
+    "header":"Téléchargement de paquets",
+    "singleView":{
+        "detailed-view-txt":"Vue détaillée",
+        "status-txt":"Statut",
+        "uploadedBy-txt": "Telechargé par",
+        "count-txt":"Compter",
+        "dataAndTime-txt" : "Date et l'heure",
+        "failureDescription-txt":"description de l'échec",
+        "placeHolder1-txt":"Nom de la table",
+        "placeHolder2-txt":"Opérations"
+    },
+    "createView":{
+        "input-btn-text":"Choisir le fichier",
+        "input-text1":"Téléverser un fichier...",
+        "input-text2":"Téléchargez votre fichier",
+        "upload-btn":"TÉLÉCHARGER",
+        "cancel-btn":"ANNULER",
+        "popupMessaages":{
+            "popup1":{
+                "uploadConfirm":"Confirmer le téléchargement des paquets",
+                "message":"Le paquet sera traité. \n Veuillez vous assurer que toutes les informations sont correctes. \n \n \n La transaction démarrera une fois que vous aurez cliqué sur Confirmer.",
+                "confirmBtnTxt":"CONFIRMER",
+                "cancelBtnTxt":"Annuler"
+            },
+            "popup2":{
+                "title":"Échec !",
+                "btnTxt":"TERMINÉ"
+            },
+            "popup3":{
+                "title":"Succès",
+                "message" :"Votre fichier a été téléchargé avec succès. \n Le téléchargement des données est en cours. \n \n \n ID de transaction:",
+                "btnTxt":"TERMINÉ"
+            }
+
         }
-      },
+    }
+},
     "actionMessages" : {
         "decommission": {
             "success-message": ["", "est mis hors service avec succès"],
@@ -678,5 +678,17 @@
     },
     "genericerror":{
         "fieldValidation":"Ce champ est requis"
+    },
+    "genericmessage":{
+        "successLabel":"Succès",
+        "successButton":"D'accord",
+        "errorLabel":"Erreur",
+        "createMessage":"Créé avec succès",
+        "updateMessage":"Mis à jour avec succés"
+    },
+    "headermessage":{
+        "vesion":"Version de l'interface utilisateur d'administration",
+        "Zone":"Zone",
+        "Logout":"Se déconnecter"
     }
 }
