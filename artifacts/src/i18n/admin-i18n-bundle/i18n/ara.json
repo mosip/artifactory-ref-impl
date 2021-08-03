@@ -728,5 +728,17 @@
     },
     "genericerror":{
         "fieldValidation":"هذه الخانة مطلوبه"
+    },
+    "genericmessage":{
+        "successLabel":"النجاح",
+        "successButton":"حسنا",
+        "errorLabel":"خطأ",
+        "createMessage":"تم إنشاؤه بنجاح",
+        "updateMessage":"تم التحديث بنجاح"
+    },
+    "headermessage":{
+        "vesion":"إصدار واجهة المستخدم الإدارية",
+        "Zone":"منطقة",
+        "Logout":"تسجيل خروج"
     }
 }

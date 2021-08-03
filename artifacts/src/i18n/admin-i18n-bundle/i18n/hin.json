@@ -884,5 +884,17 @@
 	},
 	"genericerror": {
 		"fieldValidation": "यह फ़ील्ड आवश्यक है"
+	},
+	"genericmessage":{
+		"successLabel":"सफलता",
+		"successButton":"ठीक है",
+		"errorLabel":"गलत",
+		"createMessage":"सफलतापूर्वक बनाया गया",
+		"updateMessage":"सफलतापूर्वक उत्परिवर्तित"
+	},
+	"headermessage":{
+		"vesion":"व्यवस्थापक UI संस्करण",
+		"Zone":"क्षेत्र",
+		"Logout":"लॉग आउट"
 	}
 }
