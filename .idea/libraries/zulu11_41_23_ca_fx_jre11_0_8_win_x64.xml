@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="zulu11.41.23-ca-fx-jre11.0.8-win_x64">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/artifacts/src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
