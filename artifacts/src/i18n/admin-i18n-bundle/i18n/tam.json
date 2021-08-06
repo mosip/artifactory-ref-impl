@@ -26,15 +26,15 @@
         },
         "item7": {
             "title": "கீமேனேஜர்",
-            "subItem1": "GenerateCSR",
-            "subItem2": "GenerateMasterKey",
-            "subItem3": "GetCertificate",
-            "subItem4": "UploadCertificate",
-            "subItem5": "UploadOtherDomainCertificate"
+            "subItem1": "CSR ஐ உருவாக்கவும்",
+            "subItem2": "MasterKey ஐ உருவாக்கவும்",
+            "subItem3": "சான்றிதழ் பெறவும்",
+            "subItem4": "சான்றிதழைப் பதிவேற்றவும்",
+            "subItem5": "பிற டொமைன் சான்றிதழைப் பதிவேற்றவும்"
         }
     },
     "dashboard": {
-        "welcomeMessage":" मोसिप वप्यवस्थापक पोर्टल पर आपका स्वागत है !"
+        "welcomeMessage":"Mosip Admin போர்ட்டலுக்கு வரவேற்கிறோம்!"
     },
     "center": {
         "title": "மையங்கள்",

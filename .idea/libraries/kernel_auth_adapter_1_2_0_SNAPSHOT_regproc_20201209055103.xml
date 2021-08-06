@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kernel-auth-adapter-1.2.0-SNAPSHOT-regproc-20201209055103">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/artifacts/src/auth/kernel-auth-adapter/1.2.0-SNAPSHOT/kernel-auth-adapter-1.2.0-SNAPSHOT-regproc-20201209055103.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

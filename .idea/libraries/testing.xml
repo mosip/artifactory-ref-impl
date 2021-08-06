@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="testing">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/artifacts/src/testing/regproc-reprocessor-ceylon-cache-repo.zip!/" />
+      <root url="jar://$PROJECT_DIR$/artifacts/src/testing/glowroot.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
