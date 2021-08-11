@@ -665,13 +665,13 @@
 		"operation": "ऑपरेशन",
 		"operationCtrl": [{
 			"label": "इन्सर्ट",
-			"value": "इन्सर्ट"
+			"value": "Insert"
 		}, {
 			"label": "अपडेट",
-			"value": "अपडेट"
+			"value": "Update"
 		}, {
 			"label": "डिलीट",
-			"value": "हटाएं"
+			"value": "Delete"
 		}],
 		"tableName": "तालिका का नाम चुनें",
 		"chooseFile": "फाइल चुनें",
@@ -680,136 +680,136 @@
 		"cancel": "रद्द करें",
 		"tableNames": [{
 			"id": "applicant_valid_document",
-			"value": "आवेदक वैध दस्तावेज "
+			"value": "आवेदक वैध दस्तावेज"
 		}, {
 			"id": "appl_form_type",
-			"value": "आवेदन "
+			"value": "आवेदन"
 		}, {
 			"id": "biometric_attribute",
-			"value": "बायोमेट्रिक विशेषता "
+			"value": "बायोमेट्रिक विशेषता"
 		}, {
 			"id": "biometric_type",
-			"value": "बॉयोमीट्रिक प्रकार "
+			"value": "बॉयोमीट्रिक प्रकार"
 		}, {
 			"id": "blacklisted_words",
-			"value": "ब्लैक लिस्टेड शब्द "
+			"value": "ब्लैक लिस्टेड शब्द"
 		}, {
 			"id": "daysofweek_list",
 			"value": "सप्ताह के दिन"
 		}, {
 			"id": "device_master",
-			"value": "युक्ति "
+			"value": "युक्ति"
 		}, {
 			"id": "registered_device_master",
-			"value": "डिवाइस रजिस्टर "
+			"value": "डिवाइस रजिस्टर"
 		}, {
 			"id": "device_spec",
-			"value": "डिवाइस विशिष्टता "
+			"value": "डिवाइस विशिष्टता"
 		}, {
 			"id": "device_type",
-			"value": "उपकरण का प्रकार "
+			"value": "उपकरण का प्रकार"
 		}, {
 			"id": "doc_category",
-			"value": "दस्तावेज़ श्रेणी "
+			"value": "दस्तावेज़ श्रेणी"
 		}, {
 			"id": "doc_type",
-			"value": "दस्तावेज़ का प्रकार "
+			"value": "दस्तावेज़ का प्रकार"
 		}, {
 			"id": "dynamic_field",
-			"value": "गतिशील फ़ील्ड "
+			"value": "गतिशील फ़ील्ड"
 		}, {
 			"id": "reg_exceptional_holiday",
-			"value": "असाधारण छुट्टी "
+			"value": "असाधारण छुट्टी"
 		}, {
 			"id": "foundational_trust_provider",
-			"value": "फाउंडेशनल ट्रस्ट प्रोवाइडर "
+			"value": "फाउंडेशनल ट्रस्ट प्रोवाइडर"
 		}, {
 			"id": "gender",
-			"value": "लिंग "
+			"value": "लिंग"
 		}, {
 			"id": "loc_holiday",
-			"value": "छुट्टी "
+			"value": "छुट्टी"
 		}, {
 			"id": "identity_schema",
-			"value": "पहचान स्कीमा "
+			"value": "पहचान स्कीमा"
 		}, {
 			"id": "id_type",
 			"value": "आईडी का प्रकार"
 		}, {
 			"id": "individual_type",
-			"value": "व्यक्तिगत प्रकार "
+			"value": "व्यक्तिगत प्रकार"
 		}, {
 			"id": "language",
-			"value": "भाषा "
+			"value": "भाषा"
 		}, {
 			"id": "location",
-			"value": "स्थान "
+			"value": "स्थान"
 		}, {
 			"id": "loc_hierarchy_list",
-			"value": "स्थान पदानुक्रम "
+			"value": "स्थान पदानुक्रम"
 		}, {
 			"id": "machine_master",
-			"value": "मशीन "
+			"value": "मशीन"
 		}, {
 			"id": "machine_spec",
-			"value": "मशीन विशिष्टता "
+			"value": "मशीन विशिष्टता"
 		}, {
 			"id": "machine_type",
 			"value": "मशीन की तरह"
 		}, {
 			"id": "module_detail",
-			"value": "मॉड्यूल विवरण "
+			"value": "मॉड्यूल विवरण"
 		}, {
 			"id": "mosip_device_service",
 			"value": "MOSIP डिवाइस सेवा"
 		}, {
 			"id": "reason_category",
-			"value": "कारण श्रेणी "
+			"value": "कारण श्रेणी"
 		}, {
 			"id": "reason_list",
-			"value": "कारण सूची "
+			"value": "कारण सूची"
 		}, {
 			"id": "reg_exceptional_holiday",
-			"value": "पंजीकरण असाधारणछुट्टी "
+			"value": "पंजीकरण असाधारणछुट्टी"
 		}, {
 			"id": "registered_device_master",
-			"value": "पंजीकृत डिवाइस "
+			"value": "पंजीकृत डिवाइस"
 		}, {
 			"id": "registration_center",
-			"value": "पंजीकरण केंद्र "
+			"value": "पंजीकरण केंद्र"
 		}, {
 			"id": "reg_center_device",
-			"value": "पंजीकरण केंद्र डिवाइस "
+			"value": "पंजीकरण केंद्र डिवाइस"
 		}, {
 			"id": "reg_center_machine",
-			"value": "पंजीकरण केंद्र मशीन "
+			"value": "पंजीकरण केंद्र मशीन"
 		}, {
 			"id": "reg_center_machine_device",
-			"value": "पंजीकरण केंद्र मशीन डिवाइस "
+			"value": "पंजीकरण केंद्र मशीन डिवाइस"
 		}, {
 			"id": "reg_center_type",
-			"value": "पंजीकरण केंद्र प्रकार "
+			"value": "पंजीकरण केंद्र प्रकार"
 		}, {
 			"id": "reg_center_user",
-			"value": "पंजीकरण केंद्र उपयोगकर्ता "
+			"value": "पंजीकरण केंद्र उपयोगकर्ता"
 		}, {
 			"id": "reg_center_user_machine",
-			"value": "पंजीकरण केंद्र उपयोगकर्ता मशीन "
+			"value": "पंजीकरण केंद्र उपयोगकर्ता मशीन"
 		}, {
 			"id": "reg_device_sub_type",
-			"value": "पंजीकरण उपकरण उप प्रकार "
+			"value": "पंजीकरण उपकरण उप प्रकार"
 		}, {
 			"id": "reg_device_type",
-			"value": "पंजीकरण उपकरण प्रकार "
+			"value": "पंजीकरण उपकरण प्रकार"
 		}, {
 			"id": "reg_working_nonworking",
-			"value": "पंजीकरण कार्य गैर-कामकाजी "
+			"value": "पंजीकरण कार्य गैर-कामकाजी"
 		}, {
 			"id": "schema_def",
-			"value": "स्कीमा परिभाषा "
+			"value": "स्कीमा परिभाषा"
 		}, {
 			"id": "template",
-			"value": "टेम्पलेट "
+			"value": "टेम्पलेट"
 		}, {
 			"id": "template_file_format",
 			"value": "टेम्पलेट फ़ाइल स्वरूप "

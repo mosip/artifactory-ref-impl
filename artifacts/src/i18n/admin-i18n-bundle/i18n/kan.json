@@ -623,15 +623,15 @@
 		"operation": "ಕಾರ್ಯಾಚರಣೆ",
 		"operationCtrl": [{
 			"label": "ಸೇರಿಸಿ",
-			"value": "ಸೇರಿಸಿ"
+			"value": "Insert"
 		},
 			{
 				"label": "ನವೀಕರಿಸಿ",
-				"value": "ನವೀಕರಿಸಿ"
+				"value": "Update"
 			},
 			{
 				"label": "ಅಳಿಸು",
-				"value": "ಅಳಿಸು"
+				"value": "Delete"
 			}
 		],
 		"tableName": "ಟೇಬಲ್ ಹೆಸರನ್ನು ಆರಿಸಿ",
