@@ -88,7 +88,7 @@ ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${
 #ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.2.0-rc1-SNAPSHOT/kernel-auth-adapter-1.2.0-rc1-20210805.070150-7.jar
 
 # environment variable for msg91_jar url. 
-ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
+ENV sms_msg91_jar_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
 #ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.2.0-rc1-SNAPSHOT/kernel-smsserviceprovider-msg91-1.2.0-rc1-20210805.125449-15.jar
 
 # environment variable for ref-idobjectvalidator_jar url
