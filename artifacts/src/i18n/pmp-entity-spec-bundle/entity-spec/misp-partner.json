@@ -1,0 +1,221 @@
+{
+  "auditEventIds": ["ADM-027", "ADM-049"],
+  "actionButtons": [
+    {
+      "buttonName": {
+        "eng": "Edit",
+	"ara": "Edit_ara",
+	"fra": "Edit_fra",
+	"hin": "Edit_hin",
+        "kan": "Edit_kan",
+	"tam": "Edit_tam"
+      },
+      "actionURL": "",
+      "redirectURL": "/pmp/resources/partner/single-view/$id",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "partnerEdit"
+    },
+    {
+      "buttonName": {
+        "eng": "Add Contacts",
+	"ara": "Add Contacts_ara",
+	"fra": "Add Contacts_fra",
+	"hin": "Add Contacts_hin",
+        "kan": "Add Contacts_kan",
+	"tam": "Add Contacts_tam"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "submitPartnerAPIKeyRequest"
+    },
+    {
+      "buttonName": {
+        "eng": "Upload Certificate",
+	"ara": "Upload Certificate_ara",
+	"fra": "Upload Certificate_fra",
+	"hin": "Upload Certificate_hin",
+        "kan": "Upload Certificate_kan",
+	"tam": "Upload Certificate_tam"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "submitPartnerAPIKeyRequest"
+    },
+    {
+      "buttonName": {
+        "eng": "View Certificate",
+        "ara": "View Certificate_ara",
+        "fra": "View Certificate_fra",
+	"hin": "View Certificate_hin",
+        "kan": "View Certificate_kan",
+	"tam": "View Certificate_tam"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "viewCertificate"
+    },
+    {
+      "buttonName": {
+        "eng": "Create Partner",
+        "ara": "Create Partner_ara",
+        "fra": "Create Partner_fra",
+	"hin": "Create Partner_hin",
+        "kan": "Create Partner_kan",
+	"tam": "Create Partner_tam"
+      },
+      "imagePath": "assets/images/add-icon.png",
+      "actionListType": "redirect",
+      "actionURL": "",
+      "redirectURL": "pmp/resources/partner/create",
+      "showIn": "Button",
+      "validations": ""
+    }
+  ],
+  "columnsToDisplay": [
+    
+    {
+      "name": "id",
+      "showInListView": "true",
+      "label": { "eng": "ID","ara": "ID_ara","fra": "ID_fra","hin": "ID_hin", "kan": "ID_kan", "tam": "ID_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "name",
+      "showInListView": "true",
+      "label": { "eng": "Name","ara": "Name_ara","fra": "Name_fra","hin": "Name_hin", "kan": "Name_kan", "tam": "Name_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "emailId",
+      "showInListView": "true",
+      "label": { "eng": "Email id","ara": "Email id_ara","fra": "Email id_fra","hin": "Email id_hin", "kan": "Email id_kan", "tam": "Email id_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "policyGroupId",
+      "showInListView": "true",
+      "label": {
+        "eng": "Policy Group",
+        "ara": "Policy Group_ara",
+        "fra": "Policy Group_fra",
+	"hin": "Policy Group_hin",
+        "kan": "Policy Group_kan",
+	"tam": "Policy Group_tam"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "contactNo",
+      "showInListView": "true",
+      "label": { "eng": "Contact Number", "ara": "Contact Number_ara", "fra": "Contact Number_fra","hin": "Contact Number_hin", "kan": "Contact Number_kan", "tam": "Contact Number_tam"},
+      "sortOrder": "",
+      "showAsLink": "false",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "policyName",
+      "showInListView": "",
+      "label": {
+        "eng": "PolicyName",
+        "ara": "PolicyName_ara",
+        "fra": "PolicyName_fra",
+	"hin": "PolicyName_hin",
+        "kan": "PolicyName_kan",
+	"tam": "PolicyName_tam"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "emailId",
+      "showInListView": "",
+      "label": {
+        "eng": "Email",
+        "ara": "Email_ara",
+        "fra": "Email_fra",
+	"hin": "Email_hin",
+        "kan": "Email_kan",
+	"tam": "Email_tam"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "status",
+      "showInListView": "",
+      "label": {
+        "eng": "Status",
+        "ara": "Status_ara",
+        "fra": "Status_fra",
+	"hin": "Status_hin",
+        "kan": "Status_kan",
+	"tam": "Status_tam"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "address",
+      "showInListView": "",
+      "label": {
+        "eng": "Address",
+        "ara": "Address_ara",
+        "fra": "Address_fra",
+	"hin": "Address_hin",
+        "kan": "Address_kan",
+	"tam": "Address_tam"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "apiKeyRequestStatus",
+      "showInListView": "",
+      "label": {
+        "eng": "Submit Request Status",
+        "ara": "Submit Request Status_ara",
+        "fra": "Submit Request Status_fra",
+	"hin": "Submit Request Status_hin",
+        "kan": "Submit Request Status_kan",
+	"tam": "Submit Request Status_tam"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    }
+  ],
+  "paginator": {
+    "totalEntries": null,
+    "pageSize": "10",
+    "pageSizeList": [10, 20, 30, 40, 50]
+  }
+}

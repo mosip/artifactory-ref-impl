@@ -1,0 +1,156 @@
+{
+  "auditEventIds": ["ADM-028", "ADM-028"],
+  "actionButtons": [
+    {
+      "buttonName": {
+        "eng": "Activate",
+        "ara": "Activate_ara",
+        "fra": "Activate_fra",
+	"hin": "Activate_hin",
+        "kan": "Activate_kan",
+	"tam": "Activate_tam"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "activatePolicy"
+    },
+    {
+      "buttonName": {
+        "eng": "Deactivate",
+        "ara": "Deactivate_ara",
+        "fra": "Deactivate_fra",
+	"hin": "Deactivate_hin",
+        "kan": "Deactivate_kan",
+	"tam": "Deactivate_tam"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "deactivatePolicy"
+    },
+    {
+      "buttonName": {
+        "eng": "Edit",
+        "ara": "Edit_ara",
+        "fra": "Edit_fra",
+	"hin": "Edit_hin",
+        "kan": "Edit_kan",
+	"tam": "Edit_tam"
+      },
+      "actionURL": "",
+      "redirectURL": "/pmp/resources/policygroup/single-view/$id",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "edit"
+    },
+    {
+      "buttonName": {
+        "eng": "Create Policy Group",
+        "ara": "Create Policy Group_ara",
+        "fra": "Create Policy Group_fra",
+	"hin": "Create Policy Group_hin",
+        "kan": "Create Policy Group_kan",
+	"tam": "Create Policy Group_tam"
+      },
+      "imagePath": "assets/images/add-icon.png",
+      "actionListType": "redirect",
+      "actionURL": "",
+      "redirectURL": "pmp/resources/policygroup/create",
+      "showIn": "Button",
+      "validations": ""
+    },
+    {
+      "buttonName": { "eng": "Filter", "ara": "Filter_ara", "fra": "Filter_fra","hin": "Filter_hin", "kan": "Filter_kan", "tam": "Filter_tam" },
+      "imagePath": "assets/images/filter.png",
+      "actionListType": "action",
+      "actionURL": { "case": "filter" },
+      "redirectURL": "",
+      "showIn": "Button",
+      "validations": ""
+    }
+  ],
+  "columnsToDisplay": [
+    {
+      "name": "id",
+      "label": { "eng": "ID","ara": "ID_ara","fra": "ID_fra","hin": "ID_hin", "kan": "ID_kan", "tam": "ID_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "",
+      "ismandatory": "",
+      "showInListView": "false",
+      "showInSingleView": "false"  
+    },
+    {
+      "name": "name",
+      "label": { "eng": "Name","ara": "Name_ara","fra": "Name_fra","hin": "Name_hin", "kan": "Name_kan", "tam": "Name_tam"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true",
+      "showInListView": "true",
+      "showInSingleView": "true" 
+    },
+    {
+      "name": "desc",
+      "label": { "eng": "Description","ara": "Description_ara","fra": "Description_fra","hin": "Description_hin", "kan": "Description_kan", "tam": "Description_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true",
+      "showInListView": "true",
+      "showInSingleView": "true"  
+    },
+    {
+      "name": "isActive",
+      "label": { "eng": "IsActive","ara": "IsActive_ara","fra": "IsActive_fra","hin": "IsActive_hin", "kan": "IsActive_kan", "tam": "IsActive_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "",
+      "ismandatory": "",
+      "showInListView": "true",
+      "showInSingleView": "false"  
+    }
+],
+"paginator": {
+  "totalEntries": null,
+  "pageSize": "10",
+  "pageSizeList": [10, 20, 30, 40, 50]
+},
+"filterColumns": [
+  {
+    "filtername": "name",
+    "filterlabel": "Name",
+    "filterType": "equals",
+    "fieldType": "input",
+    "autocomplete": "false",
+    "dropdown": "false",
+    "datePicker": "false",
+    "apiName": "",
+    "fieldName": "name",
+    "methodCallName": ""
+  },
+  {
+    "filtername": "desc",
+    "filterlabel": "Description",
+    "filterType": "equals",
+    "fieldType": "input",
+    "autocomplete": "false",
+    "dropdown": "false",
+    "datePicker": "false",
+    "apiName": "",
+    "fieldName": "desc",
+    "methodCallName": ""
+  }
+]
+}
