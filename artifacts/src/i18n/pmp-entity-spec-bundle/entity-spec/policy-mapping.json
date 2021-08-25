@@ -1,0 +1,158 @@
+{
+  "auditEventIds": ["ADM-027", "ADM-049"],
+  "actionButtons": [
+    {
+      "buttonName": {
+        "eng": "Manage Policy",
+	"ara": "Manage Policy_ara",
+	"fra": "Manage Policy_fra",
+	"hin": "Manage Policy_hin",
+        "kan": "Manage Policy_kan",
+	"tam": "Manage Policy_tam"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "ApproveorRejectPolicy"
+    },
+    {
+      "buttonName": { "eng": "Filter", "ara": "Filter_ara", "fra": "Filter_fra","hin": "Filter_hin", "kan": "Filter_kan", "tam": "Filter_tam"},
+      "imagePath": "assets/images/filter.png",
+      "actionListType": "action",
+      "actionURL": { "case": "filter" },
+      "redirectURL": "",
+      "showIn": "Button",
+      "validations": ""
+    }
+  ],
+  "columnsToDisplay": [    
+    {
+      "name": "apikeyRequestId",
+      "label": { "eng": "API Key","ara": "API Key_ara","fra": "API Key_fra","hin": "API Key_hin", "kan": "API Key_kan", "tam": "API Key_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "",
+      "ismandatory": "",
+      "showInListView": "true",
+      "showInSingleView": "false"
+    },
+    {
+      "name": "partnerId",
+      "label": { "eng": "Partner Name","ara": "Partner Name_ara","fra": "Partner Name_fra","hin": "Partner Name_hin", "kan": "Partner Name_kan", "tam": "Partner Name_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "dropdown",
+      "ismandatory": "true",
+      "showInListView": "true",
+      "showInSingleView": "true"
+    },
+    {
+      "name": "policyId",
+      "label": { "eng": "Policy Name","ara": "Policy Name_ara","fra": "Policy Name_fra","hin": "Policy Name_hin", "kan": "Policy Name_kan", "tam": "Policy Name_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "",
+      "ismandatory": "",
+      "showInListView": "true",
+      "showInSingleView": "false"
+    },
+    {
+      "name": "requestDetail",
+      "label": { "eng": "Request Detail","ara": "Request Detail_ara","fra": "Request Detail_fra","hin": "Request Detail_hin", "kan": "Request Detail_kan", "tam": "Request Detail_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true",
+      "showInListView": "true",
+      "showInSingleView": "true"
+    },
+    {
+      "name": "statusCode",
+      "label": { "eng": "Status","ara": "Status_ara","fra": "Status_fra","hin": "Status_hin", "kan": "Status_kan", "tam": "Status_tam"},
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true",
+      "showInListView": "true",
+      "showInSingleView": "true"
+    }
+  ],
+  "paginator": {
+    "totalEntries": null,
+    "pageSize": "10",
+    "pageSizeList": [10, 20, 30, 40, 50]
+  },
+  "filterColumns": [
+  {
+    "filtername": "apikeyRequestId",
+    "filterlabel": "API Key",
+    "filterType": "equals",
+    "fieldType": "input",
+    "autocomplete": "false",
+    "dropdown": "false",
+    "datePicker": "false",
+    "apiName": "",
+    "fieldName": "apikeyRequestId",
+    "methodCallName": ""
+  },
+  {
+    "filtername": "partnerId",
+    "filterlabel": "Partner Name",
+    "filterType": "equals",
+    "fieldType": "input",
+    "autocomplete": "false",
+    "dropdown": "false",
+    "datePicker": "false",
+    "apiName": "",
+    "fieldName": "partnerId",
+    "methodCallName": ""
+  },
+  {
+    "filtername": "policyId",
+    "filterlabel": "Policy Name",
+    "filterType": "equals",
+    "fieldType": "input",
+    "autocomplete": "false",
+    "dropdown": "false",
+    "datePicker": "false",
+    "apiName": "",
+    "fieldName": "policyId",
+    "methodCallName": ""
+  },
+  {
+    "filtername": "requestDetail",
+    "filterlabel": "Request Detail",
+    "filterType": "equals",
+    "fieldType": "input",
+    "autocomplete": "false",
+    "dropdown": "false",
+    "datePicker": "false",
+    "apiName": "",
+    "fieldName": "requestDetail",
+    "methodCallName": ""
+  },
+  {
+    "filtername": "statusCode",
+    "filterlabel": "Status",
+    "filterType": "equals",
+    "fieldType": "input",
+    "autocomplete": "false",
+    "dropdown": "false",
+    "datePicker": "false",
+    "apiName": "",
+    "fieldName": "statusCode",
+    "methodCallName": ""
+  }
+  ]
+}
