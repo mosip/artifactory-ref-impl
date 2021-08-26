@@ -16,15 +16,15 @@
             "subItem3": "Device Partner_kan",
             "subItem4": "FTM Partner_kan"
         }
-    },    
+    },
     "singleView": {
-        "errorMessages" : [
+        "errorMessages": [
             "No record found_kan",
             "A technical error has occurred_kan"
         ],
         "buttonText": "OK_kan",
         "title": "Error_kan"
-    }, 
+    },
     "masterData": {
         "master-data": "Master Data_kan",
         "total-no": "Total No_kan",
@@ -37,7 +37,7 @@
         "mapped-documents": "Mapped Documents_kan",
         "unmapped-documents": "Unmapped Documents_kan"
     },
-    "pmanager":{
+    "pmanager": {
         "status": "Status_kan",
         "language": "English_kan",
         "edit": "Edit_kan",
@@ -54,7 +54,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation_kan",
-                "message": ["You are about to create a Registration Center in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
+                "message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
                 "yesBtnText": "Yes_kan",
                 "noBtnText": "No_kan",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
@@ -99,11 +99,11 @@
             }
         }
     },
-    "partner":{
+    "partner": {
         "address1": "Address_kan",
-        "header" : "Partner Service_kan",
+        "header": "Partner Service_kan",
         "name": "Organization_kan",
-        "id":"Id_kan",
+        "id": "Id_kan",
         "status": "Status_kan",
         "language": "English_kan",
         "edit": "Edit_kan",
@@ -121,7 +121,7 @@
         "contact-person": "Email Id_kan",
         "contact-number": "Contact Number_kan",
         "location-details": "Address Details_kan",
-        "validationMessages":{
+        "validationMessages": {
             "partnerTypeCode": {
                 "required": "Policy Name is required_kan"
             },
@@ -137,7 +137,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation_kan",
-                "message": ["You are about to create a Registration Center in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
+                "message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
                 "yesBtnText": "Yes_kan",
                 "noBtnText": "No_kan",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
@@ -181,21 +181,21 @@
                 "btnTxt": "Ok_kan"
             }
         }
-    },    
-    "misp":{
-        "header" : "MISP_kan",
+    },
+    "misp": {
+        "header": "MISP_kan",
         "name": "Name_kan",
-        "id":"Id_kan",
-        "isActive" : "Misp Status_kan",
-        "contact_no":"Phone No_kan",
+        "id": "Id_kan",
+        "isActive": "Misp Status_kan",
+        "contact_no": "Phone No_kan",
         "status": "Status_kan",
-        "address":"Address_kan",
+        "address": "Address_kan",
         "misp-details": "Misp Details_kan",
         "created-on": "Created On_kan",
         "created-by": "Created By_kan",
         "updated-on": "Updated On_kan",
         "updated-by": "Updated By_kan",
-        "email_id":"Email_kan",
+        "email_id": "Email_kan",
         "edit": "Edit_kan",
         "create": "Create_kan",
         "cancel": "Cancel_kan",
@@ -221,7 +221,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation_kan",
-                "message": ["You are about to create a Misp in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
+                "message": ["You are about to create a Misp in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
                 "yesBtnText": "Yes_kan",
                 "noBtnText": "No_kan",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
@@ -276,9 +276,9 @@
         "range": "’To’ date cannot be before ‘From’ date'_kan",
         "invalid": "Please select a valid value for Date_kan"
     },
-    "actionMessages" : {
+    "actionMessages": {
         "decommission": {
-            "success-message": ["", " is approved successfully"_kan],
+            "success-message": ["", " is approved successfully_kan"],
             "success-title": "Success_kan",
             "error-message": "Cannot approve the Misp.Currently Misp is inactive_kan",
             "error-title": "Error_kan",
@@ -311,19 +311,19 @@
             "confirmation-title": "Confirmation_kan"
         }
     },
-    "policy":{
-        "header" : "Policy_kan",
+    "policy": {
+        "header": "Policy_kan",
         "name": "Name_kan",
-        "desc":"Description_kan",
-        "authPolicies" : "Allowed Auth Types_kan",
-        "allowedKycAttributes" : "Allowed Kyc Attributes_kan",
-        "id":"Id_kan",
-        "isActive" : "Status_kan",
+        "desc": "Description_kan",
+        "authPolicies": "Allowed Auth Types_kan",
+        "allowedKycAttributes": "Allowed Kyc Attributes_kan",
+        "id": "Id_kan",
+        "isActive": "Status_kan",
         "policy-details": "Policy Details_kan",
         "created-on": "Created On_kan",
         "created-by": "Created By_kan",
         "updated-on": "Updated On_kan",
-        "updated-by": "Updated By_kan",        
+        "updated-by": "Updated By_kan",
         "edit": "Edit_kan",
         "create": "Create_kan",
         "cancel": "Cancel_kan",
@@ -344,9 +344,9 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation_kan",
-                "message": ["You are about to create a Policy in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
+                "message": ["You are about to create a Policy in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
                 "yesBtnText": "Yes_kan",
-                "noBtnText": "No"_kan,
+                "noBtnText": "No_kan",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_kan"
             },
             "edit": {

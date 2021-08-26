@@ -1,30 +1,28 @@
 {
   "auditEventIds": ["ADM-027", "ADM-049"],
-  "actionButtons": [
-    {
-      "buttonName": {
-        "eng": "Edit",
-        "ara": "Edit_ara",
-        "fra": "Edit_fra",
-	"hin": "Edit_hin",
-        "kan": "Edit_kan",
-	"tam": "Edit_tam"
-      },
-      "actionURL": "",
-      "redirectURL": "/pmp/resources/partner/single-view/$id",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "partnerEdit"
+  "actionButtons": [{
+    "buttonName": {
+      "eng": "Edit",
+      "ara": "Edit_ara",
+      "fra": "Edit_fra",
+      "hin": "Edit_hin",
+      "kan": "Edit_kan",
+      "tam": "Edit_tam"
     },
+    "actionURL": "",
+    "redirectURL": "/pmp/resources/partner/single-view/$id",
+    "showIn": "Ellipsis",
+    "validations": "",
+    "callBackFunction": "partnerEdit"
+  },
     {
       "buttonName": {
         "eng": "Add Contacts",
-	"ara": "Add Contacts_ara",
-	"fra": "Add Contacts_fra",
-	"hin": "Add Contacts_hin",
-	"kan": "Add Contacts_kan",
-	"tam": "Add Contacts_tam",
-	
+        "ara": "Add Contacts_ara",
+        "fra": "Add Contacts_fra",
+        "hin": "Add Contacts_hin",
+        "kan": "Add Contacts_kan",
+        "tam": "Add Contacts_tam"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -35,11 +33,11 @@
     {
       "buttonName": {
         "eng": "Upload Certificate",
-	"ara": "Upload Certificate_ara",
-	"fra": "Upload Certificate_fra",
-	"hin": "Upload Certificate_hin",
-	"kan": "Upload Certificate_kan",
-	"tam": "Upload Certificate_tam",
+        "ara": "Upload Certificate_ara",
+        "fra": "Upload Certificate_fra",
+        "hin": "Upload Certificate_hin",
+        "kan": "Upload Certificate_kan",
+        "tam": "Upload Certificate_tam"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -52,9 +50,9 @@
         "eng": "View Certificate",
         "ara": "View Certificate_ara",
         "fra": "View Certificate_fra",
-	"hin": "View Certificate_hin",
-	"kan": "View Certificate_kan",
-	"tam": "View Certificate_tam",
+        "hin": "View Certificate_hin",
+        "kan": "View Certificate_kan",
+        "tam": "View Certificate_tam"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -65,11 +63,11 @@
     {
       "buttonName": {
         "eng": "Device Detail",
-	"ara": "Device Detail_ara",
-	"fra": "Device Detail_fra",
-	"hin": "Device Detail_hin",
-	"kan": "Device Detail_kan",
-	"tam": "Device Detail_tam",
+        "ara": "Device Detail_ara",
+        "fra": "Device Detail_fra",
+        "hin": "Device Detail_hin",
+        "kan": "Device Detail_kan",
+        "tam": "Device Detail_tam"
       },
       "actionURL": "",
       "redirectURL": "/pmp/resources/authpartner/authdevicedetail/view/$id",
@@ -82,9 +80,9 @@
         "eng": "Create Partner",
         "ara": "Create Partner_ara",
         "fra": "Create Partner_fra",
-	"hin": "Create Partner_hin",
-	"kan": "Create Partner_kan",
-	"tam": "Create Partner_tam",
+        "hin": "Create Partner_hin",
+        "kan": "Create Partner_kan",
+        "tam": "Create Partner_tam"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -95,11 +93,18 @@
     }
   ],
   "columnsToDisplay": [
-    
+
     {
       "name": "id",
       "showInListView": "true",
-      "label": { "eng": "ID", "ara": "ID_ara", "fra": "ID_fra","hin": "ID_hin", "kan": "ID_kan", "tam": "ID_tam"},
+      "label": {
+        "eng": "ID",
+        "ara": "ID_ara",
+        "fra": "ID_fra",
+        "hin": "ID_hin",
+        "kan": "ID_kan",
+        "tam": "ID_tam"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -108,7 +113,14 @@
     {
       "name": "name",
       "showInListView": "true",
-      "label": { "eng": "Name","ara":"Name_ara","fra:Name_fra","hin": "Name_hin","kan":"Name_kan","tam:Name_tam"},
+      "label": {
+        "eng": "Name",
+        "ara": "Name_ara",
+        "fra": "Name_fra",
+        "hin": "Name_hin",
+        "kan": "Name_kan",
+        "tam": "Name_tam"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -117,7 +129,14 @@
     {
       "name": "emailId",
       "showInListView": "true",
-      "label": { "eng": "Email id", "ara": "Email id_ara", "fra": "Email id_fra","hin": "Email id_hin", "kan": "Email id_kan", "tam": "Email id_tam"},
+      "label": {
+        "eng": "Email id",
+        "ara": "Email id_ara",
+        "fra": "Email id_fra",
+        "hin": "Email id_hin",
+        "kan": "Email id_kan",
+        "tam": "Email id_tam"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -142,7 +161,14 @@
     {
       "name": "contactNo",
       "showInListView": "true",
-      "label": { "eng": "Contact Number", "ara": "Contact Number_ara", "fra": "Contact Number_fra","hin": "Contact Number_hin", "kan": "Contact Number_kan", "tam": "Contact Number_tam" },
+      "label": {
+        "eng": "Contact Number",
+        "ara": "Contact Number_ara",
+        "fra": "Contact Number_fra",
+        "hin": "Contact Number_hin",
+        "kan": "Contact Number_kan",
+        "tam": "Contact Number_tam"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",

@@ -1,29 +1,28 @@
 {
   "auditEventIds": ["ADM-030", "ADM-052"],
-  "actionButtons": [
-    {
-      "buttonName": {
-        "eng": "Activate Partner",
-        "ara": "Activate Partner_ara",
-        "fra": "Activate Partner_fra",
-	"hin": "Activate Partner_hin",
-        "kan": "Activate Partner_kan",
-	"tam": "Activate Partner_tam"
-      },
-      "actionURL": "",
-      "redirectURL": "",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "activatePartner"
+  "actionButtons": [{
+    "buttonName": {
+      "eng": "Activate Partner",
+      "ara": "Activate Partner_ara",
+      "fra": "Activate Partner_fra",
+      "hin": "Activate Partner_hin",
+      "kan": "Activate Partner_kan",
+      "tam": "Activate Partner_tam"
     },
+    "actionURL": "",
+    "redirectURL": "",
+    "showIn": "Ellipsis",
+    "validations": "",
+    "callBackFunction": "activatePartner"
+  },
     {
       "buttonName": {
         "eng": "Deactivate Partner",
         "ara": "Deactivate Partner_ara",
         "fra": "Deactivate Partner_fra",
-	"hin": "Deactivate Partner_hin",
+        "hin": "Deactivate Partner_hin",
         "kan": "Deactivate Partner_kan",
-	"tam": "Deactivate Partner_tam"
+        "tam": "Deactivate Partner_tam"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -36,9 +35,9 @@
         "eng": "Approve ApikeyReq",
         "ara": "Approve ApikeyReq_ara",
         "fra": "Approve ApikeyReq_fra",
-	"hin": "Approve ApikeyReq_hin",
+        "hin": "Approve ApikeyReq_hin",
         "kan": "Approve ApikeyReq_kan",
-	"tam": "Approve ApikeyReq_tam"
+        "tam": "Approve ApikeyReq_tam"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -51,9 +50,9 @@
         "eng": "Reject ApikeyReq",
         "ara": "Reject ApikeyReq_ara",
         "fra": "Reject ApikeyReq_fra",
-	"hin": "Reject ApikeyReq_hin",
+        "hin": "Reject ApikeyReq_hin",
         "kan": "Reject ApikeyReq_kan",
-	"tam": "Reject ApikeyReq_tam"
+        "tam": "Reject ApikeyReq_tam"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -66,9 +65,9 @@
         "eng": "Deactivate APIKey",
         "ara": "Deactivate APIKey_ara",
         "fra": "Deactivate APIKey_fra",
-	"hin": "Deactivate APIKey_hin",
+        "hin": "Deactivate APIKey_hin",
         "kan": "Deactivate APIKey_kan",
-	"tam": "Deactivate APIKey_tam"
+        "tam": "Deactivate APIKey_tam"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -81,9 +80,9 @@
         "eng": "Activate APIKey",
         "ara": "Activate APIKey_ara",
         "fra": "Activate APIKey_fra",
-	"hin": "Activate APIKey_hin",
+        "hin": "Activate APIKey_hin",
         "kan": "Activate APIKey_kan",
-	"tam": "Activate APIKey_tam"
+        "tam": "Activate APIKey_tam"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -92,7 +91,14 @@
       "callBackFunction": "activateAPIKeyStatus"
     },
     {
-      "buttonName": { "eng": "Change Policy", "ara": "Change Policy_ara", "fra": "Change Policy_fra","hin": "Change Policy_hin", "kan": "Change Policy_kan", "tam": "Change Policy_tam"},
+      "buttonName": {
+        "eng": "Change Policy",
+        "ara": "Change Policy_ara",
+        "fra": "Change Policy_fra",
+        "hin": "Change Policy_hin",
+        "kan": "Change Policy_kan",
+        "tam": "Change Policy_tam"
+      },
       "actionURL": "",
       "redirectURL": "/pmp/resources/pmanager/single-view/$id",
       "showIn": "Ellipsis",
@@ -100,23 +106,22 @@
       "callBackFunction": "pmanagerEdit"
     }
   ],
-  "columnsToDisplay": [
-    {
-      "name": "partnerID",
-      "showInListView": "True",
-      "label": {
-        "eng": "partnerID",
-        "ara": "partnerID_ara",
-        "fra": "partnerID_fra",
-	"hin": "partnerID_hin",
-        "kan": "partnerID_kan",
-	"tam": "partnerID_tam"
-      },
-      "sortOrder": "3",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": ""
+  "columnsToDisplay": [{
+    "name": "partnerID",
+    "showInListView": "True",
+    "label": {
+      "eng": "partnerID",
+      "ara": "partnerID_ara",
+      "fra": "partnerID_fra",
+      "hin": "partnerID_hin",
+      "kan": "partnerID_kan",
+      "tam": "partnerID_tam"
     },
+    "sortOrder": "3",
+    "showAsLink": "",
+    "linkType": "",
+    "LinkURL": ""
+  },
     {
       "name": "policyName",
       "showInListView": "true",
@@ -124,9 +129,9 @@
         "eng": "policyName",
         "ara": "policyName_ara",
         "fra": "policyName_fra",
-	"hin": "policyName_hin",
+        "hin": "policyName_hin",
         "kan": "policyName_kan",
-	"tam": "policyName_tam"
+        "tam": "policyName_tam"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -136,7 +141,14 @@
     {
       "name": "partnerStatus",
       "showInListView": "true",
-      "label": { "eng": "partnerStatus", "ara": "partnerStatus_ara", "fra": "partnerStatus_fra","hin": "partnerStatus_hin", "kan": "partnerStatus_kan", "tam": "partnerStatus_tam"},
+      "label": {
+        "eng": "partnerStatus",
+        "ara": "partnerStatus_ara",
+        "fra": "partnerStatus_fra",
+        "hin": "partnerStatus_hin",
+        "kan": "partnerStatus_kan",
+        "tam": "partnerStatus_tam"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -145,7 +157,14 @@
     {
       "name": "apikeyReqID",
       "showInListView": "",
-      "label": { "eng": "apikeyReqID", "ara": "apikeyReqID_ara", "fra": "apikeyReqID_fra","hin": "apikeyReqID_hin", "kan": "apikeyReqID_kan", "tam": "apikeyReqID_tam"},
+      "label": {
+        "eng": "apikeyReqID",
+        "ara": "apikeyReqID_ara",
+        "fra": "apikeyReqID_fra",
+        "hin": "apikeyReqID_hin",
+        "kan": "apikeyReqID_kan",
+        "tam": "apikeyReqID_tam"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -158,9 +177,9 @@
         "eng": "apikeyReqIDStatus",
         "ara": "apikeyReqIDStatus_ara",
         "fra": "apikeyReqIDStatus_fra",
-	"hin": "apikeyReqIDStatus_hin",
+        "hin": "apikeyReqIDStatus_hin",
         "kan": "apikeyReqIDStatus_kan",
-	"tam": "apikeyReqIDStatus_tam"
+        "tam": "apikeyReqIDStatus_tam"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -174,9 +193,9 @@
         "eng": "partnerAPIKey",
         "ara": "partnerAPIKey_ara",
         "fra": "partnerAPIKey_fra",
-	"hin": "partnerAPIKey_hin",
+        "hin": "partnerAPIKey_hin",
         "kan": "partnerAPIKey_kan",
-	"tam": "partnerAPIKey_tam"
+        "tam": "partnerAPIKey_tam"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -190,9 +209,9 @@
         "eng": "partnerAPIKeyStatus",
         "ara": "partnerAPIKeyStatus_ara",
         "fra": "partnerAPIKeyStatus_fra",
-	"hin": "partnerAPIKeyStatus_hin",
+        "hin": "partnerAPIKeyStatus_hin",
         "kan": "partnerAPIKeyStatus_kan",
-	"tam": "partnerAPIKeyStatus_tam"
+        "tam": "partnerAPIKeyStatus_tam"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -205,19 +224,18 @@
     "pageSize": "10",
     "pageSizeList": [10, 20, 30, 40, 50]
   },
-  "filterColumns": [
-    {
-      "filtername": "partnerID",
-      "filterlabel": "partnerID",
-      "filterType": "contains",
-      "fieldType": "input",
-      "autocomplete": "false",
-      "dropdown": "false",
-      "datePicker": "false",
-      "apiName": "devices",
-      "fieldName": "partnerID",
-      "methodCallName": ""
-    },
+  "filterColumns": [{
+    "filtername": "partnerID",
+    "filterlabel": "partnerID",
+    "filterType": "contains",
+    "fieldType": "input",
+    "autocomplete": "false",
+    "dropdown": "false",
+    "datePicker": "false",
+    "apiName": "devices",
+    "fieldName": "partnerID",
+    "methodCallName": ""
+  },
     {
       "filtername": "name",
       "filterlabel": "Device Name",

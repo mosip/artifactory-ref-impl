@@ -16,15 +16,15 @@
             "subItem3": "Device Partner",
             "subItem4": "FTM Partner"
         }
-    },    
+    },
     "singleView": {
-        "errorMessages" : [
+        "errorMessages": [
             "No record found",
             "A technical error has occurred"
         ],
         "buttonText": "OK",
         "title": "Error"
-    }, 
+    },
     "masterData": {
         "master-data": "Master Data",
         "total-no": "Total No",
@@ -37,7 +37,7 @@
         "mapped-documents": "Mapped Documents",
         "unmapped-documents": "Unmapped Documents"
     },
-    "pmanager":{
+    "pmanager": {
         "status": "Status",
         "language": "English",
         "edit": "Edit",
@@ -54,7 +54,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation",
-                "message": ["You are about to create a Registration Center in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
+                "message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
                 "yesBtnText": "Yes",
                 "noBtnText": "No",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
@@ -99,11 +99,11 @@
             }
         }
     },
-    "partner":{
+    "partner": {
         "address1": "Address",
-        "header" : "Partner Service",
+        "header": "Partner Service",
         "name": "Organization",
-        "id":"Id",
+        "id": "Id",
         "status": "Status",
         "language": "English",
         "edit": "Edit",
@@ -121,7 +121,7 @@
         "contact-person": "Email Id",
         "contact-number": "Contact Number",
         "location-details": "Address Details",
-        "validationMessages":{
+        "validationMessages": {
             "partnerTypeCode": {
                 "required": "Policy Name is required"
             },
@@ -137,7 +137,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation",
-                "message": ["You are about to create a Registration Center in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
+                "message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
                 "yesBtnText": "Yes",
                 "noBtnText": "No",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
@@ -181,21 +181,21 @@
                 "btnTxt": "Ok"
             }
         }
-    },    
-    "misp":{
-        "header" : "MISP",
+    },
+    "misp": {
+        "header": "MISP",
         "name": "Name",
-        "id":"Id",
-        "isActive" : "Misp Status",
-        "contact_no":"Phone No",
+        "id": "Id",
+        "isActive": "Misp Status",
+        "contact_no": "Phone No",
         "status": "Status",
-        "address":"Address",
+        "address": "Address",
         "misp-details": "Misp Details",
         "created-on": "Created On",
         "created-by": "Created By",
         "updated-on": "Updated On",
         "updated-by": "Updated By",
-        "email_id":"Email",
+        "email_id": "Email",
         "edit": "Edit",
         "create": "Create",
         "cancel": "Cancel",
@@ -221,7 +221,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation",
-                "message": ["You are about to create a Misp in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
+                "message": ["You are about to create a Misp in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
                 "yesBtnText": "Yes",
                 "noBtnText": "No",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?"
@@ -276,7 +276,7 @@
         "range": "’To’ date cannot be before ‘From’ date'",
         "invalid": "Please select a valid value for Date"
     },
-    "actionMessages" : {
+    "actionMessages": {
         "decommission": {
             "success-message": ["", " is approved successfully"],
             "success-title": "Success",
@@ -311,19 +311,19 @@
             "confirmation-title": "Confirmation"
         }
     },
-    "policy":{
-        "header" : "Policy",
+    "policy": {
+        "header": "Policy",
         "name": "Name",
-        "desc":"Description",
-        "authPolicies" : "Allowed Auth Types",
-        "allowedKycAttributes" : "Allowed Kyc Attributes",
-        "id":"Id",
-        "isActive" : "Status",
+        "desc": "Description",
+        "authPolicies": "Allowed Auth Types",
+        "allowedKycAttributes": "Allowed Kyc Attributes",
+        "id": "Id",
+        "isActive": "Status",
         "policy-details": "Policy Details",
         "created-on": "Created On",
         "created-by": "Created By",
         "updated-on": "Updated On",
-        "updated-by": "Updated By",        
+        "updated-by": "Updated By",
         "edit": "Edit",
         "create": "Create",
         "cancel": "Cancel",
@@ -344,7 +344,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation",
-                "message": ["You are about to create a Policy in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
+                "message": ["You are about to create a Policy in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
                 "yesBtnText": "Yes",
                 "noBtnText": "No",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?"
