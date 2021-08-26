@@ -16,15 +16,15 @@
             "subItem3": "Device Partner_hin",
             "subItem4": "FTM Partner_hin"
         }
-    },    
+    },
     "singleView": {
-        "errorMessages" : [
+        "errorMessages": [
             "No record found_hin",
             "A technical error has occurred_hin"
         ],
         "buttonText": "OK_hin",
         "title": "Error_hin"
-    }, 
+    },
     "masterData": {
         "master-data": "Master Data_hin",
         "total-no": "Total No_hin",
@@ -37,7 +37,7 @@
         "mapped-documents": "Mapped Documents_hin",
         "unmapped-documents": "Unmapped Documents_hin"
     },
-    "pmanager":{
+    "pmanager": {
         "status": "Status_hin",
         "language": "English_hin",
         "edit": "Edit_hin",
@@ -54,7 +54,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation_hin",
-                "message": ["You are about to create a Registration Center in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"],
+                "message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"],
                 "yesBtnText": "Yes_hin",
                 "noBtnText": "No_hin",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
@@ -99,11 +99,11 @@
             }
         }
     },
-    "partner":{
+    "partner": {
         "address1": "Address_hin",
-        "header" : "Partner Service_hin",
+        "header": "Partner Service_hin",
         "name": "Organization_hin",
-        "id":"Id_hin",
+        "id": "Id_hin",
         "status": "Status_hin",
         "language": "English_hin",
         "edit": "Edit_hin",
@@ -121,7 +121,7 @@
         "contact-person": "Email Id_hin",
         "contact-number": "Contact Number_hin",
         "location-details": "Address Details_hin",
-        "validationMessages":{
+        "validationMessages": {
             "partnerTypeCode": {
                 "required": "Policy Name is required_hin"
             },
@@ -137,7 +137,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation_hin",
-                "message": ["You are about to create a Registration Center in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"],
+                "message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"],
                 "yesBtnText": "Yes_hin",
                 "noBtnText": "No_hin",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
@@ -181,21 +181,21 @@
                 "btnTxt": "Ok_hin"
             }
         }
-    },    
-    "misp":{
-        "header" : "MISP_hin",
+    },
+    "misp": {
+        "header": "MISP_hin",
         "name": "Name_hin",
-        "id":"Id_hin",
-        "isActive" : "Misp Status_hin",
-        "contact_no":"Phone No_hin",
+        "id": "Id_hin",
+        "isActive": "Misp Status_hin",
+        "contact_no": "Phone No_hin",
         "status": "Status_hin",
-        "address":"Address_hin",
+        "address": "Address_hin",
         "misp-details": "Misp Details_hin",
         "created-on": "Created On_hin",
         "created-by": "Created By_hin",
         "updated-on": "Updated On_hin",
         "updated-by": "Updated By_hin",
-        "email_id":"Email_hin",
+        "email_id": "Email_hin",
         "edit": "Edit_hin",
         "create": "Create_hin",
         "cancel": "Cancel_hin",
@@ -221,7 +221,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation_hin",
-                "message": ["You are about to create a Misp in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"],
+                "message": ["You are about to create a Misp in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"],
                 "yesBtnText": "Yes_hin",
                 "noBtnText": "No_hin",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_hin"
@@ -276,7 +276,7 @@
         "range": "’To’ date cannot be before ‘From’ date'_hin",
         "invalid": "Please select a valid value for Date_hin"
     },
-    "actionMessages" : {
+    "actionMessages": {
         "decommission": {
             "success-message": ["", " is approved successfully_hin"],
             "success-title": "Success_hin",
@@ -311,19 +311,19 @@
             "confirmation-title": "Confirmation_hin"
         }
     },
-    "policy":{
-        "header" : "Policy_hin",
+    "policy": {
+        "header": "Policy_hin",
         "name": "Name_hin",
-        "desc":"Description_hin",
-        "authPolicies" : "Allowed Auth Types_hin",
-        "allowedKycAttributes" : "Allowed Kyc Attributes_hin",
-        "id":"Id_hin",
-        "isActive" : "Status_hin",
+        "desc": "Description_hin",
+        "authPolicies": "Allowed Auth Types_hin",
+        "allowedKycAttributes": "Allowed Kyc Attributes_hin",
+        "id": "Id_hin",
+        "isActive": "Status_hin",
         "policy-details": "Policy Details_hin",
         "created-on": "Created On_hin",
         "created-by": "Created By_hin",
         "updated-on": "Updated On_hin",
-        "updated-by": "Updated By_hin",        
+        "updated-by": "Updated By_hin",
         "edit": "Edit_hin",
         "create": "Create_hin",
         "cancel": "Cancel_hin",
@@ -344,7 +344,7 @@
         "popupMessages": {
             "create": {
                 "title": "Confirmation_hin",
-                "message": ["You are about to create a Policy in ",". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"],
+                "message": ["You are about to create a Policy in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"],
                 "yesBtnText": "Yes_hin",
                 "noBtnText": "No_hin",
                 "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_hin"
