@@ -1,345 +1,345 @@
 {
-  "auditEventIds": ["ADM-027", "ADM-049"],
-  "actionButtons": [{
-    "buttonName": {
-      "eng": "Approve",
-      "ara": "Approve_ara",
-      "fra": "Approve_fra",
-      "hin": "Approve_hin",
-      "kan": "Approve_kan",
-      "tam": "Approve_tam"
-    },
-    "actionURL": "",
-    "redirectURL": "",
-    "showIn": "Ellipsis",
-    "validations": "",
-    "callBackFunction": "approve"
-  },
-    {
-      "buttonName": {
-        "eng": "Reject",
-        "ara": "Reject_ara",
-        "fra": "Reject_fra",
-        "hin": "Reject_hin",
-        "kan": "Reject_kan",
-        "tam": "Reject_tam"
-      },
-      "actionURL": "",
-      "redirectURL": "",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "reject"
-    },
-    {
-      "buttonName": {
-        "eng": "Edit",
-        "ara": "Edit_ara",
-        "fra": "Edit_fra",
-        "hin": "Edit_hin",
-        "kan": "Edit_kan",
-        "tam": "Edit_tam"
-      },
-      "actionURL": "",
-      "redirectURL": "/pmp/resources/devicedetails/single-view/$id",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "partnerEdit"
-    },
-    {
-      "buttonName": {
-        "eng": "SBI Details",
-        "ara": "SBI Details_ara",
-        "fra": "SBI Details_fra",
-        "hin": "SBI Details_hin",
-        "kan": "SBI Details_kan",
-        "tam": "SBI Details_tam"
-      },
-      "actionURL": "",
-      "redirectURL": "/pmp/resources/devicedetails/sbidetails/view/$id",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "deviceDetail"
-    },
-    {
-      "buttonName": {
-        "eng": "Create Device",
-        "ara": "Create Device_ara",
-        "fra": "Create Device_fra",
-        "hin": "Create Device_hin",
-        "kan": "Create Device_kan",
-        "tam": "Create Device_tam"
-      },
-      "imagePath": "assets/images/add-icon.png",
-      "actionListType": "redirect",
-      "actionURL": "",
-      "redirectURL": "pmp/resources/devicedetails/create",
-      "showIn": "Button",
-      "validations": ""
-    },
-    {
-      "buttonName": {
-        "eng": "Filter",
-        "ara": "Filter_ara",
-        "fra": "Filter_fra",
-        "hin": "Filter_hin",
-        "kan": "Filter_kan",
-        "tam": "Filter_tam"
-      },
-      "imagePath": "assets/images/filter.png",
-      "actionListType": "action",
-      "actionURL": {
-        "case": "filter"
-      },
-      "redirectURL": "",
-      "showIn": "Button",
-      "validations": ""
-    }
-  ],
-  "columnsToDisplay": [{
-    "name": "id",
-    "label": {
-      "eng": "ID",
-      "ara": "ID_ara",
-      "fra": "ID_fra",
-      "hin": "ID_hin",
-      "kan": "ID_kan",
-      "tam": "ID_tam"
-    },
-    "sortOrder": "",
-    "showAsLink": "",
-    "linkType": "",
-    "LinkURL": "",
-    "inputType": "",
-    "ismandatory": "",
-    "showInListView": "false",
-    "showInSingleView": "false"
-  },
-    {
-      "name": "deviceProviderId",
-      "label": {
-        "eng": "Partner Name",
-        "ara": "Partner Name_ara",
-        "fra": "Partner Name_fra",
-        "hin": "Partner Name_hin",
-        "kan": "Partner Name_kan",
-        "tam": "Partner Name_tam"
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "dropdown",
-      "ismandatory": "true",
-      "showInListView": "true",
-      "showInSingleView": "true"
-    },
-    {
-      "name": "partnerOrganizationName",
-      "label": {
-        "eng": "Organization Name",
-        "ara": "Organization Name_ara",
-        "fra": "Organization Name_fra",
-        "hin": "Organization Name_hin",
-        "kan": "Organization Name_kan",
-        "tam": "Organization Name_tam"
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "",
-      "ismandatory": "",
-      "showInListView": "true",
-      "showInSingleView": "false"
-    },
-    {
-      "name": "deviceTypeCode",
-      "label": {
-        "eng": "Device Type",
-        "ara": "Device Type_ara",
-        "fra": "Device Type_fra",
-        "hin": "Device Type_hin",
-        "kan": "Device Type_kan",
-        "tam": "Device Type_tam"
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "dropdown",
-      "ismandatory": "true",
-      "showInListView": "true",
-      "showInSingleView": "true"
-    },
-    {
-      "name": "deviceSubTypeCode",
-      "label": {
-        "eng": "Device Sub Type",
-        "ara": "Device Sub Type_ara",
-        "fra": "Device Sub Type_fra",
-        "hin": "Device Sub Type_hin",
-        "kan": "Device Sub Type_kan",
-        "tam": "Device Sub Type_tam"
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "dropdown",
-      "ismandatory": "true",
-      "showInListView": "true",
-      "showInSingleView": "true"
-    },
-    {
-      "name": "make",
-      "label": {
-        "eng": "Make",
-        "ara": "Make_ara",
-        "fra": "Make_fra",
-        "hin": "Make_hin",
-        "kan": "Make_kan",
-        "tam": "Make_tam"
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "text",
-      "ismandatory": "true",
-      "showInListView": "true",
-      "showInSingleView": "true"
-    },
-    {
-      "name": "model",
-      "label": {
-        "eng": "Model",
-        "ara": "Model_ara",
-        "fra": "Model_fra",
-        "hin": "Model_hin",
-        "kan": "Model_kan",
-        "tam": "Model_tam"
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "text",
-      "ismandatory": "true",
-      "showInListView": "true",
-      "showInSingleView": "true"
-    },
-    {
-      "name": "isItForRegistrationDevice",
-      "label": {
-        "eng": "ForRegistrationDevice",
-        "ara": "ForRegistrationDevice_ara",
-        "fra": "ForRegistrationDevice_fra",
-        "hin": "ForRegistrationDevice_hin",
-        "kan": "ForRegistrationDevice_kan",
-        "tam": "ForRegistrationDevice_tam"
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "dropdown",
-      "ismandatory": "true",
-      "showInListView": "false",
-      "showInSingleView": "false"
-    },
-    {
-      "name": "isActive",
-      "showInListView": "true",
-      "label": {
-        "eng": "Approved Status",
-        "ara": "Approved Status_ara",
-        "fra": "Approved Status_fra",
-        "hin": "Approved Status_hin",
-        "kan": "Approved Status_kan",
-        "tam": "Approved Status_tam"
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": ""
-    }
-  ],
-  "paginator": {
-    "totalEntries": null,
-    "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
-  },
-  "filterColumns": [{
-    "filtername": "deviceProviderId",
-    "filterlabel": "Partner Name",
-    "filterType": "equals",
-    "fieldType": "input",
-    "autocomplete": "false",
-    "dropdown": "false",
-    "datePicker": "false",
-    "apiName": "",
-    "fieldName": "deviceProviderId",
-    "methodCallName": ""
-  },
-    {
-      "filtername": "partnerOrganizationName",
-      "filterlabel": "Organization Name",
-      "filterType": "equals",
-      "fieldType": "input",
-      "autocomplete": "false",
-      "dropdown": "false",
-      "datePicker": "false",
-      "apiName": "",
-      "fieldName": "partnerOrganizationName",
-      "methodCallName": ""
-    },
-    {
-      "filtername": "deviceTypeCode",
-      "filterlabel": "Device Type",
-      "filterType": "equals",
-      "fieldType": "input",
-      "autocomplete": "false",
-      "dropdown": "false",
-      "datePicker": "false",
-      "apiName": "",
-      "fieldName": "deviceTypeCode",
-      "methodCallName": ""
-    },
-    {
-      "filtername": "deviceSubTypeCode",
-      "filterlabel": "Device Sub Type",
-      "filterType": "equals",
-      "fieldType": "input",
-      "autocomplete": "false",
-      "dropdown": "false",
-      "datePicker": "false",
-      "apiName": "",
-      "fieldName": "deviceSubTypeCode",
-      "methodCallName": ""
-    },
-    {
-      "filtername": "make",
-      "filterlabel": "Make",
-      "filterType": "equals",
-      "fieldType": "input",
-      "autocomplete": "false",
-      "dropdown": "false",
-      "datePicker": "false",
-      "apiName": "",
-      "fieldName": "make",
-      "methodCallName": ""
-    },
-    {
-      "filtername": "model",
-      "filterlabel": "Model",
-      "filterType": "equals",
-      "fieldType": "input",
-      "autocomplete": "false",
-      "dropdown": "false",
-      "datePicker": "false",
-      "apiName": "",
-      "fieldName": "model",
-      "methodCallName": ""
-    }
-  ]
+	"auditEventIds": ["ADM-027", "ADM-049"],
+	"actionButtons": [{
+			"buttonName": {
+				"eng": "Approve",
+				"ara": "Approve_ara",
+				"fra": "Approve_fra",
+				"hin": "Approve_hin",
+				"kan": "Approve_kan",
+				"tam": "Approve_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "approve"
+		},
+		{
+			"buttonName": {
+				"eng": "Reject",
+				"ara": "Reject_ara",
+				"fra": "Reject_fra",
+				"hin": "Reject_hin",
+				"kan": "Reject_kan",
+				"tam": "Reject_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "reject"
+		},
+		{
+			"buttonName": {
+				"eng": "Edit",
+				"ara": "Edit_ara",
+				"fra": "Edit_fra",
+				"hin": "Edit_hin",
+				"kan": "Edit_kan",
+				"tam": "Edit_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/devicedetails/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "partnerEdit"
+		},
+		{
+			"buttonName": {
+				"eng": "SBI Details",
+				"ara": "SBI Details_ara",
+				"fra": "SBI Details_fra",
+				"hin": "SBI Details_hin",
+				"kan": "SBI Details_kan",
+				"tam": "SBI Details_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/devicedetails/sbidetails/view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "deviceDetail"
+		},
+		{
+			"buttonName": {
+				"eng": "Create Device",
+				"ara": "Create Device_ara",
+				"fra": "Create Device_fra",
+				"hin": "Create Device_hin",
+				"kan": "Create Device_kan",
+				"tam": "Create Device_tam"
+			},
+			"imagePath": "assets/images/add-icon.png",
+			"actionListType": "redirect",
+			"actionURL": "",
+			"redirectURL": "pmp/resources/devicedetails/create",
+			"showIn": "Button",
+			"validations": ""
+		},
+		{
+			"buttonName": {
+				"eng": "Filter",
+				"ara": "Filter_ara",
+				"fra": "Filter_fra",
+				"hin": "Filter_hin",
+				"kan": "Filter_kan",
+				"tam": "Filter_tam"
+			},
+			"imagePath": "assets/images/filter.png",
+			"actionListType": "action",
+			"actionURL": {
+				"case": "filter"
+			},
+			"redirectURL": "",
+			"showIn": "Button",
+			"validations": ""
+		}
+	],
+	"columnsToDisplay": [{
+			"name": "id",
+			"label": {
+				"eng": "ID",
+				"ara": "ID_ara",
+				"fra": "ID_fra",
+				"hin": "ID_hin",
+				"kan": "ID_kan",
+				"tam": "ID_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "false",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "deviceProviderId",
+			"label": {
+				"eng": "Partner Name",
+				"ara": "Partner Name_ara",
+				"fra": "Partner Name_fra",
+				"hin": "Partner Name_hin",
+				"kan": "Partner Name_kan",
+				"tam": "Partner Name_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "partnerOrganizationName",
+			"label": {
+				"eng": "Organization Name",
+				"ara": "Organization Name_ara",
+				"fra": "Organization Name_fra",
+				"hin": "Organization Name_hin",
+				"kan": "Organization Name_kan",
+				"tam": "Organization Name_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "deviceTypeCode",
+			"label": {
+				"eng": "Device Type",
+				"ara": "Device Type_ara",
+				"fra": "Device Type_fra",
+				"hin": "Device Type_hin",
+				"kan": "Device Type_kan",
+				"tam": "Device Type_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "deviceSubTypeCode",
+			"label": {
+				"eng": "Device Sub Type",
+				"ara": "Device Sub Type_ara",
+				"fra": "Device Sub Type_fra",
+				"hin": "Device Sub Type_hin",
+				"kan": "Device Sub Type_kan",
+				"tam": "Device Sub Type_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "make",
+			"label": {
+				"eng": "Make",
+				"ara": "Make_ara",
+				"fra": "Make_fra",
+				"hin": "Make_hin",
+				"kan": "Make_kan",
+				"tam": "Make_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "model",
+			"label": {
+				"eng": "Model",
+				"ara": "Model_ara",
+				"fra": "Model_fra",
+				"hin": "Model_hin",
+				"kan": "Model_kan",
+				"tam": "Model_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "isItForRegistrationDevice",
+			"label": {
+				"eng": "ForRegistrationDevice",
+				"ara": "ForRegistrationDevice_ara",
+				"fra": "ForRegistrationDevice_fra",
+				"hin": "ForRegistrationDevice_hin",
+				"kan": "ForRegistrationDevice_kan",
+				"tam": "ForRegistrationDevice_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "false",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "isActive",
+			"showInListView": "true",
+			"label": {
+				"eng": "Approved Status",
+				"ara": "Approved Status_ara",
+				"fra": "Approved Status_fra",
+				"hin": "Approved Status_hin",
+				"kan": "Approved Status_kan",
+				"tam": "Approved Status_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+	"filterColumns": [{
+			"filtername": "deviceProviderId",
+			"filterlabel": "Partner Name",
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "deviceProviderId",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "partnerOrganizationName",
+			"filterlabel": "Organization Name",
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "partnerOrganizationName",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "deviceTypeCode",
+			"filterlabel": "Device Type",
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "deviceTypeCode",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "deviceSubTypeCode",
+			"filterlabel": "Device Sub Type",
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "deviceSubTypeCode",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "make",
+			"filterlabel": "Make",
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "make",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "model",
+			"filterlabel": "Model",
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "model",
+			"methodCallName": ""
+		}
+	]
 }
