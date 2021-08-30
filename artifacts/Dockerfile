@@ -89,7 +89,7 @@ ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snaps
 
 # environment variable for msg91_jar url. 
 #ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
-ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.2.0-SNAPSHOT/kernel-smsserviceprovider-msg91-1.2.0-20210806.124309-553.jar
+ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.2.0-SNAPSHOT/kernel-smsserviceprovider-msg91-1.2.0-20210830.110909-614.jar
 
 # environment variable for ref-idobjectvalidator_jar url
 #ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
@@ -112,7 +112,7 @@ ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/sn
 ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk-client/1.2.0-SNAPSHOT/demosdk-client-1.2.0-20210527.071414-3-jar-with-dependencies.jar
 
 # environment variable for child authentication filter jar URL
-ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/1.2.0-SNAPSHOT/authentication-childauthfilter-impl-1.2.0-20210806.124231-74.jar
+ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/1.2.0-SNAPSHOT/authentication-childauthfilter-impl-1.2.0-20210830.093722-119.jar
 
 # Create all the Jar paths
 RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client
