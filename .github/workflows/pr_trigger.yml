@@ -1,8 +1,11 @@
 name: Create Pull request with latest snapshot versions from metadata.xml
 
 on:
-  repository_dispatch:
-    types: [create-pull-request]
+  push:
+    branches:
+      - develop
+      - 1.1.5
+      - test
 
 name: Create Pull Request
 
