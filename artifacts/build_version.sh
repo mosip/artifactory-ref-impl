@@ -50,7 +50,7 @@ a=$(curl -s https://oss.sonatype.org/content/repositories/snapshots/io/mosip/bio
 
 echo $a
 
-sed -i "s/biosdk-client-.*.jar/biosdk-client-$a.jar/g" Dockerfile
+sed -i "s/biosdk-client-.*-jar-with/biosdk-client-$a-jar-with/g" Dockerfile
 
 echo timestamp for  demosdk client jar
 
@@ -58,7 +58,7 @@ a=$(curl -s https://oss.sonatype.org/content/repositories/snapshots/io/mosip/dem
 
 echo $a
 
-sed -i "s/demosdk-client-.*.jar/demosdk-client-$a.jar/g" Dockerfile
+sed -i "s/demosdk-client-.*-jar-with/demosdk-client-$a-jar-with/g" Dockerfile
 
 echo timestamp for  child auth filter jar
 
@@ -66,4 +66,4 @@ a=$(curl -s https://oss.sonatype.org/content/repositories/snapshots/io/mosip/aut
 
 echo $a
 
-sed -i "s/authentication-childauthfilter-.*.jar/authentication-childauthfilter-$a.jar/g" Dockerfile
+sed -i "s/childauthfilter-impl-.*.jar/childauthfilter-impl-$a.jar/g" Dockerfile
