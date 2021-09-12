@@ -11,6 +11,8 @@ jobs:
 
   createPullRequest:
     runs-on: ubuntu-latest
+    env:
+      SERVICE_LOCATION: artifacts/
     steps:
       - uses: actions/checkout@v2
       - name: update versions in Dockerfile
