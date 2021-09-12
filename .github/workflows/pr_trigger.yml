@@ -4,10 +4,8 @@ on:
   push:
     branches:
       - develop
-      - 1.1.5
-      - test
+      - test*
 
-name: Create Pull Request
 
 jobs:
 
