@@ -393,5 +393,17 @@
 				"btnTxt": "Ok_kan"
 			}
 		}
-	}
+	},
+    "uploadcertificate": {
+        "title": "Upload Certificate_kan",
+        "partnerDomain" :"Partner Domain_kan",
+        "chooseFile" : "Choose File_kan",
+        "uploadYourFile":"Upload Your File_kan",
+        "button":"Upload_kan",
+        "cancel": "Cancel_kan"
+    },
+    "isActive":{
+        "Active":"ACTIVE_kan",
+        "InActive":"INACTIVE_kan"
+    }
 }

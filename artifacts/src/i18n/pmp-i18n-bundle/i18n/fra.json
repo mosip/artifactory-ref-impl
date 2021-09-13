@@ -393,5 +393,17 @@
 				"btnTxt": "Ok_fra"
 			}
 		}
-	}
+	},
+    "uploadcertificate": {
+        "title": "Upload Certificate_fra",
+        "partnerDomain" :"Partner Domain_fra",
+        "chooseFile" : "Choose File_fra",
+        "uploadYourFile":"Upload Your File_fra",
+        "button":"Upload_fra",
+        "cancel": "Cancel_fra"
+    },
+    "isActive":{
+        "Active":"ACTIVE_fra",
+        "InActive":"INACTIVE_fra"
+    }
 }
