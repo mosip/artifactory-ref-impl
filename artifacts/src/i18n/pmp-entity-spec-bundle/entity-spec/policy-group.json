@@ -140,12 +140,12 @@
 		{
 			"name": "isActive",
 			"label": {
-				"eng": "IsActive",
-				"ara": "IsActive_ara",
-				"fra": "IsActive_fra",
-				"hin": "IsActive_hin",
-				"kan": "IsActive_kan",
-				"tam": "IsActive_tam"
+				"eng": "Status",
+				"ara": "Status_ara",
+				"fra": "Status_fra",
+				"hin": "Status_hin",
+				"kan": "Status_kan",
+				"tam": "Status_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",

@@ -393,5 +393,17 @@
 				"btnTxt": "Ok_ara"
 			}
 		}
-	}
+	},
+    "uploadcertificate": {
+        "title": "Upload Certificate_ara",
+        "partnerDomain" :"Partner Domain_ara",
+        "chooseFile" : "Choose File_ara",
+        "uploadYourFile":"Upload Your File_ara",
+        "button":"Upload_ara",
+        "cancel": "Cancel_ara"
+    },
+    "isActive":{
+        "Active":"ACTIVE_ara",
+        "InActive":"INACTIVE_ara"
+    }
 }

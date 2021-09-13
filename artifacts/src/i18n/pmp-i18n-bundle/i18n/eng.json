@@ -401,5 +401,9 @@
         "uploadYourFile":"Upload Your File",
         "button":"Upload",
         "cancel": "Cancel"
+    },
+    "isActive":{
+        "Active":"ACTIVE",
+        "InActive":"INACTIVE"
     }
 }

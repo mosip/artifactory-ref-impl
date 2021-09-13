@@ -393,5 +393,17 @@
 				"btnTxt": "Ok_tam"
 			}
 		}
-	}
+	},
+    "uploadcertificate": {
+        "title": "Upload Certificate_tam",
+        "partnerDomain" :"Partner Domain_tam",
+        "chooseFile" : "Choose File_tam",
+        "uploadYourFile":"Upload Your File_tam",
+        "button":"Upload_tam",
+        "cancel": "Cancel_tam"
+    },
+    "isActive":{
+        "Active":"ACTIVE_tam",
+        "InActive":"INACTIVE_tam"
+    }
 }
