@@ -470,7 +470,8 @@
       "booked": "Booked",
       "expired": "Expired",
       "cancelled": "Cancelled",
-      "Application_Incomplete": "Application Incomplete"
+      "Application_Incomplete": "Application Incomplete",
+      "prefetched": "Prefetched"
     },
     "error": {
       "error": "Internal server error. Please try again after  some time.",
@@ -586,7 +587,8 @@
       "booked": "Appointment is booked successfully",
       "expired": "Appointed date has passed",
       "cancelled": "Appointment has been Cancelled",
-      "Application_Incomplete": "Application is Incomplete"
+      "Application_Incomplete": "Application is Incomplete",
+      "prefetched": "Application was prefetched in Registration Center"
     },
     "deleteIcon": "You can either discard entire application or cancel the appointment and save the details.",
     "book/modify_appointment": "You must tick the check box near to pre-registration id for one or multiple applicants to book/modify appointment",
@@ -600,7 +602,8 @@
     "nearBy": "Registration centers based on your geo-location",
     "magnifying_glass": "Search based on selection of dropdown.",
     "preview_continue": "Upload all files to proceed",
-    "lockIcon": "Application details cannot be modified once appointment is Booked, Cancelled or Expired"
+    "lockIcon": "Application details cannot be modified once appointment is Booked, Cancelled or Expired",
+    "prefetchedLockIcon": "Application details cannot be modified once it is Prefetched in Registration Center"
   },
   "error": {
     "error": "A technical error occurred and the operation cannot be completed. Any data provided may not be saved.",
