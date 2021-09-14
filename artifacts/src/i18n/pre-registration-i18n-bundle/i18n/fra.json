@@ -473,7 +473,8 @@
       "booked": "Réservé",
       "expired": "Expiré",
       "cancelled": "Annulé",
-      "Application_Incomplete":"Demande incomplète"
+      "Application_Incomplete":"Demande incomplète",
+      "prefetched": "Préchargé"
     },
     "error": {
       "error": "Erreur Interne du Serveur. Veuillez réessayer après un certain temps.",
@@ -582,7 +583,8 @@
       "booked": "Rendez-vous est réservé avec succès",
       "expired": "La date de rendez-vous est passée",
       "cancelled":"Le rendez-vous a été annulé",
-      "Application_Incomplete": "La demande est incomplète"
+      "Application_Incomplete": "La demande est incomplète",
+      "prefetched": "L'application a été préchargée dans le centre d'enregistrement"
     },
     "deleteIcon": "Vous pouvez soit rejeter la demande entière, soit annuler le rendez-vous et enregistrer les détails.",
     "book/modify_appointment": "Vous devez cocher la case en regard de l'identifiant de pré-inscription pour qu'un ou plusieurs demandeurs puissent prendre un rendez-vous",
@@ -596,7 +598,8 @@
     "nearBy": "Centres d'inscription basés sur votre géolocalisation",
     "magnifying_glass": "Recherche basée sur la sélection du menu déroulant.",
     "preview_continue": "Téléchargez tous les fichiers pour continuer",
-    "lockIcon":"Les détails de la demande ne peuvent pas être modifiés une fois que le rendez-vous est réservé, annulé ou expiré"
+    "lockIcon":"Les détails de la demande ne peuvent pas être modifiés une fois que le rendez-vous est réservé, annulé ou expiré",
+    "prefetchedLockIcon": "Les détails de l'application ne peuvent pas être modifiés une fois qu'ils sont préchargés dans le centre d'enregistrement"
   },
   "error": {
     "error": "Une erreur technique s'est produite et l'opération ne peut pas être terminée. Aucune donnée fournie ne peut être sauvegardée",
