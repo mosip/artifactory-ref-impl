@@ -7,8 +7,9 @@
             "title": "مصادر",
             "subItem1": "مركز",
             "subItem2": "الأجهزة",
-            "subItem3": "المستخدمين",
-            "subItem4": "آلات"
+            "subItem3": "الآلات",
+            "subItem4": "تعيين منطقة المستخدم",
+            "subItem5": "تعيين مركز المستخدم"
         },
         "item3": {
             "title": "البيانات الرئيسية"
@@ -26,8 +27,8 @@
         },
         "item7": {
             "title": "مدير المفتاح",
-            "subItem1": "توليد CSR",
             "subItem2": "توليد مفتاح رئيسي",
+            "subItem1": "توليد CSR",            
             "subItem3": "الحصول على شهادة",
             "subItem4": "تحميل الشهادة",
             "subItem5": "تحميل شهادة مجال أخرى"
@@ -437,7 +438,8 @@
         "mapped-documents": "المستندات المعينة",
         "unmapped-documents": "المستندات غير المعينة",
         "masterDataTypes": "أنواع البيانات الرئيسية",
-        "dynamicField": "مجال ديناميكي"
+        "dynamicField": "مجال ديناميكي",
+        "createDynamicField": "إنشاء حقل ديناميكي جديد"
     },
     "masterdataupload": {
         "title": "تحميل البيانات الرئيسية"
@@ -739,6 +741,9 @@
     },
     "genericerror":{
         "fieldValidation":"هذه الخانة مطلوبه"
+    },
+    "genericbutton":{
+        "save":"يحفظ"
     },
     "genericmessage":{
         "successLabel":"النجاح",
