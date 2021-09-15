@@ -7,8 +7,9 @@
             "title": "வளங்கள்",
             "subItem1": "மையம்",
             "subItem2": "சாதனங்கள்",
-            "subItem3": "பயனர்கள்",
-            "subItem4": "இயந்திரங்கள்"
+            "subItem3": "இயந்திரங்கள்",
+            "subItem4": "பயனர் மண்டல மேப்பிங்",
+            "subItem5": "பயனர் மைய மேப்பிங்"
         },
         "item3": {
             "title": "பிரதான தரவு"
@@ -26,8 +27,8 @@
         },
         "item7": {
             "title": "கீமேனேஜர்",
-            "subItem1": "CSR ஐ உருவாக்கவும்",
-            "subItem2": "MasterKey ஐ உருவாக்கவும்",
+            "subItem2": "முதன்மை விசையை உருவாக்கவும்",
+            "subItem1": "CSR ஐ உருவாக்கவும்",            
             "subItem3": "சான்றிதழ் பெறவும்",
             "subItem4": "சான்றிதழைப் பதிவேற்றவும்",
             "subItem5": "பிற டொமைன் சான்றிதழைப் பதிவேற்றவும்"
@@ -234,7 +235,8 @@
         "mapped-documents": "வரைபட ஆவணங்கள்",
         "unmapped-documents": "மாற்றப்படாத ஆவணங்கள்",
         "masterDataTypes": "மாஸ்டர்டேட்டா வகைகள்",
-        "dynamicField": "டைனமிக் புலம்"
+        "dynamicField": "டைனமிக் புலம்",
+        "createDynamicField": "புதிய டைனமிக் புலம் உருவாக்கவும்"
     },
     "masterdataupload": {
         "title": "முதன்மை தரவு பதிவேற்றம்"
@@ -621,13 +623,13 @@
         "operation": "செயல்பாடு",
         "operationCtrl": [{
             "label": "செருக",
-            "value": "Insert"
+            "value": "செருக"
         }, {
             "label": "புதுப்பி",
-            "value": "Update"
+            "value": "புதுப்பி"
         }, {
             "label": "அழி",
-            "value": "Delete"
+            "value": "அழி"
         }],
         "tableName": "அட்டவணை பெயரைத் தேர்ந்தெடுக்கவும்",
         "chooseFile": "கோப்பை தேர்ந்தெடுங்கள்",
@@ -858,6 +860,9 @@
         "errorLabel":"தவறு",
         "createMessage":"வெற்றிகரமாக உருவாக்கப்பட்டது",
         "updateMessage":"வெற்றிகரமாக புதுப்பிக்கப்பட்டது"
+    },
+    "genericbutton":{
+        "save":"சேமி"
     },
     "headermessage":{
         "vesion":"நிர்வாகி UI பதிப்பு",
