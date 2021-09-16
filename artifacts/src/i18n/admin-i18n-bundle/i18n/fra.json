@@ -727,31 +727,31 @@
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",
-            "value": "  3years_ara"
+            "value": "  3years_fra"
         }, {
             "id": "REGISTRATION_PROCESSOR",
-            "value": "REGISTRATION_PROCESSOR  3years_ara"
+            "value": "REGISTRATION_PROCESSOR  3years_fra"
         }, {
             "id": "REGISTRATION",
-            "value": "REGISTRATION  3years_ara"
+            "value": "REGISTRATION  3years_fra"
         }, {
             "id": "ID_REPO",
-            "value": "ID_REPO  3years_ara"
+            "value": "ID_REPO  3years_fra"
         }, {
             "id": "KERNEL",
-            "value": "KERNEL  3years_ara"
+            "value": "KERNEL  3years_fra"
         }, {
             "id": "ROOT",
-            "value": "ROOT  5years_ara"
+            "value": "ROOT  5years_fra"
         }, {
             "id": "PMS",
-            "value": "PMS  3years_ara"
+            "value": "PMS  3years_fra"
         }, {
             "id": "ADMIN_SERVICES",
-            "value": "ADMIN_SERVICES  3years_ara"
+            "value": "ADMIN_SERVICES  3years_fra"
         }, {
             "id": "RESIDENT",
-            "value": "RESIDENT  3years_ara"
+            "value": "RESIDENT  3years_fra"
         }]
     },
 
