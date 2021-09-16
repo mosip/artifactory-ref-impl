@@ -870,7 +870,7 @@
 	"keymanager": {
 		"applicationIds": [{
 			"id": "PRE_REGISTRATION",
-			"value": "PRE_REGISTRATION  3years_eng"
+			"value": "PRE_REGISTRATION  3years"
 		}, {
 			"id": "REGISTRATION_PROCESSOR",
 			"value": "REGISTRATION_PROCESSOR  3years"
