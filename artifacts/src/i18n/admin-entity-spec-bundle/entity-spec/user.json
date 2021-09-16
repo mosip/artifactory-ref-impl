@@ -1,6 +1,6 @@
 {
   "auditEventIds": ["ADM-027", "ADM-049"],
-  "actionButtons": [
+  "actionButtons": [    
     {
       "buttonName": {
         "eng": "Edit",
@@ -33,22 +33,43 @@
     },
     {
       "buttonName": {
-        "eng": "Map User",
-        "ara": "إضافة مركز",
-        "fra": "Ajouter le centre",
-        "hin": "मानचित्र उपयोगकर्ता ",
-        "kan": "ನಕ್ಷೆ ಬಳಕೆದಾರ ",
-        "tam": "வரைபட பயனர்  "
+        "eng": "Activate",
+        "ara": "تنشيط",
+        "fra": "déclencher",
+        "hin": "सक्रिय",
+        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "tam": "செயல்படுத்த"
       },
-      "imagePath": "assets/images/add-icon.png",
-      "actionListType": "redirect",
       "actionURL": "",
-      "redirectURL": "admin/resources/users/map",
-      "showIn": "Button",
-      "validations": ""
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "activateCenter"
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" },
+      "buttonName": {
+        "eng": "Deactivate",
+        "ara": "الغاء تنشيط",
+        "fra": "désactiver",
+        "hin": "निष्क्रिय करें",
+        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+        "tam": "செயலிழக்க"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "deactivateCenter"
+    },
+    {
+      "buttonName": {
+        "eng": "Filter",
+        "fra": "filtre",
+        "ara": "تصفيه",
+        "tam": "வடிகட்டி",
+        "hin": "फ़िल्टर",
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
       "actionURL": { "case": "filter" },
@@ -61,7 +82,14 @@
     {
       "name": "name",
       "showInListView": "true",
-      "label": { "eng": "Name", "ara": "ماسم", "fra": "Nom" },
+      "label": { 
+        "eng": "Name", 
+        "ara": "ماسم", 
+        "fra": "Nom",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು" 
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -134,7 +162,7 @@
     {
       "name": "isActive",
       "showInListView": "true",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut" },
+      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",

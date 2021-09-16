@@ -1,0 +1,409 @@
+{
+	"menuItems": {
+		"item1": {
+			"title": "HOME_ara"
+		},
+		"item2": {
+			"title": "Policy_ara",
+			"subItem1": "Policy Group_ara",
+			"subItem2": "Auth Policy_ara",
+			"subItem3": "Data Share Policy_ara"
+		},
+		"item3": {
+			"title": "Partner_ara",
+			"subItem1": "MISP Partner_ara",
+			"subItem2": "Auth Partner_ara",
+			"subItem3": "Device Partner_ara",
+			"subItem4": "FTM Partner_ara"
+		}
+	},
+	"singleView": {
+		"errorMessages": [
+			"No record found_ara",
+			"A technical error has occurred_ara"
+		],
+		"buttonText": "OK_ara",
+		"title": "Error_ara"
+	},
+	"masterData": {
+		"master-data": "Master Data_ara",
+		"total-no": "Total No_ara",
+		"common": "Common_ara",
+		"device-definition": "Device Definition_ara",
+		"machine-definition": "Machine Definition_ara",
+		"document-definition": "Document Definition_ara",
+		"doc-category-mapping": "Doc Category - Type Mapping_ara",
+		"category": "Category_ara",
+		"mapped-documents": "Mapped Documents_ara",
+		"unmapped-documents": "Unmapped Documents_ara"
+	},
+	"pmanager": {
+		"status": "Status_ara",
+		"language": "English_ara",
+		"edit": "Edit_ara",
+		"create": "Create_ara",
+		"cancel": "Cancel_ara",
+		"keyboard-tooltip": "Click for Virtual Keyboard (English)_ara",
+		"update": "Update_ara",
+		"created-on": "Created On_ara",
+		"created-by": "Created By_ara",
+		"updated-on": "Updated On_ara",
+		"updated-by": "Updated By_ara",
+		"header": "Change Policy_ara",
+		"name": "Policy Name_ara",
+		"popupMessages": {
+			"create": {
+				"title": "Confirmation_ara",
+				"message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_ara"],
+				"yesBtnText": "Yes_ara",
+				"noBtnText": "No_ara",
+				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_ara"
+			},
+			"edit": {
+				"title": "Confirmation_ara",
+				"message": "You are about to update a Registration Center. Please ensure that all the information is correct_ara",
+				"yesBtnText": "Confirm_ara",
+				"noBtnText": "Cancel_ara",
+				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_ara"
+			},
+			"update-success": {
+				"title": "Success_ara",
+				"message": "Partner is updated Successfully_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"update-error": {
+				"title": "Error_ara",
+				"message": "There was some issue in updating the Partner. Please try again_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"create-success": {
+				"title": "Success_ara",
+				"message": ["Partner is created Successfully with Partner ID: ", " and Partner Name: _ara"],
+				"btnTxt": "Ok_ara"
+			},
+			"create-error": {
+				"title": "Error_ara",
+				"message": "There was some issue in creating Partner. Please try again_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"navigation-popup": {
+				"title": "Confirmation_ara",
+				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._ara",
+				"yesBtnTxt": "Leave_ara",
+				"noBtnTxt": "Stay_ara"
+			},
+			"noData": {
+				"title": "Error_ara",
+				"message": "No Data Found_ara",
+				"btnTxt": "Ok_ara"
+			}
+		}
+	},
+	"partner": {
+		"address1": "Address_ara",
+		"header": "Partner Service_ara",
+		"name": "Organization_ara",
+		"id": "Id_ara",
+		"status": "Status_ara",
+		"language": "English_ara",
+		"edit": "Edit_ara",
+		"create": "Create_ara",
+		"cancel": "Cancel_ara",
+		"keyboard-tooltip": "Click for Virtual Keyboard (English)_ara",
+		"update": "Update_ara",
+		"partner-details": "Partner Details_ara",
+		"created-on": "Created On_ara",
+		"created-by": "Created By_ara",
+		"updated-on": "Updated On_ara",
+		"updated-by": "Updated By_ara",
+		"registration-partner-name": "Organization Name_ara",
+		"registration-partner-type": "Policy Name_ara",
+		"contact-person": "Email Id_ara",
+		"contact-number": "Contact Number_ara",
+		"location-details": "Address Details_ara",
+		"validationMessages": {
+			"partnerTypeCode": {
+				"required": "Policy Name is required_ara"
+			},
+			"name": {
+				"required": "Organization Name is required_ara",
+				"max-length": "Exceeded max length (128)_ara"
+			},
+			"addressLine1": {
+				"required": "Address is required_ara",
+				"max-length": "Exceeded max length (256)_ara"
+			}
+		},
+		"popupMessages": {
+			"create": {
+				"title": "Confirmation_ara",
+				"message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_ara"],
+				"yesBtnText": "Yes_ara",
+				"noBtnText": "No_ara",
+				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_ara"
+			},
+			"edit": {
+				"title": "Confirmation_ara",
+				"message": "You are about to update a Registration Center. Please ensure that all the information is correct_ara",
+				"yesBtnText": "Confirm_ara",
+				"noBtnText": "Cancel_ara",
+				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_ara"
+			},
+			"update-success": {
+				"title": "Success_ara",
+				"message": "Partner is updated Successfully_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"update-error": {
+				"title": "Error_ara",
+				"message": "There was some issue in updating the Partner. Please try again_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"create-success": {
+				"title": "Success_ara",
+				"message": ["Partner is created Successfully with Partner ID: ", " and Partner Status is: _ara"],
+				"btnTxt": "Ok_ara"
+			},
+			"create-error": {
+				"title": "Error_ara",
+				"message": "There was some issue in creating Partner. Please try again_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"navigation-popup": {
+				"title": "Confirmation_ara",
+				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._ara",
+				"yesBtnTxt": "Leave_ara",
+				"noBtnTxt": "Stay_ara"
+			},
+			"noData": {
+				"title": "Error_ara",
+				"message": "No Data Found_ara",
+				"btnTxt": "Ok_ara"
+			}
+		}
+	},
+	"misp": {
+		"header": "MISP_ara",
+		"name": "Name_ara",
+		"id": "Id_ara",
+		"isActive": "Misp Status_ara",
+		"contact_no": "Phone No_ara",
+		"status": "Status_ara",
+		"address": "Address_ara",
+		"misp-details": "Misp Details_ara",
+		"created-on": "Created On_ara",
+		"created-by": "Created By_ara",
+		"updated-on": "Updated On_ara",
+		"updated-by": "Updated By_ara",
+		"email_id": "Email_ara",
+		"edit": "Edit_ara",
+		"create": "Create_ara",
+		"cancel": "Cancel_ara",
+		"language": "English_ara",
+		"keyboard-tooltip": "Click for Virtual Keyboard (English)_ara",
+		"update": "Update_ara",
+		"validationMessages": {
+			"name": {
+				"required": "Misp Name is required_ara",
+				"max-length": "Exceeded max length (128)_ara"
+			},
+			"address": {
+				"required": "Misp Address is required_ara",
+				"max-length": "Exceeded max length (128)_ara"
+			},
+			"phoneNo": {
+				"required": "Misp phoneNo is required_ara"
+			},
+			"email": {
+				"required": "Misp email is required_ara"
+			}
+		},
+		"popupMessages": {
+			"create": {
+				"title": "Confirmation_ara",
+				"message": ["You are about to create a Misp in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_ara"],
+				"yesBtnText": "Yes_ara",
+				"noBtnText": "No_ara",
+				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_ara"
+			},
+			"edit": {
+				"title": "Confirmation_ara",
+				"message": "You are about to update a misp. Please ensure that all the information is correct_ara",
+				"yesBtnText": "Confirm_ara",
+				"noBtnText": "Cancel_ara",
+				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_ara"
+			},
+			"update-success": {
+				"title": "Success_ara",
+				"message": "Misp is updated Successfully_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"update-error": {
+				"title": "Error_ara",
+				"message": "There was some issue in updating the misp. Please try again_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"create-success": {
+				"title": "Success_ara",
+				"message": ["MISP is created Successfully._ara"],
+				"btnTxt": "Ok_ara"
+			},
+			"create-error": {
+				"title": "Error_ara",
+				"message": "There was some issue in creating a misp. Please try again_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"navigation-popup": {
+				"title": "Confirmation_ara",
+				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._ara",
+				"yesBtnTxt": "Leave_ara",
+				"noBtnTxt": "Stay_ara"
+			},
+			"noData": {
+				"title": "Error_ara",
+				"message": "No Data Found_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"lunchTimeValidation": {
+				"title": "Error_ara",
+				"message": "Please select center timings before selecting lunch timings_ara",
+				"btnTxt": "Ok_ara"
+			}
+		}
+	},
+	"validationMessages": {
+		"required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_ara",
+		"range": "’To’ date cannot be before ‘From’ date'_ara",
+		"invalid": "Please select a valid value for Date_ara"
+	},
+	"actionMessages": {
+		"decommission": {
+			"success-message": ["", " is approved successfully_ara"],
+			"success-title": "Success_ara",
+			"error-message": "Cannot approve the Misp.Currently Misp is inactive_ara",
+			"error-title": "Error_ara",
+			"btnTxt": "Ok_ara",
+			"yesBtnTxt": "Confirm_ara",
+			"noBtnTxt": "Cancel_ara",
+			"confirmation-message": ["Do you want to Approve the Misp ", " ? \n You cannot undo this action once you click on Confirm._ara"],
+			"confirmation-title": "Confirmation_ara"
+		},
+		"activate": {
+			"success-message": ["", " is Activated Successfully_ara"],
+			"success-title": "Success_ara",
+			"error-message": "Could not be Activated_ara",
+			"error-title": "Error_ara",
+			"btnTxt": "Ok_ara",
+			"yesBtnTxt": "Yes_ara",
+			"noBtnTxt": "No_ara",
+			"confirmation-message": ["Do you want to Activate the ", "? \n You can Deactivate it later if you wish. Till then it will be set as Active_ara"],
+			"confirmation-title": "Confirmation_ara"
+		},
+		"deactivate": {
+			"success-message": ["", " is Deactivated Successfully_ara"],
+			"success-title": "Success_ara",
+			"error-message": "Misp Could not be Deactivated_ara",
+			"error-title": "Error_ara",
+			"btnTxt": "Ok_ara",
+			"yesBtnTxt": "Yes_ara",
+			"noBtnTxt": "No_ara",
+			"confirmation-message": ["Do you want to Deactivate the ", " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_ara"],
+			"confirmation-title": "Confirmation_ara"
+		}
+	},
+	"policy": {
+		"header": "Policy_ara",
+		"name": "Name_ara",
+		"desc": "Description_ara",
+		"authPolicies": "Allowed Auth Types_ara",
+		"allowedKycAttributes": "Allowed Kyc Attributes_ara",
+		"id": "Id_ara",
+		"isActive": "Status_ara",
+		"policy-details": "Policy Details_ara",
+		"created-on": "Created On_ara",
+		"created-by": "Created By_ara",
+		"updated-on": "Updated On_ara",
+		"updated-by": "Updated By_ara",
+		"edit": "Edit_ara",
+		"create": "Create_ara",
+		"cancel": "Cancel_ara",
+		"language": "English_ara",
+		"keyboard-tooltip": "Click for Virtual Keyboard (English)_ara",
+		"update": "Update_ara",
+		"validationMessages": {
+			"name": {
+				"required": "Policy Name is required_ara",
+				"max-length": "Exceeded max length (128)_ara"
+			},
+			"desc": {
+				"required": "Policy description is required_ara",
+				"max-length": "Exceeded max length (128)_ara"
+			}
+
+		},
+		"popupMessages": {
+			"create": {
+				"title": "Confirmation_ara",
+				"message": ["You are about to create a Policy in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_ara"],
+				"yesBtnText": "Yes_ara",
+				"noBtnText": "No_ara",
+				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_ara"
+			},
+			"edit": {
+				"title": "Confirmation_ara",
+				"message": "You are about to update a policy. Please ensure that all the information is correct_ara",
+				"yesBtnText": "Confirm_ara",
+				"noBtnText": "Cancel_ara",
+				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_ara"
+			},
+			"update-success": {
+				"title": "Success_ara",
+				"message": "policy is updated Successfully_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"update-error": {
+				"title": "Error_ara",
+				"message": "There was some issue in updating the policy. Please try again_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"create-success": {
+				"title": "Success_ara",
+				"message": ["Policy is created Successfully._ara"],
+				"btnTxt": "Ok_ara"
+			},
+			"create-error": {
+				"title": "Error_ara",
+				"message": "There was some issue in creating a policy. Please try again_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"navigation-popup": {
+				"title": "Confirmation_ara",
+				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._ara",
+				"yesBtnTxt": "Leave_ara",
+				"noBtnTxt": "Stay_ara"
+			},
+			"noData": {
+				"title": "Error_ara",
+				"message": "No Data Found_ara",
+				"btnTxt": "Ok_ara"
+			},
+			"lunchTimeValidation": {
+				"title": "Error_ara",
+				"message": "Please select center timings before selecting lunch timings_ara",
+				"btnTxt": "Ok_ara"
+			}
+		}
+	},
+    "uploadcertificate": {
+        "title": "Upload Certificate_ara",
+        "partnerDomain" :"Partner Domain_ara",
+        "chooseFile" : "Choose File_ara",
+        "uploadYourFile":"Upload Your File_ara",
+        "button":"Upload_ara",
+        "cancel": "Cancel_ara"
+    },
+    "isActive":{
+        "Active":"ACTIVE_ara",
+        "InActive":"INACTIVE_ara"
+    }
+}
