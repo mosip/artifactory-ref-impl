@@ -773,5 +773,60 @@
         "vesion":"إصدار واجهة المستخدم الإدارية",
         "Zone":"منطقة",
         "Logout":"تسجيل خروج"
+    },
+    "keymanager": {
+        "applicationIds": [{
+            "id": "PRE_REGISTRATION",
+            "value": "  3years_ara"
+        }, {
+            "id": "REGISTRATION_PROCESSOR",
+            "value": "REGISTRATION_PROCESSOR  3years_ara"
+        }, {
+            "id": "REGISTRATION",
+            "value": "REGISTRATION  3years_ara"
+        }, {
+            "id": "ID_REPO",
+            "value": "ID_REPO  3years_ara"
+        }, {
+            "id": "KERNEL",
+            "value": "KERNEL  3years_ara"
+        }, {
+            "id": "ROOT",
+            "value": "ROOT  5years_ara"
+        }, {
+            "id": "PMS",
+            "value": "PMS  3years_ara"
+        }, {
+            "id": "ADMIN_SERVICES",
+            "value": "ADMIN_SERVICES  3years_ara"
+        }, {
+            "id": "RESIDENT",
+            "value": "RESIDENT  3years_ara"
+        }]
+    },
+
+    "serverError": {
+        "KER-KMS-001": "Certificate is not valid(ara)",
+        "KER-KMS-002": "ApplicationId not found in Key Policy(ara)",
+        "KER-KMS-003": "No unique alias is found(ara)",
+        "KER-KMS-004": "No Such algorithm is supported(ara)",
+        "KER-KMS-005": "Invalid request(ara)",
+        "KER-KMS-006": "timestamp should be in ISO 8601 format yyyy-MM-ddTHH::mm:ss.SSSZ(ara)",
+        "KER-KMS-007": "Exception occured in cypto library:(ara) ",
+        "KER-KMS-008": "Service is  not able to store sign certificate(ara)",
+        "KER-KMS-009": "Invalid Response Object Type.(ara)",
+        "KER-KMS-010": "Reference Id Not Supported for the Application ID.(ara)",
+        "KER-KMS-011": "Root Key not available to sign.(ara)",
+        "KER-KMS-012": "Key Generation Process is not completed.(ara)",
+        "KER-KMS-013": "Certificate Parsing Error.(ara)",
+        "KER-KMS-014": "Certificate Key Not Matching with stored Key.(ara)",
+        "KER-KMS-015": "Upload of certificate will not be allowed to update other domain certificate.(ara)",
+        "KER-KMS-016": "Not allowed to generate new key pair for other domains.(ara)",
+        "KER-KMS-017": "Certificate Not found in keystore table.(ara)",
+        "KER-KMS-018": "Not Allowed to perform decryption with other domain key.(ara)",
+        "KER-KMS-019": "Not able to decrypt Symmetric Key using the Private Key.(ara)",
+        "KER-KMS-020": "Signing operation for allowed for the provided application id & reference id.(ara)",
+        "KER-KMS-021": "Key Revocation not allowed.(ara)",
+        "KER-KMS-500": "Internal server error(ara)"
     }
 }
