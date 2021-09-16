@@ -774,6 +774,9 @@
         "Zone":"منطقة",
         "Logout":"تسجيل خروج"
     },
+    "paginationLabel":{
+        "showRows":"Show rows"
+    },
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",

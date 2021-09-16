@@ -724,6 +724,9 @@
         "Zone":"Zone",
         "Logout":"Se déconnecter"
     },
+    "paginationLabel":{
+        "showRows":"Show rows"
+    },
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",
