@@ -6,6 +6,7 @@ on:
       - develop
       - 1.1.5
       - 1.1.5_biosdk
+      - 1.1.5*
   
 jobs:
 
