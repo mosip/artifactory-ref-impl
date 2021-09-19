@@ -89,7 +89,7 @@ ENV Ja=jar
 # environment variable for maven central mosip artifacts 
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
-# environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
+# environment variable for maven central auth adapter.
 ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${Rversion}/kernel-auth-adapter-${Rversion}$.{Ja}
 ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${Sversion}/kernel-auth-adapter-1.2.0-20210917.070358-414.jar
 
@@ -104,6 +104,9 @@ ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/rep
 # environment variable for clamav jar and client url
 ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/${Rversion}/kernel-virusscanner-clamav-${Rversion}.${Ja}
 ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/${Sversion}/kernel-virusscanner-clamav-1.2.0-20210916.100321-636.jar
+
+# environment variable for clamav jar and client url
+ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0-SNAPSHOT/kernel-virusscanner-clamav-1.2.0-20210914.061516-628.jar
 
 ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
@@ -123,6 +126,7 @@ ENV demosdk_jar_url_env=${release_maven_path}/demosdk/demosdk-client/${Rversion}
 ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk-client/${Sversion}/demosdk-client-1.2.0-20210527.071414-3-jar-with-dependencies.jar
 
 # environment variable for child authentication filter jar URL
+
 ENV child_auth_filter_jar_url=${release_maven_path}/authentication/authentication-childauthfilter-impl/${Rversion}/authentication-childauthfilter-impl-${Rversion}.{Ja}
 ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/${Sversion}/authentication-childauthfilter-impl-1.2.0-20210916.100341-160.jar
 

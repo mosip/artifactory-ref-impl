@@ -393,5 +393,17 @@
 				"btnTxt": "Ok_hin"
 			}
 		}
-	}
+	},
+    "uploadcertificate": {
+        "title": "Upload Certificate_hin",
+        "partnerDomain" :"Partner Domain_hin",
+        "chooseFile" : "Choose File_hin",
+        "uploadYourFile":"Upload Your File_hin",
+        "button":"Upload_hin",
+        "cancel": "Cancel_hin"
+    },
+    "isActive":{
+        "Active":"ACTIVE_hin",
+        "InActive":"INACTIVE_hin"
+    }
 }

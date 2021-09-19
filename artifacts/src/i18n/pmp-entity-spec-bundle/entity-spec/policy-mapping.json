@@ -85,7 +85,7 @@
 			"LinkURL": "",
 			"inputType": "dropdown",
 			"ismandatory": "true",
-			"showInListView": "true",
+			"showInListView": "false",
 			"showInSingleView": "true"
 		},
 		{
@@ -104,8 +104,46 @@
 			"LinkURL": "",
 			"inputType": "dropdown",
 			"ismandatory": "true",
-			"showInListView": "true",
+			"showInListView": "false",
 			"showInSingleView": "true"
+		},
+		{
+			"name": "partnerName",
+			"label": {
+				"eng": "Partner Name",
+				"ara": "Partner Name_ara",
+				"fra": "Partner Name_fra",
+				"hin": "Partner Name_hin",
+				"kan": "Partner Name_kan",
+				"tam": "Partner Name_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "policyName",
+			"label": {
+				"eng": "Policy Name",
+				"ara": "Policy Name_ara",
+				"fra": "Policy Name_fra",
+				"hin": "Policy Name_hin",
+				"kan": "Policy Name_kan",
+				"tam": "Policy Name_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "false"
 		},
 		{
 			"name": "requestDetail",
