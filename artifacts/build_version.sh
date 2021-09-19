@@ -2,6 +2,14 @@
 
 version=1.2.0-SNAPSHOT
 
+if echo $version | grep -qe ".*SNAPSHOT" ; then
+    sed -i '/Sversion/s/^#//g'  Dockerfile
+    echo successfully uncommented snapshot url.
+else
+    sed -i '/Sversion/s/^/# /g'  Dockerfile
+    echo successfully commented snapshot url.
+fi
+
 echo Script to fetch the timestamp for each required snapshot artifactory
 
 echo timestamp for auth adapter.
