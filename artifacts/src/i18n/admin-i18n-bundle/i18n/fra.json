@@ -730,7 +730,7 @@
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",
-            "value": "3 années"
+            "value": "PRE_REGISTRATION 3 années"
         }, {
             "id": "REGISTRATION_PROCESSOR",
             "value": "REGISTRATION_PROCESSOR 3ans"
@@ -765,7 +765,7 @@
         "KER-KMS-004": "Aucun algorithme de ce type n'est pris en charge",
         "KER-KMS-005": "Demande invalide",
         "KER-KMS-006": "l'horodatage doit être au format ISO 8601 aaaa-MM-jjTHH::mm:ss.SSSZ",
-        "KER-KMS-007": "Une exception s'est produite dans la bibliothèque cypto : ",
+        "KER-KMS-007": "Une exception s'est produite dans la bibliothèque crypto : ",
         "KER-KMS-008": "Le service ne peut pas stocker le certificat de signature",
         "KER-KMS-009": "Type d'objet de réponse non valide.",
         "KER-KMS-010": "Id de référence non pris en charge pour l'ID d'application.",
@@ -1266,6 +1266,6 @@
         "KER-MSD-319": "Entrée de requête invalide",
         "KER-MSD-999": "Identifiant non valide transmis pour la langue secondaire",
         "KER-MSD-500": "Erreur serveur interne",
-        "KER-MSD-998": "Already activated or deactivated"
+        "KER-MSD-998": "Déjà activé ou désactivé"
     }
 }
