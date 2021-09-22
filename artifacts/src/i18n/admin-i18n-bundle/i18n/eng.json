@@ -720,7 +720,8 @@
         "successButton":"OK",
         "errorLabel":"Error",
         "createMessage":"Created Successfully",
-        "updateMessage":"Updated Successfully"
+        "updateMessage":"Updated Successfully",
+        "mappingMessage":" Mapped Successfully"        
     },
     "headermessage":{
         "vesion":"Admin UI version",
@@ -733,31 +734,31 @@
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",
-            "value": "  3years"
+            "value": "PRE_REGISTRATION 3years"
         }, {
             "id": "REGISTRATION_PROCESSOR",
-            "value": "REGISTRATION_PROCESSOR  3years"
+            "value": "REGISTRATION_PROCESSOR 3years"
         }, {
             "id": "REGISTRATION",
-            "value": "REGISTRATION  3years"
+            "value": "REGISTRATION 3years"
         }, {
             "id": "ID_REPO",
-            "value": "ID_REPO  3years"
+            "value": "ID_REPO 3years"
         }, {
             "id": "KERNEL",
-            "value": "KERNEL  3years"
+            "value": "KERNEL 3years"
         }, {
             "id": "ROOT",
-            "value": "ROOT  5years"
+            "value": "ROOT 5years"
         }, {
             "id": "PMS",
-            "value": "PMS  3years"
+            "value": "PMS 3years"
         }, {
             "id": "ADMIN_SERVICES",
-            "value": "ADMIN_SERVICES  3years"
+            "value": "ADMIN_SERVICES 3years"
         }, {
             "id": "RESIDENT",
-            "value": "RESIDENT  3years"
+            "value": "RESIDENT 3years"
         }]
     },
 
