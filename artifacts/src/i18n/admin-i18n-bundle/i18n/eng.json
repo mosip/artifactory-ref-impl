@@ -1270,6 +1270,17 @@
         "KER-MSD-319": "Invalid request input",
         "KER-MSD-999": "Invalid id passed for Secondary language",
         "KER-MSD-500": "Internal server error",
-        "KER-MSD-998": "Already activated or deactivated"
+        "KER-MSD-998": "Already activated or deactivated",
+        "ADMN-LRID-001" : "Unable ro find the lost rid..",
+        "KER-ATH-401" : "Authentication Failed",
+        "KER-ATH-403" : "Forbidden",
+        "KER-ATH-002" : "Fail to connect to auth service",
+        "KER-ATH-001" : "Error occur while parsing error from response",
+        "ADMN-BLK-TRNSCTNS-001" : "Unable ro retrieve the transactions",
+        "ADMN-BLK-001" : "Any error occured during the bulk operation. If the category is masterdata, list operations are listed. If the category is packet, list of failed packet informations are listed",
+        "ADM-BLK-001" : "Data is not exist in db",
+        "ADM-BLK-002" : "plz enter valid input",
+        "ADM-BLK-003" : "Duplicate Record",
+        "ADM-BLK-004" : "Supported format are only csv file"
     }
 }
