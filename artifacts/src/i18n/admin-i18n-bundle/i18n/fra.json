@@ -956,6 +956,7 @@
         "KER-MSD-437": "L'ID de machine %s n'existe pas pour la langue principale",
         "KER-MSD-352": "La machine ne peut pas être mise hors service car certains centres d'enregistrement sont mappés",
         "KER-MSD-353": "Clé publique fournie non valide",
+		"KER-MSD-354": "Clé publique de signe non valide fournie",
         "KER-MSD-031": "Une erreur s'est produite lors de la récupération des détails de l'historique de la machine",
         "KER-MSD-032": "Historique de la machine introuvable",
         "KER-MSD-033": "Format de date invalide",

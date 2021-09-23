@@ -959,6 +959,7 @@
         "KER-MSD-437": "Machine ID %s does not exist for primary language",
         "KER-MSD-352": "Machine cannot Decommissioned as some Registration centers are mapped",
         "KER-MSD-353": "Invalid public key provided",
+		"KER-MSD-354": "Invalid sign public key provided",
         "KER-MSD-031": "Error occured while fetching Machine History details",
         "KER-MSD-032": "Machine History not found",
         "KER-MSD-033": "Invalid date format",
