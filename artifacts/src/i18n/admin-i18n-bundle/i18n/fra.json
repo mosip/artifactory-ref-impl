@@ -1267,6 +1267,17 @@
         "KER-MSD-319": "Entrée de requête invalide",
         "KER-MSD-999": "Identifiant non valide transmis pour la langue secondaire",
         "KER-MSD-500": "Erreur serveur interne",
-        "KER-MSD-998": "Déjà activé ou désactivé"
+        "KER-MSD-998": "Déjà activé ou désactivé",
+        "ADMN-LRID-001" : "Impossible de trouver le débarras perdu..",
+        "KER-ATH-401" : "Échec de l'authentification",
+        "KER-ATH-403" : "Interdit",
+        "KER-ATH-002" : "Impossible de se connecter au service d'authentification",
+        "KER-ATH-001" : "Échec de l'analyse de l'erreur de la réponse",
+        "ADMN-BLK-TRNSCTNS-001" : "Impossible de récupérer les transactions",
+        "ADMN-BLK-001" : "Une erreur s'est produite pendant l'opération en bloc. Si la catégorie est des données de base, les opérations de liste sont répertoriées. Si la catégorie est paquet, la liste des informations sur les paquets ayant échoué est répertoriée",
+        "ADM-BLK-001" : "Les données n'existent pas dans db",
+        "ADM-BLK-002" : "Veuillez saisir une entrée valide",
+        "ADM-BLK-003" : "Dupliquer l'enregistrement",
+        "ADM-BLK-004" : "Les formats pris en charge sont uniquement des fichiers csv"
     }
 }
