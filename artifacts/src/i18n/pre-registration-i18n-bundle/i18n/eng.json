@@ -793,5 +793,9 @@
     "PRG_BOOK_RCI_034": "Json processing exception",
     "PRG_BOOK_RCI_035": "Registration center id not found",
     "PRG_BOOK_RCI_036": "Please complete your application before appointmnet booking"
-  }
+  },
+  "UI_VALIDATION_ERROR_CODES": {
+    "UI_1000": "Only alphabets are allowed",
+    "UI_1001": "Please enter between 3 to 50 characters"
+  }  
 }

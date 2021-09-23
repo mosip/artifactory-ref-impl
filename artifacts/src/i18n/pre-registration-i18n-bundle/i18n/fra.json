@@ -781,5 +781,9 @@
     "PRG_BOOK_RCI_034": "Exception de traitement Json",
     "PRG_BOOK_RCI_035": "Identifiant du centre d'enregistrement introuvable",
     "PRG_BOOK_RCI_036": "Veuillez compléter votre demande avant de prendre rendez-vous"
+  },
+  "UI_VALIDATION_ERROR_CODES": {
+    "UI_1000": "Seuls les alphabets sont autorisés",
+    "UI_1001": "Veuillez saisir entre 3 et 50 caractères"
   }
 }
