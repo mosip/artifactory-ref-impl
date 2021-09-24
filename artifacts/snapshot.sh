@@ -4,7 +4,7 @@ set -e
 
 # Download the jar for auth adapter from maven repository and rename to remove the version no:
 
-mvn dependency:get -Ddest=${kernel_jar_path} -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.kernel:kernel-auth-adapter:${version}
+mvn dependency:get -Ddest=${kernel_jar_path}/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.kernel:kernel-auth-adapter:${version}
 
 cd ${kernel_jar_path} && mv kernel-auth-adapter-*.jar kernel-auth-adapter.jar
 
@@ -44,7 +44,7 @@ echo "Downloaded and renamed kernel-virusscanner jar"
 
 # Download the Clamav client Jar from maven repository and rename to remove the version no:
 
-mvn dependency:get -Ddest=${clamav_path} -Dartifact=xyz.capybara:clamav-client:1.0.4
+mvn dependency:get -Ddest=${clamav_path}/ -Dartifact=xyz.capybara:clamav-client:1.0.4
 
 cd ${clamav_path} && mv clamav-client-*.jar clamav-client.jar
 
