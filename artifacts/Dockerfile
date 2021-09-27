@@ -109,7 +109,7 @@ ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.1
 # environment variable for biosdk client jar URL
 ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/${version}/biosdk-client-1.2.0-rc2-20210923.113636-15-jar-with-dependencies.jar
 # environment variable for demosdk jar URL
-ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk-client/${version}/demosdk-client-1.2.0-rc2-20210923.113652-15-jar-with-dependencies.jar
+ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/${version}/demosdk-1.2.0-rc2-20210923.113652-15-jar-with-dependencies.jar
 
 # environment variable for child authentication filter jar URL
 ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/${version}/authentication-childauthfilter-impl-1.2.0-rc2-20210923.113606-11.jar

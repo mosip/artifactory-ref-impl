@@ -30,7 +30,7 @@ curl -s https://oss.sonatype.org/content/repositories/snapshots/io/mosip/biosdk/
 
 echo timestamp for  demosdk client jar
 
-curl -s https://oss.sonatype.org/content/repositories/snapshots/io/mosip/demosdk/demosdk-client/$version/maven-metadata.xml | grep value | sed "s/.*<value>\([^<]*\)<\/value>.*/\1/" | sed -n '1p'
+curl -s https://oss.sonatype.org/content/repositories/snapshots/io/mosip/demosdk/demosdk/$version/maven-metadata.xml | grep value | sed "s/.*<value>\([^<]*\)<\/value>.*/\1/" | sed -n '1p'
 
 echo timestamp for  child auth filter jar
 
