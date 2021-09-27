@@ -78,7 +78,7 @@ ENV regclient_jar_path=${base_path}/libs-release-local
 ENV child_auth_filter_jar_path=${base_path}/libs-snapshot-local/io/mosip/authentication/authentication-ref-impl
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
-ENV version=1.2.0-SNAPSHOT
+ENV version=1.2.0-rc2-SNAPSHOT
 
 # environment variable for maven central mosip artifacts 
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
