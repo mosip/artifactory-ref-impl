@@ -70,51 +70,21 @@
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
-    },
-    {
-      "buttonName": {
-        "eng": "Center Type not available in English",
-        "ara": "نوع المركز غير متوفر باللغة العربية",
-        "fra": "Type de centre non disponible en français",
-        "tam": "மைய வகை ஆங்கிலத்தில் கிடைக்கவில்லை",
-        "hin": "केंद्र प्रकार अंग्रेजी में उपलब्ध नहीं है",
-        "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ"
-      },
-      "imagePath": "",
-      "actionListType": "action",
-      "actionURL": {
-        "case": "missingData",
-        "title": {
-          "eng": "Center Type not available in English",
-          "ara": "نوع المركز غير متوفر باللغة العربية",
-          "fra": "Type de centre non disponible en français",
-          "tam": "மைய வகை ஆங்கிலத்தில் கிடைக்கவில்லை",
-          "hin": "केंद्र प्रकार अंग्रेजी में उपलब्ध नहीं है",
-          "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ"
-        },
-        "columnNames": [{
-          "eng": "Code",
-          "ara": "الشفرة",
-          "fra": "Code",
-          "tam": "குறியீடு",
-          "hin": "कोड",
-          "kan": "ಕೋಡ್"
-        }, {
-          "eng": "Name",
-          "ara": "اسم",
-          "fra": "prénom",
-          "tam": "பெயர்",
-          "hin": "नाम",
-          "kan": "ಹೆಸರು"
-        }],
-        "fieldName": "name"
-      },
-      "redirectURL": "",
-      "showIn": "Button",
-      "validations": ""
     }
   ],
   "columnsToDisplay": [
+    {
+      "name": "code",
+      "showInListView": "true",
+      "showInSingleView": "true",
+      "label": { "eng": "Code", "ara": "الشفرة", "fra": "Code","hin": "कोड", "kan": "ಕೋಡ್", "tam": "குறியீடு"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true"
+    },
     {
       "name": "name",
       "showInListView": "true",
@@ -140,30 +110,6 @@
       "ismandatory": "true"
     },
     {
-      "name": "dataType",
-      "showInListView": "false",
-      "showInSingleView": "false",
-      "label": { "eng": "Data Type", "ara": "نوع البيانات", "fra": "Type de données","hin": "डाटा प्रकार", "kan": "ಡೇಟಾ ಪ್ರಕಾರ", "tam": "தரவு வகை"},
-      "sortOrder": "3",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "text",
-      "ismandatory": "true"
-    },
-    {
-      "name": "code",
-      "showInListView": "true",
-      "showInSingleView": "true",
-      "label": { "eng": "Code", "ara": "الشفرة", "fra": "Code","hin": "कोड", "kan": "ಕೋಡ್", "tam": "குறியீடு"},
-      "sortOrder": "3",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "text",
-      "ismandatory": "true"
-    },
-    {
       "name": "value",
       "showInListView": "true",
       "showInSingleView": "true",
@@ -176,6 +122,16 @@
       "ismandatory": "true"
     },
     {
+      "name": "dataType",
+      "showInListView": "false",
+      "showInSingleView": "false",
+      "label": { "eng": "Data Type", "ara": "نوع البيانات", "fra": "Type de données","hin": "डाटा प्रकार", "kan": "ಡೇಟಾ ಪ್ರಕಾರ", "tam": "தரவு வகை"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
       "name": "fieldVal",
       "showInListView": "false",
       "showInSingleView": "false",
@@ -183,9 +139,7 @@
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
-      "LinkURL": "",
-      "inputType": "text",
-      "ismandatory": "true"
+      "LinkURL": ""
     },
     {
       "name": "isActive",
@@ -195,9 +149,7 @@
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
-      "LinkURL": "",
-      "inputType": "dropdown",
-      "ismandatory": "true"
+      "LinkURL": ""
     },
     {
       "name": "createdDateTime",
