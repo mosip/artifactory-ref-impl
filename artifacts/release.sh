@@ -52,7 +52,7 @@ echo "Downloaded and renamed clamav client jar"
 
 # Download the Biosdk client Jar from maven repository and rename to remove the version no:
 
-mvn dependency:get -Ddest=${biosdk_client_zip_path}/biosdk-client/ -Dartifact=io.mosip.biosdk:biosdk-client:${version}
+mvn dependency:get -Ddest=${biosdk_client_zip_path}/biosdk-client/ -Dartifact=io.mosip.biosdk:biosdk-client:${version}:jar:jar-with-dependencies
 
 zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/biosdk-client/*
 
@@ -74,7 +74,7 @@ echo "biosdk lib zip created"
 
 # Download the Demosdk client Jar from maven repository and rename to remove the version no:
 
-mvn dependency:get -Ddest=${demosdk_zip_path}/demosdk/ -Dartifact=io.mosip.demosdk:demosdk-client:${version}
+mvn dependency:get -Ddest=${demosdk_zip_path}/demosdk/ -Dartifact=io.mosip.demosdk:demosdk:${version}:jar:jar-with-dependencies
 
 zip -r -j ${demosdk_zip_path}/demosdk.zip ${demosdk_zip_path}/demosdk/*
 
