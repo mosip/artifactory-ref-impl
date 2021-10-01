@@ -482,8 +482,7 @@
 			"btnTxt": "ओके"
 		},
 		"statuscheckFailed": "विफल",
-		"statuscheckCompleted": "पूर्ण",
-
+		"statuscheckCompleted": "पूर्ण"
 	},
 	"packet-upload": {
 		"header": "पैकेट अपलोड",
@@ -518,8 +517,7 @@
 					"title": "सफलता",
 					"message": "आपकी फ़ाइल सफलतापूर्वक अपलोड कर दी गई है। \n डेटा अपलोड वर्तमान में प्रगति पर है।\n\n\n लेन-देन आईडी:",
 					"btnTxt": "हो गया"
-				},
-
+				}
 			}
 		}
 	},
