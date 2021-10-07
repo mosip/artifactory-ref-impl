@@ -1274,6 +1274,7 @@
         "ADM-BLK-003" : "Duplicate Record",
         "ADM-BLK-004" : "Supported format are only csv file",
 		"ADM-BLK-005" : "Supported format is only zip file",
-		"ADM-BLK-006" : "Empty file is not acceptable please provide valid file"
+		"ADM-BLK-006" : "Empty file is not acceptable please provide valid file",
+		"ADM-MSD-446" : "Location not found"
     }
 }
