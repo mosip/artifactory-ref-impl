@@ -46,7 +46,7 @@ echo "Downloaded and renamed kernel-virusscanner jar"
 
 mvn dependency:get -Ddest=${clamav_path}/ -Dartifact=xyz.capybara:clamav-client:1.0.4
 
-cd ${clamav_path} && mv clamav-client-*.jar clamav-client.jar
+cd ${clamav_path} && mv clamav-client-*.jar clamav.jar
 
 echo "Downloaded and renamed clamav client jar"
 
