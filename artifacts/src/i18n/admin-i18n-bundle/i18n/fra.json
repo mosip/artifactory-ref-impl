@@ -1269,6 +1269,9 @@
         "ADM-BLK-001" : "Les données n'existent pas dans db",
         "ADM-BLK-002" : "Veuillez saisir une entrée valide",
         "ADM-BLK-003" : "Dupliquer l'enregistrement",
-        "ADM-BLK-004" : "Les formats pris en charge sont uniquement des fichiers csv"
+        "ADM-BLK-004" : "Les formats pris en charge sont uniquement des fichiers csv",
+		"ADM-BLK-005" : "Le format pris en charge n'est qu'un fichier zip",
+		"ADM-BLK-006" : "Un fichier vide n'est pas acceptable, veuillez fournir un fichier valide"
+		"ADM-MSD-446" : "Emplacement non trouvé"
     }
 }
