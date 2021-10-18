@@ -1125,7 +1125,6 @@
         "KER-MSD-037": "Une erreur s'est produite lors de la récupération des mappages du centre d'enregistrement, de la machine et de l'utilisateur",
         "KER-MSD-038": "Centre d'enregistrement, Machine, Utilisateur non trouvé",
         "KER-MSD-039": "Format de date invalide",
-        "KER-MSD-319": "Entrée de requête invalide",
         "KER-MSD-500": "Erreur serveur interne",
         "KER-MSD-998": "Déjà activé ou désactivé",
         "KER-MSD-997": "Identifiant non valide transmis pour la langue principale",
@@ -1157,7 +1156,6 @@
         "KER-MSD-238": "Une erreur s'est produite lors de la mise à jour du modèle",
         "KER-MSD-096": "Une erreur s'est produite lors de la suppression du modèle",
         "KER-MSD-232": "Une erreur s'est produite lors de l'insertion des détails du format de fichier modèle",
-        "KER-MSD-046": "Modèle introuvable.",
         "KER-MSD-093": "Une erreur s'est produite lors de la mise à jour du modèle",
         "KER-MSD-236": "Une erreur s'est produite lors de la suppression du modèle",
         "KER-MSD-125": "Impossible de supprimer la dépendance trouvée.",
@@ -1250,7 +1248,7 @@
         "ADMN-LRID-001" : "Impossible de trouver le débarras perdu..",
         "ADM-BLK-004" : "Les formats pris en charge sont uniquement des fichiers csv",
 		"ADM-BLK-005" : "Le format pris en charge n'est qu'un fichier zip",
-		"ADM-BLK-006" : "Un fichier vide n'est pas acceptable, veuillez fournir un fichier valide"
+		"ADM-BLK-006" : "Un fichier vide n'est pas acceptable, veuillez fournir un fichier valide",
 		"ADM-MSD-446" : "Emplacement non trouvé"
     }
 }
