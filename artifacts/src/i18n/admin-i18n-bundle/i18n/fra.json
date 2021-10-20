@@ -1188,7 +1188,7 @@
         "KER-USR-008": "Le mappage utilisateur de zone n'existe pas ou n'est pas actif",
         "KER-USR-009": "Une erreur s'est produite lors de l'analyse de la réponse userdetails du service d'authentification",
         "KER-USR-010": "Une erreur s'est produite lors du mappage de l'utilisateur de la zone",
-        "KER-USR-011": "Le mappage utilisateur de zone n'est pas actif",
+        "KER-USR-011": "le mappage existe pour usercenter",
         "KER-USR-012": "Le centre d'enregistrement n'existe pas pour la langue donnée",
         "KER-USR-013": "L'utilisateur existe déjà",
         "KER-USR-001": "Une erreur s'est produite lors de la récupération de l'historique de l'utilisateur",
