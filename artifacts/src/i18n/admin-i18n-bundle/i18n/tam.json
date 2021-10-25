@@ -624,7 +624,7 @@
     },
     "bulkUpload": {
         "operation": "செயல்பாடு",
-        "operationCtrl": [{"label": "செருக", "value": "செருக"}, {"label": "புதுப்பி", "value": "புதுப்பி"}, {"label": "அழி", "value": "அழி"}],
+        "operationCtrl": [{"label": "Insert", "value": "Insert"}, {"label": "Update", "value": "Update"}, {"label": "Delete", "value": "Delete"}],
         "tableName": "அட்டவணை பெயரைத் தேர்ந்தெடுக்கவும்",
         "chooseFile": "கோப்பை தேர்ந்தெடுங்கள்",
         "uploadFile": "உங்கள் கோப்பை பதிவேற்றவும்",

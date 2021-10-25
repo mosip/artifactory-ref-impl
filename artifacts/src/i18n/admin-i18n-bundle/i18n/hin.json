@@ -624,7 +624,7 @@
 	},
 	"bulkUpload": {
 		"operation": "ऑपरेशन",
-		"operationCtrl": [{"label": "इन्सर्ट", "value": "इन्सर्ट"}, {"label": "अपडेट", "value": "अपडेट"}, {"label": "डिलीट", "value": "हटाएं"}],
+		"operationCtrl": [{"label": "Insert", "value": "Insert"}, {"label": "Update", "value": "Update"}, {"label": "Delete", "value": "Delete"}],
 		"tableName": "तालिका का नाम चुनें",
 		"chooseFile": "फाइल चुनें",
 		"uploadFile": "अपनी फाइल अपलोड करें",
