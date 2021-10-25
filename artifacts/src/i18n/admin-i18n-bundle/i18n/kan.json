@@ -624,16 +624,16 @@
 	"bulkUpload": {
 		"operation": "ಕಾರ್ಯಾಚರಣೆ",
 		"operationCtrl": [{
-				"label": "ಸೇರಿಸಿ",
-				"value": "ಸೇರಿಸಿ"
+				"label": "Insert",
+				"value": "Insert"
 			},
 			{
-				"label": "ನವೀಕರಿಸಿ",
-				"value": "ನವೀಕರಿಸಿ"
+				"label": "Update",
+				"value": "Update"
 			},
 			{
-				"label": "ಅಳಿಸು",
-				"value": "ಅಳಿಸು"
+				"label": "Delete",
+				"value": "Delete"
 			}
 		],
 		"tableName": "ಟೇಬಲ್ ಹೆಸರನ್ನು ಆರಿಸಿ",

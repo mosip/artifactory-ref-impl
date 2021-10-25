@@ -625,14 +625,14 @@
     "bulkUpload": {
         "operation": "செயல்பாடு",
         "operationCtrl": [{
-            "label": "செருக",
-            "value": "செருக"
+            "label": "Insert",
+            "value": "Insert"
         }, {
-            "label": "புதுப்பி",
-            "value": "புதுப்பி"
+            "label": "Update",
+            "value": "Update"
         }, {
-            "label": "அழி",
-            "value": "அழி"
+            "label": "Delete",
+            "value": "Delete"
         }],
         "tableName": "அட்டவணை பெயரைத் தேர்ந்தெடுக்கவும்",
         "chooseFile": "கோப்பை தேர்ந்தெடுங்கள்",
