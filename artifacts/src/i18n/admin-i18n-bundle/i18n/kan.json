@@ -624,15 +624,15 @@
 	"bulkUpload": {
 		"operation": "ಕಾರ್ಯಾಚರಣೆ",
 		"operationCtrl": [{
-				"label": "Insert",
+				"label": "ಸೇರಿಸು",
 				"value": "Insert"
 			},
 			{
-				"label": "Update",
+				"label": "ನವೀಕರಿಸಿ",
 				"value": "Update"
 			},
 			{
-				"label": "Delete",
+				"label": "ಅಳಿಸಿ",
 				"value": "Delete"
 			}
 		],
