@@ -623,13 +623,13 @@
 	"bulkUpload": {
 		"operation": "ऑपरेशन",
 		"operationCtrl": [{
-			"label": "Insert",
+			"label": "डालने",
 			"value": "Insert"
 		}, {
-			"label": "Update",
+			"label": "अद्यतन",
 			"value": "Update"
 		}, {
-			"label": "Delete",
+			"label": "हटाएं",
 			"value": "Delete"
 		}],
 		"tableName": "तालिका का नाम चुनें",
