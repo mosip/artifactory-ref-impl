@@ -9,29 +9,40 @@
       "line2": "Cliquez sur les sections suivantes pour plus d'informations sur comment remplir le formulaire de pré-inscription."
     },
     "select_language": {
-      "name": "Choisir la langue",
+      "name": "Sélectionnez la langue de préférence",
       "list": {
-        "line1": "Sur la page de connexion, cliquez sur Sélectionnez votre langue pour afficher la liste des langues.",
-        "line2": "Sélectionnez la langue de votre choix."
+        "line1": "Sur la page de connexion, cliquez sur la liste déroulante des langues pour voir la liste des langues.",
+        "line2": "Sélectionnez la langue de votre préférence."
       },
-      "note": "Remarque: lorsque vous vous trouvez dans la page Détails démographiques, les données sont affichées dans la langue de votre choix à gauche et les données dans la deuxième langue à droite de l'écran."
+      "note": "Remarque : Les libellés des champs et des boutons, les messages d'erreur et d'information dans toute l'application seront affichés dans la langue de votre choix."
     },
     "login": {
       "name": "Login",
       "list": {
         "line1": "Sur la page de connexion, entrez votre identifiant de messagerie valide ou votre numéro de portable dans la zone de texte Identifiant de messagerie ou numéro de portable.",
-        "line2": "Cliquez sur Envoyer OTP pour recevoir un mot de passe à usage unique sur votre adresse électronique ou votre numéro de téléphone portable.",
-        "line3": "Entrez l'OTP dans la zone de texte Entrer l'OTP et cliquez sur Vérifier."
+        "line2": "Sélectionnez le champ captcha.",
+        "line3": "Cliquez sur Envoyer OTP pour recevoir un mot de passe à usage unique (OTP) sur l'adresse e-mail ou le numéro de téléphone que vous avez fourni.",
+        "line4": "Entrez l'OTP dans la zone de texte Enter OTP et cliquez sur le bouton Vérifier."
       },
       "note": "Remarque: Si vous n'avez pas reçu OTP, cliquez sur Renvoyer pour recevoir à nouveau un OTP. Entrez l'OTP nouvellement reçu.",
       "line": "Lorsque votre OTP est vérifié, vous pouvez créer, afficher ou modifier votre application de pré-enregistrement."
+    },
+    "select_data_capture_language": {
+      "name": "Sélectionnez la langue de capture des données",
+      "list": {
+        "line1": "Un utilisateur se connectant pour la première fois et n'ayant aucune application sera invité à afficher une fenêtre contextuelle de langue de capture de données. Le même ensemble de langues sera utilisé pour le prochain ensemble d'applications créées dans la même session.",
+        "line2": "L'utilisateur de langue sélectionné dans l'écran de connexion sera présélectionné dans la fenêtre contextuelle de langue de capture de données",
+        "line3": "L'utilisateur peut modifier cela en cliquant sur le bouton CHANGER LES LANGUES DE CAPTURE DES DONNÉES"
+      },
+      "note": "Remarque : Ce choix ne sera disponible que si l'émetteur de l'ID a configuré l'utilisation de langues facultatives."
     },
     "t&c": {
       "name": "Accepter les termes et conditions",
       "list": {
         "line1": "Sur la page Données démographiques, il vous est conseillé de lire les conditions générales et de cocher la case correspondante. Cet accord vise à donner son consentement pour le stockage et le traitement de vos informations personnelles.",
         "line2": "Cliquez sur Accepter pour accepter puis complétez les détails démographiques."
-      }
+      },
+      "note": "Remarque : le consentement de l'utilisateur est obligatoire pour créer/mettre à jour des applications. Le contenu sera affiché dans toutes les langues de capture de données."
     },
     "demographic": {
       "name": "Remplir les détails démographiques",
@@ -41,7 +52,7 @@
         "line2": "Vous pouvez également modifier ou vérifier vos données démographiques dans la deuxième langue à droite.",
         "line3": "Une fois que vous avez rempli et vérifié vos informations démographiques, cliquez sur Continuer pour télécharger vos documents."
       },
-      "line": "Les données de la page Détails démographiques sont affichées dans deux langues différentes, votre langue préférée à gauche et la deuxième langue à droite de l'écran."
+      "line": "Remarque : Les libellés des champs et des boutons, les messages d'erreur et d'information seront affichés dans la langue préférée de l'utilisateur sélectionnée dans l'écran de connexion."
     },
     "documents": {
       "name": "Télécharger des documents",
@@ -129,6 +140,9 @@
         "booked": {
           "line1": "Données démographiques renseignées, documents téléchargés et rendez-vous pris",
           "line1_action": "Action: Rendez-vous au centre d’inscription à la date et à l’heure de votre rendez-vous."
+        },
+        "cancelled": {
+          "line1": "Le rendez-vous a été annulé"
         },
         "expired": {
           "line1": "La date de rendez-vous est passée"
