@@ -1253,6 +1253,7 @@
 		"ADM-BLK-005" : "Supported format is only zip file",
 		"ADM-BLK-006" : "Empty file is not acceptable please provide valid file",
 		"ADM-MSD-446" : "Location not found",
-		"KER-MSD-280"  : "Center Type not found for language"
+		"KER-MSD-280" : "Center Type not found for language",
+		"KER-DYN-001" :	"Dynamic field is invalid, must contain code and value keys"
     }
 }
