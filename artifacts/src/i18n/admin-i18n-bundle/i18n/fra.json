@@ -1251,7 +1251,7 @@
         "ADM-BLK-004" : "Les formats pris en charge sont uniquement des fichiers csv",
 		"ADM-BLK-005" : "Le format pris en charge n'est qu'un fichier zip",
 		"ADM-BLK-006" : "Un fichier vide n'est pas acceptable, veuillez fournir un fichier valide",
-		"ADM-MSD-446" : "Emplacement non trouvé"
-
+		"ADM-MSD-446" : "Emplacement non trouvé",
+        "KER-DYN-001" : "Le champ dynamique n'est pas valide, doit contenir du code et des clés de valeur"
     }
 }
