@@ -619,7 +619,7 @@
     },
     "bulkUpload":{
         "operation":"عملية",
-        "operationCtrl":[{"label":"إدراج","value":"إدراج"},{"label":"تحديث","value":"تحديث"},{"label":"حذف","value":"حذف"}],
+        "operationCtrl":[{"label":"إدراج","value":"Insert"},{"label":"تحديث","value":"Update"},{"label":"حذف","value":"Delete"}],
         "tableName":"حدد اسم الجدول",
         "chooseFile":"اختر ملف",
         "uploadFile":"ارفع ملفك",
