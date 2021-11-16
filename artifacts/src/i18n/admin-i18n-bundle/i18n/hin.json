@@ -651,7 +651,7 @@
 			"value": "बॉयोमीट्रिक प्रकार "
 		}, {
 			"id": "blocklisted_words",
-			"value": "ब्लैक लिस्टेड शब्द "
+			"value": "ब्लॉक लिस्टेड शब्द"
 		}, {
 			"id": "daysofweek_list",
 			"value": "सप्ताह के दिन"
