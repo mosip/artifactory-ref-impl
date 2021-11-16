@@ -874,7 +874,8 @@
 		"button": "ರಚಿಸು"
 	},
 	"genericerror": {
-		"fieldValidation": "ಈ ಕ್ಷೇತ್ರದ ಅಗತ್ಯವಿದೆ"
+		"fieldValidation": "ಈ ಕ್ಷೇತ್ರದ ಅಗತ್ಯವಿದೆ",
+        "fieldNameValidation":" ಅಗತ್ಯವಿದೆ"
 	},
 	"genericbutton": {
 		"save": "ಉಳಿಸಿ"
