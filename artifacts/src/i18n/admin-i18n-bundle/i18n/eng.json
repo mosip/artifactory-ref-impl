@@ -710,7 +710,8 @@
         "button":"Generate"
     },
     "genericerror":{
-        "fieldValidation":"This field is required"
+        "fieldValidation":"This field is required",
+        "fieldNameValidation":" is required"
     },
     "genericbutton":{
         "save":"Save"
@@ -1190,7 +1191,7 @@
         "KER-USR-008": "Zone user mapping not exists or not active",
         "KER-USR-009": "Error occured while parsing auth service userdetails response",
                                      "KER-USR-010": "Error occured while zone user mapping",
-        "KER-USR-011": "Zone user mapping is not active",
+        "KER-USR-011": "mapping exists for usercenter",
         "KER-USR-012": "Reg center is not exists for given language",
         "KER-USR-013": "User already exists",
         "KER-USR-001": "Error occurred while retrieving User History",
@@ -1252,6 +1253,7 @@
         "ADM-BLK-004" : "Supported format are only csv file",
 		"ADM-BLK-005" : "Supported format is only zip file",
 		"ADM-BLK-006" : "Empty file is not acceptable please provide valid file",
-		"ADM-MSD-446" : "Location not found"
+		"ADM-MSD-446" : "Location not found",
+		"KER-MSD-280"  : "Center Type not found for language"
     }
 }
