@@ -872,7 +872,8 @@
         "button": "உருவாக்கு"
     },
     "genericerror": {
-        "fieldValidation": "இந்த புலம் தேவை"
+        "fieldValidation": "இந்த புலம் தேவை",
+        "fieldNameValidation":" புலம் தேவை"
     },
     "genericbutton": {
         "save": "சேமி"

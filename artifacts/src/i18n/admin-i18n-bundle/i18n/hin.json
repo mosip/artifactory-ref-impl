@@ -870,7 +870,8 @@
 		"button": "उत्पन्न"
 	},
 	"genericerror": {
-		"fieldValidation": "यह फ़ील्ड आवश्यक है"
+		"fieldValidation": "यह फ़ील्ड आवश्यक है",
+        "fieldNameValidation":" आवश्यक है"
 	},
 	"genericbutton": {
 		"save": "सहेजें"
