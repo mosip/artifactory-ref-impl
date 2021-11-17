@@ -461,6 +461,11 @@
             "title": "Erreur d'autorisation",
             "message": "Vous n'êtes pas autorisé à visiter cette page",
             "btnTxt": "D'accord"
+        },
+        "unknown": {
+            "title": "Erreur inconnue",
+            "message": "Échec de la validation de la session en cours",
+            "btnTxt": "D'accord"
         }
     },
     "validationMessages": {
@@ -627,7 +632,7 @@
         "upload": "TÉLÉCHARGER",
         "cancel": "Annuler",
         "title": "Téléchargement des données de base",
-        "tableNames":[{"id":"applicant_valid_document","value":"Document valide du demandeur"},{"id":"appl_form_type","value":"Application"},{"id":"biometric_attribute","value":"Attribut biométrique"},{"id":"biometric_type","value":"Type biométrique"},{"id":"blocklisted_words","value":"BlocklistedWords"},{"id":"daysofweek_list","value":"DaysOfWeek"},{"id":"device_master","value":"Device"},{"id":"registered_device_master","value":"DeviceRegister"},{"id":"device_spec","value":"DeviceSpecification"},{"id":"device_type","value":"DeviceType"},{"id":"doc_category","value":"DocumentCategory"},{"id":"doc_type","value":"DocumentType"},{"id":"dynamic_field","value":"DynamicField"},{"id":"reg_exceptional_holiday","value":"ExceptionalHoliday"},{"id":"foundational_trust_provider","value":"FoundationalTrustProvider"},{"id":"gender","value":"Gender"},{"id":"loc_holiday","value":"Holiday"},{"id":"identity_schema","value":"IdentitySchema"},{"id":"id_type","value":"IdType"},{"id":"individual_type","value":"IndividualType"},{"id":"language","value":"Language"},{"id":"location","value":"Location"},{"id":"loc_hierarchy_list","value":"LocationHierarchy"},{"id":"machine_master","value":"Machine"},{"id":"machine_spec","value":"MachineSpecification"},{"id":"machine_type","value":"MachineType"},{"id":"module_detail","value":"ModuleDetail"},{"id":"mosip_device_service","value":"MOSIPDeviceService"},{"id":"reason_category","value":"ReasonCategory"},{"id":"reason_list","value":"ReasonList"},{"id":"reg_exceptional_holiday","value":"RegExceptionalHoliday"},{"id":"registered_device_master","value":"RegisteredDevice"},{"id":"registration_center","value":"RegistrationCenter"},{"id":"reg_center_device","value":"RegistrationCenterDevice"},{"id":"reg_center_machine","value":"RegistrationCenterMachine"},{"id":"reg_center_machine_device","value":"RegistrationCenterMachineDevice"},{"id":"reg_center_type","value":"RegistrationCenterType"},{"id":"reg_center_user","value":"RegistrationCenterUser"},{"id":"reg_center_user_machine","value":"RegistrationCenterUserMachine"},{"id":"reg_device_sub_type","value":"RegistrationDeviceSubType"},{"id":"reg_device_type","value":"RegistrationDeviceType"},{"id":"reg_working_nonworking","value":"RegWorkingNonWorking"},{"id":"schema_def","value":"SchemaDefinition"},{"id":"template","value":"Template"},{"id":"template_file_format","value":"TemplateFileFormat"},{"id":"template_type","value":"TemplateType"},{"id":"title","value":"Title"},{"id":"user_detail","value":"UserDetails"},{"id":"valid_document","value":"ValidDocument"},{"id":"zone","value":"Zone"},{"id":"zone_user","value":"ZoneUser"}],
+        "tableNames":[{"id":"applicant_valid_document","value":"Document valide du demandeur"},{"id":"appl_form_type","value":"Application"},{"id":"biometric_attribute","value":"Attribut biométrique"},{"id":"biometric_type","value":"Type biométrique"},{"id":"blocklisted_words","value":"mots_bloqués"},{"id":"daysofweek_list","value":"Jours de la semaine"},{"id":"device_master","value":"Dispositif"},{"id":"registered_device_master","value":"DeviceRegister"},{"id":"device_spec","value":"Spécification de l'appareil"},{"id":"device_type","value":"Type d'appareil"},{"id":"doc_category","value":"DocumentCatégorie"},{"id":"doc_type","value":"Type de document"},{"id":"dynamic_field","value":"Champ dynamique"},{"id":"reg_exceptional_holiday","value":"Vacances Exceptionnelles"},{"id":"foundational_trust_provider","value":"Prestataire de Confiance Fondamental"},{"id":"gender","value":"Genre"},{"id":"loc_holiday","value":"Vacance"},{"id":"identity_schema","value":"IdentitéSchéma"},{"id":"id_type","value":"IdType"},{"id":"individual_type","value":"TypeIndividuel"},{"id":"language","value":"Langue"},{"id":"location","value":"Emplacement"},{"id":"loc_hierarchy_list","value":"EmplacementHiérarchie"},{"id":"machine_master","value":"Machine"},{"id":"machine_spec","value":"Spécification de la machine"},{"id":"machine_type","value":"Type de machine"},{"id":"module_detail","value":"Détail du module"},{"id":"mosip_device_service","value":"MOSIPDeviceService"},{"id":"reason_category","value":"RaisonCatégorie"},{"id":"reason_list","value":"Liste des raisons"},{"id":"reg_exceptional_holiday","value":"RegVacancesExceptionnelles"},{"id":"registered_device_master","value":"Appareil enregistré"},{"id":"registration_center","value":"Centre d'inscription"},{"id":"reg_center_device","value":"RegistrationCenterDispositif"},{"id":"reg_center_machine","value":"Centre d'enregistrementMachine"},{"id":"reg_center_machine_device","value":"EnregistrementCenterMachineDevice"},{"id":"reg_center_type","value":"Type de centre d'enregistrement"},{"id":"reg_center_user","value":"Utilisateur du centre d'enregistrement"},{"id":"reg_center_user_machine","value":"Centre d'enregistrementUtilisateurMachine"},{"id":"reg_device_sub_type","value":"RegistrationDeviceSubType"},{"id":"reg_device_type","value":"EnregistrementType d'appareil"},{"id":"reg_working_nonworking","value":"RegTravailNonTravail"},{"id":"schema_def","value":"SchemaDefinition"},{"id":"template","value":"Modèle"},{"id":"template_file_format","value":"ModèleFichierFormat"},{"id":"template_type","value":"Type de modèle"},{"id":"title","value":"Titre"},{"id":"user_detail","value":"Détails de l'utilisateur"},{"id":"valid_document","value":"ValideDocument"},{"id":"zone","value":"Zone"},{"id":"zone_user","value":"ZoneUtilisateur"}],
         "popupMessages": {
             "popup1": {
                 "title": "Confirmer le téléchargement en bloc des données de base",
@@ -707,7 +712,8 @@
         "button":"produire"
     },
     "genericerror":{
-        "fieldValidation":"Ce champ est requis"
+        "fieldValidation":"Ce champ est requis",
+        "fieldNameValidation":" est requis"
     },
     "genericmessage":{
         "successLabel":"Succès",
@@ -1125,6 +1131,7 @@
         "KER-MSD-037": "Une erreur s'est produite lors de la récupération des mappages du centre d'enregistrement, de la machine et de l'utilisateur",
         "KER-MSD-038": "Centre d'enregistrement, Machine, Utilisateur non trouvé",
         "KER-MSD-039": "Format de date invalide",
+        "KER-MSD-319": "Entrée de requête invalide",
         "KER-MSD-500": "Erreur serveur interne",
         "KER-MSD-998": "Déjà activé ou désactivé",
         "KER-MSD-997": "Identifiant non valide transmis pour la langue principale",
@@ -1156,6 +1163,7 @@
         "KER-MSD-238": "Une erreur s'est produite lors de la mise à jour du modèle",
         "KER-MSD-096": "Une erreur s'est produite lors de la suppression du modèle",
         "KER-MSD-232": "Une erreur s'est produite lors de l'insertion des détails du format de fichier modèle",
+        "KER-MSD-046": "Modèle introuvable.",
         "KER-MSD-093": "Une erreur s'est produite lors de la mise à jour du modèle",
         "KER-MSD-236": "Une erreur s'est produite lors de la suppression du modèle",
         "KER-MSD-125": "Impossible de supprimer la dépendance trouvée.",
@@ -1186,7 +1194,7 @@
         "KER-USR-008": "Le mappage utilisateur de zone n'existe pas ou n'est pas actif",
         "KER-USR-009": "Une erreur s'est produite lors de l'analyse de la réponse userdetails du service d'authentification",
         "KER-USR-010": "Une erreur s'est produite lors du mappage de l'utilisateur de la zone",
-        "KER-USR-011": "Le mappage utilisateur de zone n'est pas actif",
+        "KER-USR-011": "le mappage existe pour usercenter",
         "KER-USR-012": "Le centre d'enregistrement n'existe pas pour la langue donnée",
         "KER-USR-013": "L'utilisateur existe déjà",
         "KER-USR-001": "Une erreur s'est produite lors de la récupération de l'historique de l'utilisateur",
@@ -1249,6 +1257,7 @@
         "ADM-BLK-004" : "Les formats pris en charge sont uniquement des fichiers csv",
 		"ADM-BLK-005" : "Le format pris en charge n'est qu'un fichier zip",
 		"ADM-BLK-006" : "Un fichier vide n'est pas acceptable, veuillez fournir un fichier valide",
-		"ADM-MSD-446" : "Emplacement non trouvé"
+		"ADM-MSD-446" : "Emplacement non trouvé",
+        "KER-DYN-001" : "Le champ dynamique n'est pas valide, doit contenir du code et des clés de valeur"
     }
 }
