@@ -10,11 +10,22 @@
 			"subItem3": "Data Share Policy_kan"
 		},
 		"item3": {
-			"title": "Partner_kan",
-			"subItem1": "MISP Partner_kan",
-			"subItem2": "Auth Partner_kan",
-			"subItem3": "Device Partner_kan",
-			"subItem4": "FTM Partner_kan"
+			"title": "Partner_kan"
+		},
+		"item4": {
+			"title": "Device Details_kan"
+		},
+		"item5": {
+			"title": "FTM Details_kan"
+		},
+		"item6": {
+			"title": "SBI Details_kan"
+		},
+		"item7": {
+			"title": "Partner Policy Mapping_kan"
+		},
+		"item8": {
+			"title": "Upload CA Certificate_kan"
 		}
 	},
 	"singleView": {
