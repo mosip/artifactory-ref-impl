@@ -47,21 +47,6 @@
 		},
 		{
 			"buttonName": {
-				"eng": "SBI Details",
-				"ara": "SBI Details_ara",
-				"fra": "SBI Details_fra",
-				"hin": "SBI Details_hin",
-				"kan": "SBI Details_kan",
-				"tam": "SBI Details_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "/pmp/resources/devicedetails/sbidetails/view/$id",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "deviceDetail"
-		},
-		{
-			"buttonName": {
 				"eng": "Create Device",
 				"ara": "Create Device_ara",
 				"fra": "Create Device_fra",

@@ -10,11 +10,22 @@
 			"subItem3": "Data Share Policy"
 		},
 		"item3": {
-			"title": "Partner",
-			"subItem1": "MISP Partner",
-			"subItem2": "Auth Partner",
-			"subItem3": "Device Partner",
-			"subItem4": "FTM Partner"
+			"title": "Partner"
+		},
+		"item4": {
+			"title": "Device Details"
+		},
+		"item5": {
+			"title": "FTM Details"
+		},
+		"item6": {
+			"title": "SBI Details"
+		},
+		"item7": {
+			"title": "Partner Policy Mapping"
+		},
+		"item8": {
+			"title": "Upload CA Certificate"
 		}
 	},
 	"singleView": {
@@ -402,8 +413,20 @@
         "button":"Upload",
         "cancel": "Cancel"
     },
+    "filters": {
+        "titleTxt": "Map Policy Group",
+        "footerButtons": {
+            "resetTxt": "Reset",
+            "cancelTxt": "Cancel",
+            "applyTxt": "Save"
+        }
+    },
     "isActive":{
         "Active":"ACTIVE",
         "InActive":"INACTIVE"
+    },
+    "genericerror":{
+        "fieldValidation":"This field is required",
+        "fieldNameValidation":" is required"
     }
 }
