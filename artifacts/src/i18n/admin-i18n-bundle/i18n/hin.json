@@ -664,9 +664,6 @@
 			"id": "device_master",
 			"value": "युक्ति "
 		}, {
-			"id": "registered_device_master",
-			"value": "डिवाइस रजिस्टर "
-		}, {
 			"id": "device_spec",
 			"value": "डिवाइस विशिष्टता "
 		}, {
@@ -684,9 +681,6 @@
 		}, {
 			"id": "reg_exceptional_holiday",
 			"value": "असाधारण छुट्टी "
-		}, {
-			"id": "foundational_trust_provider",
-			"value": "फाउंडेशनल ट्रस्ट प्रोवाइडर "
 		}, {
 			"id": "gender",
 			"value": "लिंग "
@@ -724,9 +718,6 @@
 			"id": "module_detail",
 			"value": "मॉड्यूल विवरण "
 		}, {
-			"id": "mosip_device_service",
-			"value": "MOSIP डिवाइस सेवा"
-		}, {
 			"id": "reason_category",
 			"value": "कारण श्रेणी "
 		}, {
@@ -736,35 +727,11 @@
 			"id": "reg_exceptional_holiday",
 			"value": "पंजीकरण असाधारणछुट्टी "
 		}, {
-			"id": "registered_device_master",
-			"value": "पंजीकृत डिवाइस "
-		}, {
 			"id": "registration_center",
 			"value": "पंजीकरण केंद्र "
 		}, {
-			"id": "reg_center_device",
-			"value": "पंजीकरण केंद्र डिवाइस "
-		}, {
-			"id": "reg_center_machine",
-			"value": "पंजीकरण केंद्र मशीन "
-		}, {
-			"id": "reg_center_machine_device",
-			"value": "पंजीकरण केंद्र मशीन डिवाइस "
-		}, {
 			"id": "reg_center_type",
 			"value": "पंजीकरण केंद्र प्रकार "
-		}, {
-			"id": "reg_center_user",
-			"value": "पंजीकरण केंद्र उपयोगकर्ता "
-		}, {
-			"id": "reg_center_user_machine",
-			"value": "पंजीकरण केंद्र उपयोगकर्ता मशीन "
-		}, {
-			"id": "reg_device_sub_type",
-			"value": "पंजीकरण उपकरण उप प्रकार "
-		}, {
-			"id": "reg_device_type",
-			"value": "पंजीकरण उपकरण प्रकार "
 		}, {
 			"id": "reg_working_nonworking",
 			"value": "पंजीकरण कार्य गैर-कामकाजी "

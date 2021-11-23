@@ -666,9 +666,6 @@
             "id": "device_master",
             "value": "சாதனம் "
         }, {
-            "id": "registered_device_master",
-            "value": "சாதன பதிவு "
-        }, {
             "id": "device_spec",
             "value": "சாதன விவரக்குறிப்பு "
         }, {
@@ -686,9 +683,6 @@
         }, {
             "id": "reg_exceptional_holiday",
             "value": "விதிவிலக்கான விடுமுறை "
-        }, {
-            "id": "foundational_trust_provider",
-            "value": "அடித்தள அறக்கட்டளை வழங்குநர் "
         }, {
             "id": "gender",
             "value": "பாலினம்"
@@ -726,9 +720,6 @@
             "id": "module_detail",
             "value": "தொகுதி விவரம் "
         }, {
-            "id": "mosip_device_service",
-            "value": "mosip சாதன சேவை "
-        }, {
             "id": "reason_category",
             "value": "காரணம் வகை "
         }, {
@@ -738,35 +729,11 @@
             "id": "reg_exceptional_holiday",
             "value": "பதிவு விதிவிலக்கான விடுமுறை "
         }, {
-            "id": "registered_device_master",
-            "value": "பதிவுசெய்யப்பட்ட சாதனம் "
-        }, {
             "id": "registration_center",
             "value": "பதிவு மையம் "
         }, {
-            "id": "reg_center_device",
-            "value": "பதிவு மைய சாதனம் "
-        }, {
-            "id": "reg_center_machine",
-            "value": "பதிவு மையம் இயந்திரம் "
-        }, {
-            "id": "reg_center_machine_device",
-            "value": "பதிவு மையம் இயந்திர சாதனம் "
-        }, {
             "id": "reg_center_type",
             "value": "பதிவு மைய வகை "
-        }, {
-            "id": "reg_center_user",
-            "value": "பதிவு மைய பயனர் "
-        }, {
-            "id": "reg_center_user_machine",
-            "value": "பதிவு மைய பயனர் இயந்திரம் "
-        }, {
-            "id": "reg_device_sub_type",
-            "value": "பதிவு சாதன துணை வகை "
-        }, {
-            "id": "reg_device_type",
-            "value": "பதிவு சாதன வகை"
         }, {
             "id": "reg_working_nonworking",
             "value": "பதிவு வேலை மற்றும் வேலை செய்யாதது "
