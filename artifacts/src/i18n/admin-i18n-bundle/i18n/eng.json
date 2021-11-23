@@ -1259,6 +1259,13 @@
 		"ADM-BLK-005" : "Supported format is only zip file",
 		"ADM-BLK-006" : "Empty file is not acceptable please provide valid file",
 		"ADM-MSD-446" : "Location not found",
-		"KER-MSD-280"  : "Center Type not found for language"
+		"KER-MSD-280"  : "Center Type not found for language",
+        "KER-DYN-001" : "The dynamic field is invalid, it must contain symbols and value keys",
+        "ADM-BLK-007" : "No file uploaded",
+        "ADM-BLK-008" :  "Entry found with same primary key values",
+        "ADM-BLK-009": "Failed to process entry",
+        "KER-MSD-413" : "Entry already found for the provided machine name",
+        "KER-MSD-414" : "Entry already found for the provided public keys"
+
     }
 }
