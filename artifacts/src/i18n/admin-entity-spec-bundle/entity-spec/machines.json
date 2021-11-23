@@ -146,6 +146,22 @@
       "LinkURL": ""
     },
     {
+      "name": "mapStatus",
+      "showInListView": "",
+      "label": {
+        "eng": "Center Name",
+        "ara": "اسم المركز",
+        "fra": "Nom du centre",
+        "hin": "केंद्र का नाम",
+        "kan": "ಕೇಂದ್ರದ ಹೆಸರು",
+        "tam": "மையப் பெயர்"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
       "name": "createdDateTime",
       "showInListView": "",
       "label": {
