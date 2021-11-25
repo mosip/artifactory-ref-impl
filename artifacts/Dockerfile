@@ -85,15 +85,15 @@ ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
 #ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
-ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-1.2.0-rc2-20211124.060235-17.jar
+ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-1.2.0-rc2-20211125.035836-19.jar
 
 # environment variable for msg91_jar url. 
 #ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
-ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-1.2.0-rc2-20211123.113502-243.jar
+ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-1.2.0-rc2-20211124.070154-245.jar
 
 # environment variable for ref-idobjectvalidator_jar url
 #ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
-ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-1.2.0-rc2-20211123.113502-243.jar
+ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-1.2.0-rc2-20211124.070154-245.jar
 
 # environment variable for clamav jar and client url
 ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/${version}/kernel-virusscanner-clamav-1.2.0-rc2-20211123.113502-56.jar
