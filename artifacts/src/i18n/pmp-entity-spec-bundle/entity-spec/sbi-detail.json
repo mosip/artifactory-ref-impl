@@ -40,10 +40,10 @@
 				"tam": "Edit_tam"
 			},
 			"actionURL": "",
-			"redirectURL": "/pmp/resources/devicedetails/sbidetails/view/$id/single-view/$childid",
+			"redirectURL": "/pmp/resources/sbidetails/single-view/$id",
 			"showIn": "Ellipsis",
 			"validations": "",
-			"callBackFunction": "drilldownEdit"
+			"callBackFunction": "partnerEdit"
 		},
 		{
 			"buttonName": {
@@ -55,9 +55,9 @@
 				"tam": "Create SBI_tam"
 			},
 			"imagePath": "assets/images/add-icon.png",
-			"redirectURL": "/pmp/resources/devicedetails/sbidetails/view/$id/create",
+			"redirectURL": "/pmp/resources/sbidetails/create",
 			"showIn": "Button",
-			"actionListType": "replaceIdRedirect",
+			"actionListType": "redirect",
 			"actionURL": ""
 		}
 	],
@@ -94,10 +94,10 @@
 			"showAsLink": "",
 			"linkType": "",
 			"LinkURL": "",
-			"inputType": "",
-			"ismandatory": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
 			"showInListView": "true",
-			"showInSingleView": "false"
+			"showInSingleView": "true"
 		},
 		{
 			"name": "deviceProviderId",
