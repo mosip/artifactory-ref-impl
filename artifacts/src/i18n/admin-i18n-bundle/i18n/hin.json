@@ -664,9 +664,6 @@
 			"id": "device_master",
 			"value": "युक्ति "
 		}, {
-			"id": "registered_device_master",
-			"value": "डिवाइस रजिस्टर "
-		}, {
 			"id": "device_spec",
 			"value": "डिवाइस विशिष्टता "
 		}, {
@@ -684,9 +681,6 @@
 		}, {
 			"id": "reg_exceptional_holiday",
 			"value": "असाधारण छुट्टी "
-		}, {
-			"id": "foundational_trust_provider",
-			"value": "फाउंडेशनल ट्रस्ट प्रोवाइडर "
 		}, {
 			"id": "gender",
 			"value": "लिंग "
@@ -724,9 +718,6 @@
 			"id": "module_detail",
 			"value": "मॉड्यूल विवरण "
 		}, {
-			"id": "mosip_device_service",
-			"value": "MOSIP डिवाइस सेवा"
-		}, {
 			"id": "reason_category",
 			"value": "कारण श्रेणी "
 		}, {
@@ -736,35 +727,11 @@
 			"id": "reg_exceptional_holiday",
 			"value": "पंजीकरण असाधारणछुट्टी "
 		}, {
-			"id": "registered_device_master",
-			"value": "पंजीकृत डिवाइस "
-		}, {
 			"id": "registration_center",
 			"value": "पंजीकरण केंद्र "
 		}, {
-			"id": "reg_center_device",
-			"value": "पंजीकरण केंद्र डिवाइस "
-		}, {
-			"id": "reg_center_machine",
-			"value": "पंजीकरण केंद्र मशीन "
-		}, {
-			"id": "reg_center_machine_device",
-			"value": "पंजीकरण केंद्र मशीन डिवाइस "
-		}, {
 			"id": "reg_center_type",
 			"value": "पंजीकरण केंद्र प्रकार "
-		}, {
-			"id": "reg_center_user",
-			"value": "पंजीकरण केंद्र उपयोगकर्ता "
-		}, {
-			"id": "reg_center_user_machine",
-			"value": "पंजीकरण केंद्र उपयोगकर्ता मशीन "
-		}, {
-			"id": "reg_device_sub_type",
-			"value": "पंजीकरण उपकरण उप प्रकार "
-		}, {
-			"id": "reg_device_type",
-			"value": "पंजीकरण उपकरण प्रकार "
 		}, {
 			"id": "reg_working_nonworking",
 			"value": "पंजीकरण कार्य गैर-कामकाजी "
@@ -1420,7 +1387,11 @@
 		"ADM-BLK-006": "खाली फ़ाइल स्वीकार्य नहीं है कृपया मान्य फ़ाइल प्रदान करें",
 		"ADM-MSD-446": "स्थान नहीं मिला",
 		"KER-MSD-280": "भाषा के लिए केंद्र प्रकार नहीं मिला",
-		"KER-DYN-001":	"डायनामिक फ़ील्ड अमान्य है, इसमें कोड और मान कुंजियाँ होनी चाहिए"
-
+		"KER-DYN-001":	"डायनामिक फ़ील्ड अमान्य है, इसमें कोड और मान कुंजियाँ होनी चाहिए",
+		"ADM-BLK-007" : "कोई फ़ाइल अपलोड नहीं हुई",
+        "ADM-BLK-008" :  "समान प्राथमिक कुंजी मानों के साथ प्रविष्टि मिली",
+        "ADM-BLK-009": "प्रविष्टि संसाधित करने में विफल",
+        "KER-MSD-413" : "प्रदान किए गए मशीन नाम के लिए प्रविष्टि पहले ही मिल चुकी है",
+        "KER-MSD-414" : "प्रदान की गई सार्वजनिक कुंजियों के लिए प्रविष्टि पहले ही मिल चुकी है"
 	}
 }

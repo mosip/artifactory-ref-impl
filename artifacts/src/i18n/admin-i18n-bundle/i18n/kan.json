@@ -668,9 +668,6 @@
 			"id": "device_master",
 			"value": "ಸಾಧನ"
 		}, {
-			"id": "registered_device_master",
-			"value": "ಸಾಧನ ನೋಂದಣಿ"
-		}, {
 			"id": "device_spec",
 			"value": "ಸಾಧನ ದ ವಿಶೇಷಣ"
 		}, {
@@ -688,9 +685,6 @@
 		}, {
 			"id": "reg_exceptional_holiday",
 			"value": "ಅಸಾಧಾರಣ ರಜಾದಿನ"
-		}, {
-			"id": "foundational_trust_provider",
-			"value": "ಫೌಂಡೇಶನ್ ಟ್ರಸ್ಟ್ ಪ್ರೊವೈಡರ್"
 		}, {
 			"id": "gender",
 			"value": "ಲಿಂಗ"
@@ -728,9 +722,6 @@
 			"id": "module_detail",
 			"value": "ಮಾಡ್ಯೂಲ್ ವಿವರ"
 		}, {
-			"id": "mosip_device_service",
-			"value": "ಮೊಸಿಪ್ ಸಾಧನ ಸೇವೆ"
-		}, {
 			"id": "reason_category",
 			"value": "ಕಾರಣ ವರ್ಗ"
 		}, {
@@ -740,35 +731,11 @@
 			"id": "reg_exceptional_holiday",
 			"value": "ನೋಂದಣಿ ಅಸಾಧಾರಣ ರಜಾದಿನ"
 		}, {
-			"id": "registered_device_master",
-			"value": "ನೋಂದಾಯಿತ ಸಾಧನ"
-		}, {
 			"id": "registration_center",
 			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ"
 		}, {
-			"id": "reg_center_device",
-			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಸಾಧನ"
-		}, {
-			"id": "reg_center_machine",
-			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಸಾಧನ ..."
-		}, {
-			"id": "reg_center_machine_device",
-			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಯಂತ್ರ ಸಾಧನ"
-		}, {
 			"id": "reg_center_type",
 			"value": "ನೋಂದಣಿಕೇಂದ್ರಪ್ರಕಾರ"
-		}, {
-			"id": "reg_center_user",
-			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಬಳಕೆದಾರ"
-		}, {
-			"id": "reg_center_user_machine",
-			"value": "ನೋಂದಣಿ ಕೇಂದ್ರ ಬಳಕೆದಾರ ಯಂತ್ರ"
-		}, {
-			"id": "reg_device_sub_type",
-			"value": "ನೋಂದಣಿ ಸಾಧನ ಉಪ ಪ್ರಕಾರ"
-		}, {
-			"id": "reg_device_type",
-			"value": "ನೋಂದಣಿ ಸಾಧನ ಪ್ರಕಾರ"
 		}, {
 			"id": "reg_working_nonworking",
 			"value": "ನೋಂದಣಿ ಕೆಲಸ ಮಾಡದ ಕೆಲಸ"
@@ -1428,7 +1395,12 @@
 		"ADM-BLK-006": "ಖಾಲಿ ಫೈಲ್ ಸ್ವೀಕಾರಾರ್ಹವಲ್ಲ ದಯವಿಟ್ಟು ಮಾನ್ಯ ಫೈಲ್ ಅನ್ನು ಒದಗಿಸಿ",
 		"ADM-MSD-446": "ಸ್ಥಳ ಕಂಡುಬಂದಿಲ್ಲ",
 		"KER-MSD-280": "ಭಾಷೆಗೆ ಕೇಂದ್ರ ಪ್ರಕಾರ ಕಂಡುಬಂದಿಲ್ಲ",
-		"KER-DYN-001": "ಡೈನಾಮಿಕ್ ಕ್ಷೇತ್ರವು ಅಮಾನ್ಯವಾಗಿದೆ, ಕೋಡ್ ಮತ್ತು ಮೌಲ್ಯದ ಕೀಗಳನ್ನು ಹೊಂದಿರಬೇಕು"
+		"KER-DYN-001": "ಡೈನಾಮಿಕ್ ಕ್ಷೇತ್ರವು ಅಮಾನ್ಯವಾಗಿದೆ, ಕೋಡ್ ಮತ್ತು ಮೌಲ್ಯದ ಕೀಗಳನ್ನು ಹೊಂದಿರಬೇಕು",
+		"ADM-BLK-007" : "ಯಾವುದೇ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಆಗಿಲ್ಲ",
+        "ADM-BLK-008" :  "ಅದೇ ಪ್ರಾಥಮಿಕ ಕೀ ಮೌಲ್ಯಗಳೊಂದಿಗೆ ನಮೂದು ಕಂಡುಬಂದಿದೆ",
+        "ADM-BLK-009": "ಪ್ರವೇಶವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+        "KER-MSD-413" : "ಒದಗಿಸಿದ ಯಂತ್ರದ ಹೆಸರಿಗಾಗಿ ಈಗಾಗಲೇ ನಮೂದು ಕಂಡುಬಂದಿದೆ",
+        "KER-MSD-414" : "ಒದಗಿಸಿದ ಸಾರ್ವಜನಿಕ ಕೀಗಳಿಗೆ ಈಗಾಗಲೇ ಪ್ರವೇಶ ಕಂಡುಬಂದಿದೆ"
 
 	}
 }

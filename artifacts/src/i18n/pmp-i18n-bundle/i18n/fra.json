@@ -10,11 +10,22 @@
 			"subItem3": "Data Share Policy_fra"
 		},
 		"item3": {
-			"title": "Partner_fra",
-			"subItem1": "MISP Partner_fra",
-			"subItem2": "Auth Partner_fra",
-			"subItem3": "Device Partner_fra",
-			"subItem4": "FTM Partner_fra"
+			"title": "Partner_fra"
+		},
+		"item4": {
+			"title": "Device Details_fra"
+		},
+		"item5": {
+			"title": "FTM Details_fra"
+		},
+		"item6": {
+			"title": "SBI Details_fra"
+		},
+		"item7": {
+			"title": "Partner Policy Mapping_fra"
+		},
+		"item8": {
+			"title": "Upload CA Certificate_fra"
 		}
 	},
 	"singleView": {

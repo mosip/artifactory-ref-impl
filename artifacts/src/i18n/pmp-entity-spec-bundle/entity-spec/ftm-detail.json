@@ -1,6 +1,37 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [{
+	"actionButtons": [
+		{
+			"buttonName": {
+				"eng": "Upload Certificate",
+				"ara": "Upload Certificate_ara",
+				"fra": "Upload Certificate_fra",
+				"hin": "Upload Certificate_hin",
+				"kan": "Upload Certificate_kan",
+				"tam": "Upload Certificate_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "uploadCertificatepopup"
+		},
+		{
+			"buttonName": {
+				"eng": "View Certificate",
+				"ara": "View Certificate_ara",
+				"fra": "View Certificate_fra",
+				"hin": "View Certificate_hin",
+				"kan": "View Certificate_kan",
+				"tam": "View Certificate_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "viewCertificate"
+		},
+		{
 			"buttonName": {
 				"eng": "Approve",
 				"ara": "Approve_ara",
