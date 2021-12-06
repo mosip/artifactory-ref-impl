@@ -620,7 +620,10 @@
         "detail":"عرض التفاصيل"
     },
     "users":{
-        "redirectMessage":"انقر هنا لإعادة التوجيه إلى قائمة مستخدمي Keycloak"
+        "redirectMessage":"انقر هنا لإعادة التوجيه إلى قائمة مستخدمي Keycloak",
+        "title":"اسم االمستخدم",
+        "users":"تعيين مركز المستخدم",
+        "zoneuser":"تعيين منطقة المستخدم"
     },
     "bulkUpload":{
         "operation":"عملية",
