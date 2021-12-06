@@ -621,7 +621,10 @@
         "detail":"vue détaillée"
     },
     "users":{
-        "redirectMessage":"Cliquez ici pour rediriger vers la liste des utilisateurs de Keycloak"
+        "redirectMessage":"Cliquez ici pour rediriger vers la liste des utilisateurs de Keycloak",
+        "title":"Nom d'utilisateur",
+        "users":"Mappage du centre d'utilisateurs",
+        "zoneuser":"Mappage de la zone utilisateur"
     },
     "bulkUpload":{
         "operation":"Opération",

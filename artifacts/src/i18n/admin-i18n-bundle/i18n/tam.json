@@ -623,9 +623,9 @@
     },
     "users": {
         "redirectMessage": "கீக்லோக்கின் பயனர்கள் பட்டியலுக்கு திருப்பிவிட இங்கே கிளிக் செய்க",
-        "title": "User Name",
-        "users": "User Center Mapping",
-        "zoneuser": "User Zone Mapping"
+        "title": "பயனர் பெயர்",
+        "users": "பயனர் மைய வரைபடம்",
+        "zoneuser": "பயனர் மண்டல மேப்பிங்"
     },
     "bulkUpload": {
         "operation": "செயல்பாடு",
