@@ -32,6 +32,9 @@
             "subItem3": "GetCertificate",
             "subItem4": "UploadCertificate",
             "subItem5": "UploadOtherDomainCertificate"
+        },
+        "item8": {
+            "title": "Retrieve Lost RID"
         }
     },
     "dashboard": {
