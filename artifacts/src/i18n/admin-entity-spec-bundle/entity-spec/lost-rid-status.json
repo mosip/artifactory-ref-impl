@@ -18,10 +18,7 @@
     {
       "name": "registrationId",
       "showInListView": "True",
-      "label": { "eng": "registrationId", "ara": "ايتخلص", "fra": "DÉBARRASSER" ,
-        "hin": "पंजीयन पहचान  ",
-        "kan": "ಆರ್ಐಡಿ     ",
-        "tam": "தவிர்ந்திடு  "},
+      "label": { "eng": "Registration Id", "ara": "معرف تسجيل", "fra": "ID d'enregistrement" , "hin": "पंजीयन पहचान", "kan": "ನೋಂದಣಿ ಐಡಿ", "tam": "பதிவு ஐடி"},
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -30,10 +27,7 @@
     {
       "name": "registartionDate",
       "showInListView": "True",
-      "label": { "eng": "registartionDate", "ara": "يكتب", "fra": "Taper" ,
-        "hin": "प्रकार  ",
-        "kan": "ಮಾದರಿ     ",
-        "tam": "வகை   "},
+      "label": { "eng": "Registartion Date", "ara": "تاريخ التسجيل", "fra": "Date d'enregistrement" , "hin": "पंजीकरण तिथि", "kan": "ನೋಂದಣಿ ದಿನಾಂಕ", "tam": "பதிவு தேதி"},
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -44,7 +38,7 @@
   "filterColumns": [
     {
       "filtername": "registrationDateFrom",
-      "filterlabel": { "eng": "Registration Date From", "ara": "تاريخ عطلة من", "fra": "Date de vacances de","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕದಿಂದ", "tam": "விடுமுறை தேதி" },
+      "filterlabel": { "eng": "Registration From Date", "ara": "تاريخ التسجيل من", "fra": "Date d'inscription Du","hin": "पंजीकरण की तारीख", "kan": "ನೋಂದಣಿ ದಿನಾಂಕದಿಂದ", "tam": "பதிவு தேதி முதல்" },
       "filterType": "between",
       "autocomplete": "false",
       "dropdown": "false",
@@ -55,7 +49,7 @@
     },
     {
       "filtername": "registrationDateTo",
-      "filterlabel": { "eng": "Registration Date To", "ara": "تاريخ عطلة ل", "fra": "Date de vacances à","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕ", "tam": "விடுமுறை தேதி" },
+      "filterlabel": { "eng": "Registration To Date", "ara": "التسجيل حتى تاريخه", "fra": "Inscription à ce jour","hin": "आज तक पंजीकरण", "kan": "ಇಲ್ಲಿಯವರೆಗೆ ನೋಂದಣಿ", "tam": "இன்றுவரை பதிவு" },
       "filterType": "between",
       "autocomplete": "false",
       "dropdown": "false",
@@ -68,11 +62,11 @@
       "filtername": "name",
       "filterlabel": {
         "eng": "Name",
-        "ara": "اسم العطلة",
-        "fra": "Nom des vacances",
-        "hin": "छुट्टी का नाम",
-        "kan": "ರಜಾದಿನದ ಹೆಸರು",
-        "tam": "விடுமுறை பெயர்"
+        "ara": "اسم",
+        "fra": "prénom",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -86,11 +80,11 @@
       "filtername": "email",
       "filterlabel": {
         "eng": "Email",
-        "ara": "اسم العطلة",
-        "fra": "Nom des vacances",
-        "hin": "छुट्टी का नाम",
-        "kan": "ರಜಾದಿನದ ಹೆಸರು",
-        "tam": "விடுமுறை பெயர்"
+        "ara": "بريد الالكتروني",
+        "fra": "E-mail",
+        "hin": "ईमेल",
+        "kan": "ಇಮೇಲ್",
+        "tam": "மின்னஞ்சல்"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -104,11 +98,11 @@
       "filtername": "phone",
       "filterlabel": {
         "eng": "Phone",
-        "ara": "اسم العطلة",
-        "fra": "Nom des vacances",
-        "hin": "छुट्टी का नाम",
-        "kan": "ರಜಾದಿನದ ಹೆಸರು",
-        "tam": "விடுமுறை பெயர்"
+        "ara": "هاتف",
+        "fra": "Téléphoner",
+        "hin": "फ़ोन",
+        "kan": "ದೂರವಾಣಿ",
+        "tam": "தொலைபேசி"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -122,11 +116,11 @@
       "filtername": "postalCode",
       "filterlabel": {
         "eng": "PostalCode",
-        "ara": "اسم العطلة",
-        "fra": "Nom des vacances",
-        "hin": "छुट्टी का नाम",
-        "kan": "ರಜಾದಿನದ ಹೆಸರು",
-        "tam": "விடுமுறை பெயர்"
+        "ara": "رمز بريدي",
+        "fra": "Code postal",
+        "hin": "डाक कोड",
+        "kan": "ಅಂಚೆ ಕೋಡ್",
+        "tam": "அஞ்சல் குறியீடு"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -139,12 +133,12 @@
     {
       "filtername": "centerId",
       "filterlabel": {
-        "eng": "CenterId",
-        "ara": "اسم العطلة",
-        "fra": "Nom des vacances",
-        "hin": "छुट्टी का नाम",
-        "kan": "ರಜಾದಿನದ ಹೆಸರು",
-        "tam": "விடுமுறை பெயர்"
+        "eng": "Center Id",
+        "ara": "معرف المركز",
+        "fra": "Identifiant du centre",
+        "hin": "केंद्र आईडी",
+        "kan": "ಕೇಂದ್ರ ಐಡಿ",
+        "tam": "மைய ஐடி"
       },
       "filterType": "equals",
       "autocomplete": "false",
