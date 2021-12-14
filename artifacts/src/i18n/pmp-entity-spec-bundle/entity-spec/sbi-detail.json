@@ -81,14 +81,14 @@
 			"showInSingleView": "false"
 		},
 		{
-			"name": "deviceDetailId",
+			"name": "providerId",
 			"label": {
-				"eng": "Device Id",
-				"ara": "Device Id_ara",
-				"fra": "Device Id_fra",
-				"hin": "Device Id_hin",
-				"kan": "Device Id_kan",
-				"tam": "Device Id_tam"
+				"eng": "Partner Name",
+				"ara": "Partner Name_ara",
+				"fra": "Partner Name_fra",
+				"hin": "Partner Name_hin",
+				"kan": "Partner Name_kan",
+				"tam": "Partner Name_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -96,11 +96,11 @@
 			"LinkURL": "",
 			"inputType": "dropdown",
 			"ismandatory": "true",
-			"showInListView": "true",
+			"showInListView": "false",
 			"showInSingleView": "true"
 		},
 		{
-			"name": "deviceProviderId",
+			"name": "partnerOrganizationName",
 			"label": {
 				"eng": "Partner Name",
 				"ara": "Partner Name_ara",
@@ -209,15 +209,20 @@
 			"linkType": "",
 			"LinkURL": "",
 			"inputType": "dropdown",
-			"ismandatory": "true",
+			"ismandatory": "false",
 			"showInListView": "false",
 			"showInSingleView": "false"
 		},
 		{
-			"name": "isActive",
+			"name": "approvalStatus",
 			"showInListView": "true",
 			"label": {
-				"eng": "Status"
+				"eng": "Status",
+				"ara": "Status_ara",
+				"fra": "Status_fra",
+				"hin": "Status_hin",
+				"kan": "Status_kan",
+				"tam": "Status_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",

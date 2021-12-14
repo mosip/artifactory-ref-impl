@@ -210,12 +210,12 @@
 			"name": "active",
 			"showInListView": "true",
 			"label": {
-				"eng": "Approved Status",
-				"ara": "Approved Status_ara",
-				"fra": "Approved Status_fra",
-				"hin": "Approved Status_hin",
-				"kan": "Approved Status_kan",
-				"tam": "Approved Status_tam"
+				"eng": "Status",
+				"ara": "Status_ara",
+				"fra": "Status_fra",
+				"hin": "Status_hin",
+				"kan": "Status_kan",
+				"tam": "Status_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
