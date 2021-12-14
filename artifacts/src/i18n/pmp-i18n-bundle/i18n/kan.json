@@ -1,420 +1,577 @@
 {
-	"menuItems": {
-		"item1": {
-			"title": "HOME_kan"
-		},
-		"item2": {
-			"title": "Policy_kan",
-			"subItem1": "Policy Group_kan",
-			"subItem2": "Auth Policy_kan",
-			"subItem3": "Data Share Policy_kan"
-		},
-		"item3": {
-			"title": "Partner_kan"
-		},
-		"item4": {
-			"title": "Device Details_kan"
-		},
-		"item5": {
-			"title": "FTM Details_kan"
-		},
-		"item6": {
-			"title": "SBI Details_kan"
-		},
-		"item7": {
-			"title": "Partner Policy Mapping_kan"
-		},
-		"item8": {
-			"title": "Upload CA Certificate_kan"
-		}
-	},
-	"singleView": {
-		"errorMessages": [
-			"No record found_kan",
-			"A technical error has occurred_kan"
-		],
-		"buttonText": "OK_kan",
-		"title": "Error_kan"
-	},
-	"masterData": {
-		"master-data": "Master Data_kan",
-		"total-no": "Total No_kan",
-		"common": "Common_kan",
-		"device-definition": "Device Definition_kan",
-		"machine-definition": "Machine Definition_kan",
-		"document-definition": "Document Definition_kan",
-		"doc-category-mapping": "Doc Category - Type Mapping_kan",
-		"category": "Category_kan",
-		"mapped-documents": "Mapped Documents_kan",
-		"unmapped-documents": "Unmapped Documents_kan"
-	},
-	"pmanager": {
-		"status": "Status_kan",
-		"language": "English_kan",
-		"edit": "Edit_kan",
-		"create": "Create_kan",
-		"cancel": "Cancel_kan",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
-		"update": "Update_kan",
-		"created-on": "Created On_kan",
-		"created-by": "Created By_kan",
-		"updated-on": "Updated On_kan",
-		"updated-by": "Updated By_kan",
-		"header": "Change Policy_kan",
-		"name": "Policy Name_kan",
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation_kan",
-				"message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
-				"yesBtnText": "Yes_kan",
-				"noBtnText": "No_kan",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
-			},
-			"edit": {
-				"title": "Confirmation_kan",
-				"message": "You are about to update a Registration Center. Please ensure that all the information is correct_kan",
-				"yesBtnText": "Confirm_kan",
-				"noBtnText": "Cancel_kan",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
-			},
-			"update-success": {
-				"title": "Success_kan",
-				"message": "Partner is updated Successfully_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"update-error": {
-				"title": "Error_kan",
-				"message": "There was some issue in updating the Partner. Please try again_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"create-success": {
-				"title": "Success_kan",
-				"message": ["Partner is created Successfully with Partner ID: ", " and Partner Name: _kan"],
-				"btnTxt": "Ok_kan"
-			},
-			"create-error": {
-				"title": "Error_kan",
-				"message": "There was some issue in creating Partner. Please try again_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"navigation-popup": {
-				"title": "Confirmation_kan",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
-				"yesBtnTxt": "Leave_kan",
-				"noBtnTxt": "Stay_kan"
-			},
-			"noData": {
-				"title": "Error_kan",
-				"message": "No Data Found_kan",
-				"btnTxt": "Ok_kan"
-			}
-		}
-	},
-	"partner": {
-		"address1": "Address_kan",
-		"header": "Partner Service_kan",
-		"name": "Organization_kan",
-		"id": "Id_kan",
-		"status": "Status_kan",
-		"language": "English_kan",
-		"edit": "Edit_kan",
-		"create": "Create_kan",
-		"cancel": "Cancel_kan",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
-		"update": "Update_kan",
-		"partner-details": "Partner Details_kan",
-		"created-on": "Created On_kan",
-		"created-by": "Created By_kan",
-		"updated-on": "Updated On_kan",
-		"updated-by": "Updated By_kan",
-		"registration-partner-name": "Organization Name_kan",
-		"registration-partner-type": "Policy Name_kan",
-		"contact-person": "Email Id_kan",
-		"contact-number": "Contact Number_kan",
-		"location-details": "Address Details_kan",
-		"validationMessages": {
-			"partnerTypeCode": {
-				"required": "Policy Name is required_kan"
-			},
-			"name": {
-				"required": "Organization Name is required_kan",
-				"max-length": "Exceeded max length (128)_kan"
-			},
-			"addressLine1": {
-				"required": "Address is required_kan",
-				"max-length": "Exceeded max length (256)_kan"
-			}
-		},
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation_kan",
-				"message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
-				"yesBtnText": "Yes_kan",
-				"noBtnText": "No_kan",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
-			},
-			"edit": {
-				"title": "Confirmation_kan",
-				"message": "You are about to update a Registration Center. Please ensure that all the information is correct_kan",
-				"yesBtnText": "Confirm_kan",
-				"noBtnText": "Cancel_kan",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
-			},
-			"update-success": {
-				"title": "Success_kan",
-				"message": "Partner is updated Successfully_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"update-error": {
-				"title": "Error_kan",
-				"message": "There was some issue in updating the Partner. Please try again_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"create-success": {
-				"title": "Success_kan",
-				"message": ["Partner is created Successfully with Partner ID: ", " and Partner Status is: _kan"],
-				"btnTxt": "Ok_kan"
-			},
-			"create-error": {
-				"title": "Error_kan",
-				"message": "There was some issue in creating Partner. Please try again_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"navigation-popup": {
-				"title": "Confirmation_kan",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
-				"yesBtnTxt": "Leave_kan",
-				"noBtnTxt": "Stay_kan"
-			},
-			"noData": {
-				"title": "Error_kan",
-				"message": "No Data Found_kan",
-				"btnTxt": "Ok_kan"
-			}
-		}
-	},
-	"misp": {
-		"header": "MISP_kan",
-		"name": "Name_kan",
-		"id": "Id_kan",
-		"isActive": "Misp Status_kan",
-		"contact_no": "Phone No_kan",
-		"status": "Status_kan",
-		"address": "Address_kan",
-		"misp-details": "Misp Details_kan",
-		"created-on": "Created On_kan",
-		"created-by": "Created By_kan",
-		"updated-on": "Updated On_kan",
-		"updated-by": "Updated By_kan",
-		"email_id": "Email_kan",
-		"edit": "Edit_kan",
-		"create": "Create_kan",
-		"cancel": "Cancel_kan",
-		"language": "English_kan",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
-		"update": "Update_kan",
-		"validationMessages": {
-			"name": {
-				"required": "Misp Name is required_kan",
-				"max-length": "Exceeded max length (128)_kan"
-			},
-			"address": {
-				"required": "Misp Address is required_kan",
-				"max-length": "Exceeded max length (128)_kan"
-			},
-			"phoneNo": {
-				"required": "Misp phoneNo is required_kan"
-			},
-			"email": {
-				"required": "Misp email is required_kan"
-			}
-		},
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation_kan",
-				"message": ["You are about to create a Misp in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
-				"yesBtnText": "Yes_kan",
-				"noBtnText": "No_kan",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
-			},
-			"edit": {
-				"title": "Confirmation_kan",
-				"message": "You are about to update a misp. Please ensure that all the information is correct_kan",
-				"yesBtnText": "Confirm_kan",
-				"noBtnText": "Cancel_kan",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
-			},
-			"update-success": {
-				"title": "Success_kan",
-				"message": "Misp is updated Successfully_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"update-error": {
-				"title": "Error_kan",
-				"message": "There was some issue in updating the misp. Please try again_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"create-success": {
-				"title": "Success_kan",
-				"message": ["MISP is created Successfully._kan"],
-				"btnTxt": "Ok_kan"
-			},
-			"create-error": {
-				"title": "Error_kan",
-				"message": "There was some issue in creating a misp. Please try again_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"navigation-popup": {
-				"title": "Confirmation_kan",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
-				"yesBtnTxt": "Leave_kan",
-				"noBtnTxt": "Stay_kan"
-			},
-			"noData": {
-				"title": "Error_kan",
-				"message": "No Data Found_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"lunchTimeValidation": {
-				"title": "Error_kan",
-				"message": "Please select center timings before selecting lunch timings_kan",
-				"btnTxt": "Ok_kan"
-			}
-		}
-	},
-	"validationMessages": {
-		"required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_kan",
-		"range": "’To’ date cannot be before ‘From’ date'_kan",
-		"invalid": "Please select a valid value for Date_kan"
-	},
-	"actionMessages": {
-		"decommission": {
-			"success-message": ["", " is approved successfully_kan"],
-			"success-title": "Success_kan",
-			"error-message": "Cannot approve the Misp.Currently Misp is inactive_kan",
-			"error-title": "Error_kan",
-			"btnTxt": "Ok_kan",
-			"yesBtnTxt": "Confirm_kan",
-			"noBtnTxt": "Cancel_kan",
-			"confirmation-message": ["Do you want to Approve the Misp ", " ? \n You cannot undo this action once you click on Confirm._kan"],
-			"confirmation-title": "Confirmation_kan"
-		},
-		"activate": {
-			"success-message": ["", " is Activated Successfully_kan"],
-			"success-title": "Success_kan",
-			"error-message": "Could not be Activated_kan",
-			"error-title": "Error_kan",
-			"btnTxt": "Ok_kan",
-			"yesBtnTxt": "Yes_kan",
-			"noBtnTxt": "No_kan",
-			"confirmation-message": ["Do you want to Activate the ", "? \n You can Deactivate it later if you wish. Till then it will be set as Active_kan"],
-			"confirmation-title": "Confirmation_kan"
-		},
-		"deactivate": {
-			"success-message": ["", " is Deactivated Successfully_kan"],
-			"success-title": "Success_kan",
-			"error-message": "Misp Could not be Deactivated_kan",
-			"error-title": "Error_kan",
-			"btnTxt": "Ok_kan",
-			"yesBtnTxt": "Yes_kan",
-			"noBtnTxt": "No_kan",
-			"confirmation-message": ["Do you want to Deactivate the ", " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_kan"],
-			"confirmation-title": "Confirmation_kan"
-		}
-	},
-	"policy": {
-		"header": "Policy_kan",
-		"name": "Name_kan",
-		"desc": "Description_kan",
-		"authPolicies": "Allowed Auth Types_kan",
-		"allowedKycAttributes": "Allowed Kyc Attributes_kan",
-		"id": "Id_kan",
-		"isActive": "Status_kan",
-		"policy-details": "Policy Details_kan",
-		"created-on": "Created On_kan",
-		"created-by": "Created By_kan",
-		"updated-on": "Updated On_kan",
-		"updated-by": "Updated By_kan",
-		"edit": "Edit_kan",
-		"create": "Create_kan",
-		"cancel": "Cancel_kan",
-		"language": "English_kan",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
-		"update": "Update_kan",
-		"validationMessages": {
-			"name": {
-				"required": "Policy Name is required_kan",
-				"max-length": "Exceeded max length (128)_kan"
-			},
-			"desc": {
-				"required": "Policy description is required_kan",
-				"max-length": "Exceeded max length (128)_kan"
-			}
-
-		},
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation_kan",
-				"message": ["You are about to create a Policy in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"],
-				"yesBtnText": "Yes_kan",
-				"noBtnText": "No_kan",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_kan"
-			},
-			"edit": {
-				"title": "Confirmation_kan",
-				"message": "You are about to update a policy. Please ensure that all the information is correct_kan",
-				"yesBtnText": "Confirm_kan",
-				"noBtnText": "Cancel_kan",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
-			},
-			"update-success": {
-				"title": "Success_kan",
-				"message": "policy is updated Successfully_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"update-error": {
-				"title": "Error_kan",
-				"message": "There was some issue in updating the policy. Please try again_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"create-success": {
-				"title": "Success_kan",
-				"message": ["Policy is created Successfully._kan"],
-				"btnTxt": "Ok_kan"
-			},
-			"create-error": {
-				"title": "Error_kan",
-				"message": "There was some issue in creating a policy. Please try again_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"navigation-popup": {
-				"title": "Confirmation_kan",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
-				"yesBtnTxt": "Leave_kan",
-				"noBtnTxt": "Stay_kan"
-			},
-			"noData": {
-				"title": "Error_kan",
-				"message": "No Data Found_kan",
-				"btnTxt": "Ok_kan"
-			},
-			"lunchTimeValidation": {
-				"title": "Error_kan",
-				"message": "Please select center timings before selecting lunch timings_kan",
-				"btnTxt": "Ok_kan"
-			}
-		}
-	},
-    "uploadcertificate": {
-        "title": "Upload Certificate_kan",
-        "partnerDomain" :"Partner Domain_kan",
-        "chooseFile" : "Choose File_kan",
-        "uploadYourFile":"Upload Your File_kan",
-        "button":"Upload_kan",
-        "cancel": "Cancel_kan"
+  "menuItems": {
+    "item1": {
+      "title": "HOME_kan"
     },
-    "isActive":{
-        "Active":"ACTIVE_kan",
-        "InActive":"INACTIVE_kan"
+    "item2": {
+      "title": "Policy_kan",
+      "subItem1": "Policy Group_kan",
+      "subItem2": "Auth Policy_kan",
+      "subItem3": "Data Share Policy_kan"
+    },
+    "item3": {
+      "title": "Partner_kan"
+    },
+    "item4": {
+      "title": "Device Details_kan"
+    },
+    "item5": {
+      "title": "FTM Details_kan"
+    },
+    "item6": {
+      "title": "SBI Details_kan"
+    },
+    "item7": {
+      "title": "Partner Policy Mapping_kan"
+    },
+    "item8": {
+      "title": "Upload CA Certificate_kan"
     }
+  },
+  "singleView": {
+    "errorMessages": [
+      "No record found_kan",
+      "A technical error has occurred_kan"
+    ],
+    "buttonText": "OK_kan",
+    "title": "Error_kan"
+  },
+  "masterData": {
+    "master-data": "Master Data_kan",
+    "total-no": "Total No_kan",
+    "common": "Common_kan",
+    "device-definition": "Device Definition_kan",
+    "machine-definition": "Machine Definition_kan",
+    "document-definition": "Document Definition_kan",
+    "doc-category-mapping": "Doc Category - Type Mapping_kan",
+    "category": "Category_kan",
+    "mapped-documents": "Mapped Documents_kan",
+    "unmapped-documents": "Unmapped Documents_kan"
+  },
+  "pmanager": {
+    "status": "Status_kan",
+    "language": "English_kan",
+    "edit": "Edit_kan",
+    "create": "Create_kan",
+    "cancel": "Cancel_kan",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
+    "update": "Update_kan",
+    "created-on": "Created On_kan",
+    "created-by": "Created By_kan",
+    "updated-on": "Updated On_kan",
+    "updated-by": "Updated By_kan",
+    "header": "Change Policy_kan",
+    "name": "Policy Name_kan",
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_kan",
+        "message": [
+          "You are about to create a Registration Center in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"
+        ],
+        "yesBtnText": "Yes_kan",
+        "noBtnText": "No_kan",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
+      },
+      "edit": {
+        "title": "Confirmation_kan",
+        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_kan",
+        "yesBtnText": "Confirm_kan",
+        "noBtnText": "Cancel_kan",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
+      },
+      "update-success": {
+        "title": "Success_kan",
+        "message": "Partner is updated Successfully_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "update-error": {
+        "title": "Error_kan",
+        "message": "There was some issue in updating the Partner. Please try again_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "create-success": {
+        "title": "Success_kan",
+        "message": [
+          "Partner is created Successfully with Partner ID: ",
+          " and Partner Name: _kan"
+        ],
+        "btnTxt": "Ok_kan"
+      },
+      "create-error": {
+        "title": "Error_kan",
+        "message": "There was some issue in creating Partner. Please try again_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_kan",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
+        "yesBtnTxt": "Leave_kan",
+        "noBtnTxt": "Stay_kan"
+      },
+      "noData": {
+        "title": "Error_kan",
+        "message": "No Data Found_kan",
+        "btnTxt": "Ok_kan"
+      }
+    }
+  },
+  "partner": {
+    "address1": "Address_kan",
+    "header": "Partner Service_kan",
+    "name": "Organization_kan",
+    "id": "Id_kan",
+    "status": "Status_kan",
+    "language": "English_kan",
+    "edit": "Edit_kan",
+    "create": "Create_kan",
+    "cancel": "Cancel_kan",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
+    "update": "Update_kan",
+    "partner-details": "Partner Details_kan",
+    "created-on": "Created On_kan",
+    "created-by": "Created By_kan",
+    "updated-on": "Updated On_kan",
+    "updated-by": "Updated By_kan",
+    "registration-partner-name": "Organization Name_kan",
+    "registration-partner-type": "Policy Name_kan",
+    "contact-person": "Email Id_kan",
+    "contact-number": "Contact Number_kan",
+    "location-details": "Address Details_kan",
+    "validationMessages": {
+      "partnerTypeCode": {
+        "required": "Policy Name is required_kan"
+      },
+      "name": {
+        "required": "Organization Name is required_kan",
+        "max-length": "Exceeded max length (128)_kan"
+      },
+      "addressLine1": {
+        "required": "Address is required_kan",
+        "max-length": "Exceeded max length (256)_kan"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_kan",
+        "message": [
+          "You are about to create a Registration Center in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"
+        ],
+        "yesBtnText": "Yes_kan",
+        "noBtnText": "No_kan",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
+      },
+      "edit": {
+        "title": "Confirmation_kan",
+        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_kan",
+        "yesBtnText": "Confirm_kan",
+        "noBtnText": "Cancel_kan",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
+      },
+      "update-success": {
+        "title": "Success_kan",
+        "message": "Partner is updated Successfully_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "update-error": {
+        "title": "Error_kan",
+        "message": "There was some issue in updating the Partner. Please try again_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "create-success": {
+        "title": "Success_kan",
+        "message": [
+          "Partner is created Successfully with Partner ID: ",
+          " and Partner Status is: _kan"
+        ],
+        "btnTxt": "Ok_kan"
+      },
+      "create-error": {
+        "title": "Error_kan",
+        "message": "There was some issue in creating Partner. Please try again_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_kan",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
+        "yesBtnTxt": "Leave_kan",
+        "noBtnTxt": "Stay_kan"
+      },
+      "noData": {
+        "title": "Error_kan",
+        "message": "No Data Found_kan",
+        "btnTxt": "Ok_kan"
+      }
+    }
+  },
+  "misp": {
+    "header": "MISP_kan",
+    "name": "Name_kan",
+    "id": "Id_kan",
+    "isActive": "Misp Status_kan",
+    "contact_no": "Phone No_kan",
+    "status": "Status_kan",
+    "address": "Address_kan",
+    "misp-details": "Misp Details_kan",
+    "created-on": "Created On_kan",
+    "created-by": "Created By_kan",
+    "updated-on": "Updated On_kan",
+    "updated-by": "Updated By_kan",
+    "email_id": "Email_kan",
+    "edit": "Edit_kan",
+    "create": "Create_kan",
+    "cancel": "Cancel_kan",
+    "language": "English_kan",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
+    "update": "Update_kan",
+    "validationMessages": {
+      "name": {
+        "required": "Misp Name is required_kan",
+        "max-length": "Exceeded max length (128)_kan"
+      },
+      "address": {
+        "required": "Misp Address is required_kan",
+        "max-length": "Exceeded max length (128)_kan"
+      },
+      "phoneNo": {
+        "required": "Misp phoneNo is required_kan"
+      },
+      "email": {
+        "required": "Misp email is required_kan"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_kan",
+        "message": [
+          "You are about to create a Misp in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"
+        ],
+        "yesBtnText": "Yes_kan",
+        "noBtnText": "No_kan",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
+      },
+      "edit": {
+        "title": "Confirmation_kan",
+        "message": "You are about to update a misp. Please ensure that all the information is correct_kan",
+        "yesBtnText": "Confirm_kan",
+        "noBtnText": "Cancel_kan",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
+      },
+      "update-success": {
+        "title": "Success_kan",
+        "message": "Misp is updated Successfully_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "update-error": {
+        "title": "Error_kan",
+        "message": "There was some issue in updating the misp. Please try again_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "create-success": {
+        "title": "Success_kan",
+        "message": ["MISP is created Successfully._kan"],
+        "btnTxt": "Ok_kan"
+      },
+      "create-error": {
+        "title": "Error_kan",
+        "message": "There was some issue in creating a misp. Please try again_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_kan",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
+        "yesBtnTxt": "Leave_kan",
+        "noBtnTxt": "Stay_kan"
+      },
+      "noData": {
+        "title": "Error_kan",
+        "message": "No Data Found_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "lunchTimeValidation": {
+        "title": "Error_kan",
+        "message": "Please select center timings before selecting lunch timings_kan",
+        "btnTxt": "Ok_kan"
+      }
+    }
+  },
+  "validationMessages": {
+    "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_kan",
+    "range": "’To’ date cannot be before ‘From’ date'_kan",
+    "invalid": "Please select a valid value for Date_kan"
+  },
+  "actionMessages": {
+    "decommission": {
+      "success-message": ["", " is approved successfully_kan"],
+      "success-title": "Success_kan",
+      "error-message": "Cannot approve the Misp.Currently Misp is inactive_kan",
+      "error-title": "Error_kan",
+      "btnTxt": "Ok_kan",
+      "yesBtnTxt": "Confirm_kan",
+      "noBtnTxt": "Cancel_kan",
+      "confirmation-message": [
+        "Do you want to Approve the Misp ",
+        " ? \n You cannot undo this action once you click on Confirm._kan"
+      ],
+      "confirmation-title": "Confirmation_kan"
+    },
+    "activate": {
+      "success-message": ["", " is Activated Successfully_kan"],
+      "success-title": "Success_kan",
+      "error-message": "Could not be Activated_kan",
+      "error-title": "Error_kan",
+      "btnTxt": "Ok_kan",
+      "yesBtnTxt": "Yes_kan",
+      "noBtnTxt": "No_kan",
+      "confirmation-message": [
+        "Do you want to Activate the ",
+        "? \n You can Deactivate it later if you wish. Till then it will be set as Active_kan"
+      ],
+      "confirmation-title": "Confirmation_kan"
+    },
+    "deactivate": {
+      "success-message": ["", " is Deactivated Successfully_kan"],
+      "success-title": "Success_kan",
+      "error-message": "Misp Could not be Deactivated_kan",
+      "error-title": "Error_kan",
+      "btnTxt": "Ok_kan",
+      "yesBtnTxt": "Yes_kan",
+      "noBtnTxt": "No_kan",
+      "confirmation-message": [
+        "Do you want to Deactivate the ",
+        " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_kan"
+      ],
+      "confirmation-title": "Confirmation_kan"
+    }
+  },
+  "policy": {
+    "header": "Policy_kan",
+    "name": "Name_kan",
+    "desc": "Description_kan",
+    "authPolicies": "Allowed Auth Types_kan",
+    "allowedKycAttributes": "Allowed Kyc Attributes_kan",
+    "id": "Id_kan",
+    "isActive": "Status_kan",
+    "policy-details": "Policy Details_kan",
+    "created-on": "Created On_kan",
+    "created-by": "Created By_kan",
+    "updated-on": "Updated On_kan",
+    "updated-by": "Updated By_kan",
+    "edit": "Edit_kan",
+    "create": "Create_kan",
+    "cancel": "Cancel_kan",
+    "language": "English_kan",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
+    "update": "Update_kan",
+    "validationMessages": {
+      "name": {
+        "required": "Policy Name is required_kan",
+        "max-length": "Exceeded max length (128)_kan"
+      },
+      "desc": {
+        "required": "Policy description is required_kan",
+        "max-length": "Exceeded max length (128)_kan"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_kan",
+        "message": [
+          "You are about to create a Policy in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"
+        ],
+        "yesBtnText": "Yes_kan",
+        "noBtnText": "No_kan",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_kan"
+      },
+      "edit": {
+        "title": "Confirmation_kan",
+        "message": "You are about to update a policy. Please ensure that all the information is correct_kan",
+        "yesBtnText": "Confirm_kan",
+        "noBtnText": "Cancel_kan",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
+      },
+      "update-success": {
+        "title": "Success_kan",
+        "message": "policy is updated Successfully_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "update-error": {
+        "title": "Error_kan",
+        "message": "There was some issue in updating the policy. Please try again_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "create-success": {
+        "title": "Success_kan",
+        "message": ["Policy is created Successfully._kan"],
+        "btnTxt": "Ok_kan"
+      },
+      "create-error": {
+        "title": "Error_kan",
+        "message": "There was some issue in creating a policy. Please try again_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_kan",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
+        "yesBtnTxt": "Leave_kan",
+        "noBtnTxt": "Stay_kan"
+      },
+      "noData": {
+        "title": "Error_kan",
+        "message": "No Data Found_kan",
+        "btnTxt": "Ok_kan"
+      },
+      "lunchTimeValidation": {
+        "title": "Error_kan",
+        "message": "Please select center timings before selecting lunch timings_kan",
+        "btnTxt": "Ok_kan"
+      }
+    }
+  },
+  "uploadcertificate": {
+    "title": "Upload Certificate_kan",
+    "CAtitle": "Upload CA Certificate_kan",
+    "partnerDomain": "Partner Domain_kan",
+    "chooseFile": "Choose File_kan",
+    "uploadYourFile": "Upload Your File_kan",
+    "button": "Upload_kan",
+    "cancel": "Cancel_kan"
+  },
+  "isActive": {
+    "Active": "ACTIVE_kan",
+    "InActive": "INACTIVE_kan"
+  },
+  "serverError": {
+    "PMS-COR-001": "ಇನ್‌ಪುಟ್ ಪ್ಯಾರಾಮೀಟರ್ ಕಾಣೆಯಾಗಿದೆ",
+    "PMS-PRT-002": "ನೀತಿ ಗುಂಪು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-PRT-010": "ಪಾಲುದಾರ ಪ್ರಕಾರವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-PRT-310": "ಅಮಾನ್ಯ ಕಾಲಮ್ ಸ್ವೀಕರಿಸಲಾಗಿದೆ : %s",
+    "PMS-PRT-313": "ಅಮಾನ್ಯವಾದ ವಿನ್ಯಾಸ ಮೌಲ್ಯವನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ ಪುಟಪ್ರಾರಂಭ:%d ಮತ್ತು ಪೇಜ್‌ಫೆಚ್:%d",
+    "PMS-PRT-312": "ಫಿಲ್ಟರ್ ಪ್ರಕಾರವು ಕಾಣೆಯಾಗಿದೆ",
+    "PMS-PRT-311": " ವಿನಂತಿಯಲ್ಲಿ ಕಾಲಮ್ ಕಾಣೆಯಾಗಿದೆ",
+    "PMS-PRT-314": "ವಿಂಗಡಣೆ ಕ್ಷೇತ್ರ ಅಥವಾ ವಿಂಗಡಣೆ ಪ್ರಕಾರದ ಮೌಲ್ಯಗಳು ಕಾಣೆಯಾಗಿದೆ",
+    "PMS-PRT-315": " ಮೌಲ್ಯ ಅಥವಾ ಮೌಲ್ಯದಿಂದ ಅಮಾನ್ಯವಾಗಿದೆ",
+    "PMS-PRT-356": " ವಿನ್ಯಾಸವು ಶೂನ್ಯವಾಗಿರಬಾರದು",
+    "PMS-PRT-358": "%s ಪ್ರಕಾರವನ್ನು ವಿಂಗಡಿಸಲು ಬೆಂಬಲವಿಲ್ಲ",
+    "PMS-PRT-359": "ವಿಂಗಡಿಸುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ",
+    "PMS-PRT-357": "ಅಮಾನ್ಯವಾದ ವಿಂಗಡಣೆ ಕ್ಷೇತ್ರ %s",
+    "KER-PRT-390": "ಅಮಾನ್ಯ ಫಿಲ್ಟರ್ ಮೌಲ್ಯ",
+    "PMS-PRT-001": "ಪಾಲುದಾರರನ್ನು ಈಗಾಗಲೇ ಅದೇ ಹೆಸರಿನೊಂದಿಗೆ ನೋಂದಾಯಿಸಲಾಗಿದೆ",
+    "PMS-PRT-051": "ಪಾಲುದಾರರನ್ನು ಈಗಾಗಲೇ ಅದೇ ಐಡಿಯೊಂದಿಗೆ ನೋಂದಾಯಿಸಲಾಗಿದೆ",
+    "PMS-PRT-052": "ಪಾಲುದಾರರ ಐಡಿ ಗರಿಷ್ಠ ಉದ್ದ ಇರಬೇಕು",
+    "PMS-ATH-053": "ಪೇಜಿಂಗ್ ವಿನಂತಿಯನ್ನು ರವಾನಿಸುವಾಗ IO ವಿನಾಯಿತಿ ಸಂಭವಿಸಿದೆ",
+    "PMS-ATH-054": " ಬಳಕೆದಾರ ಕಂಡುಬಂದಿಲ್ಲ",
+    "PMS-ATH-500": "ಸರ್ವರ್ ದೋಷ ಸಂಭವಿಸಿದೆ, ದಯವಿಟ್ಟು ಲಾಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+    "PMS-PRT-061": "ಪಾಲುದಾರ ನೀತಿ ಮ್ಯಾಪಿಂಗ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
+    "PMS-PRT-062": "ಪಾಲುದಾರ api ಕೀ ವಿನಂತಿಯನ್ನು ಈಗಾಗಲೇ ಅನುಮೋದಿಸಲಾಗಿದೆ. ಈಗ ಎಕ್ಸ್‌ಟ್ರಾಕ್ಟರ್‌ಗಳನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+    "PMS-PRT-063": "ಬಯೋಮೆಟ್ರಿಕ್ ಎಕ್ಸ್‌ಟ್ರಾಕ್ಟರ್‌ಗಳನ್ನು ಇದಕ್ಕಾಗಿ ಮಾತ್ರ ಸೇರಿಸಬಹುದು:",
+    "PMS-PRT-064": "ಯಾವುದೇ ವಿವರಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+    "PMS-PRT-070": "ರುಜುವಾತು ಮ್ಯಾಪಿಂಗ್ ಇವುಗಳಿಗೆ ಮಾತ್ರ ಅನುಮತಿಸಲಾಗಿದೆ:",
+    "PMS-PRT-071": "ನೀತಿ ಸ್ಟ್ರಿಂಗ್ ಅನ್ನು json ಆಬ್ಜೆಕ್ಟ್‌ಗೆ ಪಾರ್ಸಿಂಗ್ ಮಾಡುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ",
+    "PMS-PRT-072": "ನೀಡಿರುವ ರುಜುವಾತು ಪ್ರಕಾರವನ್ನು ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ. ಅನುಮತಿಸಲಾದ ರುಜುವಾತು ಪ್ರಕಾರಗಳು:",
+    "PMS-PRT-073": "ನೀತಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
+    "PMS-PRT-074": "ಅದೇ ಇಮೇಲ್‌ನೊಂದಿಗೆ ಬಳಕೆದಾರರು ಅಸ್ತಿತ್ವದಲ್ಲಿದ್ದಾರೆ",
+    "PMS-PRT-005": "ಪಾಲುದಾರ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-PRT-006": "ಯಾವುದೇ API ಕೀ ರಿಕ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-PRT-105": "ಪಾಲುದಾರ API ಕೀಯನ್ನು ರಚಿಸಲಾಗಿಲ್ಲ",
+    "PMS-PRT-011": "ಇಮೇಲ್ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
+    "PMS-PRT-012": "ಅಮಾನ್ಯ ಇಮೇಲ್ ಐಡಿ.",
+    "PMS-PRT-013": "ಅಮಾನ್ಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ. ಉದ್ದವು ಗಿಂತ ಕಡಿಮೆಯಿರಬೇಕು.",
+    "PMS-ATH-401": "ಪ್ರಮಾಣೀಕರಣ ವಿಫಲವಾಗಿದೆ",
+    "PMS-PRT-106": "APIKeyReqID ಸ್ಥಿತಿಯು ಪ್ರಗತಿಯಲ್ಲಿದೆ",
+    "PMS-KKS-001": "API ಪ್ರವೇಶಿಸಲಾಗುವುದಿಲ್ಲ",
+    "PMS-PRT-107": "Api ಯಿಂದ ಪ್ರತಿಕ್ರಿಯೆ ಶೂನ್ಯವಾಗಿದೆ",
+    "PMS-PRT-500": "ವಿನಂತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ.",
+    "PMS-PMP-016": "ಪಾಲುದಾರ ಸಕ್ರಿಯವಾಗಿಲ್ಲ.",
+    "PMS-PRT-098": "ಪಾಲುದಾರರ ನೀತಿ ಗುಂಪಿನ ಅಡಿಯಲ್ಲಿ ನೀಡಲಾದ ನೀತಿಯು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
+    "PMS-PMP-019": "ನೀತಿ ಸಕ್ರಿಯವಾಗಿಲ್ಲ.",
+    "PMS-PMP-023": "ನೀತಿ ಗುಂಪು ಸಕ್ರಿಯವಾಗಿಲ್ಲ.",
+    "PMS-DTS-001": "ಡೇಟಾ ಹಂಚಿಕೆ ಪ್ರತಿಕ್ರಿಯೆ ಶೂನ್ಯವಾಗಿದೆ",
+    "PMS-PRT-045": "P7B ಪ್ರಮಾಣಪತ್ರ ಡೇಟಾವನ್ನು ಪಾರ್ಸ್ ಮಾಡುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ",
+    "PMS-PRT-046": "ಎಲೆ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಹೊರತೆಗೆಯುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ.",
+    "PMS-PRT-047": "ಪಾಲುದಾರರನ್ನು ನೀತಿ ಗುಂಪಿಗೆ ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ",
+    "PMS-PRT-048": "ನೀಡಿರುವ ಪಾಲುದಾರರಿಗೆ ನೀತಿ ಗುಂಪು ಮ್ಯಾಪಿಂಗ್ ಅಗತ್ಯವಿಲ್ಲ",
+    "PMS-PRT-049": "ನೀಡಿರುವ ಪಾಲುದಾರರಿಗೆ ನೀತಿ ಗುಂಪು ಮ್ಯಾಪಿಂಗ್ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
+    "PMS-PRT-050": "ಅನುಮೋದಿತ ಪಾಲುದಾರರಿಗಾಗಿ ನೀತಿ ಗುಂಪನ್ನು ನವೀಕರಿಸಲಾಗುವುದಿಲ್ಲ",
+    "PMS-PRT-054": "ನೀಡಿರುವ ಪಾಲುದಾರರಿಗಾಗಿ ನೀತಿ ಗುಂಪನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ",
+    "PMS-PRT-055": "ಬಳಕೆದಾರ ಅಧಿಕೃತವಾಗಿಲ್ಲ.",
+    "PMS-PM-034": "ನೀತಿ ವಿನಂತಿಯನ್ನು ಈಗಾಗಲೇ ಅನುಮೋದಿಸಲಾಗಿದೆ.",
+    "PMS-PM-035": "ನೀತಿ ವಿನಂತಿಯನ್ನು ಈಗಾಗಲೇ ತಿರಸ್ಕರಿಸಲಾಗಿದೆ.",
+    "PMS-PM-045": "ಸ್ಥಿತಿಯನ್ನು ಅನುಮೋದಿಸಬೇಕು ಅಥವಾ ತಿರಸ್ಕರಿಸಬೇಕು",
+    "PMS-PM-051": "ಹೊರತೆಗೆಯುವವರು ಇರುವುದಿಲ್ಲ. ದಯವಿಟ್ಟು ಎಕ್ಸ್‌ಟ್ರಾಕ್ಟರ್‌ಗಳನ್ನು ಸೇರಿಸಿ.",
+    "PMS-PM-058": "ಸ್ಥಿತಿಯು ಸಕ್ರಿಯವಾಗಿರಬೇಕು ಅಥವಾ ನಿಷ್ಕ್ರಿಯವಾಗಿರಬೇಕು",
+    "PMS-PMP-010": "ಪಾಲುದಾರ ಮ್ಯಾಂಗರ್‌ನ ನೀತಿ ಗುಂಪಿಗೆ ನೀತಿಯು ಸೇರಿಲ್ಲ",
+    "PMS-PMP-015": "ನೀತಿ ಗುಂಪಿಗೆ ಯಾವುದೇ ಪಾಲುದಾರ api ಪ್ರಮುಖ ವಿನಂತಿಗಳಿಲ್ಲ",
+    "PMS-PMP-007": "ಪಾಲುದಾರ API ಕೀ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-PMP-011": "ಪಾಲುದಾರ API ಕೀ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-PMP-009": "ನೀಡಿರುವ ಪಾಲುದಾರ ಮತ್ತು ಅಪಿಕೆ ಮ್ಯಾಪಿಂಗ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
+    "PMS-PMP-013": "ಪಾಲುದಾರ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-PMP-005": "ಪಾಲುದಾರ ID ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-PMP-017": "ಪಾಲುದಾರರನ್ನು ಯಾವುದೇ ನೀತಿಗೆ ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ.",
+    "PMS-PMP-020": "MISP ಪರವಾನಗಿ ಕೀ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
+    "PMS-PMP-021": "MISP ಪರವಾನಗಿ ಕೀ ಅವಧಿ ಮೀರಿದೆ.",
+    "PMS-PMP-022": "ನೀತಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
+    "PMS-PMP-024": "ನೀತಿ ಫೈಲ್ ದೋಷಪೂರಿತವಾಗಿದೆ.",
+    "PMS-PMP-025": "MISP ಯ ಪರವಾನಗಿ ಕೀಲಿಯನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ",
+    "PMS-PMP-50": "ಅಪಿಕೆ, ಪಾಲುದಾರ ಮತ್ತು ನೀತಿ ಮ್ಯಾಪಿಂಗ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
+    "PMS-PMP-51": "ನೀಡಿರುವ ನೀತಿಯು ಪಾಲುದಾರರ ನೀತಿ ಗುಂಪಿಗೆ ಸೇರಿಲ್ಲ",
+    "PMS-PMP-052": "ಪಾಲುದಾರ ಪ್ರಮಾಣಪತ್ರ ಲಭ್ಯವಿಲ್ಲ",
+    "PMS-PMP-014": "ನೀತಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-PMS-022": "ನೀಡಿರುವ ಪಾಲುದಾರ api ಕೀ ಸಕ್ರಿಯವಾಗಿಲ್ಲ.",
+    "PMS-PMP-018": "ನೀತಿ ಅವಧಿ ಮೀರಿದೆ.",
+    "PMS-PRT-108": "ನೀಡಿರುವ ಪಾಲುದಾರರಿಗೆ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.ಅದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+    "PMS-AUT-002": "ಪಾಲುದಾರರ ಪಟ್ಟಿಯಿಂದ ಸಾಧನ ಪೂರೈಕೆದಾರರ ಐಡಿ ಕಂಡುಬಂದಿಲ್ಲ",
+    "PMS-AUT-003": "ಸಾಧನದ ವಿವರಗಳು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿವೆ",
+    "PMS-AUT-004": "ನಕಲಿ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ",
+    "PMS-AUT-005": "ಐಡಿ %s ಗಾಗಿ ಸಾಧನದ ವಿವರ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-AUT-025": "ಅನುಮೋದನೆ ಸ್ಥಿತಿಯು ಸಕ್ರಿಯಗೊಳಿಸಬೇಕು / ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬೇಕು;",
+    "PMP-AUT-030": "ftp ಪೂರೈಕೆದಾರರು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
+    "PMP-AUT-031": "ftp ಚಿಪ್ ಐಡಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.",
+    "PMP-AUT-032": "ನೀಡಲಾದ ಪೂರೈಕೆದಾರ, ತಯಾರಿಕೆ ಮತ್ತು ಮಾದರಿ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
+    "PMP-AUT-033": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ.",
+    "PMP-AUT-034": "Ftp ಚಿಪ್ ವಿವರ ಐಡಿ ಮತ್ತು ftp ಪೂರೈಕೆದಾರರ ಐಡಿ ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ.",
+    "PMP-AUT-037": "ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಲಾದ ftp ಚಿಪ್ ವಿವರಗಳನ್ನು ನೀಡಲಾಗಿದೆ.;",
+    "PMS-AUT-007": "ಐಡಿ %s ಗಾಗಿ ಸುರಕ್ಷಿತ ಬಯೋಮೆಟ್ರಿಕ್ ಇಂಟರ್ಫೇಸ್ ಕಂಡುಬಂದಿಲ್ಲ",
+    "PMS-AUT-026": "ಅನುಮೋದನೆ ಸ್ಥಿತಿಯು ಸಕ್ರಿಯಗೊಳಿಸಬೇಕು / ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬೇಕು",
+    "PMS-AUT-506": "ಅದೇ ಪೂರೈಕೆದಾರರ ಸಾಧನದ ವಿವರಗಳನ್ನು ಒದಗಿಸಿ.",
+    "PMS-AUT-507": "ಮುಕ್ತಾಯ ದಿನಾಂಕವು ರಚಿಸಿದ ದಿನಾಂಕಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿರಬೇಕು",
+    "PMS-AUT-508": "ಮುಕ್ತಾಯ ದಿನಾಂಕವು ಇಂದಿಗಿಂತ/ಸಮಾನವಾಗಿರಬೇಕು.;",
+    "PMS-POL-002": "ನೀತಿ ನಿರ್ವಾಹಕ ರುಜುವಾತುಗಳ ಹೊಂದಾಣಿಕೆಯಿಲ್ಲ",
+    "PMS-POL-004": "ನೀತಿ ಗುಂಪಿನಲ್ಲಿ ನೀತಿಯ ಹೆಸರು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.ಹೆಸರು :",
+    "PMS-POL-005": "ನೀತಿ ಫೈಲ್‌ನಲ್ಲಿ ಬೆಂಬಲಿಸದ KYC ಗುಣಲಕ್ಷಣ",
+    "PMS-POL-006": "ನೀತಿ ಫೈಲ್‌ನಲ್ಲಿ ಬೆಂಬಲಿತವಲ್ಲದ ದೃಢೀಕರಣ ಪ್ರಕಾರ",
+    "PMS-POL-007": "ಪಾಲಿಸಿ ಫೈಲ್‌ನಲ್ಲಿ eKYC ಗುಣಲಕ್ಷಣ ಕಾಣೆಯಾಗಿದೆ",
+    "PMS-POL-008": "ನೀತಿ ID ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-POL-009": "ದೃಢೀಕರಣ ನೀತಿಯು ಹೆಸರಿನೊಂದಿಗೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ:",
+    "PMS-COR-002": "ಅಮಾನ್ಯ ಇನ್‌ಪುಟ್ ಪ್ಯಾರಾಮೀಟರ್ -",
+    "PMS-COR-003": "ವಿನಂತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
+    "PMS-POL-010": "ದೃಢೀಕರಣ ನೀತಿಗಳನ್ನು ನೀತಿಗೆ ವಿರುದ್ಧವಾಗಿ ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿಲ್ಲ",
+    "PMS-POL-013": "ನೀಡಿರುವ PartnerAPIKey ಗೆ ಯಾವುದೇ ನೀತಿ ಲಭ್ಯವಿಲ್ಲ",
+    "PMS-POL-014": "ಹೆಸರಿನೊಂದಿಗೆ ನೀತಿ ಗುಂಪು ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ:",
+    "PMS-POL-015": "ನೀತಿ ಗುಂಪು ಮತ್ತು ನೀತಿಯನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ.",
+    "PMS-POL-016": "ನೀತಿ ಗುಂಪು ID ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-POL-017": "ನೀಡಿರುವ ಪಾಲುದಾರರಿಗೆ ಯಾವುದೇ ನೀತಿ ಲಭ್ಯವಿಲ್ಲ",
+    "PMS-POL-018": "ನೀಡಿರುವ ಪಾಲುದಾರ ಮತ್ತು ನೀತಿಯನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ.",
+    "PMS-POL-019": "ನೀತಿ ಗುಂಪಿನ ಹೆಸರು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+    "PMS-POL-020": "ಪ್ರಕಟಿಸಿದ ನೀತಿಯನ್ನು ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ",
+    "PMS-POL-021": "ಪಾಲಿಸಿ ಪ್ರಕಾರಕ್ಕೆ ಅನುಮತಿಸಲಾದ ದೃಢೀಕರಣ ಪ್ರಕಾರಗಳು ಅಗತ್ಯವಿಲ್ಲ",
+    "PMS-POL-022": "ದೃಢೀಕರಣ ಟೋಕನ್ ಪ್ರಕಾರವನ್ನು ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ",
+    "PMS-POL-023": "ನೀಡಿರುವ ನೀತಿ ಪ್ರಕಾರವನ್ನು ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ",
+    "PMS-POL-045": "ನೀತಿ ಸ್ಥಿತಿ ಸಕ್ರಿಯ ಅಥವಾ ನಿಷ್ಕ್ರಿಯವಾಗಿದೆ.",
+    "PMS-POL-046": "ನೀಡಿರುವ ನೀತಿ ಪ್ರಕಾರಕ್ಕೆ ಡೇಟಾ ಹಂಚಿಕೆ ಗುಣಲಕ್ಷಣಗಳ ಅಗತ್ಯವಿಲ್ಲ",
+    "PMS-POL-047": "ನೀಡಿರುವ ನೀತಿ ಪ್ರಕಾರಕ್ಕೆ ಹಂಚಿಕೊಳ್ಳಬಹುದಾದ ಗುಣಲಕ್ಷಣಗಳ ಅಗತ್ಯವಿಲ್ಲ",
+    "PMS-POL-048": "ನೀಡಿರುವ ನೀತಿ ಪ್ರಕಾರಕ್ಕೆ ಅನುಮತಿಸಲಾದ KYC ಗುಣಲಕ್ಷಣಗಳ ಅಗತ್ಯವಿಲ್ಲ",
+    "PMS-POL-050": "ನೀಡಿರುವ ಆವೃತ್ತಿಯು ಲಭ್ಯವಿಲ್ಲ. ಅನುಮತಿಸಲಾದ ಆವೃತ್ತಿಗಳು:",
+    "PMS-POL-051": "ನೀತಿ ಯೋಜನೆ ಮತ್ತು ನೀತಿ ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿಲ್ಲ",
+    "PMS-POL-052": "ನೀತಿ ಸ್ಟ್ರಿಂಗ್ ಅನ್ನು json ಆಬ್ಜೆಕ್ಟ್‌ಗೆ ಪಾರ್ಸಿಂಗ್ ಮಾಡುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ",
+    "PMS-POL-053": "ನೀತಿ ಗುಂಪು ಸಕ್ರಿಯವಾಗಿಲ್ಲ.",
+    "PMS-POL-054": "ಅಪ್ರಕಟಿತ ನೀತಿಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+    "PMS-POL-055": "ಪ್ರಕಟಿಸಿದ ನೀತಿಯನ್ನು ನವೀಕರಿಸಲಾಗುವುದಿಲ್ಲ.",
+    "PMS-POL-056": "ನೀತಿ ಗುಂಪಿನ ಅಡಿಯಲ್ಲಿ ಸಕ್ರಿಯ ನೀತಿಗಳು ಅಸ್ತಿತ್ವದಲ್ಲಿವೆ.",
+    "PMS-POL-057": "ನೀತಿಯ ಅಡಿಯಲ್ಲಿ ಸಕ್ರಿಯ apiKey ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
+    "PMS-POL-058": "ಪ್ರಕಟಿಸಿದ ನೀತಿಗಾಗಿ ಸ್ಥಿತಿಯನ್ನು ಬದಲಾಯಿಸಲಾಗುವುದಿಲ್ಲ.;"
+  }
 }
