@@ -228,7 +228,7 @@
 			"linkType": "",
 			"LinkURL": "",
 			"inputType": "dropdown",
-			"ismandatory": "true",
+			"ismandatory": "false",
 			"showInListView": "false",
 			"showInSingleView": "false"
 		},
