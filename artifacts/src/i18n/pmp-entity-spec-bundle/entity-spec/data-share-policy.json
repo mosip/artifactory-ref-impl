@@ -2,12 +2,12 @@
 	"auditEventIds": ["ADM-028", "ADM-028"],
 	"actionButtons": [{
 			"buttonName": {
-				"eng": "Publish policy",
-				"ara": "Publish policy_ara",
-				"fra": "Publish policy_fra",
-				"hin": "Publish policy_hin",
-				"kan": "Publish policy_kan",
-				"tam": "Publish policy_tam"
+				"eng": "Activate",
+				"ara": "Activate_ara",
+				"fra": "Activate_fra",
+				"hin": "Activate_hin",
+				"kan": "Activate_kan",
+				"tam": "Activate_tam"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -208,7 +208,7 @@
 			"showAsLink": "",
 			"linkType": "",
 			"LinkURL": "",
-			"inputType": "text",
+			"inputType": "textarea",
 			"ismandatory": "true",
 			"showInListView": "false",
 			"showInSingleView": "true"

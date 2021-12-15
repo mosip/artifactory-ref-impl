@@ -1265,6 +1265,16 @@
         "ADM-BLK-008" :  "Entrée trouvée avec les mêmes valeurs de clé primaire",
         "ADM-BLK-009": "Échec du traitement de l'entrée",
         "KER-MSD-413" : "Entrée déjà trouvée pour le nom de machine fourni",
-        "KER-MSD-414" : "Entrée déjà trouvée pour les clés publiques fournies"
+        "KER-MSD-414" : "Entrée déjà trouvée pour les clés publiques fournies",
+        "ADM-PKT-004" : "RID non trouvé",
+        "RPR-RGS-001" : "Impossible d'accéder à la table d'enregistrement",
+        "RPR-RGS-013" : "Valeur de requête manquante",
+        "RPR-RGS-015" : "Valeur de requête invalide - Les données d'entrée sont incorrectes",
+        "RPR-RGS-022" : "Paramètre de requête invalide - version",
+        "RPR-RGS-023" : "Paramètre de requête invalide - heure de la requête",
+        "RPR-RGS-024" : "Paramètre de requête invalide - Id",
+        "RPR-RGS-031" : "RID non trouvé",
+        "RPR-RGS-032" : "affinez votre recherche",
+        "RPR-RGS-033" : "la recherche entre les dates doit être inférieure à 30 jours"
     }
 }

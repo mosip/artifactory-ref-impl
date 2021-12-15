@@ -149,12 +149,12 @@
 			"name": "approvalStatus",
 			"showInListView": "true",
 			"label": {
-				"eng": "Approval Status",
-				"ara": "Approval Status_ara",
-				"fra": "Approval Status_fra",
-				"hin": "Approval Status_hin",
-				"kan": "Approval Status_kan",
-				"tam": "Approval Status_tam"
+				"eng": "Status",
+				"ara": "Status_ara",
+				"fra": "Status_fra",
+				"hin": "Status_hin",
+				"kan": "Status_kan",
+				"tam": "Status_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -308,15 +308,15 @@
 			"methodCallName": ""
 		},
 		{
-			"filtername": "status",
-			"filterlabel": "Approval Status",
+			"filtername": "approvalStatus",
+			"filterlabel": "Status",
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
 			"dropdown": "false",
 			"datePicker": "false",
 			"apiName": "",
-			"fieldName": "status",
+			"fieldName": "approvalStatus",
 			"methodCallName": ""
 		}
 	]

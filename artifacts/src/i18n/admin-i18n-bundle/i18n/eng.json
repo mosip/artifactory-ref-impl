@@ -1267,7 +1267,17 @@
         "ADM-BLK-008" :  "Entry found with same primary key values",
         "ADM-BLK-009": "Failed to process entry",
         "KER-MSD-413" : "Entry already found for the provided machine name",
-        "KER-MSD-414" : "Entry already found for the provided public keys"
+        "KER-MSD-414" : "Entry already found for the provided public keys",
+        "ADM-PKT-004" : "RID Not Found",
+        "RPR-RGS-001" : "Unable to Access Registration Table",
+        "RPR-RGS-013" : "Missing Request Value",
+        "RPR-RGS-015" : "Invalid Request Value - Input Data is Incorrect",
+        "RPR-RGS-022" : "Invalid Request Parameter - version",
+        "RPR-RGS-023" : "Invalid Request Parameter - requesttime",
+        "RPR-RGS-024" : "Invalid Request Parameter - Id",
+        "RPR-RGS-031" : "RID Not Found",
+        "RPR-RGS-032" : "plz narrow down your search",
+        "RPR-RGS-033" : "searching between date should be less then 30 days"
 
     }
 }

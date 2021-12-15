@@ -1,432 +1,586 @@
 {
-	"menuItems": {
-		"item1": {
-			"title": "HOME"
-		},
-		"item2": {
-			"title": "Policy",
-			"subItem1": "Policy Group",
-			"subItem2": "Auth Policy",
-			"subItem3": "Data Share Policy"
-		},
-		"item3": {
-			"title": "Partner"
-		},
-		"item4": {
-			"title": "Device Details"
-		},
-		"item5": {
-			"title": "FTM Details"
-		},
-		"item6": {
-			"title": "SBI Details"
-		},
-		"item7": {
-			"title": "Partner Policy Mapping"
-		},
-		"item8": {
-			"title": "Upload CA Certificate"
-		}
-	},
-	"singleView": {
-		"errorMessages": [
-			"No record found",
-			"A technical error has occurred"
-		],
-		"buttonText": "OK",
-		"title": "Error"
-	},
-	"masterData": {
-		"master-data": "Master Data",
-		"total-no": "Total No",
-		"common": "Common",
-		"device-definition": "Device Definition",
-		"machine-definition": "Machine Definition",
-		"document-definition": "Document Definition",
-		"doc-category-mapping": "Doc Category - Type Mapping",
-		"category": "Category",
-		"mapped-documents": "Mapped Documents",
-		"unmapped-documents": "Unmapped Documents"
-	},
-	"pmanager": {
-		"status": "Status",
-		"language": "English",
-		"edit": "Edit",
-		"create": "Create",
-		"cancel": "Cancel",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)",
-		"update": "Update",
-		"created-on": "Created On",
-		"created-by": "Created By",
-		"updated-on": "Updated On",
-		"updated-by": "Updated By",
-		"header": "Change Policy",
-		"name": "Policy Name",
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation",
-				"message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
-				"yesBtnText": "Yes",
-				"noBtnText": "No",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
-			},
-			"edit": {
-				"title": "Confirmation",
-				"message": "You are about to update a Registration Center. Please ensure that all the information is correct",
-				"yesBtnText": "Confirm",
-				"noBtnText": "Cancel",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
-			},
-			"update-success": {
-				"title": "Success",
-				"message": "Partner is updated Successfully",
-				"btnTxt": "Ok"
-			},
-			"update-error": {
-				"title": "Error",
-				"message": "There was some issue in updating the Partner. Please try again",
-				"btnTxt": "Ok"
-			},
-			"create-success": {
-				"title": "Success",
-				"message": ["Partner is created Successfully with Partner ID: ", " and Partner Name: "],
-				"btnTxt": "Ok"
-			},
-			"create-error": {
-				"title": "Error",
-				"message": "There was some issue in creating Partner. Please try again",
-				"btnTxt": "Ok"
-			},
-			"navigation-popup": {
-				"title": "Confirmation",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost.",
-				"yesBtnTxt": "Leave",
-				"noBtnTxt": "Stay"
-			},
-			"noData": {
-				"title": "Error",
-				"message": "No Data Found",
-				"btnTxt": "Ok"
-			}
-		}
-	},
-	"partner": {
-		"address1": "Address",
-		"header": "Partner Service",
-		"name": "Organization",
-		"id": "Id",
-		"status": "Status",
-		"language": "English",
-		"edit": "Edit",
-		"create": "Create",
-		"cancel": "Cancel",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)",
-		"update": "Update",
-		"partner-details": "Partner Details",
-		"created-on": "Created On",
-		"created-by": "Created By",
-		"updated-on": "Updated On",
-		"updated-by": "Updated By",
-		"registration-partner-name": "Organization Name",
-		"registration-partner-type": "Policy Name",
-		"contact-person": "Email Id",
-		"contact-number": "Contact Number",
-		"location-details": "Address Details",
-		"validationMessages": {
-			"partnerTypeCode": {
-				"required": "Policy Name is required"
-			},
-			"name": {
-				"required": "Organization Name is required",
-				"max-length": "Exceeded max length (128)"
-			},
-			"addressLine1": {
-				"required": "Address is required",
-				"max-length": "Exceeded max length (256)"
-			}
-		},
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation",
-				"message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
-				"yesBtnText": "Yes",
-				"noBtnText": "No",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
-			},
-			"edit": {
-				"title": "Confirmation",
-				"message": "You are about to update a Registration Center. Please ensure that all the information is correct",
-				"yesBtnText": "Confirm",
-				"noBtnText": "Cancel",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
-			},
-			"update-success": {
-				"title": "Success",
-				"message": "Partner is updated Successfully",
-				"btnTxt": "Ok"
-			},
-			"update-error": {
-				"title": "Error",
-				"message": "There was some issue in updating the Partner. Please try again",
-				"btnTxt": "Ok"
-			},
-			"create-success": {
-				"title": "Success",
-				"message": ["Partner is created Successfully with Partner ID: ", " and Partner Status is: "],
-				"btnTxt": "Ok"
-			},
-			"create-error": {
-				"title": "Error",
-				"message": "There was some issue in creating Partner. Please try again",
-				"btnTxt": "Ok"
-			},
-			"navigation-popup": {
-				"title": "Confirmation",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost.",
-				"yesBtnTxt": "Leave",
-				"noBtnTxt": "Stay"
-			},
-			"noData": {
-				"title": "Error",
-				"message": "No Data Found",
-				"btnTxt": "Ok"
-			}
-		}
-	},
-	"misp": {
-		"header": "MISP",
-		"name": "Name",
-		"id": "Id",
-		"isActive": "Misp Status",
-		"contact_no": "Phone No",
-		"status": "Status",
-		"address": "Address",
-		"misp-details": "Misp Details",
-		"created-on": "Created On",
-		"created-by": "Created By",
-		"updated-on": "Updated On",
-		"updated-by": "Updated By",
-		"email_id": "Email",
-		"edit": "Edit",
-		"create": "Create",
-		"cancel": "Cancel",
-		"language": "English",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)",
-		"update": "Update",
-		"validationMessages": {
-			"name": {
-				"required": "Misp Name is required",
-				"max-length": "Exceeded max length (128)"
-			},
-			"address": {
-				"required": "Misp Address is required",
-				"max-length": "Exceeded max length (128)"
-			},
-			"phoneNo": {
-				"required": "Misp phoneNo is required"
-			},
-			"email": {
-				"required": "Misp email is required"
-			}
-		},
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation",
-				"message": ["You are about to create a Misp in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
-				"yesBtnText": "Yes",
-				"noBtnText": "No",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?"
-			},
-			"edit": {
-				"title": "Confirmation",
-				"message": "You are about to update a misp. Please ensure that all the information is correct",
-				"yesBtnText": "Confirm",
-				"noBtnText": "Cancel",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?"
-			},
-			"update-success": {
-				"title": "Success",
-				"message": "Misp is updated Successfully",
-				"btnTxt": "Ok"
-			},
-			"update-error": {
-				"title": "Error",
-				"message": "There was some issue in updating the misp. Please try again",
-				"btnTxt": "Ok"
-			},
-			"create-success": {
-				"title": "Success",
-				"message": ["MISP is created Successfully."],
-				"btnTxt": "Ok"
-			},
-			"create-error": {
-				"title": "Error",
-				"message": "There was some issue in creating a misp. Please try again",
-				"btnTxt": "Ok"
-			},
-			"navigation-popup": {
-				"title": "Confirmation",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost.",
-				"yesBtnTxt": "Leave",
-				"noBtnTxt": "Stay"
-			},
-			"noData": {
-				"title": "Error",
-				"message": "No Data Found",
-				"btnTxt": "Ok"
-			},
-			"lunchTimeValidation": {
-				"title": "Error",
-				"message": "Please select center timings before selecting lunch timings",
-				"btnTxt": "Ok"
-			}
-		}
-	},
-	"validationMessages": {
-		"required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range",
-		"range": "’To’ date cannot be before ‘From’ date'",
-		"invalid": "Please select a valid value for Date"
-	},
-	"actionMessages": {
-		"decommission": {
-			"success-message": ["", " is approved successfully"],
-			"success-title": "Success",
-			"error-message": "Cannot approve the Misp.Currently Misp is inactive",
-			"error-title": "Error",
-			"btnTxt": "Ok",
-			"yesBtnTxt": "Confirm",
-			"noBtnTxt": "Cancel",
-			"confirmation-message": ["Do you want to Approve the Misp ", " ? \n You cannot undo this action once you click on Confirm."],
-			"confirmation-title": "Confirmation"
-		},
-		"activate": {
-			"success-message": ["", " is Activated Successfully"],
-			"success-title": "Success",
-			"error-message": "Could not be Activated",
-			"error-title": "Error",
-			"btnTxt": "Ok",
-			"yesBtnTxt": "Yes",
-			"noBtnTxt": "No",
-			"confirmation-message": ["Do you want to Activate the ", "? \n You can Deactivate it later if you wish. Till then it will be set as Active"],
-			"confirmation-title": "Confirmation"
-		},
-		"deactivate": {
-			"success-message": ["", " is Deactivated Successfully"],
-			"success-title": "Success",
-			"error-message": "Misp Could not be Deactivated",
-			"error-title": "Error",
-			"btnTxt": "Ok",
-			"yesBtnTxt": "Yes",
-			"noBtnTxt": "No",
-			"confirmation-message": ["Do you want to Deactivate the ", " ? \n You can Activate it later if you wish. Till then it will be set as Inactive"],
-			"confirmation-title": "Confirmation"
-		}
-	},
-	"policy": {
-		"header": "Policy",
-		"name": "Name",
-		"desc": "Description",
-		"authPolicies": "Allowed Auth Types",
-		"allowedKycAttributes": "Allowed Kyc Attributes",
-		"id": "Id",
-		"isActive": "Status",
-		"policy-details": "Policy Details",
-		"created-on": "Created On",
-		"created-by": "Created By",
-		"updated-on": "Updated On",
-		"updated-by": "Updated By",
-		"edit": "Edit",
-		"create": "Create",
-		"cancel": "Cancel",
-		"language": "English",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)",
-		"update": "Update",
-		"validationMessages": {
-			"name": {
-				"required": "Policy Name is required",
-				"max-length": "Exceeded max length (128)"
-			},
-			"desc": {
-				"required": "Policy description is required",
-				"max-length": "Exceeded max length (128)"
-			}
-
-		},
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation",
-				"message": ["You are about to create a Policy in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"],
-				"yesBtnText": "Yes",
-				"noBtnText": "No",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?"
-			},
-			"edit": {
-				"title": "Confirmation",
-				"message": "You are about to update a policy. Please ensure that all the information is correct",
-				"yesBtnText": "Confirm",
-				"noBtnText": "Cancel",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?"
-			},
-			"update-success": {
-				"title": "Success",
-				"message": "policy is updated Successfully",
-				"btnTxt": "Ok"
-			},
-			"update-error": {
-				"title": "Error",
-				"message": "There was some issue in updating the policy. Please try again",
-				"btnTxt": "Ok"
-			},
-			"create-success": {
-				"title": "Success",
-				"message": ["Policy is created Successfully."],
-				"btnTxt": "Ok"
-			},
-			"create-error": {
-				"title": "Error",
-				"message": "There was some issue in creating a policy. Please try again",
-				"btnTxt": "Ok"
-			},
-			"navigation-popup": {
-				"title": "Confirmation",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost.",
-				"yesBtnTxt": "Leave",
-				"noBtnTxt": "Stay"
-			},
-			"noData": {
-				"title": "Error",
-				"message": "No Data Found",
-				"btnTxt": "Ok"
-			},
-			"lunchTimeValidation": {
-				"title": "Error",
-				"message": "Please select center timings before selecting lunch timings",
-				"btnTxt": "Ok"
-			}
-		}
-	},
-    "uploadcertificate": {
-        "title": "Upload Certificate",
-        "partnerDomain" :"Partner Domain",
-        "chooseFile" : "Choose File",
-        "uploadYourFile":"Upload Your File",
-        "button":"Upload",
-        "cancel": "Cancel"
+  "menuItems": {
+    "item1": {
+      "title": "HOME"
     },
-    "filters": {
-        "titleTxt": "Map Policy Group",
-        "footerButtons": {
-            "resetTxt": "Reset",
-            "cancelTxt": "Cancel",
-            "applyTxt": "Save"
-        }
+    "item2": {
+      "title": "Policy",
+      "subItem1": "Policy Group",
+      "subItem2": "Auth Policy",
+      "subItem3": "Data Share Policy"
     },
-    "isActive":{
-        "Active":"ACTIVE",
-        "InActive":"INACTIVE"
+    "item3": {
+      "title": "Partner"
     },
-    "genericerror":{
-        "fieldValidation":"This field is required",
-        "fieldNameValidation":" is required"
+    "item4": {
+      "title": "Device Details"
+    },
+    "item5": {
+      "title": "FTM Details"
+    },
+    "item6": {
+      "title": "SBI Details"
+    },
+    "item7": {
+      "title": "Partner Policy Mapping"
+    },
+    "item8": {
+      "title": "Upload CA Certificate"
     }
+  },
+  "singleView": {
+    "errorMessages": ["No record found", "A technical error has occurred"],
+    "buttonText": "OK",
+    "title": "Error"
+  },
+  "masterData": {
+    "master-data": "Master Data",
+    "total-no": "Total No",
+    "common": "Common",
+    "device-definition": "Device Definition",
+    "machine-definition": "Machine Definition",
+    "document-definition": "Document Definition",
+    "doc-category-mapping": "Doc Category - Type Mapping",
+    "category": "Category",
+    "mapped-documents": "Mapped Documents",
+    "unmapped-documents": "Unmapped Documents"
+  },
+  "pmanager": {
+    "status": "Status",
+    "language": "English",
+    "edit": "Edit",
+    "create": "Create",
+    "cancel": "Cancel",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)",
+    "update": "Update",
+    "created-on": "Created On",
+    "created-by": "Created By",
+    "updated-on": "Updated On",
+    "updated-by": "Updated By",
+    "header": "Change Policy",
+    "name": "Policy Name",
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation",
+        "message": [
+          "You are about to create a Registration Center in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"
+        ],
+        "yesBtnText": "Yes",
+        "noBtnText": "No",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
+      },
+      "edit": {
+        "title": "Confirmation",
+        "message": "You are about to update a Registration Center. Please ensure that all the information is correct",
+        "yesBtnText": "Confirm",
+        "noBtnText": "Cancel",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
+      },
+      "update-success": {
+        "title": "Success",
+        "message": "Partner is updated Successfully",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Error",
+        "message": "There was some issue in updating the Partner. Please try again",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Success",
+        "message": [
+          "Partner is created Successfully with Partner ID: ",
+          " and Partner Name: "
+        ],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Error",
+        "message": "There was some issue in creating Partner. Please try again",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmation",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost.",
+        "yesBtnTxt": "Leave",
+        "noBtnTxt": "Stay"
+      },
+      "noData": {
+        "title": "Error",
+        "message": "No Data Found",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "partner": {
+    "address1": "Address",
+    "header": "Partner Service",
+    "name": "Organization",
+    "id": "Id",
+    "status": "Status",
+    "language": "English",
+    "edit": "Edit",
+    "create": "Create",
+    "cancel": "Cancel",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)",
+    "update": "Update",
+    "partner-details": "Partner Details",
+    "created-on": "Created On",
+    "created-by": "Created By",
+    "updated-on": "Updated On",
+    "updated-by": "Updated By",
+    "registration-partner-name": "Organization Name",
+    "registration-partner-type": "Policy Name",
+    "contact-person": "Email Id",
+    "contact-number": "Contact Number",
+    "location-details": "Address Details",
+    "validationMessages": {
+      "partnerTypeCode": {
+        "required": "Policy Name is required"
+      },
+      "name": {
+        "required": "Organization Name is required",
+        "max-length": "Exceeded max length (128)"
+      },
+      "addressLine1": {
+        "required": "Address is required",
+        "max-length": "Exceeded max length (256)"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation",
+        "message": [
+          "You are about to create a Registration Center in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"
+        ],
+        "yesBtnText": "Yes",
+        "noBtnText": "No",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
+      },
+      "edit": {
+        "title": "Confirmation",
+        "message": "You are about to update a Registration Center. Please ensure that all the information is correct",
+        "yesBtnText": "Confirm",
+        "noBtnText": "Cancel",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?"
+      },
+      "update-success": {
+        "title": "Success",
+        "message": "Partner is updated Successfully",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Error",
+        "message": "There was some issue in updating the Partner. Please try again",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Success",
+        "message": [
+          "Partner is created Successfully with Partner ID: ",
+          " and Partner Status is: "
+        ],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Error",
+        "message": "There was some issue in creating Partner. Please try again",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmation",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost.",
+        "yesBtnTxt": "Leave",
+        "noBtnTxt": "Stay"
+      },
+      "noData": {
+        "title": "Error",
+        "message": "No Data Found",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "misp": {
+    "header": "MISP",
+    "name": "Name",
+    "id": "Id",
+    "isActive": "Misp Status",
+    "contact_no": "Phone No",
+    "status": "Status",
+    "address": "Address",
+    "misp-details": "Misp Details",
+    "created-on": "Created On",
+    "created-by": "Created By",
+    "updated-on": "Updated On",
+    "updated-by": "Updated By",
+    "email_id": "Email",
+    "edit": "Edit",
+    "create": "Create",
+    "cancel": "Cancel",
+    "language": "English",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)",
+    "update": "Update",
+    "validationMessages": {
+      "name": {
+        "required": "Misp Name is required",
+        "max-length": "Exceeded max length (128)"
+      },
+      "address": {
+        "required": "Misp Address is required",
+        "max-length": "Exceeded max length (128)"
+      },
+      "phoneNo": {
+        "required": "Misp phoneNo is required"
+      },
+      "email": {
+        "required": "Misp email is required"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation",
+        "message": [
+          "You are about to create a Misp in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"
+        ],
+        "yesBtnText": "Yes",
+        "noBtnText": "No",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?"
+      },
+      "edit": {
+        "title": "Confirmation",
+        "message": "You are about to update a misp. Please ensure that all the information is correct",
+        "yesBtnText": "Confirm",
+        "noBtnText": "Cancel",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?"
+      },
+      "update-success": {
+        "title": "Success",
+        "message": "Misp is updated Successfully",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Error",
+        "message": "There was some issue in updating the misp. Please try again",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Success",
+        "message": ["MISP is created Successfully."],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Error",
+        "message": "There was some issue in creating a misp. Please try again",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmation",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost.",
+        "yesBtnTxt": "Leave",
+        "noBtnTxt": "Stay"
+      },
+      "noData": {
+        "title": "Error",
+        "message": "No Data Found",
+        "btnTxt": "Ok"
+      },
+      "lunchTimeValidation": {
+        "title": "Error",
+        "message": "Please select center timings before selecting lunch timings",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "validationMessages": {
+    "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range",
+    "range": "’To’ date cannot be before ‘From’ date'",
+    "invalid": "Please select a valid value for Date"
+  },
+  "actionMessages": {
+    "decommission": {
+      "success-message": ["", " is approved successfully"],
+      "success-title": "Success",
+      "error-message": "Cannot approve the Misp.Currently Misp is inactive",
+      "error-title": "Error",
+      "btnTxt": "Ok",
+      "yesBtnTxt": "Confirm",
+      "noBtnTxt": "Cancel",
+      "confirmation-message": [
+        "Do you want to Approve the Misp ",
+        " ? \n You cannot undo this action once you click on Confirm."
+      ],
+      "confirmation-title": "Confirmation"
+    },
+    "activate": {
+      "success-message": ["", " is Activated Successfully"],
+      "success-title": "Success",
+      "error-message": "Could not be Activated",
+      "error-title": "Error",
+      "btnTxt": "Ok",
+      "yesBtnTxt": "Yes",
+      "noBtnTxt": "No",
+      "confirmation-message": [
+        "Do you want to Activate the ",
+        "? \n You can Deactivate it later if you wish. Till then it will be set as Active"
+      ],
+      "confirmation-title": "Confirmation"
+    },
+    "deactivate": {
+      "success-message": ["", " is Deactivated Successfully"],
+      "success-title": "Success",
+      "error-message": "Misp Could not be Deactivated",
+      "error-title": "Error",
+      "btnTxt": "Ok",
+      "yesBtnTxt": "Yes",
+      "noBtnTxt": "No",
+      "confirmation-message": [
+        "Do you want to Deactivate the ",
+        " ? \n You can Activate it later if you wish. Till then it will be set as Inactive"
+      ],
+      "confirmation-title": "Confirmation"
+    }
+  },
+  "policy": {
+    "header": "Policy",
+    "name": "Name",
+    "desc": "Description",
+    "authPolicies": "Allowed Auth Types",
+    "allowedKycAttributes": "Allowed Kyc Attributes",
+    "id": "Id",
+    "isActive": "Status",
+    "policy-details": "Policy Details",
+    "created-on": "Created On",
+    "created-by": "Created By",
+    "updated-on": "Updated On",
+    "updated-by": "Updated By",
+    "edit": "Edit",
+    "create": "Create",
+    "cancel": "Cancel",
+    "language": "English",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)",
+    "update": "Update",
+    "validationMessages": {
+      "name": {
+        "required": "Policy Name is required",
+        "max-length": "Exceeded max length (128)"
+      },
+      "desc": {
+        "required": "Policy description is required",
+        "max-length": "Exceeded max length (128)"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation",
+        "message": [
+          "You are about to create a Policy in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm"
+        ],
+        "yesBtnText": "Yes",
+        "noBtnText": "No",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?"
+      },
+      "edit": {
+        "title": "Confirmation",
+        "message": "You are about to update a policy. Please ensure that all the information is correct",
+        "yesBtnText": "Confirm",
+        "noBtnText": "Cancel",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?"
+      },
+      "update-success": {
+        "title": "Success",
+        "message": "policy is updated Successfully",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Error",
+        "message": "There was some issue in updating the policy. Please try again",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Success",
+        "message": ["Policy is created Successfully."],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Error",
+        "message": "There was some issue in creating a policy. Please try again",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmation",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost.",
+        "yesBtnTxt": "Leave",
+        "noBtnTxt": "Stay"
+      },
+      "noData": {
+        "title": "Error",
+        "message": "No Data Found",
+        "btnTxt": "Ok"
+      },
+      "lunchTimeValidation": {
+        "title": "Error",
+        "message": "Please select center timings before selecting lunch timings",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "uploadcertificate": {
+    "title": "Upload Certificate",
+    "CAtitle": "Upload CA Certificate",
+    "partnerDomain": "Partner Domain",
+    "chooseFile": "Choose File",
+    "uploadYourFile": "Upload Your File",
+    "button": "Upload",
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "titleTxt": "Map Policy Group",
+    "footerButtons": {
+      "resetTxt": "Reset",
+      "cancelTxt": "Cancel",
+      "applyTxt": "Save"
+    }
+  },
+  "isActive": {
+    "Active": "ACTIVE",
+    "InActive": "INACTIVE"
+  },
+  "genericerror": {
+    "fieldValidation": "This field is required",
+    "fieldNameValidation": " is required"
+  },
+  "serverError": {
+    "PMS-COR-001": "Missing Input Parameter",
+    "PMS-PRT-002": " Policy group does not exist",
+    "PMS-PRT-010": " Partner Type does not exist",
+    "PMS-PRT-310": " Invalid column received : %s",
+    "PMS-PRT-313": " Invalid pagination value received pagestart:%d and pagefetch:%d",
+    "PMS-PRT-312": " Filter type is missing",
+    "PMS-PRT-311": " Column is missing in request",
+    "PMS-PRT-314": " Missing sort field or sort type values",
+    "PMS-PRT-315": " Invalid fromValue or toValue",
+    "PMS-PRT-356": " Pagination cannot be null",
+    "PMS-PRT-358": " Sort type %s is not supported",
+    "PMS-PRT-359": " Error occured while sorting",
+    "PMS-PRT-357": " Invalid sort field %s",
+    "KER-PRT-390": " Invalid filter value",
+    "PMS-PRT-001": "  A Partner is already registered with the same Name",
+    "PMS-PRT-051": " A Partner is already registered with the same Id",
+    "PMS-PRT-052": "PartnerId max length should be ",
+    "PMS-ATH-053": " IO Exception occured while passing paging request",
+    "PMS-ATH-054": " User not found",
+    "PMS-ATH-500": " Server error occurred,Please check the logs ",
+    "PMS-PRT-061": "Partner policy mapping not exists.",
+    "PMS-PRT-062": "Partner api key request is approved already. Cann't add extractors now.",
+    "PMS-PRT-063": "Biometric extractors can be added only for:",
+    "PMS-PRT-064": "No details found",
+    "PMS-PRT-070": "Credential mapping allowed only for :",
+    "PMS-PRT-071": "Error occured while parsing policy string to json object",
+    "PMS-PRT-072": "Given credential type is not allowed. Allowed credential types : ",
+    "PMS-PRT-073": "Policy not exists.",
+    "PMS-PRT-074": "User exists with same email",
+    "PMS-PRT-005": "Partner does not exist",
+    "PMS-PRT-006": "No api key req exist",
+    "PMS-PRT-105": "Partner API KEY is not Created",
+    "PMS-PRT-011": " Email is already exists.",
+    "PMS-PRT-012": " Invalid emailId.",
+    "PMS-PRT-013": " Invalid mobile number.Length should be less than .",
+    "PMS-ATH-401": "Authentication Failed",
+    "PMS-PRT-106": "APIKeyReqID status is In-progress",
+    "PMS-KKS-001": " API not accessible  ",
+    "PMS-PRT-107": "Responese from the api is null",
+    "PMS-PRT-500": "Unable to process the request.",
+    "PMS-PMP-016": "Partner is not active.",
+    "PMS-PRT-098": "Given policy under partner's policy group not exists.",
+    "PMS-PMP-019": "Policy is not active.",
+    "PMS-PMP-023": "Policy group is not active.",
+    "PMS-DTS-001": "  DataShare response is null",
+    "PMS-PRT-045": "Error occured while parsing P7B certificate data",
+    "PMS-PRT-046": "Error occured while extracting the leaf cert.",
+    "PMS-PRT-047": "Partner is not mapped to policy group",
+    "PMS-PRT-048": "policy group mapping is not required for given partner",
+    "PMS-PRT-049": "policy group mapping exists for given partner.",
+    "PMS-PRT-050": "Policy group cannot be updated for approved partner",
+    "PMS-PRT-054": "Policy group not mapped for given partner",
+    "PMS-PRT-055": "User not authorized.",
+    "PMS-PM-034": " Policy request already approved.",
+    "PMS-PM-035": " Policy request already rejected.",
+    "PMS-PM-045": " Status should be either Approved or Rejected",
+    "PMS-PM-051": " Extractors are not present. Please add extractors.",
+    "PMS-PM-058": " Status should be either Active or De-Active",
+    "PMS-PMP-010": "Policy does not belong to the Policy Group of the Partner Manger",
+    "PMS-PMP-015": "No Partner api key requests for the Policy Group",
+    "PMS-PMP-007": "Partner api key does not exist",
+    "PMS-PMP-011": "Partner api key does not exist",
+    "PMS-PMP-009": " For given partner and apikey mapping not exists.",
+    "PMS-PMP-013": "Partner does not exist",
+    "PMS-PMP-005": "Partner ID does not exist",
+    "PMS-PMP-017": "Partner is not mapped to any policy.",
+    "PMS-PMP-020": "MISP license key not exists.",
+    "PMS-PMP-021": "MISP license key is expired.",
+    "PMS-PMP-022": "Policy not exists.",
+    "PMS-PMP-024": "Policy file is corrupted.",
+    "PMS-PMP-025": "License key of MISP is blocked",
+    "PMS-PMP-50": "Given apikey,partner and policy mapping not exists.",
+    "PMS-PMP-51": "Given policy is not belongs to partner's policy group",
+    "PMS-PMP-052": "Partner Certificate not available",
+    "PMS-PMP-014": "Policy does not exist",
+    "PMS-PMS-022": "Given Partner api key is not active.",
+    "PMS-PMP-018": "Policy expired.",
+    "PMS-PRT-108": "Certficate is not uploaded for the given partner.Cannot activate the same.",
+    "PMS-AUT-002": "Device provider id not found from the partners list",
+    "PMS-AUT-003": "Device Details already exists",
+    "PMS-AUT-004": "Duplicate request received",
+    "PMS-AUT-005": "Device detail for id %s does not exist",
+    "PMS-AUT-025": "ApprovalStatus should be Activate / De-activate;",
+    "PMP-AUT-030": "ftp provider not exists.",
+    "PMP-AUT-031": "ftp chip id not exists.",
+    "PMP-AUT-032": "Given provider,make and model already exists.",
+    "PMP-AUT-033": "Certificate is not uploaded.",
+    "PMP-AUT-034": "Ftp chip detail id and ftp provider id not mappped. ",
+    "PMP-AUT-037": "Given ftp chip details already registered.;",
+    "PMS-AUT-007": "Secure Biometric Interface not found for the id %s",
+    "PMS-AUT-026": "ApprovalStatus should be Activate / De-activate",
+    "PMS-AUT-506": "Provide device details of same provider.",
+    "PMS-AUT-507": "ExpiryDate should be greaterthan createdDate",
+    "PMS-AUT-508": "ExpiryDate should be greaterthan/equal Today.;",
+    "PMS-POL-002": "Mismatch of Policy Manager Credentials",
+    "PMS-POL-004": "Policy Name already exists in the policy Group.Name : ",
+    "PMS-POL-005": "Unsupported KYC attribute in the Policy File",
+    "PMS-POL-006": "Unsupported Authentication Type in the Policy File",
+    "PMS-POL-007": "eKYC attribute missing in the policy file",
+    "PMS-POL-008": "Policy ID does not exist",
+    "PMS-POL-009": "Auth policy exists with name : ",
+    "PMS-COR-002": "Invalid Input Parameter - ",
+    "PMS-COR-003": "Could not process the request",
+    "PMS-POL-010": " Auth Policies are not defined against to policy",
+    "PMS-POL-013": "No policy available for given PartnerAPIKey",
+    "PMS-POL-014": "Policy group exists with name : ",
+    "PMS-POL-015": "Policy group and policy not mapped.",
+    "PMS-POL-016": "Policy Group ID does not exist",
+    "PMS-POL-017": "No policy available for given partner",
+    "PMS-POL-018": "Given partner and policy are not mapped.",
+    "PMS-POL-019": "Policy group name does not exist",
+    "PMS-POL-020": "Can not publish the published policy",
+    "PMS-POL-021": "allowed auth types are not required for policyType ",
+    "PMS-POL-022": "Given auth token type is not allowed",
+    "PMS-POL-023": "Given policy type is not allowed ",
+    "PMS-POL-045": "Policy Status either Active or De-active.",
+    "PMS-POL-046": "Datashare attributes are not required for given policyType ",
+    "PMS-POL-047": "Shareable attributes are not required for given policyType ",
+    "PMS-POL-048": "AllowedKYC attributes are not required for given policyType ",
+    "PMS-POL-050": "The given version is not available.Allowed versions are : ",
+    "PMS-POL-051": "Policy Schema and policy are not matching",
+    "PMS-POL-052": "Error occured while parsing policy string to json object",
+    "PMS-POL-053": "Policy group is not active.",
+    "PMS-POL-054": "Cannot activate unpublished policy.",
+    "PMS-POL-055": "Published policy cannot be updated.",
+    "PMS-POL-056": "Active policies exists under the policy group.",
+    "PMS-POL-057": "Active apiKey exists under the policy.",
+    "PMS-POL-058": "Status cannot be changed for published policy.;"
+  }
 }
