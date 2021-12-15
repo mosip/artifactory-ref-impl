@@ -3,12 +3,12 @@
   "actionButtons": [
     {
       "buttonName": {
-        "eng": "Resume Processing and Remove Hotlisted Tag",
-        "ara": "استئناف المعالجة وإزالة العلامة المدرجة في القائمة الساخنة",
-        "fra": "Reprendre le traitement et supprimer la balise de la liste sensible",
-        "hin": "प्रसंस्करण फिर से शुरू करें और हॉटलिस्टेड टैग हटाएं   ",
-        "kan": "ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪುನರಾರಂಭಿಸಿ ಮತ್ತು ಹಾಟ್‌ಲಿಸ್ಟ್ ಮಾಡಿದ ಟ್ಯಾಗ್ ತೆಗೆದುಹಾಕಿ   ",
-        "tam": "செயலாக்கத்தை மீண்டும் தொடங்கி, பட்டியலிடப்பட்ட குறிச்சொல்லை அகற்று   "
+        "eng": "Resume Processing",
+        "ara": "ااستئناف المعالجة",
+        "fra": "Reprendre le traitement",
+        "hin": "प्रसंस्करण फिर से शुरू करें",
+        "kan": "ಪುನರಾರಂಭ ಪ್ರಕ್ರಿಯೆ",
+        "tam": "மீண்டும் செயலாக்கம்"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -18,33 +18,18 @@
     },
     {
       "buttonName": {
-        "eng": "Resume from Beginning",
+        "eng": "Resume from the beginning",
         "ara": "استئناف من البداية",
         "fra": "Reprendre depuis le début",
-        "hin": "शुरुआत से फिर से शुरू  ",
-        "kan": "ಆರಂಭದಿಂದ ಪುನರಾರಂಭಿಸಿ    ",
-        "tam": "ஆரம்பத்தில் இருந்து மீண்டும் தொடங்குங்கள்  "
+        "hin": "शुरुआत से फिर से शुरू",
+        "kan": "ಮೊದಲಿನಿಂದಲೂ ಪುನರಾರಂಭಿಸಿ",
+        "tam": "ஆரம்பத்திலிருந்து மீண்டும் தொடரவும்"
       },
       "actionURL": "",
       "redirectURL": "",
       "showIn": "Ellipsis",
       "validations": "",
       "callBackFunction": "resumefrombeginning"
-    },
-    {
-      "buttonName": {
-        "eng": "Resume from Beginning and Remove Hotlisted Tag",
-        "ara": "استئناف من البداية وإزالة العلامة المدرجة في القائمة الساخنة",
-        "fra": "Reprendre depuis le début et supprimer le tag de la Hotlist",
-        "hin": "शुरुआत से फिर से शुरू करें और हॉटलिस्टेड टैग हटाएं   ",
-        "kan": "ಪ್ರಾರಂಭದಿಂದ ಪುನರಾರಂಭಿಸಿ ಮತ್ತು ಹಾಟ್‌ಲಿಸ್ಟ್ ಮಾಡಿದ ಟ್ಯಾಗ್ ತೆಗೆದುಹಾಕಿ  ",
-        "tam": "தொடக்கத்தில் இருந்து மீண்டும் தொடங்கி, பட்டியலிடப்பட்ட குறிச்சொல்லை அகற்று   "
-      },
-      "actionURL": "",
-      "redirectURL": "",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "resumefrombeginningandremovehotlistedtag"
     },
     {
       "buttonName": {
