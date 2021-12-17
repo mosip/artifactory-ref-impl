@@ -341,7 +341,7 @@
 		}
 	},
 	"machines": {
-		"title": "त्रुटि",
+		"title": "मशीन",
 		"header": "मशीन",
 		"name": "मशीन का नाम",
 		"machineSpecId": "मशीन स्पेक आईडी",
