@@ -245,24 +245,6 @@
     "methodCallName": ""
   },
     {
-      "filtername": "langCode",
-      "filterlabel": {
-        "eng": "Language",
-        "ara": "حاله",
-        "fra": "Language",
-        "tam": "மொழி",
-        "hin": "भाषा",
-        "kan": "ಭಾಷೆ"
-      },
-      "filterType": "equals",
-      "autocomplete": "false",
-      "dropdown": "true",
-      "datePicker": "false",
-      "apiName": "blocklistedwords",
-      "fieldName": "langCode",
-      "methodCallName": ""
-    },
-    {
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
