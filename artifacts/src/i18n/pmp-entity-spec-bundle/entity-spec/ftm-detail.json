@@ -33,12 +33,12 @@
 		},
 		{
 			"buttonName": {
-				"eng": "Approve",
-				"ara": "Approve_ara",
-				"fra": "Approve_fra",
-				"hin": "Approve_hin",
-				"kan": "Approve_kan",
-				"tam": "Approve_tam"
+				"eng": "Activate",
+				"ara": "Activate_ara",
+				"fra": "Activate_fra",
+				"hin": "Activate_hin",
+				"kan": "Activate_kan",
+				"tam": "Activate_tam"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -48,12 +48,12 @@
 		},
 		{
 			"buttonName": {
-				"eng": "Reject",
-				"ara": "Reject_ara",
-				"fra": "Reject_fra",
-				"hin": "Reject_hin",
-				"kan": "Reject_kan",
-				"tam": "Reject_tam"
+				"eng": "Deactivate",
+				"ara": "Deactivate_ara",
+				"fra": "Deactivate_fra",
+				"hin": "Deactivate_hin",
+				"kan": "Deactivate_kan",
+				"tam": "Deactivate_tam"
 			},
 			"actionURL": "",
 			"redirectURL": "",
