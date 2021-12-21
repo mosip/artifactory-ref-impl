@@ -1,6 +1,37 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [{
+	"actionButtons": [
+		{
+			"buttonName": {
+				"eng": "Activate",
+				"ara": "Activate_ara",
+				"fra": "Activate_fra",
+				"hin": "Activate_hin",
+				"kan": "Activate_kan",
+				"tam": "Activate_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "activatePolicy"
+		},
+		{
+			"buttonName": {
+				"eng": "Deactivate",
+				"ara": "Deactivate_ara",
+				"fra": "Deactivate_fra",
+				"hin": "Deactivate_hin",
+				"kan": "Deactivate_kan",
+				"tam": "Deactivate_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "deactivatePolicy"
+		},
+		{
 			"buttonName": {
 				"eng": "Upload Certificate",
 				"ara": "Upload Certificate_ara",
@@ -149,6 +180,21 @@
 			"name": "approvalStatus",
 			"showInListView": "true",
 			"label": {
+				"eng": "Approval Status",
+				"ara": "Approval Status_ara",
+				"fra": "Approval Status_fra",
+				"hin": "Approval Status_hin",
+				"kan": "Approval Status_kan",
+				"tam": "Approval Status_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "isActive",
+			"label": {
 				"eng": "Status",
 				"ara": "Status_ara",
 				"fra": "Status_fra",
@@ -159,7 +205,11 @@
 			"sortOrder": "",
 			"showAsLink": "",
 			"linkType": "",
-			"LinkURL": ""
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "true",
+			"showInSingleView": "false"
 		},
 		{
 			"name": "policyName",
