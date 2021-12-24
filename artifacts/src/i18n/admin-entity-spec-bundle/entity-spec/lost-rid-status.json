@@ -22,7 +22,8 @@
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
-      "LinkURL": ""
+      "LinkURL": "",
+      "noSort": "true"
     },
     {
       "name": "registartionDate",
@@ -31,7 +32,19 @@
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
-      "LinkURL": ""
+      "LinkURL": "",
+      "noSort": "true"
+    },
+    {
+      "name": "name",
+      "showInListView": "true",
+      "showInSingleView": "true",
+      "label": {"eng": "Name","ara": "اسم","fra": "prénom","tam": "பெயர்","hin": "नाम","kan": "ಹೆಸರು"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "noSort": "true"
     }
   ],
   "paginator": {},
@@ -45,7 +58,8 @@
       "datePicker": "true",
       "apiName": "lostRid",
       "fieldName": "registrationDate",
-      "methodCallName": ""
+      "methodCallName": "",
+      "ismandatory": "true"
     },
     {
       "filtername": "registrationDateTo",
@@ -56,7 +70,8 @@
       "datePicker": "true",
       "apiName": "lostRid",
       "fieldName": "registrationDate",
-      "methodCallName": ""
+      "methodCallName": "",
+      "ismandatory": "true"
     },
     {
       "filtername": "name",
@@ -74,7 +89,8 @@
       "datePicker": "false",
       "apiName": "lostRid",
       "fieldName": "name",
-      "methodCallName": ""
+      "methodCallName": "",
+      "ismandatory": "true"
     },
     {
       "filtername": "email",
@@ -92,7 +108,8 @@
       "datePicker": "false",
       "apiName": "lostRid",
       "fieldName": "email",
-      "methodCallName": ""
+      "methodCallName": "",
+      "ismandatory": "false"
     },
     {
       "filtername": "phone",
@@ -110,30 +127,33 @@
       "datePicker": "false",
       "apiName": "lostRid",
       "fieldName": "phone",
-      "methodCallName": ""
+      "methodCallName": "",
+      "ismandatory": "false"
     },
     {
-      "filtername": "postalCode",
+      "filtername": "locationCode",
       "filterlabel": {
-        "eng": "PostalCode",
-        "ara": "رمز بريدي",
-        "fra": "Code postal",
-        "hin": "डाक कोड",
-        "kan": "ಅಂಚೆ ಕೋಡ್",
-        "tam": "அஞ்சல் குறியீடு"
+        "eng": "Location Code",
+        "ara": "نوع المركز",
+        "fra": "Type de centre",
+        "tam": "மைய வகை",
+        "hin": "केंद्र प्रकार",
+        "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ"
       },
-      "filterType": "equals",
+      "filterType": "contains",
+      "fieldType": "mat-select",
       "autocomplete": "false",
       "dropdown": "true",
       "datePicker": "false",
-      "apiName": "lostRid",
-      "fieldName": "postalCode",
-      "methodCallName": ""
+      "apiName": "locations",
+      "fieldName": "locationCode",
+      "methodCallName": "",
+      "ismandatory": "true"
     },
     {
       "filtername": "centerId",
       "filterlabel": {
-        "eng": "Center Id",
+        "eng": "Center",
         "ara": "معرف المركز",
         "fra": "Identifiant du centre",
         "hin": "केंद्र आईडी",
@@ -146,7 +166,8 @@
       "datePicker": "false",
       "apiName": "lostRid",
       "fieldName": "centerId",
-      "methodCallName": ""
+      "methodCallName": "",
+      "ismandatory": "true"
     }
   ]
 }
