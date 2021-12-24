@@ -289,25 +289,26 @@
     "pageSize": "10",
     "pageSizeList": [10, 20, 30, 40, 50]
   },
-  "filterColumns": [{
+  "filterColumns": [
+    {
     "filtername": "name",
     "filterlabel": {
-      "eng": "Center Name",
-      "ara": "اسم المركز",
-      "fra": "Nom du centre",
-      "tam": "மையத்தின் பெயர்",
-      "hin": "केंद्र का नाम",
-      "kan": "ಕೇಂದ್ರದ ಹೆಸರು"
+      "eng": "Center",
+      "ara": "مركز",
+      "fra": "Centre",
+      "tam": "மையம்",
+      "hin": "केंद्र",
+      "kan": "ಕೇಂದ್ರ"
     },
     "filterType": "equals",
     "fieldType": "input",
     "autocomplete": "false",
-    "dropdown": "false",
+    "dropdown": "true",
     "datePicker": "false",
     "apiName": "registrationcenters",
     "fieldName": "name",
     "methodCallName": ""
-  },
+    },
     {
       "filtername": "centerTypeName",
       "filterlabel": {
@@ -325,6 +326,25 @@
       "datePicker": "false",
       "apiName": "registrationcentertypes",
       "fieldName": "name",
+      "methodCallName": ""
+    },
+    {
+      "filtername": "locationCode",
+      "filterlabel": {
+        "eng": "Location Code",
+        "ara": "كود الموقع",
+        "fra": "Le code d'emplacement",
+        "tam": "இருப்பிடக் குறியீடு",
+        "hin": "स्थान कोड",
+        "kan": "ಸ್ಥಳ ಕೋಡ್"
+      },
+      "filterType": "contains",
+      "fieldType": "mat-select",
+      "autocomplete": "false",
+      "dropdown": "true",
+      "datePicker": "false",
+      "apiName": "registrationcenters",
+      "fieldName": "locationCode",
       "methodCallName": ""
     },
     {
