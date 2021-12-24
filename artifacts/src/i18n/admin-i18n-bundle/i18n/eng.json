@@ -510,6 +510,7 @@
         "input-text2":"Upload Your File",
         "upload-btn":"UPLOAD",
         "cancel-btn":"CANCEL",
+        "center": "Center",
         "popupMessaages":{
             "popup1":{
                 "uploadConfirm":"Confirm Packet Upload",
@@ -667,6 +668,13 @@
     "isActive":{
         "Active":"ACTIVE",
         "InActive":"INACTIVE"
+    },
+    "lostRID":{
+        "titleTxt":"Retrieve Lost RID",
+        "subtitleenrollment":"Enrollment Details",
+        "subtitlelocation":"Location",
+        "searchbtn":"Search",
+        "clearbtn":"Clear"
     },
     "generatecsr": {
         "title": "Generate CSR",
@@ -1198,8 +1206,7 @@
         "KER-USR-008": "Zone user mapping not exists or not active",
         "KER-USR-009": "Error occured while parsing auth service userdetails response",
                                      "KER-USR-010": "Error occured while zone user mapping",
-        "KER-USR-011": "User Center mapping must be deleted before remapping user to different zone",
-		"KER-USR-025": "Kindly activate user-zone mapping before activating user-center",
+        "KER-USR-011": "User Center mapping must be deactivated before remapping user to different center",
         "KER-USR-012": "Reg center is not exists for given language",
         "KER-USR-013": "User already exists",
         "KER-USR-001": "Error occurred while retrieving User History",
