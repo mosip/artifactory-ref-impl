@@ -125,7 +125,8 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "text",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "noSort": "true"
     },
     {
       "name": "name",
@@ -161,7 +162,8 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "text",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "noSort": "true"
     },
     {
       "name": "dataType",

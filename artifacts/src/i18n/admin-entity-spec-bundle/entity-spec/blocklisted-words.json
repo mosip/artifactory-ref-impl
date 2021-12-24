@@ -88,8 +88,8 @@
       "eng": "Blocklisted Words",
       "ara": "الكلمات المحظورة",
       "fra": "Mots bloqués",
-      "tam": "தடைப்பட்ட வார்த்தைகள்",
-      "kan": "ನಿರ್ಬಂಧಿಸಿದ ಪದಗಳು",
+      "tam": "தடுப்புப்பட்டியலில் உள்ள வார்த்தைகள்",
+      "kan": "ನಿರ್ಬಂಧಿತ ಪದಗಳು",
       "hin": "ब्लॉक लिस्टेड शब्द"
     },
     "sortOrder": "",
@@ -117,6 +117,22 @@
       "LinkURL": "",
       "inputType": "textarea",
       "ismandatory": "false"
+    },
+    {
+      "name": "langCode",
+      "showInListView": "true",
+      "label": {
+        "eng": "Language",
+        "ara": "حاله",
+        "fra": "Language",
+        "tam": "மொழி",
+        "hin": "भाषा",
+        "kan": "ಭಾಷೆ"
+      },
+      "sortOrder": "",
+      "showAsLink": "false",
+      "linkType": "",
+      "LinkURL": ""
     },
     {
       "name": "isDeleted",
@@ -216,9 +232,9 @@
       "eng": " Blocklisted Words",
       "ara": "الكلمات المحظورة",
       "fra": "Mots bloqués",
-      "tam": "தடைப்பட்ட வார்த்தைகள்",
+      "tam": "தடுப்புப்பட்டியல் சொற்கள்",
       "hin": "ब्लॉक लिस्टेड शब्द",
-      "kan": "ನಿರ್ಬಂಧಿಸಿದ ಪದಗಳು"
+      "kan": "ನಿರ್ಬಂಧಿಸಲಾದ ಪದಗಳು"
     },
     "filterType": "equals",
     "autocomplete": "false",
