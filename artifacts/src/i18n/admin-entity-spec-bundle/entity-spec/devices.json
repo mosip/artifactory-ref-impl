@@ -163,12 +163,12 @@
       "name": "mapStatus",
       "showInListView": "",
       "label": {
-        "eng": "Center Name",
-        "ara": "اسم المركز",
-        "fra": "Nom du centre",
-        "hin": "केंद्र का नाम",
-        "kan": "ಕೇಂದ್ರದ ಹೆಸರು",
-        "tam": "மையப் பெயர்"
+        "eng": "Center",
+        "ara": "مركز",
+        "fra": "Centre",
+        "hin": "केंद्र",
+        "kan": "ಕೇಂದ್ರ",
+        "tam": "மையம்"
       },
       "sortOrder": "",
       "showAsLink": "",
