@@ -524,7 +524,10 @@
                     "btnTxt":"انتهى"
                 }
 
-            }
+            },
+            "source":[{"label":"عميل التسجيل","value":"REGISTRATION_CLIENT"}],
+            "process":[{"label":"جديد","value":"NEW"},{"label":"تحديث UIN","value":"UPDATE"},{"label":"ضائع","value":"LOST"},{"label":"تصحيح القياسات الحيوية","value":"BIOMETRIC_CORRECTION"}],
+            "supervisorStatus":[{"label":"وافق","value":"APPROVED"},{"label":"مرفوض","value":"REJECTED"}]
         }
     },
     "actionMessages" : {
