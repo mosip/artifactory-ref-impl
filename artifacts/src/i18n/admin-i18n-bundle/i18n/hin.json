@@ -523,7 +523,10 @@
 					"message": "आपकी फ़ाइल सफलतापूर्वक अपलोड कर दी गई है। \n डेटा अपलोड वर्तमान में प्रगति पर है।\n\n\n लेन-देन आईडी:",
 					"btnTxt": "हो गया"
 				}
-			}
+			},
+            "source":[{"label":"पंजीकरण ग्राहक","value":"REGISTRATION_CLIENT"}],
+            "process":[{"label":"नया","value":"NEW"},{"label":"यूआईएन अपडेट करें","value":"UPDATE"},{"label":"खोया","value":"LOST"},{"label":"बॉयोमीट्रिक्स सुधार","value":"BIOMETRIC_CORRECTION"}],
+            "supervisorStatus":[{"label":"स्वीकृत","value":"APPROVED"},{"label":"अस्वीकार कर दिया","value":"REJECTED"}]
 		}
 	},
 	"actionMessages": {

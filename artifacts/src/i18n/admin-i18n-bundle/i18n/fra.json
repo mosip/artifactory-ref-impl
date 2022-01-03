@@ -548,7 +548,10 @@
 					"message": "Votre fichier a été téléchargé avec succès. \n Le téléchargement des données est en cours. \n \n \n ID de transaction:",
 					"btnTxt": "TERMINÉ"
 				}
-			}
+			},
+            "source":[{"label":"Client d'inscription","value":"REGISTRATION_CLIENT"}],
+            "process":[{"label":"Nouveau","value":"NEW"},{"label":"Mettre à jour l'UIN","value":"UPDATE"},{"label":"Perdu","value":"LOST"},{"label":"Correction biométrique","value":"BIOMETRIC_CORRECTION"}],
+            "supervisorStatus":[{"label":"Approuvé","value":"APPROVED"},{"label":"Rejeté","value":"REJECTED"}]
 		}
 	},
 	"actionMessages": {
