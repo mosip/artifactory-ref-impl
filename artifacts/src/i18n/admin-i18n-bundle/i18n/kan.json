@@ -525,7 +525,10 @@
 					"btnTxt": "ಮುಗಿದಿದೆ"
 				}
 
-			}
+			},
+            "source":[{"label":"ನೋಂದಣಿ ಗ್ರಾಹಕ","value":"REGISTRATION_CLIENT"}],
+            "process":[{"label":"ಹೊಸದು","value":"NEW"},{"label":"UIN ಅನ್ನು ನವೀಕರಿಸಿ","value":"UPDATE"},{"label":"ಕಳೆದುಹೋಗಿದೆ","value":"LOST"},{"label":"ಬಯೋಮೆಟ್ರಿಕ್ಸ್ ತಿದ್ದುಪಡಿ","value":"BIOMETRIC_CORRECTION"}],
+            "supervisorStatus":[{"label":"ಅನುಮೋದಿಸಲಾಗಿದೆ","value":"APPROVED"},{"label":"ತಿರಸ್ಕರಿಸಿದ","value":"REJECTED"}]
 		}
 	},
 	"actionMessages": {

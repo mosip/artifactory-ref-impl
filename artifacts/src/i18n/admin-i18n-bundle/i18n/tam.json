@@ -525,7 +525,10 @@
                     "btnTxt": "முடிந்தது"
                 }
 
-            }
+            },
+            "source":[{"label":"பதிவு வாடிக்கையாளர்","value":"REGISTRATION_CLIENT"}],
+            "process":[{"label":"புதியது","value":"NEW"},{"label":"UIN ஐப் புதுப்பிக்கவும்","value":"UPDATE"},{"label":"இழந்தது","value":"LOST"},{"label":"பயோமெட்ரிக்ஸ் திருத்தம்","value":"BIOMETRIC_CORRECTION"}],
+            "supervisorStatus":[{"label":"அங்கீகரிக்கப்பட்டது","value":"APPROVED"},{"label":"நிராகரிக்கப்பட்டது","value":"REJECTED"}]
         }
     },
     "actionMessages": {
