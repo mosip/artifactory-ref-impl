@@ -51,6 +51,21 @@
 		},
 		{
 			"buttonName": {
+				"eng": "Generate API Key",
+				"ara": "Generate API Key_ara",
+				"fra": "Generate API Key_fra",
+				"hin": "Generate API Key_hin",
+				"kan": "Generate API Key_kan",
+				"tam": "Generate API Key_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/policymapping/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "partnerEdit"
+		},
+		{
+			"buttonName": {
 				"eng": "Edit",
 				"ara": "Edit_ara",
 				"fra": "Edit_fra",

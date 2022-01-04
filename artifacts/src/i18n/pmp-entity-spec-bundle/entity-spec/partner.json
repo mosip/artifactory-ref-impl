@@ -100,12 +100,12 @@
 			"name": "name",
 			"showInListView": "true",
 			"label": {
-				"eng": "Name",
-				"ara": "Name_ara",
-				"fra": "Name_fra",
-				"hin": "Name_hin",
-				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"eng": "Organization Name",
+				"ara": "Organization Name_ara",
+				"fra": "Organization Name_fra",
+				"hin": "Organization Name_hin",
+				"kan": "Organization Name_kan",
+				"tam": "Organization Name_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -299,7 +299,7 @@
 	},
 	"filterColumns": [{
 			"filtername": "name",
-			"filterlabel": "Name",
+			"filterlabel": "Organization Name",
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
