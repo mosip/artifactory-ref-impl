@@ -65,7 +65,7 @@
 		"postal-code": "डाक कोड",
 		"zone": "प्रशासनिक क्षेत्र",
 		"operational-details": "ऑपरेशनल विवरण",
-		"holiday-zone": "हॉलिडे ज़ोन",
+		"holiday-zone": "छुट्टी का स्थान",
 		"working-hrs": "काम के घंटे - वैकल्पिक",
 		"no-kiosk": "सं.कियोस्क",
 		"per-kiosk-process-time": "प्रति कियोस्क प्रक्रिया समय (मिनट)",
@@ -142,7 +142,7 @@
 				"required": "प्रशासनिक क्षेत्र आवश्यक है"
 			},
 			"holidayZone": {
-				"required": "अवकाश क्षेत्र आवश्यक है"
+				"required": "छुट्टी का स्थान आवश्यक है"
 			},
 			"noKiosk": {
 				"required": "कियोस्क की संख्या आवश्यक है",
@@ -507,6 +507,9 @@
 			"upload-btn": "अपलोड",
 			"cancel-btn": "रद्द करें",
 			"center": "केंद्र",
+	        "sourceLabel": "स्रोत",
+	        "processLabel": "प्रक्रिया",
+	        "supervisorStatusLabel": "पर्यवेक्षक की स्थिति",
 			"popupMessaages": {
 				"popup1": {
 					"uploadConfirm": "पैकेट अपलोड की पुष्टि करें",

@@ -68,7 +68,7 @@
         "postal-code": "Postal Code",
         "zone": "Administrative Zone",
         "operational-details": "Operational Details",
-        "holiday-zone": "Holiday Zone",
+        "holiday-zone": "Holiday Location",
         "working-hrs": "Working Hours - Optional",
         "no-kiosk": "No.Kiosk",
         "per-kiosk-process-time": "Per Kiosk Process Time(minutes)",
@@ -145,7 +145,7 @@
                 "required": "Administrative Zone is required"
             },
             "holidayZone": {
-                "required": "Holiday Zone is required"
+                "required": "Holiday Location is required"
             },
             "noKiosk": {
                 "required": "Number of Kiosk is required",
@@ -511,6 +511,9 @@
         "upload-btn":"UPLOAD",
         "cancel-btn":"CANCEL",
         "center": "Center",
+        "sourceLabel": "Source",
+        "processLabel": "Process",
+        "supervisorStatusLabel": "Supervisor Status",
         "popupMessaages":{
             "popup1":{
                 "uploadConfirm":"Confirm Packet Upload",

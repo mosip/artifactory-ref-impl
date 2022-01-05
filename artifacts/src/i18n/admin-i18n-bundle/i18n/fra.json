@@ -65,7 +65,7 @@
 		"postal-code": "code postal",
 		"zone": "Zone Administrative",
 		"operational-details": "Détails opérationnels",
-		"holiday-zone": "Zone de vacances",
+		"holiday-zone": "Lieu de vacances",
 		"working-hrs": "Heures de travail - optionnel",
 		"no-kiosk": "Nombre de kiosque",
 		"per-kiosk-process-time": "Temps de traitement par kiosque (minutes)",
@@ -142,7 +142,7 @@
 				"required": "La zone administrative est obligatoire"
 			},
 			"holidayZone": {
-				"required": "Zone de vacances est nécessaire"
+				"required": "Lieu de vacances est nécessaire"
 			},
 			"noKiosk": {
 				"required": "Nombre de kiosque requis",
@@ -532,6 +532,9 @@
 			"upload-btn": "TÉLÉCHARGER",
 			"cancel-btn": "ANNULER",
 			"center": "Centre",
+	        "sourceLabel": "La source",
+	        "processLabel": "Traiter",
+	        "supervisorStatusLabel": "Statut de superviseur",
 			"popupMessaages": {
 				"popup1": {
 					"uploadConfirm": "Confirmer le téléchargement des paquets",
