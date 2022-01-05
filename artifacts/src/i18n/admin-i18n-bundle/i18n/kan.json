@@ -65,7 +65,7 @@
 		"postal-code": "ಅಂಚೆ ಕೋಡ್",
 		"zone": "ಆಡಳಿತ ವಲಯ",
 		"operational-details": "ಕಾರ್ಯಾಚರಣೆಯ ವಿವರಗಳು",
-		"holiday-zone": "ಹಾಲಿಡೇ ವಲಯ",
+		"holiday-zone": "ರಜೆಯ ಸ್ಥಳ",
 		"working-hrs": "ಕೆಲಸದ ಸಮಯ - ಅನಿವಾರ್ಯವಲ್ಲ",
 		"no-kiosk": "ನಂ. ಕಿಯೋಸ್ಕ್",
 		"per-kiosk-process-time": "ಪ್ರತಿ ಕಿಯೋಸ್ಕ್ ಪ್ರಕ್ರಿಯೆಯ ಸಮಯ (ನಿಮಿಷಗಳು)",
@@ -142,7 +142,7 @@
 				"required": "ಆಡಳಿತ ವಲಯ ಅಗತ್ಯವಿದೆ"
 			},
 			"holidayZone": {
-				"required": "ಹಾಲಿಡೇ ವಲಯ ಅಗತ್ಯವಿದೆ"
+				"required": "ರಜೆಯ ಸ್ಥಳದ ಅಗತ್ಯವಿದೆ"
 			},
 			"noKiosk": {
 				"required": "ಕಿಯೋಸ್ಕ್ ಸಂಖ್ಯೆ ಅಗತ್ಯವಿದೆ",
@@ -508,6 +508,9 @@
 			"upload-btn": "ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
 			"cancel-btn": "ರದ್ದುಗೊಳಿಸಿ",
 			"center": "ಕೇಂದ್ರ",
+	        "sourceLabel": "ಮೂಲ",
+	        "processLabel": "ಪ್ರಕ್ರಿಯೆ",
+	        "supervisorStatusLabel": "ಮೇಲ್ವಿಚಾರಕರ ಸ್ಥಿತಿ",
 			"popupMessaages": {
 				"popup1": {
 					"uploadConfirm": "ಪ್ಯಾಕೆಟ್ ಅಪ್‌ಲೋಡ್ ಅನ್ನು ದೃ irm ೀಕರಿಸಿ",
