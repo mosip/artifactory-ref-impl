@@ -65,7 +65,7 @@
         "postal-code": "الرمز البريدي",
         "zone": "منطقة إدارية",
         "operational-details": "تفاصيل التشغيل",
-        "holiday-zone": "منطقة عطلة",
+        "holiday-zone": "موقع العطلة",
         "working-hrs": "ساعات العمل - اختياري",
         "no-kiosk": "رقم كشك",
         "per-kiosk-process-time": "لكل كشك وقت العملية (بالدقائق)",
@@ -142,7 +142,7 @@
                 "required": "مطلوب منطقة إدارية"
             },
             "holidayZone": {
-                "required": "مطلوب منطقة عطلة"
+                "required": "مطلوب موقع العطلة"
             },
             "noKiosk": {
                 "required": "عدد كشك مطلوب",
@@ -507,6 +507,9 @@
             "upload-btn":"تحميل",
             "cancel-btn":"إلغاء",
             "center": "مركز",
+            "sourceLabel": "مصدر",
+            "processLabel": "معالجة",
+            "supervisorStatusLabel": "حالة المشرف",            
             "popupMessaages":{
                 "popup1":{
                     "uploadConfirm":"تأكيد تحميل الحزمة",
