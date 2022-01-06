@@ -876,10 +876,6 @@
 				"value": "RegTravailNonTravail"
 			},
 			{
-				"id": "schema_def",
-				"value": "SchemaDefinition"
-			},
-			{
 				"id": "template",
 				"value": "Modèle"
 			},

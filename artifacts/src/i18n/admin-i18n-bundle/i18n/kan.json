@@ -749,9 +749,6 @@
 			"id": "reg_working_nonworking",
 			"value": "ನೋಂದಣಿ ಕೆಲಸ ಮಾಡದ ಕೆಲಸ"
 		}, {
-			"id": "schema_def",
-			"value": "ಸ್ಕೀಮಾ ವ್ಯಾಖ್ಯಾನ"
-		}, {
 			"id": "template",
 			"value": "ಟೆಂಪ್ಲೇಟ್"
 		}, {
