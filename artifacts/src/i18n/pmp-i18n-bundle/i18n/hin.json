@@ -28,6 +28,10 @@
       "title": "Upload CA Certificate_hin"
     }
   },
+  "dashboard": {
+    "welcomeMessage":"Welcome to Mosip Partner portal hin !",
+    "Logout":"Logout_hin"
+  },
   "singleView": {
     "errorMessages": [
       "No record found_hin",
@@ -443,6 +447,10 @@
   "isActive": {
     "Active": "ACTIVE_hin",
     "InActive": "INACTIVE_hin"
+  },
+  "genericerror": {
+    "fieldValidation": "This field is required_hin",
+    "fieldNameValidation": " is required_hin"
   },
   "serverError": {
     "PMS-COR-001": "गुम इनपुट पैरामीटर",

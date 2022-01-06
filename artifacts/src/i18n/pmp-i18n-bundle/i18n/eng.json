@@ -28,6 +28,10 @@
       "title": "Upload CA Certificate"
     }
   },
+  "dashboard": {
+    "welcomeMessage":"Welcome to Mosip Partner portal !",
+    "Logout":"Logout"
+  },
   "singleView": {
     "errorMessages": ["No record found", "A technical error has occurred"],
     "buttonText": "OK",
