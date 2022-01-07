@@ -696,9 +696,6 @@
             "id": "loc_holiday",
             "value": "விடுமுறை "
         }, {
-            "id": "identity_schema",
-            "value": "அடையாளத் திட்டம் "
-        }, {
             "id": "id_type",
             "value": "ஐடி வகை "
         }, {
@@ -743,9 +740,6 @@
         }, {
             "id": "reg_working_nonworking",
             "value": "பதிவு வேலை மற்றும் வேலை செய்யாதது "
-        }, {
-            "id": "schema_def",
-            "value": "திட்ட வரையறை "
         }, {
             "id": "template",
             "value": "வார்ப்புரு "
