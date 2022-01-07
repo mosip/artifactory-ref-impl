@@ -756,10 +756,6 @@
 				"value": "Document valide du demandeur"
 			},
 			{
-				"id": "appl_form_type",
-				"value": "Application"
-			},
-			{
 				"id": "biometric_attribute",
 				"value": "Attribut biométrique"
 			},
@@ -810,10 +806,6 @@
 			{
 				"id": "loc_holiday",
 				"value": "Vacance"
-			},
-			{
-				"id": "identity_schema",
-				"value": "IdentitéSchéma"
 			},
 			{
 				"id": "id_type",

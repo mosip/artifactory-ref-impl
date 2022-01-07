@@ -659,9 +659,6 @@
 			"id": "applicant_valid_document",
 			"value": "ಅರ್ಜಿದಾರ ಮಾನ್ಯ ದಾಖಲೆ"
 		}, {
-			"id": "appl_form_type",
-			"value": "ಅಪ್ಲಿಕೇಶನ್"
-		}, {
 			"id": "biometric_attribute",
 			"value": "ಬಯೋಮೆಟ್ರಿಕ್ ವಿಶೇಷಣ"
 		}, {
@@ -700,9 +697,6 @@
 		}, {
 			"id": "loc_holiday",
 			"value": "ರಜಾದಿನ"
-		}, {
-			"id": "identity_schema",
-			"value": "ಗುರುತುಸ್ಕೀಮಾ"
 		}, {
 			"id": "id_type",
 			"value": "ಐಡಿಟೈಪ್"
