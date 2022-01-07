@@ -140,12 +140,12 @@
 		{
 			"name": "swBinaryHash",
 			"label": {
-				"eng": "BinaryHash",
-				"ara": "BinaryHash_ara",
-				"fra": "BinaryHash_fra",
-				"hin": "BinaryHash_hin",
-				"kan": "BinaryHash_kan",
-				"tam": "BinaryHash_tam"
+				"eng": "Binary Hash",
+				"ara": "Binary Hash_ara",
+				"fra": "Binary Hash_fra",
+				"hin": "Binary Hash_hin",
+				"kan": "Binary Hash_kan",
+				"tam": "Binary Hash_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -159,12 +159,12 @@
 		{
 			"name": "swCreateDateTime",
 			"label": {
-				"eng": "CreatedDateTime",
-				"ara": "CreatedDateTime_ara",
-				"fra": "CreatedDateTime_fra",
-				"hin": "CreatedDateTime_hin",
-				"kan": "CreatedDateTime_kan",
-				"tam": "CreatedDateTime_tam"
+				"eng": "Created DateTime",
+				"ara": "Created DateTime_ara",
+				"fra": "Created DateTime_fra",
+				"hin": "Created DateTime_hin",
+				"kan": "Created DateTime_kan",
+				"tam": "Created DateTime_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -178,12 +178,12 @@
 		{
 			"name": "swExpiryDateTime",
 			"label": {
-				"eng": "ExpiryDateTime",
-				"ara": "ExpiryDateTime_ara",
-				"fra": "ExpiryDateTime_fra",
-				"hin": "ExpiryDateTime_hin",
-				"kan": "ExpiryDateTime_kan",
-				"tam": "ExpiryDateTime_tam"
+				"eng": "Expiry DateTime",
+				"ara": "Expiry DateTime_ara",
+				"fra": "Expiry DateTime_fra",
+				"hin": "Expiry DateTime_hin",
+				"kan": "Expiry DateTime_kan",
+				"tam": "Expiry DateTime_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
