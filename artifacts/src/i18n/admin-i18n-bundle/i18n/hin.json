@@ -652,9 +652,6 @@
 			"id": "applicant_valid_document",
 			"value": "आवेदक वैध दस्तावेज "
 		}, {
-			"id": "appl_form_type",
-			"value": "आवेदन "
-		}, {
 			"id": "biometric_attribute",
 			"value": "बायोमेट्रिक विशेषता "
 		}, {
@@ -693,9 +690,6 @@
 		}, {
 			"id": "loc_holiday",
 			"value": "छुट्टी "
-		}, {
-			"id": "identity_schema",
-			"value": "पहचान स्कीमा "
 		}, {
 			"id": "id_type",
 			"value": "आईडी का प्रकार"
