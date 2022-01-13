@@ -1652,6 +1652,7 @@
 		"RPR-UIN-FAILED-006": "Échec de la réactivation de l'UIN",
 		"RPR-UIN-FAILED-007": "Échec de la désactivation de l'UIN",
 		"RPR-UIN-FAILED-008": "UIN introuvable pour le RID correspondant",
-		"RPR-SEN-SUCCESS-001": "Notification reçue à securezone"
+		"RPR-SEN-SUCCESS-001": "Notification reçue à securezone",
+		"KER-SCH-021":"Valeur de champ dynamique introuvable"
 	}
 }
