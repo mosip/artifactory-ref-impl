@@ -1549,6 +1549,7 @@
 		"ADM-BLK-008": "Entrée trouvée avec les mêmes valeurs de clé primaire",
 		"ADM-BLK-009": "Échec du traitement de l'entrée",
 		"KER-MSD-413": "Entrée déjà trouvée pour le nom de machine fourni",
-		"KER-MSD-414": "Entrée déjà trouvée pour les clés publiques fournies"
+		"KER-MSD-414": "Entrée déjà trouvée pour les clés publiques fournies",
+		"KER-SCH-021":"Valeur de champ dynamique introuvable"
 	}
 }
