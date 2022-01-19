@@ -489,7 +489,12 @@
 			"title": "Erreur inconnue",
 			"message": "Échec de la validation de la session en cours",
 			"btnTxt": "D'accord"
-		}
+		},
+        "payloadtoolarge": {
+            "title": "La charge utile de la requête est trop volumineuse",
+            "message": "La taille de la charge utile dépasse la limite de taille. Veuillez vérifier la taille de la charge utile.",
+            "btnTxt": "D'accord"
+        }
 	},
 	"validationMessages": {
 		"required": "Veuillez renseigner les champs \"À\" et \"De\" pour filtrer selon la plage de dates",
