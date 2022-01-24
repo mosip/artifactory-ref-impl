@@ -1,409 +1,585 @@
 {
-	"menuItems": {
-		"item1": {
-			"title": "HOME_fra"
-		},
-		"item2": {
-			"title": "Policy_fra",
-			"subItem1": "Policy Group_fra",
-			"subItem2": "Auth Policy_fra",
-			"subItem3": "Data Share Policy_fra"
-		},
-		"item3": {
-			"title": "Partner_fra",
-			"subItem1": "MISP Partner_fra",
-			"subItem2": "Auth Partner_fra",
-			"subItem3": "Device Partner_fra",
-			"subItem4": "FTM Partner_fra"
-		}
-	},
-	"singleView": {
-		"errorMessages": [
-			"No record found_fra",
-			"A technical error has occurred_fra"
-		],
-		"buttonText": "OK_fra",
-		"title": "Error_fra"
-	},
-	"masterData": {
-		"master-data": "Master Data_fra",
-		"total-no": "Total No_fra",
-		"common": "Common_fra",
-		"device-definition": "Device Definition_fra",
-		"machine-definition": "Machine Definition_fra",
-		"document-definition": "Document Definition_fra",
-		"doc-category-mapping": "Doc Category - Type Mapping_fra",
-		"category": "Category_fra",
-		"mapped-documents": "Mapped Documents_fra",
-		"unmapped-documents": "Unmapped Documents_fra"
-	},
-	"pmanager": {
-		"status": "Status_fra",
-		"language": "English_fra",
-		"edit": "Edit_fra",
-		"create": "Create_fra",
-		"cancel": "Cancel_fra",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
-		"update": "Update_fra",
-		"created-on": "Created On_fra",
-		"created-by": "Created By_fra",
-		"updated-on": "Updated On_fra",
-		"updated-by": "Updated By_fra",
-		"header": "Change Policy_fra",
-		"name": "Policy Name_fra",
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation_fra",
-				"message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"],
-				"yesBtnText": "Yes_fra",
-				"noBtnText": "No_fra",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
-			},
-			"edit": {
-				"title": "Confirmation_fra",
-				"message": "You are about to update a Registration Center. Please ensure that all the information is correct_fra",
-				"yesBtnText": "Confirm_fra",
-				"noBtnText": "Cancel_fra",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
-			},
-			"update-success": {
-				"title": "Success_fra",
-				"message": "Partner is updated Successfully_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"update-error": {
-				"title": "Error_fra",
-				"message": "There was some issue in updating the Partner. Please try again_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"create-success": {
-				"title": "Success_fra",
-				"message": ["Partner is created Successfully with Partner ID: ", " and Partner Name: _fra"],
-				"btnTxt": "Ok_fra"
-			},
-			"create-error": {
-				"title": "Error_fra",
-				"message": "There was some issue in creating Partner. Please try again_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"navigation-popup": {
-				"title": "Confirmation_fra",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
-				"yesBtnTxt": "Leave_fra",
-				"noBtnTxt": "Stay_fra"
-			},
-			"noData": {
-				"title": "Error_fra",
-				"message": "No Data Found_fra",
-				"btnTxt": "Ok_fra"
-			}
-		}
-	},
-	"partner": {
-		"address1": "Address_fra",
-		"header": "Partner Service_fra",
-		"name": "Organization_fra",
-		"id": "Id_fra",
-		"status": "Status_fra",
-		"language": "English_fra",
-		"edit": "Edit_fra",
-		"create": "Create_fra",
-		"cancel": "Cancel_fra",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
-		"update": "Update_fra",
-		"partner-details": "Partner Details_fra",
-		"created-on": "Created On_fra",
-		"created-by": "Created By_fra",
-		"updated-on": "Updated On_fra",
-		"updated-by": "Updated By_fra",
-		"registration-partner-name": "Organization Name_fra",
-		"registration-partner-type": "Policy Name_fra",
-		"contact-person": "Email Id_fra",
-		"contact-number": "Contact Number_fra",
-		"location-details": "Address Details_fra",
-		"validationMessages": {
-			"partnerTypeCode": {
-				"required": "Policy Name is required_fra"
-			},
-			"name": {
-				"required": "Organization Name is required_fra",
-				"max-length": "Exceeded max length (128)_fra"
-			},
-			"addressLine1": {
-				"required": "Address is required_fra",
-				"max-length": "Exceeded max length (256)_fra"
-			}
-		},
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation_fra",
-				"message": ["You are about to create a Registration Center in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"],
-				"yesBtnText": "Yes_fra",
-				"noBtnText": "No_fra",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
-			},
-			"edit": {
-				"title": "Confirmation_fra",
-				"message": "You are about to update a Registration Center. Please ensure that all the information is correct_fra",
-				"yesBtnText": "Confirm_fra",
-				"noBtnText": "Cancel_fra",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
-			},
-			"update-success": {
-				"title": "Success_fra",
-				"message": "Partner is updated Successfully_fra",
-				"btnTxt": "Ok"
-			},
-			"update-error": {
-				"title": "Error_fra",
-				"message": "There was some issue in updating the Partner. Please try again_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"create-success": {
-				"title": "Success_fra",
-				"message": ["Partner is created Successfully with Partner ID: ", " and Partner Status is: _fra"],
-				"btnTxt": "Ok_fra"
-			},
-			"create-error": {
-				"title": "Error_fra",
-				"message": "There was some issue in creating Partner. Please try again_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"navigation-popup": {
-				"title": "Confirmation_fra",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
-				"yesBtnTxt": "Leave_fra",
-				"noBtnTxt": "Stay_fra"
-			},
-			"noData": {
-				"title": "Error_fra",
-				"message": "No Data Found_fra",
-				"btnTxt": "Ok_fra"
-			}
-		}
-	},
-	"misp": {
-		"header": "MISP_fra",
-		"name": "Name_fra",
-		"id": "Id_fra",
-		"isActive": "Misp Status_fra",
-		"contact_no": "Phone No_fra",
-		"status": "Status_fra",
-		"address": "Address_fra",
-		"misp-details": "Misp Details_fra",
-		"created-on": "Created On_fra",
-		"created-by": "Created By_fra",
-		"updated-on": "Updated On_fra",
-		"updated-by": "Updated By_fra",
-		"email_id": "Email_fra",
-		"edit": "Edit_fra",
-		"create": "Create_fra",
-		"cancel": "Cancel_fra",
-		"language": "English_fra",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
-		"update": "Update_fra",
-		"validationMessages": {
-			"name": {
-				"required": "Misp Name is required_fra",
-				"max-length": "Exceeded max length (128)_fra"
-			},
-			"address": {
-				"required": "Misp Address is required_fra",
-				"max-length": "Exceeded max length (128)_fra"
-			},
-			"phoneNo": {
-				"required": "Misp phoneNo is required_fra"
-			},
-			"email": {
-				"required": "Misp email is required_fra"
-			}
-		},
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation_fra",
-				"message": ["You are about to create a Misp in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"],
-				"yesBtnText": "Yes_fra",
-				"noBtnText": "No_fra",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_fra"
-			},
-			"edit": {
-				"title": "Confirmation_fra",
-				"message": "You are about to update a misp. Please ensure that all the information is correct_fra",
-				"yesBtnText": "Confirm_fra",
-				"noBtnText": "Cancel_fra",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_fra"
-			},
-			"update-success": {
-				"title": "Success_fra",
-				"message": "Misp is updated Successfully_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"update-error": {
-				"title": "Error_fra",
-				"message": "There was some issue in updating the misp. Please try again_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"create-success": {
-				"title": "Success_fra",
-				"message": ["MISP is created Successfully._fra"],
-				"btnTxt": "Ok_fra"
-			},
-			"create-error": {
-				"title": "Error_fra",
-				"message": "There was some issue in creating a misp. Please try again_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"navigation-popup": {
-				"title": "Confirmation_fra",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
-				"yesBtnTxt": "Leave_fra",
-				"noBtnTxt": "Stay_fra"
-			},
-			"noData": {
-				"title": "Error_fra",
-				"message": "No Data Found_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"lunchTimeValidation": {
-				"title": "Error_fra",
-				"message": "Please select center timings before selecting lunch timings_fra",
-				"btnTxt": "Ok_fra"
-			}
-		}
-	},
-	"validationMessages": {
-		"required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_fra",
-		"range": "’To’ date cannot be before ‘From’ date'_fra",
-		"invalid": "Please select a valid value for Date_fra"
-	},
-	"actionMessages": {
-		"decommission": {
-			"success-message": ["", " is approved successfully_fra"],
-			"success-title": "Success_fra",
-			"error-message": "Cannot approve the Misp.Currently Misp is inactive_fra",
-			"error-title": "Error_fra",
-			"btnTxt": "Ok_fra",
-			"yesBtnTxt": "Confirm_fra",
-			"noBtnTxt": "Cancel_fra",
-			"confirmation-message": ["Do you want to Approve the Misp ", " ? \n You cannot undo this action once you click on Confirm._fra"],
-			"confirmation-title": "Confirmation_fra"
-		},
-		"activate": {
-			"success-message": ["", " is Activated Successfully_fra"],
-			"success-title": "Success_fra",
-			"error-message": "Could not be Activated_fra",
-			"error-title": "Error_fra",
-			"btnTxt": "Ok_fra",
-			"yesBtnTxt": "Yes_fra",
-			"noBtnTxt": "No_fra",
-			"confirmation-message": ["Do you want to Activate the ", "? \n You can Deactivate it later if you wish. Till then it will be set as Active_fra"],
-			"confirmation-title": "Confirmation_fra"
-		},
-		"deactivate": {
-			"success-message": ["", " is Deactivated Successfully_fra"],
-			"success-title": "Success_fra",
-			"error-message": "Misp Could not be Deactivated_fra",
-			"error-title": "Error_fra",
-			"btnTxt": "Ok_fra",
-			"yesBtnTxt": "Yes_fra",
-			"noBtnTxt": "No_fra",
-			"confirmation-message": ["Do you want to Deactivate the ", " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_fra"],
-			"confirmation-title": "Confirmation_fra"
-		}
-	},
-	"policy": {
-		"header": "Policy_fra",
-		"name": "Name_fra",
-		"desc": "Description_fra",
-		"authPolicies": "Allowed Auth Types_fra",
-		"allowedKycAttributes": "Allowed Kyc Attributes_fra",
-		"id": "Id_fra",
-		"isActive": "Status_fra",
-		"policy-details": "Policy Details_fra",
-		"created-on": "Created On_fra",
-		"created-by": "Created By_fra",
-		"updated-on": "Updated On_fra",
-		"updated-by": "Updated By_fra",
-		"edit": "Edit_fra",
-		"create": "Create_fra",
-		"cancel": "Cancel_fra",
-		"language": "English_fra",
-		"keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
-		"update": "Update_fra",
-		"validationMessages": {
-			"name": {
-				"required": "Policy Name is required_fra",
-				"max-length": "Exceeded max length (128)_fra"
-			},
-			"desc": {
-				"required": "Policy description is required_fra",
-				"max-length": "Exceeded max length (128)_fra"
-			}
-
-		},
-		"popupMessages": {
-			"create": {
-				"title": "Confirmation_fra",
-				"message": ["You are about to create a Policy in ", ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"],
-				"yesBtnText": "Yes_fra",
-				"noBtnText": "No_fra",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_fra"
-			},
-			"edit": {
-				"title": "Confirmation_fra",
-				"message": "You are about to update a policy. Please ensure that all the information is correct_fra",
-				"yesBtnText": "Confirm_fra",
-				"noBtnText": "Cancel_fra",
-				"mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_fra"
-			},
-			"update-success": {
-				"title": "Success_fra",
-				"message": "policy is updated Successfully_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"update-error": {
-				"title": "Error_fra",
-				"message": "There was some issue in updating the policy. Please try again_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"create-success": {
-				"title": "Success_fra",
-				"message": ["Policy is created Successfully._fra"],
-				"btnTxt": "Ok_fra"
-			},
-			"create-error": {
-				"title": "Error_fra",
-				"message": "There was some issue in creating a policy. Please try again_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"navigation-popup": {
-				"title": "Confirmation_fra",
-				"message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
-				"yesBtnTxt": "Leave_fra",
-				"noBtnTxt": "Stay_fra"
-			},
-			"noData": {
-				"title": "Error_fra",
-				"message": "No Data Found_fra",
-				"btnTxt": "Ok_fra"
-			},
-			"lunchTimeValidation": {
-				"title": "Error_fra",
-				"message": "Please select center timings before selecting lunch timings_fra",
-				"btnTxt": "Ok_fra"
-			}
-		}
-	},
-    "uploadcertificate": {
-        "title": "Upload Certificate_fra",
-        "partnerDomain" :"Partner Domain_fra",
-        "chooseFile" : "Choose File_fra",
-        "uploadYourFile":"Upload Your File_fra",
-        "button":"Upload_fra",
-        "cancel": "Cancel_fra"
+  "menuItems": {
+    "item1": {
+      "title": "HOME_fra"
     },
-    "isActive":{
-        "Active":"ACTIVE_fra",
-        "InActive":"INACTIVE_fra"
+    "item2": {
+      "title": "Policy_fra",
+      "subItem1": "Policy Group_fra",
+      "subItem2": "Auth Policy_fra",
+      "subItem3": "Data Share Policy_fra"
+    },
+    "item3": {
+      "title": "Partner_fra"
+    },
+    "item4": {
+      "title": "Device Details_fra"
+    },
+    "item5": {
+      "title": "FTM Details_fra"
+    },
+    "item6": {
+      "title": "SBI Details_fra"
+    },
+    "item7": {
+      "title": "Partner Policy Mapping_fra"
+    },
+    "item8": {
+      "title": "Upload CA Certificate_fra"
     }
+  },
+  "dashboard": {
+    "welcomeMessage":"Welcome to Mosip Partner portal fra !",
+    "Logout":"Logout_fra"
+  },
+  "singleView": {
+    "errorMessages": [
+      "No record found_fra",
+      "A technical error has occurred_fra"
+    ],
+    "buttonText": "OK_fra",
+    "title": "Error_fra"
+  },
+  "masterData": {
+    "master-data": "Master Data_fra",
+    "total-no": "Total No_fra",
+    "common": "Common_fra",
+    "device-definition": "Device Definition_fra",
+    "machine-definition": "Machine Definition_fra",
+    "document-definition": "Document Definition_fra",
+    "doc-category-mapping": "Doc Category - Type Mapping_fra",
+    "category": "Category_fra",
+    "mapped-documents": "Mapped Documents_fra",
+    "unmapped-documents": "Unmapped Documents_fra"
+  },
+  "pmanager": {
+    "status": "Status_fra",
+    "language": "English_fra",
+    "edit": "Edit_fra",
+    "create": "Create_fra",
+    "cancel": "Cancel_fra",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
+    "update": "Update_fra",
+    "created-on": "Created On_fra",
+    "created-by": "Created By_fra",
+    "updated-on": "Updated On_fra",
+    "updated-by": "Updated By_fra",
+    "header": "Change Policy_fra",
+    "name": "Policy Name_fra",
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_fra",
+        "message": [
+          "You are about to create a Registration Center in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"
+        ],
+        "yesBtnText": "Yes_fra",
+        "noBtnText": "No_fra",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
+      },
+      "edit": {
+        "title": "Confirmation_fra",
+        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_fra",
+        "yesBtnText": "Confirm_fra",
+        "noBtnText": "Cancel_fra",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
+      },
+      "update-success": {
+        "title": "Success_fra",
+        "message": "Partner is updated Successfully_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "update-error": {
+        "title": "Error_fra",
+        "message": "There was some issue in updating the Partner. Please try again_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "create-success": {
+        "title": "Success_fra",
+        "message": [
+          "Partner is created Successfully with Partner ID: ",
+          " and Partner Name: _fra"
+        ],
+        "btnTxt": "Ok_fra"
+      },
+      "create-error": {
+        "title": "Error_fra",
+        "message": "There was some issue in creating Partner. Please try again_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_fra",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
+        "yesBtnTxt": "Leave_fra",
+        "noBtnTxt": "Stay_fra"
+      },
+      "noData": {
+        "title": "Error_fra",
+        "message": "No Data Found_fra",
+        "btnTxt": "Ok_fra"
+      }
+    }
+  },
+  "partner": {
+    "address1": "Address_fra",
+    "header": "Partner Service_fra",
+    "name": "Organization_fra",
+    "id": "Id_fra",
+    "status": "Status_fra",
+    "language": "English_fra",
+    "edit": "Edit_fra",
+    "create": "Create_fra",
+    "cancel": "Cancel_fra",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
+    "update": "Update_fra",
+    "partner-details": "Partner Details_fra",
+    "created-on": "Created On_fra",
+    "created-by": "Created By_fra",
+    "updated-on": "Updated On_fra",
+    "updated-by": "Updated By_fra",
+    "registration-partner-name": "Organization Name_fra",
+    "registration-partner-type": "Policy Name_fra",
+    "contact-person": "Email Id_fra",
+    "contact-number": "Contact Number_fra",
+    "location-details": "Address Details_fra",
+    "validationMessages": {
+      "partnerTypeCode": {
+        "required": "Policy Name is required_fra"
+      },
+      "name": {
+        "required": "Organization Name is required_fra",
+        "max-length": "Exceeded max length (128)_fra"
+      },
+      "addressLine1": {
+        "required": "Address is required_fra",
+        "max-length": "Exceeded max length (256)_fra"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_fra",
+        "message": [
+          "You are about to create a Registration Center in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"
+        ],
+        "yesBtnText": "Yes_fra",
+        "noBtnText": "No_fra",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
+      },
+      "edit": {
+        "title": "Confirmation_fra",
+        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_fra",
+        "yesBtnText": "Confirm_fra",
+        "noBtnText": "Cancel_fra",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
+      },
+      "update-success": {
+        "title": "Success_fra",
+        "message": "Partner is updated Successfully_fra",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Error_fra",
+        "message": "There was some issue in updating the Partner. Please try again_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "create-success": {
+        "title": "Success_fra",
+        "message": [
+          "Partner is created Successfully with Partner ID: ",
+          " and Partner Status is: _fra"
+        ],
+        "btnTxt": "Ok_fra"
+      },
+      "create-error": {
+        "title": "Error_fra",
+        "message": "There was some issue in creating Partner. Please try again_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_fra",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
+        "yesBtnTxt": "Leave_fra",
+        "noBtnTxt": "Stay_fra"
+      },
+      "noData": {
+        "title": "Error_fra",
+        "message": "No Data Found_fra",
+        "btnTxt": "Ok_fra"
+      }
+    }
+  },
+  "misp": {
+    "header": "MISP_fra",
+    "name": "Name_fra",
+    "id": "Id_fra",
+    "isActive": "Misp Status_fra",
+    "contact_no": "Phone No_fra",
+    "status": "Status_fra",
+    "address": "Address_fra",
+    "misp-details": "Misp Details_fra",
+    "created-on": "Created On_fra",
+    "created-by": "Created By_fra",
+    "updated-on": "Updated On_fra",
+    "updated-by": "Updated By_fra",
+    "email_id": "Email_fra",
+    "edit": "Edit_fra",
+    "create": "Create_fra",
+    "cancel": "Cancel_fra",
+    "language": "English_fra",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
+    "update": "Update_fra",
+    "validationMessages": {
+      "name": {
+        "required": "Misp Name is required_fra",
+        "max-length": "Exceeded max length (128)_fra"
+      },
+      "address": {
+        "required": "Misp Address is required_fra",
+        "max-length": "Exceeded max length (128)_fra"
+      },
+      "phoneNo": {
+        "required": "Misp phoneNo is required_fra"
+      },
+      "email": {
+        "required": "Misp email is required_fra"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_fra",
+        "message": [
+          "You are about to create a Misp in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"
+        ],
+        "yesBtnText": "Yes_fra",
+        "noBtnText": "No_fra",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_fra"
+      },
+      "edit": {
+        "title": "Confirmation_fra",
+        "message": "You are about to update a misp. Please ensure that all the information is correct_fra",
+        "yesBtnText": "Confirm_fra",
+        "noBtnText": "Cancel_fra",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_fra"
+      },
+      "update-success": {
+        "title": "Success_fra",
+        "message": "Misp is updated Successfully_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "update-error": {
+        "title": "Error_fra",
+        "message": "There was some issue in updating the misp. Please try again_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "create-success": {
+        "title": "Success_fra",
+        "message": ["MISP is created Successfully._fra"],
+        "btnTxt": "Ok_fra"
+      },
+      "create-error": {
+        "title": "Error_fra",
+        "message": "There was some issue in creating a misp. Please try again_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_fra",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
+        "yesBtnTxt": "Leave_fra",
+        "noBtnTxt": "Stay_fra"
+      },
+      "noData": {
+        "title": "Error_fra",
+        "message": "No Data Found_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "lunchTimeValidation": {
+        "title": "Error_fra",
+        "message": "Please select center timings before selecting lunch timings_fra",
+        "btnTxt": "Ok_fra"
+      }
+    }
+  },
+  "validationMessages": {
+    "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_fra",
+    "range": "’To’ date cannot be before ‘From’ date'_fra",
+    "invalid": "Please select a valid value for Date_fra"
+  },
+  "actionMessages": {
+    "decommission": {
+      "success-message": ["", " is approved successfully_fra"],
+      "success-title": "Success_fra",
+      "error-message": "Cannot approve the Misp.Currently Misp is inactive_fra",
+      "error-title": "Error_fra",
+      "btnTxt": "Ok_fra",
+      "yesBtnTxt": "Confirm_fra",
+      "noBtnTxt": "Cancel_fra",
+      "confirmation-message": [
+        "Do you want to Approve the Misp ",
+        " ? \n You cannot undo this action once you click on Confirm._fra"
+      ],
+      "confirmation-title": "Confirmation_fra"
+    },
+    "activate": {
+      "success-message": ["", " is Activated Successfully_fra"],
+      "success-title": "Success_fra",
+      "error-message": "Could not be Activated_fra",
+      "error-title": "Error_fra",
+      "btnTxt": "Ok_fra",
+      "yesBtnTxt": "Yes_fra",
+      "noBtnTxt": "No_fra",
+      "confirmation-message": [
+        "Do you want to Activate the ",
+        "? \n You can Deactivate it later if you wish. Till then it will be set as Active_fra"
+      ],
+      "confirmation-title": "Confirmation_fra"
+    },
+    "deactivate": {
+      "success-message": ["", " is Deactivated Successfully_fra"],
+      "success-title": "Success_fra",
+      "error-message": "Misp Could not be Deactivated_fra",
+      "error-title": "Error_fra",
+      "btnTxt": "Ok_fra",
+      "yesBtnTxt": "Yes_fra",
+      "noBtnTxt": "No_fra",
+      "confirmation-message": [
+        "Do you want to Deactivate the ",
+        " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_fra"
+      ],
+      "confirmation-title": "Confirmation_fra"
+    }
+  },
+  "policy": {
+    "header": "Policy_fra",
+    "name": "Name_fra",
+    "desc": "Description_fra",
+    "authPolicies": "Allowed Auth Types_fra",
+    "allowedKycAttributes": "Allowed Kyc Attributes_fra",
+    "id": "Id_fra",
+    "isActive": "Status_fra",
+    "policy-details": "Policy Details_fra",
+    "created-on": "Created On_fra",
+    "created-by": "Created By_fra",
+    "updated-on": "Updated On_fra",
+    "updated-by": "Updated By_fra",
+    "edit": "Edit_fra",
+    "create": "Create_fra",
+    "cancel": "Cancel_fra",
+    "language": "English_fra",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
+    "update": "Update_fra",
+    "validationMessages": {
+      "name": {
+        "required": "Policy Name is required_fra",
+        "max-length": "Exceeded max length (128)_fra"
+      },
+      "desc": {
+        "required": "Policy description is required_fra",
+        "max-length": "Exceeded max length (128)_fra"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_fra",
+        "message": [
+          "You are about to create a Policy in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"
+        ],
+        "yesBtnText": "Yes_fra",
+        "noBtnText": "No_fra",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_fra"
+      },
+      "edit": {
+        "title": "Confirmation_fra",
+        "message": "You are about to update a policy. Please ensure that all the information is correct_fra",
+        "yesBtnText": "Confirm_fra",
+        "noBtnText": "Cancel_fra",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_fra"
+      },
+      "update-success": {
+        "title": "Success_fra",
+        "message": "policy is updated Successfully_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "update-error": {
+        "title": "Error_fra",
+        "message": "There was some issue in updating the policy. Please try again_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "create-success": {
+        "title": "Success_fra",
+        "message": ["Policy is created Successfully._fra"],
+        "btnTxt": "Ok_fra"
+      },
+      "create-error": {
+        "title": "Error_fra",
+        "message": "There was some issue in creating a policy. Please try again_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_fra",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
+        "yesBtnTxt": "Leave_fra",
+        "noBtnTxt": "Stay_fra"
+      },
+      "noData": {
+        "title": "Error_fra",
+        "message": "No Data Found_fra",
+        "btnTxt": "Ok_fra"
+      },
+      "lunchTimeValidation": {
+        "title": "Error_fra",
+        "message": "Please select center timings before selecting lunch timings_fra",
+        "btnTxt": "Ok_fra"
+      }
+    }
+  },
+  "uploadcertificate": {
+    "title": "Upload Certificate_fra",
+    "CAtitle": "Upload CA Certificate_fra",
+    "partnerDomain": "Partner Domain_fra",
+    "chooseFile": "Choose File_fra",
+    "uploadYourFile": "Upload Your File_fra",
+    "button": "Upload_fra",
+    "cancel": "Cancel_fra"
+  },
+  "isActive": {
+    "Active": "ACTIVE_fra",
+    "InActive": "INACTIVE_fra"
+  },
+  "genericerror": {
+    "fieldValidation": "This field is required_fra",
+    "fieldNameValidation": " is required_fra"
+  },
+  "serverError": {
+    "PMS-COR-001": "Paramètre d'entrée manquant",
+    "PMS-PRT-002": "Le groupe de stratégies n'existe pas",
+    "PMS-PRT-010": "Le type de partenaire n'existe pas",
+    "PMS-PRT-310": "Colonne non valide reçue : %s",
+    "PMS-PRT-313": "Valeur de pagination non valide reçue pagestart :%d et pagefetch :%d",
+    "PMS-PRT-312": " Le type de filtre est manquant",
+    "PMS-PRT-311": " La colonne est manquante dans la demande",
+    "PMS-PRT-314": "Champ de tri ou valeurs de type de tri manquantes",
+    "PMS-PRT-315": " FromValue ou toValue invalide",
+    "PMS-PRT-356": "La pagination ne peut pas être nulle",
+    "PMS-PRT-358": "Le type de tri %s n'est pas pris en charge",
+    "PMS-PRT-359": "Une erreur s'est produite lors du tri",
+    "PMS-PRT-357": " Champ de tri non valide %s",
+    "KER-PRT-390": "Valeur de filtre non valide",
+    "PMS-PRT-001": " Un partenaire est déjà enregistré avec le même nom",
+    "PMS-PRT-051": " Un partenaire est déjà enregistré avec le même identifiant",
+    "PMS-PRT-052": "La longueur maximale de PartnerId doit être",
+    "PMS-ATH-053": "Une exception d'E/S s'est produite lors de la transmission de la demande de pagination",
+    "PMS-ATH-054": "Utilisateur non trouvé",
+    "PMS-ATH-500": "Une erreur de serveur s'est produite, veuillez vérifier les journaux",
+    "PMS-PRT-061": "Le mappage de la politique du partenaire n'existe pas.",
+    "PMS-PRT-062": "La demande de clé API du partenaire est déjà approuvée. Impossible d'ajouter des extracteurs maintenant.",
+    "PMS-PRT-063": "Les extracteurs biométriques peuvent être ajoutés uniquement pour :",
+    "PMS-PRT-064": "Aucun détail trouvé",
+    "PMS-PRT-070": "Mappage des identifiants autorisé uniquement pour :",
+    "PMS-PRT-071": "Une erreur s'est produite lors de l'analyse de la chaîne de stratégie en objet json",
+    "PMS-PRT-072": "Le type d'informations d'identification donné n'est pas autorisé. Types d'identifiants autorisés :",
+    "PMS-PRT-073": "La politique n'existe pas.",
+    "PMS-PRT-074": "L'utilisateur existe avec le même e-mail",
+    "PMS-PRT-005": "Le partenaire n'existe pas",
+    "PMS-PRT-006": "Aucune clé API requise n'existe",
+    "PMS-PRT-105": "La clé API du partenaire n'est pas créée",
+    "PMS-PRT-011": "L'e-mail existe déjà.",
+    "PMS-PRT-012": " Id email invalide.",
+    "PMS-PRT-013": "Numéro de mobile non valide. La longueur doit être inférieure à .",
+    "PMS-ATH-401": "Authentification échouée",
+    "PMS-PRT-106": "Le statut APIKeyReqID est en cours",
+    "PMS-KKS-001": " API non accessible",
+    "PMS-PRT-107": "La réponse de l'api est nulle",
+    "PMS-PRT-500": "Impossible de traiter la demande.",
+    "PMS-PMP-016": "Le partenaire n'est pas actif.",
+    "PMS-PRT-098": "La politique donnée dans le groupe de politiques du partenaire n'existe pas.",
+    "PMS-PMP-019": "La stratégie n'est pas active.",
+    "PMS-PMP-023": "Le groupe de stratégies n'est pas actif.",
+    "PMS-DTS-001": "  La réponse DataShare est nulle",
+    "PMS-PRT-045": "Une erreur s'est produite lors de l'analyse des données du certificat P7B",
+    "PMS-PRT-046": "Une erreur s'est produite lors de l'extraction du certificat de feuille.",
+    "PMS-PRT-047": "Le partenaire n'est pas mappé au groupe de stratégies",
+    "PMS-PRT-048": "le mappage du groupe de stratégies n'est pas requis pour un partenaire donné",
+    "PMS-PRT-049": "le mappage du groupe de politiques existe pour un partenaire donné.",
+    "PMS-PRT-050": "Le groupe de règles ne peut pas être mis à jour pour le partenaire approuvé",
+    "PMS-PRT-054": "Groupe de règles non mappé pour un partenaire donné",
+    "PMS-PRT-055": "Utilisateur non autorisé.",
+    "PMS-PM-034": " Demande de politique déjà approuvée.",
+    "PMS-PM-035": " Demande de stratégie déjà rejetée.",
+    "PMS-PM-045": " Le statut doit être Approuvé ou Rejeté",
+    "PMS-PM-051": "Les extracteurs ne sont pas présents. Veuillez ajouter des extracteurs.",
+    "PMS-PM-058": "L'état doit être Actif ou Désactivé",
+    "PMS-PMP-010": "La politique n'appartient pas au groupe de politiques du gestionnaire de partenaires",
+    "PMS-PMP-015": "Aucune demande de clé API partenaire pour le groupe de règles",
+    "PMS-PMP-007": "La clé API du partenaire n'existe pas",
+    "PMS-PMP-011": "La clé API du partenaire n'existe pas",
+    "PMS-PMP-009": " Pour le partenaire donné et le mappage apikey n'existe pas.",
+    "PMS-PMP-013": "Le partenaire n'existe pas",
+    "PMS-PMP-005": "L'identifiant du partenaire n'existe pas",
+    "PMS-PMP-017": "Le partenaire n'est associé à aucune stratégie.",
+    "PMS-PMP-020": "La clé de licence MISP n'existe pas.",
+    "PMS-PMP-021": "La clé de licence MISP a expiré.",
+    "PMS-PMP-022": "La politique n'existe pas.",
+    "PMS-PMP-024": "Le fichier de stratégie est corrompu.",
+    "PMS-PMP-025": "La clé de licence du MISP est bloquée",
+    "PMS-PMP-50": "Étant donné qu'il n'existe pas de mappage d'apikey, de partenaire et de politique.",
+    "PMS-PMP-51": "La stratégie donnée n'appartient pas au groupe de stratégies du partenaire",
+    "PMS-PMP-052": "Certificat de partenaire non disponible",
+    "PMS-PMP-014": "La politique n'existe pas",
+    "PMS-PMS-022": "La clé API du partenaire donné n'est pas active.",
+    "PMS-PMP-018": "La politique a expiré.",
+    "PMS-PRT-108": "Le certificat n'est pas téléchargé pour le partenaire donné. Impossible de l'activer.",
+    "PMS-AUT-002": "Identifiant du fournisseur de l'appareil introuvable dans la liste des partenaires",
+    "PMS-AUT-003": "Les détails de l'appareil existent déjà",
+    "PMS-AUT-004": "Demande en double reçue",
+    "PMS-AUT-005": "Les détails du périphérique pour l'ID %s n'existent pas",
+    "PMS-AUT-025": "ApprovalStatus doit être Activer/Désactiver ;",
+    "PMP-AUT-030": "le fournisseur ftp n'existe pas.",
+    "PMP-AUT-031": "l'identifiant de la puce ftp n'existe pas.",
+    "PMP-AUT-032": "Le fournisseur, la marque et le modèle donnés existent déjà.",
+    "PMP-AUT-033": "Le certificat n'est pas téléchargé.",
+    "PMP-AUT-034": "L'ID de détail de la puce FTP et l'ID du fournisseur ftp ne sont pas mappés.",
+    "PMP-AUT-037": "Compte tenu des détails de la puce ftp déjà enregistrés.;",
+    "PMS-AUT-007": "Interface biométrique sécurisée introuvable pour l'identifiant %s",
+    "PMS-AUT-026": "L'état d'approbation doit être activé/désactivé",
+    "PMS-AUT-506": "Fournissez les détails de l'appareil du même fournisseur.",
+    "PMS-AUT-507": "La date d'expiration doit être supérieure à la date de création",
+    "PMS-AUT-508": "La date d'expiration doit être supérieure/égale à aujourd'hui. ;",
+    "PMS-POL-002": "Non-concordance des informations d'identification de Policy Manager",
+    "PMS-POL-004": "Le nom de la stratégie existe déjà dans la stratégie Group.Name :",
+    "PMS-POL-005": "Attribut KYC non pris en charge dans le fichier de stratégie",
+    "PMS-POL-006": "Type d'authentification non pris en charge dans le fichier de stratégie",
+    "PMS-POL-007": "Attribut eKYC manquant dans le fichier de stratégie",
+    "PMS-POL-008": "L'ID de stratégie n'existe pas",
+    "PMS-POL-009": "La politique d'authentification existe avec le nom :",
+    "PMS-COR-002": "Paramètre d'entrée non valide -",
+    "PMS-COR-003": "Impossible de traiter la demande",
+    "PMS-POL-010": " Les politiques d'authentification ne sont pas définies par rapport à la politique",
+    "PMS-POL-013": "Aucune règle disponible pour PartnerAPIKey donnée",
+    "PMS-POL-014": "Le groupe de stratégies existe avec le nom :",
+    "PMS-POL-015": "Groupe de stratégies et stratégie non mappés.",
+    "PMS-POL-016": "L'ID de groupe de stratégies n'existe pas",
+    "PMS-POL-017": "Aucune politique disponible pour un partenaire donné",
+    "PMS-POL-018": "Le partenaire et la politique donnés ne sont pas cartographiés.",
+    "PMS-POL-019": "Le nom du groupe de stratégies n'existe pas",
+    "PMS-POL-020": "Impossible de publier la politique publiée",
+    "PMS-POL-021": "les types d'autorisation autorisés ne sont pas requis pour policyType",
+    "PMS-POL-022": "Le type de jeton d'autorisation donné n'est pas autorisé",
+    "PMS-POL-023": "Le type de stratégie donné n'est pas autorisé",
+    "PMS-POL-045": "État de la stratégie Actif ou Désactivé.",
+    "PMS-POL-046": "Les attributs de partage de données ne sont pas requis pour un type de politique donné",
+    "PMS-POL-047": "Les attributs partageables ne sont pas requis pour un type de politique donné",
+    "PMS-POL-048": "Les attributs KYC autorisés ne sont pas requis pour un type de politique donné",
+    "PMS-POL-050": "La version donnée n'est pas disponible. Les versions autorisées sont :",
+    "PMS-POL-051": "Le schéma de politique et la politique ne correspondent pas",
+    "PMS-POL-052": "Une erreur s'est produite lors de l'analyse de la chaîne de stratégie en objet json",
+    "PMS-POL-053": "Le groupe de stratégies n'est pas actif.",
+    "PMS-POL-054": "Impossible d'activer la stratégie non publiée.",
+    "PMS-POL-055": "La politique publiée ne peut pas être mise à jour.",
+    "PMS-POL-056": "Les stratégies actives existent sous le groupe de stratégies.",
+    "PMS-POL-057": "L'apiKey active existe sous la stratégie.",
+    "PMS-POL-058": "Le statut ne peut pas être modifié pour la politique publiée.;"
+  }
 }

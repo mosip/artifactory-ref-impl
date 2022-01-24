@@ -3,12 +3,12 @@
   "actionButtons": [
     {
       "buttonName": {
-        "eng": "Resume Processing and Remove Hotlisted Tag",
-        "ara": "استئناف المعالجة وإزالة العلامة المدرجة في القائمة الساخنة",
-        "fra": "Reprendre le traitement et supprimer la balise de la liste sensible",
-        "hin": "प्रसंस्करण फिर से शुरू करें और हॉटलिस्टेड टैग हटाएं   ",
-        "kan": "ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪುನರಾರಂಭಿಸಿ ಮತ್ತು ಹಾಟ್‌ಲಿಸ್ಟ್ ಮಾಡಿದ ಟ್ಯಾಗ್ ತೆಗೆದುಹಾಕಿ   ",
-        "tam": "செயலாக்கத்தை மீண்டும் தொடங்கி, பட்டியலிடப்பட்ட குறிச்சொல்லை அகற்று   "
+        "eng": "Resume Processing",
+        "ara": "ااستئناف المعالجة",
+        "fra": "Reprendre le traitement",
+        "hin": "प्रसंस्करण फिर से शुरू करें",
+        "kan": "ಪುನರಾರಂಭ ಪ್ರಕ್ರಿಯೆ",
+        "tam": "மீண்டும் செயலாக்கம்"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -18,12 +18,12 @@
     },
     {
       "buttonName": {
-        "eng": "Resume from Beginning",
+        "eng": "Resume from the beginning",
         "ara": "استئناف من البداية",
         "fra": "Reprendre depuis le début",
-        "hin": "शुरुआत से फिर से शुरू  ",
-        "kan": "ಆರಂಭದಿಂದ ಪುನರಾರಂಭಿಸಿ    ",
-        "tam": "ஆரம்பத்தில் இருந்து மீண்டும் தொடங்குங்கள்  "
+        "hin": "शुरुआत से फिर से शुरू",
+        "kan": "ಮೊದಲಿನಿಂದಲೂ ಪುನರಾರಂಭಿಸಿ",
+        "tam": "ஆரம்பத்திலிருந்து மீண்டும் தொடரவும்"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -33,27 +33,12 @@
     },
     {
       "buttonName": {
-        "eng": "Resume from Beginning and Remove Hotlisted Tag",
-        "ara": "استئناف من البداية وإزالة العلامة المدرجة في القائمة الساخنة",
-        "fra": "Reprendre depuis le début et supprimer le tag de la Hotlist",
-        "hin": "शुरुआत से फिर से शुरू करें और हॉटलिस्टेड टैग हटाएं   ",
-        "kan": "ಪ್ರಾರಂಭದಿಂದ ಪುನರಾರಂಭಿಸಿ ಮತ್ತು ಹಾಟ್‌ಲಿಸ್ಟ್ ಮಾಡಿದ ಟ್ಯಾಗ್ ತೆಗೆದುಹಾಕಿ  ",
-        "tam": "தொடக்கத்தில் இருந்து மீண்டும் தொடங்கி, பட்டியலிடப்பட்ட குறிச்சொல்லை அகற்று   "
-      },
-      "actionURL": "",
-      "redirectURL": "",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "resumefrombeginningandremovehotlistedtag"
-    },
-    {
-      "buttonName": {
-        "eng": "Stop Processing",
-        "ara": "توقف عن المعالجة",
-        "fra": "Arrêter le traitement",
-        "hin": "प्रसंस्करण बंद करो  ",
-        "kan": "ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿಲ್ಲಿಸಿ    ",
-        "tam": "செயலாக்கத்தை நிறுத்துங்கள்  "
+        "eng": "Reject",
+        "ara": "يرفض",
+        "fra": "Rejeter",
+        "hin": "अस्वीकार",
+        "kan": "ತಿರಸ್ಕರಿಸಿ",
+        "tam": "நிராகரிக்கவும்"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -62,10 +47,7 @@
       "callBackFunction": "stopprocessing"
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" ,
-        "hin": "पफ़िल्टर ",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ     ",
-        "tam": "வடிகட்டி  "},
+      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" , "hin": "पफ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி"},
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
       "actionURL": { "case": "filter" },
@@ -78,10 +60,7 @@
     {
       "name": "workflowId",
       "showInListView": "True",
-      "label": { "eng": "RID", "ara": "ايتخلص", "fra": "DÉBARRASSER" ,
-        "hin": "पंजीयन पहचान  ",
-        "kan": "ಆರ್ಐಡಿ     ",
-        "tam": "தவிர்ந்திடு  "},
+      "label": { "eng": "RID", "ara": "ايتخلص", "fra": "DÉBARRASSER" ,"hin": "पंजीयन पहचान  ","kan": "ಆರ್ಐಡಿ","tam": "தவிர்ந்திடு"},
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -90,10 +69,16 @@
     {
       "name": "workflowType",
       "showInListView": "True",
-      "label": { "eng": "Type", "ara": "يكتب", "fra": "Taper" ,
-        "hin": "प्रकार  ",
-        "kan": "ಮಾದರಿ     ",
-        "tam": "வகை   "},
+      "label": { "eng": "Type of packet", "ara": "نوع الحزمة", "fra": "Type de paquet" , "hin": "पैकेट का प्रकार", "kan": "ಪ್ಯಾಕೆಟ್ ಪ್ರಕಾರ", "tam": "பாக்கெட் வகை"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "statusComment",
+      "showInListView": "True",
+      "label": { "eng": "Rule Description", "ara": "وصف القاعدة", "fra": "Description de la règle" , "hin": "नियम विवरण", "kan": "ನಿಯಮದ ವಿವರಣೆ", "tam": "விதி விளக்கம்"},
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -102,10 +87,7 @@
     {
       "name": "currentStageName",
       "showInListView": "True",
-      "label": { "eng": "Current Stage", "ara": "المرحلة الحالية", "fra": "Étape actuelle",
-        "hin": "वर्तमान स्थिति ",
-        "kan": "ಪ್ರಸ್ತುತ ಹಂತ     ",
-        "tam": "தற்போதைய நிலை " },
+      "label": { "eng": "Current Stage", "ara": "المرحلة الحالية", "fra": "Étape actuelle","hin": "वर्तमान स्थिति ","kan": "ಪ್ರಸ್ತುತ ಹಂತ     ","tam": "தற்போதைய நிலை " },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -135,10 +117,7 @@
     },
     {
       "filtername": "workflowType",
-      "filterlabel": { "eng": "Workflow Type", "ara": "نوع سير العمل", "fra": "Type de flux de travail" ,
-        "hin": "कार्यप्रवाह प्रकार ",
-        "kan": "ಕೆಲಸದ ಹರಿವಿನ ಪ್ರಕಾರ      ",
-        "tam": "பணிப்பாய்வு வகை "},
+      "filterlabel": { "eng": "Type of packet", "ara": "نوع الحزمة", "fra": "Type de paquet" , "hin": "पैकेट का प्रकार", "kan": "ಪ್ಯಾಕೆಟ್ ಪ್ರಕಾರ", "tam": "பாக்கெட் வகை"},
       "filterType": "contains",
       "fieldType": "input",
       "autocomplete": "false",

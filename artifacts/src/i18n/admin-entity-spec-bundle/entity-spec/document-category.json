@@ -177,7 +177,7 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "textarea",
-      "ismandatory": "true"
+      "ismandatory": "false"
     },
 
     {
@@ -247,8 +247,7 @@
       "showAsLink": "false",
       "linkType": "",
       "LinkURL": "",
-      "inputType": "dropdown",
-      "ismandatory": "true"
+      "inputType": "dropdown"
     },
     {
       "name": "isActive",
@@ -273,7 +272,26 @@
     "pageSize": "10",
     "pageSizeList": [10, 20, 30, 40, 50]
   },
-  "filterColumns": [{
+  "filterColumns": [
+    {
+    "filtername": "name",
+    "filterlabel": {
+      "eng": "Name",
+      "ara": "اسم",
+      "fra": "prénom",
+      "tam": "பெயர்",
+      "hin": "नाम",
+      "kan": "ಹೆಸರು"
+    },
+    "filterType": "equals",
+    "autocomplete": "false",
+    "dropdown": "false",
+    "datePicker": "false",
+    "apiName": "documentcategories",
+    "fieldName": "name",
+    "methodCallName": ""
+    },
+    {
     "filtername": "isActive",
     "filterlabel": {
       "eng": "Status",

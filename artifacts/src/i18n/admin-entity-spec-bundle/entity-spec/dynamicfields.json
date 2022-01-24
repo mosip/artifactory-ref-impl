@@ -70,6 +70,48 @@
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
+    },
+    {
+      "buttonName": {
+        "eng": "Code & Value not present in English",
+        "ara": "الرمز والقيمة غير موجودين باللغة العربية",
+        "fra": "Code & Valeur non présents en Français",
+        "tam": "குறியீடு & மதிப்பு தமிழில் இல்லை",
+        "hin": "कोड और मूल्य हिंदी में मौजूद नहीं है",
+        "kan": "ಕೋಡ್ ಮತ್ತು ಮೌಲ್ಯ ಕನ್ನಡದಲ್ಲಿ ಇರುವುದಿಲ್ಲ"
+      },
+      "imagePath": "",
+      "actionListType": "action",
+      "actionURL": {
+        "case": "missingData",
+        "title": {
+          "eng": "Code & Value not present in English",
+          "ara": "الرمز والقيمة غير موجودين باللغة العربية",
+          "fra": "Code & Valeur non présents en Français",
+          "tam": "குறியீடு & மதிப்பு தமிழில் இல்லை",
+          "hin": "कोड और मूल्य हिंदी में मौजूद नहीं है",
+          "kan": "ಕೋಡ್ ಮತ್ತು ಮೌಲ್ಯ ಕನ್ನಡದಲ್ಲಿ ಇರುವುದಿಲ್ಲ"
+        },
+        "columnNames": [{
+          "eng": "Code",
+          "ara": "الشفرة",
+          "fra": "Code",
+          "tam": "குறியீடு",
+          "hin": "कोड",
+          "kan": "ಕೋಡ್"
+        }, {
+          "eng": "Name",
+          "ara": "اسم",
+          "fra": "prénom",
+          "tam": "பெயர்",
+          "hin": "नाम",
+          "kan": "ಹೆಸರು"
+        }],
+        "fieldName": "code"
+      },
+      "redirectURL": "",
+      "showIn": "Button",
+      "validations": ""
     }
   ],
   "columnsToDisplay": [
@@ -83,7 +125,8 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "text",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "noSort": "true"
     },
     {
       "name": "name",
@@ -107,7 +150,7 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "textarea",
-      "ismandatory": "true"
+      "ismandatory": "false"
     },
     {
       "name": "value",
@@ -119,7 +162,8 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "text",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "noSort": "true"
     },
     {
       "name": "dataType",

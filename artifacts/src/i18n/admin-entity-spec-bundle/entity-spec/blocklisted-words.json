@@ -116,23 +116,7 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "textarea",
-      "ismandatory": "true"
-    },
-    {
-      "name": "langCode",
-      "showInListView": "true",
-      "label": {
-        "eng": "Language",
-        "ara": "حاله",
-        "fra": "Language",
-        "tam": "மொழி",
-        "hin": "भाषा",
-        "kan": "ಭಾಷೆ"
-      },
-      "sortOrder": "",
-      "showAsLink": "false",
-      "linkType": "",
-      "LinkURL": ""
+      "ismandatory": "false"
     },
     {
       "name": "isDeleted",
@@ -218,7 +202,7 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "dropdown",
-      "ismandatory": "true"
+      "ismandatory": "false"
     }
   ],
   "paginator": {
@@ -244,24 +228,6 @@
     "fieldName": "word",
     "methodCallName": ""
   },
-    {
-      "filtername": "langCode",
-      "filterlabel": {
-        "eng": "Language",
-        "ara": "حاله",
-        "fra": "Language",
-        "tam": "மொழி",
-        "hin": "भाषा",
-        "kan": "ಭಾಷೆ"
-      },
-      "filterType": "equals",
-      "autocomplete": "false",
-      "dropdown": "true",
-      "datePicker": "false",
-      "apiName": "blocklistedwords",
-      "fieldName": "langCode",
-      "methodCallName": ""
-    },
     {
       "filtername": "isActive",
       "filterlabel": {

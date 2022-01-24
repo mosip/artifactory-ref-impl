@@ -17,21 +17,6 @@
 		},
 		{
 			"buttonName": {
-				"eng": "Deactivate",
-				"ara": "Deactivate_ara",
-				"fra": "Deactivate_fra",
-				"hin": "Deactivate_hin",
-				"kan": "Deactivate_kan",
-				"tam": "Deactivate_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "deactivatePolicy"
-		},
-		{
-			"buttonName": {
 				"eng": "Edit",
 				"ara": "Edit_ara",
 				"fra": "Edit_fra",
@@ -208,7 +193,7 @@
 			"showAsLink": "",
 			"linkType": "",
 			"LinkURL": "",
-			"inputType": "text",
+			"inputType": "textarea",
 			"ismandatory": "true",
 			"showInListView": "false",
 			"showInSingleView": "true"

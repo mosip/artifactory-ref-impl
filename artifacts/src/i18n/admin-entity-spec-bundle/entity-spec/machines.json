@@ -149,12 +149,12 @@
       "name": "mapStatus",
       "showInListView": "",
       "label": {
-        "eng": "Map Status",
-        "ara": "تعيين الحالة",
-        "fra": "Attribuer un statut",
-        "hin": "मानचित्र स्थिति",
-        "kan": "ನಕ್ಷೆಯ ಸ್ಥಿತಿ",
-        "tam": "வரைபட நிலை"
+        "eng": "Center",
+        "ara": "مركز",
+        "fra": "Centre",
+        "hin": "केंद्र",
+        "kan": "ಕೇಂದ್ರ",
+        "tam": "மையம்"
       },
       "sortOrder": "",
       "showAsLink": "",

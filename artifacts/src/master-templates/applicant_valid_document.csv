@@ -1,2 +1,2 @@
-applicantTypeCode,docCategoryCode,docTypeCode,langCode,isActive
-1,POI,CIN,eng,TRUE
+appTypeCode,docCategoryCode,docTypeCode,langCode,isActive,isDeleted
+ABC,POI,CIN,eng,TRUE,FALSE

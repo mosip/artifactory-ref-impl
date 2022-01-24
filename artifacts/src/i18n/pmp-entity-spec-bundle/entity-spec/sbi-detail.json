@@ -40,10 +40,10 @@
 				"tam": "Edit_tam"
 			},
 			"actionURL": "",
-			"redirectURL": "/pmp/resources/devicedetails/sbidetails/view/$id/single-view/$childid",
+			"redirectURL": "/pmp/resources/sbidetails/single-view/$id",
 			"showIn": "Ellipsis",
 			"validations": "",
-			"callBackFunction": "drilldownEdit"
+			"callBackFunction": "partnerEdit"
 		},
 		{
 			"buttonName": {
@@ -55,9 +55,9 @@
 				"tam": "Create SBI_tam"
 			},
 			"imagePath": "assets/images/add-icon.png",
-			"redirectURL": "/pmp/resources/devicedetails/sbidetails/view/$id/create",
+			"redirectURL": "/pmp/resources/sbidetails/create",
 			"showIn": "Button",
-			"actionListType": "replaceIdRedirect",
+			"actionListType": "redirect",
 			"actionURL": ""
 		}
 	],
@@ -81,26 +81,26 @@
 			"showInSingleView": "false"
 		},
 		{
-			"name": "deviceDetailId",
+			"name": "providerId",
 			"label": {
-				"eng": "Device Id",
-				"ara": "Device Id_ara",
-				"fra": "Device Id_fra",
-				"hin": "Device Id_hin",
-				"kan": "Device Id_kan",
-				"tam": "Device Id_tam"
+				"eng": "Partner Name",
+				"ara": "Partner Name_ara",
+				"fra": "Partner Name_fra",
+				"hin": "Partner Name_hin",
+				"kan": "Partner Name_kan",
+				"tam": "Partner Name_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
 			"linkType": "",
 			"LinkURL": "",
-			"inputType": "",
-			"ismandatory": "",
-			"showInListView": "true",
-			"showInSingleView": "false"
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "false",
+			"showInSingleView": "true"
 		},
 		{
-			"name": "deviceProviderId",
+			"name": "partnerOrganizationName",
 			"label": {
 				"eng": "Partner Name",
 				"ara": "Partner Name_ara",
@@ -140,12 +140,12 @@
 		{
 			"name": "swBinaryHash",
 			"label": {
-				"eng": "BinaryHash",
-				"ara": "BinaryHash_ara",
-				"fra": "BinaryHash_fra",
-				"hin": "BinaryHash_hin",
-				"kan": "BinaryHash_kan",
-				"tam": "BinaryHash_tam"
+				"eng": "Binary Hash",
+				"ara": "Binary Hash_ara",
+				"fra": "Binary Hash_fra",
+				"hin": "Binary Hash_hin",
+				"kan": "Binary Hash_kan",
+				"tam": "Binary Hash_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -159,12 +159,12 @@
 		{
 			"name": "swCreateDateTime",
 			"label": {
-				"eng": "CreatedDateTime",
-				"ara": "CreatedDateTime_ara",
-				"fra": "CreatedDateTime_fra",
-				"hin": "CreatedDateTime_hin",
-				"kan": "CreatedDateTime_kan",
-				"tam": "CreatedDateTime_tam"
+				"eng": "Created DateTime",
+				"ara": "Created DateTime_ara",
+				"fra": "Created DateTime_fra",
+				"hin": "Created DateTime_hin",
+				"kan": "Created DateTime_kan",
+				"tam": "Created DateTime_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -178,12 +178,12 @@
 		{
 			"name": "swExpiryDateTime",
 			"label": {
-				"eng": "ExpiryDateTime",
-				"ara": "ExpiryDateTime_ara",
-				"fra": "ExpiryDateTime_fra",
-				"hin": "ExpiryDateTime_hin",
-				"kan": "ExpiryDateTime_kan",
-				"tam": "ExpiryDateTime_tam"
+				"eng": "Expiry DateTime",
+				"ara": "Expiry DateTime_ara",
+				"fra": "Expiry DateTime_fra",
+				"hin": "Expiry DateTime_hin",
+				"kan": "Expiry DateTime_kan",
+				"tam": "Expiry DateTime_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -209,15 +209,20 @@
 			"linkType": "",
 			"LinkURL": "",
 			"inputType": "dropdown",
-			"ismandatory": "true",
+			"ismandatory": "false",
 			"showInListView": "false",
 			"showInSingleView": "false"
 		},
 		{
-			"name": "isActive",
+			"name": "approvalStatus",
 			"showInListView": "true",
 			"label": {
-				"eng": "Status"
+				"eng": "Status",
+				"ara": "Status_ara",
+				"fra": "Status_fra",
+				"hin": "Status_hin",
+				"kan": "Status_kan",
+				"tam": "Status_tam"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
