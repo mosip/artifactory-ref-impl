@@ -1,6 +1,6 @@
 #!/bin/sh
 
-version=1.2.0-rc2-SNAPSHOT
+version=1.2.0
 
 echo Script to fetch the timestamp for each required snapshot artifactory
 
