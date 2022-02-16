@@ -58,10 +58,10 @@ ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
 ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 
 # environment variable for ref-idobjectvalidator jar
-ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-ref-idobjectvalidator
+ENV idobject_jar_path=${base_path}/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator
 
 # environment variable for regproc auth jar
-ENV regproc_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-auth-adapter
+ENV regproc_jar_path=${base_path}/libs-release-local/io/mosip/kernel/kernel-auth-adapter
 
 # environment variable for prereg transliteration jar path
 ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
@@ -77,7 +77,7 @@ ENV regclient_jar_path=${base_path}/libs-release-local
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
 # environment variable for child auth filter jar path
-ENV child_auth_filter_jar_path=${base_path}/libs-snapshot-local/io/mosip/authentication/authentication-ref-impl
+ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authentication/authentication-ref-impl
 
 # environment variable for script path
 ENV script_path=/home/mosip/scripts
