@@ -527,7 +527,7 @@
                 "cancelBtnTxt":"Cancel"
             },
             "popup2":{
-                "title":"Failure !",
+                "title":"Failure",
                 "btnTxt":"DONE"
             },
             "popup3":{
@@ -658,7 +658,7 @@
                 "noBtnText": "Cancel"
             },
             "popup2":{
-                "title":"Failure !",
+                "title":"Failure",
                 "btnTxt":"DONE"
             },
             "popup3":{

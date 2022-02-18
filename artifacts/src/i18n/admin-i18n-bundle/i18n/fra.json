@@ -548,7 +548,7 @@
 					"cancelBtnTxt": "Annuler"
 				},
 				"popup2": {
-					"title": "Échec !",
+					"title": "Échec",
 					"btnTxt": "TERMINÉ"
 				},
 				"popup3": {
@@ -917,7 +917,7 @@
 				"noBtnText": "Annuler"
 			},
 			"popup2": {
-				"title": "Échec !",
+				"title": "Échec",
 				"btnTxt": "TERMINÉ"
 			},
 			"popup3": {
@@ -1015,7 +1015,7 @@
 		"Logout": "Se déconnecter"
 	},
 	"paginationLabel": {
-		"showRows": "Show rows"
+		"showRows": "Afficher les lignes"
 	},
 	"keymanager": {
 		"applicationIds": [

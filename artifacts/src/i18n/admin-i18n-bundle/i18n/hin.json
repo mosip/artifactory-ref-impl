@@ -523,7 +523,7 @@
 					"cancelBtnTxt": "रद्द करें"
 				},
 				"popup2": {
-					"title": "विफलता!",
+					"title": "विफलता",
 					"btnTxt": "हो गया"
 				},
 				"popup3": {
@@ -773,7 +773,7 @@
 				"noBtnText": "रद्द करें"
 			},
 			"popup2": {
-				"title": "विफलता!",
+				"title": "विफलता",
 				"btnTxt": "हो गया"
 			},
 			"popup3": {
@@ -871,7 +871,7 @@
 		"Logout": "लॉग आउट"
 	},
 	"paginationLabel": {
-		"showRows": "Show rows"
+		"showRows": "पंक्तियां दिखाएं"
 	},
 	"keymanager": {
 		"applicationIds": [{
