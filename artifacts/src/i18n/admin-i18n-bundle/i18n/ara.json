@@ -523,7 +523,7 @@
                     "cancelBtnTxt":"يلغي"
                 },
                 "popup2":{
-                    "title":"بالفشل !",
+                    "title":"بالفشل ",
                     "btnTxt":"انتهى"
                 },
                 "popup3":{
@@ -654,7 +654,7 @@
                 "noBtnText": "يلغي"
             },
             "popup2":{
-                "title":"بالفشل !",
+                "title":"بالفشل ",
                 "btnTxt":"انتهى"
             },
             "popup3":{
@@ -805,7 +805,7 @@
         "Logout":"تسجيل خروج"
     },
     "paginationLabel":{
-        "showRows":"Show rows"
+        "showRows":"عرض الصفوف"
     },
     "keymanager": {
         "applicationIds": [{

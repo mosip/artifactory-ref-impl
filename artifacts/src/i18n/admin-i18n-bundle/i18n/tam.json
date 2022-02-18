@@ -524,7 +524,7 @@
                     "cancelBtnTxt": "ரத்துசெய்"
                 },
                 "popup2": {
-                    "title": "தோல்வி !",
+                    "title": "தோல்வி",
                     "btnTxt": "முடிந்தது"
                 },
                 "popup3": {
@@ -781,7 +781,7 @@
                 "noBtnText": "ரத்து"
             },
             "popup2": {
-                "title": "தோல்வி !",
+                "title": "தோல்வி",
                 "btnTxt": "முடிந்தது"
             },
             "popup3": {
