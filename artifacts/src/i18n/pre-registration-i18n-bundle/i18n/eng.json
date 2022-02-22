@@ -430,6 +430,8 @@
       "msg9": "Documents are missing",
       "msg10": "File could not be deleted.Try Again.",
       "msg11": "Please confirm that you want to delete file ",
+      "msg12": "Please enter only text or numbers",
+      "msg13": "Please enter only 50 characters or less",
       "title_confirm": "Delete",
       "button_cancel": "Cancel",
       "none": "None"
