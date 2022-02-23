@@ -9,29 +9,40 @@
       "line2": "Click the following sections for more information about completing the Pre-registration form."
     },
     "select_language": {
-      "name": "Select Language",
+      "name": "Select preference language",
       "list": {
-        "line1": "On the login page, click Select your Language to see the list of languages",
-        "line2": "Select the language of your preference."
+        "line1": "On the login page, click the language dropdown to see the list of languages",
+        "line2": "Select language of your preference"
       },
-      "note": "Note: When you are on the Demographic Details page, data is displayed in your preferred language on the left and the data in the second language on the right side of the screen."
+      "note": "Note: Field and button labels, error and information messages throughout the application will be displayed in the preferred language."
     },
     "login": {
       "name": "Login",
       "list": {
         "line1": "On the Login page, enter your valid email ID or mobile number in the Email ID or mobile number text box.",
-        "line2": "Click Send OTP to receive an One Time Password (OTP) on your provided email address or mobile number.",
-        "line3": "Enter the OTP in the Enter OTP text box and Click Verify."
+        "line2": "Select the captcha field",
+        "line3": "Click Send OTP to receive an One Time Password (OTP) on your provided email address or mobile number.",
+        "line4": "Enter the OTP in the Enter OTP text box and Click Verify button."
       },
       "note": "Note: In case you have not received OTP, click Resend to receive an OTP again. Enter the newly received OTP.",
       "line": "When your OTP is verified, you can create, view, or modify your pre-registration application."
+    },
+    "select_data_capture_language": {
+      "name": "Select data capture language",
+      "list": {
+        "line1": "A user logging in for the first time and having no applications will be prompted with a data capture language pop-up. The same set of languages will be used for the next set of applications created in the same session.",
+        "line2": "The language user selected in login screen will be pre-selected in the data capture language pop-up",
+        "line3": "The user can change this by clicking on the CHANGE DATA CAPTURE LANGUAGES button"
+      },
+      "note": "Note: This choice will be available only if the ID issuer has configured usage of optional languages."
     },
     "t&c": {
       "name": "Accept Terms & Conditions",
       "list": {
         "line1": "On the Demographic Details page, you are advised to read the Terms and Conditions and select the check box to agree. This agreement is to provide consent for the storage and processing of your personal information.",
         "line2": "Click Accept to agree and then fill the demographic details."
-      }
+      },
+      "note": "Note: User consent is mandatory for creating/updating applications. The contents will be displayed in all data capture languages"
     },
     "demographic": {
       "name": "Fill Demographic Details",
@@ -41,7 +52,7 @@
         "line2": "You can also change or verify your demographic details in the second language on the right side.",
         "line3": "After you have filled and verified your demographic details, click Continue to upload your documents."
       },
-      "line": "Data in the Demographic Details page is displayed in two different languages, your preferred language on the left, and the second language on the right side of the screen."
+      "line": "Note: Field and button labels, error and information messages will be displayed in the user preferred language selected in login screen."
     },
     "documents": {
       "name": "Upload Documents",
@@ -130,6 +141,9 @@
         "booked": {
           "line1": "Filled demographic details, uploaded documents, and booked appointment",
           "line1_action": "Action: Visit the registration center on your appointment date and time"
+        },
+        "cancelled": {
+          "line1": "Appointment has been cancelled"
         },
         "expired": {
           "line1": "Appointment date has passed"
@@ -445,7 +459,8 @@
       "text_status": "Status",
       "action_modify_information": "Modify Information",
       "action_view_acknowledgement": "View Acknowledgement",
-      "action_view_information": "View Information"
+      "action_view_information": "View Information",
+      "data_capture_langs": "Data Capture Languages"
     },
     "discard": {
       "title_confirm": "Confirm",
@@ -469,7 +484,8 @@
       "booked": "Booked",
       "expired": "Expired",
       "cancelled": "Cancelled",
-      "Application_Incomplete": "Application Incomplete"
+      "Application_Incomplete": "Application Incomplete",
+      "prefetched": "Prefetched"
     },
     "error": {
       "error": "Internal server error. Please try again after  some time.",
@@ -585,7 +601,8 @@
       "booked": "Appointment is booked successfully",
       "expired": "Appointed date has passed",
       "cancelled": "Appointment has been Cancelled",
-      "Application_Incomplete": "Application is Incomplete"
+      "Application_Incomplete": "Application is Incomplete",
+      "prefetched": "Application was prefetched in Registration Center"
     },
     "deleteIcon": "You can either discard entire application or cancel the appointment and save the details.",
     "book/modify_appointment": "You must tick the check box near to pre-registration id for one or multiple applicants to book/modify appointment",
@@ -599,7 +616,8 @@
     "nearBy": "Registration centers based on your geo-location",
     "magnifying_glass": "Search based on selection of dropdown.",
     "preview_continue": "Upload all files to proceed",
-    "lockIcon": "Application details cannot be modified once appointment is Booked, Cancelled or Expired"
+    "lockIcon": "Application details cannot be modified once appointment is Booked, Cancelled or Expired",
+    "prefetchedLockIcon": "Application details cannot be modified once it is Prefetched in Registration Center"
   },
   "error": {
     "error": "A technical error occurred and the operation cannot be completed. Any data provided may not be saved.",
@@ -672,6 +690,7 @@
     "PRE-REG-OTP-405": "Missing Input Parameter - %s",
     "PRE-REG-OTP-406": "Input Data Validation Failed",
     "PRE-REG-OTP-407": "Token generation failed",
+    "PRE-REG-OTP-408": "OTP has already been generated and sent to your email id / phone number. If you want a new OTP, please try again after sometime.",
     "PRG_PAM_APP_001": "Failed to create the pre-registration with demographic data provided",
     "PRG_PAM_APP_002": "unable to access the pre-registration table ",
     "PRG_PAM_APP_003": "delete operation is not allowed ",
@@ -742,6 +761,8 @@
     "PRG_APP_005": "Failed to publish the ui spec",
     "PRG_APP_006": "Error while parsing json",
     "PRG_APP_007": "Audit Failed",
+    "PRG_APP_015": "Requested application id does not belong to the User",
+    "PRG_APP_016": "Invalid booking type",
     "PRG_DATA_SYNC_001": "no data found for the requested date range",
     "PRG_DATA_SYNC_005": "Unable to create zip file",
     "PRG_DATA_SYNC_006": "unable to fetch the document",
@@ -789,5 +810,11 @@
     "PRG_BOOK_RCI_034": "Json processing exception",
     "PRG_BOOK_RCI_035": "Registration center id not found",
     "PRG_BOOK_RCI_036": "Please complete your application before appointmnet booking"
-  }
+  },
+  "UI_VALIDATION_ERROR_CODES": {
+    "UI_1000": "Only alphabets are allowed",
+    "UI_1001": "Please enter between 3 to 50 characters",
+    "UI_1003": "Please enter values starting with a character followed by 6 digits and ending with a character",
+    "UI_1004": "Enter only 10 digit numbers"
+  }  
 }

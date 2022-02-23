@@ -35,7 +35,10 @@
       "buttonName": {
         "eng": "Edit",
         "ara": "تصحيح",
-        "fra": "modifier"
+        "fra": "modifier",
+        "tam": "தொகு",
+        "hin": "संपादित करें",
+        "kan": "ತಿದ್ದು"
       },
       "actionURL": "",
       "redirectURL": "/admin/masterdata/machine-type/single-view/$id",
@@ -125,39 +128,8 @@
       "showAsLink": "",
       "linkType": "",
       "LinkURL": "",
-      "inputType": "text",
-      "ismandatory": "true"
-    },
-    {
-      "name": "isActive",
-      "showInListView": "true",
-      "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif", "hin": "स्थिति   ",
-        "kan": "ಸ್ಥಿತಿ   ",
-        "tam": "நிலை "},
-      "sortOrder": "",
-      "showAsLink": "false",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "dropdown",
-      "ismandatory": "true"
-    },
-    {
-      "name": "createdDateTime",
-      "showInListView": "true",
-      "showInSingleView": "false",
-      "label": {
-        "eng": "Created Time",
-        "ara": "الوقت الذي تم إنشاؤه",
-        "fra": "Temps créé",
-        "hin": "बनाया गया समय  ",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ  ",
-        "tam": "நேரம் உருவாக்கப்பட்டது  "
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": ""
+      "inputType": "textarea",
+      "ismandatory": "false"
     },
     {
       "name": "createdBy",
@@ -209,6 +181,37 @@
       "showAsLink": "",
       "linkType": "",
       "LinkURL": ""
+    },
+    {
+      "name": "createdDateTime",
+      "showInListView": "true",
+      "showInSingleView": "false",
+      "label": {
+        "eng": "Created Time",
+        "ara": "الوقت الذي تم إنشاؤه",
+        "fra": "Temps créé",
+        "hin": "बनाया गया समय  ",
+        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ  ",
+        "tam": "நேரம் உருவாக்கப்பட்டது  "
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "isActive",
+      "showInListView": "true",
+      "showInSingleView": "false",
+      "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif", "hin": "स्थिति   ",
+        "kan": "ಸ್ಥಿತಿ   ",
+        "tam": "நிலை "},
+      "sortOrder": "",
+      "showAsLink": "false",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "dropdown",
+      "ismandatory": "false"
     }
   ],
   "paginator": {

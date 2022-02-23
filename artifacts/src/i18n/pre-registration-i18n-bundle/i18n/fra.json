@@ -9,29 +9,40 @@
       "line2": "Cliquez sur les sections suivantes pour plus d'informations sur comment remplir le formulaire de pré-inscription."
     },
     "select_language": {
-      "name": "Choisir la langue",
+      "name": "Sélectionnez la langue de préférence",
       "list": {
-        "line1": "Sur la page de connexion, cliquez sur Sélectionnez votre langue pour afficher la liste des langues.",
-        "line2": "Sélectionnez la langue de votre choix."
+        "line1": "Sur la page de connexion, cliquez sur la liste déroulante des langues pour voir la liste des langues.",
+        "line2": "Sélectionnez la langue de votre préférence."
       },
-      "note": "Remarque: lorsque vous vous trouvez dans la page Détails démographiques, les données sont affichées dans la langue de votre choix à gauche et les données dans la deuxième langue à droite de l'écran."
+      "note": "Remarque : Les libellés des champs et des boutons, les messages d'erreur et d'information dans toute l'application seront affichés dans la langue de votre choix."
     },
     "login": {
       "name": "Login",
       "list": {
         "line1": "Sur la page de connexion, entrez votre identifiant de messagerie valide ou votre numéro de portable dans la zone de texte Identifiant de messagerie ou numéro de portable.",
-        "line2": "Cliquez sur Envoyer OTP pour recevoir un mot de passe à usage unique sur votre adresse électronique ou votre numéro de téléphone portable.",
-        "line3": "Entrez l'OTP dans la zone de texte Entrer l'OTP et cliquez sur Vérifier."
+        "line2": "Sélectionnez le champ captcha.",
+        "line3": "Cliquez sur Envoyer OTP pour recevoir un mot de passe à usage unique (OTP) sur l'adresse e-mail ou le numéro de téléphone que vous avez fourni.",
+        "line4": "Entrez l'OTP dans la zone de texte Enter OTP et cliquez sur le bouton Vérifier."
       },
       "note": "Remarque: Si vous n'avez pas reçu OTP, cliquez sur Renvoyer pour recevoir à nouveau un OTP. Entrez l'OTP nouvellement reçu.",
       "line": "Lorsque votre OTP est vérifié, vous pouvez créer, afficher ou modifier votre application de pré-enregistrement."
+    },
+    "select_data_capture_language": {
+      "name": "Sélectionnez la langue de capture des données",
+      "list": {
+        "line1": "Un utilisateur se connectant pour la première fois et n'ayant aucune application sera invité à afficher une fenêtre contextuelle de langue de capture de données. Le même ensemble de langues sera utilisé pour le prochain ensemble d'applications créées dans la même session.",
+        "line2": "L'utilisateur de langue sélectionné dans l'écran de connexion sera présélectionné dans la fenêtre contextuelle de langue de capture de données",
+        "line3": "L'utilisateur peut modifier cela en cliquant sur le bouton CHANGER LES LANGUES DE CAPTURE DES DONNÉES"
+      },
+      "note": "Remarque : Ce choix ne sera disponible que si l'émetteur de l'ID a configuré l'utilisation de langues facultatives."
     },
     "t&c": {
       "name": "Accepter les termes et conditions",
       "list": {
         "line1": "Sur la page Données démographiques, il vous est conseillé de lire les conditions générales et de cocher la case correspondante. Cet accord vise à donner son consentement pour le stockage et le traitement de vos informations personnelles.",
         "line2": "Cliquez sur Accepter pour accepter puis complétez les détails démographiques."
-      }
+      },
+      "note": "Remarque : le consentement de l'utilisateur est obligatoire pour créer/mettre à jour des applications. Le contenu sera affiché dans toutes les langues de capture de données."
     },
     "demographic": {
       "name": "Remplir les détails démographiques",
@@ -41,7 +52,7 @@
         "line2": "Vous pouvez également modifier ou vérifier vos données démographiques dans la deuxième langue à droite.",
         "line3": "Une fois que vous avez rempli et vérifié vos informations démographiques, cliquez sur Continuer pour télécharger vos documents."
       },
-      "line": "Les données de la page Détails démographiques sont affichées dans deux langues différentes, votre langue préférée à gauche et la deuxième langue à droite de l'écran."
+      "line": "Remarque : Les libellés des champs et des boutons, les messages d'erreur et d'information seront affichés dans la langue préférée de l'utilisateur sélectionnée dans l'écran de connexion."
     },
     "documents": {
       "name": "Télécharger des documents",
@@ -129,6 +140,9 @@
         "booked": {
           "line1": "Données démographiques renseignées, documents téléchargés et rendez-vous pris",
           "line1_action": "Action: Rendez-vous au centre d’inscription à la date et à l’heure de votre rendez-vous."
+        },
+        "cancelled": {
+          "line1": "Le rendez-vous a été annulé"
         },
         "expired": {
           "line1": "La date de rendez-vous est passée"
@@ -448,7 +462,8 @@
       "text_status": "Statut",
       "action_modify_information": "Modifier les informations",
       "action_view_acknowledgement": "Voir accusé de réception",
-      "action_view_information": "Afficher les informations"
+      "action_view_information": "Afficher les informations",
+      "data_capture_langs": "Langages de capture de données"
     },
     "discard": {
       "title_confirm": "Confirmer",
@@ -472,7 +487,8 @@
       "booked": "Réservé",
       "expired": "Expiré",
       "cancelled": "Annulé",
-      "Application_Incomplete":"Demande incomplète"
+      "Application_Incomplete":"Demande incomplète",
+      "prefetched": "Préchargé"
     },
     "error": {
       "error": "Erreur Interne du Serveur. Veuillez réessayer après un certain temps.",
@@ -581,7 +597,8 @@
       "booked": "Rendez-vous est réservé avec succès",
       "expired": "La date de rendez-vous est passée",
       "cancelled":"Le rendez-vous a été annulé",
-      "Application_Incomplete": "La demande est incomplète"
+      "Application_Incomplete": "La demande est incomplète",
+      "prefetched": "L'application a été préchargée dans le centre d'enregistrement"
     },
     "deleteIcon": "Vous pouvez soit rejeter la demande entière, soit annuler le rendez-vous et enregistrer les détails.",
     "book/modify_appointment": "Vous devez cocher la case en regard de l'identifiant de pré-inscription pour qu'un ou plusieurs demandeurs puissent prendre un rendez-vous",
@@ -595,7 +612,8 @@
     "nearBy": "Centres d'inscription basés sur votre géolocalisation",
     "magnifying_glass": "Recherche basée sur la sélection du menu déroulant.",
     "preview_continue": "Téléchargez tous les fichiers pour continuer",
-    "lockIcon":"Les détails de la demande ne peuvent pas être modifiés une fois que le rendez-vous est réservé, annulé ou expiré"
+    "lockIcon":"Les détails de la demande ne peuvent pas être modifiés une fois que le rendez-vous est réservé, annulé ou expiré",
+    "prefetchedLockIcon": "Les détails de l'application ne peuvent pas être modifiés une fois qu'ils sont préchargés dans le centre d'enregistrement"
   },
   "error": {
     "error": "Une erreur technique s'est produite et l'opération ne peut pas être terminée. Aucune donnée fournie ne peut être sauvegardée",
@@ -660,6 +678,7 @@
     "PRE-REG-OTP-405": "Paramètre d'entrée manquant - %s",
     "PRE-REG-OTP-406": "Échec de la validation des données d'entrée",
     "PRE-REG-OTP-407": "La génération du jeton a échoué",
+    "PRE-REG-OTP-408": "OTP a déjà été généré et envoyé à votre adresse e-mail / numéro de téléphone. Si vous voulez un nouvel OTP, veuillez réessayer après un certain temps.",
     "PRG_PAM_APP_001": "Impossible de créer la pré-inscription avec les données démographiques fournies",
     "PRG_PAM_APP_002": "Impossible d'accéder à la table de pré-inscription",
     "PRG_PAM_APP_003": "l'opération de suppression n'est pas autorisée",
@@ -730,6 +749,8 @@
     "PRG_APP_005": "Échec de la publication de la spécification d'interface utilisateur",
     "PRG_APP_006": "Erreur lors de l'analyse de json",
     "PRG_APP_007": "Échec de l'audit",
+    "PRG_APP_015": "L'identifiant de l'application demandé n'appartient pas à l'utilisateur",
+    "PRG_APP_016": "Type de réservation invalide",
     "PRG_DATA_SYNC_001": "aucune donnée trouvée pour la plage de dates demandée",
     "PRG_DATA_SYNC_005": "Impossible de créer le fichier zip",
     "PRG_DATA_SYNC_006": "Impossible de récupérer le document",
@@ -777,5 +798,9 @@
     "PRG_BOOK_RCI_034": "Exception de traitement Json",
     "PRG_BOOK_RCI_035": "Identifiant du centre d'enregistrement introuvable",
     "PRG_BOOK_RCI_036": "Veuillez compléter votre demande avant de prendre rendez-vous"
+  },
+  "UI_VALIDATION_ERROR_CODES": {
+    "UI_1000": "Seuls les alphabets sont autorisés",
+    "UI_1001": "Veuillez saisir entre 3 et 50 caractères"
   }
 }

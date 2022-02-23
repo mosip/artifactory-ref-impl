@@ -60,8 +60,6 @@ ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 # environment variable for ref-idobjectvalidator jar
 ENV idobject_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-ref-idobjectvalidator
 
-# environment variable for regproc auth jar
-ENV regproc_jar_path=${base_path}/libs-snapshot-local/io/mosip/kernel/kernel-auth-adapter
 
 # environment variable for prereg transliteration jar path
 ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
@@ -78,44 +76,46 @@ ENV regclient_jar_path=${base_path}/libs-release-local
 ENV child_auth_filter_jar_path=${base_path}/libs-snapshot-local/io/mosip/authentication/authentication-ref-impl
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
-ENV version=1.2.0-SNAPSHOT
+ENV version=1.2.0.1-SNAPSHOT
+
+ENV master_template_path=${base_path}/libs-release-local/master-templates
 
 # environment variable for maven central mosip artifacts 
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
 #ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
-ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.2.0-SNAPSHOT/kernel-auth-adapter-1.2.0-20210726.062928-350.jar
+ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-1.2.0.1-20220221.094757-3.jar
 
 # environment variable for msg91_jar url. 
 #ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
-ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.2.0-SNAPSHOT/kernel-smsserviceprovider-msg91-1.2.0-20210723.085533-510.jar
+ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-1.2.0-rc2-20220210.163150-311.jar
 
 # environment variable for ref-idobjectvalidator_jar url
 #ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
-ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210726.095443-451.jar
+ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-1.2.0-rc2-20220210.163150-311.jar
 
 # environment variable for clamav jar and client url
-ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0-SNAPSHOT/kernel-virusscanner-clamav-1.2.0-20210726.132926-512.jar
+ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/${version}/kernel-virusscanner-clamav-1.2.0-rc2-20220210.163150-108.jar
 
 ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
 # environment variable for sdk url
-ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/1.2.0-SNAPSHOT/mock-sdk-1.2.0-20210730.093319-3.jar
+ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/1.2.0-SNAPSHOT/mock-sdk-1.2.0-20210916.072002-15.jar
 
 # environment variable for cache URL 
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
 
 # environment variable for biosdk client jar URL
-ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.2.0-SNAPSHOT/biosdk-client-1.2.0-20210727.071028-253-jar-with-dependencies.jar
+ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/${version}/biosdk-client-1.2.0.1-20220215.100409-1-jar-with-dependencies.jar
 # environment variable for demosdk jar URL
-ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk-client/1.2.0-SNAPSHOT/demosdk-client-1.2.0-20210527.071414-3-jar-with-dependencies.jar
+ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/${version}/demosdk-1.2.0.1-20220215.093122-1-jar-with-dependencies.jar
 
 # environment variable for child authentication filter jar URL
-ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/1.2.0-SNAPSHOT/authentication-childauthfilter-impl-1.2.0-20210723.104346-21.jar
+ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/${version}/authentication-childauthfilter-impl-1.2.0-rc2-20220210.162852-24.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${master_template_path}
 
 # Copy all the respective jars to the location
 
@@ -137,13 +137,21 @@ COPY /src/i18n/admin-entity-spec-bundle/*  ${work_dir}/admin-entity-spec-bundle/
 
 COPY /src/i18n/admin-i18n-bundle/*  ${work_dir}/admin-i18n-bundle/
 
+COPY /src/i18n/pmp-entity-spec-bundle/*  ${work_dir}/pmp-entity-spec-bundle/
+
+COPY /src/i18n/pmp-i18n-bundle/*  ${work_dir}/pmp-i18n-bundle/
+
 COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n-bundle/
+
+COPY /src/master-templates/* ${work_dir}/master-templates/
 
 RUN zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources  && \
 zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ${work_dir}/admin-entity-spec-bundle/*  && \
 zip -r -j ${i18n_zip_path}/admin-i18n-bundle.zip ${work_dir}/admin-i18n-bundle/*  && \
-zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ${work_dir}/pre-registration-i18n-bundle/*
-
+zip -r -j ${i18n_zip_path}/pmp-entity-spec-bundle.zip ${work_dir}/pmp-entity-spec-bundle/*  && \
+zip -r -j ${i18n_zip_path}/pmp-i18n-bundle.zip ${work_dir}/pmp-i18n-bundle/*  && \
+zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ${work_dir}/pre-registration-i18n-bundle/* && \
+zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templates/*
 
 COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
 
@@ -155,7 +163,6 @@ COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zul
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
 
-COPY /src/auth/* ${regproc_jar_path}/
 
 # Download required respective all the jars and create biosdk zip
 

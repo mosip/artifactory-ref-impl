@@ -121,15 +121,6 @@
       "LinkURL": ""
     },
     {
-      "name": "isActive",
-      "showInListView": "true",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
-      "sortOrder": "",
-      "showAsLink": "false",
-      "linkType": "",
-      "LinkURL": ""
-    },
-    {
       "name": "macAddress",
       "showInListView": "",
       "label": { "eng": "Mac Address", "ara": "عنوان", "fra": "Mac Adresse","hin": "मैक पते", "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ", "tam": "Mac முகவரி" },
@@ -158,12 +149,12 @@
       "name": "mapStatus",
       "showInListView": "",
       "label": {
-        "eng": "Map Status",
-        "ara": "تعيين الحالة",
-        "fra": "Attribuer un statut",
-        "hin": "मानचित्र स्थिति",
-        "kan": "ನಕ್ಷೆಯ ಸ್ಥಿತಿ",
-        "tam": "வரைபட நிலை"
+        "eng": "Center",
+        "ara": "مركز",
+        "fra": "Centre",
+        "hin": "केंद्र",
+        "kan": "ಕೇಂದ್ರ",
+        "tam": "மையம்"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -183,6 +174,15 @@
       },
       "sortOrder": "",
       "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "isActive",
+      "showInListView": "true",
+      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "sortOrder": "",
+      "showAsLink": "false",
       "linkType": "",
       "LinkURL": ""
     }

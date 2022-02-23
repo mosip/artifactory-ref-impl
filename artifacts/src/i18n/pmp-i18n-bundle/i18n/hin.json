@@ -1,0 +1,585 @@
+{
+  "menuItems": {
+    "item1": {
+      "title": "HOME_hin"
+    },
+    "item2": {
+      "title": "Policy_hin",
+      "subItem1": "Policy Group_hin",
+      "subItem2": "Auth Policy_hin",
+      "subItem3": "Data Share Policy_hin"
+    },
+    "item3": {
+      "title": "Partner_hin"
+    },
+    "item4": {
+      "title": "Device Details_hin"
+    },
+    "item5": {
+      "title": "FTM Details_hin"
+    },
+    "item6": {
+      "title": "SBI Details_hin"
+    },
+    "item7": {
+      "title": "Partner Policy Mapping_hin"
+    },
+    "item8": {
+      "title": "Upload CA Certificate_hin"
+    }
+  },
+  "dashboard": {
+    "welcomeMessage":"Welcome to Mosip Partner portal hin !",
+    "Logout":"Logout_hin"
+  },
+  "singleView": {
+    "errorMessages": [
+      "No record found_hin",
+      "A technical error has occurred_hin"
+    ],
+    "buttonText": "OK_hin",
+    "title": "Error_hin"
+  },
+  "masterData": {
+    "master-data": "Master Data_hin",
+    "total-no": "Total No_hin",
+    "common": "Common_hin",
+    "device-definition": "Device Definition_hin",
+    "machine-definition": "Machine Definition_hin",
+    "document-definition": "Document Definition_hin",
+    "doc-category-mapping": "Doc Category - Type Mapping_hin",
+    "category": "Category_hin",
+    "mapped-documents": "Mapped Documents_hin",
+    "unmapped-documents": "Unmapped Documents_hin"
+  },
+  "pmanager": {
+    "status": "Status_hin",
+    "language": "English_hin",
+    "edit": "Edit_hin",
+    "create": "Create_hin",
+    "cancel": "Cancel_hin",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_hin",
+    "update": "Update_hin",
+    "created-on": "Created On_hin",
+    "created-by": "Created By_hin",
+    "updated-on": "Updated On_hin",
+    "updated-by": "Updated By_hin",
+    "header": "Change Policy_hin",
+    "name": "Policy Name_hin",
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_hin",
+        "message": [
+          "You are about to create a Registration Center in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"
+        ],
+        "yesBtnText": "Yes_hin",
+        "noBtnText": "No_hin",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
+      },
+      "edit": {
+        "title": "Confirmation_hin",
+        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_hin",
+        "yesBtnText": "Confirm_hin",
+        "noBtnText": "Cancel_hin",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
+      },
+      "update-success": {
+        "title": "Success_hin",
+        "message": "Partner is updated Successfully_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "update-error": {
+        "title": "Error_hin",
+        "message": "There was some issue in updating the Partner. Please try again_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "create-success": {
+        "title": "Success_hin",
+        "message": [
+          "Partner is created Successfully with Partner ID: ",
+          " and Partner Name: _hin"
+        ],
+        "btnTxt": "Ok_hin"
+      },
+      "create-error": {
+        "title": "Error_hin",
+        "message": "There was some issue in creating Partner. Please try again_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_hin",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._hin",
+        "yesBtnTxt": "Leave_hin",
+        "noBtnTxt": "Stay_hin"
+      },
+      "noData": {
+        "title": "Error_hin",
+        "message": "No Data Found_hin",
+        "btnTxt": "Ok_hin"
+      }
+    }
+  },
+  "partner": {
+    "address1": "Address_hin",
+    "header": "Partner Service_hin",
+    "name": "Organization_hin",
+    "id": "Id_hin",
+    "status": "Status_hin",
+    "language": "English_hin",
+    "edit": "Edit_hin",
+    "create": "Create_hin",
+    "cancel": "Cancel_hin",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_hin",
+    "update": "Update_hin",
+    "partner-details": "Partner Details_hin",
+    "created-on": "Created On_hin",
+    "created-by": "Created By_hin",
+    "updated-on": "Updated On_hin",
+    "updated-by": "Updated By_hin",
+    "registration-partner-name": "Organization Name_hin",
+    "registration-partner-type": "Policy Name_hin",
+    "contact-person": "Email Id_hin",
+    "contact-number": "Contact Number_hin",
+    "location-details": "Address Details_hin",
+    "validationMessages": {
+      "partnerTypeCode": {
+        "required": "Policy Name is required_hin"
+      },
+      "name": {
+        "required": "Organization Name is required_hin",
+        "max-length": "Exceeded max length (128)_hin"
+      },
+      "addressLine1": {
+        "required": "Address is required_hin",
+        "max-length": "Exceeded max length (256)_hin"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_hin",
+        "message": [
+          "You are about to create a Registration Center in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"
+        ],
+        "yesBtnText": "Yes_hin",
+        "noBtnText": "No_hin",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
+      },
+      "edit": {
+        "title": "Confirmation_hin",
+        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_hin",
+        "yesBtnText": "Confirm_hin",
+        "noBtnText": "Cancel_hin",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
+      },
+      "update-success": {
+        "title": "Success_hin",
+        "message": "Partner is updated Successfully_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "update-error": {
+        "title": "Error_hin",
+        "message": "There was some issue in updating the Partner. Please try again_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "create-success": {
+        "title": "Success_hin",
+        "message": [
+          "Partner is created Successfully with Partner ID: ",
+          " and Partner Status is: _hin"
+        ],
+        "btnTxt": "Ok_hin"
+      },
+      "create-error": {
+        "title": "Error_hin",
+        "message": "There was some issue in creating Partner. Please try again_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_hin",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._hin",
+        "yesBtnTxt": "Leave_hin",
+        "noBtnTxt": "Stay_hin"
+      },
+      "noData": {
+        "title": "Error_hin",
+        "message": "No Data Found_hin",
+        "btnTxt": "Ok_hin"
+      }
+    }
+  },
+  "misp": {
+    "header": "MISP_hin",
+    "name": "Name_hin",
+    "id": "Id_hin",
+    "isActive": "Misp Status_hin",
+    "contact_no": "Phone No_hin",
+    "status": "Status_hin",
+    "address": "Address_hin",
+    "misp-details": "Misp Details_hin",
+    "created-on": "Created On_hin",
+    "created-by": "Created By_hin",
+    "updated-on": "Updated On_hin",
+    "updated-by": "Updated By_hin",
+    "email_id": "Email_hin",
+    "edit": "Edit_hin",
+    "create": "Create_hin",
+    "cancel": "Cancel_hin",
+    "language": "English_hin",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_hin",
+    "update": "Update_hin",
+    "validationMessages": {
+      "name": {
+        "required": "Misp Name is required_hin",
+        "max-length": "Exceeded max length (128)_hin"
+      },
+      "address": {
+        "required": "Misp Address is required_hin",
+        "max-length": "Exceeded max length (128)_hin"
+      },
+      "phoneNo": {
+        "required": "Misp phoneNo is required_hin"
+      },
+      "email": {
+        "required": "Misp email is required_hin"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_hin",
+        "message": [
+          "You are about to create a Misp in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"
+        ],
+        "yesBtnText": "Yes_hin",
+        "noBtnText": "No_hin",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_hin"
+      },
+      "edit": {
+        "title": "Confirmation_hin",
+        "message": "You are about to update a misp. Please ensure that all the information is correct_hin",
+        "yesBtnText": "Confirm_hin",
+        "noBtnText": "Cancel_hin",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_hin"
+      },
+      "update-success": {
+        "title": "Success_hin",
+        "message": "Misp is updated Successfully_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "update-error": {
+        "title": "Error_hin",
+        "message": "There was some issue in updating the misp. Please try again_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "create-success": {
+        "title": "Success_hin",
+        "message": ["MISP is created Successfully._hin"],
+        "btnTxt": "Ok_hin"
+      },
+      "create-error": {
+        "title": "Error_hin",
+        "message": "There was some issue in creating a misp. Please try again_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_hin",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._hin",
+        "yesBtnTxt": "Leave_hin",
+        "noBtnTxt": "Stay_hin"
+      },
+      "noData": {
+        "title": "Error_hin",
+        "message": "No Data Found_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "lunchTimeValidation": {
+        "title": "Error_hin",
+        "message": "Please select center timings before selecting lunch timings_hin",
+        "btnTxt": "Ok_hin"
+      }
+    }
+  },
+  "validationMessages": {
+    "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_hin",
+    "range": "’To’ date cannot be before ‘From’ date'_hin",
+    "invalid": "Please select a valid value for Date_hin"
+  },
+  "actionMessages": {
+    "decommission": {
+      "success-message": ["", " is approved successfully_hin"],
+      "success-title": "Success_hin",
+      "error-message": "Cannot approve the Misp.Currently Misp is inactive_hin",
+      "error-title": "Error_hin",
+      "btnTxt": "Ok_hin",
+      "yesBtnTxt": "Confirm_hin",
+      "noBtnTxt": "Cancel_hin",
+      "confirmation-message": [
+        "Do you want to Approve the Misp ",
+        " ? \n You cannot undo this action once you click on Confirm._hin"
+      ],
+      "confirmation-title": "Confirmation_hin"
+    },
+    "activate": {
+      "success-message": ["", " is Activated Successfully_hin"],
+      "success-title": "Success_hin",
+      "error-message": "Could not be Activated_hin",
+      "error-title": "Error_hin",
+      "btnTxt": "Ok_hin",
+      "yesBtnTxt": "Yes_hin",
+      "noBtnTxt": "No_hin",
+      "confirmation-message": [
+        "Do you want to Activate the ",
+        "? \n You can Deactivate it later if you wish. Till then it will be set as Active_hin"
+      ],
+      "confirmation-title": "Confirmation_hin"
+    },
+    "deactivate": {
+      "success-message": ["", " is Deactivated Successfully_hin"],
+      "success-title": "Success_hin",
+      "error-message": "Misp Could not be Deactivated_hin",
+      "error-title": "Error_hin",
+      "btnTxt": "Ok_hin",
+      "yesBtnTxt": "Yes_hin",
+      "noBtnTxt": "No_hin",
+      "confirmation-message": [
+        "Do you want to Deactivate the ",
+        " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_hin"
+      ],
+      "confirmation-title": "Confirmation_hin"
+    }
+  },
+  "policy": {
+    "header": "Policy_hin",
+    "name": "Name_hin",
+    "desc": "Description_hin",
+    "authPolicies": "Allowed Auth Types_hin",
+    "allowedKycAttributes": "Allowed Kyc Attributes_hin",
+    "id": "Id_hin",
+    "isActive": "Status_hin",
+    "policy-details": "Policy Details_hin",
+    "created-on": "Created On_hin",
+    "created-by": "Created By_hin",
+    "updated-on": "Updated On_hin",
+    "updated-by": "Updated By_hin",
+    "edit": "Edit_hin",
+    "create": "Create_hin",
+    "cancel": "Cancel_hin",
+    "language": "English_hin",
+    "keyboard-tooltip": "Click for Virtual Keyboard (English)_hin",
+    "update": "Update_hin",
+    "validationMessages": {
+      "name": {
+        "required": "Policy Name is required_hin",
+        "max-length": "Exceeded max length (128)_hin"
+      },
+      "desc": {
+        "required": "Policy description is required_hin",
+        "max-length": "Exceeded max length (128)_hin"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmation_hin",
+        "message": [
+          "You are about to create a Policy in ",
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"
+        ],
+        "yesBtnText": "Yes_hin",
+        "noBtnText": "No_hin",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_hin"
+      },
+      "edit": {
+        "title": "Confirmation_hin",
+        "message": "You are about to update a policy. Please ensure that all the information is correct_hin",
+        "yesBtnText": "Confirm_hin",
+        "noBtnText": "Cancel_hin",
+        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_hin"
+      },
+      "update-success": {
+        "title": "Success_hin",
+        "message": "policy is updated Successfully_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "update-error": {
+        "title": "Error_hin",
+        "message": "There was some issue in updating the policy. Please try again_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "create-success": {
+        "title": "Success_hin",
+        "message": ["Policy is created Successfully._hin"],
+        "btnTxt": "Ok_hin"
+      },
+      "create-error": {
+        "title": "Error_hin",
+        "message": "There was some issue in creating a policy. Please try again_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "navigation-popup": {
+        "title": "Confirmation_hin",
+        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._hin",
+        "yesBtnTxt": "Leave_hin",
+        "noBtnTxt": "Stay_hin"
+      },
+      "noData": {
+        "title": "Error_hin",
+        "message": "No Data Found_hin",
+        "btnTxt": "Ok_hin"
+      },
+      "lunchTimeValidation": {
+        "title": "Error_hin",
+        "message": "Please select center timings before selecting lunch timings_hin",
+        "btnTxt": "Ok_hin"
+      }
+    }
+  },
+  "uploadcertificate": {
+    "title": "Upload Certificate_hin",
+    "CAtitle": "Upload CA Certificate_hin",
+    "partnerDomain": "Partner Domain_hin",
+    "chooseFile": "Choose File_hin",
+    "uploadYourFile": "Upload Your File_hin",
+    "button": "Upload_hin",
+    "cancel": "Cancel_hin"
+  },
+  "isActive": {
+    "Active": "ACTIVE_hin",
+    "InActive": "INACTIVE_hin"
+  },
+  "genericerror": {
+    "fieldValidation": "This field is required_hin",
+    "fieldNameValidation": " is required_hin"
+  },
+  "serverError": {
+    "PMS-COR-001": "गुम इनपुट पैरामीटर",
+    "PMS-PRT-002": "नीति समूह मौजूद नहीं है",
+    "PMS-PRT-010": " पार्टनर प्रकार मौजूद नहीं है",
+    "PMS-PRT-310": " अमान्य कॉलम प्राप्त हुआ : %s",
+    "PMS-PRT-313": " अमान्य पेजिनेशन मान प्राप्त हुआ पेजस्टार्ट:%d और पेजफेच:%d",
+    "PMS-PRT-312": "फ़िल्टर प्रकार गुम है",
+    "PMS-PRT-311": "अनुरोध में कॉलम गायब है",
+    "PMS-PRT-314": "अनुपलब्ध सॉर्ट फ़ील्ड या सॉर्ट प्रकार मान",
+    "PMS-PRT-315": "वैल्यू या टू वैल्यू से अमान्य",
+    "PMS-PRT-356": "पेजिनेशन शून्य नहीं हो सकता",
+    "PMS-PRT-358": "सॉर्ट प्रकार %s समर्थित नहीं है",
+    "PMS-PRT-359": "छँटाई करते समय त्रुटि हुई",
+    "PMS-PRT-357": "अमान्य सॉर्ट फ़ील्ड %s",
+    "KER-PRT-390": "अमान्य फ़िल्टर मान",
+    "PMS-PRT-001": "  एक भागीदार पहले से ही इसी नाम से पंजीकृत है",
+    "PMS-PRT-051": " एक भागीदार पहले से ही उसी आईडी के साथ पंजीकृत है",
+    "PMS-PRT-052": "PartnerId की अधिकतम लंबाई होनी चाहिए",
+    "PMS-ATH-053": "पेजिंग अनुरोध पास करते समय आईओ अपवाद हुआ",
+    "PMS-ATH-054": "उपयोगकर्ता नहीं मिला",
+    "PMS-ATH-500": " सर्वर त्रुटि हुई, कृपया लॉग जांचें",
+    "PMS-PRT-061": "भागीदार नीति मानचित्रण मौजूद नहीं है।",
+    "PMS-PRT-062": "पार्टनर एपीआई कुंजी अनुरोध पहले से ही स्वीकृत है। अभी एक्सट्रैक्टर नहीं जोड़े जा सकते.",
+    "PMS-PRT-063": "बायोमेट्रिक एक्सट्रैक्टर केवल इसके लिए जोड़े जा सकते हैं:",
+    "PMS-PRT-064": "कोई विवरण नहीं मिला",
+    "PMS-PRT-070": "केवल इसके लिए क्रेडेंशियल मैपिंग की अनुमति है:",
+    "PMS-PRT-071": "नीति स्ट्रिंग को json ऑब्जेक्ट में पार्स करते समय त्रुटि हुई",
+    "PMS-PRT-072": "दिए गए क्रेडेंशियल प्रकार की अनुमति नहीं है. अनुमत क्रेडेंशियल प्रकार:",
+    "PMS-PRT-073": "नीति मौजूद नहीं है।",
+    "PMS-PRT-074": "उपयोगकर्ता एक ही ईमेल के साथ मौजूद है",
+    "PMS-PRT-005": "साथी मौजूद नहीं है",
+    "PMS-PRT-006": "कोई एपीआई कुंजी अनुरोध मौजूद नहीं है",
+    "PMS-PRT-105": "पार्टनर एपीआई कुंजी नहीं बनाई गई है",
+    "PMS-PRT-011": "ईमेल पहले से मौजूद है।",
+    "PMS-PRT-012": "अमान्य ईमेल आईडी।",
+    "PMS-PRT-013": "अमान्य मोबाइल नंबर. लंबाई से कम होनी चाहिए.",
+    "PMS-ATH-401": "प्रमाणीकरण विफल हो गया",
+    "PMS-PRT-106": "APIKeyReqID स्थिति प्रगति पर है",
+    "PMS-KKS-001": "एपीआई पहुंच योग्य नहीं है",
+    "PMS-PRT-107": "एपीआई से प्रतिक्रिया शून्य है",
+    "PMS-PRT-500": "अनुरोध संसाधित करने में असमर्थ.",
+    "PMS-PMP-016": "पार्टनर सक्रिय नहीं है.",
+    "PMS-PRT-098": "पार्टनर के पॉलिसी ग्रुप के तहत दी गई पॉलिसी मौजूद नहीं है।",
+    "PMS-PMP-019": "नीति सक्रिय नहीं है.",
+    "PMS-PMP-023": "नीति समूह सक्रिय नहीं है।",
+    "PMS-DTS-001": "डेटाशेयर प्रतिक्रिया शून्य है",
+    "PMS-PRT-045": "P7B प्रमाणपत्र डेटा को पार्स करते समय त्रुटि हुई",
+    "PMS-PRT-046": "लीफ सर्टिफिकेट निकालते समय त्रुटि हुई।",
+    "PMS-PRT-047": "पार्टनर को नीति समूह में मैप नहीं किया गया है",
+    "PMS-PRT-048": "दिए गए भागीदार के लिए नीति समूह मानचित्रण की आवश्यकता नहीं है",
+    "PMS-PRT-049": "दिए गए भागीदार के लिए नीति समूह मानचित्रण मौजूद है।",
+    "PMS-PRT-050": "स्वीकृत पार्टनर के लिए नीति समूह को अपडेट नहीं किया जा सकता",
+    "PMS-PRT-054": "नीति समूह दिए गए भागीदार के लिए मैप नहीं किया गया",
+    "PMS-PRT-055": "उपयोगकर्ता अधिकृत नहीं है।",
+    "PMS-PM-034": " नीति अनुरोध पहले ही स्वीकृत है।",
+    "PMS-PM-035": " नीति अनुरोध पहले ही अस्वीकार कर दिया गया है।",
+    "PMS-PM-045": " स्थिति या तो स्वीकृत या अस्वीकृत होनी चाहिए",
+    "PMS-PM-051": "निकालने वाले मौजूद नहीं हैं। कृपया एक्सट्रैक्टर्स जोड़ें।",
+    "PMS-PM-058": " स्थिति या तो सक्रिय या निष्क्रिय होनी चाहिए",
+    "PMS-PMP-010": "नीति भागीदार प्रबंधक के नीति समूह से संबंधित नहीं है",
+    "PMS-PMP-015": "नीति समूह के लिए कोई भागीदार एपीआई प्रमुख अनुरोध नहीं",
+    "PMS-PMP-007": "पार्टनर एपीआई कुंजी मौजूद नहीं है",
+    "PMS-PMP-011": "पार्टनर एपीआई कुंजी मौजूद नहीं है",
+    "PMS-PMP-009": "दिए गए पार्टनर और एपीकी मैपिंग के लिए मौजूद नहीं है।",
+    "PMS-PMP-013": "साथी मौजूद नहीं है",
+    "PMS-PMP-005": "पार्टनर आईडी मौजूद नहीं है",
+    "PMS-PMP-017": "पार्टनर को किसी भी नीति से मैप नहीं किया गया है।",
+    "PMS-PMP-020": "MISP लाइसेंस कुंजी मौजूद नहीं है।",
+    "PMS-PMP-021": "MISP लाइसेंस कुंजी की समय सीमा समाप्त हो गई है।",
+    "PMS-PMP-022": "नीति मौजूद नहीं है।",
+    "PMS-PMP-024": "नीति फ़ाइल दूषित है।",
+    "PMS-PMP-025": "MISP की लाइसेंस कुंजी अवरुद्ध है",
+    "PMS-PMP-50": "एपीआई कुंजी को देखते हुए, पार्टनर और पॉलिसी मैपिंग मौजूद नहीं है।",
+    "PMS-PMP-51": "दी गई नीति भागीदार के नीति समूह से संबंधित नहीं है",
+    "PMS-PMP-052": "भागीदार प्रमाणपत्र उपलब्ध नहीं है",
+    "PMS-PMP-014": "नीति मौजूद नहीं है",
+    "PMS-PMS-022": "दिया गया पार्टनर एपीआई कुंजी सक्रिय नहीं है।",
+    "PMS-PMP-018": "पॉलिसी समाप्त हो गई।",
+    "PMS-PRT-108": "दिए गए भागीदार के लिए प्रमाणपत्र अपलोड नहीं किया गया है। उसे सक्रिय नहीं किया जा सकता है।",
+    "PMS-AUT-002": "पार्टनर सूची से डिवाइस प्रदाता आईडी नहीं मिली",
+    "PMS-AUT-003": "डिवाइस विवरण पहले से मौजूद है",
+    "PMS-AUT-004": "डुप्लीकेट अनुरोध प्राप्त हुआ",
+    "PMS-AUT-005": "आईडी %s के लिए उपकरण विवरण मौजूद नहीं है",
+    "PMS-AUT-025": "ApprovalStatus सक्रिय / निष्क्रिय होना चाहिए;",
+    "PMP-AUT-030": "एफ़टीपी प्रदाता मौजूद नहीं है।",
+    "PMP-AUT-031": "एफ़टीपी चिप आईडी मौजूद नहीं है।",
+    "PMP-AUT-032": "दिया गया प्रदाता, मेक और मॉडल पहले से मौजूद है।",
+    "PMP-AUT-033": "प्रमाणपत्र अपलोड नहीं किया गया है।",
+    "PMP-AUT-034": "एफ़टीपी चिप विवरण आईडी और एफ़टीपी प्रदाता आईडी मैप नहीं की गई।",
+    "PMP-AUT-037": "दिए गए एफ़टीपी चिप विवरण पहले से पंजीकृत हैं।;",
+    "PMS-AUT-007": "आईडी %s . के लिए सुरक्षित बायोमीट्रिक इंटरफ़ेस नहीं मिला",
+    "PMS-AUT-026": "ApprovalStatus सक्रिय / निष्क्रिय होना चाहिए",
+    "PMS-AUT-506": "एक ही प्रदाता का उपकरण विवरण प्रदान करें।",
+    "PMS-AUT-507": "समाप्ति तिथि बनाई गई तिथि से अधिक होनी चाहिए",
+    "PMS-AUT-508": "समाप्ति तिथि आज से अधिक/बराबर होनी चाहिए।",
+    "PMS-POL-002": "पॉलिसी मैनेजर क्रेडेंशियल्स का बेमेल होना",
+    "PMS-POL-004": "पॉलिसी समूह में पॉलिसी का नाम पहले से मौजूद है। नाम:",
+    "PMS-POL-005": "पॉलिसी फ़ाइल में असमर्थित केवाईसी विशेषता",
+    "PMS-POL-006": "नीति फ़ाइल में असमर्थित प्रमाणीकरण प्रकार",
+    "PMS-POL-007": "पॉलिसी फ़ाइल में eKYC विशेषता गायब है",
+    "PMS-POL-008": "पॉलिसी आईडी मौजूद नहीं है",
+    "PMS-POL-009": "प्रामाणिक नीति नाम के साथ मौजूद है:",
+    "PMS-COR-002": "अमान्य इनपुट पैरामीटर -",
+    "PMS-COR-003": "अनुरोध संसाधित नहीं किया जा सका",
+    "PMS-POL-010": " प्रामाणिक नीतियों को नीति के विरुद्ध परिभाषित नहीं किया गया है",
+    "PMS-POL-013": "पार्टनर API कुंजी के लिए कोई नीति उपलब्ध नहीं है",
+    "PMS-POL-014": "नीति समूह नाम के साथ मौजूद है:",
+    "PMS-POL-015": "नीति समूह और नीति मैप नहीं की गई।",
+    "PMS-POL-016": "नीति समूह आईडी मौजूद नहीं है",
+    "PMS-POL-017": "दिए गए पार्टनर के लिए कोई पॉलिसी उपलब्ध नहीं है",
+    "PMS-POL-018": "दिए गए भागीदार और नीति को मैप नहीं किया गया है।",
+    "PMS-POL-019": "नीति समूह का नाम मौजूद नहीं है",
+    "PMS-POL-020": "प्रकाशित नीति प्रकाशित नहीं कर सकता",
+    "PMS-POL-021": "नीति प्रकार के लिए अनुमत प्रमाणीकरण प्रकारों की आवश्यकता नहीं है",
+    "PMS-POL-022": "दिए गए प्रमाणीकरण टोकन प्रकार की अनुमति नहीं है",
+    "PMS-POL-023": "दिए गए नीति प्रकार की अनुमति नहीं है",
+    "PMS-POL-045": "नीति स्थिति या तो सक्रिय या निष्क्रिय।",
+    "PMS-POL-046": "दी गई नीति प्रकार के लिए डेटाशेयर विशेषताओं की आवश्यकता नहीं है",
+    "PMS-POL-047": "दिए गए नीति प्रकार के लिए साझा करने योग्य विशेषताओं की आवश्यकता नहीं है",
+    "PMS-POL-048": "दी गई पॉलिसी प्रकार के लिए अनुमत केवाईसी विशेषताओं की आवश्यकता नहीं है",
+    "PMS-POL-050": "दिया गया संस्करण उपलब्ध नहीं है। अनुमत संस्करण हैं:",
+    "PMS-POL-051": "नीति स्कीमा और नीति मेल नहीं खा रहे हैं",
+    "PMS-POL-052": "नीति स्ट्रिंग को json ऑब्जेक्ट में पार्स करते समय त्रुटि हुई",
+    "PMS-POL-053": "नीति समूह सक्रिय नहीं है।",
+    "PMS-POL-054": "अप्रकाशित नीति को सक्रिय नहीं किया जा सकता.",
+    "PMS-POL-055": "प्रकाशित नीति को अपडेट नहीं किया जा सकता है।",
+    "PMS-POL-056": "नीति समूह के अंतर्गत सक्रिय नीतियां मौजूद हैं।",
+    "PMS-POL-057": "नीति के तहत सक्रिय apiKey मौजूद है।",
+    "PMS-POL-058": "प्रकाशित नीति के लिए स्थिति नहीं बदली जा सकती.;"
+  }
+}

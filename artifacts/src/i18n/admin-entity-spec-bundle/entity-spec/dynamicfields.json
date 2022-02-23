@@ -70,9 +70,64 @@
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
+    },
+    {
+      "buttonName": {
+        "eng": "Code & Value not present in English",
+        "ara": "الرمز والقيمة غير موجودين باللغة العربية",
+        "fra": "Code & Valeur non présents en Français",
+        "tam": "குறியீடு & மதிப்பு தமிழில் இல்லை",
+        "hin": "कोड और मूल्य हिंदी में मौजूद नहीं है",
+        "kan": "ಕೋಡ್ ಮತ್ತು ಮೌಲ್ಯ ಕನ್ನಡದಲ್ಲಿ ಇರುವುದಿಲ್ಲ"
+      },
+      "imagePath": "",
+      "actionListType": "action",
+      "actionURL": {
+        "case": "missingData",
+        "title": {
+          "eng": "Code & Value not present in English",
+          "ara": "الرمز والقيمة غير موجودين باللغة العربية",
+          "fra": "Code & Valeur non présents en Français",
+          "tam": "குறியீடு & மதிப்பு தமிழில் இல்லை",
+          "hin": "कोड और मूल्य हिंदी में मौजूद नहीं है",
+          "kan": "ಕೋಡ್ ಮತ್ತು ಮೌಲ್ಯ ಕನ್ನಡದಲ್ಲಿ ಇರುವುದಿಲ್ಲ"
+        },
+        "columnNames": [{
+          "eng": "Code",
+          "ara": "الشفرة",
+          "fra": "Code",
+          "tam": "குறியீடு",
+          "hin": "कोड",
+          "kan": "ಕೋಡ್"
+        }, {
+          "eng": "Name",
+          "ara": "اسم",
+          "fra": "prénom",
+          "tam": "பெயர்",
+          "hin": "नाम",
+          "kan": "ಹೆಸರು"
+        }],
+        "fieldName": "code"
+      },
+      "redirectURL": "",
+      "showIn": "Button",
+      "validations": ""
     }
   ],
   "columnsToDisplay": [
+    {
+      "name": "code",
+      "showInListView": "true",
+      "showInSingleView": "true",
+      "label": { "eng": "Code", "ara": "الشفرة", "fra": "Code","hin": "कोड", "kan": "ಕೋಡ್", "tam": "குறியீடு"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true",
+      "noSort": "true"
+    },
     {
       "name": "name",
       "showInListView": "true",
@@ -94,32 +149,41 @@
       "showAsLink": "",
       "linkType": "",
       "LinkURL": "",
-      "inputType": "text",
-      "ismandatory": "true"
+      "inputType": "textarea",
+      "ismandatory": "false"
     },
     {
-      "name": "dataType",
+      "name": "value",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Data Type", "ara": "نوع البيانات", "fra": "Type de données","hin": "डाटा प्रकार", "kan": "ಡೇಟಾ ಪ್ರಕಾರ", "tam": "தரவு வகை"},
+      "label": { "eng": "Value", "ara": "قيمة", "fra": "Valeur","hin": "मूल्य", "kan": "ಮೌಲ್ಯ", "tam": "மதிப்பு" },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
       "LinkURL": "",
       "inputType": "text",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "noSort": "true"
+    },
+    {
+      "name": "dataType",
+      "showInListView": "false",
+      "showInSingleView": "false",
+      "label": { "eng": "Data Type", "ara": "نوع البيانات", "fra": "Type de données","hin": "डाटा प्रकार", "kan": "ಡೇಟಾ ಪ್ರಕಾರ", "tam": "தரவு வகை"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
     },
     {
       "name": "fieldVal",
-      "showInListView": "true",
-      "showInSingleView": "true",
+      "showInListView": "false",
+      "showInSingleView": "false",
       "label": { "eng": "Value", "ara": "قيمة", "fra": "Valeur","hin": "मूल्य", "kan": "ಮೌಲ್ಯ", "tam": "மதிப்பு" },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
-      "LinkURL": "",
-      "inputType": "text",
-      "ismandatory": "true"
+      "LinkURL": ""
     },
     {
       "name": "isActive",
@@ -129,9 +193,7 @@
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
-      "LinkURL": "",
-      "inputType": "dropdown",
-      "ismandatory": "true"
+      "LinkURL": ""
     },
     {
       "name": "createdDateTime",
@@ -205,14 +267,14 @@
   },
   "filterColumns":  [
     {
-      "filtername": "name",
-      "filterlabel": { "eng": "Name", "ara": "اسم", "fra": "prénom","hin": "नाम", "kan": "ಹೆಸರು", "tam": "பெயர்" },
+      "filtername": "description",
+      "filterlabel": { "eng": "Description", "ara": "وصف", "fra": "La description","hin": "विवरण", "kan": "ವಿವರಣೆ", "tam": "விளக்கம்"},
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
       "datePicker": "false",
       "apiName": "dynamicfields",
-      "fieldName": "name",
+      "fieldName": "description",
       "methodCallName": ""
     },
     {

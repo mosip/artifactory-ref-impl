@@ -63,7 +63,7 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" },
+      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan":"ಫಿಲ್ಟರ್ ಮಾಡಿ","tam":"வடிகட்டி"  },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
       "actionURL": { "case": "filter" },
@@ -150,8 +150,8 @@
       "showAsLink": "false",
       "linkType": "",
       "LinkURL": "",
-      "inputType": "text",
-      "ismandatory": "true"
+      "inputType": "textarea",
+      "ismandatory": "false"
     },
     {
       "name": "model",
@@ -170,7 +170,7 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "text",
-      "ismandatory": "true"
+      "ismandatory": "false"
     },
     {
       "name": "fileText",
@@ -188,7 +188,7 @@
       "showAsLink": "false",
       "linkType": "",
       "LinkURL": "",
-      "inputType": "text",
+      "inputType": "textarea",
       "ismandatory": "true"
     },
     {
@@ -234,12 +234,12 @@
       "showInListView": "false",
       "showInSingleView": "true",
       "label": {
-        "eng": "Module Id",
-        "ara": "معرف الوحدة النمطية",
-        "fra": "ID module",
-        "hin": "मॉड्यूल आईडी  ",
-        "kan": "ಮಾಡ್ಯೂಲ್ ಐಡಿ ",
-        "tam": "தொகுதி ஐடி "
+        "eng": "Module Name",
+        "ara": "اسم الوحدة النمطية",
+        "fra": "Nom du module",
+        "hin": "मोड्यूल का नाम  ",
+        "kan": "ಮಾಡ್ಯೂಲ್ ಹೆಸರು  ",
+        "tam": "தொகுதி பெயர்"
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -258,7 +258,7 @@
         "fra": "Nom du module",
         "hin": "मोड्यूल का नाम  ",
         "kan": "ಮಾಡ್ಯೂಲ್ ಹೆಸರು  ",
-        "tam": "தொகுதி பெயர் "
+        "tam": "தொகுதி பெயர்"
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -266,35 +266,6 @@
       "LinkURL": "",
       "inputType": "text",
       "ismandatory": "true"
-    },
-    {
-      "name": "isActive",
-      "showInListView": "true",
-      "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif" },
-      "sortOrder": "",
-      "showAsLink": "false",
-      "linkType": "",
-      "LinkURL": "",
-      "inputType": "dropdown",
-      "ismandatory": "true"
-    },
-    {
-      "name": "createdDateTime",
-      "showInListView": "true",
-      "showInSingleView": "false",
-      "label": {
-        "eng": "Created Time",
-        "ara": "الوقت الذي تم إنشاؤه",
-        "fra": "Temps créé",
-        "hin": "बनाया गया समय  ",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ   ",
-        "tam": "நேரம் உருவாக்கப்பட்டது  "
-      },
-      "sortOrder": "",
-      "showAsLink": "",
-      "linkType": "",
-      "LinkURL": ""
     },
     {
       "name": "createdBy",
@@ -363,6 +334,35 @@
       "showAsLink": "false",
       "linkType": "",
       "LinkURL": ""
+    },
+    {
+      "name": "createdDateTime",
+      "showInListView": "true",
+      "showInSingleView": "false",
+      "label": {
+        "eng": "Created Time",
+        "ara": "الوقت الذي تم إنشاؤه",
+        "fra": "Temps créé",
+        "hin": "बनाया गया समय  ",
+        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ   ",
+        "tam": "நேரம் உருவாக்கப்பட்டது  "
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
+    {
+      "name": "isActive",
+      "showInListView": "true",
+      "showInSingleView": "false",
+      "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif","hin": "स्थिति","kan":"ಸ್ಥಿತಿ","tam":"நிலை" },
+      "sortOrder": "",
+      "showAsLink": "false",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "dropdown",
+      "ismandatory": "false"
     }
   ],
   "paginator": {
