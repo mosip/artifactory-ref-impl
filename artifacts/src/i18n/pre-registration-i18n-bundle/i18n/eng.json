@@ -430,6 +430,8 @@
       "msg9": "Documents are missing",
       "msg10": "File could not be deleted.Try Again.",
       "msg11": "Please confirm that you want to delete file ",
+      "msg12": "Please enter only text or numbers",
+      "msg13": "Please enter only 50 characters or less",
       "title_confirm": "Delete",
       "button_cancel": "Cancel",
       "none": "None"
@@ -588,7 +590,8 @@
     "action_back": "Back",
     "action_book_later": "Book Later",
     "action_continue": "Continue",
-    "noResult_found": "No results Found"
+    "noResult_found": "No results Found",
+    "lunch_hours": "Lunch"
   },
   "autologout": {
     "preview": "You will be timed out in 60 secs due to inactivity. Please click anywhere to re-activate your session",
