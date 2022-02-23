@@ -467,6 +467,11 @@
             "title": "Unknown Error",
             "message": "Failed to validate the current session",
             "btnTxt": "Ok"
+        },
+        "payloadtoolarge": {
+            "title": "Request payload is too large",
+            "message": "Payload size exceeds the size limit. Kindly check the payload size.",
+            "btnTxt": "Ok"
         }
     },
     "validationMessages": {
@@ -522,7 +527,7 @@
                 "cancelBtnTxt":"Cancel"
             },
             "popup2":{
-                "title":"Failure !",
+                "title":"Failure",
                 "btnTxt":"DONE"
             },
             "popup3":{
@@ -653,7 +658,7 @@
                 "noBtnText": "Cancel"
             },
             "popup2":{
-                "title":"Failure !",
+                "title":"Failure",
                 "btnTxt":"DONE"
             },
             "popup3":{
@@ -1212,7 +1217,7 @@
         "KER-USR-008": "Zone user mapping not exists or not active",
         "KER-USR-009": "Error occured while parsing auth service userdetails response",
                                      "KER-USR-010": "Error occured while zone user mapping",
-        "KER-USR-011": "User Center mapping must be deactivated before remapping user",
+        "KER-USR-011": "User Center mapping must be deleted before remapping user",
         "KER-USR-012": "Reg center is not exists for given language",
         "KER-USR-013": "User already exists",
         "KER-USR-001": "Error occurred while retrieving User History",
@@ -1383,6 +1388,7 @@
         "RPR-UIN-FAILED-006": "UIN Re-activation  Failed",
         "RPR-UIN-FAILED-007": "UIN De-activation  Failed",
         "RPR-UIN-FAILED-008": "UIN Not Found for the Matched RID",
-        "RPR-SEN-SUCCESS-001": "Notification received to securezone"
+        "RPR-SEN-SUCCESS-001": "Notification received to securezone",
+        "RPR-RGS-034" : "searching between date should be less then 30 days"
     }
 }

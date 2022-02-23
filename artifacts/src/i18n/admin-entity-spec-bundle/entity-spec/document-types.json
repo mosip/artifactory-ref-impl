@@ -271,7 +271,26 @@
     "pageSize": "10",
     "pageSizeList": [10, 20, 30, 40, 50]
   },
-  "filterColumns": [{
+  "filterColumns": [
+    {
+    "filtername": "code",
+    "filterlabel": {
+      "eng": "Code",
+      "ara": "الشفرة",
+      "fra": "Code",
+      "tam": "குறியீடு",
+      "hin": "कोड",
+      "kan": "ಕೋಡ್"
+    },
+    "filterType": "equals",
+    "autocomplete": "false",
+    "dropdown": "true",
+    "datePicker": "false",
+    "apiName": "documenttypes",
+    "fieldName": "code",
+    "methodCallName": ""
+    },
+    {
     "filtername": "name",
     "filterlabel": {
       "eng": "Name",
@@ -288,7 +307,7 @@
     "apiName": "documenttypes",
     "fieldName": "name",
     "methodCallName": ""
-  },
+    },
     {
       "filtername": "isActive",
       "filterlabel": {
