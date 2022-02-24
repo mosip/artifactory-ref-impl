@@ -84,8 +84,8 @@ ENV master_template_path=${base_path}/libs-release-local/master-templates
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
-#ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
-ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-1.2.0.1-20220221.094757-3.jar
+#ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${rversion}/kernel-auth-adapter-${rversion}.jar
+ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${sversion}/kernel-auth-adapter-1.2.0.1-20220221.094757-3.jar
 
 # environment variable for msg91_jar url. 
 ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${rversion}/kernel-smsserviceprovider-msg91-${rversion}.jar
@@ -109,12 +109,12 @@ ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
 
 # environment variable for biosdk client jar URL
-#ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${version}/biosdk-client-${version}-jar-with-dependencies.jar
-ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/${version}/biosdk-client-1.2.0.1-20220215.100409-1-jar-with-dependencies.jar
+#ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${rversion}/biosdk-client-${rversion}-jar-with-dependencies.jar
+ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/${sversion}/biosdk-client-1.2.0.1-20220215.100409-1-jar-with-dependencies.jar
 
 # environment variable for demosdk jar URL
-#ENV demosdk_jar_url_env=${release_maven_path}/demosdk/demosdk/${version}/demosdk-${version}-jar-with-dependencies.jar
-ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/${version}/demosdk-1.2.0.1-20220215.093122-1-jar-with-dependencies.jar
+#ENV demosdk_jar_url_env=${release_maven_path}/demosdk/demosdk/${rversion}/demosdk-${rversion}-jar-with-dependencies.jar
+ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/${sversion}/demosdk-1.2.0.1-20220215.093122-1-jar-with-dependencies.jar
 
 # environment variable for child authentication filter jar URL
 ENV child_auth_filter_jar_url=${release_maven_path}/authentication/authentication-childauthfilter-impl/${rversion}/authentication-childauthfilter-impl-${rversion}.jar
