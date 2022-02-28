@@ -39,6 +39,9 @@ ENV demosdk_zip_path=${base_path}/libs-release-local/demosdk/default/
 # environment variable for Biosdk lib Zip path
 ENV biosdk_lib_zip_path=${base_path}/libs-release-local/biosdk/
 
+# environment variable for Biosdk lib Zip path
+ENV jpegsdk_lib_zip_path=${base_path}/libs-release-local/jpeg-sdk/
+
 # environment variable for Cache Provider Jar path
 ENV cache_path=${base_path}/libs-release-local/cache
 
@@ -50,6 +53,9 @@ ENV hsm_client_path=${base_path}/libs-release-local/hsm
 
 # environment valiable for sdk jar
 ENV sdk_path=${base_path}/libs-release-local/mock-sdk/1.1.5/
+
+# environment valiable for sdk jar
+ENV jpeg_sdk_path=${base_path}/libs-release-local/jpeg-mock-sdk/1.1.5/
 
 # environment variable for Kernel Jars
 ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
@@ -113,6 +119,10 @@ ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/re
 ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
 #ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/${sversion}/mock-sdk-1.2.0-20220106.064324-23.jar
 
+# environment variable for sdk url
+#ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
+ENV jpeg_extractor_sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk-jpeg-extractor/${sversion}/mock-sdk-jpeg-extractor-1.2.0.1-20220228.071821-1.jar
+
 # environment variable for cache URL 
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
 
@@ -121,7 +131,7 @@ ENV child_auth_filter_jar_url=${release_maven_path}/authentication/authenticatio
 #ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/${sversion}/authentication-childauthfilter-impl-1.2.0-20220209.130258-379.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${master_template_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib ${base_path}/libs-release-local/reg-client ${master_template_path}
 
 # Copy all the respective jars to the location
 
@@ -196,6 +206,10 @@ wget ${clamav_jar_url_env} -O ${clamav_path}/kernel-virusscanner-clamav.jar &&\
 
 echo "Downloaded ClamAV jar" &&\
 
+wget ${jpeg_extractor_sdk_jar_url_env} -O ${jpeg_sdk_path}/mock-sdk-jpeg-extractor.jar &&\
+
+echo "Downloaded jepg Mock-sdk-jar" &&\
+
 wget ${clamav_client_url_env} -O ${clamav_path}/clamav.jar &&\
 
 echo "Downloaded ClamAV client" &&\
@@ -219,6 +233,14 @@ zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-li
 rm -rf ${biosdk_lib_zip_path}/biosdk-lib &&\
 
 echo "biosdk lib zip created" &&\
+
+wget ${jpeg_extractor_sdk_jar_url_env} -P ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ &&\
+
+zip -r -j ${jpegsdk_lib_zip_path}/jpeg-sdk-lib.zip ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/* &&\
+
+rm -rf ${jpegsdk_lib_zip_path}/jpeg-sdk-lib &&\
+
+echo "jpeg sdk lib zip created" &&\
 
 wget ${demosdk_jar_url_env} -P ${demosdk_zip_path}/demosdk/ &&\
 
