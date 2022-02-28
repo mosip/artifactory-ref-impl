@@ -234,6 +234,8 @@ rm -rf ${biosdk_lib_zip_path}/biosdk-lib &&\
 
 echo "biosdk lib zip created" &&\
 
+wget ${sdk_jar_url_env} -P ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ &&\
+
 wget ${jpeg_extractor_sdk_jar_url_env} -P ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ &&\
 
 zip -r -j ${jpegsdk_lib_zip_path}/jpeg-sdk-lib.zip ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/* &&\
