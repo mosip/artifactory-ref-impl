@@ -449,6 +449,14 @@
       "applyTxt": "Save"
     }
   },
+  "filters": {
+    "titleTxt": "Add Filters",
+    "footerButtons": {
+        "resetTxt": "Reset",
+        "cancelTxt": "Cancel",
+        "applyTxt": "Apply"
+    }
+  },
   "isActive": {
     "Active": "Active",
     "InActive": "Inactive"

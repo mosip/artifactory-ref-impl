@@ -59,6 +59,24 @@
 			"showIn": "Button",
 			"actionListType": "redirect",
 			"actionURL": ""
+		},
+		{
+			"buttonName": {
+				"eng": "Filter",
+				"ara": "Filter_ara",
+				"fra": "Filter_fra",
+				"hin": "Filter_hin",
+				"kan": "Filter_kan",
+				"tam": "Filter_tam"
+			},
+			"imagePath": "assets/images/filter.png",
+			"actionListType": "action",
+			"actionURL": {
+				"case": "filter"
+			},
+			"redirectURL": "",
+			"showIn": "Button",
+			"validations": ""
 		}
 	],
 	"columnsToDisplay": [{
@@ -234,5 +252,60 @@
 		"totalEntries": null,
 		"pageSize": "10",
 		"pageSizeList": [10, 20, 30, 40, 50]
-	}
+	},
+	"filterColumns": [{
+		"filtername": "providerId",
+		"filterlabel": {
+			"eng": "Partner Name",
+			"ara": "Partner Name_ara",
+			"fra": "Partner Name_fra",
+			"hin": "Partner Name_hin",
+			"kan": "Partner Name_kan",
+			"tam": "Partner Name_tam"
+		},
+		"filterType": "equals",
+		"fieldType": "input",
+		"autocomplete": "false",
+		"dropdown": "false",
+		"datePicker": "false",
+		"apiName": "",
+		"fieldName": "providerId",
+		"methodCallName": ""
+	},{
+		"filtername": "swVersion",
+		"filterlabel": {
+			"eng": "Version",
+			"ara": "Version_ara",
+			"fra": "Version_fra",
+			"hin": "Version_hin",
+			"kan": "Version_kan",
+			"tam": "Version_tam"
+		},
+		"filterType": "equals",
+		"fieldType": "input",
+		"autocomplete": "false",
+		"dropdown": "false",
+		"datePicker": "false",
+		"apiName": "",
+		"fieldName": "swVersion",
+		"methodCallName": ""
+	},{
+		"filtername": "approvalStatus",
+		"filterlabel": {
+			"eng": "Status",
+			"ara": "Status_ara",
+			"fra": "Status_fra",
+			"hin": "Status_hin",
+			"kan": "Status_kan",
+			"tam": "Status_tam"
+		},
+		"filterType": "equals",
+		"fieldType": "input",
+		"autocomplete": "false",
+		"dropdown": "false",
+		"datePicker": "false",
+		"apiName": "",
+		"fieldName": "approvalStatus",
+		"methodCallName": ""
+	}]
 }

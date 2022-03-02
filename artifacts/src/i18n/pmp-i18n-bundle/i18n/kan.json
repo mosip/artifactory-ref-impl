@@ -444,6 +444,14 @@
     "button": "Upload_kan",
     "cancel": "Cancel_kan"
   },
+  "filters": {
+    "titleTxt": "Add Filters_kan",
+    "footerButtons": {
+        "resetTxt": "Reset_kan",
+        "cancelTxt": "Cancel_kan",
+        "applyTxt": "Apply_kan"
+    }
+  },
   "isActive": {
     "Active": "ACTIVE_kan",
     "InActive": "INACTIVE_kan"
