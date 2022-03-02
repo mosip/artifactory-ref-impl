@@ -222,7 +222,14 @@
 	},
 	"filterColumns": [{
 			"filtername": "name",
-			"filterlabel": "Name",
+			"filterlabel": {
+				"eng": "Name",
+				"ara": "Name_ara",
+				"fra": "Name_fra",
+				"hin": "Name_hin",
+				"kan": "Name_kan",
+				"tam": "Name_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -234,7 +241,14 @@
 		},
 		{
 			"filtername": "desc",
-			"filterlabel": "Description",
+			"filterlabel": {
+				"eng": "Description",
+				"ara": "Description_ara",
+				"fra": "Description_fra",
+				"hin": "Description_hin",
+				"kan": "Description_kan",
+				"tam": "Description_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -246,7 +260,14 @@
 		},
 		{
 			"filtername": "policyGroupName",
-			"filterlabel": "Policy Group",
+			"filterlabel": {
+				"eng": "Policy Group",
+				"ara": "Policy Group_ara",
+				"fra": "Policy Group_fra",
+				"hin": "Policy Group_hin",
+				"kan": "Policy Group_kan",
+				"tam": "Policy Group_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",

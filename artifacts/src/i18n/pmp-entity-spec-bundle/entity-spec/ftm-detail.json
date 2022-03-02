@@ -78,12 +78,12 @@
 		},
 		{
 			"buttonName": {
-				"eng": "Create Device",
-				"ara": "Create Device_ara",
-				"fra": "Create Device_fra",
-				"hin": "Create Device_hin",
-				"kan": "Create Device_kan",
-				"tam": "Create Device_tam"
+				"eng": "Create FTM",
+				"ara": "Create FTM_ara",
+				"fra": "Create FTM_fra",
+				"hin": "Create FTM_hin",
+				"kan": "Create FTM_kan",
+				"tam": "Create FTM_tam"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -230,7 +230,14 @@
 	},
 	"filterColumns": [{
 			"filtername": "ftpProviderId",
-			"filterlabel": "Partner Name",
+			"filterlabel": {
+				"eng": "Partner Name",
+				"ara": "Partner Name_ara",
+				"fra": "Partner Name_fra",
+				"hin": "Partner Name_hin",
+				"kan": "Partner Name_kan",
+				"tam": "Partner Name_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -242,7 +249,14 @@
 		},
 		{
 			"filtername": "partnerOrganizationName",
-			"filterlabel": "Organization Name",
+			"filterlabel": {
+				"eng": "Organization Name",
+				"ara": "Organization Name_ara",
+				"fra": "Organization Name_fra",
+				"hin": "Organization Name_hin",
+				"kan": "Organization Name_kan",
+				"tam": "Organization Name_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -254,7 +268,14 @@
 		},
 		{
 			"filtername": "make",
-			"filterlabel": "Make",
+			"filterlabel": {
+				"eng": "Make",
+				"ara": "Make_ara",
+				"fra": "Make_fra",
+				"hin": "Make_hin",
+				"kan": "Make_kan",
+				"tam": "Make_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -266,7 +287,14 @@
 		},
 		{
 			"filtername": "model",
-			"filterlabel": "Model",
+			"filterlabel": {
+				"eng": "Model",
+				"ara": "Model_ara",
+				"fra": "Model_fra",
+				"hin": "Model_hin",
+				"kan": "Model_kan",
+				"tam": "Model_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",

@@ -444,6 +444,14 @@
     "button": "Upload_fra",
     "cancel": "Cancel_fra"
   },
+  "filters": {
+    "titleTxt": "Add Filters_fra",
+    "footerButtons": {
+        "resetTxt": "Reset_fra",
+        "cancelTxt": "Cancel_fra",
+        "applyTxt": "Apply_fra"
+    }
+  },
   "isActive": {
     "Active": "ACTIVE_fra",
     "InActive": "INACTIVE_fra"

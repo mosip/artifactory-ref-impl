@@ -444,6 +444,14 @@
     "button": "Upload_hin",
     "cancel": "Cancel_hin"
   },
+  "filters": {
+    "titleTxt": "Add Filters_hin",
+    "footerButtons": {
+        "resetTxt": "Reset_hin",
+        "cancelTxt": "Cancel_hin",
+        "applyTxt": "Apply_hin"
+    }
+  },
   "isActive": {
     "Active": "ACTIVE_hin",
     "InActive": "INACTIVE_hin"
