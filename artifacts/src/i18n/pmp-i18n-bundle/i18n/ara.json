@@ -444,6 +444,14 @@
     "button": "Upload_ara",
     "cancel": "Cancel_ara"
   },
+  "filters": {
+    "titleTxt": "Add Filters_ara",
+    "footerButtons": {
+        "resetTxt": "Reset_ara",
+        "cancelTxt": "Cancel_ara",
+        "applyTxt": "Apply_ara"
+    }
+  },
   "isActive": {
     "Active": "ACTIVE_ara",
     "InActive": "INACTIVE_ara"

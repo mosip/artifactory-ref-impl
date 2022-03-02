@@ -204,7 +204,14 @@
 	"filterColumns": [
 		{
 			"filtername": "partnerName",
-			"filterlabel": "Partner Name",
+			"filterlabel": {
+				"eng": "Partner Name",
+				"ara": "Partner Name_ara",
+				"fra": "Partner Name_fra",
+				"hin": "Partner Name_hin",
+				"kan": "Partner Name_kan",
+				"tam": "Partner Name_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -216,7 +223,14 @@
 		},
 		{
 			"filtername": "policyName",
-			"filterlabel": "Policy Name",
+			"filterlabel": {
+				"eng": "Policy Name",
+				"ara": "Policy Name_ara",
+				"fra": "Policy Name_fra",
+				"hin": "Policy Name_hin",
+				"kan": "Policy Name_kan",
+				"tam": "Policy Name_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -228,7 +242,14 @@
 		},
 		{
 			"filtername": "requestDetail",
-			"filterlabel": "Request Detail",
+			"filterlabel": {
+				"eng": "Request Detail",
+				"ara": "Request Detail_ara",
+				"fra": "Request Detail_fra",
+				"hin": "Request Detail_hin",
+				"kan": "Request Detail_kan",
+				"tam": "Request Detail_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
