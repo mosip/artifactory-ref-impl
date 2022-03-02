@@ -299,7 +299,14 @@
 	},
 	"filterColumns": [{
 			"filtername": "name",
-			"filterlabel": "Organization Name",
+			"filterlabel": {
+				"eng": "Organization Name",
+				"ara": "Organization Name_ara",
+				"fra": "Organization Name_fra",
+				"hin": "Organization Name_hin",
+				"kan": "Organization Name_kan",
+				"tam": "Organization Name_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -311,7 +318,14 @@
 		},
 		{
 			"filtername": "partnerTypeCode",
-			"filterlabel": "Partner Type",
+			"filterlabel": {
+				"eng": "Partner Type",
+				"ara": "Partner Type_ara",
+				"fra": "Partner Type_fra",
+				"hin": "Partner Type_hin",
+				"kan": "Partner Type_kan",
+				"tam": "Partner Type_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -323,7 +337,14 @@
 		},
 		{
 			"filtername": "emailId",
-			"filterlabel": "Email",
+			"filterlabel": {
+				"eng": "Email",
+				"ara": "Email_ara",
+				"fra": "Email_fra",
+				"hin": "Email_hin",
+				"kan": "Email_kan",
+				"tam": "Email_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -335,7 +356,14 @@
 		},
 		{
 			"filtername": "policyGroupId",
-			"filterlabel": "Policy Group",
+			"filterlabel": {
+				"eng": "Policy Group",
+				"ara": "Policy Group_ara",
+				"fra": "Policy Group_fra",
+				"hin": "Policy Group_hin",
+				"kan": "Policy Group_kan",
+				"tam": "Policy Group_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -347,7 +375,14 @@
 		},
 		{
 			"filtername": "contactNo",
-			"filterlabel": "Contact Number",
+			"filterlabel": {
+				"eng": "Contact Number",
+				"ara": "Contact Number_ara",
+				"fra": "Contact Number_fra",
+				"hin": "Contact Number_hin",
+				"kan": "Contact Number_kan",
+				"tam": "Contact Number_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -359,7 +394,14 @@
 		},
 		{
 			"filtername": "approvalStatus",
-			"filterlabel": "Status",
+			"filterlabel": {
+				"eng": "Approval Status",
+				"ara": "Approval Status_ara",
+				"fra": "Approval Status_fra",
+				"hin": "Approval Status_hin",
+				"kan": "Approval Status_kan",
+				"tam": "Approval Status_tam"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
