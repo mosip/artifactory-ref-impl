@@ -1389,6 +1389,7 @@
         "RPR-UIN-FAILED-007": "UIN De-activation  Failed",
         "RPR-UIN-FAILED-008": "UIN Not Found for the Matched RID",
         "RPR-SEN-SUCCESS-001": "Notification received to securezone",
-        "RPR-RGS-034" : "searching between date should be less then 30 days"
+        "RPR-RGS-034" : "searching between date should be less then 30 days",
+        "KER-MSD-394" : "Your zone mapping missing. Please contact the administrator."
     }
 }
