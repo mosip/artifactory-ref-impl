@@ -112,7 +112,7 @@
 			"showAsLink": "",
 			"linkType": "",
 			"LinkURL": "",
-			"inputType": "dropdown",
+			"inputType": "dropdownpartner",
 			"ismandatory": "true",
 			"showInListView": "false",
 			"showInSingleView": "true"
