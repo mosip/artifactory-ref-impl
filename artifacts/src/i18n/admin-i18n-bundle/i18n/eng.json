@@ -472,6 +472,11 @@
             "title": "Request payload is too large",
             "message": "Payload size exceeds the size limit. Kindly check the payload size.",
             "btnTxt": "Ok"
+        },
+        "servicedown": {
+            "title": "Service Temporarily Unavailable",
+            "message": "Service is not ready to handle the request. Kindly try after sometime.",
+            "btnTxt": "Ok"
         }
     },
     "validationMessages": {

@@ -494,6 +494,11 @@
             "title": "La charge utile de la requête est trop volumineuse",
             "message": "La taille de la charge utile dépasse la limite de taille. Veuillez vérifier la taille de la charge utile.",
             "btnTxt": "D'accord"
+        },
+        "servicedown": {
+            "title": "Service temporairement indisponible",
+            "message": "Le service n'est pas prêt à traiter la demande. Veuillez essayer après un certain temps.",
+            "btnTxt": "D'accord"
         }
 	},
 	"validationMessages": {
