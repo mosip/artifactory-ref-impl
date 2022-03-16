@@ -91,15 +91,15 @@ ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
 #ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${rversion}/kernel-auth-adapter-${rversion}.jar
-ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${sversion}/kernel-auth-adapter-1.2.0.1-20220226.071014-7.jar
+ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${sversion}/kernel-auth-adapter-1.2.0.1-20220314.101443-9.jar
 
 # environment variable for biosdk client jar URL
 #ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${rversion}/biosdk-client-${rversion}-jar-with-dependencies.jar
-ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/${sversion}/biosdk-client-1.2.0.1-20220215.100409-1-jar-with-dependencies.jar
+ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/${sversion}/biosdk-client-1.2.0.1-20220315.075259-7-jar-with-dependencies.jar
 
 # environment variable for demosdk jar URL
 #ENV demosdk_jar_url_env=${release_maven_path}/demosdk/demosdk/${rversion}/demosdk-${rversion}-jar-with-dependencies.jar
-ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/${sversion}/demosdk-1.2.0.1-20220215.093122-1-jar-with-dependencies.jar
+ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/${sversion}/demosdk-1.2.0.1-20220315.075409-7-jar-with-dependencies.jar
 
 # environment variable for msg91_jar url. 
 ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${rversion}/kernel-smsserviceprovider-msg91-${rversion}.jar
@@ -116,8 +116,8 @@ ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/$
 ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
 # environment variable for sdk url
-ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
-#ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/${sversion}/mock-sdk-1.2.0-20220106.064324-23.jar
+#ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
+ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/${sversion}/mock-sdk-1.2.0-20220106.064324-23.jar
 
 # environment variable for sdk url
 #ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
