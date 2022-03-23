@@ -97,6 +97,9 @@ ENV sdk_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/m
 # environment variable for cache URL 
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
 
+# environment variable for redis cache URL
+ENV redis_cache_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/cacheprovider/cache-provider-redis/1.0-SNAPSHOT/cache-provider-redis-1.0-20220209.125929-1.jar
+
 # environment variable for cache URL
 ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.1.5.5-SNAPSHOT/biosdk-client-1.1.5.5-20220303.141920-26-jar-with-dependencies.jar
 
@@ -140,6 +143,7 @@ wget ${ref_idobjectvalidator_jar_url_env} -O ${idobject_jar_path}/kernel-ref-ido
 echo "Downloaded idobjectvalidator jar" &&\
 
 wget ${cache_url_env} -O ${cache_path}/cache-provider.jar &&\
+wget ${redis_cache_url_env} -O ${cache_path}/redis-cache-provider.jar &&\
 
 echo "Downloaded hazlecast cache jar" &&\
 
