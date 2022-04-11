@@ -95,7 +95,7 @@ ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snaps
 
 # environment variable for biosdk client jar URL
 #ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${rversion}/biosdk-client-${rversion}-jar-with-dependencies.jar
-ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/${sversion}/biosdk-client-1.2.0.1-20220407.102220-9-jar-with-dependencies.jar
+ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/${sversion}/biosdk-client-1.2.0.1-20220407.160117-11-jar-with-dependencies.jar
 
 # environment variable for demosdk jar URL
 #ENV demosdk_jar_url_env=${release_maven_path}/demosdk/demosdk/${rversion}/demosdk-${rversion}-jar-with-dependencies.jar
