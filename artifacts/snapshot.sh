@@ -64,7 +64,7 @@ echo "folder biosdk client deleted"
 
 # Download jpeg Mock-sdk-jar from maven repository and rename to remove the version no:
 mvn dependency:get -Ddest=${jpeg_sdk_path}/mock-sdk-jpeg-extractor.jar -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk-jpeg-extractor:${version}:jar:jar-with-dependencies
-
+echo "Downloaded mock-sdk-jpeg-extractor.jar"
 
 # Download the jpeg extractor Jar from maven repository and rename to remove the version no:
 mvn dependency:get -Ddest=${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk:${version}:jar:jar-with-dependencies
