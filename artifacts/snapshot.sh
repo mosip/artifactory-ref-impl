@@ -74,7 +74,7 @@ echo "biosdk lib zip created"
 
 # Download the Demosdk client Jar from maven repository and rename to remove the version no:
 
-mvn dependency:get -Ddest=${demosdk_zip_path}/demosdk/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.demosdk:demosdk-client:${version}:jar:jar-with-dependencies
+mvn dependency:get -Ddest=${demosdk_zip_path}/demosdk/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.demosdk:demosdk/demosdk:${version}:jar:jar-with-dependencies
 
 zip -r -j ${demosdk_zip_path}/demosdk.zip ${demosdk_zip_path}/demosdk/*
 

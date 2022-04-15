@@ -14,7 +14,7 @@ ARG container_user_gid=1001
 
 # install packages and create user
 RUN apt-get -y update &&\
-apt-get install -y unzip wget maven zip tree &&\
+apt-get install -y unzip wget zip &&\
 groupadd -g ${container_user_gid} ${container_user_group} &&\
 useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user} \
 && mkdir -p /var/run/nginx /var/tmp/nginx \
@@ -39,6 +39,9 @@ ENV demosdk_zip_path=${base_path}/libs-release-local/demosdk/default/
 # environment variable for Biosdk lib Zip path
 ENV biosdk_lib_zip_path=${base_path}/libs-release-local/biosdk/
 
+# environment variable for Biosdk lib Zip path
+ENV jpegsdk_lib_zip_path=${base_path}/libs-release-local/jpeg-sdk/
+
 # environment variable for Cache Provider Jar path
 ENV cache_path=${base_path}/libs-release-local/cache
 
@@ -50,6 +53,9 @@ ENV hsm_client_path=${base_path}/libs-release-local/hsm
 
 # environment valiable for sdk jar
 ENV sdk_path=${base_path}/libs-release-local/mock-sdk/1.1.5/
+
+# environment valiable for sdk jar
+ENV jpeg_sdk_path=${base_path}/libs-release-local/jpeg-mock-sdk/1.1.5/
 
 # environment variable for Kernel Jars
 ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
@@ -74,19 +80,61 @@ ENV clamav_path=${base_path}/libs-release-local/clamav
 
 ENV regclient_jar_path=${base_path}/libs-release-local
 
-ENV master_template_path=${base_path}/libs-release-local/master-templates
-
 # environment variable for child auth filter jar path
 ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authentication/authentication-ref-impl
 
-# environment variable for script path
-ENV script_path=/home/mosip/scripts
-
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
-ENV version=1.2.0.1-SNAPSHOT
+ENV sversion=1.2.1-SNAPSHOT
+ENV rversion=1.2.0
 
-# Create all the jar paths.
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path}
+ENV master_template_path=${base_path}/libs-release-local/master-templates
+
+# environment variable for maven central mosip artifacts
+ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
+
+# environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
+#ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${rversion}/kernel-auth-adapter-${rversion}.jar
+ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${sversion}/kernel-auth-adapter-1.2.0.1-20220322.211246-11.jar
+
+# environment variable for biosdk client jar URL
+#ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${rversion}/biosdk-client-${rversion}-jar-with-dependencies.jar
+ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/${sversion}/biosdk-client-1.2.0.1-20220407.160117-11-jar-with-dependencies.jar
+
+# environment variable for demosdk jar URL
+#ENV demosdk_jar_url_env=${release_maven_path}/demosdk/demosdk/${rversion}/demosdk-${rversion}-jar-with-dependencies.jar
+ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/${sversion}/demosdk-1.2.0.1-20220317.100513-9-jar-with-dependencies.jar
+
+# environment variable for msg91_jar url.
+ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${rversion}/kernel-smsserviceprovider-msg91-${rversion}.jar
+#ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/${sversion}/kernel-smsserviceprovider-msg91-1.2.0-20220209.130144-645.jar
+
+# environment variable for ref-idobjectvalidator_jar url
+ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${rversion}/kernel-ref-idobjectvalidator-${rversion}.jar
+#ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/${sversion}/kernel-ref-idobjectvalidator-1.2.0-20220209.130144-586.jar
+
+# environment variable for clamav jar and client url
+ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/${rversion}/kernel-virusscanner-clamav-${rversion}.jar
+#ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/${sversion}/kernel-virusscanner-clamav-1.2.0-20220209.130144-845.jar
+
+ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
+
+# environment variable for sdk url
+ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
+#ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/${sversion}/mock-sdk-1.2.0-20220106.064324-23.jar
+
+# environment variable for sdk url
+#ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
+ENV jpeg_extractor_sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk-jpeg-extractor/${sversion}/mock-sdk-jpeg-extractor-1.2.0.1-20220301.044752-3-jar-with-dependencies.jar
+
+# environment variable for cache URL
+ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
+
+# environment variable for child authentication filter jar URL
+ENV child_auth_filter_jar_url=${release_maven_path}/authentication/authentication-childauthfilter-impl/${rversion}/authentication-childauthfilter-impl-${rversion}.jar
+#ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/${sversion}/authentication-childauthfilter-impl-1.2.0-20220209.130258-379.jar
+
+# Create all the Jar paths
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib ${base_path}/libs-release-local/reg-client ${master_template_path}
 
 # Copy all the respective jars to the location
 
@@ -116,29 +164,99 @@ COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n
 
 COPY /src/master-templates/* ${work_dir}/master-templates/
 
-#COPY /src/mosipvc/*  ${work_dir}/mosipvc/
-
 RUN zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources  && \
 zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ${work_dir}/admin-entity-spec-bundle/*  && \
 zip -r -j ${i18n_zip_path}/admin-i18n-bundle.zip ${work_dir}/admin-i18n-bundle/*  && \
 zip -r -j ${i18n_zip_path}/pmp-entity-spec-bundle.zip ${work_dir}/pmp-entity-spec-bundle/*  && \
 zip -r -j ${i18n_zip_path}/pmp-i18n-bundle.zip ${work_dir}/pmp-i18n-bundle/*  && \
 zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ${work_dir}/pre-registration-i18n-bundle/* && \
-zip -r -j ${i18n_zip_path}/pmp-i18n-bundle.zip ${work_dir}/pmp-i18n-bundle/* && \
 zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templates/*
-#zip -r -j ${mosipvc_zip_path}/mosipvc.zip ${work_dir}/mosipvc/*
 
 COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
 
-COPY /src/auth/* ${regproc_jar_path}/
 
-COPY ./*.sh ${scripts_path}/
+# Download required respective all the jars and create biosdk zip
 
-RUN chmod +x ${scripts_path}/*.sh
+RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
 
-RUN if echo $version | grep -qe ".*SNAPSHOT" ; then cd /${scripts_path} && /snapshot.sh && echo successfully Downloaded snapshot Jars; else cd /${scripts_path} && /release.sh && echo successfully Downloaded release Jars; fi
+echo "Downloaded auth adapter jar" &&\
+
+wget ${sms_msg91_url_env} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
+
+echo "Downloaded msg91 jar" &&\
+
+wget ${ref_idobjectvalidator_jar_url_env} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
+
+echo "Downloaded idobjectvalidator jar" &&\
+
+wget ${cache_url_env} -O ${cache_path}/cache-provider.jar &&\
+
+echo "Downloaded hazlecast cache jar" &&\
+
+wget ${sdk_jar_url_env} -O ${sdk_path}/mock-sdk.jar &&\
+
+echo "Downloaded Mock-sdk-jar" &&\
+
+wget ${clamav_jar_url_env} -O ${clamav_path}/kernel-virusscanner-clamav.jar &&\
+
+echo "Downloaded ClamAV jar" &&\
+
+wget ${jpeg_extractor_sdk_jar_url_env} -O ${jpeg_sdk_path}/mock-sdk-jpeg-extractor.jar &&\
+
+echo "Downloaded jepg Mock-sdk-jar" &&\
+
+wget ${clamav_client_url_env} -O ${clamav_path}/clamav.jar &&\
+
+echo "Downloaded ClamAV client" &&\
+
+wget ${biosdk_client_url_env} -P ${biosdk_client_zip_path}/biosdk-client/ &&\
+
+echo "Downloaded biosdk client creating the zip" &&\
+
+zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/biosdk-client/* &&\
+
+echo "zip creation completed" &&\
+
+rm -rf ${biosdk_client_zip_path}/biosdk-client &&\
+
+echo "folder biosdk client deleted" &&\
+
+wget ${sdk_jar_url_env} -P ${biosdk_lib_zip_path}/biosdk-lib/ &&\
+
+zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-lib/* &&\
+
+rm -rf ${biosdk_lib_zip_path}/biosdk-lib &&\
+
+echo "biosdk lib zip created" &&\
+
+wget ${sdk_jar_url_env} -P ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ &&\
+
+wget ${jpeg_extractor_sdk_jar_url_env} -P ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ &&\
+
+zip -r -j ${jpegsdk_lib_zip_path}/jpeg-sdk-lib.zip ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/* &&\
+
+rm -rf ${jpegsdk_lib_zip_path}/jpeg-sdk-lib &&\
+
+echo "jpeg sdk lib zip created" &&\
+
+wget ${demosdk_jar_url_env} -P ${demosdk_zip_path}/demosdk/ &&\
+
+echo "Downloaded demosdk jar with dependency creating the zip" &&\
+
+zip -r -j ${demosdk_zip_path}/demosdk.zip ${demosdk_zip_path}/demosdk/* &&\
+
+echo "zip creation completed" &&\
+
+rm -rf ${demosdk_zip_path}/demosdk &&\
+
+echo "folder demosdk deleted" &&\
+
+wget ${child_auth_filter_jar_url} -O ${child_auth_filter_jar_path}/authentication-childauthfilter-impl.jar &&\
+
+echo "Downloaded Child Auth Filter Jar"
+
 
 RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
 
@@ -148,5 +266,3 @@ USER ${container_user_uid}:${container_user_gid}
 EXPOSE 8080
 
 CMD ["nginx", "-g", "daemon off;"]
-
-
