@@ -75,7 +75,7 @@ ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
 #ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
-ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5.5-SNAPSHOT/kernel-auth-adapter-1.1.5.5-20220323.131612-36.jar
+ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5.5-SNAPSHOT/kernel-auth-adapter-1.1.5.5-20220420.053636-48.jar
 
 # environment variable for msg91_jar url. 
 ENV sms_msg91_jar_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
@@ -92,17 +92,18 @@ ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/$
 ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
 # environment variable for sdk url
-ENV sdk_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.2.0-SNAPSHOT/mock-sdk-1.2.0-20220315.083321-35.jar
+#ENV sdk_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.2.0-SNAPSHOT/mock-sdk-1.2.0-20220315.083321-35.jar
+ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.2.0/mock-sdk-1.2.0.jar
 
 # environment variable for cache URL 
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
 
 # environment variable for redis cache URL
-ENV redis_cache_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/cacheprovider/cache-provider-redis/1.0-SNAPSHOT/cache-provider-redis-1.0-20220209.125929-1.jar
+ENV redis_cache_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/cacheprovider/cache-provider-redis/1.0-SNAPSHOT/cache-provider-redis-1.0-20220209.125929-1.jar
 
 # environment variable for cache URL
-ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.1.5.5-SNAPSHOT/biosdk-client-1.1.5.5-20220303.141920-26-jar-with-dependencies.jar
-
+#ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.1.5.5-SNAPSHOT/biosdk-client-1.1.5.5-20220303.141920-26-jar-with-dependencies.jar
+ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/1.2.0/biosdk-client-1.2.0-jar-with-dependencies.jar
 # Create all the Jar paths
 RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
 
