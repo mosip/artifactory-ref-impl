@@ -67,7 +67,7 @@ mvn dependency:get -Ddest=${jpeg_sdk_path}/mock-sdk-jpeg-extractor.jar -DremoteR
 echo "Downloaded mock-sdk-jpeg-extractor.jar"
 
 # Download the jpeg extractor Jar from maven repository and rename to remove the version no:
-mvn dependency:get -Ddest=${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk:${version}:jar:jar-with-dependencies
+mvn dependency:get -Ddest=${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk:${version}
 mvn dependency:get -Ddest=${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk-jpeg-extractor:${version}:jar:jar-with-dependencies
 zip -r -j ${jpegsdk_lib_zip_path}/jpeg-sdk-lib.zip ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/*
 echo "zip creation completed for jpegsdk"
