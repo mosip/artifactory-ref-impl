@@ -371,9 +371,9 @@
   },
   "acknowledgement": {
     "title": "Rendez-vous confirmé",
-    "message": "L'identifiant de pré-enregistrement et les détails du rendez-vous ont été envoyés à l'identifiant et au numéro de téléphone de l'e-mail enregistré.",
+    "message": "L'identifiant de candidature et les détails du rendez-vous ont été envoyés à l'identifiant de messagerie et au numéro de téléphone enregistrés.",
     "label_name": "prénom",
-    "label_pre_id": "ID de pré-inscription",
+    "label_pre_id": "ID d'application",
     "label_reg_cntr": "Nom du centre",
     "label_cntr_contact_number": "Numéro de contact du centre",
     "label_appointment_date_time": "Date et heure du rendez-vous",
