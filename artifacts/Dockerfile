@@ -68,25 +68,25 @@ ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 ENV clamav_path=${base_path}/libs-release-local/clamav
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
-ENV version=1.1.5
+ENV version=1.1.5.5
 
 # environment variable for maven central mosip artifacts 
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
-#ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
-ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5.5-SNAPSHOT/kernel-auth-adapter-1.1.5.5-20220420.053636-48.jar
+ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/1.1.5.5/kernel-auth-adapter-1.1.5.5.jar
+#ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5.5-SNAPSHOT/kernel-auth-adapter-1.1.5.5-20220420.053636-48.jar
 
 # environment variable for msg91_jar url. 
-ENV sms_msg91_jar_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
+ENV sms_msg91_jar_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/1.1.5.2/kernel-smsserviceprovider-msg91-1.1.5.2.jar
 #ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.1.5-rc1/kernel-smsserviceprovider-msg91-1.1.5-rc1.jar
 
 # environment variable for ref-idobjectvalidator_jar url
-ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
+ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/1.1.5.2/kernel-ref-idobjectvalidator-1.1.5.2.jar
 #ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/1.2.0-SNAPSHOT/kernel-ref-idobjectvalidator-1.2.0-20210506.093618-236.jar
 
 # environment variable for clamav jar and client url
-ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/${version}/kernel-virusscanner-clamav-${version}.jar
+ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/1.1.5.2/kernel-virusscanner-clamav-1.1.5.2.jar
 #ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0-SNAPSHOT/kernel-virusscanner-clamav-1.2.0-20210506.093621-303.jar
 
 ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
