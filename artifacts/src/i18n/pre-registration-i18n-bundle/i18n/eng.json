@@ -512,6 +512,16 @@
       "submit_btn": "Submit"
     }
   },
+  "otherPurpose": {
+    "back_btn": "Back",
+    "save_btn": "Save",
+    "title": "Book an appointment for Miscellaneous Purpose",
+    "headerMsg": "Please give details about the purpose to proceed",
+    "validationMsg": "Please give purpose",
+    "textLbl": "Purpose",
+    "errmsg1": "Please enter only text or numbers",
+    "errmsg2": "Please enter only 50 characters or less"
+  },
   "timeSelection": {
     "title_book": "Book Appointment",
     "text_prev": "Previous",

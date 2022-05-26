@@ -508,6 +508,16 @@
       "submit_btn":"nous faire parvenir"
     }
   },
+  "otherPurpose": {
+    "back_btn": "Retour",
+    "save_btn": "Sauver",
+    "title": "Prendre un rendez-vous à des fins diverses",
+    "headerMsg": "Veuillez donner des détails sur le but de continuer",
+    "validationMsg": "Veuillez donner un objectif",
+    "textLbl": "Objectif",
+    "errmsg1": "Veuillez saisir uniquement du texte ou des chiffres",
+    "errmsg2": "Veuillez entrer seulement 50 caractères ou moins"
+  },
   "timeSelection": {
     "title_book": "Rendez-vous du livre",
     "text_prev": "précédent",
