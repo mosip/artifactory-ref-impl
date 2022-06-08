@@ -1,464 +1,464 @@
 {
   "menuItems": {
     "item1": {
-      "title": "HOME_ara"
+      "title": "الصفحة الرئيسية"
     },
     "item2": {
-      "title": "Policy_ara",
-      "subItem1": "Policy Group_ara",
-      "subItem2": "Auth Policy_ara",
-      "subItem3": "Data Share Policy_ara"
+      "title": "سياسة",
+      "subItem1": "مجموعة السياسة",
+      "subItem2": "سياسة المصادقة",
+      "subItem3": "سياسة مشاركة البيانات"
     },
     "item3": {
-      "title": "Partner_ara"
+      "title": "شريك"
     },
     "item4": {
-      "title": "Device Details_ara"
+      "title": "تفاصيل الجهاز"
     },
     "item5": {
-      "title": "FTM Details_ara"
+      "title": "تفاصيل FTM"
     },
     "item6": {
-      "title": "SBI Details_ara"
+      "title": "فاصيل SBI"
     },
     "item7": {
-      "title": "Partner Policy Mapping_ara"
+      "title": "تخطيط سياسة الشريك"
     },
     "item8": {
-      "title": "Upload CA Certificate_ara"
+      "title": "تحميل شهادة CA"
     }
   },
   "dashboard": {
-    "welcomeMessage":"Welcome to Mosip Partner portal ara !",
-    "Logout":"Logout_ara"
+    "welcomeMessage":"مرحبا بكم في بوابة شركاء موسيب !",
+    "Logout":"تسجيل خروج"
   },
   "singleView": {
     "errorMessages": [
-      "No record found_ara",
-      "A technical error has occurred_ara"
+      "لا يوجد سجلات",
+      "حدث خطأ تقني"
     ],
-    "buttonText": "OK_ara",
-    "title": "Error_ara"
+    "buttonText": "نعم",
+    "title": "خطأ"
   },
   "masterData": {
-    "master-data": "Master Data_ara",
-    "total-no": "Total No_ara",
-    "common": "Common_ara",
-    "device-definition": "Device Definition_ara",
-    "machine-definition": "Machine Definition_ara",
-    "document-definition": "Document Definition_ara",
-    "doc-category-mapping": "Doc Category - Type Mapping_ara",
-    "category": "Category_ara",
-    "mapped-documents": "Mapped Documents_ara",
-    "unmapped-documents": "Unmapped Documents_ara"
+    "master-data": "البيانات الرئيسية",
+    "total-no": "مجموع لا",
+    "common": "مشترك",
+    "device-definition": "تعريف الجهاز",
+    "machine-definition": "تعريف الآلة",
+    "document-definition": "تعريف الوثيقة",
+    "doc-category-mapping": "فئة المستند - تعيين النوع",
+    "category": "فئة",
+    "mapped-documents": "المستندات المعينة_",
+    "unmapped-documents": "المستندات غير المعينة"
   },
   "pmanager": {
-    "status": "Status_ara",
-    "language": "English_ara",
-    "edit": "Edit_ara",
-    "create": "Create_ara",
-    "cancel": "Cancel_ara",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_ara",
-    "update": "Update_ara",
-    "created-on": "Created On_ara",
-    "created-by": "Created By_ara",
-    "updated-on": "Updated On_ara",
-    "updated-by": "Updated By_ara",
-    "header": "Change Policy_ara",
-    "name": "Policy Name_ara",
+    "status": "حالة",
+    "language": "إنجليزي",
+    "edit": "يحرر",
+    "create": "خلق",
+    "cancel": "يلغي",
+    "keyboard-tooltip": "انقر للحصول على لوحة المفاتيح الافتراضية (الإنجليزية)",
+    "update": "تحديث",
+    "created-on": "تم إنشاؤها على",
+    "created-by": "انشأ من قبل",
+    "updated-on": "تحديث في",
+    "updated-by": "تم التحديث بواسطة",
+    "header": "تغيير السياسة",
+    "name": "اسم السياسة",
     "popupMessages": {
       "create": {
-        "title": "Confirmation_ara",
+        "title": "تأكيد",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_ara"
+          "أنت على وشك إنشاء مركز تسجيل في",
+          "يرجى التأكد من صحة جميع المعلومات. سيتم إنشاء معرف المركز بمجرد تأكيدك"
         ],
-        "yesBtnText": "Yes_ara",
-        "noBtnText": "No_ara",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_ara"
+        "yesBtnText": "نعم",
+        "noBtnText": "رقم",
+        "mandatorySecondaryFields": "لم تقم بتعبئة البيانات الإلزامية في اللغة الثانوية. سيتم إنشاء مركز التسجيل باللغة الأساسية فقط. هل مازلت تريد الاستمرار؟"
       },
       "edit": {
-        "title": "Confirmation_ara",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_ara",
-        "yesBtnText": "Confirm_ara",
-        "noBtnText": "Cancel_ara",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_ara"
+        "title": "تأكيد",
+        "message": "أنت على وشك تحديث مركز التسجيل. يرجى التأكد من صحة جميع المعلومات_",
+        "yesBtnText": "يتأكد",
+        "noBtnText": "يلغي",
+        "mandatorySecondaryFields": "لم تقم بتعبئة البيانات الإلزامية في اللغة الثانوية. سيتم إنشاء مركز التسجيل باللغة الأساسية فقط. هل مازلت تريد الاستمرار؟"
       },
       "update-success": {
-        "title": "Success_ara",
-        "message": "Partner is updated Successfully_ara",
-        "btnTxt": "Ok_ara"
+        "title": "النجاح",
+        "message": "تم تحديث الشريك بنجاح",
+        "btnTxt": "موافق"
       },
       "update-error": {
-        "title": "Error_ara",
-        "message": "There was some issue in updating the Partner. Please try again_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "كان هناك بعض المشاكل في تحديث الشريك. حاول مرة اخرى",
+        "btnTxt": "موافق"
       },
       "create-success": {
-        "title": "Success_ara",
+        "title": "النجاح",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Name: _ara"
+          "تم إنشاء الشريك بنجاح بمعرف الشريك:",
+          " واسم الشريك:"
         ],
-        "btnTxt": "Ok_ara"
+        "btnTxt": "موافق"
       },
       "create-error": {
-        "title": "Error_ara",
-        "message": "There was some issue in creating Partner. Please try again_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "كان هناك بعض المشاكل في إنشاء الشريك. حاول مرة اخرى",
+        "btnTxt": "موافق"
       },
       "navigation-popup": {
-        "title": "Confirmation_ara",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._ara",
-        "yesBtnTxt": "Leave_ara",
-        "noBtnTxt": "Stay_ara"
+        "title": "تأكيد",
+        "message": "هل أنت متأكد أنك تريد الانتقال بعيدًا عن هذه الصفحة؟ ستفقد أي بيانات غير محفوظة.",
+        "yesBtnTxt": "غادر",
+        "noBtnTxt": "يقضي"
       },
       "noData": {
-        "title": "Error_ara",
-        "message": "No Data Found_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "لاتوجد بيانات",
+        "btnTxt": "موافق"
       }
     }
   },
   "partner": {
-    "address1": "Address_ara",
-    "header": "Partner Service_ara",
-    "name": "Organization_ara",
-    "id": "Id_ara",
-    "status": "Status_ara",
-    "language": "English_ara",
-    "edit": "Edit_ara",
-    "create": "Create_ara",
-    "cancel": "Cancel_ara",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_ara",
-    "update": "Update_ara",
-    "partner-details": "Partner Details_ara",
-    "created-on": "Created On_ara",
-    "created-by": "Created By_ara",
-    "updated-on": "Updated On_ara",
-    "updated-by": "Updated By_ara",
-    "registration-partner-name": "Organization Name_ara",
-    "registration-partner-type": "Policy Name_ara",
-    "contact-person": "Email Id_ara",
-    "contact-number": "Contact Number_ara",
-    "location-details": "Address Details_ara",
+    "address1": "تبوك",
+    "header": "خدمة الشريك",
+    "name": "منظمة",
+    "id": "بطاقة تعريف",
+    "status": "حالة",
+    "language": "إنجليزي",
+    "edit": "يحرر",
+    "create": "خلق",
+    "cancel": "يلغي",
+    "keyboard-tooltip": "انقر للحصول على لوحة المفاتيح الافتراضية (الإنجليزية)",
+    "update": "تحديث",
+    "partner-details": "تفاصيل الشريك",
+    "created-on": "تم إنشاؤها على",
+    "created-by": "انشأ من قبل",
+    "updated-on": "تحديث في",
+    "updated-by": "تم التحديث بواسطة",
+    "registration-partner-name": "اسم المنظمة",
+    "registration-partner-type": "اسم السياسة",
+    "contact-person": "عنوان الايميل",
+    "contact-number": "رقم الاتصال",
+    "location-details": "تفاصيل العنوان",
     "validationMessages": {
       "partnerTypeCode": {
-        "required": "Policy Name is required_ara"
+        "required": "اسم السياسة مطلوب"
       },
       "name": {
-        "required": "Organization Name is required_ara",
-        "max-length": "Exceeded max length (128)_ara"
+        "required": "اسم المنظمة مطلوب",
+        "max-length": "تجاوز الحد الأقصى للطول (128)"
       },
       "addressLine1": {
-        "required": "Address is required_ara",
-        "max-length": "Exceeded max length (256)_ara"
+        "required": "العنوان مطلوب",
+        "max-length": "تجاوز الحد الأقصى للطول (256)"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_ara",
+        "title": "تأكيد",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_ara"
+          "أنت على وشك إنشاء مركز تسجيل في",
+          "يرجى التأكد من صحة جميع المعلومات. سيتم إنشاء معرف المركز بمجرد تأكيدك"
         ],
-        "yesBtnText": "Yes_ara",
-        "noBtnText": "No_ara",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_ara"
+        "yesBtnText": "نعم",
+        "noBtnText": "رقم",
+        "mandatorySecondaryFields": "لم تقم بتعبئة البيانات الإلزامية في اللغة الثانوية. سيتم إنشاء مركز التسجيل باللغة الأساسية فقط. هل مازلت تريد الاستمرار؟"
       },
       "edit": {
-        "title": "Confirmation_ara",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_ara",
-        "yesBtnText": "Confirm_ara",
-        "noBtnText": "Cancel_ara",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_ara"
+        "title": "تأكيد",
+        "message": "أنت على وشك تحديث مركز التسجيل. يرجى التأكد من صحة جميع المعلومات",
+        "yesBtnText": "يتأكد",
+        "noBtnText": "يلغي",
+        "mandatorySecondaryFields": "لم تقم بتعبئة البيانات الإلزامية في اللغة الثانوية. سيتم إنشاء مركز التسجيل باللغة الأساسية فقط. هل مازلت تريد الاستمرار؟"
       },
       "update-success": {
-        "title": "Success_ara",
-        "message": "Partner is updated Successfully_ara",
-        "btnTxt": "Ok_ara"
+        "title": "النجاح",
+        "message": "تم تحديث الشريك بنجاح",
+        "btnTxt": "نعم"
       },
       "update-error": {
-        "title": "Error_ara",
-        "message": "There was some issue in updating the Partner. Please try again_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "كان هناك بعض المشاكل في تحديث الشريك. حاول مرة اخرى",
+        "btnTxt": "نعم"
       },
       "create-success": {
-        "title": "Success_ara",
+        "title": "النجاح",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Status is: _ara"
+          "تم إنشاء الشريك بنجاح بمعرف الشريك",
+          " وحالة الشريك هي:"
         ],
-        "btnTxt": "Ok_ara"
+        "btnTxt": "نعم"
       },
       "create-error": {
-        "title": "Error_ara",
-        "message": "There was some issue in creating Partner. Please try again_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "كان هناك بعض المشاكل في إنشاء الشريك. حاول مرة اخرى",
+        "btnTxt": "نعم"
       },
       "navigation-popup": {
-        "title": "Confirmation_ara",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._ara",
-        "yesBtnTxt": "Leave_ara",
-        "noBtnTxt": "Stay_ara"
+        "title": "تأكيد",
+        "message": "هل أنت متأكد أنك تريد الانتقال بعيدًا عن هذه الصفحة؟ ستفقد أي بيانات غير محفوظة.",
+        "yesBtnTxt": "غادر",
+        "noBtnTxt": "يقضي"
       },
       "noData": {
-        "title": "Error_ara",
-        "message": "No Data Found_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "لاتوجد بيانات",
+        "btnTxt": "نعم"
       }
     }
   },
   "misp": {
-    "header": "MISP_ara",
-    "name": "Name_ara",
-    "id": "Id_ara",
-    "isActive": "Misp Status_ara",
-    "contact_no": "Phone No_ara",
-    "status": "Status_ara",
-    "address": "Address_ara",
-    "misp-details": "Misp Details_ara",
-    "created-on": "Created On_ara",
-    "created-by": "Created By_ara",
-    "updated-on": "Updated On_ara",
-    "updated-by": "Updated By_ara",
-    "email_id": "Email_ara",
-    "edit": "Edit_ara",
-    "create": "Create_ara",
-    "cancel": "Cancel_ara",
-    "language": "English_ara",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_ara",
-    "update": "Update_ara",
+    "header": "MISP",
+    "name": "اسم",
+    "id": "هوية شخصية",
+    "isActive": "Misp حالة",
+    "contact_no": "رقم الهاتف",
+    "status": "حالة",
+    "address": "تبوك",
+    "misp-details": "تفاصيل مجموعة خدمات MISP",
+    "created-on": "تم إنشاؤها على",
+    "created-by": "انشأ من قبل",
+    "updated-on": "تحديث في",
+    "updated-by": "تم التحديث بواسطة",
+    "email_id": "البريد الإلكتروني",
+    "edit": "يحرر",
+    "create": "خلق",
+    "cancel": "إلغاء",
+    "language": "إنجليزي",
+    "keyboard-tooltip": "انقر للحصول على لوحة المفاتيح الافتراضية (الإنجليزية)",
+    "update": "تحديث",
     "validationMessages": {
       "name": {
-        "required": "Misp Name is required_ara",
-        "max-length": "Exceeded max length (128)_ara"
+        "required": "اسم Misp مطلوب",
+        "max-length": "تجاوز الحد الأقصى للطول (128)"
       },
       "address": {
-        "required": "Misp Address is required_ara",
-        "max-length": "Exceeded max length (128)_ara"
+        "required": "مطلوب عنوان Misp",
+        "max-length": "تجاوز الحد الأقصى للطول (128)"
       },
       "phoneNo": {
-        "required": "Misp phoneNo is required_ara"
+        "required": "هاتف بسيط"
       },
       "email": {
-        "required": "Misp email is required_ara"
+        "required": "مطلوب بريد إلكتروني بسيط"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_ara",
+        "title": "تأكيد",
         "message": [
-          "You are about to create a Misp in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_ara"
+          "أنت على وشك إنشاء Misp in",
+          ". يرجى التأكد من صحة جميع المعلومات. سيتم إنشاء معرف المركز بمجرد التأكيد"
         ],
-        "yesBtnText": "Yes_ara",
-        "noBtnText": "No_ara",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_ara"
+        "yesBtnText": "نعم",
+        "noBtnText": "رقم",
+        "mandatorySecondaryFields": "لم تقم بتعبئة البيانات الإلزامية في اللغة الثانوية. سيتم إنشاء Misp باللغة الأساسية فقط. هل مازلت تريد الاستمرار؟"
       },
       "edit": {
-        "title": "Confirmation_ara",
-        "message": "You are about to update a misp. Please ensure that all the information is correct_ara",
-        "yesBtnText": "Confirm_ara",
-        "noBtnText": "Cancel_ara",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_ara"
+        "title": "تأكيد",
+        "message": "أنت على وشك تحديث خطأ. يرجى التأكد من صحة جميع المعلومات",
+        "yesBtnText": "تؤكد",
+        "noBtnText": "إلغاء",
+        "mandatorySecondaryFields": "لم تقم بتعبئة البيانات الإلزامية في اللغة الثانوية. سيتم إنشاء Misp باللغة الأساسية فقط. هل مازلت تريد الاستمرار؟"
       },
       "update-success": {
-        "title": "Success_ara",
-        "message": "Misp is updated Successfully_ara",
-        "btnTxt": "Ok_ara"
+        "title": "النجاح",
+        "message": "تم تحديث Misp بنجاح",
+        "btnTxt": "نعم"
       },
       "update-error": {
-        "title": "Error_ara",
-        "message": "There was some issue in updating the misp. Please try again_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "كان هناك بعض المشاكل في تحديث الخطأ. حاول مرة اخرى",
+        "btnTxt": "نعم"
       },
       "create-success": {
-        "title": "Success_ara",
-        "message": ["MISP is created Successfully._ara"],
-        "btnTxt": "Ok_ara"
+        "title": "النجاح",
+        "message": ["تم إنشاء مجموعة خدمات MISP بنجاح."],
+        "btnTxt": "نعم"
       },
       "create-error": {
-        "title": "Error_ara",
-        "message": "There was some issue in creating a misp. Please try again_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "كان هناك بعض المشاكل في خلق خطأ. حاول مرة اخرى",
+        "btnTxt": "نعم"
       },
       "navigation-popup": {
-        "title": "Confirmation_ara",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._ara",
-        "yesBtnTxt": "Leave_ara",
-        "noBtnTxt": "Stay_ara"
+        "title": "تأكيد",
+        "message": "هل أنت متأكد أنك تريد الانتقال بعيدًا عن هذه الصفحة؟ ستفقد أي بيانات غير محفوظة.",
+        "yesBtnTxt": "غادر",
+        "noBtnTxt": "يقضي"
       },
       "noData": {
-        "title": "Error_ara",
-        "message": "No Data Found_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "لاتوجد بيانات",
+        "btnTxt": "نعم"
       },
       "lunchTimeValidation": {
-        "title": "Error_ara",
-        "message": "Please select center timings before selecting lunch timings_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "يرجى تحديد توقيت المركز قبل تحديد توقيت الغداء",
+        "btnTxt": "نعم"
       }
     }
   },
   "validationMessages": {
-    "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_ara",
-    "range": "’To’ date cannot be before ‘From’ date'_ara",
-    "invalid": "Please select a valid value for Date_ara"
+    "required": "يرجى ملء كل من الحقل إلى ومن الحقل للتصفية حسب النطاق الزمني",  
+    "range": "حتى الآن لا يمكن أن يكون قبل من تاريخ",
+    "invalid": "الرجاء تحديد قيمة صالحة للتاريخ"
   },
   "actionMessages": {
     "decommission": {
-      "success-message": ["", " is approved successfully_ara"],
-      "success-title": "Success_ara",
-      "error-message": "Cannot approve the Misp.Currently Misp is inactive_ara",
-      "error-title": "Error_ara",
-      "btnTxt": "Ok_ara",
-      "yesBtnTxt": "Confirm_ara",
-      "noBtnTxt": "Cancel_ara",
+      "success-message": ["", " تمت الموافقة عليه بنجاح"],
+      "success-title": "النجاح",
+      "error-message": "لا يمكن الموافقة على Misp. حاليا Misp غير نشط_ara",
+      "error-title": "خطأ",
+      "btnTxt": "نعم",
+      "yesBtnTxt": "تؤكد",
+      "noBtnTxt": "إلغاء",
       "confirmation-message": [
-        "Do you want to Approve the Misp ",
-        " ? \n You cannot undo this action once you click on Confirm._ara"
+        "هل تريد الموافقة على Misp ",
+        " ? \n لا يمكنك التراجع عن هذا الإجراء بمجرد النقر فوق تأكيد."
       ],
-      "confirmation-title": "Confirmation_ara"
+      "confirmation-title": "تأكيد"
     },
     "activate": {
-      "success-message": ["", " is Activated Successfully_ara"],
-      "success-title": "Success_ara",
-      "error-message": "Could not be Activated_ara",
-      "error-title": "Error_ara",
-      "btnTxt": "Ok_ara",
-      "yesBtnTxt": "Yes_ara",
-      "noBtnTxt": "No_ara",
+      "success-message": ["", " تم تفعيله بنجاح"],
+      "success-title": "النجاح",
+      "error-message": "لا يمكن التنشيط",
+      "error-title": "خطأ",
+      "btnTxt": "نعم",
+      "yesBtnTxt": "نعم",
+      "noBtnTxt": "رقم",
       "confirmation-message": [
-        "Do you want to Activate the ",
-        "? \n You can Deactivate it later if you wish. Till then it will be set as Active_ara"
+        "هل تريد تفعيل ملف ",
+        "? \n يمكنك إلغاء تنشيطه لاحقًا إذا كنت ترغب في ذلك. حتى ذلك الحين سيتم تعيينه على أنه نشط"
       ],
-      "confirmation-title": "Confirmation_ara"
+      "confirmation-title": "تأكيد"
     },
     "deactivate": {
-      "success-message": ["", " is Deactivated Successfully_ara"],
-      "success-title": "Success_ara",
-      "error-message": "Misp Could not be Deactivated_ara",
-      "error-title": "Error_ara",
-      "btnTxt": "Ok_ara",
-      "yesBtnTxt": "Yes_ara",
-      "noBtnTxt": "No_ara",
+      "success-message": ["", " تم إلغاء تنشيطه بنجاح"],
+      "success-title": "النجاح",
+      "error-message": "تعذر إلغاء تنشيط Misp",
+      "error-title": "خطأ",
+      "btnTxt": "نعم",
+      "yesBtnTxt": "نعم",
+      "noBtnTxt": "رقم",
       "confirmation-message": [
-        "Do you want to Deactivate the ",
-        " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_ara"
+        "هل تريد إلغاء تنشيط ملف ",
+        " ? \n يمكنك تنشيطه لاحقًا إذا كنت ترغب في ذلك. حتى ذلك الحين سيتم تعيينه على أنه غير نشط"
       ],
-      "confirmation-title": "Confirmation_ara"
+      "confirmation-title": "تأكيد"
     }
   },
   "policy": {
-    "header": "Policy_ara",
-    "name": "Name_ara",
-    "desc": "Description_ara",
-    "authPolicies": "Allowed Auth Types_ara",
-    "allowedKycAttributes": "Allowed Kyc Attributes_ara",
-    "id": "Id_ara",
-    "isActive": "Status_ara",
-    "policy-details": "Policy Details_ara",
-    "created-on": "Created On_ara",
-    "created-by": "Created By_ara",
-    "updated-on": "Updated On_ara",
-    "updated-by": "Updated By_ara",
-    "edit": "Edit_ara",
-    "create": "Create_ara",
-    "cancel": "Cancel_ara",
-    "language": "English_ara",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_ara",
-    "update": "Update_ara",
+    "header": "سياسة",
+    "name": "اسم",
+    "desc": "وصف",
+    "authPolicies": "أنواع المصادقة المسموح بها",
+    "allowedKycAttributes": "سمات Kyc المسموح بها",
+    "id": "بطاقة تعريف",
+    "isActive": "حالة",
+    "policy-details": "تفاصيل السياسة",
+    "created-on": "تم إنشاؤها على",
+    "created-by": "انشأ من قبل",
+    "updated-on": "تحديث في",
+    "updated-by": "تم التحديث بواسطة",
+    "edit": "يحرر",
+    "create": "خلق",
+    "cancel": "إلغاء",
+    "language": "إنجليزي",
+    "keyboard-tooltip": "انقر للحصول على لوحة المفاتيح الافتراضية (الإنجليزية)",
+    "update": "تحديث",
     "validationMessages": {
       "name": {
-        "required": "Policy Name is required_ara",
-        "max-length": "Exceeded max length (128)_ara"
+        "required": "اسم السياسة مطلوب",
+        "max-length": "تجاوز الحد الأقصى للطول (128)"
       },
       "desc": {
-        "required": "Policy description is required_ara",
-        "max-length": "Exceeded max length (128)_ara"
+        "required": "وصف السياسة مطلوب",
+        "max-length": "تجاوز الحد الأقصى للطول (128)"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_ara",
+        "title": "تأكيد",
         "message": [
-          "You are about to create a Policy in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_ara"
+          "أنت على وشك إنشاء سياسة في ",
+          ". يرجى التأكد من صحة جميع المعلومات. سيتم إنشاء معرف المركز بمجرد قيامك بذلكتؤكد"
         ],
-        "yesBtnText": "Yes_ara",
-        "noBtnText": "No_ara",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_ara"
+        "yesBtnText": "نعم",
+        "noBtnText": "رقم",
+        "mandatorySecondaryFields": "لم تقم بتعبئة البيانات الإلزامية في اللغة الثانوية. سيتم إنشاء السياسة باللغة الأساسية فقط. هل مازلت تريد الاستمرار؟"
       },
       "edit": {
-        "title": "Confirmation_ara",
-        "message": "You are about to update a policy. Please ensure that all the information is correct_ara",
-        "yesBtnText": "Confirm_ara",
-        "noBtnText": "Cancel_ara",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_ara"
+        "title": "تأكيد",
+        "message": "أنت على وشك تحديث السياسة. يرجى التأكد من صحة جميع المعلومات",
+        "yesBtnText": "تؤكد",
+        "noBtnText": "إلغاء",
+        "mandatorySecondaryFields": "لم تقم بتعبئة البيانات الإلزامية في اللغة الثانوية. سيتم إنشاء Misp باللغة الأساسية فقط. هل مازلت تريد الاستمرار؟"
       },
       "update-success": {
-        "title": "Success_ara",
-        "message": "policy is updated Successfully_ara",
-        "btnTxt": "Ok_ara"
+        "title": "النجاح",
+        "message": "تم تحديث السياسة بنجاح",
+        "btnTxt": "نعم"
       },
       "update-error": {
-        "title": "Error_ara",
-        "message": "There was some issue in updating the policy. Please try again_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "كان هناك بعض المشاكل في تحديث السياسة. حاول مرة اخرى",
+        "btnTxt": "نعم"
       },
       "create-success": {
-        "title": "Success_ara",
-        "message": ["Policy is created Successfully._ara"],
-        "btnTxt": "Ok_ara"
+        "title": "النجاح",
+        "message": ["تم إنشاء السياسة بنجاح."],
+        "btnTxt": "نعم"
       },
       "create-error": {
-        "title": "Error_ara",
-        "message": "There was some issue in creating a policy. Please try again_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "كان هناك بعض المشاكل في إنشاء السياسة. حاول مرة اخرى",
+        "btnTxt": "نعم"
       },
       "navigation-popup": {
-        "title": "Confirmation_ara",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._ara",
-        "yesBtnTxt": "Leave_ara",
-        "noBtnTxt": "Stay_ara"
+        "title": "تأكيد",
+        "message": "هل أنت متأكد أنك تريد الانتقال بعيدًا عن هذه الصفحة؟ ستفقد أي بيانات غير محفوظة.",
+        "yesBtnTxt": "غادر",
+        "noBtnTxt": "يقضي"
       },
       "noData": {
-        "title": "Error_ara",
-        "message": "No Data Found_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "لاتوجد بيانات",
+        "btnTxt": "نعم"
       },
       "lunchTimeValidation": {
-        "title": "Error_ara",
-        "message": "Please select center timings before selecting lunch timings_ara",
-        "btnTxt": "Ok_ara"
+        "title": "خطأ",
+        "message": "يرجى تحديد توقيت المركز قبل تحديد توقيت الغداء",
+        "btnTxt": "نعم"
       }
     }
   },
   "uploadcertificate": {
-    "title": "Upload Certificate_ara",
-    "CAtitle": "Upload CA Certificate_ara",
-    "partnerDomain": "Partner Domain_ara",
-    "chooseFile": "Choose File_ara",
-    "uploadYourFile": "Upload Your File_ara",
-    "button": "Upload_ara",
-    "cancel": "Cancel_ara"
+    "title": "تحميل الشهادة",
+    "CAtitle": "تحميل شهادة CA",
+    "partnerDomain": "مجال الشريك",
+    "chooseFile": "اختر ملف",
+    "uploadYourFile": "ارفع ملفك",
+    "button": "تحميل",
+    "cancel": "إلغاء"
   },
   "filters": {
-    "titleTxt": "Add Filters_ara",
+    "titleTxt": "إضافة عوامل التصفية",
     "footerButtons": {
-        "resetTxt": "Reset_ara",
-        "cancelTxt": "Cancel_ara",
-        "applyTxt": "Apply_ara"
+        "resetTxt": "إعادة تعيين",
+        "cancelTxt": "إلغاء",
+        "applyTxt": "يتقدم"
     }
   },
   "isActive": {
-    "Active": "ACTIVE_ara",
-    "InActive": "INACTIVE_ara"
+    "Active": "نشيط",
+    "InActive": "غير نشط"
   },
   "genericerror": {
-    "fieldValidation": "This field is required_ara",
-    "fieldNameValidation": " is required_ara"
+    "fieldValidation": "هذه الخانة مطلوبه",
+    "fieldNameValidation": " مطلوب"
   },
   "serverError": {
     "PMS-COR-001": "معلمة الإدخال مفقود",
