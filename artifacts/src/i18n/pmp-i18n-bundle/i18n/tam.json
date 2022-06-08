@@ -1,464 +1,464 @@
 {
   "menuItems": {
     "item1": {
-      "title": "HOME_tam"
+      "title": "வீடு"
     },
     "item2": {
-      "title": "Policy_tam",
-      "subItem1": "Policy Group_tam",
-      "subItem2": "Auth Policy_tam",
-      "subItem3": "Data Share Policy_tam"
+      "title": "கொள்கை",
+      "subItem1": "கொள்கை குழு",
+      "subItem2": "அங்கீகாரக் கொள்கை",
+      "subItem3": "தரவு பகிர்வு கொள்கை"
     },
     "item3": {
-      "title": "Partner_tam"
+      "title": "பங்குதாரர்"
     },
     "item4": {
-      "title": "Device Details_tam"
+      "title": "சாதன விவரங்கள்"
     },
     "item5": {
-      "title": "FTM Details_tam"
+      "title": "FTM விவரங்கள்"
     },
     "item6": {
-      "title": "SBI Details_tam"
+      "title": "SBI விவரங்கள்"
     },
     "item7": {
-      "title": "Partner Policy Mapping_tam"
+      "title": "கூட்டாளர் கொள்கை மேப்பிங்"
     },
     "item8": {
-      "title": "Upload CA Certificate_tam"
+      "title": "CA சான்றிதழை பதிவேற்றவும்"
     }
   },
   "dashboard": {
-    "welcomeMessage":"Welcome to Mosip Partner portal tam !",
-    "Logout":"Logout_tam"
+    "welcomeMessage":"Mosip பார்ட்னர் போர்ட்டலுக்கு வரவேற்கிறோம் !",
+    "Logout":"வெளியேறு"
   },
   "singleView": {
     "errorMessages": [
-      "No record found_tam",
-      "A technical error has occurred_tam"
+      "பதிவு எதுவும் கிடைக்கவில்லை",
+      "தொழில்நுட்ப பிழை ஏற்பட்டுள்ளது"
     ],
-    "buttonText": "OK_tam",
-    "title": "Error_tam"
+    "buttonText": "சரி",
+    "title": "பிழை"
   },
   "masterData": {
-    "master-data": "Master Data_tam",
-    "total-no": "Total No_tam",
-    "common": "Common_tam",
-    "device-definition": "Device Definition_tam",
-    "machine-definition": "Machine Definition_tam",
-    "document-definition": "Document Definition_tam",
-    "doc-category-mapping": "Doc Category - Type Mapping_tam",
-    "category": "Category_tam",
-    "mapped-documents": "Mapped Documents_tam",
-    "unmapped-documents": "Unmapped Documents_tam"
+    "master-data": "பிரதான தரவு",
+    "total-no": "மொத்த எண்",
+    "common": "பொதுவானது",
+    "device-definition": "சாதன வரையறை",
+    "machine-definition": "இயந்திர வரையறை",
+    "document-definition": "ஆவண வரையறை",
+    "doc-category-mapping": "ஆவண வகை - வகை மேப்பிங்",
+    "category": "வகை",
+    "mapped-documents": "வரைபட ஆவணங்கள்",
+    "unmapped-documents": "வரைபடமாக்கப்படாத ஆவணங்கள்"
   },
   "pmanager": {
-    "status": "Status_tam",
-    "language": "English_tam",
-    "edit": "Edit_tam",
-    "create": "Create_tam",
-    "cancel": "Cancel_tam",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_tam",
-    "update": "Update_tam",
-    "created-on": "Created On_tam",
-    "created-by": "Created By_tam",
-    "updated-on": "Updated On_tam",
-    "updated-by": "Updated By_tam",
-    "header": "Change Policy_tam",
-    "name": "Policy Name_tam",
+    "status": "நிலை",
+    "language": "ஆங்கிலம்",
+    "edit": "தொகு",
+    "create": "உருவாக்கு",
+    "cancel": "ரத்து செய்",
+    "keyboard-tooltip": "மெய்நிகர் விசைப்பலகைக்கு (ஆங்கிலம்) கிளிக் செய்யவும்",
+    "update": "புதுப்பிக்கவும்",
+    "created-on": "அன்று உருவாக்கப்பட்ட",
+    "created-by": "உருவாக்கியது",
+    "updated-on": "புதுப்பிக்கப்பட்டது",
+    "updated-by": "மூலம் புதுப்பிக்கப்பட்டது",
+    "header": "கொள்கையை மாற்றவும்",
+    "name": "கொள்கை பெயர்",
     "popupMessages": {
       "create": {
-        "title": "Confirmation_tam",
+        "title": "உறுதிப்படுத்தல்",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_tam"
+          "நீங்கள் ஒரு பதிவு மையத்தை உருவாக்க உள்ளீர்கள்",
+          ". அனைத்து தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். நீங்கள் உறுதி செய்தவுடன் மைய ஐடி உருவாக்கப்படும்"
         ],
-        "yesBtnText": "Yes_tam",
-        "noBtnText": "No_tam",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_tam"
+        "yesBtnText": "ஆம்",
+        "noBtnText": "இல்லை",
+        "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. பதிவு மையம் முதன்மை மொழியில் மட்டுமே உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
       },
       "edit": {
-        "title": "Confirmation_tam",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_tam",
-        "yesBtnText": "Confirm_tam",
-        "noBtnText": "Cancel_tam",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_tam"
+        "title": "உறுதிப்படுத்தல்",
+        "message": "நீங்கள் பதிவு மையத்தைப் புதுப்பிக்க உள்ளீர்கள். அனைத்து தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும்",
+        "yesBtnText": "உறுதிப்படுத்தவும்",
+        "noBtnText": "ரத்து செய்",
+        "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. பதிவு மையம் முதன்மை மொழியில் மட்டுமே உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
       },
       "update-success": {
-        "title": "Success_tam",
-        "message": "Partner is updated Successfully_tam",
-        "btnTxt": "Ok_tam"
+        "title": "வெற்றி",
+        "message": "கூட்டாளர் வெற்றிகரமாக புதுப்பிக்கப்பட்டார்",
+        "btnTxt": "சரி"
       },
       "update-error": {
-        "title": "Error_tam",
-        "message": "There was some issue in updating the Partner. Please try again_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "கூட்டாளரைப் புதுப்பிப்பதில் சில சிக்கல்கள் உள்ளன. தயவுசெய்து மீண்டும் முயற்சி செய்க",
+        "btnTxt": "சரி"
       },
       "create-success": {
-        "title": "Success_tam",
+        "title": "வெற்றி",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Name: _tam"
+          "பார்ட்னர் ஐடி மூலம் பார்ட்னர் வெற்றிகரமாக உருவாக்கப்பட்டது: ",
+          " மற்றும் பங்குதாரர் பெயர்:"
         ],
-        "btnTxt": "Ok_tam"
+        "btnTxt": "சரி"
       },
       "create-error": {
-        "title": "Error_tam",
-        "message": "There was some issue in creating Partner. Please try again_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "கூட்டாளரை உருவாக்குவதில் சில சிக்கல்கள் உள்ளன. தயவுசெய்து மீண்டும் முயற்சி செய்க",
+        "btnTxt": "சரி"
       },
       "navigation-popup": {
-        "title": "Confirmation_tam",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._tam",
-        "yesBtnTxt": "Leave_tam",
-        "noBtnTxt": "Stay_tam"
+        "title": "உறுதிப்படுத்தல்",
+        "message": "இந்தப் பக்கத்திலிருந்து நிச்சயமாகச் செல்ல விரும்புகிறீர்களா? சேமிக்கப்படாத தரவு அனைத்தும் இழக்கப்படும்.",
+        "yesBtnTxt": "கிளம்பு",
+        "noBtnTxt": "இருங்கள்"
       },
       "noData": {
-        "title": "Error_tam",
-        "message": "No Data Found_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "வேறு தகவல்கள் இல்லை",
+        "btnTxt": "சரி"
       }
     }
   },
   "partner": {
-    "address1": "Address_tam",
-    "header": "Partner Service_tam",
-    "name": "Organization_tam",
-    "id": "Id_tam",
-    "status": "Status_tam",
-    "language": "English_tam",
-    "edit": "Edit_tam",
-    "create": "Create_tam",
-    "cancel": "Cancel_tam",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_tam",
-    "update": "Update_tam",
-    "partner-details": "Partner Details_tam",
-    "created-on": "Created On_tam",
-    "created-by": "Created By_tam",
-    "updated-on": "Updated On_tam",
-    "updated-by": "Updated By_tam",
-    "registration-partner-name": "Organization Name_tam",
-    "registration-partner-type": "Policy Name_tam",
-    "contact-person": "Email Id_tam",
-    "contact-number": "Contact Number_tam",
-    "location-details": "Address Details_tam",
+    "address1": "முகவரி",
+    "header": "கூட்டாளர் சேவை",
+    "name": "அமைப்பு",
+    "id": "ஐடி",
+    "status": "நிலை",
+    "language": "ஆங்கிலம்",
+    "edit": "தொகு",
+    "create": "உருவாக்கு",
+    "cancel": "ரத்து செய்",
+    "keyboard-tooltip": "மெய்நிகர் விசைப்பலகைக்கு (ஆங்கிலம்) கிளிக் செய்யவும்",
+    "update": "புதுப்பிக்கவும்",
+    "partner-details": "கூட்டாளர் விவரங்கள்",
+    "created-on": "அன்று உருவாக்கப்பட்ட",
+    "created-by": "உருவாக்கியது",
+    "updated-on": "புதுப்பிக்கப்பட்டது",
+    "updated-by": "மூலம் புதுப்பிக்கப்பட்டது",
+    "registration-partner-name": "நிறுவன பெயர்",
+    "registration-partner-type": "கொள்கை பெயர்",
+    "contact-person": "மின்னஞ்சல் முகவரி",
+    "contact-number": "தொடர்பு எண்",
+    "location-details": "முகவரி விவரங்கள்",
     "validationMessages": {
       "partnerTypeCode": {
-        "required": "Policy Name is required_tam"
+        "required": "பாலிசியின் பெயர் தேவை"
       },
       "name": {
-        "required": "Organization Name is required_tam",
-        "max-length": "Exceeded max length (128)_tam"
+        "required": "அமைப்பின் பெயர் தேவை",
+        "max-length": "அதிகபட்ச நீளம் (128)"
       },
       "addressLine1": {
-        "required": "Address is required_tam",
-        "max-length": "Exceeded max length (256)_tam"
+        "required": "முகவரி தேவை",
+        "max-length": "அதிகபட்ச நீளம் (256)"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_tam",
+        "title": "உறுதிப்படுத்தல்",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_tam"
+          "நீங்கள் ஒரு பதிவு மையத்தை உருவாக்க உள்ளீர்கள்",
+          ". அனைத்து தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். நீங்கள் உறுதி செய்தவுடன் மைய ஐடி உருவாக்கப்படும்"
         ],
-        "yesBtnText": "Yes_tam",
-        "noBtnText": "No_tam",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_tam"
+        "yesBtnText": "ஆம்",
+        "noBtnText": "இல்லை",
+        "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. பதிவு மையம் முதன்மை மொழியில் மட்டுமே உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
       },
       "edit": {
-        "title": "Confirmation_tam",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_tam",
-        "yesBtnText": "Confirm_tam",
-        "noBtnText": "Cancel_tam",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_tam"
+        "title": "உறுதிப்படுத்தல்",
+        "message": "நீங்கள் பதிவு மையத்தைப் புதுப்பிக்க உள்ளீர்கள். அனைத்து தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும்",
+        "yesBtnText": "உறுதிப்படுத்தவும்",
+        "noBtnText": "ரத்து செய்",
+        "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. பதிவு மையம் முதன்மை மொழியில் மட்டுமே உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
       },
       "update-success": {
-        "title": "Success_tam",
-        "message": "Partner is updated Successfully_tam",
-        "btnTxt": "Ok_tam"
+        "title": "வெற்றி",
+        "message": "கூட்டாளர் வெற்றிகரமாக புதுப்பிக்கப்பட்டார்",
+        "btnTxt": "சரி"
       },
       "update-error": {
-        "title": "Error_tam",
-        "message": "There was some issue in updating the Partner. Please try again_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "கூட்டாளரைப் புதுப்பிப்பதில் சில சிக்கல்கள் உள்ளன. தயவுசெய்து மீண்டும் முயற்சி செய்க",
+        "btnTxt": "சரி"
       },
       "create-success": {
-        "title": "Success_tam",
+        "title": "வெற்றி",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Status is: _tam"
+          "பார்ட்னர் ஐடி மூலம் பார்ட்னர் வெற்றிகரமாக உருவாக்கப்பட்டது: ",
+          " மற்றும் கூட்டாளர் நிலை:"
         ],
-        "btnTxt": "Ok_tam"
+        "btnTxt": "சரி"
       },
       "create-error": {
-        "title": "Error_tam",
-        "message": "There was some issue in creating Partner. Please try again_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "கூட்டாளரை உருவாக்குவதில் சில சிக்கல்கள் உள்ளன. தயவுசெய்து மீண்டும் முயற்சி செய்க",
+        "btnTxt": "சரி"
       },
       "navigation-popup": {
-        "title": "Confirmation_tam",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._tam",
-        "yesBtnTxt": "Leave_tam",
-        "noBtnTxt": "Stay_tam"
+        "title": "உறுதிப்படுத்தல்",
+        "message": "இந்தப் பக்கத்திலிருந்து நிச்சயமாகச் செல்ல விரும்புகிறீர்களா? சேமிக்கப்படாத தரவு அனைத்தும் இழக்கப்படும்.",
+        "yesBtnTxt": "கிளம்பு",
+        "noBtnTxt": "இருங்கள்"
       },
       "noData": {
-        "title": "Error_tam",
-        "message": "No Data Found_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "வேறு தகவல்கள் இல்லை",
+        "btnTxt": "சரி"
       }
     }
   },
   "misp": {
-    "header": "MISP_tam",
-    "name": "Name_tam",
-    "id": "Id_tam",
-    "isActive": "Misp Status_tam",
-    "contact_no": "Phone No_tam",
-    "status": "Status_tam",
-    "address": "Address_tam",
-    "misp-details": "Misp Details_tam",
-    "created-on": "Created On_tam",
-    "created-by": "Created By_tam",
-    "updated-on": "Updated On_tam",
-    "updated-by": "Updated By_tam",
-    "email_id": "Email_tam",
-    "edit": "Edit_tam",
-    "create": "Create_tam",
-    "cancel": "Cancel_tam",
-    "language": "English_tam",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_tam",
-    "update": "Update_tam",
+    "header": "MISP",
+    "name": "பெயர்",
+    "id": "ஐடி",
+    "isActive": "Misp நிலை",
+    "contact_no": "தொலைபேசி எண்",
+    "status": "நிலை",
+    "address": "முகவரி",
+    "misp-details": "Misp விவரங்கள்",
+    "created-on": "அன்று உருவாக்கப்பட்ட",
+    "created-by": "உருவாக்கியது",
+    "updated-on": "புதுப்பிக்கப்பட்டது",
+    "updated-by": "மூலம் புதுப்பிக்கப்பட்டது",
+    "email_id": "மின்னஞ்சல்",
+    "edit": "தொகு",
+    "create": "உருவாக்கு",
+    "cancel": "ரத்து செய்",
+    "language": "ஆங்கிலம்",
+    "keyboard-tooltip": "மெய்நிகர் விசைப்பலகைக்கு (ஆங்கிலம்) கிளிக் செய்யவும்",
+    "update": "புதுப்பிக்கவும்",
     "validationMessages": {
       "name": {
-        "required": "Misp Name is required_tam",
-        "max-length": "Exceeded max length (128)_tam"
+        "required": "Misp பெயர் தேவை",
+        "max-length": "அதிகபட்ச நீளம் (128)"
       },
       "address": {
-        "required": "Misp Address is required_tam",
-        "max-length": "Exceeded max length (128)_tam"
+        "required": "Misp முகவரி தேவை",
+        "max-length": "அதிகபட்ச நீளம் (128)"
       },
       "phoneNo": {
-        "required": "Misp phoneNo is required_tam"
+        "required": "Misp தொலைபேசி எண் தேவை"
       },
       "email": {
-        "required": "Misp email is required_tam"
+        "required": "Misp மின்னஞ்சல் தேவை"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_tam",
+        "title": "உறுதிப்படுத்தல்",
         "message": [
-          "You are about to create a Misp in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_tam"
+          "நீங்கள் ஒரு MISP ஐ உருவாக்க உள்ளீர்கள் ",
+          ". அனைத்து தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். நீங்கள் உறுதி செய்தவுடன் மைய ஐடி உருவாக்கப்படும்"
         ],
-        "yesBtnText": "Yes_tam",
-        "noBtnText": "No_tam",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_tam"
+        "yesBtnText": "ஆம்",
+        "noBtnText": "இல்லை",
+        "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. முதன்மை மொழியில் மட்டுமே Misp உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
       },
       "edit": {
-        "title": "Confirmation_tam",
-        "message": "You are about to update a misp. Please ensure that all the information is correct_tam",
-        "yesBtnText": "Confirm_tam",
-        "noBtnText": "Cancel_tam",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_tam"
+        "title": "உறுதிப்படுத்தல்",
+        "message": "நீங்கள் ஒரு தவறைப் புதுப்பிக்க உள்ளீர்கள். அனைத்து தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும்",
+        "yesBtnText": "உறுதிப்படுத்தவும்",
+        "noBtnText": "ரத்து செய்",
+        "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. முதன்மை மொழியில் மட்டுமே Misp உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
       },
       "update-success": {
-        "title": "Success_tam",
-        "message": "Misp is updated Successfully_tam",
-        "btnTxt": "Ok_tam"
+        "title": "வெற்றி",
+        "message": "Misp வெற்றிகரமாக புதுப்பிக்கப்பட்டது",
+        "btnTxt": "சரி"
       },
       "update-error": {
-        "title": "Error_tam",
-        "message": "There was some issue in updating the misp. Please try again_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "பிழையைப் புதுப்பிப்பதில் சில சிக்கல்கள் உள்ளன. தயவுசெய்து மீண்டும் முயற்சி செய்க",
+        "btnTxt": "சரி"
       },
       "create-success": {
-        "title": "Success_tam",
-        "message": ["MISP is created Successfully._tam"],
-        "btnTxt": "Ok_tam"
+        "title": "வெற்றி",
+        "message": ["MISP வெற்றிகரமாக உருவாக்கப்பட்டது."],
+        "btnTxt": "சரி"
       },
       "create-error": {
-        "title": "Error_tam",
-        "message": "There was some issue in creating a misp. Please try again_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "பிழையை உருவாக்குவதில் சில சிக்கல்கள் இருந்தன. தயவுசெய்து மீண்டும் முயற்சி செய்க",
+        "btnTxt": "சரி"
       },
       "navigation-popup": {
-        "title": "Confirmation_tam",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._tam",
-        "yesBtnTxt": "Leave_tam",
-        "noBtnTxt": "Stay_tam"
+        "title": "உறுதிப்படுத்தல்",
+        "message": "இந்தப் பக்கத்திலிருந்து நிச்சயமாகச் செல்ல விரும்புகிறீர்களா? சேமிக்கப்படாத தரவு அனைத்தும் இழக்கப்படும்.",
+        "yesBtnTxt": "கிளம்பு",
+        "noBtnTxt": "இருங்கள்"
       },
       "noData": {
-        "title": "Error_tam",
-        "message": "No Data Found_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "வேறு தகவல்கள் இல்லை",
+        "btnTxt": "சரி"
       },
       "lunchTimeValidation": {
-        "title": "Error_tam",
-        "message": "Please select center timings before selecting lunch timings_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "மதிய உணவு நேரத்தைத் தேர்ந்தெடுப்பதற்கு முன் மைய நேரத்தைத் தேர்ந்தெடுக்கவும்",
+        "btnTxt": "சரி"
       }
     }
   },
   "validationMessages": {
-    "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_tam",
-    "range": "’To’ date cannot be before ‘From’ date'_tam",
-    "invalid": "Please select a valid value for Date_tam"
+    "required": "தேதி வரம்பின்படி வடிகட்ட, ‘இருந்து’ மற்றும் ‘வருதல்’ ஆகிய இரண்டையும் நிரப்பவும்",
+    "range": "'இன்று' தேதி 'இருந்து' தேதிக்கு முன் இருக்கக்கூடாது'",
+    "invalid": "தேதிக்கான சரியான மதிப்பைத் தேர்ந்தெடுக்கவும்"
   },
   "actionMessages": {
     "decommission": {
-      "success-message": ["", " is approved successfully_tam"],
-      "success-title": "Success_tam",
-      "error-message": "Cannot approve the Misp.Currently Misp is inactive_tam",
-      "error-title": "Error_tam",
-      "btnTxt": "Ok_tam",
-      "yesBtnTxt": "Confirm_tam",
-      "noBtnTxt": "Cancel_tam",
+      "success-message": ["", " வெற்றிகரமாக அங்கீகரிக்கப்பட்டது"],
+      "success-title": "வெற்றி",
+      "error-message": "Misp ஐ அங்கீகரிக்க முடியாது.தற்போது Misp செயலற்ற நிலையில் உள்ளது",
+      "error-title": "பிழை",
+      "btnTxt": "சரி",
+      "yesBtnTxt": "உறுதிப்படுத்தவும்",
+      "noBtnTxt": "ரத்து செய்",
       "confirmation-message": [
-        "Do you want to Approve the Misp ",
-        " ? \n You cannot undo this action once you click on Confirm._tam"
+        "நீங்கள் அங்கீகரிக்க விரும்புகிறீர்களா Misp ",
+        " ? \n உறுதிப்படுத்தல் என்பதைக் கிளிக் செய்தவுடன் இந்தச் செயலைச் செயல்தவிர்க்க முடியாது."
       ],
-      "confirmation-title": "Confirmation_tam"
+      "confirmation-title": "உறுதிப்படுத்தல்"
     },
     "activate": {
-      "success-message": ["", " is Activated Successfully_tam"],
-      "success-title": "Success_tam",
-      "error-message": "Could not be Activated_tam",
-      "error-title": "Error_tam",
-      "btnTxt": "Ok_tam",
-      "yesBtnTxt": "Yes_tam",
-      "noBtnTxt": "No_tam",
+      "success-message": ["", " வெற்றிகரமாக செயல்படுத்தப்பட்டது"],
+      "success-title": "வெற்றி",
+      "error-message": "செயல்படுத்த முடியவில்லை",
+      "error-title": "பிழை",
+      "btnTxt": "சரி",
+      "yesBtnTxt": "ஆம்",
+      "noBtnTxt": "இல்லை",
       "confirmation-message": [
-        "Do you want to Activate the ",
-        "? \n You can Deactivate it later if you wish. Till then it will be set as Active_tam"
+        "நீங்கள் செயல்படுத்த விரும்புகிறீர்களா?",
+        "? \n நீங்கள் விரும்பினால் பின்னர் அதை செயலிழக்கச் செய்யலாம். அதுவரை ஆக்டிவ் ஆக அமைக்கப்படும்"
       ],
-      "confirmation-title": "Confirmation_tam"
+      "confirmation-title": "உறுதிப்படுத்தல்"
     },
     "deactivate": {
-      "success-message": ["", " is Deactivated Successfully_tam"],
-      "success-title": "Success_tam",
-      "error-message": "Misp Could not be Deactivated_tam",
-      "error-title": "Error_tam",
-      "btnTxt": "Ok_tam",
-      "yesBtnTxt": "Yes_tam",
-      "noBtnTxt": "No_tam",
+      "success-message": ["", " வெற்றிகரமாக செயலிழக்கப்பட்டது"],
+      "success-title": "வெற்றி",
+      "error-message": "Misp செயலிழக்க முடியவில்லை",
+      "error-title": "பிழை",
+      "btnTxt": "சரி",
+      "yesBtnTxt": "ஆம்",
+      "noBtnTxt": "இல்லை",
       "confirmation-message": [
-        "Do you want to Deactivate the ",
-        " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_tam"
+        "நீங்கள் செயலிழக்க வேண்டுமா ",
+        " ? \n நீங்கள் விரும்பினால் பின்னர் அதை செயல்படுத்தலாம். அதுவரை செயலற்றதாக அமைக்கப்படும்"
       ],
-      "confirmation-title": "Confirmation_tam"
+      "confirmation-title": "உறுதிப்படுத்தல்"
     }
   },
   "policy": {
-    "header": "Policy_tam",
-    "name": "Name_tam",
-    "desc": "Description_tam",
-    "authPolicies": "Allowed Auth Types_tam",
-    "allowedKycAttributes": "Allowed Kyc Attributes_tam",
-    "id": "Id_tam",
-    "isActive": "Status_tam",
-    "policy-details": "Policy Details_tam",
-    "created-on": "Created On_tam",
-    "created-by": "Created By_tam",
-    "updated-on": "Updated On_tam",
-    "updated-by": "Updated By_tam",
-    "edit": "Edit_tam",
-    "create": "Create_tam",
-    "cancel": "Cancel_tam",
-    "language": "English_tam",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_tam",
-    "update": "Update_tam",
+    "header": "கொள்கை",
+    "name": "பெயர்",
+    "desc": "விளக்கம்",
+    "authPolicies": "அனுமதிக்கப்பட்ட அங்கீகார வகைகள்",
+    "allowedKycAttributes": "அனுமதிக்கப்பட்ட Kyc பண்புக்கூறுகள்",
+    "id": "ஐடி",
+    "isActive": "நிலை",
+    "policy-details": "கொள்கை விவரங்கள்",
+    "created-on": "அன்று உருவாக்கப்பட்ட",
+    "created-by": "உருவாக்கியது",
+    "updated-on": "புதுப்பிக்கப்பட்டது",
+    "updated-by": "மூலம் புதுப்பிக்கப்பட்டது",
+    "edit": "தொகு",
+    "create": "உருவாக்கு",
+    "cancel": "ரத்து செய்",
+    "language": "ஆங்கிலம்",
+    "keyboard-tooltip": "மெய்நிகர் விசைப்பலகைக்கு (ஆங்கிலம்) கிளிக் செய்யவும்",
+    "update": "புதுப்பிக்கவும்",
     "validationMessages": {
       "name": {
-        "required": "Policy Name is required_tam",
-        "max-length": "Exceeded max length (128)_tam"
+        "required": "பாலிசியின் பெயர் தேவை",
+        "max-length": "அதிகபட்ச நீளம் (128)"
       },
       "desc": {
-        "required": "Policy description is required_tam",
-        "max-length": "Exceeded max length (128)_tam"
+        "required": "கொள்கை விளக்கம் தேவை",
+        "max-length": "அதிகபட்ச நீளம் (128)"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_tam",
+        "title": "உறுதிப்படுத்தல்",
         "message": [
-          "You are about to create a Policy in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_tam"
+          "நீங்கள் ஒரு கொள்கையை உருவாக்க உள்ளீர்கள்",
+          ".அனைத்து தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும். நீங்கள் உறுதி செய்தவுடன் மைய ஐடி உருவாக்கப்படும்"
         ],
-        "yesBtnText": "Yes_tam",
-        "noBtnText": "No_tam",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_tam"
+        "yesBtnText": "ஆம்",
+        "noBtnText": "இல்லை",
+        "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. முதன்மை மொழியில் மட்டுமே கொள்கை உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
       },
       "edit": {
-        "title": "Confirmation_tam",
-        "message": "You are about to update a policy. Please ensure that all the information is correct_tam",
-        "yesBtnText": "Confirm_tam",
-        "noBtnText": "Cancel_tam",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_tam"
+        "title": "உறுதிப்படுத்தல்",
+        "message": "கொள்கையைப் புதுப்பிக்க உள்ளீர்கள். அனைத்து தகவல்களும் சரியானவை என்பதை உறுதிப்படுத்தவும்",
+        "yesBtnText": "உறுதிப்படுத்தவும்",
+        "noBtnText": "ரத்து செய்",
+        "mandatorySecondaryFields": "இரண்டாம்நிலை மொழியில் கட்டாயத் தரவை நீங்கள் நிரப்பவில்லை. முதன்மை மொழியில் மட்டுமே Misp உருவாக்கப்படும். நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?"
       },
       "update-success": {
-        "title": "Success_tam",
-        "message": "policy is updated Successfully_tam",
-        "btnTxt": "Ok_tam"
+        "title": "வெற்றி",
+        "message": "கொள்கை வெற்றிகரமாக புதுப்பிக்கப்பட்டது",
+        "btnTxt": "சரி"
       },
       "update-error": {
-        "title": "Error_tam",
-        "message": "There was some issue in updating the policy. Please try again_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "கொள்கையைப் புதுப்பிப்பதில் சில சிக்கல்கள் உள்ளன. தயவுசெய்து மீண்டும் முயற்சி செய்க",
+        "btnTxt": "சரி"
       },
       "create-success": {
-        "title": "Success_tam",
-        "message": ["Policy is created Successfully._tam"],
-        "btnTxt": "Ok_tam"
+        "title": "வெற்றி",
+        "message": ["கொள்கை வெற்றிகரமாக உருவாக்கப்பட்டது."],
+        "btnTxt": "சரி"
       },
       "create-error": {
-        "title": "Error_tam",
-        "message": "There was some issue in creating a policy. Please try again_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "ஒரு கொள்கையை உருவாக்குவதில் சில சிக்கல்கள் இருந்தன. தயவுசெய்து மீண்டும் முயற்சி செய்க",
+        "btnTxt": "சரி"
       },
       "navigation-popup": {
-        "title": "Confirmation_tam",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._tam",
-        "yesBtnTxt": "Leave_tam",
-        "noBtnTxt": "Stay_tam"
+        "title": "உறுதிப்படுத்தல்",
+        "message": "இந்தப் பக்கத்திலிருந்து நிச்சயமாகச் செல்ல விரும்புகிறீர்களா? சேமிக்கப்படாத தரவு அனைத்தும் இழக்கப்படும்.",
+        "yesBtnTxt": "கிளம்பு",
+        "noBtnTxt": "இருங்கள்"
       },
       "noData": {
-        "title": "Error_tam",
-        "message": "No Data Found_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "வேறு தகவல்கள் இல்லை",
+        "btnTxt": "சரி"
       },
       "lunchTimeValidation": {
-        "title": "Error_tam",
-        "message": "Please select center timings before selecting lunch timings_tam",
-        "btnTxt": "Ok_tam"
+        "title": "பிழை",
+        "message": "மதிய உணவு நேரத்தைத் தேர்ந்தெடுப்பதற்கு முன் மைய நேரத்தைத் தேர்ந்தெடுக்கவும்",
+        "btnTxt": "சரி"
       }
     }
   },
   "uploadcertificate": {
-    "title": "Upload Certificate_tam",
-    "CAtitle": "Upload CA Certificate_tam",
-    "partnerDomain": "Partner Domain_tam",
-    "chooseFile": "Choose File_tam",
-    "uploadYourFile": "Upload Your File_tam",
-    "button": "Upload_tam",
-    "cancel": "Cancel_tam"
+    "title": "சான்றிதழை பதிவேற்றவும்",
+    "CAtitle": "CA சான்றிதழை பதிவேற்றவும்",
+    "partnerDomain": "பார்ட்னர் டொமைன்",
+    "chooseFile": "கோப்பை தேர்வு செய்",
+    "uploadYourFile": "உங்கள் கோப்பை பதிவேற்றவும்",
+    "button": "பதிவேற்றவும்",
+    "cancel": "ரத்து செய்"
   },
   "filters": {
-    "titleTxt": "Add Filters_tam",
+    "titleTxt": "வடிப்பான்களைச் சேர்க்கவும்",
     "footerButtons": {
-        "resetTxt": "Reset_tam",
-        "cancelTxt": "Cancel_tam",
-        "applyTxt": "Apply_tam"
+        "resetTxt": "மீட்டமை",
+        "cancelTxt": "ரத்து செய்",
+        "applyTxt": "விண்ணப்பிக்கவும்"
     }
   },
   "isActive": {
-    "Active": "ACTIVE_tam",
-    "InActive": "INACTIVE_tam"
+    "Active": "செயலில்",
+    "InActive": "செயலற்ற"
   },
   "genericerror": {
-    "fieldValidation": "This field is required_tam",
-    "fieldNameValidation": " is required_tam"
+    "fieldValidation": "இந்த புலம் தேவை",
+    "fieldNameValidation": "தேவைப்படுகிறது"
   },
   "serverError": {
     "PMS-COR-001": "உள்ளீட்டு அளவுரு இல்லை",

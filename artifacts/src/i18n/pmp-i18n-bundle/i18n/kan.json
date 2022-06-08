@@ -1,464 +1,464 @@
 {
   "menuItems": {
     "item1": {
-      "title": "HOME_kan"
+      "title": "ಮನೆ"
     },
     "item2": {
-      "title": "Policy_kan",
-      "subItem1": "Policy Group_kan",
-      "subItem2": "Auth Policy_kan",
-      "subItem3": "Data Share Policy_kan"
+      "title": "ನೀತಿ",
+      "subItem1": "ನೀತಿ ಗುಂಪು",
+      "subItem2": "ದೃಢೀಕರಣ ನೀತಿ",
+      "subItem3": "ಡೇಟಾ ಹಂಚಿಕೆ ನೀತಿ"
     },
     "item3": {
-      "title": "Partner_kan"
+      "title": "ಪಾಲುದಾರ"
     },
     "item4": {
-      "title": "Device Details_kan"
+      "title": "ಸಾಧನದ ವಿವರಗಳು"
     },
     "item5": {
-      "title": "FTM Details_kan"
+      "title": "FTM ವಿವರಗಳು"
     },
     "item6": {
-      "title": "SBI Details_kan"
+      "title": "SBI ವಿವರಗಳು"
     },
     "item7": {
-      "title": "Partner Policy Mapping_kan"
+      "title": "ಪಾಲುದಾರ ನೀತಿ ಮ್ಯಾಪಿಂಗ್"
     },
     "item8": {
-      "title": "Upload CA Certificate_kan"
+      "title": "CA ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
     }
   },
   "dashboard": {
-    "welcomeMessage":"Welcome to Mosip Partner portal kan !",
-    "Logout":"Logout_kan"
+    "welcomeMessage":"Mosip ಪಾಲುದಾರ ಪೋರ್ಟಲ್‌ಗೆ ಸುಸ್ವಾಗತ!",
+    "Logout":"ಲಾಗ್ ಔಟ್"
   },
   "singleView": {
     "errorMessages": [
-      "No record found_kan",
-      "A technical error has occurred_kan"
+      "ಯಾವುದೇ ದಾಖಲೆ ಕಂಡುಬಂದಿಲ್ಲ",
+      "ತಾಂತ್ರಿಕ ದೋಷ ಸಂಭವಿಸಿದೆ"
     ],
-    "buttonText": "OK_kan",
-    "title": "Error_kan"
+    "buttonText": "ಸರಿ",
+    "title": "ದೋಷ"
   },
   "masterData": {
-    "master-data": "Master Data_kan",
-    "total-no": "Total No_kan",
-    "common": "Common_kan",
-    "device-definition": "Device Definition_kan",
-    "machine-definition": "Machine Definition_kan",
-    "document-definition": "Document Definition_kan",
-    "doc-category-mapping": "Doc Category - Type Mapping_kan",
-    "category": "Category_kan",
-    "mapped-documents": "Mapped Documents_kan",
-    "unmapped-documents": "Unmapped Documents_kan"
+    "master-data": "ಮಾಸ್ಟರ್ ಡೇಟಾ",
+    "total-no": "ಒಟ್ಟು ಸಂಖ್ಯೆ",
+    "common": "ಸಾಮಾನ್ಯ",
+    "device-definition": "ಸಾಧನದ ವ್ಯಾಖ್ಯಾನ",
+    "machine-definition": "ಯಂತ್ರ ವ್ಯಾಖ್ಯಾನ",
+    "document-definition": "ಡಾಕ್ಯುಮೆಂಟ್ ವ್ಯಾಖ್ಯಾನ",
+    "doc-category-mapping": "ಡಾಕ್ ವರ್ಗ - ಟೈಪ್ ಮ್ಯಾಪಿಂಗ್",
+    "category": "ವರ್ಗ",
+    "mapped-documents": "ಮ್ಯಾಪ್ ಮಾಡಿದ ದಾಖಲೆಗಳು",
+    "unmapped-documents": "ಮ್ಯಾಪ್ ಮಾಡದ ದಾಖಲೆಗಳು"
   },
   "pmanager": {
-    "status": "Status_kan",
-    "language": "English_kan",
-    "edit": "Edit_kan",
-    "create": "Create_kan",
-    "cancel": "Cancel_kan",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
-    "update": "Update_kan",
-    "created-on": "Created On_kan",
-    "created-by": "Created By_kan",
-    "updated-on": "Updated On_kan",
-    "updated-by": "Updated By_kan",
-    "header": "Change Policy_kan",
-    "name": "Policy Name_kan",
+    "status": "ಸ್ಥಿತಿ",
+    "language": "ಆಂಗ್ಲ",
+    "edit": "ತಿದ್ದು",
+    "create": "ರಚಿಸಿ",
+    "cancel": "ರದ್ದುಮಾಡು",
+    "keyboard-tooltip": "ವರ್ಚುವಲ್ ಕೀಬೋರ್ಡ್‌ಗಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಿ (ಇಂಗ್ಲಿಷ್)",
+    "update": "ನವೀಕರಿಸಿ",
+    "created-on": "ರಂದು ರಚಿಸಲಾಗಿದೆ",
+    "created-by": "ರಚಿಸಿದವರು",
+    "updated-on": "ರಂದು ನವೀಕರಿಸಲಾಗಿದೆ",
+    "updated-by": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ",
+    "header": "ನೀತಿಯನ್ನು ಬದಲಾಯಿಸಿ",
+    "name": "ನೀತಿಯ ಹೆಸರು",
     "popupMessages": {
       "create": {
-        "title": "Confirmation_kan",
+        "title": "ದೃಢೀಕರಣ",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"
+          "ನೀವು ನೋಂದಣಿ ಕೇಂದ್ರವನ್ನು ರಚಿಸಲಿರುವಿರಿ ",
+          ". ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಮಾಹಿತಿಯು ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ನೀವು ದೃಢೀಕರಿಸಿದ ನಂತರ ಕೇಂದ್ರದ ID ಅನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ"
         ],
-        "yesBtnText": "Yes_kan",
-        "noBtnText": "No_kan",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
+        "yesBtnText": "ಹೌದು",
+        "noBtnText": "ಸಂ",
+        "mandatorySecondaryFields": "ನೀವು ದ್ವಿತೀಯ ಭಾಷೆಯಲ್ಲಿ ಕಡ್ಡಾಯ ಡೇಟಾವನ್ನು ಭರ್ತಿ ಮಾಡಿಲ್ಲ. ನೋಂದಣಿ ಕೇಂದ್ರವನ್ನು ಪ್ರಾಥಮಿಕ ಭಾಷೆಯಲ್ಲಿ ಮಾತ್ರ ರಚಿಸಲಾಗುವುದು. ನೀವು ಇನ್ನೂ ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?"
       },
       "edit": {
-        "title": "Confirmation_kan",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_kan",
-        "yesBtnText": "Confirm_kan",
-        "noBtnText": "Cancel_kan",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
+        "title": "ದೃಢೀಕರಣ",
+        "message": "ನೀವು ನೋಂದಣಿ ಕೇಂದ್ರವನ್ನು ನವೀಕರಿಸಲಿರುವಿರಿ. ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಮಾಹಿತಿಯು ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ",
+        "yesBtnText": "ದೃಢೀಕರಿಸಿ",
+        "noBtnText": "ರದ್ದುಮಾಡು",
+        "mandatorySecondaryFields": "ನೀವು ದ್ವಿತೀಯ ಭಾಷೆಯಲ್ಲಿ ಕಡ್ಡಾಯ ಡೇಟಾವನ್ನು ಭರ್ತಿ ಮಾಡಿಲ್ಲ. ನೋಂದಣಿ ಕೇಂದ್ರವನ್ನು ಪ್ರಾಥಮಿಕ ಭಾಷೆಯಲ್ಲಿ ಮಾತ್ರ ರಚಿಸಲಾಗುವುದು. ನೀವು ಇನ್ನೂ ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?"
       },
       "update-success": {
-        "title": "Success_kan",
-        "message": "Partner is updated Successfully_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ಯಶಸ್ಸು",
+        "message": "ಪಾಲುದಾರರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+        "btnTxt": "ಸರಿ"
       },
       "update-error": {
-        "title": "Error_kan",
-        "message": "There was some issue in updating the Partner. Please try again_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಪಾಲುದಾರರನ್ನು ನವೀಕರಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+        "btnTxt": "ಸರಿ"
       },
       "create-success": {
-        "title": "Success_kan",
+        "title": "ಯಶಸ್ಸು",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Name: _kan"
+          "ಪಾಲುದಾರ ಐಡಿಯೊಂದಿಗೆ ಪಾಲುದಾರರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ: ",
+          " ಮತ್ತು ಪಾಲುದಾರರ ಹೆಸರು:"
         ],
-        "btnTxt": "Ok_kan"
+        "btnTxt": "ಸರಿ"
       },
       "create-error": {
-        "title": "Error_kan",
-        "message": "There was some issue in creating Partner. Please try again_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಪಾಲುದಾರರನ್ನು ರಚಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆಗಳಿವೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+        "btnTxt": "ಸರಿ"
       },
       "navigation-popup": {
-        "title": "Confirmation_kan",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
-        "yesBtnTxt": "Leave_kan",
-        "noBtnTxt": "Stay_kan"
+        "title": "ದೃಢೀಕರಣ",
+        "message": "ಈ ಪುಟದಿಂದ ದೂರ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಯಾವುದೇ ಉಳಿಸದ ಡೇಟಾ ಕಳೆದುಹೋಗುತ್ತದೆ.",
+        "yesBtnTxt": "ಬಿಡು",
+        "noBtnTxt": "ಉಳಿಯಿರಿ"
       },
       "noData": {
-        "title": "Error_kan",
-        "message": "No Data Found_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ",
+        "btnTxt": "ಸರಿ"
       }
     }
   },
   "partner": {
-    "address1": "Address_kan",
-    "header": "Partner Service_kan",
-    "name": "Organization_kan",
-    "id": "Id_kan",
-    "status": "Status_kan",
-    "language": "English_kan",
-    "edit": "Edit_kan",
-    "create": "Create_kan",
-    "cancel": "Cancel_kan",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
-    "update": "Update_kan",
-    "partner-details": "Partner Details_kan",
-    "created-on": "Created On_kan",
-    "created-by": "Created By_kan",
-    "updated-on": "Updated On_kan",
-    "updated-by": "Updated By_kan",
-    "registration-partner-name": "Organization Name_kan",
-    "registration-partner-type": "Policy Name_kan",
-    "contact-person": "Email Id_kan",
-    "contact-number": "Contact Number_kan",
-    "location-details": "Address Details_kan",
+    "address1": "ವಿಳಾಸ",
+    "header": "ಪಾಲುದಾರ ಸೇವೆ",
+    "name": "ಸಂಸ್ಥೆ",
+    "id": "ಐಡಿ",
+    "status": "ಸ್ಥಿತಿ",
+    "language": "ಆಂಗ್ಲ",
+    "edit": "ತಿದ್ದು",
+    "create": "ರಚಿಸಿ",
+    "cancel": "ರದ್ದುಮಾಡು",
+    "keyboard-tooltip": "ವರ್ಚುವಲ್ ಕೀಬೋರ್ಡ್‌ಗಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಿ (ಇಂಗ್ಲಿಷ್)",
+    "update": "ನವೀಕರಿಸಿ",
+    "partner-details": "ಪಾಲುದಾರರ ವಿವರಗಳು",
+    "created-on": "ರಂದು ರಚಿಸಲಾಗಿದೆ",
+    "created-by": "ರಚಿಸಿದವರು",
+    "updated-on": "ರಂದು ನವೀಕರಿಸಲಾಗಿದೆ",
+    "updated-by": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ",
+    "registration-partner-name": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+    "registration-partner-type": "ನೀತಿಯ ಹೆಸರು",
+    "contact-person": "ಇಮೇಲ್ ಐಡಿ",
+    "contact-number": "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
+    "location-details": "ವಿಳಾಸ ವಿವರಗಳು",
     "validationMessages": {
       "partnerTypeCode": {
-        "required": "Policy Name is required_kan"
+        "required": "ನೀತಿಯ ಹೆಸರು ಅಗತ್ಯವಿದೆ"
       },
       "name": {
-        "required": "Organization Name is required_kan",
-        "max-length": "Exceeded max length (128)_kan"
+        "required": "ಸಂಸ್ಥೆಯ ಹೆಸರು ಅಗತ್ಯವಿದೆ",
+        "max-length": "ಗರಿಷ್ಠ ಉದ್ದ (128) ಮೀರಿದೆ"
       },
       "addressLine1": {
-        "required": "Address is required_kan",
-        "max-length": "Exceeded max length (256)_kan"
+        "required": "ವಿಳಾಸದ ಅಗತ್ಯವಿದೆ",
+        "max-length": "ಗರಿಷ್ಠ ಉದ್ದ (256) ಮೀರಿದೆ"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_kan",
+        "title": "ದೃಢೀಕರಣ",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"
+          "ನೀವು ನೋಂದಣಿ ಕೇಂದ್ರವನ್ನು ರಚಿಸಲಿರುವಿರಿ ",
+          ". ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಮಾಹಿತಿಯು ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ನೀವು ದೃಢೀಕರಿಸಿದ ನಂತರ ಕೇಂದ್ರದ ID ಅನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ"
         ],
-        "yesBtnText": "Yes_kan",
-        "noBtnText": "No_kan",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
+        "yesBtnText": "ಹೌದು",
+        "noBtnText": "ಸಂ",
+        "mandatorySecondaryFields": "ನೀವು ದ್ವಿತೀಯ ಭಾಷೆಯಲ್ಲಿ ಕಡ್ಡಾಯ ಡೇಟಾವನ್ನು ಭರ್ತಿ ಮಾಡಿಲ್ಲ. ನೋಂದಣಿ ಕೇಂದ್ರವನ್ನು ಪ್ರಾಥಮಿಕ ಭಾಷೆಯಲ್ಲಿ ಮಾತ್ರ ರಚಿಸಲಾಗುವುದು. ನೀವು ಇನ್ನೂ ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?"
       },
       "edit": {
-        "title": "Confirmation_kan",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_kan",
-        "yesBtnText": "Confirm_kan",
-        "noBtnText": "Cancel_kan",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_kan"
+        "title": "ದೃಢೀಕರಣ",
+        "message": "ನೀವು ನೋಂದಣಿ ಕೇಂದ್ರವನ್ನು ನವೀಕರಿಸಲಿರುವಿರಿ. ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಮಾಹಿತಿಯು ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ",
+        "yesBtnText": "ದೃಢೀಕರಿಸಿ",
+        "noBtnText": "ರದ್ದುಮಾಡು",
+        "mandatorySecondaryFields": "ನೀವು ದ್ವಿತೀಯ ಭಾಷೆಯಲ್ಲಿ ಕಡ್ಡಾಯ ಡೇಟಾವನ್ನು ಭರ್ತಿ ಮಾಡಿಲ್ಲ. ನೋಂದಣಿ ಕೇಂದ್ರವನ್ನು ಪ್ರಾಥಮಿಕ ಭಾಷೆಯಲ್ಲಿ ಮಾತ್ರ ರಚಿಸಲಾಗುವುದು. ನೀವು ಇನ್ನೂ ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?"
       },
       "update-success": {
-        "title": "Success_kan",
-        "message": "Partner is updated Successfully_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ಯಶಸ್ಸು",
+        "message": "ಪಾಲುದಾರರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+        "btnTxt": "ಸರಿ"
       },
       "update-error": {
-        "title": "Error_kan",
-        "message": "There was some issue in updating the Partner. Please try again_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಪಾಲುದಾರರನ್ನು ನವೀಕರಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+        "btnTxt": "ಸರಿ"
       },
       "create-success": {
-        "title": "Success_kan",
+        "title": "ಯಶಸ್ಸು",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Status is: _kan"
+          "ಪಾಲುದಾರ ಐಡಿಯೊಂದಿಗೆ ಪಾಲುದಾರರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ: ",
+          " ಮತ್ತು ಪಾಲುದಾರರ ಸ್ಥಿತಿ:"
         ],
-        "btnTxt": "Ok_kan"
+        "btnTxt": "ಸರಿ"
       },
       "create-error": {
-        "title": "Error_kan",
-        "message": "There was some issue in creating Partner. Please try again_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಪಾಲುದಾರರನ್ನು ರಚಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆಗಳಿವೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+        "btnTxt": "ಸರಿ"
       },
       "navigation-popup": {
-        "title": "Confirmation_kan",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
-        "yesBtnTxt": "Leave_kan",
-        "noBtnTxt": "Stay_kan"
+        "title": "ದೃಢೀಕರಣ",
+        "message": "ಈ ಪುಟದಿಂದ ದೂರ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಯಾವುದೇ ಉಳಿಸದ ಡೇಟಾ ಕಳೆದುಹೋಗುತ್ತದೆ.",
+        "yesBtnTxt": "ಬಿಡು",
+        "noBtnTxt": "ಉಳಿಯಿರಿ"
       },
       "noData": {
-        "title": "Error_kan",
-        "message": "No Data Found_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ",
+        "btnTxt": "ಸರಿ"
       }
     }
   },
   "misp": {
-    "header": "MISP_kan",
-    "name": "Name_kan",
-    "id": "Id_kan",
-    "isActive": "Misp Status_kan",
-    "contact_no": "Phone No_kan",
-    "status": "Status_kan",
-    "address": "Address_kan",
-    "misp-details": "Misp Details_kan",
-    "created-on": "Created On_kan",
-    "created-by": "Created By_kan",
-    "updated-on": "Updated On_kan",
-    "updated-by": "Updated By_kan",
-    "email_id": "Email_kan",
-    "edit": "Edit_kan",
-    "create": "Create_kan",
-    "cancel": "Cancel_kan",
-    "language": "English_kan",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
-    "update": "Update_kan",
+    "header": "MISP",
+    "name": "ಹೆಸರು",
+    "id": "ಐಡಿ",
+    "isActive": "Misp ಸ್ಥಿತಿ",
+    "contact_no": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+    "status": "ಸ್ಥಿತಿ",
+    "address": "ವಿಳಾಸ",
+    "misp-details": "Misp ವಿವರಗಳು",
+    "created-on": "ರಂದು ರಚಿಸಲಾಗಿದೆ",
+    "created-by": "ರಚಿಸಿದವರು",
+    "updated-on": "ರಂದು ನವೀಕರಿಸಲಾಗಿದೆ",
+    "updated-by": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ",
+    "email_id": "ಇಮೇಲ್",
+    "edit": "ತಿದ್ದು",
+    "create": "ರಚಿಸಿ",
+    "cancel": "ರದ್ದುಮಾಡು",
+    "language": "ಆಂಗ್ಲ",
+    "keyboard-tooltip": "ವರ್ಚುವಲ್ ಕೀಬೋರ್ಡ್‌ಗಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಿ (ಇಂಗ್ಲಿಷ್)",
+    "update": "ನವೀಕರಿಸಿ",
     "validationMessages": {
       "name": {
-        "required": "Misp Name is required_kan",
-        "max-length": "Exceeded max length (128)_kan"
+        "required": "Misp ಹೆಸರು ಅಗತ್ಯವಿದೆ",
+        "max-length": "ಗರಿಷ್ಠ ಉದ್ದ (128) ಮೀರಿದೆ"
       },
       "address": {
-        "required": "Misp Address is required_kan",
-        "max-length": "Exceeded max length (128)_kan"
+        "required": "Misp ವಿಳಾಸದ ಅಗತ್ಯವಿದೆ",
+        "max-length": "ಗರಿಷ್ಠ ಉದ್ದ (128) ಮೀರಿದೆ"
       },
       "phoneNo": {
-        "required": "Misp phoneNo is required_kan"
+        "required": "Misp ಫೋನ್ ಸಂಖ್ಯೆ ಅಗತ್ಯವಿದೆ"
       },
       "email": {
-        "required": "Misp email is required_kan"
+        "required": "Misp ಇಮೇಲ್ ಅಗತ್ಯವಿದೆ"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_kan",
+        "title": "ದೃಢೀಕರಣ",
         "message": [
-          "You are about to create a Misp in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"
+          "ನೀವು ಮಿಸ್ಪ್ ಇನ್ ಅನ್ನು ರಚಿಸಲಿರುವಿರಿ",
+          ". ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಮಾಹಿತಿಯು ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ನೀವು ದೃಢೀಕರಿಸಿದ ನಂತರ ಕೇಂದ್ರದ ID ಅನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ"
         ],
-        "yesBtnText": "Yes_kan",
-        "noBtnText": "No_kan",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
+        "yesBtnText": "ಹೌದು",
+        "noBtnText": "ಸಂ",
+        "mandatorySecondaryFields": "ನೀವು ದ್ವಿತೀಯ ಭಾಷೆಯಲ್ಲಿ ಕಡ್ಡಾಯ ಡೇಟಾವನ್ನು ಭರ್ತಿ ಮಾಡಿಲ್ಲ. ಮಿಸ್ಪ್ ಅನ್ನು ಪ್ರಾಥಮಿಕ ಭಾಷೆಯಲ್ಲಿ ಮಾತ್ರ ರಚಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇನ್ನೂ ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?"
       },
       "edit": {
-        "title": "Confirmation_kan",
-        "message": "You are about to update a misp. Please ensure that all the information is correct_kan",
-        "yesBtnText": "Confirm_kan",
-        "noBtnText": "Cancel_kan",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
+        "title": "ದೃಢೀಕರಣ",
+        "message": "ನೀವು ತಪ್ಪಾಗಿ ನವೀಕರಿಸಲಿರುವಿರಿ. ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಮಾಹಿತಿಯು ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ",
+        "yesBtnText": "ದೃಢೀಕರಿಸಿ",
+        "noBtnText": "ರದ್ದುಮಾಡು",
+        "mandatorySecondaryFields": "ನೀವು ದ್ವಿತೀಯ ಭಾಷೆಯಲ್ಲಿ ಕಡ್ಡಾಯ ಡೇಟಾವನ್ನು ಭರ್ತಿ ಮಾಡಿಲ್ಲ. ಮಿಸ್ಪ್ ಅನ್ನು ಪ್ರಾಥಮಿಕ ಭಾಷೆಯಲ್ಲಿ ಮಾತ್ರ ರಚಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇನ್ನೂ ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?"
       },
       "update-success": {
-        "title": "Success_kan",
-        "message": "Misp is updated Successfully_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ಯಶಸ್ಸು",
+        "message": "Misp ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+        "btnTxt": "ಸರಿ"
       },
       "update-error": {
-        "title": "Error_kan",
-        "message": "There was some issue in updating the misp. Please try again_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ತಪ್ಪನ್ನು ನವೀಕರಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+        "btnTxt": "ಸರಿ"
       },
       "create-success": {
-        "title": "Success_kan",
-        "message": ["MISP is created Successfully._kan"],
-        "btnTxt": "Ok_kan"
+        "title": "ಯಶಸ್ಸು",
+        "message": ["MISP ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ."],
+        "btnTxt": "ಸರಿ"
       },
       "create-error": {
-        "title": "Error_kan",
-        "message": "There was some issue in creating a misp. Please try again_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ತಪ್ಪನ್ನು ರಚಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆಗಳಿವೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+        "btnTxt": "ಸರಿ"
       },
       "navigation-popup": {
-        "title": "Confirmation_kan",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
-        "yesBtnTxt": "Leave_kan",
-        "noBtnTxt": "Stay_kan"
+        "title": "ದೃಢೀಕರಣ",
+        "message": "ಈ ಪುಟದಿಂದ ದೂರ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಯಾವುದೇ ಉಳಿಸದ ಡೇಟಾ ಕಳೆದುಹೋಗುತ್ತದೆ.",
+        "yesBtnTxt": "ಬಿಡು",
+        "noBtnTxt": "ಉಳಿಯಿರಿ"
       },
       "noData": {
-        "title": "Error_kan",
-        "message": "No Data Found_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ",
+        "btnTxt": "ಸರಿ"
       },
       "lunchTimeValidation": {
-        "title": "Error_kan",
-        "message": "Please select center timings before selecting lunch timings_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಊಟದ ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡುವ ಮೊದಲು ದಯವಿಟ್ಟು ಕೇಂದ್ರದ ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "btnTxt": "ಸರಿ"
       }
     }
   },
   "validationMessages": {
-    "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_kan",
-    "range": "’To’ date cannot be before ‘From’ date'_kan",
-    "invalid": "Please select a valid value for Date_kan"
+    "required": "ದಿನಾಂಕ ಶ್ರೇಣಿಯ ಮೂಲಕ ಫಿಲ್ಟರ್ ಮಾಡಲು ದಯವಿಟ್ಟು ‘ಇದಕ್ಕೆ’ ಮತ್ತು ‘ಇಂದ’ ಕ್ಷೇತ್ರವನ್ನು ಭರ್ತಿ ಮಾಡಿ",
+    "range": "'ಟು' ದಿನಾಂಕವು 'ಇಂದ' ದಿನಾಂಕ' ೊದಲು ಇರುವಂತಿಲ್ಲ",
+    "invalid": "ದಯವಿಟ್ಟು ದಿನಾಂಕಕ್ಕಾಗಿ ಮಾನ್ಯವಾದ ಮೌಲ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
   },
   "actionMessages": {
     "decommission": {
-      "success-message": ["", " is approved successfully_kan"],
-      "success-title": "Success_kan",
-      "error-message": "Cannot approve the Misp.Currently Misp is inactive_kan",
-      "error-title": "Error_kan",
-      "btnTxt": "Ok_kan",
-      "yesBtnTxt": "Confirm_kan",
-      "noBtnTxt": "Cancel_kan",
+      "success-message": ["", " ಯಶಸ್ವಿಯಾಗಿ ಅನುಮೋದಿಸಲಾಗಿದೆ"],
+      "success-title": "ಯಶಸ್ಸು",
+      "error-message": "Misp ಅನ್ನು ಅನುಮೋದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಪ್ರಸ್ತುತ Misp ನಿಷ್ಕ್ರಿಯವಾಗಿದೆ",
+      "error-title": "ದೋಷ",
+      "btnTxt": "ಸರಿ",
+      "yesBtnTxt": "ದೃಢೀಕರಿಸಿ",
+      "noBtnTxt": "ರದ್ದುಮಾಡು",
       "confirmation-message": [
-        "Do you want to Approve the Misp ",
-        " ? \n You cannot undo this action once you click on Confirm._kan"
+        "ನೀವು MISP ಅನ್ನು ಅನುಮೋದಿಸಲು ಬಯಸುವಿರಾ ",
+        " ? \n ಒಮ್ಮೆ ನೀವು ದೃಢೀಕರಿಸು ಕ್ಲಿಕ್ ಮಾಡಿ ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
       ],
-      "confirmation-title": "Confirmation_kan"
+      "confirmation-title": "ದೃಢೀಕರಣ"
     },
     "activate": {
-      "success-message": ["", " is Activated Successfully_kan"],
-      "success-title": "Success_kan",
-      "error-message": "Could not be Activated_kan",
-      "error-title": "Error_kan",
-      "btnTxt": "Ok_kan",
-      "yesBtnTxt": "Yes_kan",
-      "noBtnTxt": "No_kan",
+      "success-message": ["", " ಯಶಸ್ವಿಯಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"],
+      "success-title": "ಯಶಸ್ಸು",
+      "error-message": "ಸಕ್ರಿಯಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
+      "error-title": "ದೋಷ",
+      "btnTxt": "ಸರಿ",
+      "yesBtnTxt": "ಹೌದು",
+      "noBtnTxt": "ಸಂ",
       "confirmation-message": [
-        "Do you want to Activate the ",
-        "? \n You can Deactivate it later if you wish. Till then it will be set as Active_kan"
+        "ನೀವು ಸಕ್ರಿಯಗೊಳಿಸಲು ಬಯಸುವಿರಾ ",
+        "? \n ನೀವು ಬಯಸಿದಲ್ಲಿ ಅದನ್ನು ನಂತರ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬಹುದು. ಅಲ್ಲಿಯವರೆಗೆ ಅದನ್ನು ಆಕ್ಟಿವ್ ಆಗಿ ಹೊಂದಿಸಲಾಗುವುದು"
       ],
-      "confirmation-title": "Confirmation_kan"
+      "confirmation-title": "ದೃಢೀಕರಣ"
     },
     "deactivate": {
-      "success-message": ["", " is Deactivated Successfully_kan"],
-      "success-title": "Success_kan",
-      "error-message": "Misp Could not be Deactivated_kan",
-      "error-title": "Error_kan",
-      "btnTxt": "Ok_kan",
-      "yesBtnTxt": "Yes_kan",
-      "noBtnTxt": "No_kan",
+      "success-message": ["", " ಯಶಸ್ವಿಯಾಗಿ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"],
+      "success-title": "ಯಶಸ್ಸು",
+      "error-message": "Misp ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
+      "error-title": "ದೋಷ",
+      "btnTxt": "ಸರಿ",
+      "yesBtnTxt": "ಹೌದು",
+      "noBtnTxt": "ಸಂ",
       "confirmation-message": [
-        "Do you want to Deactivate the ",
-        " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_kan"
+        "ನೀವು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲು ಬಯಸುವಿರಾ ",
+        " ? \n Yನೀವು ಬಯಸಿದಲ್ಲಿ ಅದನ್ನು ನಂತರ ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು. ಅಲ್ಲಿಯವರೆಗೆ ಅದನ್ನು ನಿಷ್ಕ್ರಿಯ ಎಂದು ಹೊಂದಿಸಲಾಗುವುದು"
       ],
-      "confirmation-title": "Confirmation_kan"
+      "confirmation-title": "ದೃಢೀಕರಣ"
     }
   },
   "policy": {
-    "header": "Policy_kan",
-    "name": "Name_kan",
-    "desc": "Description_kan",
-    "authPolicies": "Allowed Auth Types_kan",
-    "allowedKycAttributes": "Allowed Kyc Attributes_kan",
-    "id": "Id_kan",
-    "isActive": "Status_kan",
-    "policy-details": "Policy Details_kan",
-    "created-on": "Created On_kan",
-    "created-by": "Created By_kan",
-    "updated-on": "Updated On_kan",
-    "updated-by": "Updated By_kan",
-    "edit": "Edit_kan",
-    "create": "Create_kan",
-    "cancel": "Cancel_kan",
-    "language": "English_kan",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_kan",
-    "update": "Update_kan",
+    "header": "ನೀತಿ",
+    "name": "ಹೆಸರು",
+    "desc": "ವಿವರಣೆ",
+    "authPolicies": "ಅನುಮತಿಸಲಾದ ದೃಢೀಕರಣ ವಿಧಗಳು",
+    "allowedKycAttributes": "Kyc ಗುಣಲಕ್ಷಣಗಳನ್ನು ಅನುಮತಿಸಲಾಗಿದೆ",
+    "id": "ಐಡಿ",
+    "isActive": "ಸ್ಥಿತಿ",
+    "policy-details": "ನೀತಿ ವಿವರಗಳು",
+    "created-on": "ರಂದು ರಚಿಸಲಾಗಿದೆ",
+    "created-by": "ರಚಿಸಿದವರು",
+    "updated-on": "ರಂದು ನವೀಕರಿಸಲಾಗಿದೆ",
+    "updated-by": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ",
+    "edit": "ತಿದ್ದು",
+    "create": "ರಚಿಸಿ",
+    "cancel": "ರದ್ದುಮಾಡು",
+    "language": "ಆಂಗ್ಲ",
+    "keyboard-tooltip": "ವರ್ಚುವಲ್ ಕೀಬೋರ್ಡ್‌ಗಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಿ (ಇಂಗ್ಲಿಷ್)",
+    "update": "ನವೀಕರಿಸಿ",
     "validationMessages": {
       "name": {
-        "required": "Policy Name is required_kan",
-        "max-length": "Exceeded max length (128)_kan"
+        "required": "ನೀತಿಯ ಹೆಸರು ಅಗತ್ಯವಿದೆ",
+        "max-length": "ಗರಿಷ್ಠ ಉದ್ದ (128) ಮೀರಿದೆ"
       },
       "desc": {
-        "required": "Policy description is required_kan",
-        "max-length": "Exceeded max length (128)_kan"
+        "required": "ನೀತಿ ವಿವರಣೆ ಅಗತ್ಯವಿದೆ",
+        "max-length": "ಗರಿಷ್ಠ ಉದ್ದ (128) ಮೀರಿದೆ"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_kan",
+        "title": "ದೃಢೀಕರಣ",
         "message": [
-          "You are about to create a Policy in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_kan"
+          "ನೀವು ನೀತಿಯನ್ನು ರಚಿಸಲಿರುವಿರಿ ",
+          ". ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಮಾಹಿತಿಯು ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ನೀವು ದೃಢೀಕರಿಸಿದ ನಂತರ ಕೇಂದ್ರದ ID ಅನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ"
         ],
-        "yesBtnText": "Yes_kan",
-        "noBtnText": "No_kan",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_kan"
+        "yesBtnText": "ಹೌದು",
+        "noBtnText": "ಸಂ",
+        "mandatorySecondaryFields": "ನೀವು ದ್ವಿತೀಯ ಭಾಷೆಯಲ್ಲಿ ಕಡ್ಡಾಯ ಡೇಟಾವನ್ನು ಭರ್ತಿ ಮಾಡಿಲ್ಲ. ನೀತಿಯನ್ನು ಪ್ರಾಥಮಿಕ ಭಾಷೆಯಲ್ಲಿ ಮಾತ್ರ ರಚಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇನ್ನೂ ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?"
       },
       "edit": {
-        "title": "Confirmation_kan",
-        "message": "You are about to update a policy. Please ensure that all the information is correct_kan",
-        "yesBtnText": "Confirm_kan",
-        "noBtnText": "Cancel_kan",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_kan"
+        "title": "ದೃಢೀಕರಣ",
+        "message": "ನೀವು ನೀತಿಯನ್ನು ನವೀಕರಿಸಲಿರುವಿರಿ. ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಮಾಹಿತಿಯು ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ",
+        "yesBtnText": "ದೃಢೀಕರಿಸಿ",
+        "noBtnText": "ರದ್ದುಮಾಡು",
+        "mandatorySecondaryFields": "ನೀವು ದ್ವಿತೀಯ ಭಾಷೆಯಲ್ಲಿ ಕಡ್ಡಾಯ ಡೇಟಾವನ್ನು ಭರ್ತಿ ಮಾಡಿಲ್ಲ. ಮಿಸ್ಪ್ ಅನ್ನು ಪ್ರಾಥಮಿಕ ಭಾಷೆಯಲ್ಲಿ ಮಾತ್ರ ರಚಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇನ್ನೂ ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?"
       },
       "update-success": {
-        "title": "Success_kan",
-        "message": "policy is updated Successfully_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ಯಶಸ್ಸು",
+        "message": "ನೀತಿಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+        "btnTxt": "ಸರಿ"
       },
       "update-error": {
-        "title": "Error_kan",
-        "message": "There was some issue in updating the policy. Please try again_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ನೀತಿಯನ್ನು ನವೀಕರಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+        "btnTxt": "ಸರಿ"
       },
       "create-success": {
-        "title": "Success_kan",
-        "message": ["Policy is created Successfully._kan"],
-        "btnTxt": "Ok_kan"
+        "title": "ಯಶಸ್ಸು",
+        "message": ["ನೀತಿಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ."],
+        "btnTxt": "ಸರಿ"
       },
       "create-error": {
-        "title": "Error_kan",
-        "message": "There was some issue in creating a policy. Please try again_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ನೀತಿಯನ್ನು ರಚಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆಗಳಿವೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+        "btnTxt": "ಸರಿ"
       },
       "navigation-popup": {
-        "title": "Confirmation_kan",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._kan",
-        "yesBtnTxt": "Leave_kan",
-        "noBtnTxt": "Stay_kan"
+        "title": "ದೃಢೀಕರಣ",
+        "message": "ಈ ಪುಟದಿಂದ ದೂರ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಯಾವುದೇ ಉಳಿಸದ ಡೇಟಾ ಕಳೆದುಹೋಗುತ್ತದೆ.",
+        "yesBtnTxt": "ಬಿಡು",
+        "noBtnTxt": "ಉಳಿಯಿರಿ"
       },
       "noData": {
-        "title": "Error_kan",
-        "message": "No Data Found_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ",
+        "btnTxt": "ಸರಿ"
       },
       "lunchTimeValidation": {
-        "title": "Error_kan",
-        "message": "Please select center timings before selecting lunch timings_kan",
-        "btnTxt": "Ok_kan"
+        "title": "ದೋಷ",
+        "message": "ಊಟದ ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡುವ ಮೊದಲು ದಯವಿಟ್ಟು ಕೇಂದ್ರದ ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "btnTxt": "ಸರಿ"
       }
     }
   },
   "uploadcertificate": {
-    "title": "Upload Certificate_kan",
-    "CAtitle": "Upload CA Certificate_kan",
-    "partnerDomain": "Partner Domain_kan",
-    "chooseFile": "Choose File_kan",
-    "uploadYourFile": "Upload Your File_kan",
-    "button": "Upload_kan",
-    "cancel": "Cancel_kan"
+    "title": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "CAtitle": "CA ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "partnerDomain": "ಪಾಲುದಾರ ಡೊಮೇನ್",
+    "chooseFile": "ಫೈಲ್ ಆಯ್ಕೆ",
+    "uploadYourFile": "ನಿಮ್ಮ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "button": "ಅಪ್ಲೋಡ್ ಮಾಡಿ",
+    "cancel": "ರದ್ದುಮಾಡು"
   },
   "filters": {
-    "titleTxt": "Add Filters_kan",
+    "titleTxt": "ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಸೇರಿಸಿ",
     "footerButtons": {
-        "resetTxt": "Reset_kan",
-        "cancelTxt": "Cancel_kan",
-        "applyTxt": "Apply_kan"
+        "resetTxt": "ಮರುಹೊಂದಿಸಿ",
+        "cancelTxt": "ರದ್ದುಮಾಡು",
+        "applyTxt": "ಅನ್ವಯಿಸು"
     }
   },
   "isActive": {
-    "Active": "ACTIVE_kan",
-    "InActive": "INACTIVE_kan"
+    "Active": "ಸಕ್ರಿಯ",
+    "InActive": "ನಿಷ್ಕ್ರಿಯ"
   },
   "genericerror": {
-    "fieldValidation": "This field is required_kan",
-    "fieldNameValidation": " is required_kan"
+    "fieldValidation": "ಈ ಜಾಗ ಬೇಕಾಗಿದೆ",
+    "fieldNameValidation": " ಅಗತ್ಯವಿದೆ"
   },
   "serverError": {
     "PMS-COR-001": "ಇನ್‌ಪುಟ್ ಪ್ಯಾರಾಮೀಟರ್ ಕಾಣೆಯಾಗಿದೆ",
