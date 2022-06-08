@@ -28,6 +28,10 @@
       "title": "Upload CA Certificate_ara"
     }
   },
+  "dashboard": {
+    "welcomeMessage":"Welcome to Mosip Partner portal ara !",
+    "Logout":"Logout_ara"
+  },
   "singleView": {
     "errorMessages": [
       "No record found_ara",
@@ -440,9 +444,21 @@
     "button": "Upload_ara",
     "cancel": "Cancel_ara"
   },
+  "filters": {
+    "titleTxt": "Add Filters_ara",
+    "footerButtons": {
+        "resetTxt": "Reset_ara",
+        "cancelTxt": "Cancel_ara",
+        "applyTxt": "Apply_ara"
+    }
+  },
   "isActive": {
     "Active": "ACTIVE_ara",
     "InActive": "INACTIVE_ara"
+  },
+  "genericerror": {
+    "fieldValidation": "This field is required_ara",
+    "fieldNameValidation": " is required_ara"
   },
   "serverError": {
     "PMS-COR-001": "معلمة الإدخال مفقود",

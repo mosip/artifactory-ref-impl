@@ -28,6 +28,10 @@
       "title": "Upload CA Certificate_tam"
     }
   },
+  "dashboard": {
+    "welcomeMessage":"Welcome to Mosip Partner portal tam !",
+    "Logout":"Logout_tam"
+  },
   "singleView": {
     "errorMessages": [
       "No record found_tam",
@@ -440,9 +444,21 @@
     "button": "Upload_tam",
     "cancel": "Cancel_tam"
   },
+  "filters": {
+    "titleTxt": "Add Filters_tam",
+    "footerButtons": {
+        "resetTxt": "Reset_tam",
+        "cancelTxt": "Cancel_tam",
+        "applyTxt": "Apply_tam"
+    }
+  },
   "isActive": {
     "Active": "ACTIVE_tam",
     "InActive": "INACTIVE_tam"
+  },
+  "genericerror": {
+    "fieldValidation": "This field is required_tam",
+    "fieldNameValidation": " is required_tam"
   },
   "serverError": {
     "PMS-COR-001": "உள்ளீட்டு அளவுரு இல்லை",

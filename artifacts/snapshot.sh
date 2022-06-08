@@ -62,6 +62,18 @@ rm -rf ${biosdk_client_zip_path}/biosdk-client
 
 echo "folder biosdk client deleted"
 
+# Download jpeg Mock-sdk-jar from maven repository and rename to remove the version no:
+mvn dependency:get -Ddest=${jpeg_sdk_path}/mock-sdk-jpeg-extractor.jar -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk-jpeg-extractor:${version}:jar:jar-with-dependencies
+echo "Downloaded mock-sdk-jpeg-extractor.jar"
+
+# Download the jpeg extractor Jar from maven repository and rename to remove the version no:
+mvn dependency:get -Ddest=${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk:${version}
+mvn dependency:get -Ddest=${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk-jpeg-extractor:${version}:jar:jar-with-dependencies
+zip -r -j ${jpegsdk_lib_zip_path}/jpeg-sdk-lib.zip ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/*
+echo "zip creation completed for jpegsdk"
+rm -rf ${jpegsdk_lib_zip_path}/jpeg-sdk-lib
+echo "folder 'jpeg-sdk-lib' client deleted"
+
 # Download the mock-sdk jar from maven repository and rename to remove the version no:
 
 mvn dependency:get -Ddest=${biosdk_lib_zip_path}/biosdk-lib/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk:${version}
@@ -74,7 +86,7 @@ echo "biosdk lib zip created"
 
 # Download the Demosdk client Jar from maven repository and rename to remove the version no:
 
-mvn dependency:get -Ddest=${demosdk_zip_path}/demosdk/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.demosdk:demosdk-client:${version}:jar:jar-with-dependencies
+mvn dependency:get -Ddest=${demosdk_zip_path}/demosdk/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.demosdk:demosdk:${version}:jar:jar-with-dependencies
 
 zip -r -j ${demosdk_zip_path}/demosdk.zip ${demosdk_zip_path}/demosdk/*
 

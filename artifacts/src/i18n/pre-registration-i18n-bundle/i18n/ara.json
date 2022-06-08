@@ -370,9 +370,9 @@
   },
   "acknowledgement": {
     "title": "تم تأكيد الموعد",
-    "message": "تم إرسال معرف التسجيل المسبق وتفاصيل الموعد إلى معرف البريد الإلكتروني المسجل ورقم الهاتف",
+    "message": "تم إرسال معرف التطبيق وتفاصيل الموعد إلى معرف البريد الإلكتروني المسجل ورقم الهاتف",
     "label_name": "اسم",
-    "label_pre_id": "معرف التسجيل المسبق",
+    "label_pre_id": "رقم الاستمارة",
     "label_reg_cntr": "اسم المركز",
     "label_cntr_contact_number": "رقم مركز الاتصال",
     "label_appointment_date_time": "موعد ووقت الموعد",
@@ -431,6 +431,8 @@
       "msg9": "المستندات مفقودة",
       "msg10": "تعذر حذف الملف. حاول مرة أخرى",
       "msg11": "يرجى تأكيد رغبتك في حذف الملف ",
+      "msg12": "الرجاء إدخال نص أو أرقام فقط",
+      "msg13": "الرجاء إدخال 50 حرفًا فقط أو أقل",
       "title_confirm": "حذف",
       "button_cancel": "يلغي",
       "none": "لا شيء"
@@ -452,10 +454,14 @@
     "title": "تطبيقاتك",
     "action_modify_information": "تعديل المعلومات",
     "action_modify_appointment": "كتاب / تعديل موعد",
-    "action_cre_application": "إنشاء تطبيق جديد ",
+    "action_cre_application": "التسجيل المسبق ",
+    "action_lost_uin": "UIN ضائع",
+    "action_update_registration": "تحديث التسجيل",
+    "action_misc_purpose": "غرض آخر",
     "card": {
       "text_app_id": "رقم الاستمارة",
       "text_name": "اسم",
+      "text_type": "نوع التطبيق",
       "text_appoinment_date": "موعد موعد",
       "text_status": "الحالة",
       "action_modify_information": "تعديل المعلومات",
@@ -499,6 +505,16 @@
       "cancel_btn":"يلغي",
       "submit_btn":"يقدم"
     }
+  },
+  "otherPurpose": {
+    "back_btn": "خلف",
+    "save_btn": "يحفظ",
+    "title": "حجز موعد لأغراض متنوعة",
+    "headerMsg": "يرجى إعطاء تفاصيل حول الغرض من المتابعة",
+    "validationMsg": "يرجى إعطاء الغرض",
+    "textLbl": "غاية",
+    "errmsg1": "الرجاء إدخال نص أو أرقام فقط",
+    "errmsg2": "الرجاء إدخال 50 حرفًا فقط أو أقل"
   },
   "timeSelection": {
     "title_book": " موعد الكتاب",
@@ -571,6 +587,7 @@
     "display_recommended": "المراكز الموصى بها",
     "text_found": "وجدت",
     "text_centers": "مراكز",
+    "use_search_option": "الرجاء استخدام خيار البحث للعثور على المركز.",
     "text_timing": "توقيت",
     "text_open": "افتح",
     "text_select": "حدد أنواع الموقع",
@@ -579,7 +596,8 @@
     "action_back": "الى الخلف",
     "action_book_later": "كتاب لاحقا",
     "action_continue": "استمر",
-    "noResult_found": "لا توجد نتائج"
+    "noResult_found": "لا توجد نتائج",
+    "lunch_hours": "غداء"
   },
   "autologout": {
     "preview": "ستنتهي مهلة 60 ثانية بسبب عدم النشاط. يرجى النقر في أي مكان لإعادة تنشيط جلستك",

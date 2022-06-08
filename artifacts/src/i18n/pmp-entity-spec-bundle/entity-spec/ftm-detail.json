@@ -1,3 +1,4 @@
+
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
 	"actionButtons": [
@@ -277,4 +278,313 @@
 			"methodCallName": ""
 		}
 	]
+
+{
+	"auditEventIds": ["ADM-027", "ADM-049"],
+	"actionButtons": [
+		{
+			"buttonName": {
+				"eng": "Upload Certificate",
+				"ara": "Upload Certificate_ara",
+				"fra": "Upload Certificate_fra",
+				"hin": "Upload Certificate_hin",
+				"kan": "Upload Certificate_kan",
+				"tam": "Upload Certificate_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "uploadCertificatepopup"
+		},
+		{
+			"buttonName": {
+				"eng": "View Certificate",
+				"ara": "View Certificate_ara",
+				"fra": "View Certificate_fra",
+				"hin": "View Certificate_hin",
+				"kan": "View Certificate_kan",
+				"tam": "View Certificate_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "viewCertificate"
+		},
+		{
+			"buttonName": {
+				"eng": "Activate",
+				"ara": "Activate_ara",
+				"fra": "Activate_fra",
+				"hin": "Activate_hin",
+				"kan": "Activate_kan",
+				"tam": "Activate_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "approve"
+		},
+		{
+			"buttonName": {
+				"eng": "Deactivate",
+				"ara": "Deactivate_ara",
+				"fra": "Deactivate_fra",
+				"hin": "Deactivate_hin",
+				"kan": "Deactivate_kan",
+				"tam": "Deactivate_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "reject"
+		},
+		{
+			"buttonName": {
+				"eng": "Edit",
+				"ara": "Edit_ara",
+				"fra": "Edit_fra",
+				"hin": "Edit_hin",
+				"kan": "Edit_kan",
+				"tam": "Edit_tam"
+			},
+			"actionURL": "",
+			"redirectURL": "pmp/resources/ftmdetails/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "partnerEdit"
+		},
+		{
+			"buttonName": {
+				"eng": "Create FTM",
+				"ara": "Create FTM_ara",
+				"fra": "Create FTM_fra",
+				"hin": "Create FTM_hin",
+				"kan": "Create FTM_kan",
+				"tam": "Create FTM_tam"
+			},
+			"imagePath": "assets/images/add-icon.png",
+			"actionListType": "redirect",
+			"actionURL": "",
+			"redirectURL": "pmp/resources/ftmdetails/create",
+			"showIn": "Button",
+			"validations": ""
+		},
+		{
+			"buttonName": {
+				"eng": "Filter",
+				"ara": "Filter_ara",
+				"fra": "Filter_fra",
+				"hin": "Filter_hin",
+				"kan": "Filter_kan",
+				"tam": "Filter_tam"
+			},
+			"imagePath": "assets/images/filter.png",
+			"actionListType": "action",
+			"actionURL": {
+				"case": "filter"
+			},
+			"redirectURL": "",
+			"showIn": "Button",
+			"validations": ""
+		}
+	],
+	"columnsToDisplay": [{
+			"name": "ftpChipDetailId",
+			"label": {
+				"eng": "ID",
+				"ara": "ID_ara",
+				"fra": "ID_fra",
+				"hin": "ID_hin",
+				"kan": "ID_kan",
+				"tam": "ID_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "false",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "ftpProviderId",
+			"label": {
+				"eng": "Partner Name",
+				"ara": "Partner Name_ara",
+				"fra": "Partner Name_fra",
+				"hin": "Partner Name_hin",
+				"kan": "Partner Name_kan",
+				"tam": "Partner Name_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "partnerOrganizationName",
+			"label": {
+				"eng": "Organization Name",
+				"ara": "Organization Name_ara",
+				"fra": "Organization Name_fra",
+				"hin": "Organization Name_hin",
+				"kan": "Organization Name_kan",
+				"tam": "Organization Name_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "make",
+			"label": {
+				"eng": "Make",
+				"ara": "Make_ara",
+				"fra": "Make_fra",
+				"hin": "Make_hin",
+				"kan": "Make_kan",
+				"tam": "Make_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "model",
+			"label": {
+				"eng": "Model",
+				"ara": "Model_ara",
+				"fra": "Model_fra",
+				"hin": "Model_hin",
+				"kan": "Model_kan",
+				"tam": "Model_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "active",
+			"showInListView": "true",
+			"label": {
+				"eng": "Status",
+				"ara": "Status_ara",
+				"fra": "Status_fra",
+				"hin": "Status_hin",
+				"kan": "Status_kan",
+				"tam": "Status_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+	"filterColumns": [{
+			"filtername": "ftpProviderId",
+			"filterlabel": {
+				"eng": "Partner Name",
+				"ara": "Partner Name_ara",
+				"fra": "Partner Name_fra",
+				"hin": "Partner Name_hin",
+				"kan": "Partner Name_kan",
+				"tam": "Partner Name_tam"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "ftpProviderId",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "partnerOrganizationName",
+			"filterlabel": {
+				"eng": "Organization Name",
+				"ara": "Organization Name_ara",
+				"fra": "Organization Name_fra",
+				"hin": "Organization Name_hin",
+				"kan": "Organization Name_kan",
+				"tam": "Organization Name_tam"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "partnerOrganizationName",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "make",
+			"filterlabel": {
+				"eng": "Make",
+				"ara": "Make_ara",
+				"fra": "Make_fra",
+				"hin": "Make_hin",
+				"kan": "Make_kan",
+				"tam": "Make_tam"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "make",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "model",
+			"filterlabel": {
+				"eng": "Model",
+				"ara": "Model_ara",
+				"fra": "Model_fra",
+				"hin": "Model_hin",
+				"kan": "Model_kan",
+				"tam": "Model_tam"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "model",
+			"methodCallName": ""
+		}
+	]
+
 }

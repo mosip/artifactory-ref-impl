@@ -274,6 +274,24 @@
   },
   "filterColumns": [
     {
+    "filtername": "code",
+    "filterlabel": {
+      "eng": "Code",
+      "ara": "الشفرة",
+      "fra": "Code",
+      "tam": "குறியீடு",
+      "hin": "कोड",
+      "kan": "ಕೋಡ್"
+    },
+    "filterType": "equals",
+    "autocomplete": "false",
+    "dropdown": "true",
+    "datePicker": "false",
+    "apiName": "documentcategories",
+    "fieldName": "code",
+    "methodCallName": ""
+    },
+    {
     "filtername": "name",
     "filterlabel": {
       "eng": "Name",

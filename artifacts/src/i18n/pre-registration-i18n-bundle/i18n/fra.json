@@ -371,9 +371,9 @@
   },
   "acknowledgement": {
     "title": "Rendez-vous confirmé",
-    "message": "L'identifiant de pré-enregistrement et les détails du rendez-vous ont été envoyés à l'identifiant et au numéro de téléphone de l'e-mail enregistré.",
+    "message": "L'identifiant de candidature et les détails du rendez-vous ont été envoyés à l'identifiant de messagerie et au numéro de téléphone enregistrés.",
     "label_name": "prénom",
-    "label_pre_id": "ID de pré-inscription",
+    "label_pre_id": "ID d'application",
     "label_reg_cntr": "Nom du centre",
     "label_cntr_contact_number": "Numéro de contact du centre",
     "label_appointment_date_time": "Date et heure du rendez-vous",
@@ -433,6 +433,8 @@
       "msg9": "Les documents sont manquants",
       "msg10": "Le fichier n'a pas pu être supprimé. Réessayez.",
       "msg11": "Veuillez confirmer que vous souhaitez supprimer le fichier ",
+      "msg12": "Veuillez saisir uniquement du texte ou des chiffres",
+      "msg13": "Veuillez entrer seulement 50 caractères ou moins",
       "title_confirm": "Supprimer",
       "button_cancel": "Annuler",
       "none": "aucun"
@@ -454,10 +456,14 @@
     "title": "Vos applications",
     "action_modify_information": "Modifier les informations",
     "action_modify_appointment": "Réserver / modifier un rendez-vous",
-    "action_cre_application": "Créer une nouvelle application ",
+    "action_cre_application": "Pré-inscription ",
+    "action_lost_uin": "Perdue UIN ",
+    "action_update_registration": "Mettre à jour l'enregistrement ",
+    "action_misc_purpose": "Autre but ",
     "card": {
       "text_app_id": "ID d'application",
       "text_name": "prénom",
+      "text_type": "Type de demande",
       "text_appoinment_date": "Date de rendez-vous",
       "text_status": "Statut",
       "action_modify_information": "Modifier les informations",
@@ -501,6 +507,16 @@
       "cancel_btn":"Annuler",
       "submit_btn":"nous faire parvenir"
     }
+  },
+  "otherPurpose": {
+    "back_btn": "Retour",
+    "save_btn": "Sauver",
+    "title": "Prendre un rendez-vous à des fins diverses",
+    "headerMsg": "Veuillez donner des détails sur le but de continuer",
+    "validationMsg": "Veuillez donner un objectif",
+    "textLbl": "Objectif",
+    "errmsg1": "Veuillez saisir uniquement du texte ou des chiffres",
+    "errmsg2": "Veuillez entrer seulement 50 caractères ou moins"
   },
   "timeSelection": {
     "title_book": "Rendez-vous du livre",
@@ -575,7 +591,8 @@
     "action_nearBy": "Proche",
     "display_recommended": "Centres recommandés",
     "text_found": "A trouvé",
-    "text_centers": "centres",
+    "text_centers": "centres.",
+    "use_search_option": "Veuillez utiliser l'option de recherche pour trouver un centre.",
     "text_timing": "Timing",
     "text_open": "Ouvrir",
     "text_select": "Sélectionner les types d'emplacement",
@@ -584,7 +601,8 @@
     "action_back": "Retour",
     "action_book_later": "Réservez plus tard",
     "action_continue": "CONTINUER",
-    "noResult_found": "Aucun résultat trouvé"
+    "noResult_found": "Aucun résultat trouvé",
+    "lunch_hours": "Déjeuner"
   },
   "autologout": {
     "preview": "Vous serez expiré dans 60 secondes en raison de votre inactivité. Veuillez cliquer n'importe où pour réactiver votre session",

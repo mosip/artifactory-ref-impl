@@ -28,6 +28,10 @@
       "title": "Upload CA Certificate_fra"
     }
   },
+  "dashboard": {
+    "welcomeMessage":"Welcome to Mosip Partner portal fra !",
+    "Logout":"Logout_fra"
+  },
   "singleView": {
     "errorMessages": [
       "No record found_fra",
@@ -440,9 +444,21 @@
     "button": "Upload_fra",
     "cancel": "Cancel_fra"
   },
+  "filters": {
+    "titleTxt": "Add Filters_fra",
+    "footerButtons": {
+        "resetTxt": "Reset_fra",
+        "cancelTxt": "Cancel_fra",
+        "applyTxt": "Apply_fra"
+    }
+  },
   "isActive": {
     "Active": "ACTIVE_fra",
     "InActive": "INACTIVE_fra"
+  },
+  "genericerror": {
+    "fieldValidation": "This field is required_fra",
+    "fieldNameValidation": " is required_fra"
   },
   "serverError": {
     "PMS-COR-001": "Paramètre d'entrée manquant",

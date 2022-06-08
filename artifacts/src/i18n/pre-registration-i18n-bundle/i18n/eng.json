@@ -369,9 +369,9 @@
   },
   "acknowledgement": {
     "title": "Appointment Confirmed",
-    "message": "The Pre-Registration id and Appointment details have been sent to the registered email id and phone number",
+    "message": "The Application ID and Appointment details have been sent to the registered email id and phone number",
     "label_name": "Name",
-    "label_pre_id": "Pre Registration ID",
+    "label_pre_id": "Application ID",
     "label_reg_cntr": "Center Name",
     "label_cntr_contact_number": "Center Contact Number",
     "label_appointment_date_time": "Appointment Date & Time",
@@ -430,6 +430,8 @@
       "msg9": "Documents are missing",
       "msg10": "File could not be deleted.Try Again.",
       "msg11": "Please confirm that you want to delete file ",
+      "msg12": "Please enter only text or numbers",
+      "msg13": "Please enter only 50 characters or less",
       "title_confirm": "Delete",
       "button_cancel": "Cancel",
       "none": "None"
@@ -451,10 +453,14 @@
     "title": "Your Applications",
     "action_modify_information": "Modify Information",
     "action_modify_appointment": "Book/Modify Appointment",
-    "action_cre_application": "Create New Application ",
+    "action_cre_application": "Pre Registration ",
+    "action_lost_uin": "Lost UIN ",
+    "action_update_registration": "Update Registration ",
+    "action_misc_purpose": "Other Purpose ",
     "card": {
       "text_app_id": "Application ID",
       "text_name": "Name",
+      "text_type": "Application Type",
       "text_appoinment_date": "Appointment Date",
       "text_status": "Status",
       "action_modify_information": "Modify Information",
@@ -505,6 +511,16 @@
       "cancel_btn": "Cancel",
       "submit_btn": "Submit"
     }
+  },
+  "otherPurpose": {
+    "back_btn": "Back",
+    "save_btn": "Save",
+    "title": "Book an appointment for Miscellaneous Purpose",
+    "headerMsg": "Please give details about the purpose to proceed",
+    "validationMsg": "Please give purpose",
+    "textLbl": "Purpose",
+    "errmsg1": "Please enter only text or numbers",
+    "errmsg2": "Please enter only 50 characters or less"
   },
   "timeSelection": {
     "title_book": "Book Appointment",
@@ -579,7 +595,8 @@
     "action_nearBy": "Nearby",
     "display_recommended": "Recommended Centres",
     "text_found": "Found",
-    "text_centers": "centers",
+    "text_centers": "centers.",
+    "use_search_option": "Please use search option to find a center.",
     "text_timing": "Timing",
     "text_open": "Open",
     "text_select": "Select Location Types",
@@ -588,7 +605,8 @@
     "action_back": "Back",
     "action_book_later": "Book Later",
     "action_continue": "Continue",
-    "noResult_found": "No results Found"
+    "noResult_found": "No results Found",
+    "lunch_hours": "Lunch"
   },
   "autologout": {
     "preview": "You will be timed out in 60 secs due to inactivity. Please click anywhere to re-activate your session",
