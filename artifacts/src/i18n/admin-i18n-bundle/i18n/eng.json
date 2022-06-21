@@ -1257,6 +1257,7 @@
         "KER-USR-017": "Zone & User mapping  not present in db",
         "KER-USR-018": "duplicate request",
         "KER-USR-021": "The given user already mapped with different zone",
+        "KER-USR-022": "The user center mapping must be deleted before deleting the user from the zone",
         "ADMN-BLK-TRNSCTNS-001": "Unable ro retrieve the transactions",
         "ADMN-BLK-001": "Any error occured during the bulk operation. If the category is masterdata, list operations are listed. If the category is packet, list of failed packet informations are listed",
         "ADM-BLK-001": "Data is not exist in db",
