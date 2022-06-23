@@ -456,7 +456,6 @@
     "action_cre_application": "Pre Registration ",
     "action_lost_uin": "Lost UIN ",
     "action_update_registration": "Update Registration ",
-    "action_misc_purpose": "Other Purpose ",
     "card": {
       "text_app_id": "Application ID",
       "text_name": "Name",
@@ -511,16 +510,6 @@
       "cancel_btn": "Cancel",
       "submit_btn": "Submit"
     }
-  },
-  "otherPurpose": {
-    "back_btn": "Back",
-    "save_btn": "Save",
-    "title": "Book an appointment for Miscellaneous Purpose",
-    "headerMsg": "Please give details about the purpose to proceed",
-    "validationMsg": "Please give purpose",
-    "textLbl": "Purpose",
-    "errmsg1": "Please enter only text or numbers",
-    "errmsg2": "Please enter only 50 characters or less"
   },
   "timeSelection": {
     "title_book": "Book Appointment",
