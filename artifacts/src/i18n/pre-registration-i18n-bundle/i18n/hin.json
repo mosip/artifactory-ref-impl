@@ -455,7 +455,6 @@
 		"action_cre_application": "पूर्व पंजीकरण ",
     	"action_lost_uin": "खो गया UIN ",
     	"action_update_registration": "पंजीकरण अपडेट करें ",
-    	"action_misc_purpose": "अन्य उद्देश्य ",
 		"card": {
 			"text_app_id": "एप्लिकेशन आईडी",
 			"text_name": "नाम",
@@ -506,16 +505,6 @@
 			"cancel_btn": "रद्द करें",
 			"submit_btn": "सबमिट करें"
 		}
-	},
-	"otherPurpose": {
-		"back_btn": "पीछे",
-		"save_btn": "बचाना",
-		"title": "विविध उद्देश्य के लिए अपॉइंटमेंट बुक करें",
-		"headerMsg": "कृपया आगे बढ़ने के उद्देश्य के बारे में विवरण दें",
-		"validationMsg": "कृपया उद्देश्य दें",
-		"textLbl": "उद्देश्य",
-		"errmsg1": "कृपया केवल टेक्स्ट या नंबर दर्ज करें",
-		"errmsg2": "कृपया केवल 50 या उससे कम वर्ण दर्ज करें"
 	},
 	"timeSelection": {
 		"title_book": "बुक अपॉइंटमेंट",

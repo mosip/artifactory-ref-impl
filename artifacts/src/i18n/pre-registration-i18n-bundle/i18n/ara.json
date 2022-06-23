@@ -457,7 +457,6 @@
     "action_cre_application": "التسجيل المسبق ",
     "action_lost_uin": "UIN ضائع",
     "action_update_registration": "تحديث التسجيل",
-    "action_misc_purpose": "غرض آخر",
     "card": {
       "text_app_id": "رقم الاستمارة",
       "text_name": "اسم",
@@ -505,16 +504,6 @@
       "cancel_btn":"يلغي",
       "submit_btn":"يقدم"
     }
-  },
-  "otherPurpose": {
-    "back_btn": "خلف",
-    "save_btn": "يحفظ",
-    "title": "حجز موعد لأغراض متنوعة",
-    "headerMsg": "يرجى إعطاء تفاصيل حول الغرض من المتابعة",
-    "validationMsg": "يرجى إعطاء الغرض",
-    "textLbl": "غاية",
-    "errmsg1": "الرجاء إدخال نص أو أرقام فقط",
-    "errmsg2": "الرجاء إدخال 50 حرفًا فقط أو أقل"
   },
   "timeSelection": {
     "title_book": " موعد الكتاب",
