@@ -103,7 +103,7 @@ ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snap
 
 # environment variable for msg91_jar url. 
 #ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${rversion}/kernel-smsserviceprovider-msg91-${rversion}.jar
-ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/${sversion}/kernel-smsserviceprovider-msg91-1.2.0.1-20220520.010318-3.jar
+ENV sms_msg91_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/${sversion}/kernel-smsserviceprovider-msg91-1.2.0.1-20220520.010318-3.jar
 
 # environment variable for ref-idobjectvalidator_jar url
 #ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${rversion}/kernel-ref-idobjectvalidator-${rversion}.jar
