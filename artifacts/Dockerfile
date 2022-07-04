@@ -111,7 +111,7 @@ ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/rep
 
 # environment variable for clamav jar and client url
 #ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/${rversion}/kernel-virusscanner-clamav-${rversion}.jar
-ENV clamav_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-virusscanner-clamav/${sversion}/kernel-virusscanner-clamav-1.2.0.1-20220520.010318-3.jar
+ENV clamav_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0.1-SNAPSHOT/kernel-virusscanner-clamav-1.2.0.1-20220704.142648-5.jar
 
 ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
