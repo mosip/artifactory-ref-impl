@@ -10,6 +10,6 @@ Following are the artifacts which is being served by the service:
   5. cache jar
   6. sms-notification.jar
   7. clamav-antivirus.jar
+  8. Mock SDK JPEG Extractor
 
 All these artifacts are released as a part of the Mosip Release with some of them being taken from open sourced repository as per the need.
-
