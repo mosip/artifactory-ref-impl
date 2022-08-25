@@ -1660,7 +1660,15 @@
 		"RPR-UIN-FAILED-008": "UIN introuvable pour le RID correspondant",
 		"RPR-SEN-SUCCESS-001": "Notification reçue à securezone",
 		"RPR-RGS-034" : "la recherche entre les dates doit être inférieure à 30 jours",
-		"KER-MSD-394" : "Votre mappage de zone est manquant. Veuillez contacter l'administrateur."
-
+		"KER-MSD-394" : "Votre mappage de zone est manquant. Veuillez contacter l'administrateur.",
+		"ADM-AVD-001" : "Une erreur technique s'est produite lors de la récupération des données, veuillez réessayer après un certain temps.",
+        "ADM-AVD-002" : "Le RID est invalide",
+        "ADM-AVD-003" : "La carte pour cet ID de demande n'est pas générée. Veuillez vérifier l'état de l'ID.",
+        "ADM-AVD-004" : "Photo du demandeur introuvable",
+        "ADM-AVD-005" : "Carte numérique introuvable pour le RID, veuillez réessayer après quelques jours",
+        "ADM-AVD-006" : "Veuillez prendre connaissance des détails avant de télécharger la carte numérique",
+        "ADM-AVD-007" : "Identifiant de la requête introuvable",
+        "ADM-AVD-008" : "Votre limite de recherche quotidienne a été dépassée. Veuillez réessayer demain.",
+        "ADM-AVD-009" : "L'utilisation du partage de données a expiré"
 	}
 }
