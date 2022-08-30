@@ -332,6 +332,7 @@
     "action_continue": "CONTINUER",
     "action_preview": "APERÇU",
     "read_only_message": "** Vous ne pouvez plus modifier cette application, car vous avez actuellement ou précédemment réservé un rendez-vous pour elle. Si vous souhaitez toujours apporter des modifications, supprimez cette application et créez-en une nouvelle.",
+    "read_only_message_prefetched": "** Vous ne pouvez plus modifier cette application, car l'application est prérécupérée. Si vous souhaitez toujours apporter des modifications, supprimez cette application et créez-en une nouvelle.",
     "lookup_search_message": "Rechercher ",
     "lookup_no_results_found": "Aucun résultat correspondant trouvé.",
     "change_data_capture_langs": "Changer les langues de capture de données",
