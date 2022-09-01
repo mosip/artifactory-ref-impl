@@ -533,6 +533,7 @@
         "Voulez-vous continuer à réserver"
       ],
       "noSlotsSelectedForApplicant":"Aucune date/slot n'a été sélectionné pour une candidature",
+      "noApplicantSelected": "Aucun candidat n'a été sélectionné pour une candidature",
       "yesButtonText": "Oui",
       "noButtonText": "Non",
       "applicationLockConfirm":{
