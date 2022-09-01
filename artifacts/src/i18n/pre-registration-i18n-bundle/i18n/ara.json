@@ -530,6 +530,7 @@
       "yesButtonText": "نعم فعلا",
       "noButtonText": "لا",
       "noSlotsSelectedForApplicant":"لم يتم تحديد تاريخ / فترة زمنية للتطبيق",
+      "noApplicantSelected": "لم يتم اختيار أي متقدم لتقديم طلب",
       "applicationLockConfirm":{
         "title":"تأكيد",
         "message":"هل أنت متأكد أنك تريد إرسال التفاصيل؟ بمجرد إرسال التفاصيل لا يمكن تعديلها",
