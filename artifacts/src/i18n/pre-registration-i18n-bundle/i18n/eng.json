@@ -700,6 +700,7 @@
     "PRE-REG-OTP-406": "Input Data Validation Failed",
     "PRE-REG-OTP-407": "Token generation failed",
     "PRE-REG-OTP-408": "OTP has already been generated and sent to your email id / phone number. If you want a new OTP, please try again after sometime.",
+    "PRE-REG-OTP-409": "OTP Validation attempt exceeded, Please regenerate OTP and try again after sometime",
     "PRG_PAM_APP_001": "Failed to create the pre-registration with demographic data provided",
     "PRG_PAM_APP_002": "unable to access the pre-registration table ",
     "PRG_PAM_APP_003": "delete operation is not allowed ",
