@@ -121,7 +121,7 @@ ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk
 
 # environment variable for sdk url
 #ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
-ENV jpeg_extractor_sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk-jpeg-extractor/1.2.0.1-SNAPSHOT/mock-sdk-jpeg-extractor-1.2.0.1-20220719.030153-21-jar-with-dependencies.jar
+ENV jpeg_extractor_sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk-jpeg-extractor/1.2.0.1-SNAPSHOT/mock-sdk-jpeg-extractor-1.2.0.1-20220718.062950-7-jar-with-dependencies.jar
 
 # environment variable for cache URL 
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
