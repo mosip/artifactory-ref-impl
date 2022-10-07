@@ -117,8 +117,8 @@ ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/$
 ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
 # environment variable for sdk url
-#ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
-ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/${mrversion}/mock-sdk-${mrversion}.jar
+ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${mrversion}/mock-sdk-${mrversion}.jar
+#ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/${mrversion}/mock-sdk-${mrversion}.jar
 
 # environment variable for sdk url
 #ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
