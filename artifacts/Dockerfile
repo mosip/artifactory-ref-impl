@@ -82,7 +82,8 @@ ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authenti
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV sversion=1.2.0.1-SNAPSHOT
-ENV rversion=1.2.0.1-B1
+ENV mrversion=1.2.0
+ENV prversion=1.2.0.1-B1
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
@@ -90,44 +91,44 @@ ENV master_template_path=${base_path}/libs-release-local/master-templates
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
-ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${rversion}/kernel-auth-adapter-${rversion}.jar
+ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${prversion}/kernel-auth-adapter-${prversion}.jar
 #ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${sversion}/kernel-auth-adapter-1.2.0.1-20220920.044110-25.jar
 
 # environment variable for biosdk client jar URL
-ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${rversion}/biosdk-client-${rversion}-jar-with-dependencies.jar
+ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${prversion}/biosdk-client-${prversion}-jar-with-dependencies.jar
 #ENV biosdk_client_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/biosdk/biosdk-client/1.2.0.1-SNAPSHOT/biosdk-client-1.2.0.1-20220719.030153-21-jar-with-dependencies.jar
 
 # environment variable for demosdk jar URL
-ENV demosdk_jar_url_env=${release_maven_path}/demosdk/demosdk/${rversion}/demosdk-${rversion}-jar-with-dependencies.jar
+ENV demosdk_jar_url_env=${release_maven_path}/demosdk/demosdk/${mrversion}/demosdk-${mrversion}-jar-with-dependencies.jar
 #ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/${sversion}/demosdk-1.2.0.1-20220317.100513-9-jar-with-dependencies.jar
 
 # environment variable for msg91_jar url. 
-ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${rversion}/kernel-smsserviceprovider-msg91-${rversion}.jar
+ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${mrversion}/kernel-smsserviceprovider-msg91-${mrversion}.jar
 #ENV sms_msg91_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/${sversion}/kernel-smsserviceprovider-msg91-1.2.0.1-20220718.062805-7.jar
 
 # environment variable for ref-idobjectvalidator_jar url
-ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${rversion}/kernel-ref-idobjectvalidator-${rversion}.jar
+ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${mrversion}/kernel-ref-idobjectvalidator-${mrversion}.jar
 #ENV ref_idobjectvalidator_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-ref-idobjectvalidator/${sversion}/kernel-ref-idobjectvalidator-1.2.0.1-20220718.062805-7.jar
 
 # environment variable for clamav jar and client url
-ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/${rversion}/kernel-virusscanner-clamav-${rversion}.jar
+ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/${mrversion}/kernel-virusscanner-clamav-${mrversion}.jar
 #ENV clamav_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-virusscanner-clamav/1.2.0.1-SNAPSHOT/kernel-virusscanner-clamav-1.2.0.1-20220718.062805-7.jar
 
 ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
 # environment variable for sdk url
 #ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
-ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/${sversion}/mock-sdk-1.2.0-20220106.064324-23.jar
+ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk/${mrversion}/mock-sdk-${mrversion}.jar
 
 # environment variable for sdk url
 #ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
-ENV jpeg_extractor_sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk-jpeg-extractor/1.2.0.1-SNAPSHOT/mock-sdk-jpeg-extractor-1.2.0.1-20220718.062950-7-jar-with-dependencies.jar
+ENV jpeg_extractor_sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk-jpeg-extractor/1.2.0.1-SNAPSHOT/mock-sdk-jpeg-extractor-1.2.0.1-20220922.120649-17-jar-with-dependencies.jar
 
 # environment variable for cache URL 
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
 
 # environment variable for child authentication filter jar URL
-ENV child_auth_filter_jar_url=${release_maven_path}/authentication/authentication-childauthfilter-impl/${rversion}/authentication-childauthfilter-impl-${rversion}.jar
+ENV child_auth_filter_jar_url=${release_maven_path}/authentication/authentication-childauthfilter-impl/${mrversion}/authentication-childauthfilter-impl-${mrversion}.jar
 #ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/${sversion}/authentication-childauthfilter-impl-1.2.0.1-20220718.062704-9.jar
 
 # Create all the Jar paths
