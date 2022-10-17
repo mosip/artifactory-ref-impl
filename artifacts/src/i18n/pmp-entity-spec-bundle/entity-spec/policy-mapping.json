@@ -204,7 +204,14 @@
 	"filterColumns": [
 		{
 			"filtername": "partnerName",
-			"filterlabel": "Partner Name",
+			"filterlabel": {
+				"eng": "Partner Name",
+                                "ara": "اسم شريك",
+                                "fra": "Nom du partenaire",
+                                "hin": "साथी का नाम",
+                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
+                                "tam": "கூட்டாளர் பெயர்"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -216,7 +223,14 @@
 		},
 		{
 			"filtername": "policyName",
-			"filterlabel": "Policy Name",
+			"filterlabel": {
+				"eng": "Partner Name",
+                                "ara": "اسم السياسة",
+                                "fra": "Nom de la politique",
+                                "hin": "पालिसी का नाम",
+                                "kan": "ನೀತಿಯ ಹೆಸರು",
+                                "tam": "கொள்கை பெயர்"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -228,7 +242,14 @@
 		},
 		{
 			"filtername": "requestDetail",
-			"filterlabel": "Request Detail",
+			"filterlabel": {
+				"eng": "Request Detail",
+                                "ara": "طلب التفاصيل",
+                                "fra": "Détail de la demande",
+                                "hin": "अनुरोध विवरण",
+                                "kan": "ವಿನಂತಿಯ ವಿವರ",
+                                "tam": "கோரிக்கை விவரம்"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",

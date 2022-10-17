@@ -164,7 +164,14 @@
 	},
 	"filterColumns": [{
 			"filtername": "name",
-			"filterlabel": "Name",
+			"filterlabel": {
+				"eng": "Name",                                
+"ara": "اسم",                               
+"fra": "Nom",                               
+"hin": "नाम",                                
+"kan": "ಹೆಸರು",                              
+"tam": "பெயர்"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -176,7 +183,14 @@
 		},
 		{
 			"filtername": "desc",
-			"filterlabel": "Description",
+			"filterlabel": {
+				"eng": "Description",
+"ara": "وصف",
+"fra": "La description",
+"hin": "विवरण",
+"kan": "ವಿವರಣೆ",
+"tam": "விளக்கம்"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
