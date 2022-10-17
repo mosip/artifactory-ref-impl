@@ -222,8 +222,15 @@
 	},
 	"filterColumns": [{
 			"filtername": "name",
-			"filterlabel": "Name",
-			"filterType": "equals",
+			"filterlabel": {
+				"eng": "Name",                                
+"ara": "اسم",                               
+"fra": "Nom",                               
+"hin": "नाम",                                
+"kan": "ಹೆಸರು",                              
+			"tam": "பெயர்"
+			},
+				"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
 			"dropdown": "false",
@@ -234,7 +241,14 @@
 		},
 		{
 			"filtername": "desc",
-			"filterlabel": "Description",
+			"filterlabel": {
+				"eng": "Description",
+"ara": "وصف",
+"fra": "La description",
+"hin": "विवरण",
+"kan": "ವಿವರಣೆ",
+"tam": "விளக்கம்"
+},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -246,7 +260,14 @@
 		},
 		{
 			"filtername": "policyGroupName",
-			"filterlabel": "Policy Group",
+			"filterlabel": {
+				"eng": "Policy Group",
+ "ara": "مجموعة السياسة",
+ "fra": "Groupe de politiques",
+ "hin": "नीति समूह",
+ "kan": "ನೀತಿ ಗುಂಪು",
+ "tam": "கொள்கை குழு"
+ },
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",

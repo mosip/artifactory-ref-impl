@@ -234,5 +234,63 @@
 		"totalEntries": null,
 		"pageSize": "10",
 		"pageSizeList": [10, 20, 30, 40, 50]
-	}
+	},
+        
+        "filterColumns": [{
+                "filtername": "providerId",
+                "filterlabel": {
+                        "eng": "Partner Name",
+                                "ara": "اسم شريك",
+                                "fra": "Nom du partenaire",
+                                "hin": "साथी का नाम",
+                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
+                                "tam": "கூட்டாளர் பெயர்"
+                },
+                "filterType": "equals",
+                "fieldType": "input",
+                "autocomplete": "false",
+                "dropdown": "false",
+                "datePicker": "false",
+                "apiName": "",
+                "fieldName": "providerId",
+                "methodCallName": ""
+        },{
+                "filtername": "swVersion",
+                "filterlabel": {
+                        "eng": "Version",
+                        "ara": "إصدار",
+                        "fra": "Version",
+                        "hin": "संस्करण",
+                        "kan": "ಆವೃತ್ತಿ",
+                        "tam": "பதிப்பு"
+                },
+                "filterType": "equals",
+                "fieldType": "input",
+                "autocomplete": "false",
+                "dropdown": "false",
+                "datePicker": "false",
+                "apiName": "",
+                "fieldName": "swVersion",
+                "methodCallName": ""
+        },{
+                "filtername": "approvalStatus",
+                "filterlabel": {
+                        "eng": "Status",
+                        "ara": "حالة",
+                        "fra": "Statut",
+                        "hin": "दर्जा",
+                        "kan": "ಸ್ಥಿತಿ",
+                        "tam": "நிலை"
+                },
+                "filterType": "equals",
+                "fieldType": "input",
+                "autocomplete": "false",
+                "dropdown": "false",
+                "datePicker": "false",
+                "apiName": "",
+                "fieldName": "approvalStatus",
+                "methodCallName": ""
+        }]
 }
+
+
