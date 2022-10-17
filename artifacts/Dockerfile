@@ -74,7 +74,7 @@ ENV version=1.1.5.5
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
-ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/1.1.5.5/kernel-auth-adapter-1.1.5.5.jar
+ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/1.1.5.5/kernel-auth-adapter-1.1.5.5-p1-SNAPSHOT.jar
 #ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5.5-SNAPSHOT/kernel-auth-adapter-1.1.5.5-20220420.053636-48.jar
 
 # environment variable for msg91_jar url. 
