@@ -256,7 +256,14 @@
 	},
 	"filterColumns": [{
 			"filtername": "deviceProviderId",
-			"filterlabel": "Partner Name",
+			"filterlabel": {                        
+                                "eng": "Partner Name",
+                                "ara": "اسم شريك",
+                                "fra": "Nom du partenaire",
+                                "hin": "साथी का नाम",
+                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
+                                "tam": "கூட்டாளர் பெயர்"
+                        },
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -268,7 +275,14 @@
 		},
 		{
 			"filtername": "partnerOrganizationName",
-			"filterlabel": "Organization Name",
+			"filterlabel": {                        
+                                "eng": "Organization Name",
+                                "ara": "اسم المنظمة",
+                                "fra": "nom de l'organisation",
+                                "hin": "संगठन का नाम",
+                                "kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+                                "tam": "நிறுவன பெயர்"
+                        },
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -280,7 +294,14 @@
 		},
 		{
 			"filtername": "deviceTypeCode",
-			"filterlabel": "Device Type",
+			"filterlabel": {                        
+                                "eng": "Device Type",
+                                "ara": "نوع الجهاز",
+                                "fra": "Type d'appareil",
+                                "hin": "उपकरण का प्रकार",
+                                "kan": "ಸಾಧನದ ಪ್ರಕಾರ",
+                                "tam": "கருவியின் வகை"
+                        },
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -292,7 +313,14 @@
 		},
 		{
 			"filtername": "deviceSubTypeCode",
-			"filterlabel": "Device Sub Type",
+			"filterlabel": {                        
+                                "eng": "Device Sub Type",
+                                "ara": "نوع الجهاز الفرعي",
+                                "fra": "Sous-type de périphérique",
+                                "hin": "डिवाइस उप प्रकार",
+                                "kan": "ಸಾಧನದ ಉಪ ಪ್ರಕಾರ",
+                                "tam": "சாதனத்தின் துணை வகை"
+                        },
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -304,7 +332,14 @@
 		},
 		{
 			"filtername": "make",
-			"filterlabel": "Make",
+			"filterlabel": {                     
+                                "eng": "Make",
+                                "ara": "يجعلون",
+                                "fra": "Faire, construire",
+                                "hin": "बनाना",
+                                "kan": "ಮಾಡಿ",
+                                "tam": "செய்ய"
+                        },
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -316,7 +351,14 @@
 		},
 		{
 			"filtername": "model",
-			"filterlabel": "Model",
+			"filterlabel": {                        
+                                "eng": "Model",
+                                "ara": "نموذج",
+                                "fra": "Modèle",
+                                "hin": "नमूना",
+                                "kan": "ಮಾದರಿ",
+                                "tam": "மாதிரி"
+                        },
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
