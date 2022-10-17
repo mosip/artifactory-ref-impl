@@ -1,0 +1,415 @@
+{
+	"auditEventIds": ["ADM-027", "ADM-049"],
+	"actionButtons": [{
+			"buttonName": {
+				"eng": "Activate",
+				"ara": "تفعيل",
+				"fra": "Activer",
+				"hin": "सक्रिय",
+				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயல்படுத்த"
+			},
+
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "activatePolicy"
+		},
+		{
+			"buttonName": {
+				"eng": "Deactivate",
+				"ara": "تعطيل",
+				"fra": "Désactiver",
+				"hin": "निष्क्रिय करें",
+				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயலிழக்கச் செய்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "deactivatePolicy"
+		},
+		{
+			"buttonName": {
+				"eng": "Upload Certificate",
+				"ara": "تحميل الشهادة",
+				"fra": "Télécharger le certificat",
+				"hin": "प्रमाणपत्र अपलोड करें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+				"tam": "சான்றிதழை பதிவேற்றவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "uploadCertificatepopup"
+		},
+		{
+			"buttonName": {
+				"eng": "View Certificate",
+				"ara": "مشاهدة الشهادة",
+				"fra": "Afficher le certificat",
+				"hin": "प्रमाणपत्र देखें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ವೀಕ್ಷಿಸಿ",
+				"tam": "சான்றிதழைப் பார்க்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "viewCertificate"
+		},
+		{
+			"buttonName": {
+				"eng": "Filter",
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
+			},
+			"imagePath": "assets/images/filter.png",
+			"actionListType": "action",
+			"actionURL": {
+				"case": "filter"
+			},
+			"redirectURL": "",
+			"showIn": "Button",
+			"validations": ""
+		}
+	],
+	"columnsToDisplay": [{
+			"name": "id",
+			"showInListView": "false",
+			"label": {
+				"eng": "ID",
+				"ara": "بطاقة تعريف",
+				"fra": "IDENTIFIANT",
+				"hin": "पहचान",
+				"kan": "ಐಡಿ",
+				"tam": "ஐடி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "name",
+			"showInListView": "true",
+			"label": {
+				"eng": "Organization Name",
+				"ara": "اسم المنظمة",
+				"fra": "nom de l'organisation",
+				"hin": "संगठन का नाम",
+				"kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+				"tam": "நிறுவன பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "partnerTypeCode",
+			"showInListView": "true",
+			"label": {
+				"eng": "Partner Type",
+				"ara": "نوع الشريك",
+				"fra": "Type de partenaire",
+				"hin": "साथी प्रकार",
+				"kan": "ಪಾಲುದಾರ ಪ್ರಕಾರ",
+				"tam": "கூட்டாளர் வகை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "emailId",
+			"showInListView": "true",
+			"label": {
+				"eng": "Email id",
+				"ara": "عنوان الايميل",
+				"fra": "Identifiant de messagerie",
+				"hin": "ईमेल आईडी",
+				"kan": "ಇಮೇಲ್ ಐಡಿ",
+				"tam": "மின்னஞ்சல் முகவரி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "policyGroupId",
+			"showInListView": "true",
+			"label": {
+				"eng": "Policy Group",
+				"ara": "مجموعة السياسة",
+				"fra": "Groupe de politiques",
+				"hin": "नीति समूह",
+				"kan": "ನೀತಿ ಗುಂಪು",
+				"tam": "கொள்கை குழு"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "contactNo",
+			"showInListView": "true",
+			"label": {
+				"eng": "Contact Number",
+				"ara": "رقم الاتصال",
+				"fra": "Numéro de contact",
+				"hin": "संपर्क संख्या",
+				"kan": "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
+				"tam": "தொடர்பு எண்"
+			},
+			"sortOrder": "",
+			"showAsLink": "false",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "approvalStatus",
+			"showInListView": "true",
+			"label": {
+				"eng": "Approval Status",
+				"ara": "حالة القبول",
+				"fra": "Statut approuvé",
+				"hin": "अनुमोदन स्थिति",
+				"kan": "ಅನುಮೋದನೆ ಸ್ಥಿತಿ",
+				"tam": "Approval Status_tam"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "isActive",
+			"label": {
+				"eng": "Status",
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "policyName",
+			"showInListView": "",
+			"label": {
+				"eng": "PolicyName",
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "emailId",
+			"showInListView": "",
+			"label": {
+				"eng": "Email",
+				"ara": "البريد الإلكتروني",
+				"fra": "E-mail",
+				"hin": "ईमेल",
+				"kan": "ಇಮೇಲ್",
+				"tam": "மின்னஞ்சல்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "status",
+			"showInListView": "",
+			"label": {
+				"eng": "Status",
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "address",
+			"showInListView": "",
+			"label": {
+				"eng": "Address",
+				"ara": "تبوك",
+				"fra": "Adresse",
+				"hin": "पता",
+				"kan": "ವಿಳಾಸ",
+				"tam": "முகவரி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "apiKeyRequestStatus",
+			"showInListView": "",
+			"label": {
+				"eng": "Submit Request Status",
+				"ara": "إرسال حالة الطلب",
+				"fra": "Soumettre le statut de la demande",
+				"hin": "अनुरोध स्थिति सबमिट करें",
+				"kan": "ವಿನಂತಿಯ ಸ್ಥಿತಿಯನ್ನು ಸಲ್ಲಿಸಿ",
+				"tam": "கோரிக்கை நிலையைச் சமர்ப்பிக்கவும்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+	"filterColumns": [{
+			"filtername": "name",
+			"filterlabel": {
+				"eng": "Organization Name",
+                                "ara": "اسم المنظمة",
+                                "fra": "nom de l'organisation",
+                                "hin": "संगठन का नाम",
+                                "kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+                                "tam": "நிறுவன பெயர்"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "name",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "partnerTypeCode",
+			"filterlabel": {
+				"eng": "Partner Type",
+                                "ara": "نوع الشريك",
+                                "fra": "Type de partenaire",
+                                "hin": "साथी प्रकार",
+                                "kan": "ಪಾಲುದಾರ ಪ್ರಕಾರ",
+                                "tam": "கூட்டாளர் வகை"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "partnerTypeCode",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "emailId",
+			"filterlabel": {
+				"eng": "Email",
+                                "ara": "البريد الإلكتروني",
+                                "fra": "E-mail",
+                                "hin": "ईमेल",
+                                "kan": "ಇಮೇಲ್",
+                                "tam": "மின்னஞ்சல்"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "emailId",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "policyGroupId",
+			"filterlabel": {
+				"eng": "Policy Group",
+ "ara": "مجموعة السياسة",
+ "fra": "Groupe de politiques",
+ "hin": "नीति समूह",
+ "kan": "ನೀತಿ ಗುಂಪು",
+ "tam": "கொள்கை குழு"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "policyGroupId",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "contactNo",
+			"filterlabel": {
+				"eng": "Contact Number",
+ "ara": "رقم الاتصال",
+ "fra": "Numéro de contact",
+ "hin": "संपर्क संख्या",
+	"kan": "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
+	"tam": "தொடர்பு எண்"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "contactNo",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "approvalStatus",
+			"filterlabel": {
+				"eng": "Approval Status",
+ "ara": "حالة القبول",
+ "fra": "Statut approuvé",
+ "hin": "अनुमोदन स्थिति",
+	"kan": "ಅನುಮೋದನೆ ಸ್ಥಿತಿ",
+	"tam": "ஒப்புதல் நிலை"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "approvalStatus",
+			"methodCallName": ""
+		}
+	]
+}
