@@ -299,7 +299,14 @@
 	},
 	"filterColumns": [{
 			"filtername": "name",
-			"filterlabel": "Organization Name",
+			"filterlabel": {
+				"eng": "Organization Name",
+                                "ara": "اسم المنظمة",
+                                "fra": "nom de l'organisation",
+                                "hin": "संगठन का नाम",
+                                "kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+                                "tam": "நிறுவன பெயர்"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -311,7 +318,14 @@
 		},
 		{
 			"filtername": "partnerTypeCode",
-			"filterlabel": "Partner Type",
+			"filterlabel": {
+				"eng": "Partner Type",
+                                "ara": "نوع الشريك",
+                                "fra": "Type de partenaire",
+                                "hin": "साथी प्रकार",
+                                "kan": "ಪಾಲುದಾರ ಪ್ರಕಾರ",
+                                "tam": "கூட்டாளர் வகை"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -323,7 +337,14 @@
 		},
 		{
 			"filtername": "emailId",
-			"filterlabel": "Email",
+			"filterlabel": {
+				"eng": "Email",
+                                "ara": "البريد الإلكتروني",
+                                "fra": "E-mail",
+                                "hin": "ईमेल",
+                                "kan": "ಇಮೇಲ್",
+                                "tam": "மின்னஞ்சல்"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -335,7 +356,14 @@
 		},
 		{
 			"filtername": "policyGroupId",
-			"filterlabel": "Policy Group",
+			"filterlabel": {
+				"eng": "Policy Group",
+ "ara": "مجموعة السياسة",
+ "fra": "Groupe de politiques",
+ "hin": "नीति समूह",
+ "kan": "ನೀತಿ ಗುಂಪು",
+ "tam": "கொள்கை குழு"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -347,7 +375,14 @@
 		},
 		{
 			"filtername": "contactNo",
-			"filterlabel": "Contact Number",
+			"filterlabel": {
+				"eng": "Contact Number",
+ "ara": "رقم الاتصال",
+ "fra": "Numéro de contact",
+ "hin": "संपर्क संख्या",
+	"kan": "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
+	"tam": "தொடர்பு எண்"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -359,7 +394,14 @@
 		},
 		{
 			"filtername": "approvalStatus",
-			"filterlabel": "Status",
+			"filterlabel": {
+				"eng": "Approval Status",
+ "ara": "حالة القبول",
+ "fra": "Statut approuvé",
+ "hin": "अनुमोदन स्थिति",
+	"kan": "ಅನುಮೋದನೆ ಸ್ಥಿತಿ",
+	"tam": "ஒப்புதல் நிலை"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
