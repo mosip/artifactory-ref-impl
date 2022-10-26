@@ -1057,6 +1057,43 @@
 			}
 		]
 	},
+	"download-card": {
+        "header": "Télécharger la carte",
+        "text": "Veuillez entrer un ID d'enregistrement pour télécharger la carte numérique",
+        "error": "ID d'enregistrement invalide saisi",
+        "id": "ID d'enregistrement",
+        "dob": "Date de naissance",
+        "verifyanddownload": "J'ai vérifié le visage.",
+        "reject": "Le visage ne correspond pas.",
+        "submit": "Rejeter",
+        "download": "Télécharger",
+        "searchLimit": "Il vous reste",
+        "outof": "cherche hors de",
+        "dailylimit": "de votre limite quotidienne",
+        "verify": "Pouvez-vous confirmer si le visage a été vérifié ?",
+        "placeholder":"ID d'enregistrement",
+        "errorMessages": {
+            "title": "Erreur",
+            "message": "RID introuvable",
+            "btnTxt": "D'accord"
+        },
+        "popupMessages": {
+            "rejectMessages": {
+                "title": "Succès",
+                "message": "Vous avez rejeté la vérification.",
+                "btnTxt": "D'accord"
+            },
+            "noData": {
+                "title": "Erreur",
+                "message": "Aucune donnée disponible",
+                "btnTxt": "D'accord"
+            }
+        },
+        "statuscheckFailed":"Échoué",
+        "statuscheckCompleted":"complété"
+
+    },
+
 	"serverError": {
 		"KER-KMS-001": "Le certificat n'est pas valide",
 		"KER-KMS-002": "ApplicationId introuvable dans la stratégie de clé",
@@ -1423,7 +1460,6 @@
 		"KER-MSD-037": "Une erreur s'est produite lors de la récupération des mappages du centre d'enregistrement, de la machine et de l'utilisateur",
 		"KER-MSD-038": "Centre d'enregistrement, Machine, Utilisateur non trouvé",
 		"KER-MSD-039": "Format de date invalide",
-		"KER-MSD-319": "Entrée de requête invalide",
 		"KER-MSD-500": "Erreur serveur interne",
 		"KER-MSD-998": "Déjà activé ou désactivé",
 		"KER-MSD-997": "Identifiant non valide transmis pour la langue principale",
@@ -1451,7 +1487,6 @@
 		"KER-SCH-019": "Mêmes bioattributs utilisés dans le champ avec le même sous-type : %s",
 		"KER-MSD-045": "Une erreur s'est produite lors de la récupération des modèles",
 		"KER-MSD-145": "Exception lors de l'insertion de données dans la base de données",
-		"KER-MSD-046": "Modèle introuvable.",
 		"KER-MSD-238": "Une erreur s'est produite lors de la mise à jour du modèle",
 		"KER-MSD-096": "Une erreur s'est produite lors de la suppression du modèle",
 		"KER-MSD-232": "Une erreur s'est produite lors de l'insertion des détails du format de fichier modèle",
@@ -1526,7 +1561,7 @@
 		"KER-USR-017": "Mappage de zone et d'utilisateur non présent dans la base de données",
 		"KER-USR-018": "demande en double",
 		"KER-USR-021": "L'utilisateur donné déjà mappé avec une zone différente",
-		"KER-USR-022": "Le mappage du centre utilisateur doit être supprimé avant que l'utilisateur ne soit retiré de la zone", 
+		"KER-USR-022": "Le mappage du centre utilisateur doit être supprimé avant de supprimer l'utilisateur de la zone", 
 		"ADMN-BLK-TRNSCTNS-001": "Impossible de récupérer les transactions",
 		"ADMN-BLK-001": "Toute erreur s'est produite lors de l'opération en bloc. Si la catégorie est des données maîtres, les opérations de liste sont répertoriées. Si la catégorie est un paquet, la liste des informations sur les paquets ayant échoué sont répertoriées",
 		"ADM-BLK-001": "Les données n'existent pas dans la base de données",

@@ -788,6 +788,42 @@
             "value": "RESIDENT 3years"
         }]
     },
+    "download-card": {
+        "header": "Download Card",
+        "text": "Please enter a Registration ID to download the digital card",
+        "error": "Invalid Registration ID Entered",
+        "id": "Registration ID",
+        "dob": "Date of Birth",
+        "verifyanddownload": "I have verified the face.",
+        "reject": "The face does not match.",
+        "submit": "Reject",
+        "download": "Download",
+        "searchLimit": "You are left with",
+        "outof": "searches out of",
+        "dailylimit": "from your daily limit",
+        "verify": "Can you confirm if the face verified?",
+        "placeholder":"Registration ID",
+        "errorMessages": {
+            "title": "Error",
+            "message": "RID Not Found",
+            "btnTxt": "Ok"
+        },
+        "popupMessages": {
+            "rejectMessages": {
+                "title": "Success",
+                "message": "You have rejected the verification.",
+                "btnTxt": "Ok"
+            },
+            "noData": {
+                "title": "Error",
+                "message": "No Data Found",
+                "btnTxt": "Ok"
+            }
+        },
+        "statuscheckFailed":"Failed",
+        "statuscheckCompleted":"Completed"
+
+    },
 
     "serverError": {
         "KER-KMS-001": "Certificate is not valid",
