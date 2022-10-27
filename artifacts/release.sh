@@ -65,6 +65,7 @@ echo "folder biosdk client deleted"
 # Download the mock-sdk jar from maven repository and rename to remove the version no:
 
 mvn dependency:get -Ddest=${biosdk_lib_zip_path}/biosdk-lib/ -Dartifact=io.mosip.mock.sdk:mock-sdk:${version}
+mvn dependency:get -Ddest=${biosdk_lib_zip_path}/biosdk-lib/ -Dartifact=io.mosip.mock.sdk:mock-sdk:${version}:jar:jar-with-dependencies
 
 zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-lib/*
 
