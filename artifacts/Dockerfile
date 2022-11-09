@@ -52,10 +52,10 @@ ENV ida_sh_path=${base_path}/libs-release-local/deployment/docker/id-authenticat
 ENV hsm_client_path=${base_path}/libs-release-local/hsm
 
 # environment valiable for sdk jar
-ENV sdk_path=${base_path}/libs-release-local/mock-sdk/1.1.5/
+ENV sdk_path=${base_path}/libs-release-local/mock-sdk/1.2.0/
 
 # environment valiable for sdk jar
-ENV jpeg_sdk_path=${base_path}/libs-release-local/jpeg-mock-sdk/1.1.5/
+ENV jpeg_sdk_path=${base_path}/libs-release-local/jpeg-mock-sdk/1.2.0/
 
 # environment variable for Kernel Jars
 ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
