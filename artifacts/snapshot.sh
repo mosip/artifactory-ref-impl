@@ -28,7 +28,7 @@ echo "Downloaded and renamed idobjectvalidator jar"
 
 # Download the mock-sdk jar from maven repository and rename to remove the version no:
 
-mvn dependency:get -Ddest=${sdk_path}/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk:${version}
+mvn dependency:get -Ddest=${sdk_path}/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.mock.sdk:mock-sdk:1.2.0
 
 cd ${sdk_path} && mv mock-sdk-*.jar mock-sdk.jar
 
