@@ -122,6 +122,8 @@ COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n
 
 COPY /src/master-templates/* ${work_dir}/master-templates/
 
+COPY /src/i18n/idp-i18n-bundle/*  ${work_dir}/idp-i18n-bundle/
+
 #COPY /src/mosipvc/*  ${work_dir}/mosipvc/
 
 RUN zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources  && \
@@ -131,7 +133,8 @@ zip -r -j ${i18n_zip_path}/pmp-entity-spec-bundle.zip ${work_dir}/pmp-entity-spe
 zip -r -j ${i18n_zip_path}/pmp-i18n-bundle.zip ${work_dir}/pmp-i18n-bundle/*  && \
 zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ${work_dir}/pre-registration-i18n-bundle/* && \
 zip -r -j ${i18n_zip_path}/pmp-i18n-bundle.zip ${work_dir}/pmp-i18n-bundle/* && \
-zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templates/*
+zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templates/* && \
+zip -r -j ${i18n_zip_path}/idp-i18n-bundle.zip ${work_dir}/idp-i18n-bundle/*
 #zip -r -j ${mosipvc_zip_path}/mosipvc.zip ${work_dir}/mosipvc/*
 
 COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
