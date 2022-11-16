@@ -30,7 +30,8 @@
     "email": "Email Address",
     "email_verified": "Email Address",
     "phone_number": "Phone Number",
-    "phone_number_verified": "Phone Number"
+    "phone_number_verified": "Phone Number",
+    "required": "REQUIRED"
   },
   "l1Biometrics": {
     "device_not_found_msg": "Device not found!",
@@ -86,7 +87,9 @@
     "Inji": "Inji",
     "Biometrics": "Biometrics",
     "BIO": "Biometrics",
-    "QRCode": "QR Code"
+    "QRCode": "QR Code",
+    "WALLET": "Inji",
+    "OTP": "OTP"
   },
   "idpDetails": {
     "idp_details_heading": "IDP Details",
@@ -94,7 +97,7 @@
     "wellknown_api": ".wellknown API"
   },
   "header": {
-    "login_heading": "Login to your account",
+    "login_heading": "Login with MOSIP",
     "login_paragraph": "Have not registered for MOSIP yet?",
     "login_linkName": "Preregister",
     "more_ways_to_sign_in": "More ways to sign in",

@@ -1,6 +1,9 @@
 {
     "languages": {
-        "en": "English",
-        "hi": "हिंदी"
+        "eng": "English",
+        "hin": "हिंदी",
+        "ara": "عربى",
+        "kan": "ಕನ್ನಡ",
+        "tam": "தமிழ்"
     }
 }

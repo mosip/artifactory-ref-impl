@@ -30,7 +30,8 @@
     "email": "ईमेल पता",
     "email_verified": "ईमेल पता",
     "phone_number": "फ़ोन नंबर",
-    "phone_number_verified": "फ़ोन नंबर"
+    "phone_number_verified": "फ़ोन नंबर",
+    "required": "आवश्यक"
   },
   "l1Biometrics": {
     "device_not_found_msg": "डिवाइस नहीं मिला!",
@@ -86,7 +87,9 @@
     "Inji": "इंजि",
     "Biometrics": "बायोमेट्रिक्स",
     "BIO": "बायोमेट्रिक्स",
-    "QRCode": "क्यू आर कोड"
+    "QRCode": "क्यू आर कोड",
+    "WALLET": "इंजि",
+    "OTP": "ओटीपी"
   },
   "idpDetails": {
     "idp_details_heading": "आईडीपी विवरण",
@@ -94,7 +97,7 @@
     "wellknown_api": ".प्रसिद्ध एपीआई"
   },
   "header": {
-    "login_heading": "अपने अकाउंट में लॉग इन करें",
+    "login_heading": "मोसिप के साथ लॉगिन करें",
     "login_paragraph": "अभी तक एमओएसआईपी के लिए पंजीकरण नहीं किया है?",
     "login_linkName": "पूर्व-पंजीकरण",
     "more_ways_to_sign_in": "साइन इन करने के और तरीके",
