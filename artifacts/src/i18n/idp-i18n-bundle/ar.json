@@ -48,7 +48,8 @@
     "vid_placeholder": "VID",
     "Face": "وجه",
     "Finger": "اصبع اليد",
-    "Iris": "قزحية"
+    "Iris": "قزحية",
+    "select_a_device": "اختر جهازا"
   },
   "pin": {
     "sign_in_with_pin": "تسجيل الدخول باستخدام PIN",
@@ -60,6 +61,23 @@
     "pin_label_text": "PIN",
     "uin_placeholder": "UIN أو VID",
     "pin_placeholder": "أدخل رقم التعريف الشخصي"
+  },
+  "IDPQRCode": {
+    "sign_in_with_inji": "تسجيل الدخول باستخدام Inji",
+    "scan_with_inji": "امسح باستخدام تطبيق Inji لتسجيل الدخول",
+    "inji_app": "تطبيق إنجي",
+    "dont_have_inji": "ليس لديك إنجي؟",
+    "download_now": "التحميل الان",
+    "loading_msg": "جار التحميل. أرجو الإنتظار...",
+    "link_code_refresh_failed": "فشل في التحميل!",
+    "qr_code_expired": "انتهت صلاحية رمز QRCode!",
+    "authorization_failed": "فشل التفويض!",
+    "link_code_status": "حالة رمز الارتباط",
+    "failed": "باءت بالفشل",
+    "failed_to_link": "فشل الارتباط",
+    "link_auth_waiting": "يرجى المصادقة عبر INJI! لا تحديث هذه الصفحة!",
+    "refresh": "قم بتحديث رمز الاستجابة السريعة",
+    "redirecting_msg": "إعادة توجيه. أرجو الإنتظار..."
   },
   "otp": {
     "sign_in_with_otp": "تسجيل الدخول باستخدام OTP",

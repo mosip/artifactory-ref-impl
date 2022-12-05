@@ -48,7 +48,8 @@
     "vid_placeholder": "VID",
     "Face": "Face",
     "Finger": "Finger",
-    "Iris": "Iris"
+    "Iris": "Iris",
+    "select_a_device": "Select a device"
   },
   "pin": {
     "sign_in_with_pin": "Login with PIN",
@@ -60,6 +61,23 @@
     "pin_label_text": "PIN",
     "uin_placeholder": "UIN or VID",
     "pin_placeholder": "Enter PIN"
+  },
+  "IDPQRCode": {
+    "sign_in_with_inji": "Login with Inji",
+    "scan_with_inji": "Scan with Inji app to log in",
+    "inji_app": "Inji App",
+    "dont_have_inji": "Don't have Inji?",
+    "download_now": "Download Now",
+    "loading_msg": "Loading. Please wait...",
+    "link_code_refresh_failed": "Failed to load!",
+    "qr_code_expired": "QRCode expired!",
+    "authorization_failed": "Failed to authorize!",
+    "link_code_status": "Link Code Status",
+    "failed": "Failed",
+    "failed_to_link": "Failed to link",
+    "link_auth_waiting": "Please authenticate via INJI! Do not refresh this page!",
+    "refresh": "Refresh QR Code",
+    "redirecting_msg": "Redirecting. Please wait..."
   },
   "otp": {
     "sign_in_with_otp": "Login with OTP",
