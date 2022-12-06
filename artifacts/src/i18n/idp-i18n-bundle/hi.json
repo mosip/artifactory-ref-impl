@@ -48,7 +48,8 @@
     "vid_placeholder": "वीआईडी",
     "Face": "चेहरा",
     "Finger": "उँगलिया",
-    "Iris": "आँख"
+    "Iris": "आँख",
+    "select_a_device": "कोई डिवाइस चुनें"
   },
   "pin": {
     "sign_in_with_pin": "पिन से लॉगिन करें",
@@ -60,6 +61,23 @@
     "pin_label_text": "पिन",
     "uin_placeholder": "यूआईएन या वीआईडी",
     "pin_placeholder": "पिन दर्ज करें"
+  },
+  "IDPQRCode": {
+    "sign_in_with_inji": "इंजी के साथ लॉगिन करें",
+    "scan_with_inji": "लॉग इन करने के लिए इंजी ऐप से स्कैन करें",
+    "inji_app": "इंजी ऐप",
+    "dont_have_inji": "इंजन नहीं है?",
+    "download_now": "अब डाउनलोड करो",
+    "loading_msg": "लोड हो रहा है। कृपया प्रतीक्षा करें...",
+    "link_code_refresh_failed": "लोड करने में विफल!",
+    "qr_code_expired": "क्यूआरकोड समाप्त हो गया!",
+    "authorization_failed": "प्राधिकृत करने में विफल!",
+    "link_code_status": "लिंक कोड स्थिति",
+    "failed": "असफल",
+    "failed_to_link": "लिंक करने में विफल रहा",
+    "link_auth_waiting": "कृपया INJI के माध्यम से प्रमाणित करें! इस पृष्ठ को रीफ्रेश न करें!",
+    "refresh": "क्यूआर कोड को रिफ्रेश करें",
+    "redirecting_msg": "पुनर्निर्देशन। कृपया प्रतीक्षा करें..."
   },
   "otp": {
     "sign_in_with_otp": "ओटीपी के साथ लॉगिन करें",

@@ -48,7 +48,8 @@
     "vid_placeholder": "ವಿಐಡಿ",
     "Face": "ಮುಖ",
     "Finger": "ಬೆರಳು",
-    "Iris": "ಐರಿಸ್"
+    "Iris": "ಐರಿಸ್",
+    "select_a_device": "ಸಾಧನವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
   },
   "pin": {
     "sign_in_with_pin": "PIN ನೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
@@ -60,6 +61,23 @@
     "pin_label_text": "ಪಿನ್",
     "uin_placeholder": "ಯುಐಎನ್ ಅಥವಾ ಪಿನ್",
     "pin_placeholder": "ಪಿನ್ ನಮೂದಿಸಿ"
+  },
+  "IDPQRCode": {
+    "sign_in_with_inji": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
+    "scan_with_inji": "ಲಾಗ್ ಇನ್ ಮಾಡಲು ಇಂಜಿ ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+    "inji_app": "ಇಂಜಿ ಅಪ್ಲಿಕೇಶನ್",
+    "dont_have_inji": "ಇಂಜಿ ಇಲ್ಲವೇ?",
+    "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "loading_msg": "ಲೋಡ್ ಆಗುತ್ತಿದೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...",
+    "link_code_refresh_failed": "ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ!",
+    "qr_code_expired": "QRCode ಅವಧಿ ಮೀರಿದೆ",
+    "authorization_failed": "ದೃಢೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ!",
+    "link_code_status": "ಲಿಂಕ್ ಕೋಡ್ ಸ್ಥಿತಿ",
+    "failed": "ವಿಫಲವಾಗಿದೆ",
+    "failed_to_link": "ಲಿಂಕ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+    "link_auth_waiting": "ದಯವಿಟ್ಟು INJI ಮೂಲಕ ದೃಢೀಕರಿಸಿ! ಈ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಬೇಡಿ!",
+    "refresh": "QR ಕೋಡ್ ಅನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ",
+    "redirecting_msg": "ಮರುನಿರ್ದೇಶಿಸಲಾಗುತ್ತಿದೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ..."
   },
   "otp": {
     "sign_in_with_otp": "ಒಟಿಪಿ ಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",

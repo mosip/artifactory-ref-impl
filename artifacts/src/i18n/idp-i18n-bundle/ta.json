@@ -48,7 +48,8 @@
     "vid_placeholder": "விஐடி",
     "Face": "முகம்",
     "Finger": "விரல்",
-    "Iris": "கருவிழி"
+    "Iris": "கருவிழி",
+    "select_a_device": "ஒரு சாதனத்தைத் தேர்ந்தெடுக்கவும்"
   },
   "pin": {
     "sign_in_with_pin": "பின் மூலம் உள்நுழையவும்",
@@ -60,6 +61,23 @@
     "pin_label_text": "பின்",
     "uin_placeholder": "யுஐஎன் அல்லது பின்",
     "pin_placeholder": "பின்னை உள்ளிடவும்"
+  },
+  "IDPQRCode": {
+    "sign_in_with_inji": "இன்ஜியுடன் உள்நுழைக",
+    "scan_with_inji": "உள்நுழைய இன்ஜி ஆப் மூலம் ஸ்கேன் செய்யவும்",
+    "inji_app": "இன்ஜி ஆப்",
+    "dont_have_inji": "இஞ்சி இல்லையா?",
+    "download_now": "இப்போது பதிவிறக்கவும்",
+    "loading_msg": "ஏற்றுகிறது. தயவுசெய்து காத்திருங்கள்...",
+    "link_code_refresh_failed": "ஏற்றுவதில் தோல்வி!",
+    "qr_code_expired": "QR குறியீடு காலாவதியானது",
+    "authorization_failed": "அங்கீகரிக்க முடியவில்லை!",
+    "link_code_status": "இணைப்பு குறியீடு நிலை",
+    "failed": "தோல்வி",
+    "failed_to_link": "இணைப்பதில் தோல்வி",
+    "link_auth_waiting": "INJI மூலம் அங்கீகரிக்கவும்! இந்தப் பக்கத்தைப் புதுப்பிக்க வேண்டாம்!",
+    "refresh": "QR குறியீட்டைப் புதுப்பிக்கவும்",
+    "redirecting_msg": "திசைதிருப்புதல். தயவுசெய்து காத்திருங்கள்..."
   },
   "otp": {
     "sign_in_with_otp": "OTP மூலம் உள்நுழையவும்",
