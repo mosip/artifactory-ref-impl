@@ -94,10 +94,6 @@ ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${prversion}/kernel-auth-adapter-${prversion}.jar
 #ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${sversion}/kernel-auth-adapter-1.2.0.1-20220920.044110-25.jar
 
-# environment variable for maven central latest develop auth adapter. In case released uncomment this and comment out below duplicate one.
-#ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${prversion}/kernel-auth-adapter-${prversion}.jar
-ENV auth_adapter_jar_develop_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.2.1-SNAPSHOT/kernel-auth-adapter-1.2.1-20221206.073215-31.jar
-
 # environment variable for biosdk client jar URL
 ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${prversion}/biosdk-client-${prversion}-jar-with-dependencies.jar
 #ENV biosdk_client_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/biosdk/biosdk-client/1.2.0.1-SNAPSHOT/biosdk-client-1.2.0.1-20220719.030153-21-jar-with-dependencies.jar
@@ -136,7 +132,7 @@ ENV child_auth_filter_jar_url=${release_maven_path}/authentication/authenticatio
 #ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/${sversion}/authentication-childauthfilter-impl-1.2.0.1-20220718.062704-9.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${kernel_jar_path}/develop ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib ${base_path}/libs-release-local/reg-client ${master_template_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib ${base_path}/libs-release-local/reg-client ${master_template_path}
 
 # Copy all the respective jars to the location
 
@@ -188,12 +184,6 @@ COPY /src/icu4j/* ${icu4j_jar_path}/
 # Download required respective all the jars and create biosdk zip
 
 RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
-
-echo "Downloaded auth adapter jar" &&\
-
-# Download required respective all the jars and create biosdk zip
-
-RUN wget ${auth_adapter_jar_develop_url_env} -O ${kernel_jar_path}/develop/kernel-auth-adapter.jar  &&\
 
 echo "Downloaded auth adapter jar" &&\
 
