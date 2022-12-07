@@ -193,7 +193,7 @@ echo "Downloaded auth adapter jar" &&\
 
 # Download required respective all the jars and create biosdk zip
 
-RUN wget ${auth_adapter_jar_develop_url_env} -O ${kernel_jar_path}/develop/kernel-auth-adapter.jar  &&\
+wget ${auth_adapter_jar_develop_url_env} -O ${kernel_jar_path}/develop/kernel-auth-adapter.jar  &&\
 
 echo "Downloaded auth adapter jar" &&\
 
