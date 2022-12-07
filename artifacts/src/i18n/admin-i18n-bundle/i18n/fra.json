@@ -494,11 +494,6 @@
             "title": "La charge utile de la requête est trop volumineuse",
             "message": "La taille de la charge utile dépasse la limite de taille. Veuillez vérifier la taille de la charge utile.",
             "btnTxt": "D'accord"
-        },
-        "servicedown": {
-            "title": "Service temporairement indisponible",
-            "message": "Le service n'est pas prêt à traiter la demande. Veuillez essayer après un certain temps.",
-            "btnTxt": "D'accord"
         }
 	},
 	"validationMessages": {
@@ -1521,7 +1516,7 @@
 		"KER-MSD-337": "Une erreur s'est produite lors de la récupération de la zone",
 		"KER-MSD-339": "Aucune zone trouvée pour l'utilisateur connecté %s",
 		"KER-MSD-338": "Une erreur s'est produite lors de la récupération de la zone de l'utilisateur",
-		"KER-MSD-391": "Mappage de zone manquant. Veuillez contacter l'administrateur.",
+		"KER-MSD-391": "Entité pour l'ID utilisateur spécifié introuvable",
 		"KER-MSD-392": "Entité pour le code de zone de l'ID utilisateur spécifié introuvable",
 		"ADM-PKT-001": "L'administrateur n'est pas autorisé",
 		"KER-MSD-393": "Erreur du serveur interne",
@@ -1531,6 +1526,7 @@
 		"KER-USR-017": "Mappage de zone et d'utilisateur non présent dans la base de données",
 		"KER-USR-018": "demande en double",
 		"KER-USR-021": "L'utilisateur donné déjà mappé avec une zone différente",
+		"KER-USR-022": "Le mappage du centre utilisateur doit être supprimé avant que l'utilisateur ne soit retiré de la zone", 
 		"ADMN-BLK-TRNSCTNS-001": "Impossible de récupérer les transactions",
 		"ADMN-BLK-001": "Toute erreur s'est produite lors de l'opération en bloc. Si la catégorie est des données maîtres, les opérations de liste sont répertoriées. Si la catégorie est un paquet, la liste des informations sur les paquets ayant échoué sont répertoriées",
 		"ADM-BLK-001": "Les données n'existent pas dans la base de données",
@@ -1664,7 +1660,15 @@
 		"RPR-UIN-FAILED-008": "UIN introuvable pour le RID correspondant",
 		"RPR-SEN-SUCCESS-001": "Notification reçue à securezone",
 		"RPR-RGS-034" : "la recherche entre les dates doit être inférieure à 30 jours",
-		"KER-MSD-394" : "Votre mappage de zone est manquant. Veuillez contacter l'administrateur."
-
+		"KER-MSD-394" : "Votre mappage de zone est manquant. Veuillez contacter l'administrateur.",
+		"ADM-AVD-001" : "Une erreur technique s'est produite lors de la récupération des données, veuillez réessayer après un certain temps.",
+        "ADM-AVD-002" : "Le RID est invalide",
+        "ADM-AVD-003" : "La carte pour cet ID de demande n'est pas générée. Veuillez vérifier l'état de l'ID.",
+        "ADM-AVD-004" : "Photo du demandeur introuvable",
+        "ADM-AVD-005" : "Carte numérique introuvable pour le RID, veuillez réessayer après quelques jours",
+        "ADM-AVD-006" : "Veuillez prendre connaissance des détails avant de télécharger la carte numérique",
+        "ADM-AVD-007" : "Identifiant de la requête introuvable",
+        "ADM-AVD-008" : "Votre limite de recherche quotidienne a été dépassée. Veuillez réessayer demain.",
+        "ADM-AVD-009" : "L'utilisation du partage de données a expiré"
 	}
 }

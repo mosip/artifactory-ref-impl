@@ -472,11 +472,6 @@
             "title": "Request payload is too large",
             "message": "Payload size exceeds the size limit. Kindly check the payload size.",
             "btnTxt": "Ok"
-        },
-        "servicedown": {
-            "title": "Service Temporarily Unavailable",
-            "message": "Service is not ready to handle the request. Kindly try after sometime.",
-            "btnTxt": "Ok"
         }
     },
     "validationMessages": {
@@ -1252,7 +1247,7 @@
         "KER-MSD-337": "Error occured while fetching zone",
         "KER-MSD-339": "No zone found for the logged-in user %s",
         "KER-MSD-338": "Error Occured while fetching zone of the user",
-        "KER-MSD-391": "Zone mapping missing. Please contact the administrator.",
+        "KER-MSD-391": "Entity for user ID specified Not Found",
         "KER-MSD-392": "Entity for Zone Code of user ID specified Not Found",
         "ADM-PKT-001": "Admin is not authorized",
         "KER-MSD-393": "Internal Server Error",
@@ -1262,6 +1257,7 @@
         "KER-USR-017": "Zone & User mapping  not present in db",
         "KER-USR-018": "duplicate request",
         "KER-USR-021": "The given user already mapped with different zone",
+        "KER-USR-022": "The user center mapping must be deleted before deleting the user from the zone",
         "ADMN-BLK-TRNSCTNS-001": "Unable ro retrieve the transactions",
         "ADMN-BLK-001": "Any error occured during the bulk operation. If the category is masterdata, list operations are listed. If the category is packet, list of failed packet informations are listed",
         "ADM-BLK-001": "Data is not exist in db",
@@ -1395,6 +1391,15 @@
         "RPR-UIN-FAILED-008": "UIN Not Found for the Matched RID",
         "RPR-SEN-SUCCESS-001": "Notification received to securezone",
         "RPR-RGS-034" : "searching between date should be less then 30 days",
-        "KER-MSD-394" : "Your zone mapping missing. Please contact the administrator."
+        "KER-MSD-394" : "Your zone mapping missing. Please contact the administrator.",
+        "ADM-AVD-001" : "A technical error occurred while retrieving the data, please try again after some time.",
+        "ADM-AVD-002" : "RID is invalid",
+        "ADM-AVD-003" : "The card for this request ID is not generated. Please check the status of the ID.",
+        "ADM-AVD-004" : "Applicant Photo Not Found",
+        "ADM-AVD-005" : "Digital card not found for the RID, please try after few days",
+        "ADM-AVD-006" : "Please acknowledge the details before downloading digital card",
+        "ADM-AVD-007" : "Request id not found",
+        "ADM-AVD-008" : "Your daily search limit has exceeded. Please try searching again tomorrow.",
+        "ADM-AVD-009" : "Data share usuage expired"
     }
 }
