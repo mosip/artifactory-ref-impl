@@ -181,6 +181,16 @@
     "invalid_auth_factor_type": "نوع عامل المصادقة الفارغ أو الفارغ غير مسموح به.",
     "invalid_challenge": "مطلوب تحدي المصادقة.",
     "invalid_status": "تم تقديم قيمة حالة غير مدعومة.",
-    "invalid_accepted_claim": "تم قبول مطالبات المستخدم غير الصالحة!"
+    "invalid_accepted_claim": "تم قبول مطالبات المستخدم غير الصالحة!",
+    "invalid_auth_code": "تم تقديم رمز تفويض غير صالح.",
+    "auth_factor_mismatch": "لا تتطابق عوامل المصادقة المقدمة مع عوامل المصادقة التي تم حلها.",
+    "unsupported_id_format": "تنسيق المعرف غير مدعوم.",
+    "link_code_gen_failed": "فشل إنشاء رمز الارتباط. حاول مرة أخرى.",
+    "invalid_link_code": "كود الارتباط غير صالح.",
+    "transaction_not_found": "لم يتم العثور على الصفقة.",
+    "transaction_already_linked": "الصفقة مرتبطة بالفعل.",
+    "subscription_failed": "فشل الاشتراك في موضوع كفى.",
+    "response_timeout": "انتهت مهلة الرد المؤجل.",
+    "invalid_state": "وجدت المعاملة في حالة غير صالحة."
   }
 }
