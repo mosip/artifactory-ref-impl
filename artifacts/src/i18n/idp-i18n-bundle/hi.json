@@ -29,6 +29,7 @@
     "address": "पता",
     "email": "ईमेल पता",
     "email_verified": "ईमेल पता",
+    "phone": "फ़ोन",
     "phone_number": "फ़ोन नंबर",
     "phone_number_verified": "फ़ोन नंबर",
     "required": "आवश्यक"

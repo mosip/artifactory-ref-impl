@@ -29,6 +29,7 @@
     "address": "முகவரி",
     "email": "மின்னஞ்சல் முகவரி",
     "email_verified": "மின்னஞ்சல் முகவரி",
+    "phone": "தொலைபேசி",
     "phone_number": "தொலைபேசி எண்",
     "phone_number_verified": "தொலைபேசி எண்",
     "required": "தேவை"
