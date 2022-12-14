@@ -1,11 +1,11 @@
 {
   "authorize": {
-    "parsing_error_msg": "غير قادر على تحليل!",
+    "parsing_error_msg": "غير قادر على تحليل",
     "loading_msg": "جار التحميل. أرجو الإنتظار..."
   },
   "consent": {
-    "authorization_failed_msg": "فشل التفويض!",
-    "consent_request_rejected": "تم رفض طلب الموافقة!",
+    "authorization_failed_msg": "فشل التفويض",
+    "consent_request_rejected": "تم رفض طلب الموافقة",
     "consent_request_msg": "يطلب {{clientName}} الوصول إلى ما يلي:",
     "authorize_scope": "تفويض النطاقات",
     "essential_claims": "الادعاءات الأساسية",
@@ -35,7 +35,7 @@
     "required": "مطلوب"
   },
   "l1Biometrics": {
-    "device_not_found_msg": "لم يتم العثور علي الجهاز!",
+    "device_not_found_msg": "لم يتم العثور علي الجهاز",
     "capture_initiated_msg": "تم بدء الالتقاط {{modality}} في {{deviceModel}}",
     "biometric_capture_failed_msg": "فشل التقاط القياسات الحيوية:",
     "scanning_devices_msg": "أجهزة المسح. أرجو الإنتظار...",
@@ -44,7 +44,7 @@
     "authenticating_msg": "المصادقة. أرجو الإنتظار...",
     "scan_and_verify": "المسح والتحقق",
     "sign_in_with_biometric": "تسجيل الدخول باستخدام البيومترية",
-    "retry": "أعد المحاولة!",
+    "retry": "أعد المحاولة",
     "vid_label_text": "أدخل VID الخاص بك",
     "vid_placeholder": "VID",
     "Face": "وجه",
@@ -70,13 +70,13 @@
     "dont_have_inji": "ليس لديك إنجي؟",
     "download_now": "التحميل الان",
     "loading_msg": "جار التحميل. أرجو الإنتظار...",
-    "link_code_refresh_failed": "فشل في التحميل!",
-    "qr_code_expired": "انتهت صلاحية رمز QRCode!",
-    "authorization_failed": "فشل التفويض!",
+    "link_code_refresh_failed": "فشل في التحميل",
+    "qr_code_expired": "انتهت صلاحية رمز QRCode",
+    "authorization_failed": "فشل التفويض",
     "link_code_status": "حالة رمز الارتباط",
     "failed": "باءت بالفشل",
     "failed_to_link": "فشل الارتباط",
-    "link_auth_waiting": "يرجى المصادقة عبر INJI! لا تحديث هذه الصفحة!",
+    "link_auth_waiting": "يرجى المصادقة عبر INJI. لا تحديث هذه الصفحة",
     "refresh": "قم بتحديث رمز الاستجابة السريعة",
     "redirecting_msg": "إعادة توجيه. أرجو الإنتظار..."
   },
@@ -93,7 +93,7 @@
     "otp_label_text": "OTP",
     "vid_placeholder": "VID",
     "otp_placeholder": "1234",
-    "send_otp_failed": "فشل في إرسال OTP!",
+    "send_otp_failed": "فشل في إرسال OTP",
     "mobile_number": "رقم الجوال: {{mobileNumber}}",
     "email_address": "عنوان البريد الإلكتروني: {{emailAddress}}",
     "otp_sent_msg": "تم إرسال OTP إلى حسابك المسجل في {{otpChannels}}",
@@ -121,9 +121,11 @@
     "login_paragraph": "لم تسجل في MOSIP حتى الآن؟",
     "login_linkName": "التسجيل المسبق",
     "more_ways_to_sign_in": "المزيد من الطرق لتسجيل الدخول",
-    "invalid_auth_factor": "عوامل المصادقة غير صالحة! حاول مرة اخرى...",
+    "invalid_auth_factor": "عوامل المصادقة غير صالحة. حاول مرة اخرى...",
     "here_tab_name": "تسجيل الدخول هنا",
-    "inji_tab_name": "تسجيل الدخول باستخدام Inji"
+    "inji_tab_name": "تسجيل الدخول باستخدام Inji",
+    "dont_have_inji": "ليس لديك إنجي؟",
+    "download_now": "التحميل الان"
   },
   "tabs": {
     "pin_tab_name": "قم بتسجيل الدخول باستخدام PIN",
@@ -173,7 +175,7 @@
     "invalid_public_key": "مفتاح العميل العمومي غير صالح",
     "send_otp_failed": "فشل send-otp. معرف فردي غير صالح / غير معروف.",
     "missing_header": "العنوان غير موجود برمز الحامل المميز في الطلب: التفويض.",
-    "invalid_permitted_scope": "نطاق تفويض غير صالح مسموح به!",
+    "invalid_permitted_scope": "نطاق تفويض غير صالح مسموح به",
     "invalid_identifier": "تم تقديم معرّف فردي غير صالح.",
     "invalid_otp_channel": "تم توفير قناة OTP غير صالحة.",
     "invalid_no_of_challenges": "اختبارات المصادقة الفارغة أو الفارغة غير مسموح بها.",
@@ -181,7 +183,7 @@
     "invalid_auth_factor_type": "نوع عامل المصادقة الفارغ أو الفارغ غير مسموح به.",
     "invalid_challenge": "مطلوب تحدي المصادقة.",
     "invalid_status": "تم تقديم قيمة حالة غير مدعومة.",
-    "invalid_accepted_claim": "تم قبول مطالبات المستخدم غير الصالحة!",
+    "invalid_accepted_claim": "تم قبول مطالبات المستخدم غير الصالحة",
     "invalid_auth_code": "تم تقديم رمز تفويض غير صالح.",
     "auth_factor_mismatch": "لا تتطابق عوامل المصادقة المقدمة مع عوامل المصادقة التي تم حلها.",
     "unsupported_id_format": "تنسيق المعرف غير مدعوم.",

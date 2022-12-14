@@ -1,11 +1,11 @@
 {
   "authorize": {
-    "parsing_error_msg": "पदव्याख्या करने में असमर्थ!",
+    "parsing_error_msg": "पदव्याख्या करने में असमर्थ",
     "loading_msg": "लोड हो रहा है। कृपया प्रतीक्षा करें..."
   },
   "consent": {
-    "authorization_failed_msg": "प्रमाणीकरण विफल!",
-    "consent_request_rejected": "सहमति अनुरोध अस्वीकृत!",
+    "authorization_failed_msg": "प्रमाणीकरण विफल",
+    "consent_request_rejected": "सहमति अनुरोध अस्वीकृत",
     "consent_request_msg": "{{clientName}} निम्नलिखित तक पहुंच का अनुरोध कर रहा है:",
     "authorize_scope": "दायरे को अधिकृत करें",
     "essential_claims": "आवश्यक दावे",
@@ -35,7 +35,7 @@
     "required": "आवश्यक"
   },
   "l1Biometrics": {
-    "device_not_found_msg": "डिवाइस नहीं मिला!",
+    "device_not_found_msg": "डिवाइस नहीं मिला",
     "capture_initiated_msg": "{{deviceModel}} पर {{modality}} कैप्चर शुरू किया गया",
     "biometric_capture_failed_msg": "बायोमेट्रिक कैप्चर विफल: ",
     "scanning_devices_msg": "स्कैनिंग डिवाइस। कृपया प्रतीक्षा करें...",
@@ -44,7 +44,7 @@
     "authenticating_msg": "प्रमाणीकरण। कृपया प्रतीक्षा करें...",
     "scan_and_verify": "स्कैन करें और सत्यापित करें",
     "sign_in_with_biometric": "बायोमेट्रिक के साथ लॉगिन करें",
-    "retry": "पुन: प्रयास करें!",
+    "retry": "पुन: प्रयास करें",
     "vid_label_text": "अपना वीआईडी ​​दर्ज करें",
     "vid_placeholder": "वीआईडी",
     "Face": "चेहरा",
@@ -70,13 +70,13 @@
     "dont_have_inji": "इंजन नहीं है?",
     "download_now": "अब डाउनलोड करो",
     "loading_msg": "लोड हो रहा है। कृपया प्रतीक्षा करें...",
-    "link_code_refresh_failed": "लोड करने में विफल!",
-    "qr_code_expired": "क्यूआरकोड समाप्त हो गया!",
-    "authorization_failed": "प्राधिकृत करने में विफल!",
+    "link_code_refresh_failed": "लोड करने में विफल",
+    "qr_code_expired": "क्यूआरकोड समाप्त हो गया",
+    "authorization_failed": "प्राधिकृत करने में विफल",
     "link_code_status": "लिंक कोड स्थिति",
     "failed": "असफल",
     "failed_to_link": "लिंक करने में विफल रहा",
-    "link_auth_waiting": "कृपया INJI के माध्यम से प्रमाणित करें! इस पृष्ठ को रीफ्रेश न करें!",
+    "link_auth_waiting": "कृपया INJI के माध्यम से प्रमाणित करें. इस पृष्ठ को रीफ्रेश न करें",
     "refresh": "क्यूआर कोड को रिफ्रेश करें",
     "redirecting_msg": "पुनर्निर्देशन। कृपया प्रतीक्षा करें..."
   },
@@ -93,7 +93,7 @@
     "otp_label_text": "ओटीपी",
     "vid_placeholder": "वीआईडी",
     "otp_placeholder": "1234",
-    "send_otp_failed": "ओटीपी भेजने में विफल!",
+    "send_otp_failed": "ओटीपी भेजने में विफल",
     "mobile_number": "मोबाइल नंबर: {{mobileNumber}}",
     "email_address": "ईमेल पता: {{emailAddress}}",
     "otp_sent_msg": "आपके पंजीकृत {{otpChannels}} पर ओटीपी भेज दिया गया है",
@@ -121,9 +121,11 @@
     "login_paragraph": "अभी तक एमओएसआईपी के लिए पंजीकरण नहीं किया है?",
     "login_linkName": "पूर्व-पंजीकरण",
     "more_ways_to_sign_in": "साइन इन करने के और तरीके",
-    "invalid_auth_factor": "अमान्य प्रमाणीकरण कारक! कृपया पुन: प्रयास करें...",
+    "invalid_auth_factor": "अमान्य प्रमाणीकरण कारक. कृपया पुन: प्रयास करें...",
     "here_tab_name": "यहां लॉगिन करें",
-    "inji_tab_name": "इंजी के साथ लॉग इन करें"
+    "inji_tab_name": "इंजी के साथ लॉग इन करें",
+    "dont_have_inji": "इंजी नहीं है?",
+    "download_now": "अभी डाउनलोड करो"
   },
   "tabs": {
     "pin_tab_name": "पिन से साइन इन करें",
@@ -173,7 +175,7 @@
     "invalid_public_key": "अमान्य क्लाइंट सार्वजनिक कुंजी",
     "send_otp_failed": "भेजें-ओटीपी विफल। अमान्य/अज्ञात व्यक्तिगत आईडी।",
     "missing_header": "अनुरोध में बियरर टोकन के साथ हेडर मौजूद नहीं है: प्राधिकरण।",
-    "invalid_permitted_scope": "अमान्य प्राधिकृत कार्यक्षेत्र की अनुमति!",
+    "invalid_permitted_scope": "अमान्य प्राधिकृत कार्यक्षेत्र की अनुमति",
     "invalid_identifier": "अमान्य व्यक्तिगत पहचानकर्ता प्रदान किया गया।",
     "invalid_otp_channel": "अमान्य OTP चैनल प्रदान किया गया।",
     "invalid_no_of_challenges": "अशक्त या खाली प्रमाणीकरण चुनौतियों की अनुमति नहीं है।",
@@ -181,7 +183,7 @@
     "invalid_auth_factor_type": "शून्य या खाली प्रमाणीकरण कारक प्रकार की अनुमति नहीं है।",
     "invalid_challenge": "प्रमाणीकरण चुनौती की आवश्यकता है।",
     "invalid_status": "असमर्थित स्थिति मान प्रदान किया गया।",
-    "invalid_accepted_claim": "अमान्य उपयोगकर्ता दावे स्वीकार किए गए!",
+    "invalid_accepted_claim": "अमान्य उपयोगकर्ता दावे स्वीकार किए गए",
     "invalid_auth_code": "अमान्य प्राधिकरण कोड प्रदान किया गया।",
     "auth_factor_mismatch": "बशर्ते प्रमाणीकरण कारक हल किए गए प्रमाणीकरण कारकों से मेल नहीं खाते।",
     "unsupported_id_format": "असमर्थित आईडी प्रारूप।",

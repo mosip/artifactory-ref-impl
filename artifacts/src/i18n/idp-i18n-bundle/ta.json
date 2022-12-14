@@ -1,11 +1,11 @@
 {
   "authorize": {
-    "parsing_error_msg": "அலச முடியவில்லை!",
+    "parsing_error_msg": "அலச முடியவில்லை",
     "loading_msg": "ஏற்றுகிறது. தயவுசெய்து காத்திருங்கள்..."
   },
   "consent": {
-    "authorization_failed_msg": "அங்கீகாரம் தோல்வி!",
-    "consent_request_rejected": "ஒப்புதல் கோரிக்கை நிராகரிக்கப்பட்டது!",
+    "authorization_failed_msg": "அங்கீகாரம் தோல்வி",
+    "consent_request_rejected": "ஒப்புதல் கோரிக்கை நிராகரிக்கப்பட்டது",
     "consent_request_msg": "{{clientName}} பின்வரும் அணுகலைக் கோருகிறார்:",
     "authorize_scope": "நோக்கங்களை அங்கீகரிக்கவும்",
     "essential_claims": "அத்தியாவசிய உரிமைகோரல்கள்",
@@ -35,7 +35,7 @@
     "required": "தேவை"
   },
   "l1Biometrics": {
-    "device_not_found_msg": "சாதனம் கிடைக்கவில்லை!",
+    "device_not_found_msg": "சாதனம் கிடைக்கவில்லை",
     "capture_initiated_msg": "{{modality}} பிடிப்பு {{deviceModel}} இல் தொடங்கப்பட்டது",
     "biometric_capture_failed_msg": "பயோமெட்ரிக் பதிவு தோல்வி:",
     "scanning_devices_msg": "ஸ்கேனிங் சாதனங்கள். தயவுசெய்து காத்திருங்கள்...",
@@ -44,7 +44,7 @@
     "authenticating_msg": "அங்கீகரிக்கிறது. தயவுசெய்து காத்திருங்கள்...",
     "scan_and_verify": "ஸ்கேன் செய்து சரிபார்க்கவும்",
     "sign_in_with_biometric": "பயோமெட்ரிக் மூலம் உள்நுழைக",
-    "retry": "மீண்டும் முயற்சிக்கவும்!",
+    "retry": "மீண்டும் முயற்சிக்கவும்",
     "vid_label_text": "உங்கள் VID ஐ உள்ளிடவும்",
     "vid_placeholder": "விஐடி",
     "Face": "முகம்",
@@ -70,13 +70,13 @@
     "dont_have_inji": "இஞ்சி இல்லையா?",
     "download_now": "இப்போது பதிவிறக்கவும்",
     "loading_msg": "ஏற்றுகிறது. தயவுசெய்து காத்திருங்கள்...",
-    "link_code_refresh_failed": "ஏற்றுவதில் தோல்வி!",
+    "link_code_refresh_failed": "ஏற்றுவதில் தோல்வி",
     "qr_code_expired": "QR குறியீடு காலாவதியானது",
-    "authorization_failed": "அங்கீகரிக்க முடியவில்லை!",
+    "authorization_failed": "அங்கீகரிக்க முடியவில்லை",
     "link_code_status": "இணைப்பு குறியீடு நிலை",
     "failed": "தோல்வி",
     "failed_to_link": "இணைப்பதில் தோல்வி",
-    "link_auth_waiting": "INJI மூலம் அங்கீகரிக்கவும்! இந்தப் பக்கத்தைப் புதுப்பிக்க வேண்டாம்!",
+    "link_auth_waiting": "INJI மூலம் அங்கீகரிக்கவும் இந்தப் பக்கத்தைப் புதுப்பிக்க வேண்டாம்",
     "refresh": "QR குறியீட்டைப் புதுப்பிக்கவும்",
     "redirecting_msg": "திசைதிருப்புதல். தயவுசெய்து காத்திருங்கள்..."
   },
@@ -93,7 +93,7 @@
     "otp_label_text": "OTP",
     "vid_placeholder": "விஐடி",
     "otp_placeholder": "1234",
-    "send_otp_failed": "OTP ஐ அனுப்ப முடியவில்லை!",
+    "send_otp_failed": "OTP ஐ அனுப்ப முடியவில்லை",
     "mobile_number": "மொபைல் எண்: {{mobileNumber}}",
     "email_address": "மின்னஞ்சல் முகவரி: {{emailAddress}}",
     "otp_sent_msg": "நீங்கள் பதிவு செய்த {{otpChannels}}க்கு OTP அனுப்பப்பட்டது",
@@ -121,9 +121,11 @@
     "login_paragraph": "MOSIP க்கு இன்னும் பதிவு செய்யவில்லையா?",
     "login_linkName": "முன்பதிவு",
     "more_ways_to_sign_in": "உள்நுழைவதற்கான கூடுதல் வழிகள்",
-    "invalid_auth_factor": "தவறான அங்கீகார காரணிகள்! தயவுசெய்து மீண்டும் முயற்சி செய்க...",
+    "invalid_auth_factor": "தவறான அங்கீகார காரணிகள் தயவுசெய்து மீண்டும் முயற்சி செய்க...",
     "here_tab_name": "இங்கே உள்நுழைக",
-    "inji_tab_name": "Inji உடன் உள்நுழைக"
+    "inji_tab_name": "Inji உடன் உள்நுழைக",
+    "dont_have_inji": "இன்ஜி இல்லையா?",
+    "download_now": "இப்போது பதிவிறக்கவும்"
   },
   "tabs": {
     "pin_tab_name": "பின் மூலம் உள்நுழையவும்",
@@ -173,7 +175,7 @@
     "invalid_public_key": "தவறான கிளையன்ட் பொது விசை",
     "send_otp_failed": "send-otp தோல்வியடைந்தது. தவறான/தெரியாத தனிநபர் ஐடி.",
     "missing_header": "கோரிக்கையில் தாங்கி டோக்கனுடன் தலைப்பு விடுபட்டது : அங்கீகாரம்.",
-    "invalid_permitted_scope": "செல்லாத அங்கீகார நோக்கம் அனுமதிக்கப்பட்டது!",
+    "invalid_permitted_scope": "செல்லாத அங்கீகார நோக்கம் அனுமதிக்கப்பட்டது",
     "invalid_identifier": "தவறான தனிப்பட்ட அடையாளங்காட்டி வழங்கப்பட்டது.",
     "invalid_otp_channel": "தவறான OTP சேனல் வழங்கப்பட்டது.",
     "invalid_no_of_challenges": "பூஜ்ய அல்லது வெற்று அங்கீகார சவால்கள் அனுமதிக்கப்படாது.",
@@ -181,7 +183,7 @@
     "invalid_auth_factor_type": "பூஜ்ய அல்லது வெற்று அங்கீகார காரணி வகை அனுமதிக்கப்படவில்லை.",
     "invalid_challenge": "அங்கீகார சவால் தேவை.",
     "invalid_status": "ஆதரிக்கப்படாத நிலை மதிப்பு வழங்கப்பட்டது.",
-    "invalid_accepted_claim": "தவறான பயனர் உரிமைகோரல்கள் ஏற்கப்பட்டன!",
+    "invalid_accepted_claim": "தவறான பயனர் உரிமைகோரல்கள் ஏற்கப்பட்டன",
     "invalid_auth_code": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಕೋಡ್ ಒದಗಿಸಲಾಗಿದೆ.",
     "auth_factor_mismatch": "ಒದಗಿಸಿದ ದೃಢೀಕರಣ ಅಂಶಗಳು ಪರಿಹರಿಸಿದ ದೃಢೀಕರಣ ಅಂಶಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ.",
     "unsupported_id_format": "ಬೆಂಬಲಿತವಲ್ಲದ ID ಫಾರ್ಮ್ಯಾಟ್.",
