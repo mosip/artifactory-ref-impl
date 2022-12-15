@@ -1,11 +1,11 @@
 {
   "authorize": {
-    "parsing_error_msg": "ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ!",
+    "parsing_error_msg": "ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
     "loading_msg": "ಲೋಡ್ ಆಗುತ್ತಿದೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ..."
   },
   "consent": {
-    "authorization_failed_msg": "ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ!",
-    "consent_request_rejected": "ಸಮ್ಮತಿ ವಿನಂತಿಯನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ!",
+    "authorization_failed_msg": "ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ",
+    "consent_request_rejected": "ಸಮ್ಮತಿ ವಿನಂತಿಯನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ",
     "consent_request_msg": "{{clientName}} ಅವರು ಈ ಕೆಳಗಿನವುಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ವಿನಂತಿಸುತ್ತಿದ್ದಾರೆ:",
     "authorize_scope": "ವ್ಯಾಪ್ತಿಗಳನ್ನು ಅಧಿಕೃತಗೊಳಿಸಿ",
     "essential_claims": "ಅಗತ್ಯ ಹಕ್ಕುಗಳು",
@@ -35,7 +35,7 @@
     "required": "ಅಗತ್ಯವಿದೆ"
   },
   "l1Biometrics": {
-    "device_not_found_msg": "ಸಾಧನ ಕಂಡುಬಂದಿಲ್ಲ!",
+    "device_not_found_msg": "ಸಾಧನ ಕಂಡುಬಂದಿಲ್ಲ",
     "capture_initiated_msg": "{{modality}} ಕ್ಯಾಪ್ಚರ್ ಅನ್ನು {{deviceModel}} ನಲ್ಲಿ ಪ್ರಾರಂಭಿಸಲಾಗಿದೆ",
     "biometric_capture_failed_msg": "ಬಯೋಮೆಟ್ರಿಕ್ ಕ್ಯಾಪ್ಚರ್ ವಿಫಲವಾಗಿದೆ: ",
     "scanning_devices_msg": "ಸ್ಕ್ಯಾನಿಂಗ್ ಸಾಧನಗಳು. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...",
@@ -44,7 +44,7 @@
     "authenticating_msg": "ಪ್ರಮಾಣೀಕರಿಸಲಾಗುತ್ತಿದೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...",
     "scan_and_verify": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಪರಿಶೀಲಿಸಿ",
     "sign_in_with_biometric": "ಬಯೋಮೆಟ್ರಿಕ್ ಮೂಲಕ ಲಾಗಿನ್ ಮಾಡಿ",
-    "retry": "ಮರುಪ್ರಯತ್ನಿಸಿ!",
+    "retry": "ಮರುಪ್ರಯತ್ನಿಸಿ",
     "vid_label_text": "ನಿಮ್ಮ VID ನಮೂದಿಸಿ",
     "vid_placeholder": "ವಿಐಡಿ",
     "Face": "ಮುಖ",
@@ -70,20 +70,20 @@
     "dont_have_inji": "ಇಂಜಿ ಇಲ್ಲವೇ?",
     "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "loading_msg": "ಲೋಡ್ ಆಗುತ್ತಿದೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...",
-    "link_code_refresh_failed": "ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ!",
+    "link_code_refresh_failed": "ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
     "qr_code_expired": "QRCode ಅವಧಿ ಮೀರಿದೆ",
-    "authorization_failed": "ದೃಢೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ!",
+    "authorization_failed": "ದೃಢೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ",
     "link_code_status": "ಲಿಂಕ್ ಕೋಡ್ ಸ್ಥಿತಿ",
     "failed": "ವಿಫಲವಾಗಿದೆ",
     "failed_to_link": "ಲಿಂಕ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
-    "link_auth_waiting": "ದಯವಿಟ್ಟು INJI ಮೂಲಕ ದೃಢೀಕರಿಸಿ! ಈ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಬೇಡಿ!",
+    "link_auth_waiting": "ದಯವಿಟ್ಟು INJI ಮೂಲಕ ದೃಢೀಕರಿಸಿ ಈ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಬೇಡಿ",
     "refresh": "QR ಕೋಡ್ ಅನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ",
     "redirecting_msg": "ಮರುನಿರ್ದೇಶಿಸಲಾಗುತ್ತಿದೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ..."
   },
   "otp": {
     "sign_in_with_otp": "ಒಟಿಪಿ ಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
     "authentication_failed_msg": "ಪ್ರಮಾಣೀಕರಣ ವಿಫಲವಾಗಿದೆ:",
-    "resent_otp": "ಒಟಿಪಿ ಅನ್ನು ಮರುಕಳುಹಿಸುವುದೇ",
+    "resend_otp": "OTP ಅನ್ನು ಮರುಕಳುಹಿಸಿ",
     "not_a_robot": "ನಾನು ರೋಬೋಟ್ ಅಲ್ಲ",
     "get_otp": "ಒಟಿಪಿ ಪಡೆಯಿರಿ",
     "verify": "ಪರಿಶೀಲಿಸಿ",
@@ -93,11 +93,13 @@
     "otp_label_text": "ಒಟಿಪಿ",
     "vid_placeholder": "ಪಿನ್",
     "otp_placeholder": "1234",
-    "send_otp_failed": "ಒಟಿಪಿ ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ!",
-    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ: {{mobileNumber}}",
-    "email_address": "ಇಮೇಲ್ ವಿಳಾಸ: {{emailAddress}}",
+    "send_otp_failed": "ಒಟಿಪಿ ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "mobile_number": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+    "email_address": "ಇಮೇಲ್ ವಿಳಾಸ",
     "otp_sent_msg": "ನಿಮ್ಮ ನೋಂದಾಯಿತ {{otpChannels}} ಗೆ ಒಟಿಪಿ ಅನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ",
-    "resent_otp_counter": "{{timeLeft}} ನಲ್ಲಿ OTP ಅನ್ನು ಮರುಕಳುಹಿಸಿ"
+    "resend_otp_counter": "{{timeLeft}} ನಲ್ಲಿ OTP ಅನ್ನು ಮರುಕಳುಹಿಸಿ",
+    "mobile_number_placeholder": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ: {{mobileNumber}}",
+    "email_address_placeholder": "ಇಮೇಲ್ ವಿಳಾಸ: {{emailAddress}}"
   },
   "signInOption": {
     "loading_msg": "ಲೋಡ್ ಆಗುತ್ತಿದೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...",
@@ -121,9 +123,11 @@
     "login_paragraph": "MOSIP ಗೆ ಇನ್ನೂ ನೋಂದಾಯಿಸಿಲ್ಲವೇ?",
     "login_linkName": "ಮುಂಚಿತವಾಗಿ ನೋಂದಾಯಿಸಿ",
     "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು",
-    "invalid_auth_factor": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಅಂಶಗಳು! ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ...",
+    "invalid_auth_factor": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಅಂಶಗಳು ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ...",
     "here_tab_name": "ಇಲ್ಲಿ ಲಾಗ್ ಇನ್ ಮಾಡಿ",
-    "inji_tab_name": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗ್ ಇನ್ ಮಾಡಿ"
+    "inji_tab_name": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗ್ ಇನ್ ಮಾಡಿ",
+    "dont_have_inji": "ಇಂಜಿ ಇಲ್ಲವೇ?",
+    "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
   },
   "tabs": {
     "pin_tab_name": "ಪಿನ್ ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
@@ -173,7 +177,7 @@
     "invalid_public_key": "ಅಮಾನ್ಯ ಕ್ಲೈಂಟ್ ಸಾರ್ವಜನಿಕ ಕೀ",
     "send_otp_failed": "ಕಳುಹಿಸಲು-otp ವಿಫಲವಾಗಿದೆ. ಅಮಾನ್ಯ/ಅಜ್ಞಾತ ವೈಯಕ್ತಿಕ ಐಡಿ.",
     "missing_header": "ವಿನಂತಿಯಲ್ಲಿ ಬೇರರ್ ಟೋಕನ್‌ನೊಂದಿಗೆ ಹೆಡರ್ ಕಾಣೆಯಾಗಿದೆ : ದೃಢೀಕರಣ.",
-    "invalid_permitted_scope": "ಅಮಾನ್ಯವಾದ ಅಧಿಕಾರ ವ್ಯಾಪ್ತಿಯನ್ನು ಅನುಮತಿಸಲಾಗಿದೆ!",
+    "invalid_permitted_scope": "ಅಮಾನ್ಯವಾದ ಅಧಿಕಾರ ವ್ಯಾಪ್ತಿಯನ್ನು ಅನುಮತಿಸಲಾಗಿದೆ",
     "invalid_identifier": "ಅಮಾನ್ಯವಾದ ವೈಯಕ್ತಿಕ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಒದಗಿಸಲಾಗಿದೆ.",
     "invalid_otp_channel": "ಅಮಾನ್ಯ OTP ಚಾನಲ್ ಒದಗಿಸಲಾಗಿದೆ.",
     "invalid_no_of_challenges": "ಶೂನ್ಯ ಅಥವಾ ಖಾಲಿ ದೃಢೀಕರಣ ಸವಾಲುಗಳನ್ನು ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ.",
@@ -181,6 +185,16 @@
     "invalid_auth_factor_type": "ಶೂನ್ಯ ಅಥವಾ ಖಾಲಿ ದೃಢೀಕರಣ ಅಂಶ ಪ್ರಕಾರವನ್ನು ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ.",
     "invalid_challenge": "ದೃಢೀಕರಣ ಸವಾಲು ಅಗತ್ಯವಿದೆ.",
     "invalid_status": "ಬೆಂಬಲವಿಲ್ಲದ ಸ್ಥಿತಿ ಮೌಲ್ಯವನ್ನು ಒದಗಿಸಲಾಗಿದೆ.",
-    "invalid_accepted_claim": "ಅಮಾನ್ಯ ಬಳಕೆದಾರ ಹಕ್ಕುಗಳನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ!"
+    "invalid_accepted_claim": "ಅಮಾನ್ಯ ಬಳಕೆದಾರ ಹಕ್ಕುಗಳನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ",
+    "invalid_auth_code": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಕೋಡ್ ಒದಗಿಸಲಾಗಿದೆ.",
+    "auth_factor_mismatch": "ಒದಗಿಸಿದ ದೃಢೀಕರಣ ಅಂಶಗಳು ಪರಿಹರಿಸಿದ ದೃಢೀಕರಣ ಅಂಶಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ.",
+    "unsupported_id_format": "ಬೆಂಬಲಿತವಲ್ಲದ ID ಫಾರ್ಮ್ಯಾಟ್.",
+    "link_code_gen_failed": "ಲಿಂಕ್-ಕೋಡ್ ರಚಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸು.",
+    "invalid_link_code": "ಅಮಾನ್ಯ ಲಿಂಕ್ ಕೋಡ್.",
+    "transaction_not_found": "ವಹಿವಾಟು ಕಂಡುಬಂದಿಲ್ಲ.",
+    "transaction_already_linked": "ವಹಿವಾಟು ಈಗಾಗಲೇ ಲಿಂಕ್ ಆಗಿದೆ.",
+    "subscription_failed": "ಕಾಫ್ಕಾ ವಿಷಯಕ್ಕೆ ಚಂದಾದಾರಿಕೆ ವಿಫಲವಾಗಿದೆ.",
+    "response_timeout": "ಮುಂದೂಡಲ್ಪಟ್ಟ ಪ್ರತಿಕ್ರಿಯೆ ಸಮಯ ಮೀರಿದೆ.",
+    "invalid_state": "ಅಮಾನ್ಯ ಸ್ಥಿತಿಯಲ್ಲಿ ವಹಿವಾಟು ಕಂಡುಬಂದಿದೆ."
   }
 }
