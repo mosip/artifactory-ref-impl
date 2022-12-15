@@ -83,7 +83,7 @@
   "otp": {
     "sign_in_with_otp": "OTP மூலம் உள்நுழையவும்",
     "authentication_failed_msg": "அங்கீகரிப்பு தோல்வியுற்றது:",
-    "resent_otp": "மீண்டும் OTP ஐ அனுப்பவா",
+    "resend_otp": "OTP ಅನ್ನು ಮರುಕಳುಹಿಸಿ",
     "not_a_robot": "நான் ரோபோ இல்லை",
     "get_otp": "OTP பெறவும்",
     "verify": "சரிபார்க்கவும்",
@@ -94,10 +94,12 @@
     "vid_placeholder": "விஐடி",
     "otp_placeholder": "1234",
     "send_otp_failed": "OTP ஐ அனுப்ப முடியவில்லை",
-    "mobile_number": "மொபைல் எண்: {{mobileNumber}}",
-    "email_address": "மின்னஞ்சல் முகவரி: {{emailAddress}}",
+    "mobile_number": "மொபைல் எண்",
+    "email_address": "மின்னஞ்சல் முகவரி",
     "otp_sent_msg": "நீங்கள் பதிவு செய்த {{otpChannels}}க்கு OTP அனுப்பப்பட்டது",
-    "resent_otp_counter": "{{timeLeft}} இல் OTP ஐ மீண்டும் அனுப்பவும்"
+    "resend_otp_counter": "{{timeLeft}} ನಲ್ಲಿ OTP ಅನ್ನು ಮರುಕಳುಹಿಸಿ",
+    "mobile_number_placeholder": "மொபைல் எண்: {{mobileNumber}}",
+    "email_address_placeholder": "மின்னஞ்சல் முகவரி: {{emailAddress}}"
   },
   "signInOption": {
     "loading_msg": "ஏற்றுகிறது. தயவுசெய்து காத்திருங்கள்...",

@@ -83,7 +83,7 @@
   "otp": {
     "sign_in_with_otp": "Login with OTP",
     "authentication_failed_msg": "Authentication Failed: ",
-    "resent_otp": "Resent OTP",
+    "resend_otp": "Resend OTP",
     "not_a_robot": "I'm Not a Robot",
     "get_otp": "Get OTP",
     "verify": "Verify",
@@ -97,7 +97,7 @@
     "mobile_number": "Mobile Number",
     "email_address": "Email Address",
     "otp_sent_msg": "OTP has been sent to your registered {{otpChannels}}",
-    "resent_otp_counter": "Resent OTP in {{timeLeft}}",
+    "resend_otp_counter": "Resend OTP in {{timeLeft}}",
     "mobile_number_placeholder": "Mobile Number: {{mobileNumber}}",
     "email_address_placeholder": "Email Address: {{emailAddress}}"
   },

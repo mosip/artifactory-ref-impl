@@ -83,7 +83,7 @@
   "otp": {
     "sign_in_with_otp": "ओटीपी के साथ लॉगिन करें",
     "authentication_failed_msg": "प्रमाणीकरण विफल होना: ",
-    "resent_otp": "ओटीपी फिर से भेजें",
+    "resend_otp": "ओटीपी पुनः भेजें",
     "not_a_robot": "मैं रोबोट नहीं हु",
     "get_otp": "ओटीपी प्राप्त करें",
     "verify": "सत्यापित करना",
@@ -94,10 +94,12 @@
     "vid_placeholder": "वीआईडी",
     "otp_placeholder": "1234",
     "send_otp_failed": "ओटीपी भेजने में विफल",
-    "mobile_number": "मोबाइल नंबर: {{mobileNumber}}",
-    "email_address": "ईमेल पता: {{emailAddress}}",
+    "mobile_number": "मोबाइल नंबर",
+    "email_address": "ईमेल पता",
     "otp_sent_msg": "आपके पंजीकृत {{otpChannels}} पर ओटीपी भेज दिया गया है",
-    "resent_otp_counter": "{{timeLeft}} में ओटीपी फिर से भेजें"
+    "resend_otp_counter": "{{timeLeft}} में ओटीपी दोबारा भेजें",
+    "mobile_number_placeholder": "मोबाइल नंबर: {{mobileNumber}}",
+    "email_address_placeholder": "ईमेल पता: {{emailAddress}}"
   },
   "signInOption": {
     "loading_msg": "लोड हो रहा है। कृपया प्रतीक्षा करें...",

@@ -83,7 +83,7 @@
   "otp": {
     "sign_in_with_otp": "تسجيل الدخول باستخدام OTP",
     "authentication_failed_msg": "المصادقة فشلت:",
-    "resent_otp": "مستاء من OTP",
+    "resend_otp": "إعادة إرسال OTP",
     "not_a_robot": "أنا لست روبوتًا",
     "get_otp": "احصل على OTP",
     "verify": "يؤكد",
@@ -94,10 +94,12 @@
     "vid_placeholder": "VID",
     "otp_placeholder": "1234",
     "send_otp_failed": "فشل في إرسال OTP",
-    "mobile_number": "رقم الجوال: {{mobileNumber}}",
-    "email_address": "عنوان البريد الإلكتروني: {{emailAddress}}",
+    "mobile_number": "رقم الهاتف المحمول",
+    "email_address": "عنوان البريد الالكترونى",
     "otp_sent_msg": "تم إرسال OTP إلى حسابك المسجل في {{otpChannels}}",
-    "resent_otp_counter": "تمت إعادة إرسال OTP في {{timeLeft}}"
+    "resend_otp_counter": "إعادة إرسال OTP في {{timeLeft}}",
+    "mobile_number_placeholder": "رقم الجوال: {{mobileNumber}}",
+    "email_address_placeholder": "عنوان البريد الإلكتروني: {{emailAddress}}"
   },
   "signInOption": {
     "loading_msg": "جار التحميل. أرجو الإنتظار...",
