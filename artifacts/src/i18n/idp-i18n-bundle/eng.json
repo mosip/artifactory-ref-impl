@@ -117,6 +117,9 @@
     "sending_otp_msg": "Sending OTP. Please Wait...",
     "loading_msg": "Loading. Please Wait..."
   },
+  "tooltips": {
+    "vid_tooltip": "Please fill in this field"
+  },
   "errors": {
     "no_response_msg": "No Response",
     "no_devices_found_msg": "Device Not Found. Please Check the Connectivity and Retry.",
