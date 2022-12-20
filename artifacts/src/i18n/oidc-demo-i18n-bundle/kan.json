@@ -11,7 +11,8 @@
     "health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್",
     "confirmed": "ದೃಢಪಡಿಸಿದೆ",
     "recovered": "ಚೇತರಿಸಿಕೊಂಡ",
-    "active": "ಸಕ್ರಿಯ"
+    "active": "ಸಕ್ರಿಯ",
+    "registration": "ನೋಂದಣಿ"
   },
   "login": {
     "sign_in_with_health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್‌ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",

@@ -1,8 +1,4 @@
 {
-  "authorize": {
-    "parsing_error_msg": "Unable to Parse",
-    "loading_msg": "Loading. Please Wait..."
-  },
   "consent": {
     "authorization_failed_msg": "Authorization Failed",
     "consent_request_rejected": "Consent Request Rejected",
@@ -12,7 +8,6 @@
     "voluntary_claims": "Voluntary Claims",
     "cancel": "Cancel",
     "allow": "Allow",
-    "redirecting_msg": "Redirecting. Please Wait...",
     "resident-service": "Resident Service",
     "name": "Name",
     "given_name": "Name",
@@ -35,13 +30,6 @@
     "required": "Required"
   },
   "l1Biometrics": {
-    "device_not_found_msg": "Device Not Found",
-    "capture_initiated_msg": "{{modality}} capture initiated on {{deviceModel}}",
-    "biometric_capture_failed_msg": "Biometric Capture Failed: ",
-    "scanning_devices_msg": "Scanning Devices. Please Wait...",
-    "authentication_failed_msg": "Authentication Failed: ",
-    "no_response_msg": "No Response",
-    "authenticating_msg": "Authenticating. Please Wait...",
     "scan_and_verify": "Scan and Verify",
     "sign_in_with_biometric": "Login with Biometric",
     "retry": "Retry",
@@ -54,10 +42,8 @@
   },
   "pin": {
     "sign_in_with_pin": "Login with PIN",
-    "authentication_failed_msg": "Authentication Failed: ",
     "remember_me": "Remember Me",
     "login": "Login",
-    "authenticating_msg": "Authenticating. Please Wait...",
     "uin_label_text": "UIN",
     "pin_label_text": "PIN",
     "uin_placeholder": "UIN or VID",
@@ -69,31 +55,20 @@
     "inji_app": "Inji App",
     "dont_have_inji": "Don't Have Inji?",
     "download_now": "Download Now",
-    "loading_msg": "Loading. Please Wait...",
-    "link_code_refresh_failed": "Failed to Load",
-    "qr_code_expired": "QR Code Expired",
-    "authorization_failed": "Failed to authorize",
     "link_code_status": "Link Code Status",
     "failed": "Failed",
-    "failed_to_link": "Failed to Link",
-    "link_auth_waiting": "Please Authenticate via Inji. Don't Refresh This Page.",
-    "refresh": "Refresh QR Code",
-    "redirecting_msg": "Redirecting. Please Wait..."
+    "refresh": "Refresh QR Code"
   },
   "otp": {
     "sign_in_with_otp": "Login with OTP",
-    "authentication_failed_msg": "Authentication Failed: ",
     "resend_otp": "Resend OTP",
     "not_a_robot": "I'm Not a Robot",
     "get_otp": "Get OTP",
     "verify": "Verify",
-    "sending_otp_msg": "Sending OTP. Please Wait...",
-    "authenticating_msg": "Authenticating. Please Wait...",
     "vid_label_text": "Enter Your VID",
     "otp_label_text": "OTP",
     "vid_placeholder": "VID",
     "otp_placeholder": "1234",
-    "send_otp_failed": "Failed to Send OTP",
     "mobile_number": "Mobile Number",
     "email_address": "Email Address",
     "otp_sent_msg": "OTP has been sent to your registered {{otpChannels}}",
@@ -102,7 +77,6 @@
     "email_address_placeholder": "Email Address: {{emailAddress}}"
   },
   "signInOption": {
-    "loading_msg": "Loading. Please Wait...",
     "login_option_heading": "Choose How You Want to Login:",
     "login_with": "Login with {{option}}",
     "PIN": "PIN",
@@ -134,9 +108,32 @@
     "inji_tab_name": "Login with Inji",
     "biometric_tab_name": "Login with Biometrics"
   },
+  "loadingMsgs": {
+    "redirecting_msg": "Redirecting. Please Wait...",
+    "link_auth_waiting": "Please Authenticate via Inji. Don't Refresh This Page.",
+    "authenticating_msg": "Authenticating. Please Wait...",
+    "scanning_devices_msg": "Scanning Devices. Please Wait...",
+    "capture_initiated_msg": "{{modality}} capture initiated on {{deviceModel}}",
+    "sending_otp_msg": "Sending OTP. Please Wait...",
+    "loading_msg": "Loading. Please Wait..."
+  },
+  "tooltips": {
+    "vid_tooltip": "Please fill in this field"
+  },
   "errors": {
     "no_response_msg": "No Response",
     "no_devices_found_msg": "Device Not Found. Please Check the Connectivity and Retry.",
+    "link_code_refresh_failed": "Failed to Load",
+    "link_code_status_failed": "Failed to Load",
+    "failed_to_link": "Failed to Link",
+    "qr_code_expired": "QR Code Expired",
+    "authorization_failed": "Failed to authorize",
+    "device_disc_failed": "Device discovery failed",
+    "device_not_found_msg": "Device Not Found",
+    "biometric_capture_failed_msg": "Biometric Capture Failed",
+    "authentication_failed_msg": "Authentication Failed",
+    "send_otp_failed_msg": "Failed to Send OTP",
+    "parsing_error_msg": "Unable to Parse",
     "0": "Success",
     "100": "Device Not Registered",
     "101": "Unable to Detect a Biometrics",

@@ -11,7 +11,8 @@
     "health_portal": "स्वास्थ्य पोर्टल",
     "confirmed": "की पुष्टि की",
     "recovered": "बरामद",
-    "active": "सक्रिय"
+    "active": "सक्रिय",
+    "registration": "पंजीकरण"
   },
   "login": {
     "sign_in_with_health_portal": "स्वास्थ्य पोर्टल के साथ साइन इन करें",
