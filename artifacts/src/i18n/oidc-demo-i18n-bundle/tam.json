@@ -11,7 +11,8 @@
     "health_portal": "சுகாதார போர்டல்",
     "confirmed": "உறுதி",
     "recovered": "மீட்கப்பட்டது",
-    "active": "செயலில்"
+    "active": "செயலில்",
+    "registration": "பதிவு"
   },
   "login": {
     "sign_in_with_health_portal": "சுகாதார போர்டல் மூலம் உள்நுழையவும்",
