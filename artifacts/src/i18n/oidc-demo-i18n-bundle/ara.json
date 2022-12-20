@@ -11,7 +11,8 @@
     "health_portal": "اتصل بنا",
     "confirmed": "مؤكد",
     "recovered": "تعافى",
-    "active": "نشيط"
+    "active": "نشيط",
+    "registration": "تسجيل"
   },
   "login": {
     "sign_in_with_health_portal": "تسجيل الدخول باستخدام بوابة الصحة",

@@ -11,7 +11,8 @@
     "health_portal": "Health Portal",
     "confirmed": "Confirmed",
     "recovered": "Recovered",
-    "active": "Active"
+    "active": "Active",
+    "registration": "Registration"
   },
   "login": {
     "sign_in_with_health_portal": "Sign In with health portal",

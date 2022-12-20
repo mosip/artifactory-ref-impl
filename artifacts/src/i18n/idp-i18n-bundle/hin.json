@@ -1,8 +1,4 @@
 {
-  "authorize": {
-    "parsing_error_msg": "पदव्याख्या करने में असमर्थ",
-    "loading_msg": "लोड हो रहा है। कृपया प्रतीक्षा करें..."
-  },
   "consent": {
     "authorization_failed_msg": "प्रमाणीकरण विफल",
     "consent_request_rejected": "सहमति अनुरोध अस्वीकृत",
@@ -12,7 +8,6 @@
     "voluntary_claims": "स्वैच्छिक दावे",
     "cancel": "रद्द करना",
     "allow": "अनुमति देना",
-    "redirecting_msg": "पुनर्निर्देशन। कृपया प्रतीक्षा करें...",
     "resident-service": "निवासी सेवा",
     "name": "नाम",
     "given_name": "नाम",
@@ -35,13 +30,6 @@
     "required": "आवश्यक"
   },
   "l1Biometrics": {
-    "device_not_found_msg": "डिवाइस नहीं मिला",
-    "capture_initiated_msg": "{{deviceModel}} पर {{modality}} कैप्चर शुरू किया गया",
-    "biometric_capture_failed_msg": "बायोमेट्रिक कैप्चर विफल: ",
-    "scanning_devices_msg": "स्कैनिंग डिवाइस। कृपया प्रतीक्षा करें...",
-    "authentication_failed_msg": "प्रमाणीकरण विफल होना: ",
-    "no_response_msg": "कोई जवाब नहीं",
-    "authenticating_msg": "प्रमाणीकरण। कृपया प्रतीक्षा करें...",
     "scan_and_verify": "स्कैन करें और सत्यापित करें",
     "sign_in_with_biometric": "बायोमेट्रिक के साथ लॉगिन करें",
     "retry": "पुन: प्रयास करें",
@@ -54,10 +42,8 @@
   },
   "pin": {
     "sign_in_with_pin": "पिन से लॉगिन करें",
-    "authentication_failed_msg": "प्रमाणीकरण विफल होना: ",
     "remember_me": "याद रखे",
     "login": "लॉगिन करें",
-    "authenticating_msg": "प्रमाणीकरण। कृपया प्रतीक्षा करें...",
     "uin_label_text": "यूआईएन",
     "pin_label_text": "पिन",
     "uin_placeholder": "यूआईएन या वीआईडी",
@@ -69,31 +55,20 @@
     "inji_app": "इंजी ऐप",
     "dont_have_inji": "इंजन नहीं है?",
     "download_now": "अब डाउनलोड करो",
-    "loading_msg": "लोड हो रहा है। कृपया प्रतीक्षा करें...",
-    "link_code_refresh_failed": "लोड करने में विफल",
-    "qr_code_expired": "क्यूआरकोड समाप्त हो गया",
-    "authorization_failed": "प्राधिकृत करने में विफल",
     "link_code_status": "लिंक कोड स्थिति",
     "failed": "असफल",
-    "failed_to_link": "लिंक करने में विफल रहा",
-    "link_auth_waiting": "कृपया INJI के माध्यम से प्रमाणित करें. इस पृष्ठ को रीफ्रेश न करें",
-    "refresh": "क्यूआर कोड को रिफ्रेश करें",
-    "redirecting_msg": "पुनर्निर्देशन। कृपया प्रतीक्षा करें..."
+    "refresh": "क्यूआर कोड को रिफ्रेश करें"
   },
   "otp": {
     "sign_in_with_otp": "ओटीपी के साथ लॉगिन करें",
-    "authentication_failed_msg": "प्रमाणीकरण विफल होना: ",
     "resend_otp": "ओटीपी पुनः भेजें",
     "not_a_robot": "मैं रोबोट नहीं हु",
     "get_otp": "ओटीपी प्राप्त करें",
     "verify": "सत्यापित करना",
-    "sending_otp_msg": "ओटीपी भेजा जा रहा है। कृपया प्रतीक्षा करें...",
-    "authenticating_msg": "प्रमाणीकरण। कृपया प्रतीक्षा करें...",
     "vid_label_text": "अपना वीआईडी ​​दर्ज करें",
     "otp_label_text": "ओटीपी",
     "vid_placeholder": "वीआईडी",
     "otp_placeholder": "1234",
-    "send_otp_failed": "ओटीपी भेजने में विफल",
     "mobile_number": "मोबाइल नंबर",
     "email_address": "ईमेल पता",
     "otp_sent_msg": "आपके पंजीकृत {{otpChannels}} पर ओटीपी भेज दिया गया है",
@@ -102,7 +77,6 @@
     "email_address_placeholder": "ईमेल पता: {{emailAddress}}"
   },
   "signInOption": {
-    "loading_msg": "लोड हो रहा है। कृपया प्रतीक्षा करें...",
     "login_option_heading": "चुनें कि आप कैसे लॉगिन करना चाहते हैं:",
     "login_with": "{{option}} से लोगिन करें",
     "PIN": "पिन",
@@ -134,9 +108,32 @@
     "inji_tab_name": "इंजि के साथ साइन इन करें",
     "biometric_tab_name": "बायोमेट्रिक्स के साथ साइन इन करें"
   },
+  "loadingMsgs": {
+    "redirecting_msg": "पुनर्निर्देशन। कृपया प्रतीक्षा करें...",
+    "link_auth_waiting": "कृपया इंजी के माध्यम से प्रमाणित करें। इस पेज को रीफ्रेश न करें।",
+    "authenticating_msg": "प्रमाणीकरण। कृपया प्रतीक्षा करें...",
+    "scanning_devices_msg": "स्कैनिंग डिवाइस। कृपया प्रतीक्षा करें...",
+    "capture_initiated_msg": "{{modality}} कैप्चर {{deviceModel}} पर शुरू किया गया",
+    "sending_otp_msg": "ओटीपी भेजा जा रहा है। कृपया प्रतीक्षा करें...",
+    "loading_msg": "लोड हो रहा है। कृपया प्रतीक्षा करें..."
+  },
+  "tooltips": {
+    "vid_tooltip": "कृपया इस क्षेत्र को भरें"
+  },
   "errors": {
     "no_response_msg": "कोई जवाब नहीं",
     "no_devices_found_msg": "डिवाइस नहीं मिला। कृपया कनेक्टिविटी जांचें और पुनः प्रयास करें।",
+    "link_code_refresh_failed": "लोड करने में विफल",
+    "link_code_status_failed": "लोड करने में विफल",
+    "failed_to_link": "लिंक करने में विफल",
+    "qr_code_expired": "क्यूआर कोड समाप्त हो गया",
+    "authorization_failed": "अधिकृत करने में विफल",
+    "device_disc_failed": "डिवाइस की खोज विफल रही",
+    "device_not_found_msg": "डिवाइस नहीं मिला",
+    "biometric_capture_failed_msg": "बायोमेट्रिक कैप्चर विफल",
+    "authentication_failed_msg": "प्रमाणीकरण विफल हो गया",
+    "send_otp_failed_msg": "ओटीपी भेजने में विफल",
+    "parsing_error_msg": "पदव्याख्या करने में असमर्थ",
     "0": "सफलता",
     "100": "डिवाइस पंजीकृत नहीं है",
     "101": "बायोमेट्रिक वस्तु का पता लगाने में असमर्थ",

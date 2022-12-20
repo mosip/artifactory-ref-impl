@@ -1,8 +1,4 @@
 {
-  "authorize": {
-    "parsing_error_msg": "غير قادر على تحليل",
-    "loading_msg": "جار التحميل. أرجو الإنتظار..."
-  },
   "consent": {
     "authorization_failed_msg": "فشل التفويض",
     "consent_request_rejected": "تم رفض طلب الموافقة",
@@ -12,7 +8,6 @@
     "voluntary_claims": "المطالبات الطوعية",
     "cancel": "يلغي",
     "allow": "السماح",
-    "redirecting_msg": "إعادة توجيه. أرجو الإنتظار...",
     "resident-service": "خدمة المقيمين",
     "name": "اسم",
     "given_name": "اسم",
@@ -35,13 +30,6 @@
     "required": "مطلوب"
   },
   "l1Biometrics": {
-    "device_not_found_msg": "لم يتم العثور علي الجهاز",
-    "capture_initiated_msg": "تم بدء الالتقاط {{modality}} في {{deviceModel}}",
-    "biometric_capture_failed_msg": "فشل التقاط القياسات الحيوية:",
-    "scanning_devices_msg": "أجهزة المسح. أرجو الإنتظار...",
-    "authentication_failed_msg": "المصادقة فشلت:",
-    "no_response_msg": "لا يوجد رد",
-    "authenticating_msg": "المصادقة. أرجو الإنتظار...",
     "scan_and_verify": "المسح والتحقق",
     "sign_in_with_biometric": "تسجيل الدخول باستخدام البيومترية",
     "retry": "أعد المحاولة",
@@ -54,10 +42,8 @@
   },
   "pin": {
     "sign_in_with_pin": "تسجيل الدخول باستخدام PIN",
-    "authentication_failed_msg": "المصادقة فشلت:",
     "remember_me": "تذكرنى",
     "login": "تسجيل الدخول",
-    "authenticating_msg": "المصادقة. أرجو الإنتظار...",
     "uin_label_text": "UIN",
     "pin_label_text": "PIN",
     "uin_placeholder": "UIN أو VID",
@@ -69,31 +55,20 @@
     "inji_app": "تطبيق إنجي",
     "dont_have_inji": "ليس لديك إنجي؟",
     "download_now": "التحميل الان",
-    "loading_msg": "جار التحميل. أرجو الإنتظار...",
-    "link_code_refresh_failed": "فشل في التحميل",
-    "qr_code_expired": "انتهت صلاحية رمز QRCode",
-    "authorization_failed": "فشل التفويض",
     "link_code_status": "حالة رمز الارتباط",
     "failed": "باءت بالفشل",
-    "failed_to_link": "فشل الارتباط",
-    "link_auth_waiting": "يرجى المصادقة عبر INJI. لا تحديث هذه الصفحة",
-    "refresh": "قم بتحديث رمز الاستجابة السريعة",
-    "redirecting_msg": "إعادة توجيه. أرجو الإنتظار..."
+    "refresh": "قم بتحديث رمز الاستجابة السريعة"
   },
   "otp": {
     "sign_in_with_otp": "تسجيل الدخول باستخدام OTP",
-    "authentication_failed_msg": "المصادقة فشلت:",
     "resend_otp": "إعادة إرسال OTP",
     "not_a_robot": "أنا لست روبوتًا",
     "get_otp": "احصل على OTP",
     "verify": "يؤكد",
-    "sending_otp_msg": "إرسال OTP. أرجو الإنتظار...",
-    "authenticating_msg": "المصادقة. أرجو الإنتظار...",
     "vid_label_text": "أدخل VID الخاص بك",
     "otp_label_text": "OTP",
     "vid_placeholder": "VID",
     "otp_placeholder": "1234",
-    "send_otp_failed": "فشل في إرسال OTP",
     "mobile_number": "رقم الهاتف المحمول",
     "email_address": "عنوان البريد الالكترونى",
     "otp_sent_msg": "تم إرسال OTP إلى حسابك المسجل في {{otpChannels}}",
@@ -102,7 +77,6 @@
     "email_address_placeholder": "عنوان البريد الإلكتروني: {{emailAddress}}"
   },
   "signInOption": {
-    "loading_msg": "جار التحميل. أرجو الإنتظار...",
     "login_option_heading": "اختر كيف تريد تسجيل الدخول:",
     "login_with": "تسجيل الدخول باستخدام {{option}}",
     "PIN": "دبوس",
@@ -134,9 +108,32 @@
     "inji_tab_name": "تسجيل الدخول باستخدام Inji",
     "biometric_tab_name": "تسجيل الدخول باستخدام القياسات الحيوية"
   },
+  "loadingMsgs": {
+    "redirecting_msg": "إعادة توجيه. أرجو الإنتظار...",
+    "link_auth_waiting": "يرجى المصادقة عبر INJI. لا تحديث هذه الصفحة",
+    "authenticating_msg": "المصادقة. أرجو الإنتظار...",
+    "scanning_devices_msg": "أجهزة المسح. أرجو الإنتظار...",
+    "capture_initiated_msg": "تم بدء الالتقاط {{modality}} في {{deviceModel}}",
+    "sending_otp_msg": "إرسال OTP. أرجو الإنتظار...",
+    "loading_msg": "جار التحميل. أرجو الإنتظار..."
+  },
+  "tooltips": {
+    "vid_tooltip": "يرجى ملء هذا الحقل"
+  },
   "errors": {
     "no_response_msg": "لا يوجد رد",
     "no_devices_found_msg": "لم يتم العثور علي الجهاز. يرجى التحقق من الاتصال وإعادة المحاولة.",
+    "link_code_refresh_failed": "فشل في التحميل",
+    "link_code_status_failed": "فشل في التحميل",
+    "failed_to_link": "فشل الارتباط",
+    "qr_code_expired": "انتهت صلاحية رمز QRCode",
+    "authorization_failed": "فشل التفويض",
+    "device_disc_failed": "فشل اكتشاف الجهاز",
+    "device_not_found_msg": "لم يتم العثور علي الجهاز",
+    "biometric_capture_failed_msg": "فشل التقاط القياسات الحيوية:",
+    "authentication_failed_msg": "المصادقة فشلت",
+    "send_otp_failed_msg": "فشل إرسال OTP",
+    "parsing_error_msg": "غير قادر على تحليل",
     "0": "النجاح",
     "100": "الجهاز غير مسجل",
     "101": "غير قادر على الكشف عن كائن القياسات الحيوية",
