@@ -27,7 +27,8 @@
     "phone": "هاتف",
     "phone_number": "رقم الهاتف",
     "phone_number_verified": "رقم الهاتف",
-    "required": "مطلوب"
+    "required": "مطلوب",
+    "profile": "الملف الشخصي"
   },
   "l1Biometrics": {
     "scan_and_verify": "المسح والتحقق",

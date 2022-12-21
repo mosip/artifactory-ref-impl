@@ -27,7 +27,8 @@
     "phone": "Phone",
     "phone_number": "Phone Number",
     "phone_number_verified": "Phone Number",
-    "required": "Required"
+    "required": "Required",
+    "profile": "Profile"
   },
   "l1Biometrics": {
     "scan_and_verify": "Scan and Verify",

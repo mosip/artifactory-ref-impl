@@ -27,7 +27,8 @@
     "phone": "फ़ोन",
     "phone_number": "फ़ोन नंबर",
     "phone_number_verified": "फ़ोन नंबर",
-    "required": "आवश्यक"
+    "required": "आवश्यक",
+    "profile": "प्रोफ़ाइल"
   },
   "l1Biometrics": {
     "scan_and_verify": "स्कैन करें और सत्यापित करें",

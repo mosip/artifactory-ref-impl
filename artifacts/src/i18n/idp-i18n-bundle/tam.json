@@ -27,7 +27,8 @@
     "phone": "தொலைபேசி",
     "phone_number": "தொலைபேசி எண்",
     "phone_number_verified": "தொலைபேசி எண்",
-    "required": "தேவை"
+    "required": "தேவை",
+    "profile": "சுயவிவரம்"
   },
   "l1Biometrics": {
     "scan_and_verify": "ஸ்கேன் செய்து சரிபார்க்கவும்",
