@@ -134,6 +134,7 @@
     "authentication_failed_msg": "Authentication Failed",
     "send_otp_failed_msg": "Failed to Send OTP",
     "parsing_error_msg": "Unable to Parse",
+    "Network Error": "Network Error",
     "0": "Success",
     "100": "Device Not Registered",
     "101": "Unable to Detect a Biometrics",
