@@ -74,8 +74,9 @@
     "email_address": "Email Address",
     "otp_sent_msg": "OTP has been sent to your registered {{otpChannels}}",
     "resend_otp_counter": "Resend OTP in {{min}}:{{sec}}",
-    "mobile_number_placeholder": "Mobile Number: {{mobileNumber}}",
-    "email_address_placeholder": "Email Address: {{emailAddress}}"
+    "mobile_placeholder": "Mobile Number: {{mobileNumber}}",
+    "email_placeholder": "Email Address: {{emailAddress}}",
+    "mobile_email_placeholder": "Mobile Number: {{mobileNumber}} and Email Address: {{emailAddress}}"
   },
   "signInOption": {
     "login_option_heading": "Choose How You Want to Login:",

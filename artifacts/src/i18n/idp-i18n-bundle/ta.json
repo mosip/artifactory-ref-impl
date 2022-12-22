@@ -74,8 +74,9 @@
     "email_address": "மின்னஞ்சல் முகவரி",
     "otp_sent_msg": "நீங்கள் பதிவு செய்த {{otpChannels}}க்கு OTP அனுப்பப்பட்டது",
     "resend_otp_counter": "{{min}}:{{sec}} ನಲ್ಲಿ OTP ಅನ್ನು ಮರುಕಳುಹಿಸಿ",
-    "mobile_number_placeholder": "மொபைல் எண்: {{mobileNumber}}",
-    "email_address_placeholder": "மின்னஞ்சல் முகவரி: {{emailAddress}}"
+    "mobile_placeholder": "மொபைல் எண்: {{mobileNumber}}",
+    "email_placeholder": "மின்னஞ்சல் முகவரி: {{emailAddress}}",
+    "mobile_email_placeholder": "மொபைல் எண்: {{mobileNumber}} மற்றும் மின்னஞ்சல் முகவரி: {{emailAddress}}"
   },
   "signInOption": {
     "login_option_heading": "நீங்கள் எப்படி உள்நுழைய வேண்டும் என்பதைத் தேர்வுசெய்யவும்:",
