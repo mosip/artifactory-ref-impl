@@ -15,24 +15,24 @@
     "registration": "تسجيل"
   },
   "login": {
-    "sign_in_with_health_portal": "تسجيل الدخول باستخدام بوابة الصحة",
+    "sign_in_with_health_portal": "قم بتسجيل الدخول إلى بوابة الصحة",
     "username": "اسم المستخدم",
     "password": "كلمة المرور",
     "submit": "إرسال",
     "or": "أو",
-    "sign_in_with_mosip": "قم بتسجيل الدخول باستخدام MOSIP",
-    "dont_have_existing_account": "إذا لم يكن لديك حساب موجود ، من فضلك",
+    "sign_in_with_mosip": "تسجيل الدخول باستخدام MOSIP",
+    "dont_have_existing_account": "ليس لديك حساب موجود؟",
     "sign_up_here": "سجل هنا"
   },
   "signup": {
-    "sign_up_with_health_portal": "اشترك في البوابة الصحية",
+    "sign_up_with_health_portal": "قم بالتسجيل في بوابة الصحة",
     "first_name": "الاسم الاول",
     "last_name": "الكنية",
     "password": "كلمة المرور",
     "submit": "إرسال",
     "or": "أو",
     "sign_up_with_mosip": "قم بالتسجيل مع MOSIP",
-    "already_have_account": "إذا كان لديك بالفعل حساب ، من فضلك",
+    "already_have_account": "هل لديك حساب؟",
     "sign_in_here": "تسجيل الدخول هنا"
   },
   "userprofile": {

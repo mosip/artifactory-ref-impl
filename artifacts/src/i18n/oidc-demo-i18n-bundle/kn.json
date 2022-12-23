@@ -15,24 +15,24 @@
     "registration": "ನೋಂದಣಿ"
   },
   "login": {
-    "sign_in_with_health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್‌ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "sign_in_with_health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್‌ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
     "username": "ಬಳಕೆದಾರ ಹೆಸರು",
     "password": "ಗುಪ್ತಪದ",
     "submit": "ಸಲ್ಲಿಸು",
     "or": "ಅಥವಾ",
     "sign_in_with_mosip": "MOSIP ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
-    "dont_have_existing_account": "ನೀವು ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಖಾತೆಯನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ, ದಯವಿಟ್ಟು",
+    "dont_have_existing_account": "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಖಾತೆಯನ್ನು ಹೊಂದಿಲ್ಲವೇ?",
     "sign_up_here": "ಇಲ್ಲಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ"
   },
   "signup": {
-    "sign_up_with_health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್‌ನೊಂದಿಗೆ ಸೈನ್ ಅಪ್ ಮಾಡಿ",
+    "sign_up_with_health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್‌ಗೆ ಸೈನ್ ಅಪ್ ಮಾಡಿ",
     "first_name": "ಮೊದಲ ಹೆಸರು",
     "last_name": "ಕೊನೆಯ ಹೆಸರು",
     "password": "ಗುಪ್ತಪದ",
     "submit": "ಸಲ್ಲಿಸು",
     "or": "ಅಥವಾ",
     "sign_up_with_mosip": "MOSIP ನೊಂದಿಗೆ ಸೈನ್ ಅಪ್ ಮಾಡಿ",
-    "already_have_account": "ನೀವು ಈಗಾಗಲೇ ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ, ದಯವಿಟ್ಟು",
+    "already_have_account": "ಈಗಾಗಲೇ ಖಾತೆ ಹೊಂದಿದ್ದೀರ?",
     "sign_in_here": "ಇಲ್ಲಿ ಸೈನ್ ಇನ್ ಮಾಡಿ"
   },
   "userprofile": {

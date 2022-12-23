@@ -15,24 +15,24 @@
     "registration": "पंजीकरण"
   },
   "login": {
-    "sign_in_with_health_portal": "स्वास्थ्य पोर्टल के साथ साइन इन करें",
+    "sign_in_with_health_portal": "स्वास्थ्य पोर्टल में साइन इन करें",
     "username": "उपयोगकर्ता नाम",
     "password": "पासवर्ड",
     "submit": "प्रस्तुत",
     "or": "या",
-    "sign_in_with_mosip": "मोसिप के साथ साइन इन करें",
-    "dont_have_existing_account": "यदि आपके पास मौजूदा खाता नहीं है, तो कृपया",
-    "sign_up_here": "पंजी यहॉ करे"
+    "sign_in_with_mosip": "एमओएसआईपी के साथ साइन इन करें",
+    "dont_have_existing_account": "कोई मौजूदा खाता नहीं है?",
+    "sign_up_here": "यहां साइन अप करें"
   },
   "signup": {
-    "sign_up_with_health_portal": "स्वास्थ्य पोर्टल के साथ साइन अप करें",
+    "sign_up_with_health_portal": "स्वास्थ्य पोर्टल पर साइन अप करें",
     "first_name": "पहला नाम",
     "last_name": "उपनाम",
     "password": "पासवर्ड",
     "submit": "प्रस्तुत",
     "or": "या",
-    "sign_up_with_mosip": "मोसिप के साथ साइन अप करें",
-    "already_have_account": "यदि आपके पास पहले से खाता है, तो कृपया",
+    "sign_up_with_mosip": "एमओएसआईपी के साथ साइन अप करें",
+    "already_have_account": "क्या आपके पास पहले से एक खाता मौजूद है?",
     "sign_in_here": "यहां साइन इन करो"
   },
   "userprofile": {
