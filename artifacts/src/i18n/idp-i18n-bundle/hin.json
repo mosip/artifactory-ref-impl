@@ -27,7 +27,8 @@
     "phone": "फ़ोन",
     "phone_number": "फ़ोन नंबर",
     "phone_number_verified": "फ़ोन नंबर",
-    "required": "आवश्यक"
+    "required": "आवश्यक",
+    "profile": "प्रोफ़ाइल"
   },
   "l1Biometrics": {
     "scan_and_verify": "स्कैन करें और सत्यापित करें",
@@ -73,8 +74,9 @@
     "email_address": "ईमेल पता",
     "otp_sent_msg": "आपके पंजीकृत {{otpChannels}} पर ओटीपी भेज दिया गया है",
     "resend_otp_counter": "{{min}}:{{sec}} में ओटीपी दोबारा भेजें",
-    "mobile_number_placeholder": "मोबाइल नंबर: {{mobileNumber}}",
-    "email_address_placeholder": "ईमेल पता: {{emailAddress}}"
+    "mobile_placeholder": "मोबाइल नंबर: {{mobileNumber}}",
+    "email_placeholder": "ईमेल पता: {{emailAddress}}",
+    "mobile_email_placeholder": "मोबाइल नंबर: {{mobileNumber}} और ईमेल पता: {{emailAddress}}"
   },
   "signInOption": {
     "login_option_heading": "चुनें कि आप कैसे लॉगिन करना चाहते हैं:",
@@ -134,6 +136,7 @@
     "authentication_failed_msg": "प्रमाणीकरण विफल हो गया",
     "send_otp_failed_msg": "ओटीपी भेजने में विफल",
     "parsing_error_msg": "पदव्याख्या करने में असमर्थ",
+    "Network Error": "नेटवर्क त्रुटि",
     "0": "सफलता",
     "100": "डिवाइस पंजीकृत नहीं है",
     "101": "बायोमेट्रिक वस्तु का पता लगाने में असमर्थ",
