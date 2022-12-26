@@ -15,25 +15,25 @@
     "registration": "Registration"
   },
   "login": {
-    "sign_in_with_health_portal": "Sign In with health portal",
+    "sign_in_with_health_portal": "Sign In to the Health portal",
     "username": "Username",
     "password": "Password",
     "submit": "SUBMIT",
     "or": "OR",
-    "sign_in_with_mosip": "Sign in with MOSIP",
-    "dont_have_existing_account": "If you don't have existing account, please",
-    "sign_up_here": "Sign up here"
+    "sign_in_with_mosip": "Sign In with MOSIP",
+    "dont_have_existing_account": "Don't have an existing account?",
+    "sign_up_here": "Sign Up here"
   },
   "signup": {
-    "sign_up_with_health_portal": "Sign Up with health portal",
+    "sign_up_with_health_portal": "Sign Up to the Health portal",
     "first_name": "First Name",
     "last_name": "Last Name",
     "password": "Password",
     "submit": "SUBMIT",
     "or": "OR",
-    "sign_up_with_mosip": "Sign up with MOSIP",
-    "already_have_account": "If you already have an account, please",
-    "sign_in_here": "Sign in here"
+    "sign_up_with_mosip": "Sign Up with MOSIP",
+    "already_have_account": "Already have an account?",
+    "sign_in_here": "Sign In here"
   },
   "userprofile": {
     "welcome_msg": "Welcome to Health services",
@@ -44,23 +44,25 @@
     "phone_number": "Phone number",
     "birth_date": "Birth Date"
   },
-  "error": {
+  "registration": {
+    "child_registration": "Child Registration",
+    "full_name": "Full Name",
+    "gender": "Gender",
+    "date_of_birth": "Date of birth",
+    "city": "City",
+    "address": "Address",
+    "fetch_details": "Fetch details from MOSIP",
+    "register": "Register",
+    "loading_msg": "Loading! Please wait...",
+    "phone_number": "Phone number"
+  },
+  "errors": {
     "sign_in_failed": "Authentication failed! Try sign in with MOSIP",
     "sign_up_failed": "Sign Up failed! Try sign in with MOSIP",
+    "invalid_details": "Invalid details! Try fetching details from MOSIP",
     "authCode_missing": "AuthCode Missing",
     "no_response_msg": "No response",
     "no_devices_found_msg": "Device not found. Please check the connectivity and retry.",
-    "0": "Success",
-    "100": "Device not registered",
-    "101": "Unable to detect a biometric object",
-    "102": "Technical error during extraction.",
-    "103": "Device tamper detected",
-    "104": "Unable to connect to the management server",
-    "105": "Image orientation error",
-    "106": "Device not found",
-    "107": "Device public key expired",
-    "108": "Domain public key missing",
-    "109": "Requested number of biometric (Finger/IRIS) not supported",
     "invalid_request": "Invalid Request",
     "invalid_client_id": "Invalid Client identifier",
     "invalid_client_name": "Invalid Client Name",

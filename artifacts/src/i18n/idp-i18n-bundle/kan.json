@@ -27,7 +27,8 @@
     "phone": "ದೂರವಾಣಿ",
     "phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
     "phone_number_verified": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
-    "required": "ಅಗತ್ಯವಿದೆ"
+    "required": "ಅಗತ್ಯವಿದೆ",
+    "profile": "ಪ್ರೊಫೈಲ್"
   },
   "l1Biometrics": {
     "scan_and_verify": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಪರಿಶೀಲಿಸಿ",
@@ -73,8 +74,9 @@
     "email_address": "ಇಮೇಲ್ ವಿಳಾಸ",
     "otp_sent_msg": "ನಿಮ್ಮ ನೋಂದಾಯಿತ {{otpChannels}} ಗೆ ಒಟಿಪಿ ಅನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ",
     "resend_otp_counter": "{{min}}:{{sec}} ನಲ್ಲಿ OTP ಅನ್ನು ಮರುಕಳುಹಿಸಿ",
-    "mobile_number_placeholder": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ: {{mobileNumber}}",
-    "email_address_placeholder": "ಇಮೇಲ್ ವಿಳಾಸ: {{emailAddress}}"
+    "mobile_placeholder": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ: {{mobileNumber}}",
+    "email_placeholder": "ಇಮೇಲ್ ವಿಳಾಸ: {{emailAddress}}",
+    "mobile_email_placeholder": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ: {{mobileNumber}} ಮತ್ತು ಇಮೇಲ್ ವಿಳಾಸ: {{emailAddress}}"
   },
   "signInOption": {
     "login_option_heading": "ನೀವು ಹೇಗೆ ಲಾಗಿನ್ ಆಗಬೇಕೆಂದು ಆರಿಸಿಕೊಳ್ಳಿ:",
@@ -99,7 +101,7 @@
     "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು",
     "invalid_auth_factor": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಅಂಶಗಳು ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ...",
     "here_tab_name": "ಇಲ್ಲಿ ಲಾಗ್ ಇನ್ ಮಾಡಿ",
-    "inji_tab_name": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗ್ ಇನ್ ಮಾಡಿ",
+    "inji_tab_name": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
     "dont_have_inji": "ಇಂಜಿ ಇಲ್ಲವೇ?",
     "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
   },
@@ -134,6 +136,7 @@
     "authentication_failed_msg": "ಪ್ರಮಾಣೀಕರಣ ವಿಫಲವಾಗಿದೆ",
     "send_otp_failed_msg": "OTP ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ",
     "parsing_error_msg": "ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
+    "Network Error": "ನೆಟ್‌ವರ್ಕ್ ದೋಷ",
     "0": "ಯಶಸ್ಸು",
     "100": "ಸಾಧನವನ್ನು ನೋಂದಾಯಿಸಲಾಗಿಲ್ಲ",
     "101": "ಬಯೋಮೆಟ್ರಿಕ್ ವಸ್ತುವನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
