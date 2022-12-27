@@ -2,13 +2,22 @@
 
 set -e
 
-# Download the jar for auth adapter from maven repository and rename to remove the version no:
+# Download the jar for auth adapter from maven repository and rename for 1.2.0.1-B2:
 
 mvn dependency:get -Ddest=${kernel_jar_path}/ -Dartifact=io.mosip.kernel:kernel-auth-adapter:${version}
 
 cd ${kernel_jar_path} && mv kernel-auth-adapter-*.jar kernel-auth-adapter.jar
 
-echo "Downloaded and renamed auth-adapter jar"
+echo "Downloaded and renamed auth-adapter jar for 1.2.0.1-B2"
+
+# Download the jar for auth adapter from maven repository and rename for 1.2.0.1-B1:
+
+mvn dependency:get -Ddest=${kernel_jar_path}/1.2.0.1-B1 -Dartifact=io.mosip.kernel:kernel-auth-adapter:1.2.0.1-B1
+
+cd ${kernel_jar_path}/1.2.0.1-B1 && mv kernel-auth-adapter-*.jar kernel-auth-adapter.jar
+
+echo "Downloaded and renamed auth-adapter jar for 1.2.0.1-B1"
+
 
 # Download the jar for sms-msg91 gateway from maven repository and rename to remove the version no:
 
