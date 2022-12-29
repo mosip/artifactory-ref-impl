@@ -164,6 +164,8 @@ COPY /src/i18n/pmp-i18n-bundle/*  ${work_dir}/pmp-i18n-bundle/
 
 COPY /src/i18n/idp-i18n-bundle/* ${work_dir}/idp-i18n-bundle/
 
+COPY /src/i18n/oidc-demo-i18n-bundle/*  ${work_dir}/oidc-demo-i18n-bundle/
+
 COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n-bundle/
 
 COPY /src/master-templates/* ${work_dir}/master-templates/
@@ -172,6 +174,7 @@ RUN zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_di
 zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ${work_dir}/admin-entity-spec-bundle/*  && \
 zip -r -j ${i18n_zip_path}/admin-i18n-bundle.zip ${work_dir}/admin-i18n-bundle/*  && \
 zip -r -j ${i18n_zip_path}/idp-i18n-bundle.zip ${work_dir}/idp-i18n-bundle/* && \
+zip -r -j ${i18n_zip_path}/oidc-demo-i18n-bundle.zip ${work_dir}/oidc-demo-i18n-bundle/* && \
 zip -r -j ${i18n_zip_path}/pmp-entity-spec-bundle.zip ${work_dir}/pmp-entity-spec-bundle/*  && \
 zip -r -j ${i18n_zip_path}/pmp-i18n-bundle.zip ${work_dir}/pmp-i18n-bundle/*  && \
 zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ${work_dir}/pre-registration-i18n-bundle/* && \
