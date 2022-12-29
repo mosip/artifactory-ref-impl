@@ -43,13 +43,21 @@ cd ${sdk_path} && mv mock-sdk-*.jar mock-sdk.jar
 
 echo "Downloaded and renamed mock-sdk jar"
 
-# Download the Clamav Jar from maven repository and rename to remove the version no:
+# Download the virusscanner Jar from maven repository and rename to remove the version no:
 
 mvn dependency:get -Ddest=${clamav_path}/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.kernel:kernel-virusscanner-clamav:${version}
 
 cd ${clamav_path} && mv kernel-virusscanner-clamav-*.jar kernel-virusscanner-clamav.jar
 
-echo "Downloaded and renamed kernel-virusscanner jar"
+echo "Downloaded and renamed kernel-virusscanner jar for 1.2.0.1-B2"
+
+# Download the virusscanner Jar from maven repository and rename to remove the version no:
+
+mvn dependency:get -Ddest=${clamav_path}/1.2.0.1-B1 -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.kernel:kernel-virusscanner-clamav:1.2.0.1-B1
+
+cd ${clamav_path}/1.2.0.1-B1 && mv kernel-virusscanner-clamav-*.jar kernel-virusscanner-clamav.jar
+
+echo "Downloaded and renamed kernel-virusscanner jar for 1.2.0.1-B1"
 
 # Download the Clamav client Jar from maven repository and rename to remove the version no:
 
