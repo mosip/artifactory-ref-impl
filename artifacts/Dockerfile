@@ -96,7 +96,7 @@ ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
 #ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${prversion}/kernel-auth-adapter-${prversion}.jar
-ENV auth_adapter_jar_develop_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.2.1-SNAPSHOT/kernel-auth-adapter-1.2.1-20221229.044430-37.jar
+ENV auth_adapter_jar_develop_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.2.1-SNAPSHOT/kernel-auth-adapter-1.2.1-20221222.143642-35.jar
 
 # environment variable for biosdk client jar URL
 ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${prversion}/biosdk-client-${prversion}-jar-with-dependencies.jar
