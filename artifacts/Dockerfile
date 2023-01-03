@@ -87,7 +87,7 @@ ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authenti
 ENV sversion=1.2.0.1-SNAPSHOT
 ENV mrversion=1.2.0
 ENV prversion=1.2.0.1-B1
-ENV idp_auth_wrapper_version=0.9.0-SNAPSHOT
+ENV sidp_auth_wrapper_version=0.9.0-SNAPSHOT
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
