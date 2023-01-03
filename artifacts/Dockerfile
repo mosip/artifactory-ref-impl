@@ -72,6 +72,9 @@ ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
 # environment variable for i18n zip path
 ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 
+# environment variable for idp auth wrapper jar path
+ENV idp_auth_wrapper_jar_path=${base_path}/libs-release-local/idp/idp-auth-wrapper
+
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
 
@@ -84,6 +87,7 @@ ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authenti
 ENV sversion=1.2.0.1-SNAPSHOT
 ENV mrversion=1.2.0
 ENV prversion=1.2.0.1-B1
+ENV sidp_auth_wrapper_version=0.9.0-SNAPSHOT
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
@@ -135,8 +139,11 @@ ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.1
 ENV child_auth_filter_jar_url=${release_maven_path}/authentication/authentication-childauthfilter-impl/${prversion}/authentication-childauthfilter-impl-${prversion}.jar
 #ENV child_auth_filter_jar_url=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/authentication/authentication-childauthfilter-impl/${sversion}/authentication-childauthfilter-impl-1.2.0.1-20220718.062704-9.jar
 
+# environment variable for IdP authentication wrapper jar URL
+ENV auth_wrapper_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/idp/authentication-wrapper/${sidp_auth_wrapper_version}/authentication-wrapper-0.9.0-20230103.073852-1.jar
+
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${kernel_jar_path}/develop ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib ${base_path}/libs-release-local/reg-client ${master_template_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${kernel_jar_path}/develop ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib ${base_path}/libs-release-local/reg-client ${master_template_path} ${idp_auth_wrapper_jar_path}
 
 # Copy all the respective jars to the location
 
@@ -196,6 +203,10 @@ COPY /src/icu4j/* ${icu4j_jar_path}/
 RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
 
 echo "Downloaded auth adapter jar" &&\
+
+wget ${auth_wrapper_url_env} -O ${idp_auth_wrapper_jar_path}/authentication-wrapper.jar &&\
+
+echo "Downloaded IDP auth wrapper jar" &&\
 
 wget ${auth_adapter_jar_develop_url_env} -O ${kernel_jar_path}/develop/kernel-auth-adapter.jar  &&\
 
@@ -274,6 +285,8 @@ echo "folder demosdk deleted" &&\
 wget ${child_auth_filter_jar_url} -O ${child_auth_filter_jar_path}/authentication-childauthfilter-impl.jar &&\
 
 echo "Downloaded Child Auth Filter Jar"
+
+
 
 
 RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
