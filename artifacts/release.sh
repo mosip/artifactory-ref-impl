@@ -107,3 +107,10 @@ mvn dependency:get -Ddest=${cache_path}/ -Dartifact=com.hazelcast:hazelcast-all:
 cd ${cache_path}/ && mv hazelcast-all-3.12.12.jar cache-provider.jar
 
 echo "Downloaded hazlecast cache jar"
+
+# Download the jar for idp auth wrapper from maven repository
+mvn dependency:get -Ddest=${idp_auth_wrapper_lib_zip_path}/ -DremoteRepositories=sonatype-nexus-snapshots::::https://oss.sonatype.org/content/repositories/snapshots -Dartifact=io.mosip.idp:authentication-wrapper:${idp_auth_wrapper_version}
+
+cd ${idp_auth_wrapper_lib_zip_path} && mv authentication-wrapper-*.jar authentication-wrapper.jar
+
+echo "Downloaded idp authentication wrapper"
