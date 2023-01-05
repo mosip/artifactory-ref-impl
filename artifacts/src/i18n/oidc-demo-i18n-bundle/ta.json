@@ -42,7 +42,8 @@
     "email_address": "மின்னஞ்சல் முகவரி",
     "gender": "பாலினம்",
     "phone_number": "தொலைபேசி எண்",
-    "birth_date": "பிறந்த தேதி"
+    "birth_date": "பிறந்த தேதி",
+    "address": "முகவரி"
   },
   "registration": {
     "child_registration": "குழந்தை பதிவு",

@@ -42,7 +42,8 @@
     "email_address": "ಇಮೇಲ್ ವಿಳಾಸ",
     "gender": "ಲಿಂಗ",
     "phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
-    "birth_date": "ಹುಟ್ಟಿದ ದಿನಾಂಕ"
+    "birth_date": "ಹುಟ್ಟಿದ ದಿನಾಂಕ",
+    "address": "ವಿಳಾಸ"
   },
   "registration": {
     "child_registration": "ಮಕ್ಕಳ ನೋಂದಣಿ",

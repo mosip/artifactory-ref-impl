@@ -42,7 +42,8 @@
     "email_address": "Email Address",
     "gender": "Gender",
     "phone_number": "Phone number",
-    "birth_date": "Birth Date"
+    "birth_date": "Birth Date",
+    "address": "Address"
   },
   "registration": {
     "child_registration": "Child Registration",

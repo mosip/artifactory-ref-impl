@@ -42,7 +42,8 @@
     "email_address": "ईमेल पता",
     "gender": "लिंग",
     "phone_number": "फ़ोन नंबर",
-    "birth_date": "जन्म तिथि"
+    "birth_date": "जन्म तिथि",
+    "address": "पता"
   },
   "registration": {
     "child_registration": "बाल पंजीकरण",

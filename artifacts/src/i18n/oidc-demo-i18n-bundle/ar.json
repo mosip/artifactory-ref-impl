@@ -42,7 +42,8 @@
     "email_address": "عنوان البريد الالكترونى",
     "gender": "جنس",
     "phone_number": "رقم الهاتف",
-    "birth_date": "تاريخ الميلاد"
+    "birth_date": "تاريخ الميلاد",
+    "address": "تبوك"
   },
   "registration": {
     "child_registration": "تسجيل الطفل",
