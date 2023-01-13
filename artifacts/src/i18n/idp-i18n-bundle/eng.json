@@ -28,7 +28,11 @@
     "phone_number": "Phone Number",
     "phone_number_verified": "Phone Number",
     "required": "Required",
-    "profile": "Profile"
+    "profile": "Profile",
+    "authorize_scope_tooltip": "Allows Service provider to access these protected services on your behalf",
+    "essential_claims_tooltip": "Mandatory user information required by the Service provider",
+    "voluntary_claims_tooltip": "Additional user information that the resident can choose to share with the Service provider",
+    "mosip": "MOSIP"
   },
   "l1Biometrics": {
     "scan_and_verify": "Scan and Verify",
@@ -103,7 +107,9 @@
     "here_tab_name": "Log In Here",
     "inji_tab_name": "Log In with Inji",
     "dont_have_inji": "Don't Have Inji?",
-    "download_now": "Download Now"
+    "download_now": "Download Now",
+    "mosip": "MOSIP",
+    "backgroud_image_alt": "Sign in with MOSIP"
   },
   "tabs": {
     "pin_tab_name": "Login with PIN",

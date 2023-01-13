@@ -28,7 +28,11 @@
     "phone_number": "फ़ोन नंबर",
     "phone_number_verified": "फ़ोन नंबर",
     "required": "आवश्यक",
-    "profile": "प्रोफ़ाइल"
+    "profile": "प्रोफ़ाइल",
+    "authorize_scope_tooltip": "सेवा प्रदाता को आपकी ओर से इन संरक्षित सेवाओं तक पहुँचने की अनुमति देता है",
+    "essential_claims_tooltip": "सेवा प्रदाता द्वारा आवश्यक अनिवार्य उपयोगकर्ता जानकारी",
+    "voluntary_claims_tooltip": "अतिरिक्त उपयोगकर्ता जानकारी जिसे निवासी सेवा प्रदाता के साथ साझा करना चुन सकता है",
+    "mosip": "मोसिप"
   },
   "l1Biometrics": {
     "scan_and_verify": "स्कैन करें और सत्यापित करें",
@@ -103,7 +107,9 @@
     "here_tab_name": "यहां लॉगिन करें",
     "inji_tab_name": "इंजी के साथ लॉग इन करें",
     "dont_have_inji": "इंजी नहीं है?",
-    "download_now": "अभी डाउनलोड करो"
+    "download_now": "अभी डाउनलोड करो",
+    "mosip": "मोसिप",
+    "backgroud_image_alt": "एमओएसआईपी के साथ साइन इन करें"
   },
   "tabs": {
     "pin_tab_name": "पिन से साइन इन करें",

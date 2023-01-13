@@ -28,7 +28,11 @@
     "phone_number": "رقم الهاتف",
     "phone_number_verified": "رقم الهاتف",
     "required": "مطلوب",
-    "profile": "الملف الشخصي"
+    "profile": "الملف الشخصي",
+    "authorize_scope_tooltip": "يسمح لمزود الخدمة بالوصول إلى هذه الخدمات المحمية نيابة عنك",
+    "essential_claims_tooltip": "معلومات المستخدم الإلزامية التي يطلبها مزود الخدمة",
+    "voluntary_claims_tooltip": "معلومات المستخدم الإضافية التي يمكن للمقيم اختيار مشاركتها مع مزود الخدمة",
+    "mosip": "MOSIP"
   },
   "l1Biometrics": {
     "scan_and_verify": "المسح والتحقق",
@@ -103,7 +107,9 @@
     "here_tab_name": "تسجيل الدخول هنا",
     "inji_tab_name": "تسجيل الدخول باستخدام Inji",
     "dont_have_inji": "ليس لديك إنجي؟",
-    "download_now": "التحميل الان"
+    "download_now": "التحميل الان",
+    "mosip": "MOSIP",
+    "backgroud_image_alt": "قم بتسجيل الدخول باستخدام MOSIP"
   },
   "tabs": {
     "pin_tab_name": "قم بتسجيل الدخول باستخدام PIN",
