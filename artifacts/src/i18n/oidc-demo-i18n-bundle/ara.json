@@ -43,7 +43,9 @@
     "gender": "جنس",
     "phone_number": "رقم الهاتف",
     "birth_date": "تاريخ الميلاد",
-    "address": "تبوك"
+    "address": "تبوك",
+    "show_raw_user_info": "إظهار معلومات المستخدم الأولية",
+    "hide_raw_user_info": "إخفاء معلومات المستخدم الأولية"
   },
   "registration": {
     "child_registration": "تسجيل الطفل",
