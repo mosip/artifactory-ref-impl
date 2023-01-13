@@ -42,7 +42,10 @@
     "email_address": "Email Address",
     "gender": "Gender",
     "phone_number": "Phone number",
-    "birth_date": "Birth Date"
+    "birth_date": "Birth Date",
+    "address": "Address",
+    "show_raw_user_info": "Show raw user info",
+    "hide_raw_user_info": "Hide raw user info"
   },
   "registration": {
     "child_registration": "Child Registration",

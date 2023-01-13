@@ -42,7 +42,10 @@
     "email_address": "மின்னஞ்சல் முகவரி",
     "gender": "பாலினம்",
     "phone_number": "தொலைபேசி எண்",
-    "birth_date": "பிறந்த தேதி"
+    "birth_date": "பிறந்த தேதி",
+    "address": "முகவரி",
+    "show_raw_user_info": "அசல் பயனர் தகவலைக் காட்டு",
+    "hide_raw_user_info": "அசல் பயனர் தகவலை மறை"
   },
   "registration": {
     "child_registration": "குழந்தை பதிவு",

@@ -28,7 +28,11 @@
     "phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
     "phone_number_verified": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
     "required": "ಅಗತ್ಯವಿದೆ",
-    "profile": "ಪ್ರೊಫೈಲ್"
+    "profile": "ಪ್ರೊಫೈಲ್",
+    "authorize_scope_tooltip": "ನಿಮ್ಮ ಪರವಾಗಿ ಈ ಸಂರಕ್ಷಿತ ಸೇವೆಗಳನ್ನು ಪ್ರವೇಶಿಸಲು ಸೇವಾ ಪೂರೈಕೆದಾರರಿಗೆ ಅನುಮತಿಸುತ್ತದೆ",
+    "essential_claims_tooltip": "ಸೇವಾ ಪೂರೈಕೆದಾರರಿಗೆ ಅಗತ್ಯವಿರುವ ಕಡ್ಡಾಯ ಬಳಕೆದಾರ ಮಾಹಿತಿ",
+    "voluntary_claims_tooltip": "ಸೇವಾ ಪೂರೈಕೆದಾರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ನಿವಾಸಿ ಆಯ್ಕೆ ಮಾಡಬಹುದಾದ ಹೆಚ್ಚುವರಿ ಬಳಕೆದಾರ ಮಾಹಿತಿ",
+    "mosip": "MOSIP"
   },
   "l1Biometrics": {
     "scan_and_verify": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಪರಿಶೀಲಿಸಿ",
@@ -103,7 +107,9 @@
     "here_tab_name": "ಇಲ್ಲಿ ಲಾಗ್ ಇನ್ ಮಾಡಿ",
     "inji_tab_name": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
     "dont_have_inji": "ಇಂಜಿ ಇಲ್ಲವೇ?",
-    "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+    "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "mosip": "MOSIP",
+    "backgroud_image_alt": "MOSIP ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ"
   },
   "tabs": {
     "pin_tab_name": "ಪಿನ್ ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",

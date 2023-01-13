@@ -42,7 +42,10 @@
     "email_address": "ಇಮೇಲ್ ವಿಳಾಸ",
     "gender": "ಲಿಂಗ",
     "phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
-    "birth_date": "ಹುಟ್ಟಿದ ದಿನಾಂಕ"
+    "birth_date": "ಹುಟ್ಟಿದ ದಿನಾಂಕ",
+    "address": "ವಿಳಾಸ",
+    "show_raw_user_info": "ಕಚ್ಚಾ ಬಳಕೆದಾರರ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಿ",
+    "hide_raw_user_info": "ಕಚ್ಚಾ ಬಳಕೆದಾರರ ಮಾಹಿತಿಯನ್ನು ಮರೆಮಾಡಿ"
   },
   "registration": {
     "child_registration": "ಮಕ್ಕಳ ನೋಂದಣಿ",

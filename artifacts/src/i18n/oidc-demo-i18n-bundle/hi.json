@@ -42,7 +42,10 @@
     "email_address": "ईमेल पता",
     "gender": "लिंग",
     "phone_number": "फ़ोन नंबर",
-    "birth_date": "जन्म तिथि"
+    "birth_date": "जन्म तिथि",
+    "address": "पता",
+    "show_raw_user_info": "कच्ची उपयोगकर्ता जानकारी दिखाएं",
+    "hide_raw_user_info": "अपरिष्कृत उपयोगकर्ता जानकारी छुपाएं"
   },
   "registration": {
     "child_registration": "बाल पंजीकरण",
