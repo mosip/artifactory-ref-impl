@@ -1,5 +1,4 @@
 {
-  "langCode": "kn",
   "background": {
     "home": "ಮುಖಪುಟ",
     "polices": "ಪೋಲೀಸ್",
@@ -12,7 +11,8 @@
     "confirmed": "ದೃಢಪಡಿಸಿದೆ",
     "recovered": "ಚೇತರಿಸಿಕೊಂಡ",
     "active": "ಸಕ್ರಿಯ",
-    "registration": "ನೋಂದಣಿ"
+    "registration": "ನೋಂದಣಿ",
+    "language": "ಭಾಷೆ"
   },
   "login": {
     "sign_in_with_health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್‌ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",

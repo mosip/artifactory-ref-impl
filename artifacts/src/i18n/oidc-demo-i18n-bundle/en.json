@@ -1,5 +1,4 @@
 {
-  "langCode": "en",
   "background": {
     "home": "Home",
     "polices": "Polices",
@@ -12,7 +11,8 @@
     "confirmed": "Confirmed",
     "recovered": "Recovered",
     "active": "Active",
-    "registration": "Registration"
+    "registration": "Registration",
+    "language": "Language"
   },
   "login": {
     "sign_in_with_health_portal": "Sign In to the Health portal",

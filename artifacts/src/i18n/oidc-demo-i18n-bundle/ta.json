@@ -1,5 +1,4 @@
 {
-  "langCode": "ta",
   "background": {
     "home": "வீடு",
     "polices": "காவல்",
@@ -12,7 +11,8 @@
     "confirmed": "உறுதி",
     "recovered": "மீட்கப்பட்டது",
     "active": "செயலில்",
-    "registration": "பதிவு"
+    "registration": "பதிவு",
+    "language": "மொழி"
   },
   "login": {
     "sign_in_with_health_portal": "ஹெல்த் போர்ட்டலில் உள்நுழையவும்",
