@@ -1,5 +1,4 @@
 {
-  "langCode": "hi",
   "background": {
     "home": "होम",
     "polices": "पुलिस",
@@ -12,7 +11,8 @@
     "confirmed": "की पुष्टि की",
     "recovered": "बरामद",
     "active": "सक्रिय",
-    "registration": "पंजीकरण"
+    "registration": "पंजीकरण",
+    "language": "भाषा"
   },
   "login": {
     "sign_in_with_health_portal": "स्वास्थ्य पोर्टल में साइन इन करें",

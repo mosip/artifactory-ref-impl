@@ -1,5 +1,4 @@
 {
-  "langCode": "ar",
   "background": {
     "home": "مسكن",
     "polices": "شرطة",
@@ -12,7 +11,8 @@
     "confirmed": "مؤكد",
     "recovered": "تعافى",
     "active": "نشيط",
-    "registration": "تسجيل"
+    "registration": "تسجيل",
+    "language": "لغة"
   },
   "login": {
     "sign_in_with_health_portal": "قم بتسجيل الدخول إلى بوابة الصحة",
