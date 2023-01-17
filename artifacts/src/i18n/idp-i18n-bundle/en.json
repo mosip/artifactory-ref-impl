@@ -109,7 +109,8 @@
     "dont_have_inji": "Don't Have Inji?",
     "download_now": "Download Now",
     "mosip": "MOSIP",
-    "backgroud_image_alt": "Sign in with MOSIP"
+    "backgroud_image_alt": "Sign in with MOSIP",
+    "language": "Language"
   },
   "tabs": {
     "pin_tab_name": "Login with PIN",
