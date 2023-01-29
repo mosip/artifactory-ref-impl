@@ -14,13 +14,20 @@ ARG container_user_gid=1001
 
 # install packages and create user
 RUN apt-get -y update &&\
-apt-get install -y unzip wget maven zip tree &&\
+apt-get install -y --no-install-recommends unzip wget zip tree openjdk-11-jdk &&\
 groupadd -g ${container_user_gid} ${container_user_group} &&\
+rm -rf /var/lib/apt/lists/* &&\
+wget https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz &&\
+tar -xzf apache-maven-3.8.7-bin.tar.gz && mv apache-maven-3.8.7 /usr/local/maven && rm apache-maven-3.8.7-bin.tar.gz &&\
 useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user} \
 && mkdir -p /var/run/nginx /var/tmp/nginx \
 && chown -R ${container_user}:${container_user} /usr/share/nginx /var/run/nginx /var/tmp/nginx
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
+
+ENV MAVEN_HOME /usr/local/maven
+ENV PATH $MAVEN_HOME/bin:$PATH
+ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64
 
 # set working directory for the user
 WORKDIR /home/${container_user}
@@ -89,14 +96,14 @@ ENV master_template_path=${base_path}/libs-release-local/master-templates
 ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authentication/authentication-ref-impl
 
 # environment variable for script path
-ENV script_path=/home/mosip/scripts
+ENV scripts_path=/home/mosip/scripts
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV version=1.2.1-SNAPSHOT
 ENV idp_auth_wrapper_version=0.0.1-SNAPSHOT
 
 # Create all the jar paths.
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${kernel_jar_path}/1.2.0.1-B1 ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path}
 
 # Copy all the respective jars to the location
 
@@ -130,31 +137,23 @@ COPY /src/i18n/idp-i18n-bundle/*  ${work_dir}/idp-i18n-bundle/
 
 COPY /src/i18n/oidc-demo-i18n-bundle/*  ${work_dir}/oidc-demo-i18n-bundle/
 
-#COPY /src/mosipvc/*  ${work_dir}/mosipvc/
-
-RUN zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources  && \
-zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ${work_dir}/admin-entity-spec-bundle/*  && \
-zip -r -j ${i18n_zip_path}/admin-i18n-bundle.zip ${work_dir}/admin-i18n-bundle/*  && \
-zip -r -j ${i18n_zip_path}/pmp-entity-spec-bundle.zip ${work_dir}/pmp-entity-spec-bundle/*  && \
-zip -r -j ${i18n_zip_path}/pmp-i18n-bundle.zip ${work_dir}/pmp-i18n-bundle/*  && \
-zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ${work_dir}/pre-registration-i18n-bundle/* && \
-zip -r -j ${i18n_zip_path}/pmp-i18n-bundle.zip ${work_dir}/pmp-i18n-bundle/* && \
-zip -r -j ${i18n_zip_path}/oidc-demo-i18n-bundle.zip ${work_dir}/oidc-demo-i18n-bundle/* && \
-zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templates/* && \
-zip -r -j ${i18n_zip_path}/idp-i18n-bundle.zip ${work_dir}/idp-i18n-bundle/*
-#zip -r -j ${mosipvc_zip_path}/mosipvc.zip ${work_dir}/mosipvc/*
-
 COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
 
 COPY /src/auth/* ${regproc_jar_path}/
 
-COPY ./*.sh ${scripts_path}/
+COPY ./configure.sh ${work_dir}/
 
-RUN chmod +x ${scripts_path}/*.sh
+COPY pom.xml ${work_dir}/
 
-RUN if echo $version | grep -qe ".*SNAPSHOT" ; then cd /${scripts_path} && /snapshot.sh && echo successfully Downloaded snapshot Jars; else cd /${scripts_path} && /release.sh && echo successfully Downloaded release Jars; fi
+#RUN chmod +x ${scripts_path}/*.sh
+
+#RUN if echo $version | grep -qe ".*SNAPSHOT" ; then cd /${scripts_path} && /snapshot.sh && echo successfully Downloaded snapshot Jars; else cd /${scripts_path} && /release.sh && echo successfully Downloaded release Jars; fi
+
+RUN cd ${work_dir} && mvn dependency:resolve && mvn clean install
+
+RUN bash configure.sh
 
 RUN sed -i -e '/listen/!b' -e '/80;/!b' -e 's/80;/8080;/' /etc/nginx/conf.d/default.conf
 
