@@ -147,10 +147,6 @@ COPY ./configure.sh ${work_dir}/
 
 COPY pom.xml ${work_dir}/
 
-#RUN chmod +x ${scripts_path}/*.sh
-
-#RUN if echo $version | grep -qe ".*SNAPSHOT" ; then cd /${scripts_path} && /snapshot.sh && echo successfully Downloaded snapshot Jars; else cd /${scripts_path} && /release.sh && echo successfully Downloaded release Jars; fi
-
 RUN cd ${work_dir} && mvn dependency:resolve && mvn clean install
 
 RUN bash configure.sh

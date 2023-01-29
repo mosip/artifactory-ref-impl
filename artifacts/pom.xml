@@ -2,7 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	<groupId>io.mosip.artifactory</groupId>
 	<artifactId>artifactory-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -137,6 +136,7 @@
 	</executions>
 			<configuration>
 				<artifactItems>
+<!-- artifactItem section for auth adapter -->
 				<artifactItem>
 	       	 	                <groupId>io.mosip.kernel</groupId>
 					<artifactId>kernel-auth-adapter</artifactId>
@@ -145,6 +145,7 @@
 					<destFileName>${auth-adapter.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+<!-- artifactItem section for smsserviceprovider -->
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
 					<artifactId>kernel-smsserviceprovider-msg91</artifactId>
@@ -153,6 +154,7 @@
 					<destFileName>${kernel-smsserviceprovider.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+<!-- artifactItem section for ref-idobjectvaidator -->
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
 					<artifactId>kernel-ref-idobjectvalidator</artifactId>
@@ -161,6 +163,7 @@
 					<destFileName>${kernel-ref-idobjectvalidator.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+<!-- artifactItem section for virusscanner -->
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
 					<artifactId>kernel-virusscanner-clamav</artifactId>
@@ -169,6 +172,7 @@
 					<destFileName>${kernel-virusscanner-clamav.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+<!-- artifactItem section for clamav client -->
 				<artifactItem>
 					<groupId>xyz.capybara</groupId>
 					<artifactId>clamav-client</artifactId>
@@ -177,6 +181,7 @@
 					<destFileName>${clamav-client.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+<!-- artifactItem section for mock-sdk -->
 				<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
 					<artifactId>mock-sdk</artifactId>
@@ -184,7 +189,8 @@
 					 <outputDirectory>${mock-sdk.location}</outputDirectory> 
 					<destFileName>${mock-sdk.fileName}</destFileName>
 					<type>jar</type>
-				</artifactItem>				
+				</artifactItem>
+<!-- artifactItem section for biosdk-client -->				
 				<artifactItem>
 					<groupId>io.mosip.biosdk</groupId>
 					<artifactId>biosdk-client</artifactId>
@@ -194,7 +200,8 @@
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
-                			<artifactItem>
+<!-- artifactItem section for demosdk client -->
+               			<artifactItem>
 					<groupId>io.mosip.demosdk</groupId>
 					<artifactId>demosdk</artifactId>
 					<version>${demosdk-client.version}</version>
@@ -203,6 +210,7 @@
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
                 		</artifactItem>
+<!-- artifactItem section for mock-sdk-jpeg-extractor -->
 				<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
 					<artifactId>mock-sdk-jpeg-extractor</artifactId>
@@ -212,6 +220,7 @@
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
+<!-- artifactItem section for mock-sdk-jpeg-extractor lib-->
 				<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
 					<artifactId>mock-sdk</artifactId>
@@ -229,6 +238,7 @@
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
+<!-- artifactItem section for biosdk library -->
 				<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
 					<artifactId>mock-sdk</artifactId>
@@ -246,6 +256,7 @@
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
+<!-- artifactItem section for childauthfilter jar -->
 				<artifactItem>
 					<groupId>io.mosip.authentication</groupId>
 					<artifactId>authentication-childauthfilter-impl</artifactId>
@@ -253,7 +264,8 @@
 					 <outputDirectory>${authentication-childauthfilter-impl.location}</outputDirectory> 
 					<destFileName>${authentication-childauthfilter-impl.fileName}</destFileName>
 					<type>jar</type>
-				</artifactItem>	
+				</artifactItem>
+<!-- artifactItem section for hazelcast-all jar -->
 				<artifactItem>
 					<groupId>com.hazelcast</groupId>
 					<artifactId>hazelcast-all</artifactId>
@@ -262,6 +274,7 @@
 					<destFileName>${hazelcast.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+<!-- artifactItem section for idp authentication wrapper -->
 				<artifactItem>
 					<groupId>io.mosip.idp</groupId>
 					<artifactId>authentication-wrapper</artifactId>
