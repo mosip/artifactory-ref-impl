@@ -54,7 +54,7 @@
     "uin_placeholder": "UIN أو VID",
     "pin_placeholder": "أدخل رقم التعريف الشخصي"
   },
-  "IDPQRCode": {
+  "LoginQRCode": {
     "sign_in_with_inji": "تسجيل الدخول باستخدام Inji",
     "scan_with_inji": "امسح باستخدام تطبيق Inji لتسجيل الدخول",
     "inji_app": "تطبيق إنجي",
@@ -94,13 +94,12 @@
     "OTP": "OTP"
   },
   "idpDetails": {
-    "idp_details_heading": "تفاصيل OIDC",
+    "idp_details_heading": "تفاصيل IDP",
     "internal_api": "واجهة برمجة التطبيقات الداخلية",
     "wellknown_api": ".wellknown API"
   },
   "header": {
     "login_heading": "تسجيل الدخول باستخدام e-Signet",
-    "login_paragraph": "لم تسجل في e-Signet حتى الآن؟",
     "login_linkName": "التسجيل المسبق",
     "more_ways_to_sign_in": "المزيد من الطرق لتسجيل الدخول",
     "invalid_auth_factor": "عوامل المصادقة غير صالحة. حاول مرة اخرى...",
