@@ -54,7 +54,7 @@
     "uin_placeholder": "यूआईएन या वीआईडी",
     "pin_placeholder": "पिन दर्ज करें"
   },
-  "IDPQRCode": {
+  "LoginQRCode": {
     "sign_in_with_inji": "इंजी के साथ लॉगिन करें",
     "scan_with_inji": "लॉग इन करने के लिए इंजी ऐप से स्कैन करें",
     "inji_app": "इंजी ऐप",
@@ -94,13 +94,12 @@
     "OTP": "ओटीपी"
   },
   "idpDetails": {
-    "idp_details_heading": "ओआईडीसी विवरण",
+    "idp_details_heading": "आईडीपी विवरण",
     "internal_api": "आंतरिक एपीआई",
     "wellknown_api": ".प्रसिद्ध एपीआई"
   },
   "header": {
     "login_heading": "ई-सिग्नेट के साथ लॉगिन करें",
-    "login_paragraph": "अभी तक ई-सिग्नेट के लिए पंजीकृत नहीं हैं?",
     "login_linkName": "पूर्व-पंजीकरण",
     "more_ways_to_sign_in": "साइन इन करने के और तरीके",
     "invalid_auth_factor": "अमान्य प्रमाणीकरण कारक. कृपया पुन: प्रयास करें...",
