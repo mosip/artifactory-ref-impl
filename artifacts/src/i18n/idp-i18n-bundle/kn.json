@@ -54,7 +54,7 @@
     "uin_placeholder": "ಯುಐಎನ್ ಅಥವಾ ಪಿನ್",
     "pin_placeholder": "ಪಿನ್ ನಮೂದಿಸಿ"
   },
-  "IDPQRCode": {
+  "LoginQRCode": {
     "sign_in_with_inji": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
     "scan_with_inji": "ಲಾಗ್ ಇನ್ ಮಾಡಲು ಇಂಜಿ ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
     "inji_app": "ಇಂಜಿ ಅಪ್ಲಿಕೇಶನ್",
@@ -94,13 +94,12 @@
     "OTP": "ಒಟಿಪಿ"
   },
   "idpDetails": {
-    "idp_details_heading": "OIDC ವಿವರಗಳು",
+    "idp_details_heading": "IDP ವಿವರಗಳು",
     "internal_api": "ಆಂತರಿಕ API",
     "wellknown_api": "ಪ್ರಸಿದ್ಧ API"
   },
   "header": {
     "login_heading": "ಇ-ಸಿಗ್ನೆಟ್ ಮೂಲಕ ಲಾಗಿನ್ ಮಾಡಿ",
-    "login_paragraph": "ಇ-ಸಿಗ್ನೆಟ್‌ಗೆ ಇನ್ನೂ ನೋಂದಾಯಿಸಿಲ್ಲವೇ?",
     "login_linkName": "ಮುಂಚಿತವಾಗಿ ನೋಂದಾಯಿಸಿ",
     "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು",
     "invalid_auth_factor": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಅಂಶಗಳು ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ...",

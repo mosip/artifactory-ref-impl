@@ -54,7 +54,7 @@
     "uin_placeholder": "UIN or VID",
     "pin_placeholder": "Enter PIN"
   },
-  "IDPQRCode": {
+  "LoginQRCode": {
     "sign_in_with_inji": "Login with Inji",
     "scan_with_inji": "Scan with Inji App to Log In",
     "inji_app": "Inji App",
@@ -94,13 +94,12 @@
     "OTP": "OTP"
   },
   "idpDetails": {
-    "idp_details_heading": "OIDC Details",
+    "idp_details_heading": "IDP Details",
     "internal_api": "Internal API",
     "wellknown_api": ".wellknown API"
   },
   "header": {
     "login_heading": "Login with e-Signet",
-    "login_paragraph": "Have not registered for e-Signet yet?",
     "login_linkName": "Preregister",
     "more_ways_to_sign_in": "More Ways to Login",
     "invalid_auth_factor": "Invalid Auth Factors. Please Try Again...",
