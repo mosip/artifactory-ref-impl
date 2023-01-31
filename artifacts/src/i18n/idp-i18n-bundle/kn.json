@@ -28,7 +28,11 @@
     "phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
     "phone_number_verified": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
     "required": "ಅಗತ್ಯವಿದೆ",
-    "profile": "ಪ್ರೊಫೈಲ್"
+    "profile": "ಪ್ರೊಫೈಲ್",
+    "authorize_scope_tooltip": "ನಿಮ್ಮ ಪರವಾಗಿ ಈ ಸಂರಕ್ಷಿತ ಸೇವೆಗಳನ್ನು ಪ್ರವೇಶಿಸಲು ಸೇವಾ ಪೂರೈಕೆದಾರರಿಗೆ ಅನುಮತಿಸುತ್ತದೆ",
+    "essential_claims_tooltip": "ಸೇವಾ ಪೂರೈಕೆದಾರರಿಗೆ ಅಗತ್ಯವಿರುವ ಕಡ್ಡಾಯ ಬಳಕೆದಾರ ಮಾಹಿತಿ",
+    "voluntary_claims_tooltip": "ಸೇವಾ ಪೂರೈಕೆದಾರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ನಿವಾಸಿ ಆಯ್ಕೆ ಮಾಡಬಹುದಾದ ಹೆಚ್ಚುವರಿ ಬಳಕೆದಾರ ಮಾಹಿತಿ",
+    "logo_alt": "ಇ-ಸಿಗ್ನೆಟ್"
   },
   "l1Biometrics": {
     "scan_and_verify": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಪರಿಶೀಲಿಸಿ",
@@ -50,7 +54,7 @@
     "uin_placeholder": "ಯುಐಎನ್ ಅಥವಾ ಪಿನ್",
     "pin_placeholder": "ಪಿನ್ ನಮೂದಿಸಿ"
   },
-  "IDPQRCode": {
+  "LoginQRCode": {
     "sign_in_with_inji": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
     "scan_with_inji": "ಲಾಗ್ ಇನ್ ಮಾಡಲು ಇಂಜಿ ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
     "inji_app": "ಇಂಜಿ ಅಪ್ಲಿಕೇಶನ್",
@@ -95,15 +99,17 @@
     "wellknown_api": "ಪ್ರಸಿದ್ಧ API"
   },
   "header": {
-    "login_heading": "MOSIP ನೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
-    "login_paragraph": "MOSIP ಗೆ ಇನ್ನೂ ನೋಂದಾಯಿಸಿಲ್ಲವೇ?",
+    "login_heading": "ಇ-ಸಿಗ್ನೆಟ್ ಮೂಲಕ ಲಾಗಿನ್ ಮಾಡಿ",
     "login_linkName": "ಮುಂಚಿತವಾಗಿ ನೋಂದಾಯಿಸಿ",
     "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು",
     "invalid_auth_factor": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಅಂಶಗಳು ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ...",
     "here_tab_name": "ಇಲ್ಲಿ ಲಾಗ್ ಇನ್ ಮಾಡಿ",
     "inji_tab_name": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
     "dont_have_inji": "ಇಂಜಿ ಇಲ್ಲವೇ?",
-    "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+    "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "logo_alt": "ಇ-ಸಿಗ್ನೆಟ್",
+    "backgroud_image_alt": "ಇ-ಸಿಗ್ನೆಟ್ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "language": "ಭಾಷೆ"
   },
   "tabs": {
     "pin_tab_name": "ಪಿನ್ ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",

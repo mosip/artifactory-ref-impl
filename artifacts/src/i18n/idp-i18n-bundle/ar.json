@@ -28,7 +28,11 @@
     "phone_number": "رقم الهاتف",
     "phone_number_verified": "رقم الهاتف",
     "required": "مطلوب",
-    "profile": "الملف الشخصي"
+    "profile": "الملف الشخصي",
+    "authorize_scope_tooltip": "يسمح لمزود الخدمة بالوصول إلى هذه الخدمات المحمية نيابة عنك",
+    "essential_claims_tooltip": "معلومات المستخدم الإلزامية التي يطلبها مزود الخدمة",
+    "voluntary_claims_tooltip": "معلومات المستخدم الإضافية التي يمكن للمقيم اختيار مشاركتها مع مزود الخدمة",
+    "logo_alt": "e-Signet"
   },
   "l1Biometrics": {
     "scan_and_verify": "المسح والتحقق",
@@ -50,7 +54,7 @@
     "uin_placeholder": "UIN أو VID",
     "pin_placeholder": "أدخل رقم التعريف الشخصي"
   },
-  "IDPQRCode": {
+  "LoginQRCode": {
     "sign_in_with_inji": "تسجيل الدخول باستخدام Inji",
     "scan_with_inji": "امسح باستخدام تطبيق Inji لتسجيل الدخول",
     "inji_app": "تطبيق إنجي",
@@ -95,15 +99,17 @@
     "wellknown_api": ".wellknown API"
   },
   "header": {
-    "login_heading": "تسجيل الدخول باستخدام MOSIP",
-    "login_paragraph": "لم تسجل في MOSIP حتى الآن؟",
+    "login_heading": "تسجيل الدخول باستخدام e-Signet",
     "login_linkName": "التسجيل المسبق",
     "more_ways_to_sign_in": "المزيد من الطرق لتسجيل الدخول",
     "invalid_auth_factor": "عوامل المصادقة غير صالحة. حاول مرة اخرى...",
     "here_tab_name": "تسجيل الدخول هنا",
     "inji_tab_name": "تسجيل الدخول باستخدام Inji",
     "dont_have_inji": "ليس لديك إنجي؟",
-    "download_now": "التحميل الان"
+    "download_now": "التحميل الان",
+    "logo_alt": "e-Signet",
+    "backgroud_image_alt": "قم بتسجيل الدخول باستخدام e-Signet",
+    "language": "لغة"
   },
   "tabs": {
     "pin_tab_name": "قم بتسجيل الدخول باستخدام PIN",
