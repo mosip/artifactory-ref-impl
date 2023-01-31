@@ -110,7 +110,7 @@
 		<hazelcast.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast.location>
 		<hazelcast.fileName>cache-provider.jar</hazelcast.fileName>
 		<!-- authentication-childauthfilter-impl -->
-		<authentication-childauthfilter-impl.version>1.2.0.1-B2</authentication-childauthfilter-impl.version>
+		<authentication-childauthfilter-impl.version>1.2.0.1-B1</authentication-childauthfilter-impl.version>
 		<authentication-childauthfilter-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/authentication/authentication-ref-impl</authentication-childauthfilter-impl.location>
 		<authentication-childauthfilter-impl.fileName>authentication-childauthfilter-impl.jar</authentication-childauthfilter-impl.fileName>
 		<!-- idp authentication wrapper -->
