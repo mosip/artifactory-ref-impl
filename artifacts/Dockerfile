@@ -85,6 +85,9 @@ ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 # environment variable for idp auth wrapper zip path
 ENV idp_auth_wrapper_lib_zip_path=${base_path}/libs-release-local/idp/idp-auth-wrapper
 
+# environment variable for esignet auth wrapper zip path
+ENV esignet_auth_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet/esignet-auth-wrapper
+
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
 
@@ -101,9 +104,10 @@ ENV scripts_path=/home/mosip/scripts
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
 ENV version=1.2.1-SNAPSHOT
 ENV idp_auth_wrapper_version=0.0.1-SNAPSHOT
+ENV esignet_auth_wrapper_version=1.0.0-SNAPSHOT
 
 # Create all the jar paths.
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path} ${esignet_auth_wrapper_lib_zip_path}
 
 # Copy all the respective jars to the location
 
