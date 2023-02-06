@@ -117,6 +117,10 @@
 		<authentication-wrapper.version>0.0.1-SNAPSHOT</authentication-wrapper.version>
 		<authentication-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/idp/idp-auth-wrapper</authentication-wrapper.location>
 		<authentication-wrapper.fileName>authentication-wrapper.jar</authentication-wrapper.fileName>
+		<!-- esignet authentication wrapper -->
+		<esignet-authentication-wrapper.version>1.0.0-SNAPSHOT</esignet-authentication-wrapper.version>
+		<esignet-authentication-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-auth-wrapper</esignet-authentication-wrapper.location>
+		<esignet-authentication-wrapper.fileName>esignet-authentication-wrapper.jar</esignet-authentication-wrapper.fileName>
 	</properties>
 	
 	<build>
@@ -283,7 +287,16 @@
 					 <outputDirectory>${authentication-wrapper.location}</outputDirectory> 
 					<destFileName>${authentication-wrapper.fileName}</destFileName>
 					<type>jar</type>
-				</artifactItem>	
+				</artifactItem>
+<!-- artifactItem section for esignet authentication wrapper -->
+				<artifactItem>
+					<groupId>io.mosip.esignet</groupId>
+					<artifactId>esignet-authentication-wrapper</artifactId>
+					<version>${esignet-authentication-wrapper.version}</version>
+					<outputDirectory>${esignet-authentication-wrapper.location}</outputDirectory>
+					<destFileName>${esignet-authentication-wrapper.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
 				</artifactItems>
 			<overWriteReleases>true</overWriteReleases>
               		<overWriteSnapshots>true</overWriteSnapshots>
