@@ -290,7 +290,7 @@
 				</artifactItem>
 <!-- artifactItem section for esignet authentication wrapper -->
 				<artifactItem>
-					<groupId>io.mosip.esignet</groupId>
+					<groupId>io.mosip.idp</groupId>
 					<artifactId>esignet-authentication-wrapper</artifactId>
 					<version>${esignet-authentication-wrapper.version}</version>
 					<outputDirectory>${esignet-authentication-wrapper.location}</outputDirectory>
