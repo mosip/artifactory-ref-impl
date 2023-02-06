@@ -291,7 +291,7 @@
 <!-- artifactItem section for esignet authentication wrapper -->
 				<artifactItem>
 					<groupId>io.mosip.idp</groupId>
-					<artifactId>esignet-authentication-wrapper</artifactId>
+					<artifactId>authentication-wrapper</artifactId>
 					<version>${esignet-authentication-wrapper.version}</version>
 					<outputDirectory>${esignet-authentication-wrapper.location}</outputDirectory>
 					<destFileName>${esignet-authentication-wrapper.fileName}</destFileName>
