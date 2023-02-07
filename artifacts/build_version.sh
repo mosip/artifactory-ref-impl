@@ -2,6 +2,7 @@
 
 version=1.2.0.1-SNAPSHOT
 idp_auth_wrapper_version=0.9.0-SNAPSHOT
+esignet_auth_wrapper_version=1.0.0-SNAPSHOT
 
 echo Script to fetch the timestamp for each required snapshot artifactory
 
@@ -40,3 +41,8 @@ curl -s https://oss.sonatype.org/content/repositories/snapshots/io/mosip/authent
 echo timestamp for IDP auth wrapper jar
 
 curl -s https://oss.sonatype.org/content/repositories/snapshots/io/mosip/idp/authentication-wrapper/${idp_auth_wrapper_version}/maven-metadata.xml | grep value | sed "s/.*<value>\([^<]*\)<\/value>.*/\1/" | sed -n '1p'
+
+
+echo timestamp for Esignet auth wrapper jar
+
+curl -s https://oss.sonatype.org/content/repositories/snapshots/io/mosip/idp/authentication-wrapper/${esignet_auth_wrapper_version}/maven-metadata.xml | grep value | sed "s/.*<value>\([^<]*\)<\/value>.*/\1/" | sed -n '1p'
