@@ -38,7 +38,7 @@
     "Manage-Authentication" : "Manage Authentication",
     "Manage-Service-Requests" : "Manage Service Requests",
     "Manage-Credentials" : "Manage Credentials",
-	"individual_id" : "UIN/VID used in login"
+    "individual_id" : "UIN/VID used in login"
   },
   "l1Biometrics": {
     "scan_and_verify": "Scan and Verify",

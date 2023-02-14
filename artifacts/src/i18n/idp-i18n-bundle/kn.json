@@ -38,7 +38,7 @@
     "Manage-Authentication" : "ಪ್ರಮಾಣೀಕರಣವನ್ನು ನಿರ್ವಹಿಸಿ",
     "Manage-Service-Requests" : "ಸೇವೆ ವಿನಂತಿಗಳನ್ನು ನಿರ್ವಹಿಸಿ",
     "Manage-Credentials" : "ರುಜುವಾತುಗಳನ್ನು ನಿರ್ವಹಿಸಿ",
-	"individual_id" : "ಲಾಗಿನ್ ಮಾಡುವಾಗ ಬಳಸಲಾದ UIN/VID"
+    "individual_id" : "ಲಾಗಿನ್ ಮಾಡುವಾಗ ಬಳಸಲಾದ UIN/VID"
   },
   "l1Biometrics": {
     "scan_and_verify": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಪರಿಶೀಲಿಸಿ",
