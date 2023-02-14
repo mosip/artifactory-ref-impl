@@ -37,7 +37,8 @@
     "Manage-VID" : "VID ஐ நிர்வகிக்கவும்",
     "Manage-Authentication" : "அங்கீகாரத்தை நிர்வகிக்கவும்",
     "Manage-Service-Requests" : "சேவை கோரிக்கைகளை நிர்வகிக்கவும்",
-    "Manage-Credentials" : "உறுதிப்படுத்துகைகளை நிர்வகிக்கவும்"
+    "Manage-Credentials" : "உறுதிப்படுத்துகைகளை நிர்வகிக்கவும்",
+	"individual_id" : "உள்நுழைவில் பயன்படுத்தப்பட்ட UIN/VID"
   },
   "l1Biometrics": {
     "scan_and_verify": "ஸ்கேன் செய்து சரிபார்க்கவும்",

@@ -37,7 +37,8 @@
     "Manage-VID" : "Manage VID",
     "Manage-Authentication" : "वीआईडी प्रबंधित करें",
     "Manage-Service-Requests" : "सेवा अनुरोधों को प्रबंधित करें",
-    "Manage-Credentials" : "प्रमाणपत्रों को प्रबंधित करें"
+    "Manage-Credentials" : "प्रमाणपत्रों को प्रबंधित करें",
+	"individual_id" : "लॉगिन में उपयोग किए गए UIN/VID"
   },
   "l1Biometrics": {
     "scan_and_verify": "स्कैन करें और सत्यापित करें",
