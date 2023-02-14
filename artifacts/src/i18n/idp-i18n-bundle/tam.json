@@ -33,11 +33,11 @@
     "essential_claims_tooltip": "சேவை வழங்குநரால் தேவைப்படும் பயனர் தகவல் கட்டாயம்",
     "voluntary_claims_tooltip": "சேவை வழங்குனருடன் பகிர்வதற்கு குடியிருப்பாளர் தேர்வுசெய்யக்கூடிய கூடுதல் பயனர் தகவல்",
     "logo_alt": "e-Signet",
-	"Manage-Identity-Data":"அடையாள தரவை நிர்வகிக்கவும்",
-	"Manage-VID" : "VID ஐ நிர்வகிக்கவும்",
-	"Manage-Authentication" : "அங்கீகாரத்தை நிர்வகிக்கவும்",
-	"Manage-Service-Requests" : "சேவை கோரிக்கைகளை நிர்வகிக்கவும்",
-	"Manage-Credentials" : "உறுதிப்படுத்துகைகளை நிர்வகிக்கவும்"
+    "Manage-Identity-Data":"அடையாள தரவை நிர்வகிக்கவும்",
+    "Manage-VID" : "VID ஐ நிர்வகிக்கவும்",
+    "Manage-Authentication" : "அங்கீகாரத்தை நிர்வகிக்கவும்",
+    "Manage-Service-Requests" : "சேவை கோரிக்கைகளை நிர்வகிக்கவும்",
+    "Manage-Credentials" : "உறுதிப்படுத்துகைகளை நிர்வகிக்கவும்"
   },
   "l1Biometrics": {
     "scan_and_verify": "ஸ்கேன் செய்து சரிபார்க்கவும்",
