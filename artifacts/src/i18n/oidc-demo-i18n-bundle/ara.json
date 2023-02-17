@@ -20,7 +20,7 @@
     "password": "كلمة المرور",
     "submit": "إرسال",
     "or": "أو",
-    "sign_in_with_mosip": "تسجيل الدخول باستخدام MOSIP",
+    "sign_in_with_mosip": "تسجيل الدخول باستخدام National ID",
     "dont_have_existing_account": "ليس لديك حساب موجود؟",
     "sign_up_here": "سجل هنا"
   },
@@ -31,7 +31,7 @@
     "password": "كلمة المرور",
     "submit": "إرسال",
     "or": "أو",
-    "sign_up_with_mosip": "قم بالتسجيل مع MOSIP",
+    "sign_up_with_mosip": "قم بالتسجيل مع National ID",
     "already_have_account": "هل لديك حساب؟",
     "sign_in_here": "تسجيل الدخول هنا"
   },
@@ -51,15 +51,15 @@
     "date_of_birth": "تاريخ الولادة",
     "city": "مدينة",
     "address": "تبوك",
-    "fetch_details": "إحضار التفاصيل من MOSIP",
+    "fetch_details": "إحضار التفاصيل من National ID",
     "register": "يسجل",
     "loading_msg": "تحميل! يرجى الانتظار...",
     "phone_number": "رقم التليفون"
   },
   "error": {
-    "sign_in_failed": "المصادقة فشلت! حاول تسجيل الدخول باستخدام MOSIP",
-    "sign_up_failed": "فشل انشاء الحساب! حاول تسجيل الدخول باستخدام MOSIP",
-    "invalid_details": "تفاصيل غير صحيحة! حاول جلب التفاصيل من MOSIP",
+    "sign_in_failed": "المصادقة فشلت! حاول تسجيل الدخول باستخدام National ID",
+    "sign_up_failed": "فشل انشاء الحساب! حاول تسجيل الدخول باستخدام National ID",
+    "invalid_details": "تفاصيل غير صحيحة! حاول جلب التفاصيل من National ID",
     "authCode_missing": "AuthCode مفقود",
     "no_response_msg": "لا يوجد رد",
     "no_devices_found_msg": "لم يتم العثور علي الجهاز. يرجى التحقق من الاتصال وإعادة المحاولة.",

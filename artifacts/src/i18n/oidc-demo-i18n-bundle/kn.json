@@ -20,7 +20,7 @@
     "password": "ಗುಪ್ತಪದ",
     "submit": "ಸಲ್ಲಿಸು",
     "or": "ಅಥವಾ",
-    "sign_in_with_mosip": "MOSIP ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "sign_in_with_mosip": "National ID ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
     "dont_have_existing_account": "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಖಾತೆಯನ್ನು ಹೊಂದಿಲ್ಲವೇ?",
     "sign_up_here": "ಇಲ್ಲಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ"
   },
@@ -31,7 +31,7 @@
     "password": "ಗುಪ್ತಪದ",
     "submit": "ಸಲ್ಲಿಸು",
     "or": "ಅಥವಾ",
-    "sign_up_with_mosip": "MOSIP ನೊಂದಿಗೆ ಸೈನ್ ಅಪ್ ಮಾಡಿ",
+    "sign_up_with_mosip": "National ID ನೊಂದಿಗೆ ಸೈನ್ ಅಪ್ ಮಾಡಿ",
     "already_have_account": "ಈಗಾಗಲೇ ಖಾತೆ ಹೊಂದಿದ್ದೀರ?",
     "sign_in_here": "ಇಲ್ಲಿ ಸೈನ್ ಇನ್ ಮಾಡಿ"
   },
@@ -51,15 +51,15 @@
     "date_of_birth": "ಹುಟ್ತಿದ ದಿನ",
     "city": "ನಗರ",
     "address": "ವಿಳಾಸ",
-    "fetch_details": "MOSIP ನಿಂದ ವಿವರಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ",
+    "fetch_details": "National ID ನಿಂದ ವಿವರಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ",
     "register": "ನೋಂದಣಿ",
     "loading_msg": "ಲೋಡ್ ಆಗುತ್ತಿದೆ! ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...",
     "phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ"
   },
   "error": {
-    "sign_in_failed": "ಪ್ರಮಾಣೀಕರಣ ವಿಫಲವಾಗಿದೆ! MOSIP ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ",
-    "sign_up_failed": "ಸೈನ್ ಅಪ್ ವಿಫಲವಾಗಿದೆ! MOSIP ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ",
-    "invalid_details": "ಅಮಾನ್ಯ ವಿವರಗಳು! MOSIP ನಿಂದ ವಿವರಗಳನ್ನು ಪಡೆಯಲು ಪ್ರಯತ್ನಿಸಿ",
+    "sign_in_failed": "ಪ್ರಮಾಣೀಕರಣ ವಿಫಲವಾಗಿದೆ! National ID ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ",
+    "sign_up_failed": "ಸೈನ್ ಅಪ್ ವಿಫಲವಾಗಿದೆ! National ID ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ",
+    "invalid_details": "ಅಮಾನ್ಯ ವಿವರಗಳು! National ID ನಿಂದ ವಿವರಗಳನ್ನು ಪಡೆಯಲು ಪ್ರಯತ್ನಿಸಿ",
     "authCode_missing": "ದೃಢೀಕರಣ ಕೋಡ್ ಕಾಣೆಯಾಗಿದೆ",
     "no_response_msg": "ಪ್ರತಿಕ್ರಿಯೆ ಇಲ್ಲ",
     "no_devices_found_msg": "ಸಾಧನ ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮರುಪ್ರಯತ್ನಿಸಿ.",
