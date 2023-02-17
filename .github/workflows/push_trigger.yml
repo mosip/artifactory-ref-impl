@@ -7,6 +7,7 @@ on:
       - 1.1.5
       - 1.2.*
       - release*
+      - v1201-B3-accessh
 jobs:
 
   build-artifactory-server:
