@@ -99,8 +99,8 @@
     "WALLET": "ಇಂಜಿ",
     "OTP": "ಒಟಿಪಿ"
   },
-  "idpDetails": {
-    "idp_details_heading": "IDP ವಿವರಗಳು",
+  "esignetDetails": {
+    "esignet_details_heading": "Esignet ಪ್ರಸಿದ್ಧ API ಗಳು",
     "internal_api": "ಆಂತರಿಕ API",
     "wellknown_api": "ಪ್ರಸಿದ್ಧ API"
   },

@@ -99,8 +99,8 @@
     "WALLET": "Inji",
     "OTP": "OTP"
   },
-  "idpDetails": {
-    "idp_details_heading": "IDP Details",
+  "esignetDetails": {
+    "esignet_details_heading": "Esignet wellknown APIs",
     "internal_api": "Internal API",
     "wellknown_api": ".wellknown API"
   },

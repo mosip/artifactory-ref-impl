@@ -99,8 +99,8 @@
     "WALLET": "इंजि",
     "OTP": "ओटीपी"
   },
-  "idpDetails": {
-    "idp_details_heading": "आईडीपी विवरण",
+  "esignetDetails": {
+    "esignet_details_heading": "Esignet प्रसिद्ध एपीआई",
     "internal_api": "आंतरिक एपीआई",
     "wellknown_api": ".प्रसिद्ध एपीआई"
   },

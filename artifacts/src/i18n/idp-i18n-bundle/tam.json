@@ -99,8 +99,8 @@
     "WALLET": "இன்ஜி",
     "OTP": "OTP"
   },
-  "idpDetails": {
-    "idp_details_heading": "IDP விவரங்கள்",
+  "esignetDetails": {
+    "esignet_details_heading": "Esignet நன்கு அறியப்பட்ட APIகள்",
     "internal_api": "உள் API",
     "wellknown_api": ".wellknown API"
   },
