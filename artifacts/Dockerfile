@@ -141,6 +141,8 @@ COPY /src/i18n/idp-i18n-bundle/*  ${work_dir}/idp-i18n-bundle/
 
 COPY /src/i18n/oidc-demo-i18n-bundle/*  ${work_dir}/oidc-demo-i18n-bundle/
 
+COPY /src/i18n/mock-relying-party-i18n-bundle/*  ${work_dir}/mock-relying-party-i18n-bundle/
+
 COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
