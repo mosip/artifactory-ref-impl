@@ -50,6 +50,7 @@ zip -r -j ${i18n_zip_path}/oidc-demo-i18n-bundle.zip ${work_dir}/oidc-demo-i18n-
 zip -r -j ${i18n_zip_path}/idp-i18n-bundle.zip ${work_dir}/idp-i18n-bundle/*
 zip -r -j ${i18n_zip_path}/mock-relying-party-i18n-bundle.zip ${work_dir}/mock-relying-party-i18n-bundle/*
 zip -r -j ${i18n_zip_path}/esignet-i18n-bundle.zip ${work_dir}/esignet-i18n-bundle/*
+
 rm -rf ${work_dir}/admin-i18n-bundle ${work_dir}/pmp-i18n-bundle ${work_dir}/pre-registration-i18n-bundle ${work_dir}/oidc-demo-i18n-bundle ${work_dir}/idp-i18n-bundle
 echo i18n-bundle zip creation completed
 
