@@ -48,7 +48,7 @@
     "hide_raw_user_info": "அசல் பயனர் தகவலை மறை"
   },
   "registration": {
-    "child_registration": "குழந்தை பதிவு",
+    "child_registration": "உபயோகிப்போர் பதிவு",
     "full_name": "முழு பெயர்",
     "gender": "பாலினம்",
     "date_of_birth": "பிறந்த தேதி",
@@ -57,7 +57,10 @@
     "fetch_details": "e-Signet இலிருந்து விவரங்களைப் பெறவும்",
     "register": "பதிவு",
     "loading_msg": "ஏற்றுகிறது! தயவுசெய்து காத்திருங்கள்...",
-    "phone_number": "தொலைபேசி எண்"
+    "phone_number": "தொலைபேசி எண்",
+    "email_address": "மின்னஞ்சல் முகவரி",
+    "show_raw_user_info": "அசல் பயனர் தகவலைக் காட்டு",
+    "hide_raw_user_info": "அசல் பயனர் தகவலை மறை"
   },
   "error": {
     "sign_in_failed": "அங்கீகரிப்பு தோல்வியுற்றது! e-Signet மூலம் உள்நுழைய முயற்சிக்கவும்",
