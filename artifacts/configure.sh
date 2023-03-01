@@ -13,7 +13,7 @@ set -e
 
 echo biosdk client zip creation started
 zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/biosdk-client/*
-rm -rf ${biosdk_client_zip_path}/biosdk-client
+# rm -rf ${biosdk_client_zip_path}/biosdk-client
 echo biosdk client zip creation completed
 
 echo jpeg-sdk-lib zip creation started
