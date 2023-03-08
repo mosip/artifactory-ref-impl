@@ -86,7 +86,7 @@ ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 ENV idp_auth_wrapper_lib_zip_path=${base_path}/libs-release-local/idp/idp-auth-wrapper
 
 # environment variable for esignet wrappers zip path
-ENV esignet_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet/esignet-wrapper
+ENV esignet_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet
 
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
