@@ -33,11 +33,11 @@
     "essential_claims_tooltip": "معلومات المستخدم الإلزامية التي يطلبها مزود الخدمة",
     "voluntary_claims_tooltip": "معلومات المستخدم الإضافية التي يمكن للمقيم اختيار مشاركتها مع مزود الخدمة",
     "logo_alt": "e-Signet",
-    "Manage-Identity-Data":"إدارة بيانات الهوية",
-    "Manage-VID" : "إدارة VID",
-    "Manage-Authentication" : "إدارة المصادقة / التوثيق",
-    "Manage-Service-Requests" : "إدارة طلبات الخدمة",
-    "Manage-Credentials" : "إدارة بيانات الاعتماد",
+    "Manage-Identity-Data":"السماح بالوصول لإدارة بيانات الهوية",
+    "Manage-VID" : "السماح بالوصول لإدارة VID",
+    "Manage-Authentication" : "السماح بالوصول لإدارة المصادقة",
+    "Manage-Service-Requests" : "السماح بالوصول لإدارة طلبات الخدمة",
+    "Manage-Credentials" : "السماح بالوصول لإدارة الاعتمادات",
     "individual_id" : "مُعرّف UIN/VID المستخدم في تسجيل الدخول"
   },
   "l1Biometrics": {
