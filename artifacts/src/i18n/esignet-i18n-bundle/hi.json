@@ -33,11 +33,11 @@
     "essential_claims_tooltip": "सेवा प्रदाता द्वारा आवश्यक अनिवार्य उपयोगकर्ता जानकारी",
     "voluntary_claims_tooltip": "अतिरिक्त उपयोगकर्ता जानकारी जिसे निवासी सेवा प्रदाता के साथ साझा करना चुन सकता है",
     "logo_alt": "ई-सिग्नेट",
-    "Manage-Identity-Data":"पहचान डेटा प्रबंधित करें",
-    "Manage-VID" : "Manage VID",
-    "Manage-Authentication" : "वीआईडी प्रबंधित करें",
-    "Manage-Service-Requests" : "सेवा अनुरोधों को प्रबंधित करें",
-    "Manage-Credentials" : "प्रमाणपत्रों को प्रबंधित करें",
+    "Manage-Identity-Data":"पहचान डेटा को प्रबंधित करने के लिए पहुंच अनुमति दें",
+    "Manage-VID" : "VID को प्रबंधित करने के लिए पहुंच अनुमति दें",
+    "Manage-Authentication" : "प्रमाणीकरण को प्रबंधित करने के लिए पहुंच अनुमति दें",
+    "Manage-Service-Requests" : "सेवा अनुरोधों को प्रबंधित करने के लिए पहुंच अनुमति दें",
+    "Manage-Credentials" : "प्रमाणपत्रों को प्रबंधित करने के लिए पहुंच अनुमति दें",
     "individual_id" : "लॉगिन में उपयोग किए गए UIN/VID"
   },
   "l1Biometrics": {
