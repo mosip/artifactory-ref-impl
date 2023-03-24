@@ -1247,7 +1247,7 @@
         "KER-MSD-337": "Error occured while fetching zone",
         "KER-MSD-339": "No zone found for the logged-in user %s",
         "KER-MSD-338": "Error Occured while fetching zone of the user",
-        "KER-MSD-391": "Entity for user ID specified Not Found",
+        "KER-MSD-391": "Zone mapping missing. Kindly map the user to zone",
         "KER-MSD-392": "Entity for Zone Code of user ID specified Not Found",
         "ADM-PKT-001": "Admin is not authorized",
         "KER-MSD-393": "Internal Server Error",
