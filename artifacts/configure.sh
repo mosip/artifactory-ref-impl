@@ -31,6 +31,11 @@ zip -r -j ${demosdk_zip_path}/demosdk.zip ${demosdk_zip_path}/demosdk/*
 rm -rf ${demosdk_zip_path}/demosdk
 echo demosdk-client zip creation completed
 
+echo esignet-wrappers zip creation started
+zip -r -j ${esignet_wrapper_lib_zip_path}/esignet-wrapper.zip ${esignet_wrapper_lib_zip_path}/esignet-wrapper/*
+rm -rf ${esignet_wrapper_lib_zip_path}/esignet-wrapper
+echo esignet-wrapper zip creation completed
+
 echo Creating resources.zip file for all the resources provided
 zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources
 rm -rf ${work_dir}/resources
