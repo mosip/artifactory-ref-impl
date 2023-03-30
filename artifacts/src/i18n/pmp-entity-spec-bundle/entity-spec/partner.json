@@ -1,15 +1,15 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [
-		{
+	"actionButtons": [{
 			"buttonName": {
 				"eng": "Activate",
-				"ara": "Activate_ara",
-				"fra": "Activate_fra",
-				"hin": "Activate_hin",
-				"kan": "Activate_kan",
-				"tam": "Activate_tam"
+				"ara": "تفعيل",
+				"fra": "Activer",
+				"hin": "सक्रिय",
+				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயல்படுத்த"
 			},
+
 			"actionURL": "",
 			"redirectURL": "",
 			"showIn": "Ellipsis",
@@ -19,11 +19,11 @@
 		{
 			"buttonName": {
 				"eng": "Deactivate",
-				"ara": "Deactivate_ara",
-				"fra": "Deactivate_fra",
-				"hin": "Deactivate_hin",
-				"kan": "Deactivate_kan",
-				"tam": "Deactivate_tam"
+				"ara": "تعطيل",
+				"fra": "Désactiver",
+				"hin": "निष्क्रिय करें",
+				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயலிழக்கச் செய்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -34,11 +34,11 @@
 		{
 			"buttonName": {
 				"eng": "Upload Certificate",
-				"ara": "Upload Certificate_ara",
-				"fra": "Upload Certificate_fra",
-				"hin": "Upload Certificate_hin",
-				"kan": "Upload Certificate_kan",
-				"tam": "Upload Certificate_tam"
+				"ara": "تحميل الشهادة",
+				"fra": "Télécharger le certificat",
+				"hin": "प्रमाणपत्र अपलोड करें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+				"tam": "சான்றிதழை பதிவேற்றவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -49,11 +49,11 @@
 		{
 			"buttonName": {
 				"eng": "View Certificate",
-				"ara": "View Certificate_ara",
-				"fra": "View Certificate_fra",
-				"hin": "View Certificate_hin",
-				"kan": "View Certificate_kan",
-				"tam": "View Certificate_tam"
+				"ara": "مشاهدة الشهادة",
+				"fra": "Afficher le certificat",
+				"hin": "प्रमाणपत्र देखें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ವೀಕ್ಷಿಸಿ",
+				"tam": "சான்றிதழைப் பார்க்கவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -64,11 +64,11 @@
 		{
 			"buttonName": {
 				"eng": "Filter",
-				"ara": "Filter_ara",
-				"fra": "Filter_fra",
-				"hin": "Filter_hin",
-				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -85,11 +85,11 @@
 			"showInListView": "false",
 			"label": {
 				"eng": "ID",
-				"ara": "ID_ara",
-				"fra": "ID_fra",
-				"hin": "ID_hin",
-				"kan": "ID_kan",
-				"tam": "ID_tam"
+				"ara": "بطاقة تعريف",
+				"fra": "IDENTIFIANT",
+				"hin": "पहचान",
+				"kan": "ಐಡಿ",
+				"tam": "ஐடி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -101,11 +101,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Organization Name",
-				"ara": "Organization Name_ara",
-				"fra": "Organization Name_fra",
-				"hin": "Organization Name_hin",
-				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
+				"ara": "اسم المنظمة",
+				"fra": "nom de l'organisation",
+				"hin": "संगठन का नाम",
+				"kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+				"tam": "நிறுவன பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -117,11 +117,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Partner Type",
-				"ara": "Partner Type_ara",
-				"fra": "Partner Type_fra",
-				"hin": "Partner Type_hin",
-				"kan": "Partner Type_kan",
-				"tam": "Partner Type_tam"
+				"ara": "نوع الشريك",
+				"fra": "Type de partenaire",
+				"hin": "साथी प्रकार",
+				"kan": "ಪಾಲುದಾರ ಪ್ರಕಾರ",
+				"tam": "கூட்டாளர் வகை"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -133,11 +133,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Email id",
-				"ara": "Email id_ara",
-				"fra": "Email id_fra",
-				"hin": "Email id_hin",
-				"kan": "Email id_kan",
-				"tam": "Email id_tam"
+				"ara": "عنوان الايميل",
+				"fra": "Identifiant de messagerie",
+				"hin": "ईमेल आईडी",
+				"kan": "ಇಮೇಲ್ ಐಡಿ",
+				"tam": "மின்னஞ்சல் முகவரி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -149,11 +149,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Policy Group",
-				"ara": "Policy Group_ara",
-				"fra": "Policy Group_fra",
-				"hin": "Policy Group_hin",
-				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
+				"ara": "مجموعة السياسة",
+				"fra": "Groupe de politiques",
+				"hin": "नीति समूह",
+				"kan": "ನೀತಿ ಗುಂಪು",
+				"tam": "கொள்கை குழு"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -165,11 +165,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Contact Number",
-				"ara": "Contact Number_ara",
-				"fra": "Contact Number_fra",
-				"hin": "Contact Number_hin",
-				"kan": "Contact Number_kan",
-				"tam": "Contact Number_tam"
+				"ara": "رقم الاتصال",
+				"fra": "Numéro de contact",
+				"hin": "संपर्क संख्या",
+				"kan": "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
+				"tam": "தொடர்பு எண்"
 			},
 			"sortOrder": "",
 			"showAsLink": "false",
@@ -181,10 +181,10 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Approval Status",
-				"ara": "Approval Status_ara",
-				"fra": "Approval Status_fra",
-				"hin": "Approval Status_hin",
-				"kan": "Approval Status_kan",
+				"ara": "حالة القبول",
+				"fra": "Statut approuvé",
+				"hin": "अनुमोदन स्थिति",
+				"kan": "ಅನುಮೋದನೆ ಸ್ಥಿತಿ",
 				"tam": "Approval Status_tam"
 			},
 			"sortOrder": "",
@@ -196,11 +196,11 @@
 			"name": "isActive",
 			"label": {
 				"eng": "Status",
-				"ara": "Status_ara",
-				"fra": "Status_fra",
-				"hin": "Status_hin",
-				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -216,11 +216,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "PolicyName",
-				"ara": "PolicyName_ara",
-				"fra": "PolicyName_fra",
-				"hin": "PolicyName_hin",
-				"kan": "PolicyName_kan",
-				"tam": "PolicyName_tam"
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -232,11 +232,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "Email",
-				"ara": "Email_ara",
-				"fra": "Email_fra",
-				"hin": "Email_hin",
-				"kan": "Email_kan",
-				"tam": "Email_tam"
+				"ara": "البريد الإلكتروني",
+				"fra": "E-mail",
+				"hin": "ईमेल",
+				"kan": "ಇಮೇಲ್",
+				"tam": "மின்னஞ்சல்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -248,11 +248,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "Status",
-				"ara": "Status_ara",
-				"fra": "Status_fra",
-				"hin": "Status_hin",
-				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -264,11 +264,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "Address",
-				"ara": "Address_ara",
-				"fra": "Address_fra",
-				"hin": "Address_hin",
-				"kan": "Address_kan",
-				"tam": "Address_tam"
+				"ara": "تبوك",
+				"fra": "Adresse",
+				"hin": "पता",
+				"kan": "ವಿಳಾಸ",
+				"tam": "முகவரி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -280,11 +280,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "Submit Request Status",
-				"ara": "Submit Request Status_ara",
-				"fra": "Submit Request Status_fra",
-				"hin": "Submit Request Status_hin",
-				"kan": "Submit Request Status_kan",
-				"tam": "Submit Request Status_tam"
+				"ara": "إرسال حالة الطلب",
+				"fra": "Soumettre le statut de la demande",
+				"hin": "अनुरोध स्थिति सबमिट करें",
+				"kan": "ವಿನಂತಿಯ ಸ್ಥಿತಿಯನ್ನು ಸಲ್ಲಿಸಿ",
+				"tam": "கோரிக்கை நிலையைச் சமர்ப்பிக்கவும்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -301,11 +301,11 @@
 			"filtername": "name",
 			"filterlabel": {
 				"eng": "Organization Name",
-				"ara": "Organization Name_ara",
-				"fra": "Organization Name_fra",
-				"hin": "Organization Name_hin",
-				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
+                                "ara": "اسم المنظمة",
+                                "fra": "nom de l'organisation",
+                                "hin": "संगठन का नाम",
+                                "kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+                                "tam": "நிறுவன பெயர்"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -320,11 +320,11 @@
 			"filtername": "partnerTypeCode",
 			"filterlabel": {
 				"eng": "Partner Type",
-				"ara": "Partner Type_ara",
-				"fra": "Partner Type_fra",
-				"hin": "Partner Type_hin",
-				"kan": "Partner Type_kan",
-				"tam": "Partner Type_tam"
+                                "ara": "نوع الشريك",
+                                "fra": "Type de partenaire",
+                                "hin": "साथी प्रकार",
+                                "kan": "ಪಾಲುದಾರ ಪ್ರಕಾರ",
+                                "tam": "கூட்டாளர் வகை"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -339,11 +339,11 @@
 			"filtername": "emailId",
 			"filterlabel": {
 				"eng": "Email",
-				"ara": "Email_ara",
-				"fra": "Email_fra",
-				"hin": "Email_hin",
-				"kan": "Email_kan",
-				"tam": "Email_tam"
+                                "ara": "البريد الإلكتروني",
+                                "fra": "E-mail",
+                                "hin": "ईमेल",
+                                "kan": "ಇಮೇಲ್",
+                                "tam": "மின்னஞ்சல்"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -358,11 +358,11 @@
 			"filtername": "policyGroupId",
 			"filterlabel": {
 				"eng": "Policy Group",
-				"ara": "Policy Group_ara",
-				"fra": "Policy Group_fra",
-				"hin": "Policy Group_hin",
-				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
+ "ara": "مجموعة السياسة",
+ "fra": "Groupe de politiques",
+ "hin": "नीति समूह",
+ "kan": "ನೀತಿ ಗುಂಪು",
+ "tam": "கொள்கை குழு"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -377,11 +377,11 @@
 			"filtername": "contactNo",
 			"filterlabel": {
 				"eng": "Contact Number",
-				"ara": "Contact Number_ara",
-				"fra": "Contact Number_fra",
-				"hin": "Contact Number_hin",
-				"kan": "Contact Number_kan",
-				"tam": "Contact Number_tam"
+ "ara": "رقم الاتصال",
+ "fra": "Numéro de contact",
+ "hin": "संपर्क संख्या",
+	"kan": "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
+	"tam": "தொடர்பு எண்"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -396,11 +396,11 @@
 			"filtername": "approvalStatus",
 			"filterlabel": {
 				"eng": "Approval Status",
-				"ara": "Approval Status_ara",
-				"fra": "Approval Status_fra",
-				"hin": "Approval Status_hin",
-				"kan": "Approval Status_kan",
-				"tam": "Approval Status_tam"
+ "ara": "حالة القبول",
+ "fra": "Statut approuvé",
+ "hin": "अनुमोदन स्थिति",
+	"kan": "ಅನುಮೋದನೆ ಸ್ಥಿತಿ",
+	"tam": "ஒப்புதல் நிலை"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
