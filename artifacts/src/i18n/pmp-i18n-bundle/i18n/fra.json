@@ -1,464 +1,464 @@
 {
   "menuItems": {
     "item1": {
-      "title": "HOME_fra"
+      "title": "DOMICILE"
     },
     "item2": {
-      "title": "Policy_fra",
-      "subItem1": "Policy Group_fra",
-      "subItem2": "Auth Policy_fra",
-      "subItem3": "Data Share Policy_fra"
+      "title": "Politique",
+      "subItem1": "Groupe de politiques",
+      "subItem2": "Politique d'authentification",
+      "subItem3": "Politique de partage de données"
     },
     "item3": {
-      "title": "Partner_fra"
+      "title": "Partenaire"
     },
     "item4": {
-      "title": "Device Details_fra"
+      "title": "Détails de l'appareil"
     },
     "item5": {
-      "title": "FTM Details_fra"
+      "title": "Détails FTM"
     },
     "item6": {
-      "title": "SBI Details_fra"
+      "title": "Détails SBI"
     },
     "item7": {
-      "title": "Partner Policy Mapping_fra"
+      "title": "Cartographie de la politique des partenaires"
     },
     "item8": {
-      "title": "Upload CA Certificate_fra"
+      "title": "Télécharger le certificat CA"
     }
   },
   "dashboard": {
-    "welcomeMessage":"Welcome to Mosip Partner portal fra !",
-    "Logout":"Logout_fra"
+    "welcomeMessage":"Bienvenue sur le portail des partenaires Mosip !",
+    "Logout":"Se déconnecter"
   },
   "singleView": {
     "errorMessages": [
-      "No record found_fra",
-      "A technical error has occurred_fra"
+      "Aucun Enregistrement Trouvé",
+      "Une erreur technique s'est produite"
     ],
-    "buttonText": "OK_fra",
-    "title": "Error_fra"
+    "buttonText": "D'ACCORD",
+    "title": "Erreur"
   },
   "masterData": {
-    "master-data": "Master Data_fra",
-    "total-no": "Total No_fra",
-    "common": "Common_fra",
-    "device-definition": "Device Definition_fra",
-    "machine-definition": "Machine Definition_fra",
-    "document-definition": "Document Definition_fra",
-    "doc-category-mapping": "Doc Category - Type Mapping_fra",
-    "category": "Category_fra",
-    "mapped-documents": "Mapped Documents_fra",
-    "unmapped-documents": "Unmapped Documents_fra"
+    "master-data": "Données de base",
+    "total-no": "Total Non",
+    "common": "Commun",
+    "device-definition": "Définition de l'appareil",
+    "machine-definition": "Définition de la machine",
+    "document-definition": "Définition du document",
+    "doc-category-mapping": "Catégorie de document - Mappage de type",
+    "category": "Catégorie",
+    "mapped-documents": "Documents mappés",
+    "unmapped-documents": "Documents non mappés"
   },
   "pmanager": {
-    "status": "Status_fra",
-    "language": "English_fra",
-    "edit": "Edit_fra",
-    "create": "Create_fra",
-    "cancel": "Cancel_fra",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
-    "update": "Update_fra",
-    "created-on": "Created On_fra",
-    "created-by": "Created By_fra",
-    "updated-on": "Updated On_fra",
-    "updated-by": "Updated By_fra",
-    "header": "Change Policy_fra",
-    "name": "Policy Name_fra",
+    "status": "Statut",
+    "language": "Anglais",
+    "edit": "Éditer",
+    "create": "Créer",
+    "cancel": "Annuler",
+    "keyboard-tooltip": "Cliquez pour le clavier virtuel (anglais)",
+    "update": "Mise à jour",
+    "created-on": "Créé sur",
+    "created-by": "Créé par",
+    "updated-on": "Mis à jour le",
+    "updated-by": "Mis à jour par",
+    "header": "Modifier la politique",
+    "name": "Nom de la politique",
     "popupMessages": {
       "create": {
-        "title": "Confirmation_fra",
+        "title": "Confirmation",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"
+          "Vous êtes sur le point de créer un centre d'enregistrement dans ",
+          ". Veuillez vous assurer que toutes les informations sont correctes. L'ID du centre sera généré une fois que vous aurez confirmé"
         ],
-        "yesBtnText": "Yes_fra",
-        "noBtnText": "No_fra",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
+        "yesBtnText": "Oui",
+        "noBtnText": "Non",
+        "mandatorySecondaryFields": "Vous n'avez pas rempli les données obligatoires dans la langue secondaire. Le centre d'inscription sera créé uniquement dans la langue principale. Souhaitez-vous toujours continuer ?"
       },
       "edit": {
-        "title": "Confirmation_fra",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_fra",
-        "yesBtnText": "Confirm_fra",
-        "noBtnText": "Cancel_fra",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
+        "title": "Confirmation",
+        "message": "Vous êtes sur le point de mettre à jour un centre d'enregistrement. Veuillez vous assurer que toutes les informations sont correctes",
+        "yesBtnText": "Confirmer",
+        "noBtnText": "Annuler",
+        "mandatorySecondaryFields": "Vous n'avez pas rempli les données obligatoires dans la langue secondaire. Le centre d'inscription sera créé uniquement dans la langue principale. Souhaitez-vous toujours continuer ?"
       },
       "update-success": {
-        "title": "Success_fra",
-        "message": "Partner is updated Successfully_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Succès",
+        "message": "Le partenaire est mis à jour avec succès",
+        "btnTxt": "D'ACCORD"
       },
       "update-error": {
-        "title": "Error_fra",
-        "message": "There was some issue in updating the Partner. Please try again_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Un problème est survenu lors de la mise à jour du partenaire. Veuillez réessayer",
+        "btnTxt": "D'ACCORD"
       },
       "create-success": {
-        "title": "Success_fra",
+        "title": "Succès",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Name: _fra"
+          "Le partenaire est créé avec succès avec l'ID partenaire : ",
+          " et nom du partenaire :"
         ],
-        "btnTxt": "Ok_fra"
+        "btnTxt": "D'ACCORD"
       },
       "create-error": {
-        "title": "Error_fra",
-        "message": "There was some issue in creating Partner. Please try again_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Il y a eu un problème lors de la création du partenaire. Veuillez réessayer",
+        "btnTxt": "D'ACCORD"
       },
       "navigation-popup": {
-        "title": "Confirmation_fra",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
-        "yesBtnTxt": "Leave_fra",
-        "noBtnTxt": "Stay_fra"
+        "title": "Confirmation",
+        "message": "Voulez-vous vraiment quitter cette page ? Toutes les données non enregistrées seront perdues.",
+        "yesBtnTxt": "Partir",
+        "noBtnTxt": "Rester"
       },
       "noData": {
-        "title": "Error_fra",
-        "message": "No Data Found_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Aucune donnée disponible",
+        "btnTxt": "D'ACCORD"
       }
     }
   },
   "partner": {
-    "address1": "Address_fra",
-    "header": "Partner Service_fra",
-    "name": "Organization_fra",
-    "id": "Id_fra",
-    "status": "Status_fra",
-    "language": "English_fra",
-    "edit": "Edit_fra",
-    "create": "Create_fra",
-    "cancel": "Cancel_fra",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
-    "update": "Update_fra",
-    "partner-details": "Partner Details_fra",
-    "created-on": "Created On_fra",
-    "created-by": "Created By_fra",
-    "updated-on": "Updated On_fra",
-    "updated-by": "Updated By_fra",
-    "registration-partner-name": "Organization Name_fra",
-    "registration-partner-type": "Policy Name_fra",
-    "contact-person": "Email Id_fra",
-    "contact-number": "Contact Number_fra",
-    "location-details": "Address Details_fra",
+    "address1": "Adresse",
+    "header": "Service partenaire",
+    "name": "Organisme",
+    "id": "Identifiant",
+    "status": "Statut",
+    "language": "Anglais",
+    "edit": "Éditer",
+    "create": "Créer",
+    "cancel": "Annuler",
+    "keyboard-tooltip": "Cliquez pour le clavier virtuel (anglais)",
+    "update": "Mise à jour",
+    "partner-details": "Détails du partenaire",
+    "created-on": "Créé sur",
+    "created-by": "Créé par",
+    "updated-on": "Mis à jour le",
+    "updated-by": "Mis à jour par",
+    "registration-partner-name": "nom de l'organisation",
+    "registration-partner-type": "Nom de la politique",
+    "contact-person": "Identifiant de messagerie",
+    "contact-number": "Numéro de contact",
+    "location-details": "Détails de l'adresse",
     "validationMessages": {
       "partnerTypeCode": {
-        "required": "Policy Name is required_fra"
+        "required": "Le nom de la stratégie est requis"
       },
       "name": {
-        "required": "Organization Name is required_fra",
-        "max-length": "Exceeded max length (128)_fra"
+        "required": "Le nom de l'organisation est requis",
+        "max-length": "Longueur maximale dépassée (128)"
       },
       "addressLine1": {
-        "required": "Address is required_fra",
-        "max-length": "Exceeded max length (256)_fra"
+        "required": "L'adresse est obligatoire",
+        "max-length": "Longueur maximale dépassée (256)"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_fra",
+        "title": "Confirmation",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"
+          "Vous êtes sur le point de créer un centre d'enregistrement dans",
+          ". Veuillez vous assurer que toutes les informations sont correctes. L'ID du centre sera généré une fois que vous aurez confirmé"
         ],
-        "yesBtnText": "Yes_fra",
-        "noBtnText": "No_fra",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
+        "yesBtnText": "Oui",
+        "noBtnText": "Non",
+        "mandatorySecondaryFields": "Vous n'avez pas rempli les données obligatoires dans la langue secondaire. Le centre d'inscription sera créé uniquement dans la langue principale. Souhaitez-vous toujours continuer ?"
       },
       "edit": {
-        "title": "Confirmation_fra",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_fra",
-        "yesBtnText": "Confirm_fra",
-        "noBtnText": "Cancel_fra",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_fra"
+        "title": "Confirmation",
+        "message": "Vous êtes sur le point de mettre à jour un centre d'enregistrement. Veuillez vous assurer que toutes les informations sont correctes",
+        "yesBtnText": "Confirmer",
+        "noBtnText": "Annuler",
+        "mandatorySecondaryFields": "Vous n'avez pas rempli les données obligatoires dans la langue secondaire. Le centre d'inscription sera créé uniquement dans la langue principale. Souhaitez-vous toujours continuer ?"
       },
       "update-success": {
-        "title": "Success_fra",
-        "message": "Partner is updated Successfully_fra",
+        "title": "Succès",
+        "message": "Le partenaire est mis à jour avec succès",
         "btnTxt": "Ok"
       },
       "update-error": {
-        "title": "Error_fra",
-        "message": "There was some issue in updating the Partner. Please try again_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Un problème est survenu lors de la mise à jour du partenaire. Veuillez réessayer",
+        "btnTxt": "D'ACCORD"
       },
       "create-success": {
-        "title": "Success_fra",
+        "title": "Succès",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Status is: _fra"
+          "Le partenaire est créé avec succès avec l'ID partenaire : ",
+          " et le statut de partenaire est :"
         ],
-        "btnTxt": "Ok_fra"
+        "btnTxt": "D'ACCORD"
       },
       "create-error": {
-        "title": "Error_fra",
-        "message": "There was some issue in creating Partner. Please try again_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Il y a eu un problème lors de la création du partenaire. Veuillez réessayer",
+        "btnTxt": "D'ACCORD"
       },
       "navigation-popup": {
-        "title": "Confirmation_fra",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
-        "yesBtnTxt": "Leave_fra",
-        "noBtnTxt": "Stay_fra"
+        "title": "Confirmation",
+        "message": "Voulez-vous vraiment quitter cette page ? Toutes les données non enregistrées seront perdues.",
+        "yesBtnTxt": "Partir",
+        "noBtnTxt": "Rester"
       },
       "noData": {
-        "title": "Error_fra",
-        "message": "No Data Found_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Aucune donnée disponible",
+        "btnTxt": "D'ACCORD"
       }
     }
   },
   "misp": {
-    "header": "MISP_fra",
-    "name": "Name_fra",
-    "id": "Id_fra",
-    "isActive": "Misp Status_fra",
-    "contact_no": "Phone No_fra",
-    "status": "Status_fra",
-    "address": "Address_fra",
-    "misp-details": "Misp Details_fra",
-    "created-on": "Created On_fra",
-    "created-by": "Created By_fra",
-    "updated-on": "Updated On_fra",
-    "updated-by": "Updated By_fra",
-    "email_id": "Email_fra",
-    "edit": "Edit_fra",
-    "create": "Create_fra",
-    "cancel": "Cancel_fra",
-    "language": "English_fra",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
-    "update": "Update_fra",
+    "header": "MISP",
+    "name": "Nom",
+    "id": "Identifiant",
+    "isActive": "Misp Statut",
+    "contact_no": "Phone Non",
+    "status": "Statut",
+    "address": "Adresse",
+    "misp-details": "Détails du MISP",
+    "created-on": "Créé sur",
+    "created-by": "Créé par",
+    "updated-on": "Mis à jour le",
+    "updated-by": "Mis à jour par",
+    "email_id": "Email",
+    "edit": "Éditer",
+    "create": "Créer",
+    "cancel": "Annuler",
+    "language": "Anglais",
+    "keyboard-tooltip": "Cliquez pour le clavier virtuel (anglais)",
+    "update": "Mise à jour",
     "validationMessages": {
       "name": {
-        "required": "Misp Name is required_fra",
-        "max-length": "Exceeded max length (128)_fra"
+        "required": "Le nom du MISP est requis",
+        "max-length": "Longueur maximale dépassée (128)"
       },
       "address": {
-        "required": "Misp Address is required_fra",
-        "max-length": "Exceeded max length (128)_fra"
+        "required": "Misp L'adresse est obligatoire",
+        "max-length": "Longueur maximale dépassée (128)"
       },
       "phoneNo": {
-        "required": "Misp phoneNo is required_fra"
+        "required": "Le numéro de téléphone misp est requis"
       },
       "email": {
-        "required": "Misp email is required_fra"
+        "required": "L'e-mail misp est requis"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_fra",
+        "title": "Confirmation",
         "message": [
           "You are about to create a Misp in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"
+          ". Please ensure that all the information is correct. Center ID will be generated once you Confirmer"
         ],
-        "yesBtnText": "Yes_fra",
-        "noBtnText": "No_fra",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_fra"
+        "yesBtnText": "Oui",
+        "noBtnText": "Non",
+        "mandatorySecondaryFields": "Vous n'avez pas rempli les données obligatoires dans la langue secondaire. Misp sera créé uniquement dans la langue principale. Souhaitez-vous toujours continuer ?"
       },
       "edit": {
-        "title": "Confirmation_fra",
-        "message": "You are about to update a misp. Please ensure that all the information is correct_fra",
-        "yesBtnText": "Confirm_fra",
-        "noBtnText": "Cancel_fra",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_fra"
+        "title": "Confirmation",
+        "message": "Vous êtes sur le point de mettre à jour un misp. Veuillez vous assurer que toutes les informations sont correctes",
+        "yesBtnText": "Confirmer",
+        "noBtnText": "Annuler",
+        "mandatorySecondaryFields": "Vous n'avez pas rempli les données obligatoires dans la langue secondaire. Misp sera créé uniquement dans la langue principale. Souhaitez-vous toujours continuer ?"
       },
       "update-success": {
-        "title": "Success_fra",
-        "message": "Misp is updated Successfully_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Succès",
+        "message": "Misp est mis à jour avec succès",
+        "btnTxt": "D'ACCORD"
       },
       "update-error": {
-        "title": "Error_fra",
-        "message": "There was some issue in updating the misp. Please try again_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Il y a eu un problème lors de la mise à jour du misp. Veuillez réessayer",
+        "btnTxt": "D'ACCORD"
       },
       "create-success": {
-        "title": "Success_fra",
-        "message": ["MISP is created Successfully._fra"],
-        "btnTxt": "Ok_fra"
+        "title": "Succès",
+        "message": ["MISP est créé avec succès."],
+        "btnTxt": "D'ACCORD"
       },
       "create-error": {
-        "title": "Error_fra",
-        "message": "There was some issue in creating a misp. Please try again_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Il y avait un problème dans la création d'un misp. Veuillez réessayer",
+        "btnTxt": "D'ACCORD"
       },
       "navigation-popup": {
-        "title": "Confirmation_fra",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
-        "yesBtnTxt": "Leave_fra",
-        "noBtnTxt": "Stay_fra"
+        "title": "Confirmation",
+        "message": "Voulez-vous vraiment quitter cette page ? Toutes les données non enregistrées seront perdues.",
+        "yesBtnTxt": "Partir",
+        "noBtnTxt": "Rester"
       },
       "noData": {
-        "title": "Error_fra",
-        "message": "No Data Found_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Aucune donnée disponible",
+        "btnTxt": "D'ACCORD"
       },
       "lunchTimeValidation": {
-        "title": "Error_fra",
-        "message": "Please select center timings before selecting lunch timings_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Veuillez sélectionner les horaires du centre avant de sélectionner les horaires du déjeuner",
+        "btnTxt": "D'ACCORD"
       }
     }
   },
   "validationMessages": {
-    "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_fra",
-    "range": "’To’ date cannot be before ‘From’ date'_fra",
-    "invalid": "Please select a valid value for Date_fra"
+    "required": "Veuillez remplir les champs À et De pour filtrer par plage de dates",
+    "range": "La date de fin ne peut pas être antérieure à la date de début",
+    "invalid": "Veuillez sélectionner une valeur valide pour Date"
   },
   "actionMessages": {
     "decommission": {
-      "success-message": ["", " is approved successfully_fra"],
-      "success-title": "Success_fra",
-      "error-message": "Cannot approve the Misp.Currently Misp is inactive_fra",
-      "error-title": "Error_fra",
-      "btnTxt": "Ok_fra",
-      "yesBtnTxt": "Confirm_fra",
-      "noBtnTxt": "Cancel_fra",
+      "success-message": ["", "est approuvé avec succès"],
+      "success-title": "Succès",
+      "error-message": "Impossible d'approuver le Misp. Actuellement, le Misp est inactif",
+      "error-title": "Erreur",
+      "btnTxt": "D'ACCORD",
+      "yesBtnTxt": "Confirmer",
+      "noBtnTxt": "Annuler",
       "confirmation-message": [
-        "Do you want to Approve the Misp ",
-        " ? \n You cannot undo this action once you click on Confirm._fra"
+        "Voulez-vous approuver le misp",
+        " ? \n Vous ne pouvez pas annuler cette action une fois que vous avez cliqué sur Confirmer."
       ],
-      "confirmation-title": "Confirmation_fra"
+      "confirmation-title": "Confirmation"
     },
     "activate": {
-      "success-message": ["", " is Activated Successfully_fra"],
-      "success-title": "Success_fra",
-      "error-message": "Could not be Activated_fra",
-      "error-title": "Error_fra",
-      "btnTxt": "Ok_fra",
-      "yesBtnTxt": "Yes_fra",
-      "noBtnTxt": "No_fra",
+      "success-message": ["", " est activé avec succès"],
+      "success-title": "Succès",
+      "error-message": "Impossible d'activer",
+      "error-title": "Erreur",
+      "btnTxt": "D'ACCORD",
+      "yesBtnTxt": "Oui",
+      "noBtnTxt": "Non",
       "confirmation-message": [
-        "Do you want to Activate the ",
-        "? \n You can Deactivate it later if you wish. Till then it will be set as Active_fra"
+        "Voulez-vous activer le",
+        "? \n Vous pouvez le désactiver plus tard si vous le souhaitez. Jusque-là, il sera défini comme actif"
       ],
-      "confirmation-title": "Confirmation_fra"
+      "confirmation-title": "Confirmation"
     },
     "deactivate": {
-      "success-message": ["", " is Deactivated Successfully_fra"],
-      "success-title": "Success_fra",
-      "error-message": "Misp Could not be Deactivated_fra",
-      "error-title": "Error_fra",
-      "btnTxt": "Ok_fra",
-      "yesBtnTxt": "Yes_fra",
-      "noBtnTxt": "No_fra",
+      "success-message": ["", " est désactivé avec succès"],
+      "success-title": "Succès",
+      "error-message": "Misp n'a pas pu être désactivé",
+      "error-title": "Erreur",
+      "btnTxt": "D'ACCORD",
+      "yesBtnTxt": "Oui",
+      "noBtnTxt": "Non",
       "confirmation-message": [
-        "Do you want to Deactivate the ",
-        " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_fra"
+        "Voulez-vous désactiver le",
+        " ? \n Vous pouvez l'activer plus tard si vous le souhaitez. Jusque-là, il sera défini comme inactif"
       ],
-      "confirmation-title": "Confirmation_fra"
+      "confirmation-title": "Confirmation"
     }
   },
   "policy": {
-    "header": "Policy_fra",
-    "name": "Name_fra",
-    "desc": "Description_fra",
-    "authPolicies": "Allowed Auth Types_fra",
-    "allowedKycAttributes": "Allowed Kyc Attributes_fra",
-    "id": "Id_fra",
-    "isActive": "Status_fra",
-    "policy-details": "Policy Details_fra",
-    "created-on": "Created On_fra",
-    "created-by": "Created By_fra",
-    "updated-on": "Updated On_fra",
-    "updated-by": "Updated By_fra",
-    "edit": "Edit_fra",
-    "create": "Create_fra",
-    "cancel": "Cancel_fra",
-    "language": "English_fra",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_fra",
-    "update": "Update_fra",
+    "header": "Politique",
+    "name": "Nom",
+    "desc": "La description",
+    "authPolicies": "Types d'authentification autorisés",
+    "allowedKycAttributes": "Attributs Kyc autorisés",
+    "id": "Identifiant",
+    "isActive": "Statut",
+    "policy-details": "Détails de la police",
+    "created-on": "Créé sur",
+    "created-by": "Créé par",
+    "updated-on": "Mis à jour le",
+    "updated-by": "Mis à jour par",
+    "edit": "Éditer",
+    "create": "Créer",
+    "cancel": "Annuler",
+    "language": "Anglais",
+    "keyboard-tooltip": "Cliquez pour le clavier virtuel (anglais)",
+    "update": "Mise à jour",
     "validationMessages": {
       "name": {
-        "required": "Policy Name is required_fra",
-        "max-length": "Exceeded max length (128)_fra"
+        "required": "Le nom de la stratégie est requis",
+        "max-length": "Longueur maximale dépassée (128)"
       },
       "desc": {
-        "required": "Policy description is required_fra",
-        "max-length": "Exceeded max length (128)_fra"
+        "required": "La description de la politique est requise",
+        "max-length": "Longueur maximale dépassée (128)"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_fra",
+        "title": "Confirmation",
         "message": [
-          "You are about to create a Policy in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_fra"
+          "Vous êtes sur le point de créer une politique dans",
+          ". Veuillez vous assurer que toutes les informations sont correctes. L'ID du centre sera généré une fois que vous aurez confirmé"
         ],
-        "yesBtnText": "Yes_fra",
-        "noBtnText": "No_fra",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_fra"
+        "yesBtnText": "Oui",
+        "noBtnText": "Non",
+        "mandatorySecondaryFields": "Vous n'avez pas rempli les données obligatoires dans la langue secondaire. La politique sera créée uniquement dans la langue principale. Souhaitez-vous toujours continuer ?"
       },
       "edit": {
-        "title": "Confirmation_fra",
-        "message": "You are about to update a policy. Please ensure that all the information is correct_fra",
-        "yesBtnText": "Confirm_fra",
-        "noBtnText": "Cancel_fra",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_fra"
+        "title": "Confirmation",
+        "message": "Vous êtes sur le point de mettre à jour une stratégie. Veuillez vous assurer que toutes les informations sont correctes",
+        "yesBtnText": "Confirmer",
+        "noBtnText": "Annuler",
+        "mandatorySecondaryFields": "Vous n'avez pas rempli les données obligatoires dans la langue secondaire. Misp sera créé uniquement dans la langue principale. Souhaitez-vous toujours continuer ?"
       },
       "update-success": {
-        "title": "Success_fra",
-        "message": "policy is updated Successfully_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Succès",
+        "message": "la stratégie est mise à jour avec succès",
+        "btnTxt": "D'ACCORD"
       },
       "update-error": {
-        "title": "Error_fra",
-        "message": "There was some issue in updating the policy. Please try again_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Il y a eu un problème lors de la mise à jour de la politique. Veuillez réessayer",
+        "btnTxt": "D'ACCORD"
       },
       "create-success": {
-        "title": "Success_fra",
-        "message": ["Policy is created Successfully._fra"],
-        "btnTxt": "Ok_fra"
+        "title": "Succès",
+        "message": ["La stratégie est créée avec succès."],
+        "btnTxt": "D'ACCORD"
       },
       "create-error": {
-        "title": "Error_fra",
-        "message": "There was some issue in creating a policy. Please try again_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Il y avait un problème dans la création d'une politique. Veuillez réessayer",
+        "btnTxt": "D'ACCORD"
       },
       "navigation-popup": {
-        "title": "Confirmation_fra",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._fra",
-        "yesBtnTxt": "Leave_fra",
-        "noBtnTxt": "Stay_fra"
+        "title": "Confirmation",
+        "message": "Voulez-vous vraiment quitter cette page ? Toutes les données non enregistrées seront perdues.",
+        "yesBtnTxt": "Partir",
+        "noBtnTxt": "Rester"
       },
       "noData": {
-        "title": "Error_fra",
-        "message": "No Data Found_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Aucune donnée disponible",
+        "btnTxt": "D'ACCORD"
       },
       "lunchTimeValidation": {
-        "title": "Error_fra",
-        "message": "Please select center timings before selecting lunch timings_fra",
-        "btnTxt": "Ok_fra"
+        "title": "Erreur",
+        "message": "Veuillez sélectionner les horaires du centre avant de sélectionner les horaires du déjeuner",
+        "btnTxt": "D'ACCORD"
       }
     }
   },
   "uploadcertificate": {
-    "title": "Upload Certificate_fra",
-    "CAtitle": "Upload CA Certificate_fra",
-    "partnerDomain": "Partner Domain_fra",
-    "chooseFile": "Choose File_fra",
-    "uploadYourFile": "Upload Your File_fra",
-    "button": "Upload_fra",
-    "cancel": "Cancel_fra"
+    "title": "Télécharger le certificat",
+    "CAtitle": "Télécharger le certificat CA",
+    "partnerDomain": "Domaine partenaire",
+    "chooseFile": "Choisir le fichier",
+    "uploadYourFile": "Téléchargez votre fichier",
+    "button": "Télécharger",
+    "cancel": "Annuler"
   },
   "filters": {
-    "titleTxt": "Add Filters_fra",
+    "titleTxt": "Ajouter des filtres",
     "footerButtons": {
-        "resetTxt": "Reset_fra",
-        "cancelTxt": "Cancel_fra",
-        "applyTxt": "Apply_fra"
+        "resetTxt": "Réinitialiser",
+        "cancelTxt": "Annuler",
+        "applyTxt": "Appliquer"
     }
   },
   "isActive": {
-    "Active": "ACTIVE_fra",
-    "InActive": "INACTIVE_fra"
+    "Active": "ACTIVE",
+    "InActive": "INACTIVE"
   },
   "genericerror": {
-    "fieldValidation": "This field is required_fra",
-    "fieldNameValidation": " is required_fra"
+    "fieldValidation": "Ce champ est requis",
+    "fieldNameValidation": " est requis"
   },
   "serverError": {
     "PMS-COR-001": "Paramètre d'entrée manquant",

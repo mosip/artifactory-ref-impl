@@ -102,24 +102,9 @@
     "name": "Name",
     "application_number": "Application Number",
     "appointment_details": "Appointment Details",
-    "appointment_confirmation_date":"4th March 2023",
+    "appointment_confirmation_date": "4th March 2023",
     "home": "Home",
     "location": "# 45/2, Colombia Asia, Marathahalli - Sarjapur Rd, Opposite Iblur, Bellandur, Bengaluru, Karnataka-560102"
-  },
-  "registration": {
-    "child_registration": "User Registration",
-    "full_name": "Full Name",
-    "gender": "Gender",
-    "date_of_birth": "Date of birth",
-    "city": "City",
-    "address": "Address",
-    "fetch_details": "Fetch details from e-Signet",
-    "register": "Register",
-    "loading_msg": "Loading! Please wait...",
-    "phone_number": "Phone number",
-    "email_address": "Email Address",
-    "show_raw_user_info": "Show raw user info",
-    "hide_raw_user_info": "Hide raw user info"
   },
   "profileui": {
     "current_medication": "Current Medication",
@@ -135,6 +120,21 @@
     "dailydoseage_1": "1 Pill(s) daily",
     "dr_alexander_kalish": "Dr Alexander Kalish",
     "endocrin": "Endocrinologist"
+  },
+  "registration": {
+    "child_registration": "User Registration",
+    "full_name": "Full Name",
+    "gender": "Gender",
+    "date_of_birth": "Date of birth",
+    "city": "City",
+    "address": "Address",
+    "fetch_details": "Fetch details from e-Signet",
+    "register": "Register",
+    "loading_msg": "Loading! Please wait...",
+    "phone_number": "Phone number",
+    "email_address": "Email Address",
+    "show_raw_user_info": "Show raw user info",
+    "hide_raw_user_info": "Hide raw user info"
   },
   "errors": {
     "sign_in_failed": "Authentication failed! Try sign in with e-Signet",
