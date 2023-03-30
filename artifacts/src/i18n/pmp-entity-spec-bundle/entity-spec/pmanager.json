@@ -3,11 +3,11 @@
 	"actionButtons": [{
 			"buttonName": {
 				"eng": "Activate Partner",
-				"ara": "Activate Partner_ara",
-				"fra": "Activate Partner_fra",
-				"hin": "Activate Partner_hin",
-				"kan": "Activate Partner_kan",
-				"tam": "Activate Partner_tam"
+				"ara": "تفعيل الشريك",
+				"fra": "تفعيل الشريك",
+				"hin": "भागीदार सक्रिय करें",
+				"kan": "ಪಾಲುದಾರರನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "கூட்டாளரை செயல்படுத்தவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -18,11 +18,11 @@
 		{
 			"buttonName": {
 				"eng": "Deactivate Partner",
-				"ara": "Deactivate Partner_ara",
-				"fra": "Deactivate Partner_fra",
-				"hin": "Deactivate Partner_hin",
-				"kan": "Deactivate Partner_kan",
-				"tam": "Deactivate Partner_tam"
+				"ara": "تعطيل الشريك",
+				"fra": "Désactiver le partenaire",
+				"hin": "साथी को निष्क्रिय करें",
+				"kan": "ಪಾಲುದಾರರನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "பார்ட்னரை செயலிழக்கச் செய்யவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -33,11 +33,11 @@
 		{
 			"buttonName": {
 				"eng": "Approve ApikeyReq",
-				"ara": "Approve ApikeyReq_ara",
-				"fra": "Approve ApikeyReq_fra",
-				"hin": "Approve ApikeyReq_hin",
-				"kan": "Approve ApikeyReq_kan",
-				"tam": "Approve ApikeyReq_tam"
+				"ara": "الموافقة على ApikeyReq",
+				"fra": "Approuver ApikeyReq",
+				"hin": "ApikeyReq . को स्वीकृत करें",
+				"kan": "ApikeyReq ಅನ್ನು ಅನುಮೋದಿಸಿ",
+				"tam": "ApikeyReq ஐ அங்கீகரிக்கவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -48,11 +48,11 @@
 		{
 			"buttonName": {
 				"eng": "Reject ApikeyReq",
-				"ara": "Reject ApikeyReq_ara",
-				"fra": "Reject ApikeyReq_fra",
-				"hin": "Reject ApikeyReq_hin",
-				"kan": "Reject ApikeyReq_kan",
-				"tam": "Reject ApikeyReq_tam"
+				"ara": "رفض ApikeyReq",
+				"fra": "Rejeter ApikeyReq",
+				"hin": "एपीकेरेक को अस्वीकार करें",
+				"kan": "ApikeyReq ಅನ್ನು ತಿರಸ್ಕರಿಸಿ",
+				"tam": "Apikey Req ஐ நிராகரி"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -63,11 +63,11 @@
 		{
 			"buttonName": {
 				"eng": "Deactivate APIKey",
-				"ara": "Deactivate APIKey_ara",
-				"fra": "Deactivate APIKey_fra",
-				"hin": "Deactivate APIKey_hin",
-				"kan": "Deactivate APIKey_kan",
-				"tam": "Deactivate APIKey_tam"
+				"ara": "قم بإلغاء تنشيط APIKey",
+				"fra": "Désactiver la clé API",
+				"hin": "APIKey को निष्क्रिय करें",
+				"kan": "APIKey ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "APIKey ஐ செயலிழக்கச் செய்யவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -78,11 +78,11 @@
 		{
 			"buttonName": {
 				"eng": "Activate APIKey",
-				"ara": "Activate APIKey_ara",
-				"fra": "Activate APIKey_fra",
-				"hin": "Activate APIKey_hin",
-				"kan": "Activate APIKey_kan",
-				"tam": "Activate APIKey_tam"
+				"ara": "قم بتنشيط APIKey",
+				"fra": "Activer la clé API",
+				"hin": "एपीआई कुंजी सक्रिय करें",
+				"kan": "API ಕೀಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "API விசையை இயக்கவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -93,11 +93,11 @@
 		{
 			"buttonName": {
 				"eng": "Change Policy",
-				"ara": "Change Policy_ara",
-				"fra": "Change Policy_fra",
-				"hin": "Change Policy_hin",
-				"kan": "Change Policy_kan",
-				"tam": "Change Policy_tam"
+				"ara": "تغيير السياسة",
+				"fra": "Modifier la politique",
+				"hin": "नीति बदलें",
+				"kan": "ನೀತಿಯನ್ನು ಬದಲಾಯಿಸಿ",
+				"tam": "கொள்கையை மாற்றவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/pmanager/single-view/$id",
@@ -111,11 +111,11 @@
 			"showInListView": "True",
 			"label": {
 				"eng": "partnerID",
-				"ara": "partnerID_ara",
-				"fra": "partnerID_fra",
-				"hin": "partnerID_hin",
-				"kan": "partnerID_kan",
-				"tam": "partnerID_tam"
+				"ara": "معرف الشريك",
+				"fra": "ID partenaire",
+				"hin": "साथी आईडी",
+				"kan": "ಪಾಲುದಾರ ID",
+				"tam": "கூட்டாளர் ஐடி"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -126,12 +126,12 @@
 			"name": "policyName",
 			"showInListView": "true",
 			"label": {
-				"eng": "policyName",
-				"ara": "policyName_ara",
-				"fra": "policyName_fra",
-				"hin": "policyName_hin",
-				"kan": "policyName_kan",
-				"tam": "policyName_tam"
+				"eng": "PolicyName",
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -143,11 +143,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "partnerStatus",
-				"ara": "partnerStatus_ara",
-				"fra": "partnerStatus_fra",
-				"hin": "partnerStatus_hin",
-				"kan": "partnerStatus_kan",
-				"tam": "partnerStatus_tam"
+				"ara": "الشريك",
+				"fra": "partenaireStatut",
+				"hin": "साथीस्थिति",
+				"kan": "ಪಾಲುದಾರರ ಸ್ಥಿತಿ",
+				"tam": "பங்குதாரர் நிலை"
 			},
 			"sortOrder": "",
 			"showAsLink": "false",
@@ -159,11 +159,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "apikeyReqID",
-				"ara": "apikeyReqID_ara",
-				"fra": "apikeyReqID_fra",
-				"hin": "apikeyReqID_hin",
-				"kan": "apikeyReqID_kan",
-				"tam": "apikeyReqID_tam"
+				"ara": "معرف طلب مفتاح api",
+				"fra": "ID de demande de clé API",
+				"hin": "एपीआई कुंजी अनुरोध आईडी",
+				"kan": "api ಕೀ ವಿನಂತಿ ID",
+				"tam": "api விசை கோரிக்கை ஐடி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -175,11 +175,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "apikeyReqIDStatus",
-				"ara": "apikeyReqIDStatus_ara",
-				"fra": "apikeyReqIDStatus_fra",
-				"hin": "apikeyReqIDStatus_hin",
-				"kan": "apikeyReqIDStatus_kan",
-				"tam": "apikeyReqIDStatus_tam"
+				"ara": "apikeyReqIDS حالة",
+				"fra": "apikeyReqIDStatus",
+				"hin": "apikeyReqIDस्थिति",
+				"kan": "apikeyReqID ಸ್ಥಿತಿ",
+				"tam": "apikeyReqIDநிலை"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -191,11 +191,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "partnerAPIKey",
-				"ara": "partnerAPIKey_ara",
-				"fra": "partnerAPIKey_fra",
-				"hin": "partnerAPIKey_hin",
-				"kan": "partnerAPIKey_kan",
-				"tam": "partnerAPIKey_tam"
+				"ara": "شريك APIKey",
+				"fra": "partenaireAPIKey",
+				"hin": "पार्टनरAPIKey",
+				"kan": "ಪಾಲುದಾರAPIKey",
+				"tam": "கூட்டாளர்APIKey"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -207,11 +207,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "partnerAPIKeyStatus",
-				"ara": "partnerAPIKeyStatus_ara",
-				"fra": "partnerAPIKeyStatus_fra",
-				"hin": "partnerAPIKeyStatus_hin",
-				"kan": "partnerAPIKeyStatus_kan",
-				"tam": "partnerAPIKeyStatus_tam"
+				"ara": "الشريك APIKey",
+				"fra": "partenaireAPIKeyStatus",
+				"hin": "पार्टनरAPIKeyस्थिति",
+				"kan": "ಪಾಲುದಾರAPIKeyStatus",
+				"tam": "கூட்டாளர்APKeyStatus"
 			},
 			"sortOrder": "",
 			"showAsLink": "",

@@ -3,11 +3,11 @@
 	"actionButtons": [{
 			"buttonName": {
 				"eng": "Manage Policy",
-				"ara": "Manage Policy_ara",
-				"fra": "Manage Policy_fra",
-				"hin": "Manage Policy_hin",
-				"kan": "Manage Policy_kan",
-				"tam": "Manage Policy_tam"
+				"ara": "إدارة النهج",
+				"fra": "Gérer la politique",
+				"hin": "नीति प्रबंधित करें",
+				"kan": "ನೀತಿಯನ್ನು ನಿರ್ವಹಿಸಿ",
+				"tam": "கொள்கையை நிர்வகிக்கவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -18,11 +18,11 @@
 		{
 			"buttonName": {
 				"eng": "Map Policy",
-				"ara": "Map Policy_ara",
-				"fra": "Map Policy_fra",
-				"hin": "Map Policy_hin",
-				"kan": "Map Policy_kan",
-				"tam": "Map Policy_tam"
+				"ara": "نهج الخريطة",
+				"fra": "Politique de carte",
+				"hin": "मानचित्र नीति",
+				"kan": "ನಕ್ಷೆ ನೀತಿ",
+				"tam": "வரைபடக் கொள்கை"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -34,11 +34,11 @@
 		{
 			"buttonName": {
 				"eng": "Filter",
-				"ara": "Filter_ara",
-				"fra": "Filter_fra",
-				"hin": "Filter_hin",
-				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -52,11 +52,11 @@
 		{
 			"buttonName": {
 				"eng": "Generate API Key",
-				"ara": "Generate API Key_ara",
-				"fra": "Generate API Key_fra",
-				"hin": "Generate API Key_hin",
-				"kan": "Generate API Key_kan",
-				"tam": "Generate API Key_tam"
+				"ara": "توليد مفتاح API",
+				"fra": "Générer une clé API",
+				"hin": "एपीआई कुंजी उत्पन्न करें",
+				"kan": "API ಕೀಯನ್ನು ರಚಿಸಿ",
+				"tam": "API விசையை உருவாக்கவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/policymapping/single-view/$id",
@@ -67,11 +67,11 @@
 		{
 			"buttonName": {
 				"eng": "Edit",
-				"ara": "Edit_ara",
-				"fra": "Edit_fra",
-				"hin": "Edit_hin",
-				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/policymapping/single-view/$id",
@@ -85,11 +85,11 @@
 			"name": "partnerId",
 			"label": {
 				"eng": "Partner Name",
-				"ara": "Partner Name_ara",
-				"fra": "Partner Name_fra",
-				"hin": "Partner Name_hin",
-				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -104,11 +104,11 @@
 			"name": "policyId",
 			"label": {
 				"eng": "Policy Name",
-				"ara": "Policy Name_ara",
-				"fra": "Policy Name_fra",
-				"hin": "Policy Name_hin",
-				"kan": "Policy Name_kan",
-				"tam": "Policy Name_tam"
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿಯ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -123,11 +123,11 @@
 			"name": "partnerName",
 			"label": {
 				"eng": "Partner Name",
-				"ara": "Partner Name_ara",
-				"fra": "Partner Name_fra",
-				"hin": "Partner Name_hin",
-				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"ara": "கூட்டாளர் பெயர்",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -142,11 +142,11 @@
 			"name": "policyName",
 			"label": {
 				"eng": "Policy Name",
-				"ara": "Policy Name_ara",
-				"fra": "Policy Name_fra",
-				"hin": "Policy Name_hin",
-				"kan": "Policy Name_kan",
-				"tam": "Policy Name_tam"
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿಯ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -161,11 +161,11 @@
 			"name": "requestDetail",
 			"label": {
 				"eng": "Request Detail",
-				"ara": "Request Detail_ara",
-				"fra": "Request Detail_fra",
-				"hin": "Request Detail_hin",
-				"kan": "Request Detail_kan",
-				"tam": "Request Detail_tam"
+				"ara": "طلب التفاصيل",
+				"fra": "Détail de la demande",
+				"hin": "अनुरोध विवरण",
+				"kan": "ವಿನಂತಿಯ ವಿವರ",
+				"tam": "கோரிக்கை விவரம்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -180,11 +180,11 @@
 			"name": "statusCode",
 			"label": {
 				"eng": "Status",
-				"ara": "Status_ara",
-				"fra": "Status_fra",
-				"hin": "Status_hin",
-				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -206,11 +206,11 @@
 			"filtername": "partnerName",
 			"filterlabel": {
 				"eng": "Partner Name",
-				"ara": "Partner Name_ara",
-				"fra": "Partner Name_fra",
-				"hin": "Partner Name_hin",
-				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+                                "ara": "اسم شريك",
+                                "fra": "Nom du partenaire",
+                                "hin": "साथी का नाम",
+                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
+                                "tam": "கூட்டாளர் பெயர்"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -224,12 +224,12 @@
 		{
 			"filtername": "policyName",
 			"filterlabel": {
-				"eng": "Policy Name",
-				"ara": "Policy Name_ara",
-				"fra": "Policy Name_fra",
-				"hin": "Policy Name_hin",
-				"kan": "Policy Name_kan",
-				"tam": "Policy Name_tam"
+				"eng": "Partner Name",
+                                "ara": "اسم السياسة",
+                                "fra": "Nom de la politique",
+                                "hin": "पालिसी का नाम",
+                                "kan": "ನೀತಿಯ ಹೆಸರು",
+                                "tam": "கொள்கை பெயர்"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -244,11 +244,11 @@
 			"filtername": "requestDetail",
 			"filterlabel": {
 				"eng": "Request Detail",
-				"ara": "Request Detail_ara",
-				"fra": "Request Detail_fra",
-				"hin": "Request Detail_hin",
-				"kan": "Request Detail_kan",
-				"tam": "Request Detail_tam"
+                                "ara": "طلب التفاصيل",
+                                "fra": "Détail de la demande",
+                                "hin": "अनुरोध विवरण",
+                                "kan": "ವಿನಂತಿಯ ವಿವರ",
+                                "tam": "கோரிக்கை விவரம்"
 			},
 			"filterType": "equals",
 			"fieldType": "input",

@@ -1,464 +1,464 @@
 {
   "menuItems": {
     "item1": {
-      "title": "HOME_hin"
+      "title": "घर"
     },
     "item2": {
-      "title": "Policy_hin",
-      "subItem1": "Policy Group_hin",
-      "subItem2": "Auth Policy_hin",
-      "subItem3": "Data Share Policy_hin"
+      "title": "नीति",
+      "subItem1": "नीति समूह",
+      "subItem2": "प्रामाणिक नीति",
+      "subItem3": "डेटा शेयर नीति"
     },
     "item3": {
-      "title": "Partner_hin"
+      "title": "साझेदार"
     },
     "item4": {
-      "title": "Device Details_hin"
+      "title": "डिवाइस विवरण"
     },
     "item5": {
-      "title": "FTM Details_hin"
+      "title": "FTM विवरण"
     },
     "item6": {
-      "title": "SBI Details_hin"
+      "title": "SBI विवरण"
     },
     "item7": {
-      "title": "Partner Policy Mapping_hin"
+      "title": "पार्टनर पॉलिसी मैपिंग"
     },
     "item8": {
-      "title": "Upload CA Certificate_hin"
+      "title": "सीए प्रमाणपत्र अपलोड करें"
     }
   },
   "dashboard": {
-    "welcomeMessage":"Welcome to Mosip Partner portal hin !",
-    "Logout":"Logout_hin"
+    "welcomeMessage":"मोसिप पार्टनर पोर्टल में आपका स्वागत है!",
+    "Logout":"लॉग आउट"
   },
   "singleView": {
     "errorMessages": [
-      "No record found_hin",
-      "A technical error has occurred_hin"
+      "कोई रिकॉर्ड नहीं मिला",
+      "एक तकनीकी त्रुटि हुई है"
     ],
-    "buttonText": "OK_hin",
-    "title": "Error_hin"
+    "buttonText": "ठीक है",
+    "title": "गलती"
   },
   "masterData": {
-    "master-data": "Master Data_hin",
-    "total-no": "Total No_hin",
-    "common": "Common_hin",
-    "device-definition": "Device Definition_hin",
-    "machine-definition": "Machine Definition_hin",
-    "document-definition": "Document Definition_hin",
-    "doc-category-mapping": "Doc Category - Type Mapping_hin",
-    "category": "Category_hin",
-    "mapped-documents": "Mapped Documents_hin",
-    "unmapped-documents": "Unmapped Documents_hin"
+    "master-data": "मास्टर डेटा",
+    "total-no": "कुल संख्या",
+    "common": "सामान्य",
+    "device-definition": "डिवाइस परिभाषा",
+    "machine-definition": "मशीन परिभाषा",
+    "document-definition": "दस्तावेज़ परिभाषा",
+    "doc-category-mapping": "दस्तावेज़ श्रेणी - प्रकार मानचित्रण",
+    "category": "श्रेणी",
+    "mapped-documents": "मैप किए गए दस्तावेज़",
+    "unmapped-documents": "अनमैप्ड दस्तावेज़"
   },
   "pmanager": {
-    "status": "Status_hin",
-    "language": "English_hin",
-    "edit": "Edit_hin",
-    "create": "Create_hin",
-    "cancel": "Cancel_hin",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_hin",
-    "update": "Update_hin",
-    "created-on": "Created On_hin",
-    "created-by": "Created By_hin",
-    "updated-on": "Updated On_hin",
-    "updated-by": "Updated By_hin",
-    "header": "Change Policy_hin",
-    "name": "Policy Name_hin",
+    "status": "दर्जा",
+    "language": "अंग्रेज़ी",
+    "edit": "संपादन करना",
+    "create": "सृजन करना",
+    "cancel": "रद्द करना",
+    "keyboard-tooltip": "वर्चुअल कीबोर्ड के लिए क्लिक करें (अंग्रेज़ी)",
+    "update": "अद्यतन",
+    "created-on": "पर बनाया",
+    "created-by": "के द्वारा बनाई गई",
+    "updated-on": "को अपडेट किया",
+    "updated-by": "द्वारा अपडेट",
+    "header": "नीति बदलें",
+    "name": "पालिसी का नाम",
     "popupMessages": {
       "create": {
-        "title": "Confirmation_hin",
+        "title": "पुष्टीकरण",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"
+          "आप में एक पंजीकरण केंद्र बनाने जा रहे हैं",
+          ". कृपया सुनिश्चित करें कि सभी जानकारी सही है। कन्फर्म करने के बाद सेंटर आईडी जनरेट हो जाएगी"
         ],
-        "yesBtnText": "Yes_hin",
-        "noBtnText": "No_hin",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
+        "yesBtnText": "हाँ",
+        "noBtnText": "नहीं",
+        "mandatorySecondaryFields": "आपने अनिवार्य डेटा को माध्यमिक भाषा में नहीं भरा है। पंजीकरण केंद्र केवल प्राथमिक भाषा में बनाया जाएगा। क्या आप अभी भी जारी रखना चाहते हैं?"
       },
       "edit": {
-        "title": "Confirmation_hin",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_hin",
-        "yesBtnText": "Confirm_hin",
-        "noBtnText": "Cancel_hin",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
+        "title": "पुष्टीकरण",
+        "message": "आप एक पंजीकरण केंद्र को अपडेट करने वाले हैं। कृपया सुनिश्चित करें कि सभी जानकारी सही है",
+        "yesBtnText": "पुष्टि करें",
+        "noBtnText": "रद्द करना",
+        "mandatorySecondaryFields": "आपने अनिवार्य डेटा को माध्यमिक भाषा में नहीं भरा है। पंजीकरण केंद्र केवल प्राथमिक भाषा में बनाया जाएगा। क्या आप अभी भी जारी रखना चाहते हैं?"
       },
       "update-success": {
-        "title": "Success_hin",
-        "message": "Partner is updated Successfully_hin",
-        "btnTxt": "Ok_hin"
+        "title": "सफलता",
+        "message": "Partner सफलतापूर्वक अपडेट किया गया है",
+        "btnTxt": "ठीक है"
       },
       "update-error": {
-        "title": "Error_hin",
-        "message": "There was some issue in updating the Partner. Please try again_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "पार्टनर को अपडेट करने में कुछ समस्या थी. कृपया पुन: प्रयास करें",
+        "btnTxt": "ठीक है"
       },
       "create-success": {
-        "title": "Success_hin",
+        "title": "सफलता",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Name: _hin"
+          "पार्टनर आईडी के साथ पार्टनर सफलतापूर्वक बनाया गया: ",
+          " और साथी का नाम:"
         ],
-        "btnTxt": "Ok_hin"
+        "btnTxt": "ठीक है"
       },
       "create-error": {
-        "title": "Error_hin",
-        "message": "There was some issue in creating Partner. Please try again_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "भागीदार बनाने में कुछ समस्या थी. कृपया पुन: प्रयास करें",
+        "btnTxt": "ठीक है"
       },
       "navigation-popup": {
-        "title": "Confirmation_hin",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._hin",
-        "yesBtnTxt": "Leave_hin",
-        "noBtnTxt": "Stay_hin"
+        "title": "पुष्टीकरण",
+        "message": "क्या आप वाकई इस पेज से दूर नेविगेट करना चाहते हैं? कोई भी सहेजा नहीं गया डेटा खो जाएगा।",
+        "yesBtnTxt": "छुट्टी",
+        "noBtnTxt": "रहना"
       },
       "noData": {
-        "title": "Error_hin",
-        "message": "No Data Found_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "कोई डेटा नहीं मिला",
+        "btnTxt": "ठीक है"
       }
     }
   },
   "partner": {
-    "address1": "Address_hin",
-    "header": "Partner Service_hin",
-    "name": "Organization_hin",
-    "id": "Id_hin",
-    "status": "Status_hin",
-    "language": "English_hin",
-    "edit": "Edit_hin",
-    "create": "Create_hin",
-    "cancel": "Cancel_hin",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_hin",
-    "update": "Update_hin",
-    "partner-details": "Partner Details_hin",
-    "created-on": "Created On_hin",
-    "created-by": "Created By_hin",
-    "updated-on": "Updated On_hin",
-    "updated-by": "Updated By_hin",
-    "registration-partner-name": "Organization Name_hin",
-    "registration-partner-type": "Policy Name_hin",
-    "contact-person": "Email Id_hin",
-    "contact-number": "Contact Number_hin",
-    "location-details": "Address Details_hin",
+    "address1": "पता",
+    "header": "साथी सेवा",
+    "name": "संगठन",
+    "id": "पहचान",
+    "status": "दर्जा",
+    "language": "अंग्रेज़ी",
+    "edit": "संपादन करना",
+    "create": "सृजन करना",
+    "cancel": "रद्द करना",
+    "keyboard-tooltip": "वर्चुअल कीबोर्ड के लिए क्लिक करें (अंग्रेज़ी)",
+    "update": "अद्यतन",
+    "partner-details": "साथी विवरण",
+    "created-on": "पर बनाया",
+    "created-by": "के द्वारा बनाई गई",
+    "updated-on": "को अपडेट किया",
+    "updated-by": "द्वारा अपडेट",
+    "registration-partner-name": "संगठन का नाम",
+    "registration-partner-type": "पालिसी का नाम",
+    "contact-person": "ईमेल आईडी",
+    "contact-number": "संपर्क संख्या",
+    "location-details": "पते का विवरण",
     "validationMessages": {
       "partnerTypeCode": {
-        "required": "Policy Name is required_hin"
+        "required": "पॉलिसी का नाम आवश्यक है"
       },
       "name": {
-        "required": "Organization Name is required_hin",
-        "max-length": "Exceeded max length (128)_hin"
+        "required": "संगठन का नाम आवश्यक है",
+        "max-length": "ज़्यादा से ज़्यादा लंबाई (128)"
       },
       "addressLine1": {
-        "required": "Address is required_hin",
-        "max-length": "Exceeded max length (256)_hin"
+        "required": "पता आवश्यक है",
+        "max-length": "ज़्यादा से ज़्यादा लंबाई (256)"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_hin",
+        "title": "पुष्टीकरण",
         "message": [
-          "You are about to create a Registration Center in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"
+          "आप में एक पंजीकरण केंद्र बनाने जा रहे हैं ",
+          ". कृपया सुनिश्चित करें कि सभी जानकारी सही है। कन्फर्म करने के बाद सेंटर आईडी जनरेट हो जाएगी"
         ],
-        "yesBtnText": "Yes_hin",
-        "noBtnText": "No_hin",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
+        "yesBtnText": "हाँ",
+        "noBtnText": "नहीं",
+        "mandatorySecondaryFields": "आपने अनिवार्य डेटा को माध्यमिक भाषा में नहीं भरा है। पंजीकरण केंद्र केवल प्राथमिक भाषा में बनाया जाएगा। क्या आप अभी भी जारी रखना चाहते हैं?"
       },
       "edit": {
-        "title": "Confirmation_hin",
-        "message": "You are about to update a Registration Center. Please ensure that all the information is correct_hin",
-        "yesBtnText": "Confirm_hin",
-        "noBtnText": "Cancel_hin",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Registration Center will be created only in Primary language. Do you still want to continue?_hin"
+        "title": "पुष्टीकरण",
+        "message": "आप एक पंजीकरण केंद्र को अपडेट करने वाले हैं। कृपया सुनिश्चित करें कि सभी जानकारी सही है",
+        "yesBtnText": "पुष्टि करें",
+        "noBtnText": "रद्द करना",
+        "mandatorySecondaryFields": "आपने अनिवार्य डेटा को माध्यमिक भाषा में नहीं भरा है। पंजीकरण केंद्र केवल प्राथमिक भाषा में बनाया जाएगा। क्या आप अभी भी जारी रखना चाहते हैं?"
       },
       "update-success": {
-        "title": "Success_hin",
-        "message": "Partner is updated Successfully_hin",
-        "btnTxt": "Ok_hin"
+        "title": "सफलता",
+        "message": "पार्टनर को सफलतापूर्वक अपडेट किया गया",
+        "btnTxt": "ठीक है"
       },
       "update-error": {
-        "title": "Error_hin",
-        "message": "There was some issue in updating the Partner. Please try again_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "पार्टनर को अपडेट करने में कुछ समस्या थी. कृपया पुन: प्रयास करें",
+        "btnTxt": "ठीक है"
       },
       "create-success": {
-        "title": "Success_hin",
+        "title": "सफलता",
         "message": [
-          "Partner is created Successfully with Partner ID: ",
-          " and Partner Status is: _hin"
+          "पार्टनर आईडी के साथ पार्टनर सफलतापूर्वक बनाया गया:",
+          " और भागीदार स्थिति है:"
         ],
-        "btnTxt": "Ok_hin"
+        "btnTxt": "ठीक है"
       },
       "create-error": {
-        "title": "Error_hin",
-        "message": "There was some issue in creating Partner. Please try again_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "भागीदार बनाने में कुछ समस्या थी. कृपया पुन: प्रयास करें",
+        "btnTxt": "ठीक है"
       },
       "navigation-popup": {
-        "title": "Confirmation_hin",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._hin",
-        "yesBtnTxt": "Leave_hin",
-        "noBtnTxt": "Stay_hin"
+        "title": "पुष्टीकरण",
+        "message": "क्या आप वाकई इस पेज से दूर नेविगेट करना चाहते हैं? कोई भी सहेजा नहीं गया डेटा खो जाएगा।",
+        "yesBtnTxt": "छुट्टी",
+        "noBtnTxt": "रहना"
       },
       "noData": {
-        "title": "Error_hin",
-        "message": "No Data Found_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "कोई डेटा नहीं मिला",
+        "btnTxt": "ठीक है"
       }
     }
   },
   "misp": {
-    "header": "MISP_hin",
-    "name": "Name_hin",
-    "id": "Id_hin",
-    "isActive": "Misp Status_hin",
-    "contact_no": "Phone No_hin",
-    "status": "Status_hin",
-    "address": "Address_hin",
-    "misp-details": "Misp Details_hin",
-    "created-on": "Created On_hin",
-    "created-by": "Created By_hin",
-    "updated-on": "Updated On_hin",
-    "updated-by": "Updated By_hin",
-    "email_id": "Email_hin",
-    "edit": "Edit_hin",
-    "create": "Create_hin",
-    "cancel": "Cancel_hin",
-    "language": "English_hin",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_hin",
-    "update": "Update_hin",
+    "header": "MISP",
+    "name": "नाम",
+    "id": "पहचान",
+    "isActive": "Misp दर्जा",
+    "contact_no": "फोन नंबर",
+    "status": "दर्जा",
+    "address": "पता",
+    "misp-details": "Misp विवरण",
+    "created-on": "पर बनाया",
+    "created-by": "के द्वारा बनाई गई",
+    "updated-on": "को अपडेट किया",
+    "updated-by": "द्वारा अपडेट",
+    "email_id": "ईमेल",
+    "edit": "संपादन करना",
+    "create": "सृजन करना",
+    "cancel": "रद्द करना",
+    "language": "अंग्रेज़ी",
+    "keyboard-tooltip": "वर्चुअल कीबोर्ड के लिए क्लिक करें (अंग्रेज़ी)",
+    "update": "अद्यतन",
     "validationMessages": {
       "name": {
-        "required": "Misp Name is required_hin",
-        "max-length": "Exceeded max length (128)_hin"
+        "required": "Misp नाम आवश्यक है",
+        "max-length": "ज़्यादा से ज़्यादा लंबाई (128)"
       },
       "address": {
-        "required": "Misp Address is required_hin",
-        "max-length": "Exceeded max length (128)_hin"
+        "required": "Misp पता आवश्यक है",
+        "max-length": "ज़्यादा से ज़्यादा लंबाई (128)"
       },
       "phoneNo": {
-        "required": "Misp phoneNo is required_hin"
+        "required": "Misp फ़ोन नंबर की आवश्यकता है"
       },
       "email": {
-        "required": "Misp email is required_hin"
+        "required": "Misp ईमेल की जरूरत है"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_hin",
+        "title": "पुष्टीकरण",
         "message": [
-          "You are about to create a Misp in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"
+          "आप में एक मिस्प बनाने जा रहे हैं ",
+          ". कृपया सुनिश्चित करें कि सभी जानकारी सही है। कन्फर्म करने के बाद सेंटर आईडी जनरेट हो जाएगी"
         ],
-        "yesBtnText": "Yes_hin",
-        "noBtnText": "No_hin",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_hin"
+        "yesBtnText": "हाँ",
+        "noBtnText": "नहीं",
+        "mandatorySecondaryFields": "आपने अनिवार्य डेटा को माध्यमिक भाषा में नहीं भरा है। मिस्प केवल प्राथमिक भाषा में बनाया जाएगा। क्या आप अभी भी जारी रखना चाहते हैं?"
       },
       "edit": {
-        "title": "Confirmation_hin",
-        "message": "You are about to update a misp. Please ensure that all the information is correct_hin",
-        "yesBtnText": "Confirm_hin",
-        "noBtnText": "Cancel_hin",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_hin"
+        "title": "पुष्टीकरण",
+        "message": "आप एक गलत जानकारी अपडेट करने वाले हैं. कृपया सुनिश्चित करें कि सभी जानकारी सही है",
+        "yesBtnText": "पुष्टि करें",
+        "noBtnText": "रद्द करना",
+        "mandatorySecondaryFields": "आपने अनिवार्य डेटा को माध्यमिक भाषा में नहीं भरा है। मिस्प केवल प्राथमिक भाषा में बनाया जाएगा। क्या आप अभी भी जारी रखना चाहते हैं?"
       },
       "update-success": {
-        "title": "Success_hin",
-        "message": "Misp is updated Successfully_hin",
-        "btnTxt": "Ok_hin"
+        "title": "सफलता",
+        "message": "Misp सफलतापूर्वक अपडेट किया गया",
+        "btnTxt": "ठीक है"
       },
       "update-error": {
-        "title": "Error_hin",
-        "message": "There was some issue in updating the misp. Please try again_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "MISP को अपडेट करने में कुछ समस्या थी। कृपया पुनः प्रयास करें_हिन",
+        "btnTxt": "ठीक है"
       },
       "create-success": {
-        "title": "Success_hin",
-        "message": ["MISP is created Successfully._hin"],
-        "btnTxt": "Ok_hin"
+        "title": "सफलता",
+        "message": ["MISP सफलतापूर्वक बनाया गया है।"],
+        "btnTxt": "ठीक है"
       },
       "create-error": {
-        "title": "Error_hin",
-        "message": "There was some issue in creating a misp. Please try again_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "MSIP बनाने में कुछ समस्या थी। कृपया पुनः प्रयास करें_हिन",
+        "btnTxt": "ठीक है"
       },
       "navigation-popup": {
-        "title": "Confirmation_hin",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._hin",
-        "yesBtnTxt": "Leave_hin",
-        "noBtnTxt": "Stay_hin"
+        "title": "पुष्टीकरण",
+        "message": "क्या आप वाकई इस पेज से दूर नेविगेट करना चाहते हैं? कोई भी सहेजा नहीं गया डेटा खो जाएगा.",
+        "yesBtnTxt": "छुट्टी",
+        "noBtnTxt": "रहना"
       },
       "noData": {
-        "title": "Error_hin",
-        "message": "No Data Found_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "कोई डेटा नहीं मिला",
+        "btnTxt": "ठीक है"
       },
       "lunchTimeValidation": {
-        "title": "Error_hin",
-        "message": "Please select center timings before selecting lunch timings_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "कृपया लंच का समय चुनने से पहले केंद्र के समय का चयन करें",
+        "btnTxt": "ठीक है"
       }
     }
   },
   "validationMessages": {
-    "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range_hin",
-    "range": "’To’ date cannot be before ‘From’ date'_hin",
-    "invalid": "Please select a valid value for Date_hin"
+    "required": "कृपया दिनांक सीमा के अनुसार फ़िल्टर करने के लिए 'प्रति' और 'प्रेषक' दोनों फ़ील्ड भरें",
+    "range": "'टू' तारीख 'से' तारीख से पहले की नहीं हो सकती'_हिन",
+    "invalid": "कृपया दिनांक के लिए एक मान्य मान चुनें"
   },
   "actionMessages": {
     "decommission": {
-      "success-message": ["", " is approved successfully_hin"],
-      "success-title": "Success_hin",
-      "error-message": "Cannot approve the Misp.Currently Misp is inactive_hin",
-      "error-title": "Error_hin",
-      "btnTxt": "Ok_hin",
-      "yesBtnTxt": "Confirm_hin",
-      "noBtnTxt": "Cancel_hin",
+      "success-message": ["", " सफलतापूर्वक स्वीकृत है"],
+      "success-title": "सफलता",
+      "error-message": "मिस्प को स्वीकृत नहीं कर सकता। वर्तमान में मिस्प निष्क्रिय है",
+      "error-title": "गलती",
+      "btnTxt": "ठीक है",
+      "yesBtnTxt": "पुष्टि करें",
+      "noBtnTxt": "रद्द करना",
       "confirmation-message": [
-        "Do you want to Approve the Misp ",
-        " ? \n You cannot undo this action once you click on Confirm._hin"
+        "क्या आप MISP को स्वीकृत करना चाहते हैं ",
+        " ? \n कन्फर्म पर क्लिक करने के बाद आप इस क्रिया को पूर्ववत नहीं कर सकते।"
       ],
-      "confirmation-title": "Confirmation_hin"
+      "confirmation-title": "पुष्टीकरण"
     },
     "activate": {
-      "success-message": ["", " is Activated Successfully_hin"],
-      "success-title": "Success_hin",
-      "error-message": "Could not be Activated_hin",
-      "error-title": "Error_hin",
-      "btnTxt": "Ok_hin",
-      "yesBtnTxt": "Yes_hin",
-      "noBtnTxt": "No_hin",
+      "success-message": ["", " सफलतापूर्वक सक्रिय है"],
+      "success-title": "सफलता",
+      "error-message": "सक्रिय नहीं किया जा सका",
+      "error-title": "गलती",
+      "btnTxt": "ठीक है",
+      "yesBtnTxt": "हाँ",
+      "noBtnTxt": "नहीं",
       "confirmation-message": [
-        "Do you want to Activate the ",
-        "? \n You can Deactivate it later if you wish. Till then it will be set as Active_hin"
+        "क्या आप इसे सक्रिय करना चाहते हैं ",
+        "? \n आप चाहें तो बाद में इसे डीएक्टिवेट कर सकते हैं। तब तक इसे Active के रूप में सेट किया जाएगा"
       ],
-      "confirmation-title": "Confirmation_hin"
+      "confirmation-title": "पुष्टीकरण"
     },
     "deactivate": {
-      "success-message": ["", " is Deactivated Successfully_hin"],
-      "success-title": "Success_hin",
-      "error-message": "Misp Could not be Deactivated_hin",
-      "error-title": "Error_hin",
-      "btnTxt": "Ok_hin",
-      "yesBtnTxt": "Yes_hin",
-      "noBtnTxt": "No_hin",
+      "success-message": ["", " सफलतापूर्वक निष्क्रिय कर दिया गया है"],
+      "success-title": "सफलता",
+      "error-message": "मिस्प निष्क्रिय नहीं किया जा सका",
+      "error-title": "गलती",
+      "btnTxt": "ठीक है",
+      "yesBtnTxt": "हाँ",
+      "noBtnTxt": "नहीं",
       "confirmation-message": [
-        "Do you want to Deactivate the ",
-        " ? \n You can Activate it later if you wish. Till then it will be set as Inactive_hin"
+        "क्या आप इसे निष्क्रिय करना चाहते हैं ",
+        " ? \n आप चाहें तो इसे बाद में एक्टिवेट कर सकते हैं। तब तक इसे निष्क्रिय के रूप में सेट किया जाएगा"
       ],
-      "confirmation-title": "Confirmation_hin"
+      "confirmation-title": "पुष्टीकरण"
     }
   },
   "policy": {
-    "header": "Policy_hin",
-    "name": "Name_hin",
-    "desc": "Description_hin",
-    "authPolicies": "Allowed Auth Types_hin",
-    "allowedKycAttributes": "Allowed Kyc Attributes_hin",
-    "id": "Id_hin",
-    "isActive": "Status_hin",
-    "policy-details": "Policy Details_hin",
-    "created-on": "Created On_hin",
-    "created-by": "Created By_hin",
-    "updated-on": "Updated On_hin",
-    "updated-by": "Updated By_hin",
-    "edit": "Edit_hin",
-    "create": "Create_hin",
-    "cancel": "Cancel_hin",
-    "language": "English_hin",
-    "keyboard-tooltip": "Click for Virtual Keyboard (English)_hin",
-    "update": "Update_hin",
+    "header": "नीति",
+    "name": "नाम",
+    "desc": "विवरण",
+    "authPolicies": "अनुमत प्रमाणीकरण प्रकार",
+    "allowedKycAttributes": "अनुमत Kyc विशेषताएँ",
+    "id": "पहचान",
+    "isActive": "दर्जा",
+    "policy-details": "नीति विवरण",
+    "created-on": "पर बनाया",
+    "created-by": "के द्वारा बनाई गई",
+    "updated-on": "को अपडेट किया",
+    "updated-by": "द्वारा अपडेट",
+    "edit": "संपादन करना",
+    "create": "सृजन करना",
+    "cancel": "रद्द करना",
+    "language": "अंग्रेज़ी",
+    "keyboard-tooltip": "वर्चुअल कीबोर्ड के लिए क्लिक करें (अंग्रेज़ी)",
+    "update": "अद्यतन",
     "validationMessages": {
       "name": {
-        "required": "Policy Name is required_hin",
-        "max-length": "Exceeded max length (128)_hin"
+        "required": "पॉलिसी का नाम आवश्यक है",
+        "max-length": "ज़्यादा से ज़्यादा लंबाई (128)"
       },
       "desc": {
-        "required": "Policy description is required_hin",
-        "max-length": "Exceeded max length (128)_hin"
+        "required": "नीति विवरण आवश्यक है",
+        "max-length": "ज़्यादा से ज़्यादा लंबाई (128)"
       }
     },
     "popupMessages": {
       "create": {
-        "title": "Confirmation_hin",
+        "title": "पुष्टीकरण",
         "message": [
-          "You are about to create a Policy in ",
-          ". Please ensure that all the information is correct. Center ID will be generated once you Confirm_hin"
+          "आप में एक नीति बनाने जा रहे हैं",
+          ". कृपया सुनिश्चित करें कि सभी जानकारी सही है। कन्फर्म करने के बाद सेंटर आईडी जनरेट हो जाएगी"
         ],
-        "yesBtnText": "Yes_hin",
-        "noBtnText": "No_hin",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Policy will be created only in Primary language. Do you still want to continue?_hin"
+        "yesBtnText": "हाँ",
+        "noBtnText": "नहीं",
+        "mandatorySecondaryFields": "आपने अनिवार्य डेटा को माध्यमिक भाषा में नहीं भरा है। नीति केवल प्राथमिक भाषा में बनाई जाएगी। क्या आप अभी भी जारी रखना चाहते हैं?"
       },
       "edit": {
-        "title": "Confirmation_hin",
-        "message": "You are about to update a policy. Please ensure that all the information is correct_hin",
-        "yesBtnText": "Confirm_hin",
-        "noBtnText": "Cancel_hin",
-        "mandatorySecondaryFields": "You have not filled the mandatory data in the Secondary language. Misp will be created only in Primary language. Do you still want to continue?_hin"
+        "title": "पुष्टीकरण",
+        "message": "आप एक नीति अपडेट करने वाले हैं। कृपया सुनिश्चित करें कि सभी जानकारी सही है",
+        "yesBtnText": "पुष्टि करें",
+        "noBtnText": "रद्द करना",
+        "mandatorySecondaryFields": "आपने अनिवार्य डेटा को माध्यमिक भाषा में नहीं भरा है। मिस्प केवल प्राथमिक भाषा में बनाया जाएगा। क्या आप अभी भी जारी रखना चाहते हैं?"
       },
       "update-success": {
-        "title": "Success_hin",
-        "message": "policy is updated Successfully_hin",
-        "btnTxt": "Ok_hin"
+        "title": "सफलता",
+        "message": "नीति सफलतापूर्वक अपडेट की गई",
+        "btnTxt": "ठीक है"
       },
       "update-error": {
-        "title": "Error_hin",
-        "message": "There was some issue in updating the policy. Please try again_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "नीति को अद्यतन करने में कुछ समस्या थी। कृपया पुन: प्रयास करें",
+        "btnTxt": "ठीक है"
       },
       "create-success": {
-        "title": "Success_hin",
-        "message": ["Policy is created Successfully._hin"],
-        "btnTxt": "Ok_hin"
+        "title": "सफलता",
+        "message": ["नीति सफलतापूर्वक बनाई गई है।"],
+        "btnTxt": "ठीक है"
       },
       "create-error": {
-        "title": "Error_hin",
-        "message": "There was some issue in creating a policy. Please try again_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "नीति बनाने में कुछ समस्या थी। कृपया पुन: प्रयास करें",
+        "btnTxt": "ठीक है"
       },
       "navigation-popup": {
-        "title": "Confirmation_hin",
-        "message": "Are you sure you want to navigate away from this page? Any unsaved data will be lost._hin",
-        "yesBtnTxt": "Leave_hin",
-        "noBtnTxt": "Stay_hin"
+        "title": "पुष्टीकरण",
+        "message": "क्या आप वाकई इस पेज से दूर नेविगेट करना चाहते हैं? कोई भी सहेजा नहीं गया डेटा खो जाएगा।",
+        "yesBtnTxt": "छुट्टी",
+        "noBtnTxt": "रहना"
       },
       "noData": {
-        "title": "Error_hin",
-        "message": "No Data Found_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "कोई डेटा नहीं मिला",
+        "btnTxt": "ठीक है"
       },
       "lunchTimeValidation": {
-        "title": "Error_hin",
-        "message": "Please select center timings before selecting lunch timings_hin",
-        "btnTxt": "Ok_hin"
+        "title": "गलती",
+        "message": "कृपया लंच का समय चुनने से पहले केंद्र के समय का चयन करें",
+        "btnTxt": "ठीक है"
       }
     }
   },
   "uploadcertificate": {
-    "title": "Upload Certificate_hin",
-    "CAtitle": "Upload CA Certificate_hin",
-    "partnerDomain": "Partner Domain_hin",
-    "chooseFile": "Choose File_hin",
-    "uploadYourFile": "Upload Your File_hin",
-    "button": "Upload_hin",
-    "cancel": "Cancel_hin"
+    "title": "प्रमाणपत्र अपलोड करें",
+    "CAtitle": "सीए प्रमाणपत्र अपलोड करें",
+    "partnerDomain": "पार्टनर डोमेन",
+    "chooseFile": "फाइलें चुनें",
+    "uploadYourFile": "अपनी फ़ाइल अपलोड करें",
+    "button": "डालना",
+    "cancel": "रद्द करना"
   },
   "filters": {
-    "titleTxt": "Add Filters_hin",
+    "titleTxt": "फ़िल्टर जोड़ें",
     "footerButtons": {
-        "resetTxt": "Reset_hin",
-        "cancelTxt": "Cancel_hin",
-        "applyTxt": "Apply_hin"
+        "resetTxt": "रीसेट",
+        "cancelTxt": "रद्द करना",
+        "applyTxt": "आवेदन करना"
     }
   },
   "isActive": {
-    "Active": "ACTIVE_hin",
-    "InActive": "INACTIVE_hin"
+    "Active": "सक्रिय",
+    "InActive": "निष्क्रिय"
   },
   "genericerror": {
-    "fieldValidation": "This field is required_hin",
-    "fieldNameValidation": " is required_hin"
+    "fieldValidation": "यह फ़ील्ड आवश्यक है",
+    "fieldNameValidation": " आवश्यक है"
   },
   "serverError": {
     "PMS-COR-001": "गुम इनपुट पैरामीटर",
