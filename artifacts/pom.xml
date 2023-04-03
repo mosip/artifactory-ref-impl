@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.mosip.artifactory</groupId>
+	<artifactId>artifactory-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>artifactory-parent</name>
+	<description>Parent project of MOSIP artifactory server</description>
+	<url>https://github.com/mosip/artifactory-ref-impl</url>
+
+	<licenses>
+		<license>
+			<name>MPL 2.0</name>
+			<url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:git://github.com/mosip/artifactory-ref-impl.git</connection>
+		<developerConnection>scm:git:ssh://github.com:mosip/artifactory-ref-impl.git</developerConnection>
+		<url>https://github.com/mosip/artifactory-ref-impl</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<developers>
+		<developer>
+			<name>Mosip</name>
+			<email>mosip.emailnotifier@gmail.com</email>
+			<organization>io.mosip</organization>
+			<organizationUrl>https://github.com/mosip/artifactory-ref-impl</organizationUrl>
+		</developer>
+	</developers>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>MavenCentral</name>
+            <layout>default</layout>
+            <url>https://repo1.maven.org/maven2</url>
+            <snapshots>
+            <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>ossrh</id>
+            <name>MavenSnapshot</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <layout>default</layout>
+            <snapshots>
+            <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+
+	<properties>
+		<!-- kernel-auth-apadter -->
+		<auth-adapter.version>1.2.1-SNAPSHOT</auth-adapter.version>
+		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
+		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
+		<!-- kernel-smsserviceprovider-->
+		<kernel-smsserviceprovider.version>1.2.0.1-B1</kernel-smsserviceprovider.version>
+		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
+		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
+		<!-- kernel-ref-idobjectvalidator -->
+		<kernel-ref-idobjectvalidator.version>1.2.0.1-B1</kernel-ref-idobjectvalidator.version>
+		<kernel-ref-idobjectvalidator.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator</kernel-ref-idobjectvalidator.location>
+		<kernel-ref-idobjectvalidator.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator.fileName>
+		<!-- kernel-virusscanner-clamav -->
+		<kernel-virusscanner-clamav.version>1.2.0.1-B1</kernel-virusscanner-clamav.version>
+		<kernel-virusscanner-clamav.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</kernel-virusscanner-clamav.location>
+		<kernel-virusscanner-clamav.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav.fileName>
+		<!-- clamav-client -->
+		<clamav-client.version>1.0.4</clamav-client.version>
+		<clamav-client.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</clamav-client.location>
+		<clamav-client.fileName>clamav.jar</clamav-client.fileName>
+		<!-- biosdk-client-->
+		<biosdk-client.version>1.2.0.1-B2-SNAPSHOT</biosdk-client.version>
+		<biosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/mock/0.9/biosdk-client</biosdk-client.location>
+		<biosdk-client-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/biosdk-lib</biosdk-client-lib.location>
+		<biosdk-client.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client.fileName>
+		<!-- demosdk-client -->
+		<demosdk-client.version>1.2.0</demosdk-client.version>
+		<demosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/demosdk/default/demosdk</demosdk-client.location>
+		<demosdk-client.fileName>demosdk-client-jar-with-dependencies.jar</demosdk-client.fileName>
+		<!-- mock-sdk -->
+		<mock-sdk.version>1.2.0.1-B1-SNAPSHOT</mock-sdk.version>
+		<mock-sdk.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/1.1.5</mock-sdk.location>
+		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
+		<!-- mock-sdk-jpeg-extractor -->
+		<mock-sdk-jpeg-extractor.version>1.2.1-SNAPSHOT</mock-sdk-jpeg-extractor.version>
+		<mock-sdk-jpeg-extractor.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-mock-sdk/1.1.5</mock-sdk-jpeg-extractor.location>
+		<mock-sdk-jpeg-extractor-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-sdk/jpeg-sdk-lib</mock-sdk-jpeg-extractor-lib.location>
+		<mock-sdk-jpeg-extractor.fileName>mock-sdk-jpeg-extractor-jar-with-dependencies.jar</mock-sdk-jpeg-extractor.fileName>
+		<!-- hazelcast cast -->
+		<hazelcast.version>3.12.12</hazelcast.version>
+		<hazelcast.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast.location>
+		<hazelcast.fileName>cache-provider.jar</hazelcast.fileName>
+		<!-- authentication-childauthfilter-impl -->
+		<authentication-childauthfilter-impl.version>1.2.0.1-B1</authentication-childauthfilter-impl.version>
+		<authentication-childauthfilter-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/authentication/authentication-ref-impl</authentication-childauthfilter-impl.location>
+		<authentication-childauthfilter-impl.fileName>authentication-childauthfilter-impl.jar</authentication-childauthfilter-impl.fileName>
+		<!-- idp authentication wrapper -->
+		<authentication-wrapper.version>0.9.0</authentication-wrapper.version>
+		<authentication-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/idp/idp-auth-wrapper</authentication-wrapper.location>
+		<authentication-wrapper.fileName>authentication-wrapper.jar</authentication-wrapper.fileName>
+		<!-- esignet mock authentication wrapper -->
+		<esignet-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-wrapper</esignet-wrapper.location>
+		<esignet-mock-wrapper.version>0.9.0-SNAPSHOT</esignet-mock-wrapper.version>
+		<esignet-mock-wrapper.fileName>esignet-mock-wrapper.jar</esignet-mock-wrapper.fileName>
+		<!-- esignet IDA wrapper -->
+		<esignet-ida-wrapper.version>1.2.0.1-B3-SNAPSHOT</esignet-ida-wrapper.version>
+		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
+	</properties>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+        			<version>3.5.0</version>
+        <executions>
+          <execution>
+            <id>copy</id>
+            <phase>package</phase>
+            <goals>
+              <goal>copy</goal>
+            </goals>
+	  </execution>
+	</executions>
+			<configuration>
+				<artifactItems>
+<!-- artifactItem section for auth adapter -->
+				<artifactItem>
+	       	 	                <groupId>io.mosip.kernel</groupId>
+					<artifactId>kernel-auth-adapter</artifactId>
+					<version>${auth-adapter.version}</version>
+					 <outputDirectory>${auth-adapter.location}</outputDirectory> 
+					<destFileName>${auth-adapter.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for smsserviceprovider -->
+				<artifactItem>
+					<groupId>io.mosip.kernel</groupId>
+					<artifactId>kernel-smsserviceprovider-msg91</artifactId>
+					<version>${kernel-smsserviceprovider.version}</version>
+					 <outputDirectory>${kernel-smsserviceprovider.location}</outputDirectory> 
+					<destFileName>${kernel-smsserviceprovider.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for ref-idobjectvaidator -->
+				<artifactItem>
+					<groupId>io.mosip.kernel</groupId>
+					<artifactId>kernel-ref-idobjectvalidator</artifactId>
+					<version>${kernel-ref-idobjectvalidator.version}</version>
+					 <outputDirectory>${kernel-ref-idobjectvalidator.location}</outputDirectory> 
+					<destFileName>${kernel-ref-idobjectvalidator.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for virusscanner -->
+				<artifactItem>
+					<groupId>io.mosip.kernel</groupId>
+					<artifactId>kernel-virusscanner-clamav</artifactId>
+					<version>${kernel-virusscanner-clamav.version}</version>
+					 <outputDirectory>${kernel-virusscanner-clamav.location}</outputDirectory> 
+					<destFileName>${kernel-virusscanner-clamav.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for clamav client -->
+				<artifactItem>
+					<groupId>xyz.capybara</groupId>
+					<artifactId>clamav-client</artifactId>
+					<version>${clamav-client.version}</version>
+					 <outputDirectory>${clamav-client.location}</outputDirectory> 
+					<destFileName>${clamav-client.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for mock-sdk -->
+				<artifactItem>
+					<groupId>io.mosip.mock.sdk</groupId>
+					<artifactId>mock-sdk</artifactId>
+					<version>${mock-sdk.version}</version>
+					 <outputDirectory>${mock-sdk.location}</outputDirectory> 
+					<destFileName>${mock-sdk.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for biosdk-client -->				
+				<artifactItem>
+					<groupId>io.mosip.biosdk</groupId>
+					<artifactId>biosdk-client</artifactId>
+					<version>${biosdk-client.version}</version>
+					 <outputDirectory>${biosdk-client.location}</outputDirectory> 
+					<destFileName>${biosdk-client.fileName}</destFileName>
+					<classifier>jar-with-dependencies</classifier>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for demosdk client -->
+               			<artifactItem>
+					<groupId>io.mosip.demosdk</groupId>
+					<artifactId>demosdk</artifactId>
+					<version>${demosdk-client.version}</version>
+					 <outputDirectory>${demosdk-client.location}</outputDirectory> 
+					<destFileName>${demosdk-client.fileName}</destFileName>
+					<classifier>jar-with-dependencies</classifier>
+					<type>jar</type>
+                		</artifactItem>
+<!-- artifactItem section for mock-sdk-jpeg-extractor -->
+				<artifactItem>
+					<groupId>io.mosip.mock.sdk</groupId>
+					<artifactId>mock-sdk-jpeg-extractor</artifactId>
+					<version>${mock-sdk-jpeg-extractor.version}</version>
+					 <outputDirectory>${mock-sdk-jpeg-extractor.location}</outputDirectory> 
+					<destFileName>${mock-sdk-jpeg-extractor.fileName}</destFileName>
+					<classifier>jar-with-dependencies</classifier>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for mock-sdk-jpeg-extractor lib-->
+				<artifactItem>
+					<groupId>io.mosip.mock.sdk</groupId>
+					<artifactId>mock-sdk</artifactId>
+					<version>${mock-sdk.version}</version>
+					 <outputDirectory>${mock-sdk-jpeg-extractor-lib.location}</outputDirectory> 
+					<destFileName>${mock-sdk.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>	
+				<artifactItem>
+					<groupId>io.mosip.mock.sdk</groupId>
+					<artifactId>mock-sdk-jpeg-extractor</artifactId>
+					<version>${mock-sdk-jpeg-extractor.version}</version>
+					 <outputDirectory>${mock-sdk-jpeg-extractor-lib.location}</outputDirectory> 
+					<destFileName>${mock-sdk-jpeg-extractor.fileName}</destFileName>
+					<classifier>jar-with-dependencies</classifier>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for biosdk library -->
+<!-- Commented as per discussion. as jar with dependencies will have components of jar as well.
+				<artifactItem>
+					<groupId>io.mosip.mock.sdk</groupId>
+					<artifactId>mock-sdk</artifactId>
+					<version>${mock-sdk.version}</version>
+					 <outputDirectory>${biosdk-client-lib.location}</outputDirectory> 
+					<destFileName>${mock-sdk.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>	-->
+				<artifactItem>
+					<groupId>io.mosip.mock.sdk</groupId>
+					<artifactId>mock-sdk</artifactId>
+					<version>${mock-sdk.version}</version>
+					 <outputDirectory>${biosdk-client-lib.location}</outputDirectory> 
+					<destFileName>${mock-sdk.fileName}</destFileName>
+					<classifier>jar-with-dependencies</classifier>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for childauthfilter jar -->
+				<artifactItem>
+					<groupId>io.mosip.authentication</groupId>
+					<artifactId>authentication-childauthfilter-impl</artifactId>
+					<version>${authentication-childauthfilter-impl.version}</version>
+					 <outputDirectory>${authentication-childauthfilter-impl.location}</outputDirectory> 
+					<destFileName>${authentication-childauthfilter-impl.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for hazelcast-all jar -->
+				<artifactItem>
+					<groupId>com.hazelcast</groupId>
+					<artifactId>hazelcast-all</artifactId>
+					<version>${hazelcast.version}</version>
+					 <outputDirectory>${hazelcast.location}</outputDirectory> 
+					<destFileName>${hazelcast.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for idp authentication wrapper - only required for idp v090-->
+				<artifactItem>
+					<groupId>io.mosip.idp</groupId>
+					<artifactId>authentication-wrapper</artifactId>
+					<version>${authentication-wrapper.version}</version>
+					 <outputDirectory>${authentication-wrapper.location}</outputDirectory> 
+					<destFileName>${authentication-wrapper.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for esignet authentication wrapper -->
+				<artifactItem>
+					<groupId>io.mosip.esignet.mock</groupId>
+					<artifactId>mock-esignet-integration-impl</artifactId>
+					<version>${esignet-mock-wrapper.version}</version>
+					<outputDirectory>${esignet-wrapper.location}</outputDirectory>
+					<destFileName>${esignet-mock-wrapper.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+					<artifactItem>
+						<groupId>io.mosip.authentication</groupId>
+						<artifactId>esignet-integration-impl</artifactId>
+						<version>${esignet-ida-wrapper.version}</version>
+						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
+						<destFileName>${esignet-ida-wrapper.fileName}</destFileName>
+						<type>jar</type>
+					</artifactItem>
+				</artifactItems>
+			<overWriteReleases>true</overWriteReleases>
+              		<overWriteSnapshots>true</overWriteSnapshots>
+              		<overWriteIfNewer>true</overWriteIfNewer>
+            </configuration>
+	  </plugin>
+	</plugins>
+       </build>
+</project>
