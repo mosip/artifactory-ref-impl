@@ -838,6 +838,42 @@
         }]
     },
 
+    "download-card": {
+        "header": "تحميل البطاقة",
+        "text": "الرجاء إدخال معرّف التسجيل لتنزيل البطاقة الرقمية",
+        "error": "تم إدخال معرف تسجيل غير صالح",
+        "id": "معرف تسجيل",
+        "dob": "تاريخ الولادة",
+        "verifyanddownload": "لقد تحققت من الوجه.",
+        "reject": "الوجه غير متطابق.",
+        "submit": "رفض",
+        "download": "تحميل",
+        "searchLimit": "لقد تركت مع",
+        "outof": "عمليات البحث من أصل",
+        "dailylimit": "من الحد اليومي الخاص بك",
+        "verify": "هل يمكنك تأكيد ما إذا كان الوجه قد تم التحقق منه؟",
+        "placeholder":"معرف تسجيل",
+        "errorMessages": {
+            "title": "خطأ",
+            "message": "لم يتم العثور على RID",
+            "btnTxt": "موافق"
+        },
+        "popupMessages": {
+            "rejectMessages": {
+                "title": "النجاح",
+                "message": "لقد رفضت التحقق.",
+                "btnTxt": "موافق"
+            },
+            "noData": {
+                "title": "خطأ",
+                "message": "لاتوجد بيانات",
+                "btnTxt": "موافق"
+            }
+        },
+        "statuscheckFailed":"فشل",
+        "statuscheckCompleted":"منجز"
+
+    },
     "serverError": {
         "KER-KMS-001": "الشهادة غير صالحة",
         "KER-KMS-002": "غير موجود في ",
