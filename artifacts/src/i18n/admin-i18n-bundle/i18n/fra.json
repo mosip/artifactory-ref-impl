@@ -32,7 +32,13 @@
 			"subItem3": "Obtenir un certificat",
 			"subItem4": "Télécharger le certificat",
 			"subItem5": "Télécharger un autre certificat de domaine"
-		}
+		},
+		"item8": {
+            "title": "Récupérer le RID perdu"
+        },
+        "item9": {
+            "title": "Télécharger la carte"
+        }
 	},
 	"dashboard": {
 		"welcomeMessage": "Bienvenue sur le portail d'administration Mosip!"
