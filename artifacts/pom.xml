@@ -97,7 +97,7 @@
 		<demosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/demosdk/default/demosdk</demosdk-client.location>
 		<demosdk-client.fileName>demosdk-client-jar-with-dependencies.jar</demosdk-client.fileName>
 		<!-- mock-sdk -->
-		<mock-sdk.version>1.2.1-SNAPSHOT</mock-sdk.version>
+		<mock-sdk.version>1.2.0</mock-sdk.version>
 		<mock-sdk.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/1.1.5</mock-sdk.location>
 		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
 		<!-- mock-sdk-jpeg-extractor -->
@@ -124,6 +124,8 @@
 		<!-- esignet IDA wrapper -->
 		<esignet-ida-wrapper.version>1.2.0.1-B3-SNAPSHOT</esignet-ida-wrapper.version>
 		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
+		<!-- latest mock-sdk -->
+		<mock-sdk-latest.version>1.2.0.1-B1-SNAPSHOT</mock-sdk-latest.version>
 	</properties>
 	
 	<build>
@@ -258,7 +260,7 @@
 				<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
 					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk.version}</version>
+					<version>${mock-sdk-latest.version}</version>
 					 <outputDirectory>${biosdk-client-lib.location}</outputDirectory> 
 					<destFileName>${mock-sdk.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
