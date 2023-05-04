@@ -93,7 +93,7 @@ ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/re
 
 # environment variable for sdk url
 #ENV sdk_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.2.0-SNAPSHOT/mock-sdk-1.2.0-20220315.083321-35.jar
-ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.2.0/mock-sdk-1.2.0.jar
+ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.2.0.1-B2/mock-sdk-1.2.0.1-B2.jar
 
 # environment variable for cache URL 
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
