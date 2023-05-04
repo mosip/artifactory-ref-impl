@@ -74,8 +74,8 @@ ENV version=1.1.5.5
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
-ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/1.1.5.5/kernel-auth-adapter-1.1.5.5.jar
-#ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5.5-SNAPSHOT/kernel-auth-adapter-1.1.5.5-20220420.053636-48.jar
+ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/1.1.5.5-P1/kernel-auth-adapter-1.1.5.5-P1.jar
+#ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5.5-p1-SNAPSHOT/kernel-auth-adapter-1.1.5.5-p1-20221014.100121-7.jar
 
 # environment variable for msg91_jar url. 
 ENV sms_msg91_jar_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/1.1.5.2/kernel-smsserviceprovider-msg91-1.1.5.2.jar
@@ -93,7 +93,7 @@ ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/re
 
 # environment variable for sdk url
 #ENV sdk_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.2.0-SNAPSHOT/mock-sdk-1.2.0-20220315.083321-35.jar
-ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.2.0/mock-sdk-1.2.0.jar
+ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.2.0.1-B1/mock-sdk-1.2.0.1-B1.jar
 
 # environment variable for cache URL 
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
