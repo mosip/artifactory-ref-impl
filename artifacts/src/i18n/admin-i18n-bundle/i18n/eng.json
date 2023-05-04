@@ -1400,6 +1400,9 @@
         "ADM-AVD-006" : "Please acknowledge the details before downloading digital card",
         "ADM-AVD-007" : "Request id not found",
         "ADM-AVD-008" : "Your daily search limit has exceeded. Please try searching again tomorrow.",
-        "ADM-AVD-009" : "Data share usuage expired"
+        "ADM-AVD-009" : "Data share usuage expired",
+        "ADM-AVD-509" : "RID not found",
+        "ADM-AVD-510" : "Applicant search limit exceeded",
+        "ADM-AVD-511" : "Request id not found"
     }
 }
