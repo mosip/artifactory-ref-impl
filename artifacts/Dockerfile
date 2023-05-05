@@ -92,7 +92,7 @@ ENV clamav_jar_url_env=${release_maven_path}/kernel/kernel-virusscanner-clamav/1
 ENV clamav_client_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/xyz/capybara/clamav-client/1.0.4/clamav-client-1.0.4.jar
 
 # environment variable for sdk url
-ENV sdk_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.1.5.1-SNAPSHOT/mock-sdk-1.1.5.1-20230504.132404-1.jar
+ENV sdk_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/mock/sdk/mock-sdk/1.2.0.1-B1-SNAPSHOT/mock-sdk-1.2.0.1-B1-20230404.113315-9-jar-with-dependencies.jar
 #ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/mock/sdk/mock-sdk/1.1.5.1-SNAPSHOT/mock-sdk-1.1.5.1-20230504.132404-1.jar
 
 # environment variable for cache URL 
