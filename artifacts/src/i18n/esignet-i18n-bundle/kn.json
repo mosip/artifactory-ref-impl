@@ -106,7 +106,8 @@
     "BIO": "ಬಯೋಮೆಟ್ರಿಕ್ಸ್",
     "QRCode": "ಕ್ಯೂಆರ್ ಕೋಡ್",
     "WALLET": "ಇಂಜಿ",
-    "OTP": "ಒಟಿಪಿ"
+    "OTP": "ಒಟಿಪಿ",
+    "PWD": "ಗುಪ್ತಪದ"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet ಪ್ರಸಿದ್ಧ API ಗಳು",

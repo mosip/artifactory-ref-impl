@@ -106,7 +106,8 @@
     "BIO": "बायोमेट्रिक्स",
     "QRCode": "क्यू आर कोड",
     "WALLET": "इंजि",
-    "OTP": "ओटीपी"
+    "OTP": "ओटीपी",
+    "PWD": "पासवर्ड"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet प्रसिद्ध एपीआई",

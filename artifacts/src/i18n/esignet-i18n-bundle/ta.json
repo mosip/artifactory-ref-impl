@@ -106,7 +106,8 @@
     "BIO": "பயோமெட்ரிக்ஸ்",
     "QRCode": "க்யு ஆர் குறியீடு",
     "WALLET": "இன்ஜி",
-    "OTP": "OTP"
+    "OTP": "OTP",
+    "PWD": "கடவுச்சொல்"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet நன்கு அறியப்பட்ட APIகள்",
