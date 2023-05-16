@@ -60,6 +60,15 @@
     "uin_placeholder": "யுஐஎன் அல்லது பின்",
     "pin_placeholder": "பின்னை உள்ளிடவும்"
   },
+  "password": {
+    "sign_in_with_password": "கடவுச்சொல் மூலம் உள்நுழைக",
+    "remember_me": "என்னை நினைவு செய்யுங்கள்",
+    "login": "உள்நுழைய",
+    "uin_label_text": "உங்கள் VID ஐ உள்ளிடவும்",
+    "password_label_text": "கடவுச்சொல்லை உள்ளிடவும்",
+    "uin_placeholder": "விஐடி",
+    "password_placeholder": "கடவுச்சொல்"
+  },
   "LoginQRCode": {
     "sign_in_with_inji": "இன்ஜியுடன் உள்நுழைக",
     "scan_with_inji": "உள்நுழைய இன்ஜி ஆப் மூலம் ஸ்கேன் செய்யவும்",
@@ -97,7 +106,8 @@
     "BIO": "பயோமெட்ரிக்ஸ்",
     "QRCode": "க்யு ஆர் குறியீடு",
     "WALLET": "இன்ஜி",
-    "OTP": "OTP"
+    "OTP": "OTP",
+    "PWD": "கடவுச்சொல்"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet நன்கு அறியப்பட்ட APIகள்",
@@ -219,6 +229,7 @@
     "invalid_version": "தவறான பதிப்பு",
     "invalid_value": "தவறான மதிப்பு",
     "duplicate_individual_id": "தனிப்பட்ட ஐடி ஏற்கனவே உள்ளது.",
+    "password_error_msg": "தவறான கடவுச்சொல்",
     "0": "வெற்றி",
     "100": "சாதனம் பதிவு செய்யப்படவில்லை",
     "101": "பயோமெட்ரிக் பொருளைக் கண்டறிய முடியவில்லை",
