@@ -60,6 +60,15 @@
     "uin_placeholder": "UIN or VID",
     "pin_placeholder": "Enter PIN"
   },
+  "password": {
+    "sign_in_with_password": "Login with Password",
+    "remember_me": "Remember Me",
+    "login": "Login",
+    "uin_label_text": "Enter your VID",
+    "password_label_text": "Enter Password",
+    "uin_placeholder": "VID",
+    "password_placeholder": "Password"
+  },
   "LoginQRCode": {
     "sign_in_with_inji": "Login with Inji",
     "scan_with_inji": "Scan with Inji App to Log In",
@@ -97,7 +106,8 @@
     "BIO": "Biometrics",
     "QRCode": "QR Code",
     "WALLET": "Inji",
-    "OTP": "OTP"
+    "OTP": "OTP",
+    "PWD": "Password"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet wellknown APIs",
@@ -232,6 +242,7 @@
     "invalid_version": "Invalid version",
     "invalid_value": "Invalid value",
     "duplicate_individual_id": "Individual ID already exists.",
+    "password_error_msg": "Invalid Password",
     "0": "Success",
     "100": "Device Not Registered",
     "101": "Unable to Detect a Biometrics",
