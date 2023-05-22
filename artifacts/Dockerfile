@@ -166,7 +166,7 @@ COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n
 COPY /src/master-templates/* ${work_dir}/master-templates/
 
 COPY /src/impl/* ${custom_zip_path}/
-
+COPY /src/sms/* ${kernel_jar_path}/
 
 RUN zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources  && \
 zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ${work_dir}/admin-entity-spec-bundle/*  && \
