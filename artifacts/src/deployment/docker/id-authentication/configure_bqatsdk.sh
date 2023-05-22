@@ -3,16 +3,16 @@
 #installs the pkcs11 libraries.
 set -e
 
-DEFAULT_ZIP_PATH=artifactory/libs-release-local/biosdk/mock/0.9/biosdk-client.zip
-[ -z "$biosdk_zip_file_path" ] && zip_path="$DEFAULT_ZIP_PATH" || zip_path="$biosdk_zip_file_path"
+DEFAULT_ZIP_PATH=artifactory/libs-release-local/bqatsdk/mock/0.9/bqatsdk-client.zip
+[ -z "$bqatsdk_zip_file_path" ] && zip_path="$DEFAULT_ZIP_PATH" || zip_path="$bqatsdk_zip_file_path"
 
-echo "Download the biosdk from $artifactory_url_env"
+echo "Download the bqatsdk from $artifactory_url_env"
 wget -q --show-progress "$artifactory_url_env/$zip_path"
 echo "Downloaded $artifactory_url_env/$zip_path"
 
 FILE_NAME=${zip_path##*/}
 
-DIR_NAME=$biosdk_local_dir_name
+DIR_NAME=$bqatsdk_local_dir_name
 
 has_parent=$(zipinfo -1 "$FILE_NAME" | awk '{split($NF,a,"/");print a[1]}' | sort -u | wc -l)
 if test "$has_parent" -eq 1; then
