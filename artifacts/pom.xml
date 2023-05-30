@@ -310,22 +310,6 @@
 						<destFileName>${esignet-ida-wrapper.fileName}</destFileName>
 						<type>jar</type>
 					</artifactItem>
-					<artifactItem>
-						<groupId>io.mosip.esignet</groupId>
-  						<artifactId>household-esignet-integration-impl</artifactId>
-  						<version>1.0.0-SNAPSHOT</version>
-						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
-						<destFileName>household-esignet-integration-impl.jar</destFileName>
-						<type>jar</type>
-					</artifactItem>
-					<artifactItem>
-						<groupId>io.mosip.ida115</groupId>
-                				<artifactId>esignet-ida115-integration-impl</artifactId>
-                				<version>1.0.0-SNAPSHOT</version>
-						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
-						<destFileName>esignet-ida115-integration-impl.jar</destFileName>
-						<type>jar</type>
-					</artifactItem>
 				</artifactItems>
 			<overWriteReleases>true</overWriteReleases>
               		<overWriteSnapshots>true</overWriteSnapshots>
