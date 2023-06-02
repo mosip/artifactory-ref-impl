@@ -5,7 +5,7 @@ on:
     branches:
       - develop
       - 1.1.5
-      - MOSIP-17721
+      - hhid
   
 jobs:
 
