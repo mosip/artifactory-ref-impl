@@ -311,7 +311,7 @@
 						<type>jar</type>
 					</artifactItem> -->
 					<artifactItem>
-						<groupId>io.mosip.esignet</groupId>
+						<groupId>io.mosip.householdid.esignet.integration</groupId>
 						<artifactId>household-esignet-integration-impl</artifactId>
 						<version>1.0.0-SNAPSHOT</version>
 						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
