@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx@sha256:af296b188c7b7df99ba960ca614439c99cb7cf252ed7bbc23e90cfda59092305
 
 # can be passed during Docker build as build time environment for github branch to pickup configuration from.
 ARG container_user=mosip
@@ -15,9 +15,6 @@ ARG container_user_gid=1001
 # install packages and create user
 RUN apt-get update -y && \
 apt-get install -y gnupg2 && \
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0xB1998361219BD9C9 && \
-echo "deb http://security.ubuntu.com/ubuntu bionic-security main" | tee /etc/apt/sources.list.d/security.list && \
-echo "deb http://archive.ubuntu.com/ubuntu bionic main universe" | tee /etc/apt/sources.list.d/ubuntu.list && \
 apt-get update -y && \
 apt-get install -y --no-install-recommends unzip wget zip openjdk-11-jdk && \
 groupadd -g ${container_user_gid} ${container_user_group} &&\
