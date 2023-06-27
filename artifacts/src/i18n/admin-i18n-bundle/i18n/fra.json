@@ -1333,6 +1333,7 @@
 		"KER-MSD-058": "Une erreur s'est produite lors de l'insertion des détails de la raison",
 		"KER-MSD-263": "une erreur s'est produite lors de la recherche de l'enregistrement : demande invalide",
 		"KER-MSD-364": "Impossible de reprendre le paquet",
+		"KER-MSD-365": "La spécification de l'appareil est inactive",
 		"ADM-DPM-032": "L'ID/le nom du fournisseur de périphérique n'existe pas dans la liste des fournisseurs de périphériques enregistrés",
 		"ADM-DPM-035": "Une erreur s'est produite lors du stockage des détails du périphérique enregistré",
 		"ADM-DPM-042": "%s Impossible d'enregistrer le périphérique car il ne s'agit pas d'un périphérique sur liste blanche",
