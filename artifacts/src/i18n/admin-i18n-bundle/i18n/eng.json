@@ -1066,6 +1066,7 @@
         "KER-MSD-058": "Error occure while inserting reason details ",
         "KER-MSD-263": "error occured while searching the record : invalid rquest",
         "KER-MSD-364": "failed to resume packet",
+	"KER-MSD-365": "Device Specification is Inactive",
         "ADM-DPM-032": "Device Provider ID/Name does not exist in the list of Registered Device Providers",
         "ADM-DPM-035": "Error occurred while storing Registered Device Details",
         "ADM-DPM-042": "%s Cannot register device as it is not a white-listed device",
