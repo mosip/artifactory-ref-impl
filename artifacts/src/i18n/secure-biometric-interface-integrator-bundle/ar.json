@@ -1,0 +1,23 @@
+{
+    "scan_and_verify": "المسح والتحقق",
+    "scan": "مسح",
+    "cancel": "يلغي",
+    "capture": "يأسر",
+    "capture_and_verify": "التقط وتحقق",
+    "capture_timeout": "مهلة الالتقاط",
+    "scanning_devices_msg": "أجهزة المسح. انتظر من فضلك...",
+    "device_disc_failed": "فشل اكتشاف الجهاز",
+    "device_not_found_msg": "لم يتم العثور علي الجهازيرجى التحقق من الاتصال وإعادة المحاولة",
+    "capture_initiated_msg": "تم بدء الالتقاط {{modality}} في {{deviceModel}}",
+    "Face": "وجه",
+    "Finger": "اصبع اليد",
+    "Iris": "قزحية",
+    "biometric_capture_failed_msg": "فشل التقاط المقاييس الحيوية",
+    "invalid_state_msg": "الجهاز {{deviceName}} هو {{deviceState}}",
+    "READY": "مستعد",
+    "NOTREADY": "غير جاهز",
+    "BUSY": "مشغول",
+    "NOTREGISTERED": "غير مسجل",
+    "select_a_device": "اختر جهازا",
+    "no_options": "لا يوجد خيارات"
+  }  

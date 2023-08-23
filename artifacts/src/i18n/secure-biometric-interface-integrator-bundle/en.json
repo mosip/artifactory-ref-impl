@@ -1,0 +1,24 @@
+{
+    "scan_and_verify": "Scan and Verify",
+    "scan": "Scan",
+    "cancel": "Cancel",
+    "capture": "Capture",
+    "capture_and_verify": "Capture and Verify",
+    "capture_timeout": "Capture Timeout",
+    "scanning_devices_msg": "Scanning Devices. Please Wait...",
+    "device_disc_failed": "Device discovery failed",
+    "device_not_found_msg": "Device Not Found. Please Check the Connectivity and Retry.",
+    "capture_initiated_msg": "{{modality}} capture initiated on {{deviceModel}}",
+    "Face": "Face",
+    "Finger": "Finger",
+    "Iris": "Iris",
+    "biometric_capture_failed_msg": "Biometric Capture Failed",
+    "invalid_state_msg": "{{deviceName}} device is {{deviceState}}",
+    "READY": "READY",
+    "NOTREADY": "NOT READY",
+    "BUSY": "BUSY",
+    "NOTREGISTERED": "NOT REGISTERED",
+    "select_a_device": "Select a device",
+    "no_options": "No Options"
+  }
+  
