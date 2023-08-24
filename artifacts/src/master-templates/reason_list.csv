@@ -1,2 +1,2 @@
-code,name,description,rsnCatCode,langCode,isActive,isDeleted
-IAF,test,test2,CLR,eng,FALSE,FALSE
+code|name|description|rsnCatCode|langCode|isActive|isDeleted
+IAF|test|test2|CLR|eng|FALSE|FALSE
