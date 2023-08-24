@@ -1,2 +1,2 @@
-registrationCenterId,exceptionHolidayDate,exceptionHolidayName,exceptionHolidayReson,langCode,isActive,isDeleted
-10001,2021-01-01,Emergency Holiday,urgent,eng,TRUE,FALSE
+registrationCenterId|exceptionHolidayDate|exceptionHolidayName|exceptionHolidayReson|langCode|isActive|isDeleted
+10001|2021-01-01|Emergency Holiday|urgent|eng|TRUE|FALSE

@@ -1,2 +1,2 @@
-id,name,description,langCode,isActive,isDeleted
-10107,Pre-Reg,Web portal for pre-registrations,eng,FALSE,FALSE
+id|name|description|langCode|isActive|isDeleted
+10107|Pre-Reg|Web portal for pre-registrations|eng|FALSE|FALSE

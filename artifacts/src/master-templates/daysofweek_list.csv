@@ -1,2 +1,2 @@
-code,name,daySeq,isGlobalWorking,langCode,isActive,isDeleted
-108,ABC,8,TRUE,eng,TRUE,FALSE
+code|name|daySeq|isGlobalWorking|langCode|isActive|isDeleted
+108|ABC|8|TRUE|eng|TRUE|FALSE
