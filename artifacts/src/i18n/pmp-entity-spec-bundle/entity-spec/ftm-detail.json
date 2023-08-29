@@ -4,11 +4,11 @@
 		{
 			"buttonName": {
 				"eng": "Upload Certificate",
-				"ara": "Upload Certificate_ara",
-				"fra": "Upload Certificate_fra",
-				"hin": "Upload Certificate_hin",
-				"kan": "Upload Certificate_kan",
-				"tam": "Upload Certificate_tam"
+				"ara": "تحميل الشهادة",
+				"fra": "Télécharger le certificat",
+				"hin": "प्रमाणपत्र अपलोड करें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+				"tam": "சான்றிதழை பதிவேற்றவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -19,11 +19,11 @@
 		{
 			"buttonName": {
 				"eng": "View Certificate",
-				"ara": "View Certificate_ara",
-				"fra": "View Certificate_fra",
-				"hin": "View Certificate_hin",
-				"kan": "View Certificate_kan",
-				"tam": "View Certificate_tam"
+				"ara": "مشاهدة الشهادة",
+				"fra": "Afficher le certificat",
+				"hin": "प्रमाणपत्र देखें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ವೀಕ್ಷಿಸಿ",
+				"tam": "சான்றிதழைப் பார்க்கவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -33,12 +33,12 @@
 		},
 		{
 			"buttonName": {
-				"eng": "Approve",
-				"ara": "Approve_ara",
-				"fra": "Approve_fra",
-				"hin": "Approve_hin",
-				"kan": "Approve_kan",
-				"tam": "Approve_tam"
+				"eng": "Activate",
+				"ara": "تفعيل",
+				"fra": "Activer",
+				"hin": "सक्रिय",
+				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயல்படுத்த"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -48,12 +48,12 @@
 		},
 		{
 			"buttonName": {
-				"eng": "Reject",
-				"ara": "Reject_ara",
-				"fra": "Reject_fra",
-				"hin": "Reject_hin",
-				"kan": "Reject_kan",
-				"tam": "Reject_tam"
+				"eng": "Deactivate",
+				"ara": "تعطيل",
+				"fra": "Désactiver",
+				"hin": "निष्क्रिय करें",
+				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயலிழக்கச் செய்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -64,11 +64,11 @@
 		{
 			"buttonName": {
 				"eng": "Edit",
-				"ara": "Edit_ara",
-				"fra": "Edit_fra",
-				"hin": "Edit_hin",
-				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
 			},
 			"actionURL": "",
 			"redirectURL": "pmp/resources/ftmdetails/single-view/$id",
@@ -78,12 +78,12 @@
 		},
 		{
 			"buttonName": {
-				"eng": "Create FTM",
-				"ara": "Create FTM_ara",
-				"fra": "Create FTM_fra",
-				"hin": "Create FTM_hin",
-				"kan": "Create FTM_kan",
-				"tam": "Create FTM_tam"
+				"eng": "Create Device",
+				"ara": "إنشاء الجهاز",
+				"fra": "Créer un appareil",
+				"hin": "डिवाइस बनाएं",
+				"kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ",
+				"tam": "சாதனத்தை உருவாக்கவும்"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -95,11 +95,11 @@
 		{
 			"buttonName": {
 				"eng": "Filter",
-				"ara": "Filter_ara",
-				"fra": "Filter_fra",
-				"hin": "Filter_hin",
-				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -115,11 +115,11 @@
 			"name": "ftpChipDetailId",
 			"label": {
 				"eng": "ID",
-				"ara": "ID_ara",
-				"fra": "ID_fra",
-				"hin": "ID_hin",
-				"kan": "ID_kan",
-				"tam": "ID_tam"
+				"ara": "بطاقة تعريف",
+				"fra": "IDENTIFIANT",
+				"hin": "पहचान",
+				"kan": "ಐಡಿ",
+				"tam": "ஐடி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -134,17 +134,17 @@
 			"name": "ftpProviderId",
 			"label": {
 				"eng": "Partner Name",
-				"ara": "Partner Name_ara",
-				"fra": "Partner Name_fra",
-				"hin": "Partner Name_hin",
-				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
 			"linkType": "",
 			"LinkURL": "",
-			"inputType": "dropdownpartner",
+			"inputType": "dropdown",
 			"ismandatory": "true",
 			"showInListView": "true",
 			"showInSingleView": "true"
@@ -153,11 +153,11 @@
 			"name": "partnerOrganizationName",
 			"label": {
 				"eng": "Organization Name",
-				"ara": "Organization Name_ara",
-				"fra": "Organization Name_fra",
-				"hin": "Organization Name_hin",
-				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
+				"ara": "اسم المنظمة",
+				"fra": "nom de l'organisation",
+				"hin": "संगठन का नाम",
+				"kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+				"tam": "நிறுவன பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -172,11 +172,11 @@
 			"name": "make",
 			"label": {
 				"eng": "Make",
-				"ara": "Make_ara",
-				"fra": "Make_fra",
-				"hin": "Make_hin",
-				"kan": "Make_kan",
-				"tam": "Make_tam"
+				"ara": "يجعلون",
+				"fra": "Faire, construire",
+				"hin": "बनाना",
+				"kan": "ಮಾಡಿ",
+				"tam": "செய்ய"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -191,11 +191,11 @@
 			"name": "model",
 			"label": {
 				"eng": "Model",
-				"ara": "Model_ara",
-				"fra": "Model_fra",
-				"hin": "Model_hin",
-				"kan": "Model_kan",
-				"tam": "Model_tam"
+				"ara": "نموذج",
+				"fra": "Modèle",
+				"hin": "नमूना",
+				"kan": "ಮಾದರಿ",
+				"tam": "மாதிரி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -207,15 +207,15 @@
 			"showInSingleView": "true"
 		},
 		{
-			"name": "approvalStatus",
+			"name": "active",
 			"showInListView": "true",
 			"label": {
 				"eng": "Status",
-				"ara": "Status_ara",
-				"fra": "Status_fra",
-				"hin": "Status_hin",
-				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -230,14 +230,14 @@
 	},
 	"filterColumns": [{
 			"filtername": "ftpProviderId",
-			"filterlabel": {
-				"eng": "Partner Name",
-				"ara": "Partner Name_ara",
-				"fra": "Partner Name_fra",
-				"hin": "Partner Name_hin",
-				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
-			},
+			"filterlabel": {                    
+                                "eng": "Partner Name",
+                                "ara": "اسم شريك",
+                                "fra": "Nom du partenaire",
+                                "hin": "साथी का नाम",
+                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
+                                "tam": "கூட்டாளர் பெயர்"
+                        },
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -251,12 +251,12 @@
 			"filtername": "partnerOrganizationName",
 			"filterlabel": {
 				"eng": "Organization Name",
-				"ara": "Organization Name_ara",
-				"fra": "Organization Name_fra",
-				"hin": "Organization Name_hin",
-				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
-			},
+                                "ara": "اسم المنظمة",
+                                "fra": "nom de l'organisation",
+                                "hin": "संगठन का नाम",
+                                "kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+                                "tam": "நிறுவன பெயர்"
+								},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -270,12 +270,13 @@
 			"filtername": "make",
 			"filterlabel": {
 				"eng": "Make",
-				"ara": "Make_ara",
-				"fra": "Make_fra",
-				"hin": "Make_hin",
-				"kan": "Make_kan",
-				"tam": "Make_tam"
+                                "ara": "يجعلون",
+                                "fra": "Faire, construire",
+                                "hin": "बनाना",
+                                "kan": "ಮಾಡಿ",
+                                "tam": "செய்ய"
 			},
+			
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -288,12 +289,12 @@
 		{
 			"filtername": "model",
 			"filterlabel": {
-				"eng": "Model",
-				"ara": "Model_ara",
-				"fra": "Model_fra",
-				"hin": "Model_hin",
-				"kan": "Model_kan",
-				"tam": "Model_tam"
+				 "eng": "Model",
+                                "ara": "نموذج",
+                                "fra": "Modèle",
+                                "hin": "नमूना",
+                                "kan": "ಮಾದರಿ",
+                                "tam": "மாதிரி"
 			},
 			"filterType": "equals",
 			"fieldType": "input",

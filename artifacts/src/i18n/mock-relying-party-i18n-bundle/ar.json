@@ -105,21 +105,6 @@
     "home": "بيت",
     "location": "# 45/2 ، كولومبيا آسيا ، ماراثاهالي - طريق سارجابور ، مقابل إبلور ، بيلاندور ، بنغالورو ، كارناتاكا -560102"
   },
-  "registration": {
-    "child_registration": "تسجيل المستخدم",
-    "full_name": "الاسم الكامل",
-    "gender": "جنس تذكير أو تأنيث",
-    "date_of_birth": "تاريخ الولادة",
-    "city": "مدينة",
-    "address": "تبوك",
-    "fetch_details": "إحضار التفاصيل من e-Signet",
-    "register": "يسجل",
-    "loading_msg": "تحميل! يرجى الانتظار...",
-    "phone_number": "رقم التليفون",
-    "email_address": "عنوان البريد الإلكتروني",
-    "show_raw_user_info": "إظهار معلومات المستخدم الأولية",
-    "hide_raw_user_info": "إخفاء معلومات المستخدم الأولية"
-  },
   "profileui": {
     "current_medication": "الدواء الحالي",
     "next_appointment": "الموعد التالي",
@@ -134,6 +119,21 @@
     "dailydoseage_1": "1 حبة يوميا",
     "dr_alexander_kalish": "الدكتور الكسندر كاليش",
     "endocrin": "أخصائي الغدد الصماء"
+  },
+  "registration": {
+    "child_registration": "تسجيل المستخدم",
+    "full_name": "الاسم الكامل",
+    "gender": "جنس تذكير أو تأنيث",
+    "date_of_birth": "تاريخ الولادة",
+    "city": "مدينة",
+    "address": "تبوك",
+    "fetch_details": "إحضار التفاصيل من e-Signet",
+    "register": "يسجل",
+    "loading_msg": "تحميل! يرجى الانتظار...",
+    "phone_number": "رقم التليفون",
+    "email_address": "عنوان البريد الإلكتروني",
+    "show_raw_user_info": "إظهار معلومات المستخدم الأولية",
+    "hide_raw_user_info": "إخفاء معلومات المستخدم الأولية"
   },
   "error": {
     "sign_in_failed": "المصادقة فشلت! حاول تسجيل الدخول باستخدام e-Signet",

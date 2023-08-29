@@ -3,11 +3,11 @@
 	"actionButtons": [{
 			"buttonName": {
 				"eng": "Edit",
-				"ara": "Edit_ara",
-				"fra": "Edit_fra",
-				"hin": "Edit_hin",
-				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/partner/single-view/$id",
@@ -18,11 +18,11 @@
 		{
 			"buttonName": {
 				"eng": "Add Contacts",
-				"ara": "Add Contacts_ara",
-				"fra": "Add Contacts_fra",
-				"hin": "Add Contacts_hin",
-				"kan": "Add Contacts_kan",
-				"tam": "Add Contacts_tam"
+				"ara": "اضف جهات اتصال",
+				"fra": "Ajouter des contacts",
+				"hin": "संपर्क जोड़ें",
+				"kan": "ಸಂಪರ್ಕಗಳನ್ನು ಸೇರಿಸಿ",
+				"tam": "தொடர்புகளைச் சேர்க்கவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -33,11 +33,11 @@
 		{
 			"buttonName": {
 				"eng": "Upload Certificate",
-				"ara": "Upload Certificate_ara",
-				"fra": "Upload Certificate_fra",
-				"hin": "Upload Certificate_hin",
-				"kan": "Upload Certificate_kan",
-				"tam": "Upload Certificate_tam"
+				"ara": "تحميل الشهادة",
+				"fra": "Télécharger le certificat",
+				"hin": "प्रमाणपत्र अपलोड करें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+				"tam": "சான்றிதழை பதிவேற்றவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -48,11 +48,11 @@
 		{
 			"buttonName": {
 				"eng": "View Certificate",
-				"ara": "View Certificate_ara",
-				"fra": "View Certificate_fra",
-				"hin": "View Certificate_hin",
-				"kan": "View Certificate_kan",
-				"tam": "View Certificate_tam"
+				"ara": "مشاهدة الشهادة",
+				"fra": "Afficher le certificat",
+				"hin": "प्रमाणपत्र देखें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ವೀಕ್ಷಿಸಿ",
+				"tam": "சான்றிதழைப் பார்க்கவும்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -63,11 +63,11 @@
 		{
 			"buttonName": {
 				"eng": "Device Detail",
-				"ara": "Device Detail_ara",
-				"fra": "Device Detail_fra",
-				"hin": "Device Detail_hin",
-				"kan": "Device Detail_kan",
-				"tam": "Device Detail_tam"
+				"ara": "تفاصيل الجهاز",
+				"fra": "Détails de l'appareil",
+				"hin": "डिवाइस विवरण",
+				"kan": "ಸಾಧನದ ವಿವರ",
+				"tam": "சாதன விவரம்"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/devicepartner/devicedetail/view/$id",
@@ -78,11 +78,11 @@
 		{
 			"buttonName": {
 				"eng": "Create Partner",
-				"ara": "Create Partner_ara",
-				"fra": "Create Partner_fra",
-				"hin": "Create Partne_hin",
-				"kan": "Create Partne_kan",
-				"tam": "Create Partne_tam"
+				"ara": "إنشاء شريك",
+				"fra": "Créer un partenaire",
+				"hin": "पार्टनर बनाएं",
+				"kan": "ಪಾಲುದಾರರನ್ನು ರಚಿಸಿ",
+				"tam": "கூட்டாளரை உருவாக்கவும்"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -99,11 +99,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "ID",
-				"ara": "ID_ara",
-				"fra": "ID_fra",
-				"hin": "ID_hin",
-				"kan": "ID_kan",
-				"tam": "ID_tam"
+				"ara": "بطاقة تعريف",
+				"fra": "IDENTIFIANT",
+				"hin": "पहचान",
+				"kan": "ಐಡಿ",
+				"tam": "ஐடி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -115,11 +115,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Name",
-				"ara": "Name_ara",
-				"fra": "Name_fra",
-				"hin": "Name_hin",
-				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"ara": "اسم",
+				"fra": "Nom",
+				"hin": "नाम",
+				"kan": "ಹೆಸರು",
+				"tam": "பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -131,11 +131,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Email id",
-				"ara": "Email id_ara",
-				"fra": "Email id_fra",
-				"hin": "Email id_hin",
-				"kan": "Email id_kan",
-				"tam": "Email id_tam"
+				"ara": "عنوان الايميل",
+				"fra": "Identifiant de messagerie",
+				"hin": "ईमेल आईडी",
+				"kan": "ಇಮೇಲ್ ಐಡಿ",
+				"tam": "மின்னஞ்சல் முகவரி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -147,11 +147,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Policy Group",
-				"ara": "Policy Group_ara",
-				"fra": "Policy Group_fra",
-				"hin": "Policy Group_hin",
-				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
+				"ara": "مجموعة السياسة",
+				"fra": "Groupe de politiques",
+				"hin": "नीति समूह",
+				"kan": "ನೀತಿ ಗುಂಪು",
+				"tam": "கொள்கை குழு"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -163,11 +163,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Contact Number",
-				"ara": "Contact Number_ara",
-				"fra": "Contact Number_fra",
-				"hin": "Contact Number_hin",
-				"kan": "Contact Number_kan",
-				"tam": "Contact Number_tam"
+				"ara": "رقم الاتصال",
+				"fra": "Numéro de contact",
+				"hin": "संपर्क संख्या",
+				"kan": "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
+				"tam": "தொடர்பு எண்"
 			},
 			"sortOrder": "",
 			"showAsLink": "false",
@@ -179,11 +179,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "PolicyName",
-				"ara": "PolicyName_ara",
-				"fra": "PolicyName_fra",
-				"hin": "PolicyName_hin",
-				"kan": "PolicyName_kan",
-				"tam": "PolicyName_tam"
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -195,11 +195,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "Email",
-				"ara": "Email_ara",
-				"fra": "Email_fra",
-				"hin": "Email_hin",
-				"kan": "Email_kan",
-				"tam": "Email_tam"
+				"ara": "البريد الإلكتروني",
+				"fra": "E-mail",
+				"hin": "ईमेल",
+				"kan": "ಇಮೇಲ್",
+				"tam": "மின்னஞ்சல்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -211,11 +211,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "Status",
-				"ara": "Status_ara",
-				"fra": "Status_fra",
-				"hin": "Status_hin",
-				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -227,11 +227,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "Address",
-				"ara": "Address_ara",
-				"fra": "Address_fra",
-				"hin": "Address_hin",
-				"kan": "Address_kan",
-				"tam": "Address_tam"
+				"ara": "تبوك",
+				"fra": "Adresse",
+				"hin": "पता",
+				"kan": "ವಿಳಾಸ",
+				"tam": "முகவரி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -243,11 +243,11 @@
 			"showInListView": "",
 			"label": {
 				"eng": "Submit Request Status",
-				"ara": "Submit Request Status_ara",
-				"fra": "Submit Request Status_fra",
-				"hin": "Submit Request Status_hin",
-				"kan": "Submit Request Status_kan",
-				"tam": "Submit Request Status_tam"
+				"ara": "إرسال حالة الطلب",
+				"fra": "Soumettre le statut de la demande",
+				"hin": "अनुरोध स्थिति सबमिट करें",
+				"kan": "ವಿನಂತಿಯ ಸ್ಥಿತಿಯನ್ನು ಸಲ್ಲಿಸಿ",
+				"tam": "கோரிக்கை நிலையைச் சமர்ப்பிக்கவும்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",

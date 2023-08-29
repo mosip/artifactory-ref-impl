@@ -3,11 +3,11 @@
 	"actionButtons": [{
 			"buttonName": {
 				"eng": "Activate",
-				"ara": "Activate_ara",
-				"fra": "Activate_fra",
-				"hin": "Activate_hin",
-				"kan": "Activate_kan",
-				"tam": "Activate_tam"
+				"ara": "تفعيل",
+				"fra": "Activer",
+				"hin": "सक्रिय",
+				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயல்படுத்த"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -18,11 +18,11 @@
 		{
 			"buttonName": {
 				"eng": "Deactivate",
-				"ara": "Deactivate_ara",
-				"fra": "Deactivate_fra",
-				"hin": "Deactivate_hin",
-				"kan": "Deactivate_kan",
-				"tam": "Deactivate_tam"
+				"ara": "تعطيل",
+				"fra": "Désactiver",
+				"hin": "निष्क्रिय करें",
+				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயலிழக்கச் செய்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -33,11 +33,11 @@
 		{
 			"buttonName": {
 				"eng": "Approve",
-				"ara": "Approve_ara",
-				"fra": "Approve_fra",
-				"hin": "Approve_hin",
-				"kan": "Approve_kan",
-				"tam": "Approve_tam"
+				"ara": "يوافق",
+				"fra": "Approuver",
+				"hin": "मंज़ूरी देना",
+				"kan": "ಅನುಮೋದಿಸಿ",
+				"tam": "ஒப்புதல்"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -48,11 +48,11 @@
 		{
 			"buttonName": {
 				"eng": "Edit",
-				"ara": "Edit_ara",
-				"fra": "Edit_fra",
-				"hin": "Edit_hin",
-				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"ara": "تعديل",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/misp/single-view/$id",
@@ -63,11 +63,11 @@
 		{
 			"buttonName": {
 				"eng": "Create MISP",
-				"ara": "Create MISP_ara",
-				"fra": "Create MISP_fra",
-				"hin": "Create MISP_hin",
-				"kan": "Create MISP_kan",
-				"tam": "Create MISP_tam"
+				"ara": "إنشاء مجموعة خدمات MISP",
+				"fra": "Créer un MISP",
+				"hin": "MISP बनाएं",
+				"kan": "MISP ರಚಿಸಿ",
+				"tam": "MISP ஐ உருவாக்கவும்"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -82,11 +82,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Name",
-				"ara": "Name_ara",
-				"fra": "Name_fra",
-				"hin": "Name_hin",
-				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"ara": "اسم",
+				"fra": "Nom",
+				"hin": "नाम",
+				"kan": "ಹೆಸರು",
+				"tam": "பெயர்"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -98,11 +98,11 @@
 			"showInListView": "false",
 			"label": {
 				"eng": "Address",
-				"ara": "Address_ara",
-				"fra": "Address_fra",
-				"hin": "Address_hin",
-				"kan": "Address_kan",
-				"tam": "Address_tam"
+				"ara": "تبوك",
+				"fra": "Adresse",
+				"hin": "पता",
+				"kan": "ವಿಳಾಸ",
+				"tam": "முகவரி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -114,11 +114,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Phone.No",
-				"ara": "Phone.No_ara",
-				"fra": "Phone.No_fra",
-				"hin": "Phone.No_hin",
-				"kan": "Phone.No_kan",
-				"tam": "Phone.No_tam"
+				"ara": "رقم الهاتف",
+				"fra": "Pas de téléphone",
+				"hin": "फोन नंबर",
+				"kan": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+				"tam": "தொலைபேசி எண்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -130,11 +130,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Email",
-				"ara": "Email_ara",
-				"fra": "Email_fra",
-				"hin": "Email_hin",
-				"kan": "Email_kan",
-				"tam": "Email_tam"
+				"ara": "البريد الإلكتروني",
+				"fra": "E-mail",
+				"hin": "ईमेल",
+				"kan": "ಇಮೇಲ್",
+				"tam": "மின்னஞ்சல்"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -146,11 +146,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "IsActive",
-				"ara": "IsActive_ara",
-				"fra": "IsActive_fra",
-				"hin": "IsActive_hin",
-				"kan": "IsActive_kan",
-				"tam": "IsActive_tam"
+				"ara": "نشط",
+				"fra": "C'est actif",
+				"hin": "सक्रिय है",
+				"kan": "ಸಕ್ರಿಯವಾಗಿದೆ",
+				"tam": "செயலில் உள்ளது"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -162,11 +162,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Status",
-				"ara": "Status_ara",
-				"fra": "Status_fra",
-				"hin": "Status_hin",
-				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",

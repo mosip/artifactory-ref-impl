@@ -31,6 +31,11 @@ zip -r -j ${demosdk_zip_path}/demosdk.zip ${demosdk_zip_path}/demosdk/*
 rm -rf ${demosdk_zip_path}/demosdk
 echo demosdk-client zip creation completed
 
+echo esignet-wrappers zip creation started
+zip -r -j ${esignet_wrapper_lib_zip_path}/esignet-wrapper.zip ${esignet_wrapper_lib_zip_path}/esignet-wrapper/*
+rm -rf ${esignet_wrapper_lib_zip_path}/esignet-wrapper
+echo esignet-wrapper zip creation completed
+
 echo Creating resources.zip file for all the resources provided
 zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources
 rm -rf ${work_dir}/resources
@@ -49,6 +54,8 @@ zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ${work_dir}/pre-regi
 zip -r -j ${i18n_zip_path}/oidc-demo-i18n-bundle.zip ${work_dir}/oidc-demo-i18n-bundle/*
 zip -r -j ${i18n_zip_path}/idp-i18n-bundle.zip ${work_dir}/idp-i18n-bundle/*
 zip -r -j ${i18n_zip_path}/mock-relying-party-i18n-bundle.zip ${work_dir}/mock-relying-party-i18n-bundle/*
+zip -r -j ${i18n_zip_path}/esignet-i18n-bundle.zip ${work_dir}/esignet-i18n-bundle/*
+
 rm -rf ${work_dir}/admin-i18n-bundle ${work_dir}/pmp-i18n-bundle ${work_dir}/pre-registration-i18n-bundle ${work_dir}/oidc-demo-i18n-bundle ${work_dir}/idp-i18n-bundle
 echo i18n-bundle zip creation completed
 
