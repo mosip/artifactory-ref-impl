@@ -1,2 +1,2 @@
-code,name,description,langCode,isActive,isDeleted
-ABC,ABC,For printing Documents,eng,TRUE,FALSE
+code|name|description|langCode|isActive|isDeleted
+ABC|ABC|For printing Documents|eng|TRUE|FALSE

@@ -1,2 +1,2 @@
-code,name,description,langCode,isActive,isDeleted
-123,TEST1,AnbjhbnjA,eng,TRUE,FALSE
+code|name|description|langCode|isActive|isDeleted
+123|TEST1|AnbjhbnjA|eng|TRUE|FALSE

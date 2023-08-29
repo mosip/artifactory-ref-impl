@@ -1,2 +1,2 @@
-id,name,brand,model,deviceTypeCode,minDriverversion,description,langCode,isActive,isDeleted
-678,ewwv,Greenbit,DactyScan84c,IRS,1.12,Tocapture,eng,TRUE,FALSE
+id|name|brand|model|deviceTypeCode|minDriverversion|description|langCode|isActive|isDeleted
+678|ewwv|Greenbit|DactyScan84c|IRS|1.12|Tocapture|eng|TRUE|FALSE

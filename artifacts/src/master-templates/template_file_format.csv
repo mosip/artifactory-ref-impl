@@ -1,2 +1,2 @@
-code,description,langCode,isActive,isDeleted
-ABC,testla,eng,TRUE,FALSE
+code|description|langCode|isActive|isDeleted
+ABC|testla|eng|TRUE|FALSE

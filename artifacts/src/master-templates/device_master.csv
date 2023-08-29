@@ -1,2 +1,2 @@
-id,name,macAddress,serialNum,ipAddress,validityDateTime,deviceSpecId,zoneCode,regCenterId,langCode,isActive,isDeleted
-4013,DeviceUploadTest,54-BF-64-4C-91-6B,222222,127.0.0.3,2022-11-17T09:50:23.637Z,327,KTA,10001,eng,TRUE,FALSE
+id|name|macAddress|serialNum|ipAddress|validityDateTime|deviceSpecId|zoneCode|regCenterId|langCode|isActive|isDeleted
+4013|DeviceUploadTest|54-BF-64-4C-91-6B|222222|127.0.0.3|2022-11-17T09:50:23.637Z|327|KTA|10001|eng|TRUE|FALSE
