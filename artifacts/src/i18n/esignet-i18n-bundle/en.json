@@ -244,6 +244,7 @@
     "invalid_value": "Invalid value",
     "duplicate_individual_id": "Individual ID already exists.",
     "password_error_msg": "Invalid Password",
+    "invalid_qrcode_config": "Invalid QRCode configuration. Please report to the site admin.",
     "0": "Success",
     "100": "Device Not Registered",
     "101": "Unable to Detect a Biometrics",
