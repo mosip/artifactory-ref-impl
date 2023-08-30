@@ -60,6 +60,15 @@
     "uin_placeholder": "यूआईएन या वीआईडी",
     "pin_placeholder": "पिन दर्ज करें"
   },
+  "password": {
+    "sign_in_with_password": "पासवर्ड से लॉगिन करें",
+    "remember_me": "पहचाना की नहीं",
+    "login": "लॉग इन करें",
+    "uin_label_text": "अपना वीआईडी ​​दर्ज करें",
+    "password_label_text": "पास वर्ड दर्ज करें",
+    "uin_placeholder": "वीआईडी",
+    "password_placeholder": "पासवर्ड"
+  },
   "LoginQRCode": {
     "sign_in_with_inji": "इंजी के साथ लॉगिन करें",
     "scan_with_inji": "लॉग इन करने के लिए इंजी ऐप से स्कैन करें",
@@ -97,7 +106,8 @@
     "BIO": "बायोमेट्रिक्स",
     "QRCode": "क्यू आर कोड",
     "WALLET": "इंजि",
-    "OTP": "ओटीपी"
+    "OTP": "ओटीपी",
+    "PWD": "पासवर्ड"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet प्रसिद्ध एपीआई",
@@ -232,6 +242,7 @@
     "invalid_version": "अमान्य संस्करण",
     "invalid_value": "अमान्य मूल्य",
     "duplicate_individual_id": "व्यक्तिगत आईडी पहले से मौजूद है।",
+    "password_error_msg": "अवैध पासवर्ड",
     "0": "सफलता",
     "100": "डिवाइस पंजीकृत नहीं है",
     "101": "बायोमेट्रिक वस्तु का पता लगाने में असमर्थ",
