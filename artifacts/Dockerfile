@@ -121,7 +121,9 @@ COPY /src/deployment/docker/id-authentication/* ${ida_sh_path}/
 
 COPY /src/hsm/client.zip ${hsm_client_path}/
 
-COPY /src/esignet-plugins/sign-in-with-esignet.zip ${esignet_plugins_zip_path}/
+COPY /src/esignet-plugins/sign-in-with-esignet/sign-in-with-esignet.zip ${esignet_plugins_zip_path}/
+
+COPY /src/esignet-plugins/secure-biometric-interface-integrator/secure-biometric-interface-integrator.zip ${esignet_plugins_zip_path}/
 
 COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 
