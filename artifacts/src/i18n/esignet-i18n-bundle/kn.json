@@ -3,6 +3,7 @@
     "authorization_failed_msg": "ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ",
     "consent_request_rejected": "ಸಮ್ಮತಿ ವಿನಂತಿಯನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ",
     "consent_request_msg": "{{clientName}} ಅವರು ಈ ಕೆಳಗಿನವುಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ವಿನಂತಿಸುತ್ತಿದ್ದಾರೆ:",
+    "transaction_timeout_msg":"ದಯವಿಟ್ಟು ಸೂಕ್ತ ಕ್ರಮ ಕೈಗೊಳ್ಳಿ",
     "authorize_scope": "ವ್ಯಾಪ್ತಿಗಳನ್ನು ಅಧಿಕೃತಗೊಳಿಸಿ",
     "essential_claims": "ಅಗತ್ಯ ಹಕ್ಕುಗಳು",
     "voluntary_claims": "ಸ್ವಯಂಪ್ರೇರಿತ ಹಕ್ಕುಗಳು",
