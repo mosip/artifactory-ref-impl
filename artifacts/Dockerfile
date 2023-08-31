@@ -123,8 +123,6 @@ COPY /src/hsm/client.zip ${hsm_client_path}/
 
 COPY /src/mosip-plugins/sign-in-with-esignet/sign-in-with-esignet.zip ${mosip_plugins_zip_path}/
 
-COPY /src/mosip-plugins/secure-biometric-interface-integrator/secure-biometric-interface-integrator.zip ${mosip_plugins_zip_path}/
-
 COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 
 COPY /src/testing/glowroot.zip ${test_jar_path}/
