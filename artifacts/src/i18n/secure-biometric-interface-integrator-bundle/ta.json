@@ -1,0 +1,24 @@
+{
+    "scan_and_verify": "ஸ்கேன் செய்து சரிபார்க்கவும்",
+    "scan": "ஊடுகதிர்",
+    "cancel": "ரத்து செய்",
+    "capture": "பிடிப்பு",
+    "capture_and_verify": "பிடித்து சரிபார்க்கவும்",
+    "capture_timeout": "பிடிப்பு நேரம் முடிந்தது",
+    "scanning_devices_msg": "சாதனங்களை ஸ்கேன் செய்தல். தயவுசெய்து காத்திருங்கள் ...",
+    "device_disc_failed": "சாதன கண்டுபிடிப்பு தோல்வியடைந்தது",
+    "device_not_found_msg": "சாதனம் கிடைக்கவில்லை இணைப்பைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்",
+    "capture_initiated_msg": "{{modality}} பிடிப்பு {{deviceModel}} இல் தொடங்கப்பட்டது",
+    "Face": "முகம்",
+    "Finger": "விரல்",
+    "Iris": "ஐரிஸ்",
+    "biometric_capture_failed_msg": "பயோமெட்ரிக் பிடிப்பு தோல்வியடைந்தது",
+    "invalid_state_msg": "{{deviceName}} சாதனம் {{deviceState}}",
+    "READY": "தயார்",
+    "NOTREADY": "தயாராக இல்லை",
+    "BUSY": "பரபரப்பு",
+    "NOTREGISTERED": "பதிவு செய்யப்படவில்லை",
+    "select_a_device": "சாதனத்தைத் தேர்ந்தெடுக்கவும்",
+    "no_options": "விருப்பங்கள் இல்லை"
+  }
+  

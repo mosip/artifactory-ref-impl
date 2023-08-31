@@ -1,0 +1,23 @@
+{
+    "languages_2Letters": {
+      "en": "English",
+      "ar": "عربى",
+      "hi": "हिंदी",
+      "kn": "ಕನ್ನಡ",
+      "ta": "தமிழ்"
+    },
+    "rtlLanguages": ["ar", "ara"],
+    "langCodeMapping": {
+      "en": "en",
+      "ar": "ar",
+      "hi": "hi",
+      "kn": "kn",
+      "ta": "ta",
+      "eng": "en",
+      "ara": "ar",
+      "hin": "hi",
+      "kan": "kn",
+      "tam": "ta"
+    }
+  }
+  
