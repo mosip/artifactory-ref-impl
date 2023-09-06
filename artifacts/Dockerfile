@@ -70,7 +70,7 @@ ENV sdk_path=${base_path}/libs-release-local/mock-sdk/1.1.5/
 ENV jpeg_sdk_path=${base_path}/libs-release-local/jpeg-mock-sdk/1.1.5/
 
 # environment valiable for image-compressor jar
-ENV image_compressor_path=${base_path}/libs-release-local/image-compressor/
+ENV image_compressor_path=${base_path}/libs-release-local/compressor/
 
 # environment variable for Kernel Jars
 ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
