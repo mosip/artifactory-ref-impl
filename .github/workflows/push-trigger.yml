@@ -3,6 +3,14 @@ name: Artifactory build upon a push
 on:
   release:
     types: [published]
+  pull_request:
+    types: [opened]
+    branches:
+      - '!release-branch'
+      - release-1*
+      - 1.*
+      - develop
+      - MOSIP*
   push:
     branches:
       - develop
@@ -17,6 +25,8 @@ jobs:
         include:
           - SERVICE_LOCATION: 'artifacts'
             SERVICE_NAME: 'artifactory-server'
+      fail-fast: false
+    name: ${{ matrix.SERVICE_NAME }}
     uses: mosip/kattu/.github/workflows/docker-build.yml@master
     with:
       SERVICE_LOCATION: ${{ matrix.SERVICE_LOCATION }}
