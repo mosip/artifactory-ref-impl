@@ -27,7 +27,7 @@ rm -rf ${biosdk_lib_zip_path}/biosdk-lib
 echo biosdk-lib zip creation completed
 
 echo image-compressor zip creation started
-zip -r -j ${image_compressor_path}/biosdk-lib.zip ${image_compressor_path}/*
+zip -r -j ${image_compressor_path}/compressor.zip ${image_compressor_path}/*
 rm -rf ${image_compressor_path}/
 echo image-compressor zip creation completed
 
