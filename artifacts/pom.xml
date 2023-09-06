@@ -107,7 +107,7 @@
 		<mock-sdk-jpeg-extractor.fileName>mock-sdk-jpeg-extractor-jar-with-dependencies.jar</mock-sdk-jpeg-extractor.fileName>
 		<!-- image-compressor-->
 		<image-compressor.version>0.0.1-SNAPSHOT</image-compressor.version>
-		<image-compressor.location>/usr/share/nginx/html/artifactory/libs-release-local/image-compressor</image-compressor.location>
+		<image-compressor.location>/usr/share/nginx/html/artifactory/libs-release-local/compressor</image-compressor.location>
 		<image-compressor.fileName>image-compressor-jar-with-dependencies.jar</image-compressor.fileName>
 		<!-- hazelcast cast -->
 		<hazelcast.version>3.12.12</hazelcast.version>
@@ -201,15 +201,6 @@
 					<destFileName>${mock-sdk.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
-<!-- artifactItem section for image-compressor -->
-				<artifactItem>
-					<groupId>io.mosip.image.compressor.sdk</groupId>
-					<artifactId>image-compressor</artifactId>
-					<version>${image-compressor.version}</version>
-					 <outputDirectory>${image-compressor.location}</outputDirectory>
-					<destFileName>${image-compressor.fileName}</destFileName>
-					<type>jar</type>
-					</artifactItem>
 <!-- artifactItem section for biosdk-client -->				
 				<artifactItem>
 					<groupId>io.mosip.biosdk</groupId>
@@ -221,7 +212,7 @@
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for demosdk client -->
-               			<artifactItem>
+               	<artifactItem>
 					<groupId>io.mosip.demosdk</groupId>
 					<artifactId>demosdk</artifactId>
 					<version>${demosdk-client.version}</version>
@@ -229,7 +220,17 @@
 					<destFileName>${demosdk-client.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
-                		</artifactItem>
+                </artifactItem>
+<!-- artifactItem section for image-compressor dependency -->
+               	<artifactItem>
+					<groupId>io.mosip.image.compressor</groupId>
+					<artifactId>image-compressor</artifactId>
+					<version>${image-compressor.version}</version>
+					 <outputDirectory>${image-compressor.location}</outputDirectory> 
+					<destFileName>${image-compressor.fileName}</destFileName>
+					<classifier>jar-with-dependencies</classifier>
+					<type>jar</type>
+                </artifactItem>							
 <!-- artifactItem section for mock-sdk-jpeg-extractor -->
 				<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
