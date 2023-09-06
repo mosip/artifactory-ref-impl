@@ -27,8 +27,8 @@ rm -rf ${biosdk_lib_zip_path}/biosdk-lib
 echo biosdk-lib zip creation completed
 
 echo image-compressor zip creation started
-zip -r -j ${image_compressor_path}/image-compressor.zip ${image_compressor_path}/imagecompressor-jar/*
-rm -rf ${image_compressor_path}/imagecompressor-jar
+zip -r -j ${image_compressor_path}/image-compressor.zip ${image_compressor_path}/image-compressor/*
+rm -rf ${image_compressor_path}/image-compressor
 echo image-compressor zip creation completed
 
 echo demosdk-client zip creation started
