@@ -243,6 +243,8 @@
     "invalid_format": "தவறான வடிவம்",
     "invalid_version": "தவறான பதிப்பு",
     "invalid_value": "தவறான மதிப்பு",
+    "invalid_language_code": "தவறான மொழி குறியீடு",
+    "invalid_client_name_value": "தவறான கிளையன்ட் பெயர் மதிப்பு",
     "duplicate_individual_id": "தனிப்பட்ட ஐடி ஏற்கனவே உள்ளது.",
     "password_error_msg": "தவறான கடவுச்சொல்",
     "invalid_qrcode_config": "தவறான QRCode உள்ளமைவு. தள நிர்வாகியிடம் புகாரளிக்கவும்.",

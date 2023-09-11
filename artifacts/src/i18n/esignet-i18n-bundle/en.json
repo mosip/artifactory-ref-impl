@@ -243,6 +243,8 @@
     "invalid_format": "Invalid format",
     "invalid_version": "Invalid version",
     "invalid_value": "Invalid value",
+    "invalid_language_code": "Invalid language code",
+    "invalid_client_name_value": "Invalid client name value",
     "duplicate_individual_id": "Individual ID already exists.",
     "password_error_msg": "Invalid Password",
     "invalid_qrcode_config": "Invalid QRCode configuration. Please report to the site admin.",

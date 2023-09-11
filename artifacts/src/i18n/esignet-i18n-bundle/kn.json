@@ -243,6 +243,8 @@
     "invalid_format": "ಅಮಾನ್ಯ ಸ್ವರೂಪ",
     "invalid_version": "ಅಮಾನ್ಯ ಆವೃತ್ತಿ",
     "invalid_value": "ಅಮಾನ್ಯ ಮೌಲ್ಯ",
+    "invalid_language_code": "ಅಮಾನ್ಯ ಭಾಷಾ ಕೋಡ್",
+    "invalid_client_name_value": "ಅಮಾನ್ಯ ಕ್ಲೈಂಟ್ ಹೆಸರಿನ ಮೌಲ್ಯ",
     "duplicate_individual_id": "ವೈಯಕ್ತಿಕ ಐಡಿ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
     "password_error_msg": "ಅಮಾನ್ಯವಾದ ಪಾಸ್ವರ್ಡ್",
     "invalid_qrcode_config": "ಅಮಾನ್ಯವಾದ QRCode ಕಾನ್ಫಿಗರೇಶನ್. ದಯವಿಟ್ಟು ಸೈಟ್ ನಿರ್ವಾಹಕರಿಗೆ ವರದಿ ಮಾಡಿ.",

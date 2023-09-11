@@ -243,6 +243,8 @@
     "invalid_format": "अवैध प्रारूप",
     "invalid_version": "अमान्य संस्करण",
     "invalid_value": "अमान्य मूल्य",
+    "invalid_language_code": "अमान्य भाषा कोड",
+    "invalid_client_name_value": "अमान्य ग्राहक नाम मान",
     "duplicate_individual_id": "व्यक्तिगत आईडी पहले से मौजूद है।",
     "password_error_msg": "अवैध पासवर्ड",
     "invalid_qrcode_config": "अमान्य QRCode कॉन्फ़िगरेशन. कृपया साइट व्यवस्थापक को रिपोर्ट करें.",
