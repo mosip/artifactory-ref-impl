@@ -3,11 +3,13 @@
     "authorization_failed_msg": "प्रमाणीकरण विफल",
     "consent_request_rejected": "सहमति अनुरोध अस्वीकृत",
     "consent_request_msg": "{{clientName}} निम्नलिखित तक पहुंच का अनुरोध कर रहा है:",
+    "transaction_timeout_msg":"कृपया उचित कार्यवाही करें",
     "authorize_scope": "दायरे को अधिकृत करें",
     "essential_claims": "आवश्यक दावे",
     "voluntary_claims": "स्वैच्छिक दावे",
     "cancel": "रद्द करना",
     "allow": "अनुमति देना",
+    "continue": "जारी रखना",
     "resident-service": "निवासी सेवा",
     "name": "नाम",
     "given_name": "नाम",
@@ -60,6 +62,15 @@
     "uin_placeholder": "यूआईएन या वीआईडी",
     "pin_placeholder": "पिन दर्ज करें"
   },
+  "password": {
+    "sign_in_with_password": "पासवर्ड से लॉगिन करें",
+    "remember_me": "पहचाना की नहीं",
+    "login": "लॉग इन करें",
+    "uin_label_text": "अपना वीआईडी ​​दर्ज करें",
+    "password_label_text": "पास वर्ड दर्ज करें",
+    "uin_placeholder": "वीआईडी",
+    "password_placeholder": "पासवर्ड"
+  },
   "LoginQRCode": {
     "sign_in_with_inji": "इंजी के साथ लॉगिन करें",
     "scan_with_inji": "लॉग इन करने के लिए इंजी ऐप से स्कैन करें",
@@ -97,7 +108,8 @@
     "BIO": "बायोमेट्रिक्स",
     "QRCode": "क्यू आर कोड",
     "WALLET": "इंजि",
-    "OTP": "ओटीपी"
+    "OTP": "ओटीपी",
+    "PWD": "पासवर्ड"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet प्रसिद्ध एपीआई",
@@ -232,6 +244,8 @@
     "invalid_version": "अमान्य संस्करण",
     "invalid_value": "अमान्य मूल्य",
     "duplicate_individual_id": "व्यक्तिगत आईडी पहले से मौजूद है।",
+    "password_error_msg": "अवैध पासवर्ड",
+    "invalid_qrcode_config": "अमान्य QRCode कॉन्फ़िगरेशन. कृपया साइट व्यवस्थापक को रिपोर्ट करें.",
     "0": "सफलता",
     "100": "डिवाइस पंजीकृत नहीं है",
     "101": "बायोमेट्रिक वस्तु का पता लगाने में असमर्थ",

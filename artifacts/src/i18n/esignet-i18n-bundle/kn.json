@@ -3,11 +3,13 @@
     "authorization_failed_msg": "ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ",
     "consent_request_rejected": "ಸಮ್ಮತಿ ವಿನಂತಿಯನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ",
     "consent_request_msg": "{{clientName}} ಅವರು ಈ ಕೆಳಗಿನವುಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ವಿನಂತಿಸುತ್ತಿದ್ದಾರೆ:",
+    "transaction_timeout_msg":"ದಯವಿಟ್ಟು ಸೂಕ್ತ ಕ್ರಮ ಕೈಗೊಳ್ಳಿ",
     "authorize_scope": "ವ್ಯಾಪ್ತಿಗಳನ್ನು ಅಧಿಕೃತಗೊಳಿಸಿ",
     "essential_claims": "ಅಗತ್ಯ ಹಕ್ಕುಗಳು",
     "voluntary_claims": "ಸ್ವಯಂಪ್ರೇರಿತ ಹಕ್ಕುಗಳು",
     "cancel": "ರದ್ದುಮಾಡಿ",
     "allow": "ಅನುಮತಿಸಿ",
+    "continue": "ಮುಂದುವರಿಸಿ",
     "resident-service": "ನಿವಾಸ ಸೇವೆ",
     "name": "ಹೆಸರು",
     "given_name": "ಹೆಸರು",
@@ -60,6 +62,15 @@
     "uin_placeholder": "ಯುಐಎನ್ ಅಥವಾ ಪಿನ್",
     "pin_placeholder": "ಪಿನ್ ನಮೂದಿಸಿ"
   },
+  "password": {
+    "sign_in_with_password": "ಪಾಸ್ವರ್ಡ್ನೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
+    "remember_me": "ನನ್ನನ್ನು ನೆನಪಿನಲ್ಲಿ ಇಡು",
+    "login": "ಲಾಗಿನ್ ಮಾಡಿ",
+    "uin_label_text": "ನಿಮ್ಮ VID ನಮೂದಿಸಿ",
+    "password_label_text": "ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ",
+    "uin_placeholder": "ವಿಐಡಿ",
+    "password_placeholder": "ಗುಪ್ತಪದ"
+  },
   "LoginQRCode": {
     "sign_in_with_inji": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
     "scan_with_inji": "ಲಾಗ್ ಇನ್ ಮಾಡಲು ಇಂಜಿ ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
@@ -97,7 +108,8 @@
     "BIO": "ಬಯೋಮೆಟ್ರಿಕ್ಸ್",
     "QRCode": "ಕ್ಯೂಆರ್ ಕೋಡ್",
     "WALLET": "ಇಂಜಿ",
-    "OTP": "ಒಟಿಪಿ"
+    "OTP": "ಒಟಿಪಿ",
+    "PWD": "ಗುಪ್ತಪದ"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet ಪ್ರಸಿದ್ಧ API ಗಳು",
@@ -232,6 +244,8 @@
     "invalid_version": "ಅಮಾನ್ಯ ಆವೃತ್ತಿ",
     "invalid_value": "ಅಮಾನ್ಯ ಮೌಲ್ಯ",
     "duplicate_individual_id": "ವೈಯಕ್ತಿಕ ಐಡಿ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
+    "password_error_msg": "ಅಮಾನ್ಯವಾದ ಪಾಸ್ವರ್ಡ್",
+    "invalid_qrcode_config": "ಅಮಾನ್ಯವಾದ QRCode ಕಾನ್ಫಿಗರೇಶನ್. ದಯವಿಟ್ಟು ಸೈಟ್ ನಿರ್ವಾಹಕರಿಗೆ ವರದಿ ಮಾಡಿ.",
     "0": "ಯಶಸ್ಸು",
     "100": "ಸಾಧನವನ್ನು ನೋಂದಾಯಿಸಲಾಗಿಲ್ಲ",
     "101": "ಬಯೋಮೆಟ್ರಿಕ್ ವಸ್ತುವನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
