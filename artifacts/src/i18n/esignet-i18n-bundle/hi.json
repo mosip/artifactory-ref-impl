@@ -72,14 +72,13 @@
     "password_placeholder": "पासवर्ड"
   },
   "LoginQRCode": {
-    "sign_in_with_inji": "इंजी के साथ लॉगिन करें",
-    "scan_with_inji": "लॉग इन करने के लिए इंजी ऐप से स्कैन करें",
-    "inji_app": "इंजी ऐप",
-    "dont_have_inji": "इंजन नहीं है?",
+    "scan_with_wallet": "लॉग इन करने के लिए {{walletName}} ऐप से स्कैन करें",
+    "dont_have_wallet": "{{walletName}} नहीं है?",
     "download_now": "अब डाउनलोड करो",
     "link_code_status": "लिंक कोड स्थिति",
     "failed": "असफल",
-    "refresh": "क्यूआर कोड को रिफ्रेश करें"
+    "refresh": "क्यूआर कोड को रिफ्रेश करें",    
+    "open_wallet_app": "{{walletName}} ऐप खोले"
   },
   "otp": {
     "sign_in_with_otp": "ओटीपी के साथ लॉगिन करें",
@@ -103,11 +102,9 @@
     "login_option_heading": "चुनें कि आप कैसे लॉगिन करना चाहते हैं:",
     "login_with": "{{option}} से लोगिन करें",
     "PIN": "पिन",
-    "Inji": "इंजि",
     "Biometrics": "बायोमेट्रिक्स",
     "BIO": "बायोमेट्रिक्स",
     "QRCode": "क्यू आर कोड",
-    "WALLET": "इंजि",
     "OTP": "ओटीपी",
     "PWD": "पासवर्ड"
   },
@@ -121,9 +118,6 @@
     "login_linkName": "पूर्व-पंजीकरण",
     "more_ways_to_sign_in": "साइन इन करने के और तरीके",
     "invalid_auth_factor": "अमान्य प्रमाणीकरण कारक. कृपया पुन: प्रयास करें...",
-    "here_tab_name": "यहां लॉगिन करें",
-    "inji_tab_name": "इंजी के साथ लॉग इन करें",
-    "dont_have_inji": "इंजी नहीं है?",
     "download_now": "अभी डाउनलोड करो",
     "logo_alt": "ई-सिग्नेट",
     "backgroud_image_alt": "ई-सिग्नेट के साथ साइन इन करें",
@@ -131,12 +125,11 @@
   },
   "tabs": {
     "pin_tab_name": "पिन से साइन इन करें",
-    "inji_tab_name": "इंजि के साथ साइन इन करें",
     "biometric_tab_name": "बायोमेट्रिक्स के साथ साइन इन करें"
   },
   "loadingMsgs": {
     "redirecting_msg": "पुनर्निर्देशन। कृपया प्रतीक्षा करें...",
-    "link_auth_waiting": "कृपया इंजी के माध्यम से प्रमाणित करें। इस पेज को रीफ्रेश न करें।",
+    "link_auth_waiting": "कृपया {{walletName}} के माध्यम से प्रमाणित करें। इस पेज को रीफ्रेश न करें।",
     "authenticating_msg": "प्रमाणीकरण। कृपया प्रतीक्षा करें...",
     "scanning_devices_msg": "स्कैनिंग डिवाइस। कृपया प्रतीक्षा करें...",
     "capture_initiated_msg": "{{modality}} कैप्चर {{deviceModel}} पर शुरू किया गया",
