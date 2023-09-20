@@ -3,7 +3,7 @@
     "authorization_failed_msg": "प्रमाणीकरण विफल",
     "consent_request_rejected": "सहमति अनुरोध अस्वीकृत",
     "consent_request_msg": "{{clientName}} निम्नलिखित तक पहुंच का अनुरोध कर रहा है:",
-    "transaction_timeout_msg":"कृपया उचित कार्यवाही करें",
+    "transaction_timeout_msg": "कृपया उचित कार्यवाही करें",
     "authorize_scope": "दायरे को अधिकृत करें",
     "essential_claims": "आवश्यक दावे",
     "voluntary_claims": "स्वैच्छिक दावे",
@@ -77,7 +77,7 @@
     "download_now": "अब डाउनलोड करो",
     "link_code_status": "लिंक कोड स्थिति",
     "failed": "असफल",
-    "refresh": "क्यूआर कोड को रिफ्रेश करें",    
+    "refresh": "क्यूआर कोड को रिफ्रेश करें",
     "open_wallet_app": "{{walletName}} ऐप खोले"
   },
   "otp": {
@@ -106,7 +106,9 @@
     "BIO": "बायोमेट्रिक्स",
     "QRCode": "क्यू आर कोड",
     "OTP": "ओटीपी",
-    "PWD": "पासवर्ड"
+    "PWD": "पासवर्ड",
+    "preferred_mode_of_login": "लॉगिन का पसंदीदा तरीका चुनें",
+    "more_ways_to_sign_in": "साइन इन करने के और भी तरीके"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet प्रसिद्ध एपीआई",
@@ -241,6 +243,30 @@
     "duplicate_individual_id": "व्यक्तिगत आईडी पहले से मौजूद है।",
     "password_error_msg": "अवैध पासवर्ड",
     "invalid_qrcode_config": "अमान्य QRCode कॉन्फ़िगरेशन. कृपया साइट व्यवस्थापक को रिपोर्ट करें.",
+    "captcha_validator_not_found": "कैप्चा सत्यापनकर्ता उदाहरण खोजने में विफल, कृपया ClassPath की जाँच करें।",
+    "data_exchange_failedKYC": "डेटा एक्सचेंज विफल रहा।",
+    "kyc_signing_certificate_failedKYC": "पर हस्ताक्षर करने वाले प्रमाण पत्र (प्रमाणक प्रणाली) प्राप्त करने में विफल।",
+    "binding_auth_failed": "प्रमुख बाउंड ऑथेंटिकेशन (लिंक्ड-वॉलेट) विफल रहा।",
+    "invalid_captcha": "अमान्य कैप्चा मिला।",
+    "invalid_auth_factor_type_or_challenge_format": "अमान्य प्रामाणिक कारक प्रकार या चुनौती प्रारूप।",
+    "unsupported_pkce_challenge_method": "असमर्थित प्रमाण कुंजी चैलेंज एक्सचेंज विधि।",
+    "invalid_pkce_challenge": "अमान्य प्रूफ कुंजी चुनौती।",
+    "invalid_pkce_code_verifier": "अमान्य प्रूफ कुंजी कोड सत्यापनकर्ता।",
+    "pkce_failed": "प्रूफ कुंजी चैलेंज एक्सचेंज विफल रहा।",
+    "unsupported_credential_format": "अनुरोधित क्रेडेंशियल प्रारूप समर्थित नहीं है।",
+    "invalid_vc_format": "अमान्य वीसी प्रारूप।",
+    "invalid_proof": "अनुरोध में पाया गया अमान्य सबूत।",
+    "unsupported_proof_type": "क्रेडेंशियल अनुरोध में प्रमाण असमर्थित प्रकार के साथ है।",
+    "unsupported_credential_type": "अनुरोधित क्रेडेंशियल प्रकार समर्थित नहीं है।",
+    "vc_issuance_failed": "वीसी जारी करने में विफल रहा।",
+    "proof_header_invalid_typ": "प्रूफ हेडर टाइप क्लेम में अमान्य मूल्य।",
+    "proof_header_invalid_alg": "प्रूफ हेडर ALG क्लेम में अमान्य मूल्य।",
+    "proof_header_invalid_key": "प्रूफ हेडर JWK/किड क्लेम में अमान्य मूल्य।",
+    "proof_header_ambiguous_key": "प्रूफ हेडर JWK/किड क्लेम में अमान्य मूल्य, उनमें से केवल एक को अनुमति दी जाती है।",
+    "proof_invalid_iss": "प्रूफ पेलोड ISS दावा में अमान्य मूल्य।",
+    "proof_invalid_aud": "प्रूफ पेलोड ऑड क्लेम में अमान्य मूल्य।",
+    "proof_invalid_iat": "प्रूफ पेलोड IAT दावा में अमान्य मूल्य।",
+    "proof_invalid_nonce": "प्रूफ पेलोड में अमान्य मूल्य गैर -दावे।",
     "0": "सफलता",
     "100": "डिवाइस पंजीकृत नहीं है",
     "101": "बायोमेट्रिक वस्तु का पता लगाने में असमर्थ",
@@ -344,6 +370,6 @@
     "IDA-RST-008": "कनेक्शन का समय समाप्त",
     "IDA-KBT-001": "बाध्य प्रमाण पत्र नहीं मिला",
     "IDA-KBT-002": "टोकन (iat) पर जारी हस्ताक्षरित अनुमत समय सीमा में नहीं है",
-    "IDA-KBT-003": "टोकन की जाँच करने में त्रुटि" 
+    "IDA-KBT-003": "टोकन की जाँच करने में त्रुटि"
   }
 }
