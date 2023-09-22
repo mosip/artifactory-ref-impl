@@ -1,4 +1,13 @@
 {
+  "simRegistrationCompleted": {
+    "welcome_msg": "வரவேற்பு,",
+    "loading_msg": "ஏற்றுகிறது! தயவுசெய்து காத்திருங்கள் ...,",
+    "profile_picture": "சுயவிவர படம்,",
+    "telecom_msg": "உங்கள் புதிய தொலைபேசி எண் உங்கள் மின்னஞ்சல் முகவரிக்கு அனுப்பப்பட்டுள்ளது,",
+    "please_visit_our":"அடுத்த படிகளுக்கு எங்கள்",
+    "esim_website":"eSIM இணையதளத்தைப்",
+    "for_next_steps":"பார்க்கவும்."
+  },
   "background": {
     "home": "வீடு",
     "polices": "காவல்",
@@ -12,7 +21,12 @@
     "recovered": "மீட்கப்பட்டது",
     "active": "செயலில்",
     "registration": "பதிவு",
-    "language": "மொழி"
+    "language": "மொழி",
+    "prepaid": "ப்ரீபெய்ட்,",
+    "postpaid": "போஸ்ட்பெய்ட்,",
+    "new_sim_connection": "புதிய சிம் இணைப்பு,",
+    "explore": "ஆராயுங்கள்,",
+    "help": "உதவி,"
   },
   "login": {
     "sign_in_with_health_portal": "ஹெல்த் போர்ட்டலில் உள்நுழையவும்",
@@ -60,7 +74,9 @@
     "phone_number": "தொலைபேசி எண்",
     "email_address": "மின்னஞ்சல் முகவரி",
     "show_raw_user_info": "அசல் பயனர் தகவலைக் காட்டு",
-    "hide_raw_user_info": "அசல் பயனர் தகவலை மறை"
+    "hide_raw_user_info": "அசல் பயனர் தகவலை மறை",
+    "new_sim": "புதிய சிம் தேடுகிறீர்களா ?,",
+    "register_for_sim": "தேசியத்தைப் பயன்படுத்தி மின்-SIM க்கு பதிவு செய்யுங்கள்"
   },
   "sidenav": {
     "health_portal": "சுகாதார போர்டல்",
