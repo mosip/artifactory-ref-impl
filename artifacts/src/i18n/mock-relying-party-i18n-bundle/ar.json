@@ -1,4 +1,13 @@
 {
+  "simRegistrationCompleted": {
+    "welcome_msg": "مرحباً",
+    "loading_msg": "تحميل! انتظر من فضلك...",
+    "profile_picture": "الصوره الشخصيه",
+    "telecom_msg": "تم إرسال رقم هاتفك الجديد إلى عنوان بريدك الإلكتروني",
+    "please_visit_our":"يرجى زيارة موقعنا",
+    "esim_website":"موقع eSIM",
+    "for_next_steps":"للخطوات القادمة."
+  },
   "background": {
     "home": "مسكن",
     "polices": "شرطة",
@@ -12,7 +21,12 @@
     "recovered": "تعافى",
     "active": "نشيط",
     "registration": "تسجيل",
-    "language": "لغة"
+    "language": "لغة",
+    "prepaid": "مسبقة الدفع",
+    "postpaid": "الدفع الآجل",
+    "new_sim_connection": "اتصال سيم جديد",
+    "explore": "يستكشف",
+    "help": "يساعد"
   },
   "login": {
     "sign_in_with_health_portal": "قم بتسجيل الدخول إلى بوابة الصحة",
@@ -133,7 +147,9 @@
     "phone_number": "رقم التليفون",
     "email_address": "عنوان البريد الإلكتروني",
     "show_raw_user_info": "إظهار معلومات المستخدم الأولية",
-    "hide_raw_user_info": "إخفاء معلومات المستخدم الأولية"
+    "hide_raw_user_info": "إخفاء معلومات المستخدم الأولية",
+    "new_sim": "هل تبحث عن شريحة SIM جديدة؟",
+    "register_for_sim": "قم بالتسجيل للحصول على بطاقة SIM الإلكترونية باستخدام بطاقة الهوية الوطنية"
   },
   "error": {
     "sign_in_failed": "المصادقة فشلت! حاول تسجيل الدخول باستخدام e-Signet",
