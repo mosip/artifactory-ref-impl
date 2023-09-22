@@ -1,4 +1,13 @@
 {
+  "simRegistrationCompleted": {
+    "welcome_msg": "Welcome",
+    "loading_msg": "Loading! Please wait...",
+    "profile_picture": "profile picture",
+    "telecom_msg": "Your new phone number has been sent to your email address",
+    "please_visit_our":"Please visit our",
+    "esim_website":"e-SIM website",
+    "for_next_steps":"for the next steps."
+  },
   "background": {
     "home": "Home",
     "polices": "Polices",
@@ -12,7 +21,12 @@
     "recovered": "Recovered",
     "active": "Active",
     "registration": "Registration",
-    "language": "Language"
+    "language": "Language",
+    "prepaid": "Prepaid",
+    "postpaid": "Postpaid",
+    "new_sim_connection": "New Sim Connection",
+    "explore": "Explore",
+    "help": "Help"
   },
   "login": {
     "sign_in_with_health_portal": "Sign In to the Health portal",
@@ -134,7 +148,9 @@
     "phone_number": "Phone number",
     "email_address": "Email Address",
     "show_raw_user_info": "Show raw user info",
-    "hide_raw_user_info": "Hide raw user info"
+    "hide_raw_user_info": "Hide raw user info",
+    "new_sim": "Looking for a New SIM?",
+    "register_for_sim": "Register for e-SIM Using National ID"
   },
   "errors": {
     "sign_in_failed": "Authentication failed! Try sign in with e-Signet",

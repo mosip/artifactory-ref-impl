@@ -1,4 +1,13 @@
 {
+  "simRegistrationCompleted": {
+    "welcome_msg": "ಸ್ವಾಗತ,",
+    "loading_msg": "ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ! ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...,",
+    "profile_picture": "ಪ್ರೊಫೈಲ್ ಚಿತ್ರ,",
+    "telecom_msg": "ನಿಮ್ಮ ಹೊಸ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸಕ್ಕೆ ಕಳುಹಿಸಲಾಗಿದೆ,",
+    "please_visit_our":"ಮುಂದಿನ ಹಂತಗಳಿಗಾಗಿ ದಯವಿಟ್ಟು ನಮ್ಮ",
+    "esim_website":"eSIM ವೆಬ್‌ಸೈಟ್‌ಗೆ",
+    "for_next_steps":"ಭೇಟಿ ನೀಡಿ."
+  },
   "background": {
     "home": "ಮುಖಪುಟ",
     "polices": "ಪೋಲೀಸ್",
@@ -12,7 +21,12 @@
     "recovered": "ಚೇತರಿಸಿಕೊಂಡ",
     "active": "ಸಕ್ರಿಯ",
     "registration": "ನೋಂದಣಿ",
-    "language": "ಭಾಷೆ"
+    "language": "ಭಾಷೆ",
+    "prepaid": "ಪ್ರಿಪೇಯ್ಡ್,",
+    "postpaid": "ಪೋಸ್ಟ್‌ಪೇಯ್ಡ್,",
+    "new_sim_connection": "ಹೊಸ ಸಿಮ್ ಸಂಪರ್ಕ,",
+    "explore": "ಅನ್ವೇಷಿಸಿ,",
+    "help": "ಸಹಾಯ,"
   },
   "login": {
     "sign_in_with_health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್‌ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
@@ -60,7 +74,9 @@
     "phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
     "email_address": "ಇಮೇಲ್ ವಿಳಾಸ",
     "show_raw_user_info": "ಕಚ್ಚಾ ಬಳಕೆದಾರರ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಿ",
-    "hide_raw_user_info": "ಕಚ್ಚಾ ಬಳಕೆದಾರರ ಮಾಹಿತಿಯನ್ನು ಮರೆಮಾಡಿ"
+    "hide_raw_user_info": "ಕಚ್ಚಾ ಬಳಕೆದಾರರ ಮಾಹಿತಿಯನ್ನು ಮರೆಮಾಡಿ",
+    "new_sim": "ಹೊಸ ಸಿಮ್‌ಗಾಗಿ ಹುಡುಕುತ್ತಿರುವಿರಾ ?,",
+    "register_for_sim": "ನ್ಯಾಷನಲ್ ಬಳಸಿ ಇ-ಸಿಮ್ಗಾಗಿ ನೋಂದಾಯಿಸಿ"
   },
   "sidenav": {
     "health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್",
