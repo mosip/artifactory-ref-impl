@@ -108,7 +108,9 @@
     "OTP": "ओटीपी",
     "PWD": "पासवर्ड",
     "preferred_mode_of_login": "लॉगिन का पसंदीदा तरीका चुनें",
-    "more_ways_to_sign_in": "साइन इन करने के और भी तरीके"
+    "more_ways_to_sign_in": "साइन इन करने के और भी तरीके",
+    "or": "या",
+    "sign_in_with": "{{idProviderName}} का उपयोग करके सत्यापित करें"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet प्रसिद्ध एपीआई",
@@ -267,6 +269,8 @@
     "proof_invalid_aud": "प्रूफ पेलोड ऑड क्लेम में अमान्य मूल्य।",
     "proof_invalid_iat": "प्रूफ पेलोड IAT दावा में अमान्य मूल्य।",
     "proof_invalid_nonce": "प्रूफ पेलोड में अमान्य मूल्य गैर -दावे।",
+    "invalid_state_response": "अमान्य स्थिति",
+    "authCode_missing": "ऑथकोड गुम है",
     "0": "सफलता",
     "100": "डिवाइस पंजीकृत नहीं है",
     "101": "बायोमेट्रिक वस्तु का पता लगाने में असमर्थ",
