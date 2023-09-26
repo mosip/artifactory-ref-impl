@@ -108,7 +108,9 @@
     "OTP": "ಒಟಿಪಿ",
     "PWD": "ಗುಪ್ತಪದ",
     "preferred_mode_of_login": "ಆದ್ಯತೆಯ ಲಾಗಿನ್ ಮೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ",
-    "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು"
+    "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು",
+    "or": "ಅಥವಾ",
+    "sign_in_with": "{{idProviderName}} ಬಳಸಿ ಪರಿಶೀಲಿಸಿ"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet ಪ್ರಸಿದ್ಧ API ಗಳು",
@@ -267,6 +269,8 @@
     "proof_invalid_aud": "ಪ್ರೂಫ್ ಪೇಲೋಡ್ AUD ಹಕ್ಕಿನಲ್ಲಿ ಅಮಾನ್ಯ ಮೌಲ್ಯ.",
     "proof_invalid_iat": "ಪ್ರೂಫ್ ಪೇಲೋಡ್ ಐಎಟಿ ಹಕ್ಕಿನಲ್ಲಿ ಅಮಾನ್ಯ ಮೌಲ್ಯ.",
     "proof_invalid_nonce": "ಪ್ರೂಫ್ ಪೇಲೋಡ್ ನಾನ್ಸಿ ಹಕ್ಕಿನಲ್ಲಿ ಅಮಾನ್ಯ ಮೌಲ್ಯ.",
+    "invalid_state_response": "ಅಮಾನ್ಯ ಸ್ಥಿತಿ",
+    "authCode_missing": "AuthCode ಕಾಣೆಯಾಗಿದೆ",
     "0": "ಯಶಸ್ಸು",
     "100": "ಸಾಧನವನ್ನು ನೋಂದಾಯಿಸಲಾಗಿಲ್ಲ",
     "101": "ಬಯೋಮೆಟ್ರಿಕ್ ವಸ್ತುವನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
