@@ -133,13 +133,13 @@
     "biometric_tab_name": "Login with Biometrics"
   },
   "loadingMsgs": {
-    "redirecting_msg": "Redirecting. Please Wait...",
-    "link_auth_waiting": "Please Authenticate via {{walletName}}. Don't Refresh This Page.",
-    "authenticating_msg": "Authenticating. Please Wait...",
-    "scanning_devices_msg": "Scanning Devices. Please Wait...",
+    "redirecting_msg": "Redirecting. Please wait...",
+    "link_auth_waiting": "Please authenticate via {{walletName}}. Don't refresh this page.",
+    "authenticating_msg": "Authenticating. Please wait...",
+    "scanning_devices_msg": "Scanning Devices. Please wait...",
     "capture_initiated_msg": "{{modality}} capture initiated on {{deviceModel}}",
-    "sending_otp_msg": "Sending OTP. Please Wait...",
-    "loading_msg": "Loading. Please Wait..."
+    "sending_otp_msg": "Sending OTP. Please wait...",
+    "loading_msg": "Loading. Please wait..."
   },
   "tooltips": {
     "vid_tooltip": "Please fill in this field"
