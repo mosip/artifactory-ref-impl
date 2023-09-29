@@ -110,7 +110,8 @@
     "preferred_mode_of_login": "விருப்பமான உள்நுழைவு முறையைத் தேர்ந்தெடுக்கவும்",
     "more_ways_to_sign_in": "உள்நுழைவதற்கான கூடுதல் வழிகள்",
     "or": "அல்லது",
-    "sign_in_with": "{{idProviderName}} ஐப் பயன்படுத்தி சரிபார்க்கவும்"
+    "sign_in_with": "{{idProviderName}} ஐப் பயன்படுத்தி சரிபார்க்கவும்",
+    "verify_using_national_id":"பிற தேசிய ஐடிகளைப் பயன்படுத்தி சரிபார்க்கவும்"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet நன்கு அறியப்பட்ட APIகள்",
@@ -118,7 +119,7 @@
     "wellknown_api": ".wellknown API"
   },
   "header": {
-    "login_heading": "e-Signet மூலம் உள்நுழையவும்",
+    "login_heading": "உங்கள் {{idProviderName}} ஐடி மூலம் உள்நுழையவும்",
     "login_linkName": "முன்பதிவு",
     "more_ways_to_sign_in": "உள்நுழைவதற்கான கூடுதல் வழிகள்",
     "invalid_auth_factor": "தவறான அங்கீகார காரணிகள் தயவுசெய்து மீண்டும் முயற்சி செய்க...",
