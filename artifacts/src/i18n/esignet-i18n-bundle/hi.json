@@ -110,7 +110,8 @@
     "preferred_mode_of_login": "लॉगिन का पसंदीदा तरीका चुनें",
     "more_ways_to_sign_in": "साइन इन करने के और भी तरीके",
     "or": "या",
-    "sign_in_with": "{{idProviderName}} का उपयोग करके सत्यापित करें"
+    "sign_in_with": "{{idProviderName}} का उपयोग करके सत्यापित करें",
+    "verify_using_national_id":"अन्य राष्ट्रीय आईडी का उपयोग करके सत्यापित करें"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet प्रसिद्ध एपीआई",
@@ -118,7 +119,7 @@
     "wellknown_api": ".प्रसिद्ध एपीआई"
   },
   "header": {
-    "login_heading": "ई-सिग्नेट के साथ लॉगिन करें",
+    "login_heading": "अपनी {{idProviderName}} आईडी से लॉगिन करें",
     "login_linkName": "पूर्व-पंजीकरण",
     "more_ways_to_sign_in": "साइन इन करने के और तरीके",
     "invalid_auth_factor": "अमान्य प्रमाणीकरण कारक. कृपया पुन: प्रयास करें...",
