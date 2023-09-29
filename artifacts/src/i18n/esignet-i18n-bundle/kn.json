@@ -110,7 +110,8 @@
     "preferred_mode_of_login": "ಆದ್ಯತೆಯ ಲಾಗಿನ್ ಮೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ",
     "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು",
     "or": "ಅಥವಾ",
-    "sign_in_with": "{{idProviderName}} ಬಳಸಿ ಪರಿಶೀಲಿಸಿ"
+    "sign_in_with": "{{idProviderName}} ಬಳಸಿ ಪರಿಶೀಲಿಸಿ",
+    "verify_using_national_id":"ಇತರ ರಾಷ್ಟ್ರೀಯ ಐಡಿಗಳನ್ನು ಬಳಸಿ ಪರಿಶೀಲಿಸಿ"
   },
   "esignetDetails": {
     "esignet_details_heading": "Esignet ಪ್ರಸಿದ್ಧ API ಗಳು",
@@ -118,7 +119,7 @@
     "wellknown_api": "ಪ್ರಸಿದ್ಧ API"
   },
   "header": {
-    "login_heading": "ಇ-ಸಿಗ್ನೆಟ್ ಮೂಲಕ ಲಾಗಿನ್ ಮಾಡಿ",
+    "login_heading": "ನಿಮ್ಮ {{idProviderName}} ಐಡಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
     "login_linkName": "ಮುಂಚಿತವಾಗಿ ನೋಂದಾಯಿಸಿ",
     "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು",
     "invalid_auth_factor": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಅಂಶಗಳು ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ...",
