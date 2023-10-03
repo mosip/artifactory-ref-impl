@@ -72,7 +72,7 @@
     "password_placeholder": "पासवर्ड"
   },
   "LoginQRCode": {
-    "scan_with_wallet": "लॉग इन करने के लिए {{walletName}} ऐप से स्कैन करें",
+    "scan_with_wallet": "लॉगिन करने के लिए {{walletName}} से स्कैन करें",
     "dont_have_wallet": "{{walletName}} नहीं है?",
     "download_now": "अब डाउनलोड करो",
     "link_code_status": "लिंक कोड स्थिति",
