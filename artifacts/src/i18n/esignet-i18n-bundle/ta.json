@@ -72,7 +72,7 @@
     "password_placeholder": "கடவுச்சொல்"
   },
   "LoginQRCode": {
-    "scan_with_wallet": "உள்நுழைய {{walletName}} ஆப் மூலம் ஸ்கேன் செய்யவும்",
+    "scan_with_wallet": "உள்நுழைய {{walletName}} உடன் ஸ்கேன் செய்யவும்",
     "dont_have_wallet": "{{walletName}} இல்லையா?",
     "download_now": "இப்போது பதிவிறக்கவும்",
     "link_code_status": "இணைப்பு குறியீடு நிலை",
