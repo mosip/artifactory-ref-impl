@@ -72,7 +72,7 @@
     "password_placeholder": "كلمة المرور"
   },
   "LoginQRCode": {
-    "scan_with_wallet": "امسح باستخدام تطبيق {{walletName}} لتسجيل الدخول",
+    "scan_with_wallet": "قم بالمسح باستخدام {{walletName}} لتسجيل الدخول",
     "dont_have_wallet": "؟{{walletName}} ليس لديك",
     "download_now": "التحميل الان",
     "link_code_status": "حالة رمز الارتباط",

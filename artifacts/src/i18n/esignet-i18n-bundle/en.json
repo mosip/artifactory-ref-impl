@@ -72,7 +72,7 @@
     "password_placeholder": "Password"
   },
   "LoginQRCode": {
-    "scan_with_wallet": "Scan with {{walletName}} App to Log In",
+    "scan_with_wallet": "Scan with {{walletName}} to login",
     "dont_have_wallet": "Don't Have {{walletName}}?",
     "download_now": "Download Now",
     "link_code_status": "Link Code Status",
