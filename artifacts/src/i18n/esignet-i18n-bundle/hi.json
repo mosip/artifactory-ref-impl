@@ -114,7 +114,7 @@
     "verify_using_national_id":"अन्य राष्ट्रीय आईडी का उपयोग करके सत्यापित करें"
   },
   "esignetDetails": {
-    "esignet_details_heading": "Esignet प्रसिद्ध एपीआई",
+    "esignet_details_heading": "प्रसिद्ध एपीआई",
     "internal_api": "आंतरिक एपीआई",
     "wellknown_api": ".प्रसिद्ध एपीआई"
   },

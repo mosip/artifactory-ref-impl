@@ -114,7 +114,7 @@
     "verify_using_national_id":"பிற தேசிய ஐடிகளைப் பயன்படுத்தி சரிபார்க்கவும்"
   },
   "esignetDetails": {
-    "esignet_details_heading": "Esignet நன்கு அறியப்பட்ட APIகள்",
+    "esignet_details_heading": "நன்கு அறியப்பட்ட APIகள்",
     "internal_api": "உள் API",
     "wellknown_api": ".wellknown API"
   },
