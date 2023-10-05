@@ -72,7 +72,11 @@
     "password_placeholder": "ಗುಪ್ತಪದ"
   },
   "LoginQRCode": {
+    "sign_in_with_inji": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
+    "scan_with_inji": "ಲಾಗ್ ಇನ್ ಮಾಡಲು ಇಂಜಿ ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
     "scan_with_wallet": "ಲಾಗ್ ಇನ್ ಮಾಡಲು {{walletName} ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+    "inji_app": "ಇಂಜಿ ಅಪ್ಲಿಕೇಶನ್",
+    "dont_have_inji": "ಇಂಜಿ ಇಲ್ಲವೇ?",
     "dont_have_wallet": "{{walletName}} ಇಲ್ಲವೇ?",
     "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "link_code_status": "ಲಿಂಕ್ ಕೋಡ್ ಸ್ಥಿತಿ",
@@ -102,9 +106,11 @@
     "login_option_heading": "ನೀವು ಹೇಗೆ ಲಾಗಿನ್ ಆಗಬೇಕೆಂದು ಆರಿಸಿಕೊಳ್ಳಿ:",
     "login_with": "{{option}} ನೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
     "PIN": "ಪಿನ್",
+    "Inji": "ಇಂಜಿ",
     "Biometrics": "ಬಯೋಮೆಟ್ರಿಕ್ಸ್",
     "BIO": "ಬಯೋಮೆಟ್ರಿಕ್ಸ್",
     "QRCode": "ಕ್ಯೂಆರ್ ಕೋಡ್",
+    "WALLET": "ಇಂಜಿ",
     "OTP": "ಒಟಿಪಿ",
     "PWD": "ಗುಪ್ತಪದ",
     "preferred_mode_of_login": "ಆದ್ಯತೆಯ ಲಾಗಿನ್ ಮೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ",
@@ -120,6 +126,9 @@
     "login_linkName": "ಮುಂಚಿತವಾಗಿ ನೋಂದಾಯಿಸಿ",
     "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು",
     "invalid_auth_factor": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಅಂಶಗಳು ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ...",
+    "here_tab_name": "ಇಲ್ಲಿ ಲಾಗ್ ಇನ್ ಮಾಡಿ",
+    "inji_tab_name": "ಇಂಜಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
+    "dont_have_inji": "ಇಂಜಿ ಇಲ್ಲವೇ?",
     "download_now": "ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "logo_alt": "ಇ-ಸಿಗ್ನೆಟ್",
     "backgroud_image_alt": "ಇ-ಸಿಗ್ನೆಟ್ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ",
@@ -127,11 +136,13 @@
   },
   "tabs": {
     "pin_tab_name": "ಪಿನ್ ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "inji_tab_name": "ಇಂಜಿಯೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
     "biometric_tab_name": "ಬಯೋಮೆಟ್ರಿಕ್ಸ್‌ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ"
   },
   "loadingMsgs": {
     "redirecting_msg": "ಮರುನಿರ್ದೇಶಿಸಲಾಗುತ್ತಿದೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...",
-    "link_auth_waiting": "ದಯವಿಟ್ಟು {{walletName}} ಮೂಲಕ ದೃಢೀಕರಿಸಿ. ಈ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಬೇಡಿ.",
+    "link_auth_waiting": "ದಯವಿಟ್ಟು ಇಂಜಿ ಮೂಲಕ ದೃಢೀಕರಿಸಿ. ಈ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಬೇಡಿ.",
+    "link_auth_waiting_wallet": "ದಯವಿಟ್ಟು {{walletName}} ಮೂಲಕ ದೃಢೀಕರಿಸಿ. ಈ ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಬೇಡಿ.",
     "authenticating_msg": "ಪ್ರಮಾಣೀಕರಿಸಲಾಗುತ್ತಿದೆ. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...",
     "scanning_devices_msg": "ಸ್ಕ್ಯಾನಿಂಗ್ ಸಾಧನಗಳು. ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...",
     "capture_initiated_msg": "{{modality}} ಕ್ಯಾಪ್ಚರ್ ಅನ್ನು {{deviceModel}} ನಲ್ಲಿ ಪ್ರಾರಂಭಿಸಲಾಗಿದೆ",
