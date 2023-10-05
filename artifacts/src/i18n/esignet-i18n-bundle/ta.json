@@ -72,7 +72,11 @@
     "password_placeholder": "கடவுச்சொல்"
   },
   "LoginQRCode": {
+    "sign_in_with_inji": "இன்ஜியுடன் உள்நுழைக",
+    "scan_with_inji": "உள்நுழைய இன்ஜி ஆப் மூலம் ஸ்கேன் செய்யவும்",
     "scan_with_wallet": "உள்நுழைய {{walletName}} ஆப் மூலம் ஸ்கேன் செய்யவும்",
+    "inji_app": "இன்ஜி ஆப்",
+    "dont_have_inji": "இஞ்சி இல்லையா?",
     "dont_have_wallet": "{{walletName}} இல்லையா?",
     "download_now": "இப்போது பதிவிறக்கவும்",
     "link_code_status": "இணைப்பு குறியீடு நிலை",
@@ -102,9 +106,11 @@
     "login_option_heading": "நீங்கள் எப்படி உள்நுழைய வேண்டும் என்பதைத் தேர்வுசெய்யவும்:",
     "login_with": "{{option}} மூலம் உள்நுழைக",
     "PIN": "பின்",
+    "Inji": "இன்ஜி",
     "Biometrics": "பயோமெட்ரிக்ஸ்",
     "BIO": "பயோமெட்ரிக்ஸ்",
     "QRCode": "க்யு ஆர் குறியீடு",
+    "WALLET": "இன்ஜி",
     "OTP": "OTP",
     "PWD": "கடவுச்சொல்",
     "preferred_mode_of_login": "விருப்பமான உள்நுழைவு முறையைத் தேர்ந்தெடுக்கவும்",
@@ -120,6 +126,9 @@
     "login_linkName": "முன்பதிவு",
     "more_ways_to_sign_in": "உள்நுழைவதற்கான கூடுதல் வழிகள்",
     "invalid_auth_factor": "தவறான அங்கீகார காரணிகள் தயவுசெய்து மீண்டும் முயற்சி செய்க...",
+    "here_tab_name": "இங்கே உள்நுழைக",
+    "inji_tab_name": "Inji உடன் உள்நுழைக",
+    "dont_have_inji": "இன்ஜி இல்லையா?",
     "download_now": "இப்போது பதிவிறக்கவும்",
     "logo_alt": "e-Signet",
     "backgroud_image_alt": "e-Signet மூலம் உள்நுழையவும்",
@@ -127,11 +136,13 @@
   },
   "tabs": {
     "pin_tab_name": "பின் மூலம் உள்நுழையவும்",
+    "inji_tab_name": "இன்ஜி மூலம் உள்நுழையவும்",
     "biometric_tab_name": "பயோமெட்ரிக்ஸ் மூலம் உள்நுழையவும்"
   },
   "loadingMsgs": {
     "redirecting_msg": "திசைதிருப்புதல். தயவுசெய்து காத்திருங்கள்...",
-    "link_auth_waiting": "{{walletName}} மூலம் அங்கீகரிக்கவும். இந்தப் பக்கத்தைப் புதுப்பிக்க வேண்டாம்.",
+    "link_auth_waiting": "Inji மூலம் அங்கீகரிக்கவும். இந்தப் பக்கத்தைப் புதுப்பிக்க வேண்டாம்.",
+    "link_auth_waiting_wallet": "{{walletName}} மூலம் அங்கீகரிக்கவும். இந்தப் பக்கத்தைப் புதுப்பிக்க வேண்டாம்.",
     "authenticating_msg": "அங்கீகரிக்கிறது. தயவுசெய்து காத்திருங்கள்...",
     "scanning_devices_msg": "ஸ்கேனிங் சாதனங்கள். தயவுசெய்து காத்திருங்கள்...",
     "capture_initiated_msg": "{{modality}} பிடிப்பு {{deviceModel}} இல் தொடங்கப்பட்டது",
