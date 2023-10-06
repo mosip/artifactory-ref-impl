@@ -119,7 +119,7 @@
     "wellknown_api": ".प्रसिद्ध एपीआई"
   },
   "header": {
-    "login_heading": "अपनी {{idProviderName}} आईडी से लॉगिन करें",
+    "login_heading": "ई-सिग्नेट से लॉगिन करें",
     "login_linkName": "पूर्व-पंजीकरण",
     "more_ways_to_sign_in": "साइन इन करने के और तरीके",
     "invalid_auth_factor": "अमान्य प्रमाणीकरण कारक. कृपया पुन: प्रयास करें...",
