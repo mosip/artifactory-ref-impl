@@ -119,7 +119,7 @@
     "wellknown_api": "ಪ್ರಸಿದ್ಧ API"
   },
   "header": {
-    "login_heading": "ನಿಮ್ಮ {{idProviderName}} ಐಡಿಯೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
+    "login_heading": "ಇ-ಸಿಗ್ನೆಟ್ ಮೂಲಕ ಲಾಗಿನ್ ಮಾಡಿ",
     "login_linkName": "ಮುಂಚಿತವಾಗಿ ನೋಂದಾಯಿಸಿ",
     "more_ways_to_sign_in": "ಸೈನ್ ಇನ್ ಮಾಡಲು ಇನ್ನಷ್ಟು ಮಾರ್ಗಗಳು",
     "invalid_auth_factor": "ಅಮಾನ್ಯವಾದ ದೃಢೀಕರಣ ಅಂಶಗಳು ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ...",
