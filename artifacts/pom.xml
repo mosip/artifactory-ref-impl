@@ -99,7 +99,7 @@
 		<!-- mock-sdk -->
 		<mock-sdk.version>1.2.0.1-SNAPSHOT</mock-sdk.version>
 		<mock-sdk.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/1.1.5</mock-sdk.location>
-		<mock-sdk.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk.fileName>
+		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
 		<!-- mock-sdk-jpeg-extractor -->
 		<mock-sdk-jpeg-extractor.version>1.2.0.1-SNAPSHOT</mock-sdk-jpeg-extractor.version>
 		<mock-sdk-jpeg-extractor.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-mock-sdk/1.1.5</mock-sdk-jpeg-extractor.location>
