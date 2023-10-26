@@ -211,7 +211,6 @@
 					<destFileName>${mock-sdk-dep.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
-
 <!-- artifactItem section for biosdk-client -->				
 				<artifactItem>
 					<groupId>io.mosip.biosdk</groupId>
