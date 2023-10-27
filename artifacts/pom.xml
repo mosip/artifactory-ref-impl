@@ -202,15 +202,6 @@
 					<destFileName>${mock-sdk.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
-<!-- artifactItem section for mock-sdk -->
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk.version}</version>
-					<outputDirectory>${mock-sdk.location}</outputDirectory>
-					<destFileName>${mock-sdk-dep.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
 <!-- artifactItem section for biosdk-client -->				
 				<artifactItem>
 					<groupId>io.mosip.biosdk</groupId>
@@ -284,7 +275,7 @@
 					<artifactId>mock-sdk</artifactId>
 					<version>${mock-sdk.version}</version>
 					 <outputDirectory>${biosdk-client-lib.location}</outputDirectory> 
-					<destFileName>${mock-sdk.fileName}</destFileName>
+					<destFileName>${mock-sdk-dep.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
