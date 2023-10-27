@@ -99,7 +99,8 @@
 		<!-- mock-sdk -->
 		<mock-sdk.version>1.2.1-SNAPSHOT</mock-sdk.version>
 		<mock-sdk.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/1.1.5</mock-sdk.location>
-		<mock-sdk.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk.fileName>
+		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
+		<mock-sdk-dep.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep.fileName>
 		<!-- mock-sdk-jpeg-extractor -->
 		<mock-sdk-jpeg-extractor.version>1.2.1-SNAPSHOT</mock-sdk-jpeg-extractor.version>
 		<mock-sdk-jpeg-extractor.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-mock-sdk/1.1.5</mock-sdk-jpeg-extractor.location>
@@ -274,7 +275,7 @@
 					<artifactId>mock-sdk</artifactId>
 					<version>${mock-sdk.version}</version>
 					 <outputDirectory>${biosdk-client-lib.location}</outputDirectory> 
-					<destFileName>${mock-sdk.fileName}</destFileName>
+					<destFileName>${mock-sdk-dep.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
