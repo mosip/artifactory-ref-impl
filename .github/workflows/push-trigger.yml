@@ -12,6 +12,7 @@ on:
       - 1.*
       - MOSIP*
       - release*
+      - ES-393
   
 jobs:
   build-docker-artifactory-server:
