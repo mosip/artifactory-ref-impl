@@ -155,6 +155,8 @@
     "vid_tooltip": "कृपया इस क्षेत्र को भरें"
   },
   "errors": {
+    "username_not_valid": "मान्य उपयोक्तानाम दर्ज करें",
+    "password_not_valid": "वैध पासवर्ड दर्ज करें",
     "no_response_msg": "कोई जवाब नहीं",
     "no_devices_found_msg": "डिवाइस नहीं मिला। कृपया कनेक्टिविटी जांचें और पुनः प्रयास करें।",
     "link_code_refresh_failed": "लोड करने में विफल",

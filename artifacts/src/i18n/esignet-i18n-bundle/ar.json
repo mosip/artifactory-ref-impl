@@ -155,6 +155,8 @@
     "vid_tooltip": "يرجى ملء هذا الحقل"
   },
   "errors": {
+    "username_not_valid": "أدخل اسم مستخدم صالحًا",
+    "password_not_valid": "أدخل كلمة مرور صالحة",
     "no_response_msg": "لا يوجد رد",
     "no_devices_found_msg": "لم يتم العثور علي الجهاز. يرجى التحقق من الاتصال وإعادة المحاولة.",
     "link_code_refresh_failed": "فشل في التحميل",
