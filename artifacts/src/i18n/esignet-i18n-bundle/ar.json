@@ -40,7 +40,13 @@
     "Manage-Authentication": "السماح بالوصول لإدارة المصادقة",
     "Manage-Service-Requests": "السماح بالوصول لإدارة طلبات الخدمة",
     "Manage-Credentials": "السماح بالوصول لإدارة الاعتمادات",
-    "individual_id": "مُعرّف UIN/VID المستخدم في تسجيل الدخول"
+    "individual_id": "مُعرّف UIN/VID المستخدم في تسجيل الدخول",
+    "cancelpopup": {
+      "confirm_header": "يرجى تأكيد",
+      "confirm_text": "هل أنت متأكد أنك تريد إيقاف عملية تسجيل الدخول؟",
+      "stay_btn": "يقضي",
+      "discontinue_btn": "توقف"
+    }
   },
   "l1Biometrics": {
     "scan_and_verify": "المسح والتحقق",
@@ -130,13 +136,20 @@
   },
   "header": {
     "login_heading": "تسجيل الدخول باستخدام e-Signet",
+    "login_subheading": "الرجاء إدخال اسم المستخدم وكلمة المرور المسجلين لديك",
     "login_linkName": "التسجيل المسبق",
     "more_ways_to_sign_in": "المزيد من الطرق لتسجيل الدخول",
     "invalid_auth_factor": "عوامل المصادقة غير صالحة. حاول مرة اخرى...",
     "download_now": "التحميل الان",
     "logo_alt": "e-Signet",
     "backgroud_image_alt": "قم بتسجيل الدخول باستخدام e-Signet",
-    "language": "لغة"
+    "language": "لغة",
+    "noAccount": "ليس لديك حساب؟",
+    "signup_with_one_login": "قم بالتسجيل باستخدام تسجيل الدخول الموحد"
+  },
+  "footer": {
+    "powered_by": "مشغل بواسطة",
+    "logo_alt": "شعار التذييل"
   },
   "tabs": {
     "pin_tab_name": "قم بتسجيل الدخول باستخدام PIN",
