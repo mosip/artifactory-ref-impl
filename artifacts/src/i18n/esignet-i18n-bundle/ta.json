@@ -40,7 +40,13 @@
     "Manage-Authentication": "அங்கீகாரத்தை நிர்வகிக்க அணுகல் அனுமதி கொடுக்கவும்",
     "Manage-Service-Requests": "சேவை கோரிக்கைகளை நிர்வகிக்க அணுகல் அனுமதி கொடுக்கவும்",
     "Manage-Credentials": "சான்றுகளை நிர்வகிக்க அணுகல் அனுமதி கொடுக்கவும்",
-    "individual_id": "உள்நுழைவில் பயன்படுத்தப்பட்ட UIN/VID"
+    "individual_id": "உள்நுழைவில் பயன்படுத்தப்பட்ட UIN/VID",
+    "cancelpopup": {
+      "confirm_header": "தயவுசெய்து உறுதிப்படுத்தவும்",
+      "confirm_text": "உள்நுழைவு செயல்முறையை நிச்சயமாக நிறுத்த விரும்புகிறீர்களா?",
+      "stay_btn": "இருங்கள்",
+      "discontinue_btn": "நிறுத்து"
+    }
   },
   "l1Biometrics": {
     "scan_and_verify": "ஸ்கேன் செய்து சரிபார்க்கவும்",
@@ -120,13 +126,20 @@
   },
   "header": {
     "login_heading": "e-Signet மூலம் உள்நுழையவும்",
+    "login_subheading": "உங்கள் பதிவு செய்யப்பட்ட பயனர்பெயர் மற்றும் கடவுச்சொல்லை உள்ளிடவும்",
     "login_linkName": "முன்பதிவு",
     "more_ways_to_sign_in": "உள்நுழைவதற்கான கூடுதல் வழிகள்",
     "invalid_auth_factor": "தவறான அங்கீகார காரணிகள் தயவுசெய்து மீண்டும் முயற்சி செய்க...",
     "download_now": "இப்போது பதிவிறக்கவும்",
     "logo_alt": "e-Signet",
     "backgroud_image_alt": "e-Signet மூலம் உள்நுழையவும்",
-    "language": "மொழி"
+    "language": "மொழி",
+    "noAccount": "கணக்கு இல்லையா?",
+    "signup_with_one_login": "ஒருங்கிணைந்த உள்நுழைவுடன் பதிவு செய்யவும்"
+  },
+  "footer": {
+    "powered_by": "மூலம் இயக்கப்படுகிறது",
+    "logo_alt": "அடிக்குறிப்பு லோகோ"
   },
   "tabs": {
     "pin_tab_name": "பின் மூலம் உள்நுழையவும்",
