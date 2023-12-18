@@ -2,8 +2,8 @@
   "consent": {
     "authorization_failed_msg": "ការអនុញ្ញាតបានបរាជ័យ",
     "consent_request_rejected": "ការស្នើសុំការយល់ព្រម ត្រូវបានបដិសេធ",
-    "consent_request_msg": "{{clientName}} កំពុងស្នើសុំសិទ្ធិចូលប្រើដូចខាងក្រោម៖",
-    "transaction_timeout_msg": "សូមចាត់វិធានការសមស្របនៅក្នុង",
+    "consent_request_msg": "{{clientName}} កំពុងស្នើសុំសិទ្ធិចូលប្រើដូចខាងក្រោម៖ to provide details",
+    "transaction_timeout_msg": "សូមចាត់វិធានការសមស្របនៅក្នុង seconds",
     "authorize_scope": "អនុញ្ញាតវិសាលភាព",
     "essential_claims": "ការទាមទារសំខាន់ៗ",
     "voluntary_claims": "ការទាមទារដោយសេរី",
@@ -32,8 +32,8 @@
     "required": "ទាមទារ",
     "profile": "ប្រវត្តិរូប",
     "authorize_scope_tooltip": "អនុញ្ញាតឱ្យអ្នកផ្តល់សេវាចូលប្រើសេវាកម្មការពារទាំងនេះជំនួសអ្នក។",
-    "essential_claims_tooltip": "ព័ត៌មានចាំបាច់សម្រាប់អ្នកប្រើប្រាស់ដែលតម្រូវដោយអ្នកផ្តល់សេវាកម្ម",
-    "voluntary_claims_tooltip": "ព័ត៌មានបន្ថែមរបស់អ្នកប្រើប្រាស់ដែលអ្នករស់នៅអាចជ្រើសរើសដើម្បីចែករំលែកជាមួយអ្នកផ្តល់សេវាកម្ម",
+    "essential_claims_tooltip": "ព័ត៌មានចាំបាច់សម្រាប់អ្នកប្រើប្រាស់ដែលតម្រូវដោយអ្នកផ្តល់សេវាកម្ម ss",
+    "voluntary_claims_tooltip": "ព័ត៌មានបន្ថែមរបស់អ្នកប្រើប្រាស់ដែលអ្នករស់នៅអាចជ្រើសរើសដើម្បីចែករំលែកជាមួយអ្នកផ្តល់សេវាកម្ម  ss",
     "logo_alt": "e-Signet",
     "Manage-Identity-Data": "អនុញ្ញាតឱ្យចូលប្រើដើម្បីគ្រប់គ្រងទិន្នន័យអត្តសញ្ញាណ",
     "Manage-VID": "អនុញ្ញាតឱ្យចូលប្រើដើម្បីគ្រប់គ្រង លេខទូរសព្ទ",
@@ -43,7 +43,7 @@
     "individual_id": "ប្រើលេខទូរសព្ទក្នុងការចូល",
     "cancelpopup": {
       "confirm_header": "សូម​បញ្ជាក់",
-      "confirm_text": "តើ​អ្នក​ប្រាកដ​ជា​ចង់​ឈប់​ដំណើរការ​ចូល​ឬ?",
+      "confirm_text": "តើ​អ្នក​ប្រាកដ​ជា​ចង់​ឈប់​ដំណើរការ​ចូល​ឬ? cancel",
       "stay_btn": "ស្នាក់នៅ",
       "discontinue_btn": "បញ្ឈប់"
     }
@@ -74,8 +74,8 @@
     "login": "ចូលប្រើប្រាស់",
     "uin_label_text": "បញ្ចូលលេខទូរសព្ទរបស់អ្នក",
     "password_label_text": "បញ្ចូល​ពាក្យ​សម្ងាត់",
-    "uin_placeholder": "លេខទូរសព្ទ",
-    "password_placeholder": "ពាក្យ​សម្ងាត់"
+    "uin_placeholder": "លេខទូរសព្ទ valid",
+    "password_placeholder": "ពាក្យ​សម្ងាត់ valid"
   },
   "LoginQRCode": {
     "scan_with_wallet": "ស្កេនដោយប្រើកម្មវិធី {{walletName}}ដើម្បីចូលប្រើប្រាស់",
