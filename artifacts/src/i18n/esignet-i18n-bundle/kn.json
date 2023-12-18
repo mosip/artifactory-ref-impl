@@ -33,7 +33,7 @@
     "profile": "ಪ್ರೊಫೈಲ್",
     "authorize_scope_tooltip": "ನಿಮ್ಮ ಪರವಾಗಿ ಈ ಸಂರಕ್ಷಿತ ಸೇವೆಗಳನ್ನು ಪ್ರವೇಶಿಸಲು ಸೇವಾ ಪೂರೈಕೆದಾರರಿಗೆ ಅನುಮತಿಸುತ್ತದೆ",
     "essential_claims_tooltip": "ಸೇವಾ ಪೂರೈಕೆದಾರರಿಗೆ ಅಗತ್ಯವಿರುವ ಕಡ್ಡಾಯ ಬಳಕೆದಾರ ಮಾಹಿತಿ",
-    "voluntary_claims_tooltip": "ಸೇವಾ ಪೂರೈಕೆದಾರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ನಿವಾಸಿ ಆಯ್ಕೆ ಮಾಡಬಹುದಾದ ಹೆಚ್ಚುವರಿ ಬಳಕೆದಾರ ಮಾಹಿತಿ",
+    "voluntary_claims_tooltip": "ಹೆಚ್ಚುವರಿ ಬಳಕೆದಾರ ಮಾಹಿತಿಯನ್ನು ನೀವು ಸೇವಾ ಪೂರೈಕೆದಾರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ಆಯ್ಕೆ ಮಾಡಬಹುದು",
     "logo_alt": "ಇ-ಸಿಗ್ನೆಟ್",
     "Manage-Identity-Data": "ಗುರುತು ಡೇಟಾವನ್ನು ನಿರ್ವಹಿಸುವ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ",
     "Manage-VID": "VID ನಿರ್ವಹಿಸಲು ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ",
@@ -75,7 +75,8 @@
     "uin_label_text": "ನಿಮ್ಮ VID ನಮೂದಿಸಿ",
     "password_label_text": "ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ",
     "uin_placeholder": "ವಿಐಡಿ",
-    "password_placeholder": "ಗುಪ್ತಪದ"
+    "password_placeholder": "ಗುಪ್ತಪದ",
+    "forgot_password": "ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ?"
   },
   "LoginQRCode": {
     "scan_with_wallet": "ಲಾಗಿನ್ ಮಾಡಲು {{walletName}} ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
