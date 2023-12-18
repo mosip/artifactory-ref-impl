@@ -4,6 +4,7 @@
     "consent_request_rejected": "ការស្នើសុំការយល់ព្រម ត្រូវបានបដិសេធ",
     "consent_request_msg": "{{clientName}} កំពុងស្នើសុំសិទ្ធិចូលប្រើដូចខាងក្រោម៖ to provide details",
     "transaction_timeout_msg": "សូមចាត់វិធានការសមស្របនៅក្នុង seconds",
+    "transaction_timeout": "ប្រតិបត្តិការបានអស់ពេលហើយ។ សូម​ព្យាយាម​ម្តង​ទៀត។",
     "authorize_scope": "អនុញ្ញាតវិសាលភាព",
     "essential_claims": "ការទាមទារសំខាន់ៗ",
     "voluntary_claims": "ការទាមទារដោយសេរី",
