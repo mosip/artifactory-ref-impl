@@ -2,8 +2,8 @@
   "consent": {
     "authorization_failed_msg": "Authorization Failed",
     "consent_request_rejected": "Consent Request Rejected",
-    "consent_request_msg": "{{clientName}} is requesting access to the following: ",
-    "transaction_timeout_msg": "Please take appropriate action in",
+    "consent_request_msg": "{{clientName}} is requesting access to the following claims: ",
+    "transaction_timeout_msg": "Please take action in below minutes",
     "authorize_scope": "Authorize Scopes",
     "essential_claims": "Essential Claims",
     "voluntary_claims": "Voluntary Claims",
@@ -32,8 +32,8 @@
     "required": "Required",
     "profile": "Profile",
     "authorize_scope_tooltip": "Allows Service provider to access these protected services on your behalf",
-    "essential_claims_tooltip": "Mandatory user information required by the Service provider",
-    "voluntary_claims_tooltip": "Additional user information that the resident can choose to share with the Service provider",
+    "essential_claims_tooltip": "Mandatory user information required by the Service providers to provide access",
+    "voluntary_claims_tooltip": "Additional user information that the resident can choose to share with the Service providers to provide access",
     "logo_alt": "e-Signet",
     "Manage-Identity-Data": "Allow access to manage identity data",
     "Manage-VID": "Allow access to manage VID",
@@ -43,7 +43,7 @@
     "individual_id": "UIN/VID used in login",
     "cancelpopup": {
       "confirm_header": "Please confirm",
-      "confirm_text": "Are you sure you want to discontinue the login process?",
+      "confirm_text": "Are you sure you want to discontinue the login process and navigate back?",
       "stay_btn": "Stay",
       "discontinue_btn": "Discontinue"
     }
@@ -74,8 +74,8 @@
     "login": "Login",
     "uin_label_text": "Username",
     "password_label_text": "Password",
-    "uin_placeholder": "Enter 8-9 digit mobile number",
-    "password_placeholder": "Enter password"
+    "uin_placeholder": "Enter valid mobile number",
+    "password_placeholder": "Enter valid password"
   },
   "Form": {
     "sign_in_with_details": "Login with Details",
@@ -136,7 +136,7 @@
   },
   "header": {
     "login_heading": "Login",
-    "login_subheading": "Please enter your registered username and password",
+    "login_subheading": "Please enter your valid credentials",
     "login_linkName": "Preregister",
     "more_ways_to_sign_in": "More Ways to Login",
     "invalid_auth_factor": "Invalid Auth Factors. Please Try Again...",
