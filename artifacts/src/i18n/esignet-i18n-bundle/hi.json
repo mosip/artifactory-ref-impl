@@ -33,7 +33,7 @@
     "profile": "प्रोफ़ाइल",
     "authorize_scope_tooltip": "सेवा प्रदाता को आपकी ओर से इन संरक्षित सेवाओं तक पहुँचने की अनुमति देता है",
     "essential_claims_tooltip": "सेवा प्रदाता द्वारा आवश्यक अनिवार्य उपयोगकर्ता जानकारी",
-    "voluntary_claims_tooltip": "अतिरिक्त उपयोगकर्ता जानकारी जिसे निवासी सेवा प्रदाता के साथ साझा करना चुन सकता है",
+    "voluntary_claims_tooltip": "अतिरिक्त उपयोगकर्ता जानकारी जिसे आप सेवा प्रदाता के साथ साझा करना चुन सकते हैं",
     "logo_alt": "ई-सिग्नेट",
     "Manage-Identity-Data": "पहचान डेटा को प्रबंधित करने के लिए पहुंच अनुमति दें",
     "Manage-VID": "VID को प्रबंधित करने के लिए पहुंच अनुमति दें",
@@ -75,7 +75,8 @@
     "uin_label_text": "अपना वीआईडी ​​दर्ज करें",
     "password_label_text": "पास वर्ड दर्ज करें",
     "uin_placeholder": "वीआईडी",
-    "password_placeholder": "पासवर्ड"
+    "password_placeholder": "पासवर्ड",
+    "forgot_password": "पासवर्ड भूल गए?"
   },
   "LoginQRCode": {
     "scan_with_wallet": "लॉगिन करने के लिए {{walletName}} से स्कैन करें",
