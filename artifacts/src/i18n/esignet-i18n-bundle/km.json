@@ -71,7 +71,7 @@
   "password": {
     "sign_in_with_password": "ចូលប្រើតាមពាក្យសម្ងាត់",
     "remember_me": "ចងចាំខ្ញុំ",
-    "login": "ចូលប្រើប្រាស់",
+    "login": "បន្ត",
     "uin_label_text": "បញ្ចូលលេខទូរសព្ទរបស់អ្នក",
     "password_label_text": "បញ្ចូល​ពាក្យ​សម្ងាត់",
     "uin_placeholder": "លេខទូរសព្ទ valid",
