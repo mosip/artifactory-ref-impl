@@ -4,6 +4,7 @@
     "consent_request_rejected": "सहमति अनुरोध अस्वीकृत",
     "consent_request_msg": "{{clientName}} निम्नलिखित तक पहुंच का अनुरोध कर रहा है:",
     "transaction_timeout_msg": "कृपया उचित कार्यवाही करें",
+    "transaction_timeout": "लेन-देन का समय समाप्त हो गया है. कृपया पुन: प्रयास करें।",
     "authorize_scope": "दायरे को अधिकृत करें",
     "essential_claims": "आवश्यक दावे",
     "voluntary_claims": "स्वैच्छिक दावे",
