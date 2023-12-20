@@ -72,7 +72,7 @@
   "password": {
     "sign_in_with_password": "Login with Password",
     "remember_me": "Remember Me",
-    "login": "Login",
+    "login": "Continue",
     "uin_label_text": "Username",
     "password_label_text": "Password",
     "uin_placeholder": "Enter valid mobile number",

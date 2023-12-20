@@ -72,7 +72,7 @@
   "password": {
     "sign_in_with_password": "கடவுச்சொல் மூலம் உள்நுழைக",
     "remember_me": "என்னை நினைவு செய்யுங்கள்",
-    "login": "உள்நுழைய",
+    "login": "தொடரவும்",
     "uin_label_text": "உங்கள் VID ஐ உள்ளிடவும்",
     "password_label_text": "கடவுச்சொல்லை உள்ளிடவும்",
     "uin_placeholder": "விஐடி",
