@@ -4,6 +4,7 @@
     "consent_request_rejected": "ஒப்புதல் கோரிக்கை நிராகரிக்கப்பட்டது",
     "consent_request_msg": "{{clientName}} பின்வரும் அணுகலைக் கோருகிறார்:",
     "transaction_timeout_msg": "தயவு செய்து உரிய நடவடிக்கை எடுக்கவும்",
+    "transaction_timeout": "பரிவர்த்தனை நேரம் முடிந்தது. தயவு செய்து மீண்டும் முயற்சிக்கவும்.",
     "authorize_scope": "நோக்கங்களை அங்கீகரிக்கவும்",
     "essential_claims": "அத்தியாவசிய உரிமைகோரல்கள்",
     "voluntary_claims": "தன்னார்வ உரிமைகோரல்கள்",
