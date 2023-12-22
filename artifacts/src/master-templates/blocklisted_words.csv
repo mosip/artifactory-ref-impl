@@ -1,2 +1,2 @@
-word,description,langCode,isActive,isDeleted
-douchebag,slangUpdate,eng,TRUE,FALSE
+word|description|langCode|isActive|isDeleted
+douchebag|slangUpdate|eng|TRUE|FALSE

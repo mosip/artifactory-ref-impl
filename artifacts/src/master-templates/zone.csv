@@ -1,2 +1,2 @@
-code,name,hierarchyLevel,hierarchyName,hierarchyPath,parentZoneCode,langCode,isActive,isDeleted
-TST,Test,4,Test,MOR/NTH/CST/RBT/TST,RBT,eng,TRUE,FALSE
+code|name|hierarchyLevel|hierarchyName|hierarchyPath|parentZoneCode|langCode|isActive|isDeleted
+TST|Test|4|Test|MOR/NTH/CST/RBT/TST|RBT|eng|TRUE|FALSE

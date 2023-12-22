@@ -1,2 +1,2 @@
-holidayId,locationCode,holidayDate,holidayName,holidayDesc,langCode,isActive,isDeleted
-123456,KTA,2021-12-04,test,National Holiday,eng,TRUE,FALSE
+holidayId|locationCode|holidayDate|holidayName|holidayDesc|langCode|isActive|isDeleted
+123456|KTA|2021-12-04|test|National Holiday|eng|TRUE|FALSE

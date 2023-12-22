@@ -1,2 +1,2 @@
-id,name,description,fileFormatCode,model,fileText,moduleId,moduleName,templateTypeCode,langCode,isActive,isDeleted
-1386,Authentication History Request Failure SMS,Authentication History Request Failure SMS,txt,velocity,Hi $firstName_eng Your Request for Authentication History has failed.Thank You!,10006,Resident Portal,RS_AUTH_HIST_FAILURE_SMS,eng,TRUE,FALSE
+id|name|description|fileFormatCode|model|fileText|moduleId|moduleName|templateTypeCode|langCode|isActive|isDeleted
+1386|Authentication History Request Failure SMS|Authentication History Request Failure SMS|txt|velocity|Hi $firstName_eng Your Request for Authentication History has failed.Thank You!|10006|Resident Portal|RS_AUTH_HIST_FAILURE_SMS|eng|TRUE|FALSE
