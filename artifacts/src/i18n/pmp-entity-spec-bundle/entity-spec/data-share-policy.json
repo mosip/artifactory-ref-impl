@@ -3,11 +3,11 @@
 	"actionButtons": [{
 			"buttonName": {
 				"eng": "Activate",
-				"ara": "Activate_ara",
-				"fra": "Activate_fra",
-				"hin": "Activate_hin",
-				"kan": "Activate_kan",
-				"tam": "Activate_tam"
+				"ara": "تفعيل",
+				"fra": "Activer",
+				"hin": "सक्रिय",
+				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயல்படுத்த"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -18,11 +18,11 @@
 		{
 			"buttonName": {
 				"eng": "Edit",
-				"ara": "Edit_ara",
-				"fra": "Edit_fra",
-				"hin": "Edit_hin",
-				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/datasharepolicy/single-view/$id",
@@ -33,11 +33,11 @@
 		{
 			"buttonName": {
 				"eng": "Create Policy",
-				"ara": "Create Policy_ara",
-				"fra": "Create Policy_fra",
-				"hin": "Create Policy_hin",
-				"kan": "Create Policy_kan",
-				"tam": "Create Policy_tam"
+				"ara": "إنشاء سياسة",
+				"fra": "Créer une politique",
+				"hin": "नीति बनाएं",
+				"kan": "ನೀತಿಯನ್ನು ರಚಿಸಿ",
+				"tam": "கொள்கையை உருவாக்கவும்"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -49,11 +49,11 @@
 		{
 			"buttonName": {
 				"eng": "Filter",
-				"ara": "Filter_ara",
-				"fra": "Filter_fra",
-				"hin": "Filter_hin",
-				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -69,11 +69,11 @@
 			"name": "id",
 			"label": {
 				"eng": "Policy ID",
-				"ara": "Policy ID_ara",
-				"fra": "Policy ID_fra",
-				"hin": "Policy ID_hin",
-				"kan": "Policy ID_kan",
-				"tam": "Policy ID_tam"
+				"ara": "معرف السياسة",
+				"fra": "ID de politique",
+				"hin": "पॉलिसी आईडी",
+				"kan": "ನೀತಿ ID",
+				"tam": "கொள்கை ஐடி"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -88,11 +88,11 @@
 			"name": "name",
 			"label": {
 				"eng": "Name",
-				"ara": "Name_ara",
-				"fra": "Name_fra",
-				"hin": "Name_hin",
-				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"ara": "اسم",
+				"fra": "Nom",
+				"hin": "नाम",
+				"kan": "ಹೆಸರು",
+				"tam": "பெயர்"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -107,11 +107,11 @@
 			"name": "desc",
 			"label": {
 				"eng": "Description",
-				"ara": "Description_ara",
-				"fra": "Description_fra",
-				"hin": "Description_hin",
-				"kan": "Description_kan",
-				"tam": "Description_tam"
+				"ara": "وصف",
+				"fra": "La description",
+				"hin": "विवरण",
+				"kan": "ವಿವರಣೆ",
+				"tam": "விளக்கம்"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -126,11 +126,11 @@
 			"name": "policyGroupName",
 			"label": {
 				"eng": "Policy Group",
-				"ara": "Policy Group_ara",
-				"fra": "Policy Group_fra",
-				"hin": "Policy Group_hin",
-				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
+				"ara": "مجموعة السياسة",
+				"fra": "Groupe de politiques",
+				"hin": "नीति समूह",
+				"kan": "ನೀತಿ ಗುಂಪು",
+				"tam": "கொள்கை குழு"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -145,11 +145,11 @@
 			"name": "version",
 			"label": {
 				"eng": "Policy Version",
-				"ara": "Policy Version_ara",
-				"fra": "Policy Version_fra",
-				"hin": "Policy Version_hin",
-				"kan": "Policy Version_kan",
-				"tam": "Policy Version_tam"
+				"ara": "إصدار السياسة",
+				"fra": "Version de la politique",
+				"hin": "नीति संस्करण",
+				"kan": "ನೀತಿ ಆವೃತ್ತಿ",
+				"tam": "கொள்கை பதிப்பு"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -164,11 +164,11 @@
 			"name": "policyType",
 			"label": {
 				"eng": "Policy Type",
-				"ara": "Policy Type_ara",
-				"fra": "Policy Type_fra",
-				"hin": "Policy Type_hin",
-				"kan": "Policy Type_kan",
-				"tam": "Policy Type_tam"
+				"ara": "نوع السياسة",
+				"fra": "Type de politique",
+				"hin": "नीति प्रकार",
+				"kan": "ನೀತಿ ಪ್ರಕಾರ",
+				"tam": "கொள்கை வகை"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -183,11 +183,11 @@
 			"name": "policies",
 			"label": {
 				"eng": "Policies Data",
-				"ara": "Policies Data_ara",
-				"fra": "Policies Data_fra",
-				"hin": "Policies Data_hin",
-				"kan": "Policies Data_kan",
-				"tam": "Policies Data_tam"
+				"ara": "بيانات السياسات",
+				"fra": "Données sur les politiques",
+				"hin": "नीतियां डेटा",
+				"kan": "ನೀತಿಗಳ ಡೇಟಾ",
+				"tam": "கொள்கைகள் தரவு"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -203,11 +203,11 @@
 			"showInListView": "true",
 			"label": {
 				"eng": "Status",
-				"ara": "Status_ara",
-				"fra": "Status_fra",
-				"hin": "Status_hin",
-				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -223,14 +223,14 @@
 	"filterColumns": [{
 			"filtername": "name",
 			"filterlabel": {
-				"eng": "Name",
-				"ara": "Name_ara",
-				"fra": "Name_fra",
-				"hin": "Name_hin",
-				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"eng": "Name",                                
+"ara": "اسم",                               
+"fra": "Nom",                               
+"hin": "नाम",                                
+"kan": "ಹೆಸರು",                              
+			"tam": "பெயர்"
 			},
-			"filterType": "equals",
+				"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
 			"dropdown": "false",
@@ -243,12 +243,12 @@
 			"filtername": "desc",
 			"filterlabel": {
 				"eng": "Description",
-				"ara": "Description_ara",
-				"fra": "Description_fra",
-				"hin": "Description_hin",
-				"kan": "Description_kan",
-				"tam": "Description_tam"
-			},
+"ara": "وصف",
+"fra": "La description",
+"hin": "विवरण",
+"kan": "ವಿವರಣೆ",
+"tam": "விளக்கம்"
+},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -262,12 +262,12 @@
 			"filtername": "policyGroupName",
 			"filterlabel": {
 				"eng": "Policy Group",
-				"ara": "Policy Group_ara",
-				"fra": "Policy Group_fra",
-				"hin": "Policy Group_hin",
-				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
-			},
+ "ara": "مجموعة السياسة",
+ "fra": "Groupe de politiques",
+ "hin": "नीति समूह",
+ "kan": "ನೀತಿ ಗುಂಪು",
+ "tam": "கொள்கை குழு"
+ },
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",

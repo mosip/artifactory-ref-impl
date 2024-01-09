@@ -793,6 +793,42 @@
             "value": "RESIDENT 3years"
         }]
     },
+    "download-card": {
+        "header": "Download Card",
+        "text": "Please enter a Registration ID to download the digital card",
+        "error": "Invalid Registration ID Entered",
+        "id": "Registration ID",
+        "dob": "Date of Birth",
+        "verifyanddownload": "I have verified the face.",
+        "reject": "The face does not match.",
+        "submit": "Reject",
+        "download": "Download",
+        "searchLimit": "You are left with",
+        "outof": "searches out of",
+        "dailylimit": "from your daily limit",
+        "verify": "Can you confirm if the face verified?",
+        "placeholder":"Registration ID",
+        "errorMessages": {
+            "title": "Error",
+            "message": "RID Not Found",
+            "btnTxt": "Ok"
+        },
+        "popupMessages": {
+            "rejectMessages": {
+                "title": "Success",
+                "message": "You have rejected the verification.",
+                "btnTxt": "Ok"
+            },
+            "noData": {
+                "title": "Error",
+                "message": "No Data Found",
+                "btnTxt": "Ok"
+            }
+        },
+        "statuscheckFailed":"Failed",
+        "statuscheckCompleted":"Completed"
+
+    },
 
     "serverError": {
         "KER-KMS-001": "Certificate is not valid",
@@ -1262,6 +1298,7 @@
         "KER-USR-017": "Zone & User mapping  not present in db",
         "KER-USR-018": "duplicate request",
         "KER-USR-021": "The given user already mapped with different zone",
+        "KER-USR-022": "The user center mapping must be deleted before deleting the user from the zone",
         "ADMN-BLK-TRNSCTNS-001": "Unable ro retrieve the transactions",
         "ADMN-BLK-001": "Any error occured during the bulk operation. If the category is masterdata, list operations are listed. If the category is packet, list of failed packet informations are listed",
         "ADM-BLK-001": "Data is not exist in db",
@@ -1395,6 +1432,15 @@
         "RPR-UIN-FAILED-008": "UIN Not Found for the Matched RID",
         "RPR-SEN-SUCCESS-001": "Notification received to securezone",
         "RPR-RGS-034" : "searching between date should be less then 30 days",
-        "KER-MSD-394" : "Your zone mapping missing. Please contact the administrator."
+        "KER-MSD-394" : "Your zone mapping missing. Please contact the administrator.",
+        "ADM-AVD-001" : "A technical error occurred while retrieving the data, please try again after some time.",
+        "ADM-AVD-002" : "RID is invalid",
+        "ADM-AVD-003" : "The card for this request ID is not generated. Please check the status of the ID.",
+        "ADM-AVD-004" : "Applicant Photo Not Found",
+        "ADM-AVD-005" : "Digital card not found for the RID, please try after few days",
+        "ADM-AVD-006" : "Please acknowledge the details before downloading digital card",
+        "ADM-AVD-007" : "Request id not found",
+        "ADM-AVD-008" : "Your daily search limit has exceeded. Please try searching again tomorrow.",
+        "ADM-AVD-009" : "Data share usuage expired"
     }
 }

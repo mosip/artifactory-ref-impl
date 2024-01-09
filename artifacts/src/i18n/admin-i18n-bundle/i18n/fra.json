@@ -1062,6 +1062,43 @@
 			}
 		]
 	},
+	"download-card": {
+        "header": "Télécharger la carte",
+        "text": "Veuillez entrer un ID d'enregistrement pour télécharger la carte numérique",
+        "error": "ID d'enregistrement invalide saisi",
+        "id": "ID d'enregistrement",
+        "dob": "Date de naissance",
+        "verifyanddownload": "J'ai vérifié le visage.",
+        "reject": "Le visage ne correspond pas.",
+        "submit": "Rejeter",
+        "download": "Télécharger",
+        "searchLimit": "Il vous reste",
+        "outof": "cherche hors de",
+        "dailylimit": "de votre limite quotidienne",
+        "verify": "Pouvez-vous confirmer si le visage a été vérifié ?",
+        "placeholder":"ID d'enregistrement",
+        "errorMessages": {
+            "title": "Erreur",
+            "message": "RID introuvable",
+            "btnTxt": "D'accord"
+        },
+        "popupMessages": {
+            "rejectMessages": {
+                "title": "Succès",
+                "message": "Vous avez rejeté la vérification.",
+                "btnTxt": "D'accord"
+            },
+            "noData": {
+                "title": "Erreur",
+                "message": "Aucune donnée disponible",
+                "btnTxt": "D'accord"
+            }
+        },
+        "statuscheckFailed":"Échoué",
+        "statuscheckCompleted":"complété"
+
+    },
+
 	"serverError": {
 		"KER-KMS-001": "Le certificat n'est pas valide",
 		"KER-KMS-002": "ApplicationId introuvable dans la stratégie de clé",
@@ -1428,7 +1465,6 @@
 		"KER-MSD-037": "Une erreur s'est produite lors de la récupération des mappages du centre d'enregistrement, de la machine et de l'utilisateur",
 		"KER-MSD-038": "Centre d'enregistrement, Machine, Utilisateur non trouvé",
 		"KER-MSD-039": "Format de date invalide",
-		"KER-MSD-319": "Entrée de requête invalide",
 		"KER-MSD-500": "Erreur serveur interne",
 		"KER-MSD-998": "Déjà activé ou désactivé",
 		"KER-MSD-997": "Identifiant non valide transmis pour la langue principale",
@@ -1456,7 +1492,6 @@
 		"KER-SCH-019": "Mêmes bioattributs utilisés dans le champ avec le même sous-type : %s",
 		"KER-MSD-045": "Une erreur s'est produite lors de la récupération des modèles",
 		"KER-MSD-145": "Exception lors de l'insertion de données dans la base de données",
-		"KER-MSD-046": "Modèle introuvable.",
 		"KER-MSD-238": "Une erreur s'est produite lors de la mise à jour du modèle",
 		"KER-MSD-096": "Une erreur s'est produite lors de la suppression du modèle",
 		"KER-MSD-232": "Une erreur s'est produite lors de l'insertion des détails du format de fichier modèle",
@@ -1531,6 +1566,7 @@
 		"KER-USR-017": "Mappage de zone et d'utilisateur non présent dans la base de données",
 		"KER-USR-018": "demande en double",
 		"KER-USR-021": "L'utilisateur donné déjà mappé avec une zone différente",
+		"KER-USR-022": "Le mappage du centre utilisateur doit être supprimé avant de supprimer l'utilisateur de la zone", 
 		"ADMN-BLK-TRNSCTNS-001": "Impossible de récupérer les transactions",
 		"ADMN-BLK-001": "Toute erreur s'est produite lors de l'opération en bloc. Si la catégorie est des données maîtres, les opérations de liste sont répertoriées. Si la catégorie est un paquet, la liste des informations sur les paquets ayant échoué sont répertoriées",
 		"ADM-BLK-001": "Les données n'existent pas dans la base de données",
@@ -1664,7 +1700,15 @@
 		"RPR-UIN-FAILED-008": "UIN introuvable pour le RID correspondant",
 		"RPR-SEN-SUCCESS-001": "Notification reçue à securezone",
 		"RPR-RGS-034" : "la recherche entre les dates doit être inférieure à 30 jours",
-		"KER-MSD-394" : "Votre mappage de zone est manquant. Veuillez contacter l'administrateur."
-
+		"KER-MSD-394" : "Votre mappage de zone est manquant. Veuillez contacter l'administrateur.",
+		"ADM-AVD-001" : "Une erreur technique s'est produite lors de la récupération des données, veuillez réessayer après un certain temps.",
+        "ADM-AVD-002" : "Le RID est invalide",
+        "ADM-AVD-003" : "La carte pour cet ID de demande n'est pas générée. Veuillez vérifier l'état de l'ID.",
+        "ADM-AVD-004" : "Photo du demandeur introuvable",
+        "ADM-AVD-005" : "Carte numérique introuvable pour le RID, veuillez réessayer après quelques jours",
+        "ADM-AVD-006" : "Veuillez prendre connaissance des détails avant de télécharger la carte numérique",
+        "ADM-AVD-007" : "Identifiant de la requête introuvable",
+        "ADM-AVD-008" : "Votre limite de recherche quotidienne a été dépassée. Veuillez réessayer demain.",
+        "ADM-AVD-009" : "L'utilisation du partage de données a expiré"
 	}
 }
