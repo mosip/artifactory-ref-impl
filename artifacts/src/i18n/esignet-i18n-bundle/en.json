@@ -89,6 +89,16 @@
     "fullName_placeholder": "Full Name",
     "dob_placeholder": "DOB"
   },
+  "Form": {
+    "sign_in_with_details": "Login with Details",
+    "login": "Login",
+    "policyNumber": "Enter Policy Number",
+    "fullName": "Enter Full Name",
+    "dob": "Enter DOB",
+    "policyNumber_placeholder": "Policy Number",
+    "fullName_placeholder": "Full Name",
+    "dob_placeholder": "DOB"
+  },
   "LoginQRCode": {
     "scan_with_wallet": "Scan with {{walletName}} to login",
     "dont_have_wallet": "Don't Have {{walletName}}?",
@@ -269,6 +279,7 @@
     "invalid_client_name_value": "Invalid client name value",
     "duplicate_individual_id": "Individual ID already exists.",
     "password_error_msg": "Invalid Password",
+    "invalid_qrcode_config": "Invalid QRCode configuration. Please report to the site admin.",
     "data_exchange_failed": "KYC data exchange failed.",
     "kyc_signing_certificate_failed": "Failed to get KYC signing certificates(authenticator system).",
     "binding_auth_failed": "Key bound authentication (linked-wallet) failed.",

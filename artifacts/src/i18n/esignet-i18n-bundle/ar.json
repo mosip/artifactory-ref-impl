@@ -89,6 +89,16 @@
     "fullName_placeholder": "الاسم الكامل",
     "dob_placeholder": "تاريخ الميلاد"
   },
+  "Form": {
+    "sign_in_with_details": "تسجيل الدخول باستخدام التفاصيل",
+    "login": "تسجيل الدخول",
+    "policyNumber": "أدخل رقم الوثيقة",
+    "fullName": "أدخل الاسم الكامل",
+    "dob": "أدخل تاريخ الميلاد",
+    "policyNumber_placeholder": "رقم الوثيقة",
+    "fullName_placeholder": "الاسم الكامل",
+    "dob_placeholder": "تاريخ الميلاد"
+  },
   "LoginQRCode": {
     "scan_with_wallet": "قم بالمسح باستخدام {{walletName}} لتسجيل الدخول",
     "dont_have_wallet": "؟{{walletName}} ليس لديك",
@@ -269,6 +279,7 @@
     "invalid_client_name_value": "قيمة اسم العميل غير صالحة",
     "duplicate_individual_id": "المعرف الفردي موجود بالفعل.",
     "password_error_msg": "رمز مرور خاطئ",
+    "invalid_qrcode_config": "تكوين QRCode غير صالح. يرجى إبلاغ مدير الموقع.",
     "data_exchange_failed": "فشل تبادل بيانات KYC.",
     "kyc_signing_certificate_failed": "فشل في الحصول على شهادات توقيع KYC (نظام المصادقة).",
     "binding_auth_failed": "فشل المصادقة المرتبطة بالمفتاح (Linked-Wallet).",

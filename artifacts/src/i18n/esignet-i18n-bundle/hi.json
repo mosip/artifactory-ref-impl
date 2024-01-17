@@ -89,6 +89,16 @@
     "fullName_placeholder": "पूरा नाम",
     "dob_placeholder": "जन्मतिथि"
   },
+  "Form": {
+    "sign_in_with_details": "विवरण के साथ लॉगिन करें",
+    "login": "लॉगिन",
+    "policyNumber": "पॉलिसी नंबर दर्ज करें",
+    "fullName": "पूरा नाम दर्ज करें",
+    "dob": "जन्मतिथि दर्ज करें",
+    "policyNumber_placeholder": "पॉलिसी नंबर",
+    "fullName_placeholder": "पूरा नाम",
+    "dob_placeholder": "जन्मतिथि"
+  },
   "LoginQRCode": {
     "scan_with_wallet": "लॉगिन करने के लिए {{walletName}} से स्कैन करें",
     "dont_have_wallet": "{{walletName}} नहीं है?",
@@ -269,6 +279,7 @@
     "invalid_client_name_value": "अमान्य ग्राहक नाम मान",
     "duplicate_individual_id": "व्यक्तिगत आईडी पहले से मौजूद है।",
     "password_error_msg": "अवैध पासवर्ड",
+    "invalid_qrcode_config": "अमान्य QRCode कॉन्फ़िगरेशन. कृपया साइट व्यवस्थापक को रिपोर्ट करें.",
     "captcha_validator_not_found": "कैप्चा सत्यापनकर्ता उदाहरण खोजने में विफल, कृपया ClassPath की जाँच करें।",
     "data_exchange_failedKYC": "डेटा एक्सचेंज विफल रहा।",
     "kyc_signing_certificate_failedKYC": "पर हस्ताक्षर करने वाले प्रमाण पत्र (प्रमाणक प्रणाली) प्राप्त करने में विफल।",

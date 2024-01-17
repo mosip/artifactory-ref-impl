@@ -89,6 +89,16 @@
     "fullName_placeholder": "ಪೂರ್ಣ ಹೆಸರು",
     "dob_placeholder": "ಹುಟ್ಟಿದ ದಿನಾಂಕ"
   },
+  "Form": {
+    "sign_in_with_details": "ವಿವರಗಳೊಡನೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "login": "ಲಾಗಿನ್",
+    "policyNumber": "ಪಾಲಿಸಿ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ",
+    "fullName": "ಪೂರ್ಣ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+    "dob": "ಹುಟ್ಟಿದ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ",
+    "policyNumber_placeholder": "ಪಾಲಿಸಿ ಸಂಖ್ಯೆ",
+    "fullName_placeholder": "ಪೂರ್ಣ ಹೆಸರು",
+    "dob_placeholder": "ಹುಟ್ಟಿದ ದಿನಾಂಕ"
+  },
   "LoginQRCode": {
     "scan_with_wallet": "ಲಾಗಿನ್ ಮಾಡಲು {{walletName}} ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
     "dont_have_wallet": "{{walletName}} ಇಲ್ಲವೇ?",
@@ -269,6 +279,7 @@
     "invalid_client_name_value": "ಅಮಾನ್ಯ ಕ್ಲೈಂಟ್ ಹೆಸರಿನ ಮೌಲ್ಯ",
     "duplicate_individual_id": "ವೈಯಕ್ತಿಕ ಐಡಿ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
     "password_error_msg": "ಅಮಾನ್ಯವಾದ ಪಾಸ್ವರ್ಡ್",
+    "invalid_qrcode_config": "ಅಮಾನ್ಯವಾದ QRCode ಕಾನ್ಫಿಗರೇಶನ್. ದಯವಿಟ್ಟು ಸೈಟ್ ನಿರ್ವಾಹಕರಿಗೆ ವರದಿ ಮಾಡಿ.",
     "data_exchange_failed": "ಕೆವೈಸಿ ಡೇಟಾ ವಿನಿಮಯ ವಿಫಲವಾಗಿದೆ.",
     "kyc_signing_certificate_failed": "ಕೆವೈಸಿ ಸಹಿ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು (ದೃ hentic ೀಕರಣ ವ್ಯವಸ್ಥೆ) ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
     "binding_auth_failed": "ಕೀ ಬೌಂಡ್ ದೃ hentic ೀಕರಣ (ಲಿಂಕ್ಡ್-ವ್ಯಾಲೆಟ್) ವಿಫಲವಾಗಿದೆ.",

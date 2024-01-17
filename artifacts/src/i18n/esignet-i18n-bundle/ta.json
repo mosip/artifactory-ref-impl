@@ -89,6 +89,16 @@
     "fullName_placeholder": "முழு பெயர்",
     "dob_placeholder": "பிறந்த தேதி"
   },
+  "Form": {
+    "sign_in_with_details": "விவரங்களுடன் உள்நுழைய",
+    "login": "உள்நுழைய",
+    "policyNumber": "காப்பீடு எண் உள்ளிடுக",
+    "fullName": "முழு பெயரை உள்ளிடுக",
+    "dob": "பிறந்த தேதியை உள்ளிடுக",
+    "policyNumber_placeholder": "காப்பீடு எண்",
+    "fullName_placeholder": "முழு பெயர்",
+    "dob_placeholder": "பிறந்த தேதி"
+  },
   "LoginQRCode": {
     "scan_with_wallet": "உள்நுழைய {{walletName}} உடன் ஸ்கேன் செய்யவும்",
     "dont_have_wallet": "{{walletName}} இல்லையா?",
@@ -269,6 +279,7 @@
     "invalid_client_name_value": "தவறான கிளையன்ட் பெயர் மதிப்பு",
     "duplicate_individual_id": "தனிப்பட்ட ஐடி ஏற்கனவே உள்ளது.",
     "password_error_msg": "தவறான கடவுச்சொல்",
+    "invalid_qrcode_config": "தவறான QRCode உள்ளமைவு. தள நிர்வாகியிடம் புகாரளிக்கவும்.",
     "data_exchange_failed": "KYC தரவு பரிமாற்றம் தோல்வியடைந்தது.",
     "kyc_signing_certificate_failed": "KYC கையெழுத்திடும் சான்றிதழ்கள் (அங்கீகார அமைப்பு) பெறுவதில் தோல்வி.",
     "binding_auth_failed": "முக்கிய கட்டுப்பாட்டு அங்கீகாரம் (இணைக்கப்பட்ட-வாலட்) தோல்வியடைந்தது.",
