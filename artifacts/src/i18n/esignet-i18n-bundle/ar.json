@@ -79,6 +79,16 @@
     "password_placeholder": "كلمة المرور",
     "forgot_password": "هل نسيت كلمة السر؟"
   },
+  "Form": {
+    "sign_in_with_details": "تسجيل الدخول باستخدام التفاصيل",
+    "login": "تسجيل الدخول",
+    "policyNumber": "أدخل رقم الوثيقة",
+    "fullName": "أدخل الاسم الكامل",
+    "dob": "أدخل تاريخ الميلاد",
+    "policyNumber_placeholder": "رقم الوثيقة",
+    "fullName_placeholder": "الاسم الكامل",
+    "dob_placeholder": "تاريخ الميلاد"
+  },
   "LoginQRCode": {
     "scan_with_wallet": "قم بالمسح باستخدام {{walletName}} لتسجيل الدخول",
     "dont_have_wallet": "؟{{walletName}} ليس لديك",
