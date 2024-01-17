@@ -71,6 +71,16 @@
     "uin_placeholder": "ವಿಐಡಿ",
     "password_placeholder": "ಗುಪ್ತಪದ"
   },
+  "Form": {
+    "sign_in_with_details": "ವಿವರಗಳೊಡನೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "login": "ಲಾಗಿನ್",
+    "policyNumber": "ಪಾಲಿಸಿ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ",
+    "fullName": "ಪೂರ್ಣ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+    "dob": "ಹುಟ್ಟಿದ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ",
+    "policyNumber_placeholder": "ಪಾಲಿಸಿ ಸಂಖ್ಯೆ",
+    "fullName_placeholder": "ಪೂರ್ಣ ಹೆಸರು",
+    "dob_placeholder": "ಹುಟ್ಟಿದ ದಿನಾಂಕ"
+  },
   "LoginQRCode": {
     "scan_with_wallet": "ಲಾಗಿನ್ ಮಾಡಲು {{walletName}} ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
     "dont_have_wallet": "{{walletName}} ಇಲ್ಲವೇ?",
