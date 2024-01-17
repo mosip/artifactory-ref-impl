@@ -231,6 +231,7 @@
     "response_timeout": "ಮುಂದೂಡಲ್ಪಟ್ಟ ಪ್ರತಿಕ್ರಿಯೆ ಸಮಯ ಮೀರಿದೆ.",
     "invalid_state": "ಅಮಾನ್ಯ ಸ್ಥಿತಿಯಲ್ಲಿ ವಹಿವಾಟು ಕಂಡುಬಂದಿದೆ.",
     "authorization_failed_msg": "ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ",
-    "consent_request_rejected": "ಸಮ್ಮತಿ ವಿನಂತಿಯನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ"
+    "consent_request_rejected": "ಸಮ್ಮತಿ ವಿನಂತಿಯನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ",
+    "transaction_timeout": "ವಹಿವಾಟಿನ ಅವಧಿ ಮೀರಿದೆ"    
   }
 }
