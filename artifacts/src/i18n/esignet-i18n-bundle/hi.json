@@ -71,6 +71,16 @@
     "uin_placeholder": "वीआईडी",
     "password_placeholder": "पासवर्ड"
   },
+  "Form": {
+    "sign_in_with_details": "विवरण के साथ लॉगिन करें",
+    "login": "लॉगिन",
+    "policyNumber": "पॉलिसी नंबर दर्ज करें",
+    "fullName": "पूरा नाम दर्ज करें",
+    "dob": "जन्मतिथि दर्ज करें",
+    "policyNumber_placeholder": "पॉलिसी नंबर",
+    "fullName_placeholder": "पूरा नाम",
+    "dob_placeholder": "जन्मतिथि"
+  },
   "LoginQRCode": {
     "scan_with_wallet": "लॉगिन करने के लिए {{walletName}} से स्कैन करें",
     "dont_have_wallet": "{{walletName}} नहीं है?",
