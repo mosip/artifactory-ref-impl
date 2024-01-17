@@ -77,7 +77,8 @@
     "password_label_text": "पास वर्ड दर्ज करें",
     "uin_placeholder": "वीआईडी",
     "password_placeholder": "पासवर्ड",
-    "forgot_password": "पासवर्ड भूल गए?"
+    "forgot_password": "पासवर्ड भूल गए?",
+    "reset_password": "पासवर्ड रीसेट"
   },
   "LoginQRCode": {
     "scan_with_wallet": "लॉगिन करने के लिए {{walletName}} से स्कैन करें",
@@ -119,7 +120,8 @@
     "more_ways_to_sign_in": "साइन इन करने के और भी तरीके",
     "or": "या",
     "sign_in_with": "{{idProviderName}} का उपयोग करके सत्यापित करें",
-    "verify_using_national_id":"अन्य राष्ट्रीय आईडी का उपयोग करके सत्यापित करें"
+    "verify_using_national_id":"अन्य राष्ट्रीय आईडी का उपयोग करके सत्यापित करें",
+    "register": "पंजीकरण करवाना"
   },
   "esignetDetails": {
     "esignet_details_heading": "प्रसिद्ध एपीआई",
@@ -161,6 +163,10 @@
     "username_info": "अपना 8-9 अंकों का पंजीकृत मोबाइल नंबर दर्ज करें और सुनिश्चित करें कि यह \"0\" से शुरू न हो।"
   },
   "errors": {
+    "navigate_option": "कृपया नीचे दिए गए विकल्पों का उपयोग करके नेविगेट करने का प्रयास करें।",
+    "page_not_exist": "उफ़! आप जिस पृष्ठ की तलाश कर रहे हैं वह मौजूद नहीं है।",
+    "something_went_wrong": "कुछ गलत हो गया!",
+    "experts_working": "हमारे विशेषज्ञ चीजों को फिर से चालू करने के लिए कड़ी मेहनत कर रहे हैं।",
     "username_not_valid": "मान्य उपयोक्तानाम दर्ज करें",
     "password_not_valid": "वैध पासवर्ड दर्ज करें",
     "no_response_msg": "कोई जवाब नहीं",

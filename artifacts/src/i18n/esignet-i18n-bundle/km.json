@@ -77,7 +77,8 @@
     "password_label_text": "បញ្ចូល​ពាក្យ​សម្ងាត់",
     "uin_placeholder": "លេខទូរសព្ទ",
     "password_placeholder": "ពាក្យ​សម្ងាត់",
-    "forgot_password": "ភ្លេច​លេខសំងាត់​?"
+    "forgot_password": "ភ្លេច​លេខសំងាត់​?",
+    "reset_password": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ"
   },
   "LoginQRCode": {
     "scan_with_wallet": "ស្កេនដោយប្រើកម្មវិធី {{walletName}}ដើម្បីចូលប្រើប្រាស់",
@@ -119,7 +120,8 @@
     "more_ways_to_sign_in": "វិធីច្រើនទៀតដើម្បីចូល",
     "or": "ឬ",
     "sign_in_with": "ផ្ទៀង​ផ្ទាត់ដោយប្រើ {{idProviderName}}",
-    "verify_using_national_id":"ផ្ទៀង​ផ្ទាត់ដោយប្រើអត្តសញ្ញាណប័ណ្ណ"
+    "verify_using_national_id":"ផ្ទៀង​ផ្ទាត់ដោយប្រើអត្តសញ្ញាណប័ណ្ណ",
+    "register": "ចុះឈ្មោះ"
   },
   "esignetDetails": {
     "esignnet_details_heading": "APIs ល្បី",
@@ -161,6 +163,10 @@
     "username_info": "បញ្ចូលលេខទូរសព្ទដែលបានចុះឈ្មោះ 8-9 ខ្ទង់របស់អ្នក ហើយត្រូវប្រាកដថាវាមិនចាប់ផ្តើមដោយ \"0\""
   },
   "errors": {
+    "navigate_option": "សូមព្យាយាមរុករកដោយប្រើជម្រើសខាងក្រោម។",
+    "page_not_exist": "អូ! ទំព័រដែលអ្នកកំពុងស្វែងរកមិនមានទេ។",
+    "something_went_wrong": "មាន​អ្វីមួយ​មិន​ប្រក្រតី!",
+    "experts_working": "អ្នកជំនាញរបស់យើងកំពុងខិតខំប្រឹងប្រែងដើម្បីធ្វើឱ្យអ្វីៗដំណើរការឡើងវិញ។",
     "username_not_valid": "បញ្ចូលឈ្មោះអ្នកប្រើប្រាស់ត្រឹមត្រូវ។",
     "password_not_valid": "បញ្ចូលពាក្យសម្ងាត់ត្រឹមត្រូវ។",
     "no_response_msg": "គ្មានការឆ្លើយតប",
