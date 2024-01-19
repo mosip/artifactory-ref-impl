@@ -71,6 +71,11 @@
 		<auth-adapter.version>1.2.1-SNAPSHOT</auth-adapter.version>
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
+
+		<auth-adapter-without-spring.version>1.2.1-es-SNAPSHOT</auth-adapter-without-spring.version>
+		<auth-adapter-without-spring.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-without-spring.location>
+		<auth-adapter-without-spring.fileName>kernel-auth-adapter-without-spring.jar</auth-adapter-without-spring.fileName>
+		
 		<!-- kernel-smsserviceprovider-->
 		<kernel-smsserviceprovider.version>1.2.1-SNAPSHOT</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
@@ -159,6 +164,16 @@
 					<destFileName>${auth-adapter.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+
+				<artifactItem>
+	       	 	                <groupId>io.mosip.kernel</groupId>
+					<artifactId>kernel-auth-adapter</artifactId>
+					<version>${auth-adapter-without-spring.version}</version>
+					<outputDirectory>${auth-adapter-without-spring.location}</outputDirectory> 
+					<destFileName>${auth-adapter-without-spring.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+					
 <!-- artifactItem section for smsserviceprovider -->
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
