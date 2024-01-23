@@ -1,4 +1,4 @@
-code,name,langCode,isActive,isDeleted
-ind,foreign,eng,FALSE,FALSE
-AAA,AAA,eng,TRUE,FALSE
-BBB,BBB,eng,TRUE,FALSE
+code|name|langCode|isActive|isDeleted
+ind|foreign|eng|FALSE|FALSE
+AAA|AAA|eng|TRUE|FALSE
+BBB|BBB|eng|TRUE|FALSE

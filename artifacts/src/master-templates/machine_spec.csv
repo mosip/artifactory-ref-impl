@@ -1,2 +1,2 @@
-id,name,brand,model,machineTypeCode,minDriverversion,description,langCode,isActive,isDeleted
-123,Vostro,Dell,3568,DKS,1.455,To take enrollments,eng,TRUE,FALSE
+id|name|brand|model|machineTypeCode|minDriverversion|description|langCode|isActive|isDeleted
+123|Vostro|Dell|3568|DKS|1.455|To take enrollments|eng|TRUE|FALSE

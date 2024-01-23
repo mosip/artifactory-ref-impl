@@ -1,2 +1,2 @@
-id,name,description,dataType,valueJson,langCode,isActive,isDeleted
-Test,bloodType,BloodType,string,"{"value":"français","code":"fra"}",eng,TRUE,FALSE
+id|name|description|dataType|valueJson|langCode|isActive|isDeleted
+Test|bloodType|BloodType|string|"{"value":"français"|"code":"fra"}"|eng|TRUE|FALSE
