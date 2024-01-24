@@ -104,6 +104,7 @@
     },
     "Acknowledgement": {
       "name": "عرض الاعتراف",
+      "tablename":"إعتراف",
       "list": {
         "line1": "بعد إتمام طلب التسجيل المسبق بنجاح ، ستتلقى إقرارًا بذلك.",
         "line2": "يمكنك طباعة أو تنزيل أو إرسال بريد إلكتروني أو رسالة نصية قصيرة.",
@@ -121,6 +122,7 @@
     },
     "status": {
       "name": "شرح الحالة",
+      "tablename": "أنواع الحالة",
       "headers": {
         "status": "الحالة",
         "explanation": "تفسير"
@@ -453,6 +455,7 @@
   },
   "dashboard": {
     "title": "تطبيقاتك",
+    "name" : "طلب",
     "action_modify_information": "تعديل المعلومات",
     "action_modify_appointment": "كتاب / تعديل موعد",
     "action_cre_application": "التسجيل المسبق ",
