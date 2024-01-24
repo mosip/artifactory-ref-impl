@@ -104,6 +104,7 @@
     },
     "Acknowledgement": {
       "name": "Voir accusé de réception",
+      "tablename":"Reconnaissance",
       "list": {
         "line1": "Après avoir complété avec succès la demande de pré-inscription, vous recevrez un accusé de réception.",
         "line2": "Vous pouvez imprimer, télécharger, envoyer par email ou par SMS votre accusé de réception.",
@@ -121,6 +122,7 @@
     },
     "status": {
       "name": "Statut Explication",
+      "tablename": "Types de statut",
       "headers": {
         "status": "Statut",
         "explanation": "Explication"
@@ -455,6 +457,7 @@
   },
   "dashboard": {
     "title": "Vos applications",
+    "name" : "Application",
     "action_modify_information": "Modifier les informations",
     "action_modify_appointment": "Réserver / modifier un rendez-vous",
     "action_cre_application": "Pré-inscription ",
