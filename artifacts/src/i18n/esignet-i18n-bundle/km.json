@@ -152,7 +152,7 @@
   "loadingMsgs": {
     "redirecting_msg": "បញ្ជូនបន្ត។ សូមរង់ចាំ...",
     "link_auth_waiting": "សូមផ្ទៀងផ្ទាត់តាមរយៈ {{walletName}}។ សូមកុំផ្ទុកទំព័រនេះឡើងវិញ។",
-    "authentication_msg": "ការផ្ទៀងផ្ទាត់។ សូមរង់ចាំ...",
+    "authenticating_msg": "ការផ្ទៀងផ្ទាត់។ សូមរង់ចាំ...",
     "scanning_devices_msg": "ឧបករណ៍ស្កេន។ សូមរង់ចាំ...",
     "capture_initiated_msg": "{{modality}} ចាប់ផ្តើមនៅលើ {{deviceModel}}",
     "sending_otp_msg": "កំពុងផ្ញើលេខសម្ងាត់។ សូមរង់ចាំ...",
