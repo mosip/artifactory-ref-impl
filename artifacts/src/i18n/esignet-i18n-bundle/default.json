@@ -7,7 +7,7 @@
     "ta": "தமிழ்",
     "km": "ខ្មែរ"
   },
-  "rtlLanguages": [],
+  "rtlLanguages": ["ar"],
   "langCodeMapping": {
     "eng": "en",
     "hin": "hi",
