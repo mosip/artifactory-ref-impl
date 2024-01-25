@@ -68,7 +68,7 @@
 
 	<properties>
 		<!-- kernel-auth-apadter -->
-		<auth-adapter.version>1.2.0.1-SNAPSHOT</auth-adapter.version>
+		<auth-adapter.version>1.2.0.1-B4-SNAPSHOT</auth-adapter.version>
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
