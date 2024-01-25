@@ -1247,7 +1247,7 @@
         "KER-MSD-337": "Error occured while fetching zone",
         "KER-MSD-339": "No zone found for the logged-in user %s",
         "KER-MSD-338": "Error Occured while fetching zone of the user",
-        "KER-MSD-391": "Entity for user ID specified Not Found",
+        "KER-MSD-391": "Zone mapping missing. Kindly map the user to zone",
         "KER-MSD-392": "Entity for Zone Code of user ID specified Not Found",
         "ADM-PKT-001": "Admin is not authorized",
         "KER-MSD-393": "Internal Server Error",
@@ -1400,6 +1400,9 @@
         "ADM-AVD-006" : "Please acknowledge the details before downloading digital card",
         "ADM-AVD-007" : "Request id not found",
         "ADM-AVD-008" : "Your daily search limit has exceeded. Please try searching again tomorrow.",
-        "ADM-AVD-009" : "Data share usuage expired"
+        "ADM-AVD-009" : "Data share usuage expired",
+        "ADM-AVD-509" : "RID not found",
+        "ADM-AVD-510" : "Applicant search limit exceeded",
+        "ADM-AVD-511" : "Request id not found"
     }
 }

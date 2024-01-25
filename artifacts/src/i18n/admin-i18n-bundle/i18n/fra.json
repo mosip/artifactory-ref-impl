@@ -1516,7 +1516,7 @@
 		"KER-MSD-337": "Une erreur s'est produite lors de la récupération de la zone",
 		"KER-MSD-339": "Aucune zone trouvée pour l'utilisateur connecté %s",
 		"KER-MSD-338": "Une erreur s'est produite lors de la récupération de la zone de l'utilisateur",
-		"KER-MSD-391": "Entité pour l'ID utilisateur spécifié introuvable",
+		"KER-MSD-391": "Mappage de zone manquant. Veuillez mapper l'utilisateur à la zone",
 		"KER-MSD-392": "Entité pour le code de zone de l'ID utilisateur spécifié introuvable",
 		"ADM-PKT-001": "L'administrateur n'est pas autorisé",
 		"KER-MSD-393": "Erreur du serveur interne",
@@ -1669,6 +1669,9 @@
         "ADM-AVD-006" : "Veuillez prendre connaissance des détails avant de télécharger la carte numérique",
         "ADM-AVD-007" : "Identifiant de la requête introuvable",
         "ADM-AVD-008" : "Votre limite de recherche quotidienne a été dépassée. Veuillez réessayer demain.",
-        "ADM-AVD-009" : "L'utilisation du partage de données a expiré"
+        "ADM-AVD-009" : "L'utilisation du partage de données a expiré",
+		"ADM-AVD-509" : "RID introuvable",
+		"ADM-AVD-510" : "Limite de recherche de candidats dépassée",
+		"ADM-AVD-511" : "ID de demande introuvable"
 	}
 }
