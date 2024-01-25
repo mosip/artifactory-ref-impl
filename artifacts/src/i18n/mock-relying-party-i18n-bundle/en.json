@@ -1,4 +1,26 @@
 {
+  "simRegistrationCompleted": {
+    "welcome_msg": "Welcome",
+    "loading_msg": "Loading! Please wait...",
+    "profile_picture": "profile picture",
+    "telecom_msg": "Please click on the button below to initiate the eSIM activation process",
+    "please_visit_our": "Please visit our",
+    "esim_website": "e-SIM website",
+    "for_next_steps": "for the next steps.",
+    "initiate_activation": "Initiate Activation",
+    "refuel_your_digital_life": "Refuel your digital life",
+    "1.5gb/day": "1.5 GB/day",
+    "2gb/day": "2 GB/day",
+    "unlimited_calls_and_messages": "Unlimited calls and SMS",
+    "best_value_plan": "Best value plan",
+    "unlimted_calls": "Talk to your loved ones for hours with unlimited voice calls",
+    "surf_internet": "Surf internet, enjoy social media, or connect with friends online",
+    "view_more": "View More",
+    "go_for_unlimited_entertainment": "Go for unlimited entertainment",
+    "contents_available": "Watch 900+ TV channels, stream content in more than 16 languages, and much more on the FastLine app.",
+    "explore": "Explore",
+    "sign_out": "Sign Out"
+  },
   "background": {
     "home": "Home",
     "polices": "Polices",
@@ -12,7 +34,12 @@
     "recovered": "Recovered",
     "active": "Active",
     "registration": "Registration",
-    "language": "Language"
+    "language": "Language",
+    "prepaid": "Prepaid",
+    "postpaid": "Postpaid",
+    "new_sim_connection": "New Sim Connection",
+    "explore": "Explore",
+    "help": "Help"
   },
   "login": {
     "sign_in_with_health_portal": "Sign In to the Health portal",
@@ -134,7 +161,9 @@
     "phone_number": "Phone number",
     "email_address": "Email Address",
     "show_raw_user_info": "Show raw user info",
-    "hide_raw_user_info": "Hide raw user info"
+    "hide_raw_user_info": "Hide raw user info",
+    "new_sim": "Looking for a New SIM?",
+    "register_for_sim": "Register for e-SIM Using National ID"
   },
   "errors": {
     "sign_in_failed": "Authentication failed! Try sign in with e-Signet",
@@ -204,6 +233,7 @@
     "response_timeout": "Deferred Response Timedout.",
     "invalid_state": "Transaction Found in Invalid State.",
     "authorization_failed_msg": "Authorization Failed",
-    "consent_request_rejected": "Consent Request Rejected"
+    "consent_request_rejected": "Consent Request Rejected",
+    "transaction_timeout": "The transaction has timed out. Please try again"
   }
 }
