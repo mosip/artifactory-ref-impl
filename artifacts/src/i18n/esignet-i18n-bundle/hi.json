@@ -189,6 +189,7 @@
     "authentication_failed_msg": "प्रमाणीकरण विफल हो गया",
     "send_otp_failed_msg": "ओटीपी भेजने में विफल",
     "parsing_error_msg": "पदव्याख्या करने में असमर्थ",
+    "unauthorized_access": "अनधिकृत पहुंच",
     "Network Error": "नेटवर्क त्रुटि",
     "invalid_request": "अमान्य अनुरोध",
     "invalid_client_id": "अमान्य_क्लाइंट_आईडी",
