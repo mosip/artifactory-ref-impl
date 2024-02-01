@@ -17,8 +17,8 @@
         "tam": "இயந்திர வகை"
       },
       "filterType": "equals",
-      "autocomplete": "false",
-      "dropdown": "true",
+      "autocomplete": "true",
+      "dropdown": "false",
       "datePicker": "false",
       "apiName": "v1/policymanager/policies/group/",
       "fieldName": "name",
