@@ -472,6 +472,11 @@
             "title": "Request payload is too large",
             "message": "Payload size exceeds the size limit. Kindly check the payload size.",
             "btnTxt": "Ok"
+        },
+	"offLine": {
+            "title": "No internet",
+            "message": "Page cannot be loaded",
+            "btnTxt": "Ok"
         }
     },
     "validationMessages": {
