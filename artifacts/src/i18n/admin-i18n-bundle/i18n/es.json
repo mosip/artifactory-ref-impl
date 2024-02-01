@@ -474,6 +474,16 @@
             "title": "La carga de la solicitud es demasiado grande",
             "message": "El tamaño de la carga excede el límite permitido. Por favor, verifica el tamaño de la carga.",
             "btnTxt": "Aceptar"
+        },
+        "servicedown": {
+            "title": "Servicio temporalmente no disponible",
+            "message": "El servicio no está listo para manejar la solicitud. Por favor inténtelo después de algún tiempo.",
+            "btnTxt": "De acuerdo"
+        },
+        "offLine": {
+            "title": "Sin internet",
+            "message": "La página no se puede cargar",
+            "btnTxt": "De acuerdo"
         }
     },
     "validationMessages": {
