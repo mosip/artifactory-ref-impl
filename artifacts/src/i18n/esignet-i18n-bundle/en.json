@@ -377,7 +377,7 @@
     "IDA-RST-008": "Connection timed out",
     "IDA-KBT-001": "Bound certificate not found",
     "IDA-KBT-002": "Signed token issued at (iat) is not in allowed time range.",
-    "IDA-KBT-003": "Error verifying key binded token."
+    "IDA-KBT-003": "Error verifying key binded token.",
     "otp": {
       "IDA-OTA-001": "Innumerous OTP requests received",
       "IDA-OTA-002": "Could not generate/send OTP",
