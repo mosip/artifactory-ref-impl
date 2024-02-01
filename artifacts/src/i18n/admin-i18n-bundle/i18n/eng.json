@@ -474,9 +474,9 @@
             "btnTxt": "Ok"
         },
 	"servicedown": {
-            "title": "الخدمة غير متاحة مؤقتا",
-            "message": "الخدمة ليست جاهزة للتعامل مع الطلب. يرجى المحاولة بعد وقت ما.",
-            "btnTxt": "حسنا"
+            "title": "Service Temporarily Unavailable",
+            "message": "Service is not ready to handle the request. Kindly try after sometime.",
+            "btnTxt": "Ok"
         },
 	"offLine": {
             "title": "No internet",
