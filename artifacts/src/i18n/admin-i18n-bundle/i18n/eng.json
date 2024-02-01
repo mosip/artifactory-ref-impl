@@ -473,6 +473,11 @@
             "message": "Payload size exceeds the size limit. Kindly check the payload size.",
             "btnTxt": "Ok"
         },
+	"servicedown": {
+            "title": "الخدمة غير متاحة مؤقتا",
+            "message": "الخدمة ليست جاهزة للتعامل مع الطلب. يرجى المحاولة بعد وقت ما.",
+            "btnTxt": "حسنا"
+        },
 	"offLine": {
             "title": "No internet",
             "message": "Page cannot be loaded",
