@@ -464,7 +464,21 @@
 		"unmapped-documents": "Documents non mappés",
 		"masterDataTypes": "Types de données maîtres",
 		"dynamicField": "Champ dynamique",
-		"createDynamicField": "Créer un nouveau champ dynamique"
+		"createDynamicField": "Créer un nouveau champ dynamique",
+		"centerType":{
+            "create":{
+                "title": "Confirmation",
+                "message": "Vous êtes sur le point de créer un type de centre. \n Veuillez vous assurer que toutes les informations sont correctes. L'ID du centre sera généré une fois que vous aurez confirmé.",
+                "yesBtnText": "Confirmer",
+                "noBtnText": "Annuler"
+            },
+            "update":{
+                "title": "Confirmation",
+                "message": "Vous êtes sur le point de mettre à jour un type de centre. \n Veuillez vous assurer que toutes les informations sont correctes. Les détails du centre seront mis à jour une fois que vous aurez confirmé.",
+                "yesBtnText": "Confirmer",
+                "noBtnText": "Annuler"
+            }
+        }
 	},
 	"masterdataupload": {
 		"title": "Téléchargement des données de base"
