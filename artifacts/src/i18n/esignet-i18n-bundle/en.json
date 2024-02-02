@@ -29,7 +29,8 @@
     "email_verified": "Email Address",
     "phone": "Phone",
     "phone_number": "Phone Number",
-    "phone_number_verified": "Phone Number",
+    "phone_number_verified": "Phone Number Verified",
+    "registration_type": "Registration Type",
     "required": "Required",
     "profile": "Profile",
     "authorize_scope_tooltip": "Allows Service provider to access these protected services on your behalf",
@@ -431,7 +432,9 @@
     "password": {
       "auth_failed": "Incorrect username or password. Please try again.",
       "password_error_msg": "Invalid Password",
-      "IDA-MLC-018": "Incorrect username or password. Please try again."
+      "IDA-MLC-018": "Incorrect username or password. Please try again.",
+      "IDA-PSD-001": "Incorrect username or password. Please try again.",
+      "IDA-PSD-002": "Incorrect username or password. Please try again."
     },"statusCodeHeader": {
       "400": "Bad Request",
       "401": "Unauthorized",
