@@ -71,6 +71,11 @@
 		<auth-adapter.version>1.2.1-SNAPSHOT</auth-adapter.version>
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
+
+		<auth-adapter-without-spring.version>1.2.1-es-SNAPSHOT</auth-adapter-without-spring.version>
+		<auth-adapter-without-spring.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-without-spring.location>
+		<auth-adapter-without-spring.fileName>kernel-auth-adapter-without-spring.jar</auth-adapter-without-spring.fileName>
+		
 		<!-- kernel-smsserviceprovider-->
 		<kernel-smsserviceprovider.version>1.2.1-SNAPSHOT</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
@@ -88,18 +93,19 @@
 		<clamav-client.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</clamav-client.location>
 		<clamav-client.fileName>clamav.jar</clamav-client.fileName>
 		<!-- biosdk-client-->
-		<biosdk-client.version>1.2.0.1-B2</biosdk-client.version>
+		<biosdk-client.version>1.2.1-SNAPSHOT</biosdk-client.version>
 		<biosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/mock/0.9/biosdk-client</biosdk-client.location>
 		<biosdk-client-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/biosdk-lib</biosdk-client-lib.location>
 		<biosdk-client.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client.fileName>
 		<!-- demosdk-client -->
-		<demosdk-client.version>1.2.0</demosdk-client.version>
+		<demosdk-client.version>1.2.1-SNAPSHOT</demosdk-client.version>
 		<demosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/demosdk/default/demosdk</demosdk-client.location>
 		<demosdk-client.fileName>demosdk-client-jar-with-dependencies.jar</demosdk-client.fileName>
 		<!-- mock-sdk -->
 		<mock-sdk.version>1.2.1-SNAPSHOT</mock-sdk.version>
 		<mock-sdk.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/1.1.5</mock-sdk.location>
-		<mock-sdk.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk.fileName>
+		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
+		<mock-sdk-dep.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep.fileName>
 		<!-- mock-sdk-jpeg-extractor -->
 		<mock-sdk-jpeg-extractor.version>1.2.1-SNAPSHOT</mock-sdk-jpeg-extractor.version>
 		<mock-sdk-jpeg-extractor.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-mock-sdk/1.1.5</mock-sdk-jpeg-extractor.location>
@@ -109,12 +115,16 @@
 		<image-compressor.version>0.0.1-SNAPSHOT</image-compressor.version>
 		<image-compressor.location>/usr/share/nginx/html/artifactory/libs-release-local/compressor/image-compressor</image-compressor.location>
 		<image-compressor.fileName>image-compressor-jar-with-dependencies.jar</image-compressor.fileName>
+		<!-- redis-cache -->
+		<redis-cache.version>1.0-SNAPSHOT</redis-cache.version>
+		<redis-cache.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</redis-cache.location>
+		<redis-cache.fileName>redis-cache-provider.jar</redis-cache.fileName>
 		<!-- hazelcast cast -->
 		<hazelcast.version>3.12.12</hazelcast.version>
 		<hazelcast.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast.location>
 		<hazelcast.fileName>cache-provider.jar</hazelcast.fileName>
 		<!-- authentication-childauthfilter-impl -->
-		<authentication-childauthfilter-impl.version>1.2.0.1-B1</authentication-childauthfilter-impl.version>
+		<authentication-childauthfilter-impl.version>1.2.1-SNAPSHOT</authentication-childauthfilter-impl.version>
 		<authentication-childauthfilter-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/authentication/authentication-ref-impl</authentication-childauthfilter-impl.location>
 		<authentication-childauthfilter-impl.fileName>authentication-childauthfilter-impl.jar</authentication-childauthfilter-impl.fileName>
 		<!-- idp authentication wrapper -->
@@ -128,6 +138,8 @@
 		<!-- esignet IDA wrapper -->
 		<esignet-ida-wrapper.version>1.2.1-SNAPSHOT</esignet-ida-wrapper.version>
 		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
+		<esignet-digital-credential-wrapper.version>0.1.0-SNAPSHOT</esignet-digital-credential-wrapper.version>
+                <esignet-digital-credential-wrapper.fileName>sunbird-rc-esignet-integration-impl.jar</esignet-digital-credential-wrapper.fileName>
 	</properties>
 	
 	<build>
@@ -156,6 +168,16 @@
 					<destFileName>${auth-adapter.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+
+				<artifactItem>
+	       	 	                <groupId>io.mosip.kernel</groupId>
+					<artifactId>kernel-auth-adapter</artifactId>
+					<version>${auth-adapter-without-spring.version}</version>
+					<outputDirectory>${auth-adapter-without-spring.location}</outputDirectory> 
+					<destFileName>${auth-adapter-without-spring.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+					
 <!-- artifactItem section for smsserviceprovider -->
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
@@ -218,7 +240,7 @@
 					<version>${demosdk-client.version}</version>
 					 <outputDirectory>${demosdk-client.location}</outputDirectory> 
 					<destFileName>${demosdk-client.fileName}</destFileName>
-					<classifier>jar-with-dependencies</classifier>
+			 		<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
                 </artifactItem>
 <!-- artifactItem section for image-compressor dependency -->
@@ -274,7 +296,7 @@
 					<artifactId>mock-sdk</artifactId>
 					<version>${mock-sdk.version}</version>
 					 <outputDirectory>${biosdk-client-lib.location}</outputDirectory> 
-					<destFileName>${mock-sdk.fileName}</destFileName>
+					<destFileName>${mock-sdk-dep.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
@@ -294,6 +316,15 @@
 					<version>${hazelcast.version}</version>
 					 <outputDirectory>${hazelcast.location}</outputDirectory> 
 					<destFileName>${hazelcast.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for redis-cache jar -->
+				<artifactItem>
+					<groupId>io.mosip.cacheprovider</groupId>
+					<artifactId>cache-provider-redis</artifactId>
+					<version>${redis-cache.version}</version>
+					 <outputDirectory>${redis-cache.location}</outputDirectory> 
+					<destFileName>${redis-cache.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for idp authentication wrapper - only required for idp v090-->
@@ -320,6 +351,14 @@
 						<version>${esignet-ida-wrapper.version}</version>
 						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
 						<destFileName>${esignet-ida-wrapper.fileName}</destFileName>
+						<type>jar</type>
+					</artifactItem>
+					<artifactItem>
+                                                <groupId>io.mosip.esignet.sunbirdrc</groupId>
+	                                        <artifactId>sunbird-rc-esignet-integration-impl</artifactId>
+						<version>${esignet-digital-credential-wrapper.version}</version>
+						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
+						<destFileName>${esignet-digital-credential-wrapper.fileName}</destFileName>
 						<type>jar</type>
 					</artifactItem>
 				</artifactItems>

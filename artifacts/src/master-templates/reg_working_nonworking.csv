@@ -1,8 +1,4 @@
-registrationCenterId,dayCode,languagecode,isWorking,isActive,isDeleted
-10029,101,eng,FALSE,TRUE,FALSE
-10029,102,eng,TRUE,TRUE,FALSE
-10029,103,eng,TRUE,TRUE,FALSE
-10029,104,eng,TRUE,TRUE,FALSE
-10029,105,eng,TRUE,TRUE,FALSE
-10029,106,eng,TRUE,TRUE,FALSE
-10029,107,eng,FALSE,TRUE,FALSE
+registrationCenterId|dayCode|languagecode|isWorking|isActive|isDeleted
+10029|101|eng|FALSE|TRUE|FALSE
+10029|102|eng|TRUE|TRUE|FALSE
+10029|103|eng|TRUE|TRUE|FALSE

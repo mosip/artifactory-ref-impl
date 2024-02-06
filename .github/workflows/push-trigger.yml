@@ -4,7 +4,7 @@ on:
   release:
     types: [published]
   pull_request:
-    types: [opened]
+    types: [opened, reopened, synchronize]
   push:
     branches:
       - master
@@ -12,6 +12,7 @@ on:
       - 1.*
       - MOSIP*
       - release*
+      - ES-393
   
 jobs:
   build-docker-artifactory-server:

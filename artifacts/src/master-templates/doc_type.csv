@@ -1,4 +1,4 @@
-code,name,description,langCode,isActive,isDeleted
-TC001,PPP,Preuve didentité,fra,TRUE,FALSE
-TC002,PPP,Proof of Idendity,eng,TRUE,FALSE
-TC003,PPP,إثبات الهوية,ara,TRUE,FALSE
+code|name|description|langCode|isActive|isDeleted
+TC001|PPP|Preuve didentité|fra|TRUE|FALSE
+TC002|PPP|Proof of Idendity|eng|TRUE|FALSE
+TC003|PPP|إثبات الهوية|ara|TRUE|FALSE
