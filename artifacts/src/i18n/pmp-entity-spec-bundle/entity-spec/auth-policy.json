@@ -101,7 +101,8 @@
 			"inputType": "text",
 			"ismandatory": "true",
 			"showInListView": "true",
-			"showInSingleView": "true"
+			"showInSingleView": "true",
+			"maxLength": 128
 		},
 		{
 			"name": "desc",
@@ -120,7 +121,8 @@
 			"inputType": "text",
 			"ismandatory": "true",
 			"showInListView": "true",
-			"showInSingleView": "true"
+			"showInSingleView": "true",
+			"maxLength": 256
 		},
 		{
 			"name": "policyGroupName",
@@ -139,7 +141,8 @@
 			"inputType": "dropdown",
 			"ismandatory": "true",
 			"showInListView": "true",
-			"showInSingleView": "true"
+			"showInSingleView": "true",
+			"maxLength": 5120
 		},
 		{
 			"name": "version",

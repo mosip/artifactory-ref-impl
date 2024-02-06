@@ -174,7 +174,8 @@
 			"inputType": "text",
 			"ismandatory": "true",
 			"showInListView": "true",
-			"showInSingleView": "true"
+			"showInSingleView": "true",
+			"maxLength": 4000
 		},
 		{
 			"name": "statusCode",
