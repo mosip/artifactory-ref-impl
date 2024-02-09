@@ -89,7 +89,8 @@
     "dob": "जन्मतिथि दर्ज करें",
     "policyNumber_placeholder": "पॉलिसी नंबर",
     "fullName_placeholder": "पूरा नाम",
-    "dob_placeholder": "जन्मतिथि"
+    "dob_placeholder": "जन्मतिथि",
+    "auth_failed": "लॉगिन विफल, कृपया सही क्रेडेंशियल दर्ज करें"
   },
   "LoginQRCode": {
     "scan_with_wallet": "लॉगिन करने के लिए {{walletName}} से स्कैन करें",
