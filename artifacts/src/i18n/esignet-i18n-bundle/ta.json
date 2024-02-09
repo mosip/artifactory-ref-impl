@@ -79,7 +79,8 @@
     "dob": "பிறந்த தேதியை உள்ளிடுக",
     "policyNumber_placeholder": "காப்பீடு எண்",
     "fullName_placeholder": "முழு பெயர்",
-    "dob_placeholder": "பிறந்த தேதி"
+    "dob_placeholder": "பிறந்த தேதி",
+    "auth_failed": "உள்நுழைவு தோல்வியடைந்தது, சரியான சான்றுகளை உள்ளிடவும்"
   },
   "LoginQRCode": {
     "scan_with_wallet": "உள்நுழைய {{walletName}} உடன் ஸ்கேன் செய்யவும்",
