@@ -82,13 +82,13 @@
     "reset_password": "إعادة تعيين كلمة المرور"
   },
   "Form": {
-    "sign_in_with_details": "تسجيل الدخول بالتفاصيل",
+    "sign_in_with_details": "تسجيل الدخول باستخدام التفاصيل",
     "login": "تسجيل الدخول",
-    "policyNumber": "ادخل رقم الوثيقة",
-    "name": "ادخل الاسم",
-    "dob": "ادخل تاريخ الميلاد",
+    "policyNumber": "أدخل رقم الوثيقة",
+    "fullName": "أدخل الاسم الكامل",
+    "dob": "أدخل تاريخ الميلاد",
     "policyNumber_placeholder": "رقم الوثيقة",
-    "name_placeholder": "الاسم",
+    "fullName_placeholder": "الاسم الكامل",
     "dob_placeholder": "تاريخ الميلاد",
     "auth_failed": "فشل تسجيل الدخول، يرجى ادخال بيانات الاعتماد الصحيحة"
   },

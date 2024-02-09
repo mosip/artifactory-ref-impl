@@ -88,7 +88,7 @@
     "fullName": "Enter Full Name",
     "dob": "Enter DOB",
     "policyNumber_placeholder": "Policy Number",
-    "name_placeholder": "Name",
+    "fullName_placeholder": "Full Name",
     "dob_placeholder": "DOB",
     "auth_failed": "Login failed, please enter correct credentials"
   },
