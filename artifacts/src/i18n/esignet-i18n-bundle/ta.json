@@ -189,7 +189,6 @@
     "authentication_failed_msg": "அங்கீகரிப்பு தோல்வியுற்றது",
     "send_otp_failed_msg": "OTP ஐ அனுப்ப முடியவில்லை",
     "parsing_error_msg": "அலச முடியவில்லை",
-    "unauthorized_access": "அங்கீகரிக்கப்படாத அனுமதி",
     "Network Error": "நெட்வொர்க் பிழை",
     "invalid_request": "தவறான கோரிக்கை",
     "invalid_client_id": "தவறான கிளையன்ட் அடையாளங்காட்டி",

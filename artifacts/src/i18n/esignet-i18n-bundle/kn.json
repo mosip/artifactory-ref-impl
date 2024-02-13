@@ -189,7 +189,6 @@
     "authentication_failed_msg": "ಪ್ರಮಾಣೀಕರಣ ವಿಫಲವಾಗಿದೆ",
     "send_otp_failed_msg": "OTP ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ",
     "parsing_error_msg": "ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
-    "unauthorized_access": "ಅನಧಿಕೃತ ಪ್ರವೇಶ",
     "Network Error": "ನೆಟ್‌ವರ್ಕ್ ದೋಷ",
     "invalid_request": "ಅಮಾನ್ಯ ವಿನಂತಿ",
     "invalid_client_id": "ಅಮಾನ್ಯ ಕ್ಲೈಂಟ್ ಗುರುತಿಸುವಿಕೆ",

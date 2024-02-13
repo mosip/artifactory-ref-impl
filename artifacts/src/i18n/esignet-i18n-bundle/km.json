@@ -179,7 +179,6 @@
     "authentication_failed_msg": "ការផ្ទៀងផ្ទាត់បានបរាជ័យ",
     "send_otp_failed_msg": "បរាជ័យក្នុងការផ្ញើលេខសម្ងាត់",
     "parsing_error_msg": "មិនអាចញែកបានទេ",
-    "unauthorized_access": "ការចូលប្រើដោយគ្មានការអនុញ្ញាត",
     "Network Error": "ប្រព័ន្ធមានបញ្ហា",
     "invalid_request": "សំណើមិនត្រឹមត្រូវ",
     "invalid_client_id": "លេខសម្គាល់អតិថិជនមិនត្រឹមត្រូវ",
