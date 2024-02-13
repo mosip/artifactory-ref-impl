@@ -72,9 +72,9 @@
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
-		<auth-adapter-lite.version>1.2.0.1-B4-SNAPSHOT</auth-adapter-lite.version>
-		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
-		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
+		<auth-adapter-without-spring.version>1.2.1-es-SNAPSHOT</auth-adapter-without-spring.version>
+		<auth-adapter-without-spring.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-without-spring.location>
+		<auth-adapter-without-spring.fileName>kernel-auth-adapter-without-spring.jar</auth-adapter-without-spring.fileName>
 		
 		<!-- kernel-smsserviceprovider-->
 		<kernel-smsserviceprovider.version>1.2.0.1-SNAPSHOT</kernel-smsserviceprovider.version>
@@ -124,7 +124,7 @@
 		<authentication-wrapper.fileName>authentication-wrapper.jar</authentication-wrapper.fileName>
 		<!-- esignet mock authentication wrapper -->
 		<esignet-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-wrapper</esignet-wrapper.location>
-		<esignet-mock-wrapper.version>0.9.2-SNAPSHOT</esignet-mock-wrapper.version>
+		<esignet-mock-wrapper.version>0.9.1</esignet-mock-wrapper.version>
 		<esignet-mock-wrapper.fileName>esignet-mock-wrapper.jar</esignet-mock-wrapper.fileName>
 		<!-- esignet IDA wrapper -->
 		<esignet-ida-wrapper.version>1.2.0.1-SNAPSHOT</esignet-ida-wrapper.version>
@@ -162,10 +162,10 @@
 
 				<artifactItem>
 	       	 	                <groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-auth-adapter-lite</artifactId>
-					<version>${auth-adapter-lite.version}</version>
-					<outputDirectory>${auth-adapter-lite.location}</outputDirectory> 
-					<destFileName>${auth-adapter-lite.fileName}</destFileName>
+					<artifactId>kernel-auth-adapter</artifactId>
+					<version>${auth-adapter-without-spring.version}</version>
+					<outputDirectory>${auth-adapter-without-spring.location}</outputDirectory> 
+					<destFileName>${auth-adapter-without-spring.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
 					
