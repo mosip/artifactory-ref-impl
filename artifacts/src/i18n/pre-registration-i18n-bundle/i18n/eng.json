@@ -104,7 +104,6 @@
     },
     "Acknowledgement": {
       "name": "View Acknowledgement",
-      "tablename":"Acknowledgement",
       "list": {
         "line1": "After successful completion of the Pre-registration application, you will receive an acknowledgment.",
         "line2": "You can print, download, email or SMS your acknowledgment.",
@@ -122,7 +121,6 @@
     },
     "status": {
       "name": "Status Explanation",
-      "tablename": "Status types",
       "headers": {
         "status": "Status",
         "explanation": "Explanation"
@@ -454,7 +452,6 @@
   },
   "dashboard": {
     "title": "Your Applications",
-    "name" : "Application",
     "action_modify_information": "Modify Information",
     "action_modify_appointment": "Book/Modify Appointment",
     "action_cre_application": "Pre Registration ",
