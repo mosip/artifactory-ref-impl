@@ -185,7 +185,8 @@
 			"inputType": "text",
 			"ismandatory": "true",
 			"showInListView": "true",
-			"showInSingleView": "true"
+			"showInSingleView": "true",
+			"maxLength": 36
 		},
 		{
 			"name": "model",
@@ -204,7 +205,8 @@
 			"inputType": "text",
 			"ismandatory": "true",
 			"showInListView": "true",
-			"showInSingleView": "true"
+			"showInSingleView": "true",
+			"maxLength": 36
 		},
 		{
 			"name": "active",
