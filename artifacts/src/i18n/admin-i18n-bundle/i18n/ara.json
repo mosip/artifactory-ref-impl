@@ -32,6 +32,9 @@
             "subItem3": "الحصول على شهادة",
             "subItem4": "تحميل الشهادة",
             "subItem5": "تحميل شهادة مجال أخرى"
+        },
+        "item8": {
+            "title": "استرداد RID المفقود"
         }
     },
     "dashboard": {
@@ -753,7 +756,7 @@
         "InActive":"غير نشط"
     },
     "lostRID":{
-        "titleTxt":"استرداد Lost RID",
+        "titleTxt":"استرداد RID المفقود",
         "subtitleenrollment":"تفاصيل التسجيل",
         "subtitlelocation":"موقع",
         "searchbtn":"بحث",
