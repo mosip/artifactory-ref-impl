@@ -49,7 +49,9 @@
     "or": "ಅಥವಾ",
     "sign_in_with": "ಇ-ಸಿಗ್ನೆಟ್ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ",
     "dont_have_existing_account": "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಖಾತೆಯನ್ನು ಹೊಂದಿಲ್ಲವೇ?",
-    "sign_up_here": "ಇಲ್ಲಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+    "sign_up_here": "ಇಲ್ಲಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ",
+    "logged_out": "ಬಳಕೆದಾರರು ಲಾಗ್ ಔಟ್",
+    "session_expired": "ಸತ್ರದ ಕಾಲ ಮುಗಿದಿದೆ"
   },
   "signup": {
     "sign_up_with_health_portal": "ಆರೋಗ್ಯ ಪೋರ್ಟಲ್‌ಗೆ ಸೈನ್ ಅಪ್ ಮಾಡಿ",

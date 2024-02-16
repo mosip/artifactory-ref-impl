@@ -49,7 +49,9 @@
     "or": "ឬ",
     "sign_in_with": "ចូលដោយប្រើ e-Signet",
     "dont_have_existing_account": "មិនមានគណនីដែលមានស្រាប់មែនទេ?",
-    "sign_up_here": "ចុះឈ្មោះនៅទីនេះ"
+    "sign_up_here": "ចុះឈ្មោះនៅទីនេះ",
+    "logged_out": "ចាកចេញអ្នកប្រើប្រាស់",
+    "session_expired": "ការបញ្ចប់សម័យផុតកំណត់"
   },
   "signup": {
     "sign_up_with_health_portal": "ចុះឈ្មោះទៅកាន់វិបផតថលសុខភាព",
