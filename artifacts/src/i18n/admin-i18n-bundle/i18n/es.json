@@ -807,8 +807,9 @@
         "Zone":"Zona",
         "Logout":"Cerrar sesión"
     },
-    "paginationLabel":{
-        "showRows":"Mostrar filas"
+    "paginatorIntl": {
+        "itemsPerPageLabel": "Artículos por página: ",
+        "of":"de"
     },
     "keymanager": {
         "applicationIds": [{

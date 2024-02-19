@@ -904,9 +904,10 @@
 		"Zone": "ವಲಯ",
 		"Logout": "ಲಾಗ್ ಔಟ್"
 	},
-	"paginationLabel": {
-		"showRows": "ಸಾಲುಗಳನ್ನು ತೋರಿಸಿ"
-	},
+    "paginatorIntl": {
+        "itemsPerPageLabel": "ಪ್ರತಿ ಪುಟಕ್ಕೆ ಐಟಂಗಳು",
+        "of": "ನ"
+    },
 	"keymanager": {
 		"applicationIds": [{
 			"id": "PRE_REGISTRATION",

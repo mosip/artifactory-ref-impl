@@ -831,8 +831,9 @@
         "Zone":"منطقة",
         "Logout":"تسجيل خروج"
     },
-    "paginationLabel":{
-        "showRows":"عرض الصفوف"
+    "paginatorIntl": {
+        "itemsPerPageLabel": "مواد لكل صفحة",
+        "of": "ل"
     },
     "keymanager": {
         "applicationIds": [{

@@ -1041,9 +1041,10 @@
 		"Zone": "Zone",
 		"Logout": "Se déconnecter"
 	},
-	"paginationLabel": {
-		"showRows": "Afficher les lignes"
-	},
+    "paginatorIntl": {
+        "itemsPerPageLabel": "objets par page",
+        "of": "de"
+    },
 	"keymanager": {
 		"applicationIds": [
 			{

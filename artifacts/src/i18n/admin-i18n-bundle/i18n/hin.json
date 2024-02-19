@@ -897,9 +897,10 @@
 		"Zone": "क्षेत्र",
 		"Logout": "लॉग आउट"
 	},
-	"paginationLabel": {
-		"showRows": "पंक्तियां दिखाएं"
-	},
+    "paginatorIntl": {
+        "itemsPerPageLabel": "आइटम प्रति पेज",
+        "of": "का"
+    },
 	"keymanager": {
 		"applicationIds": [{
 			"id": "PRE_REGISTRATION",
