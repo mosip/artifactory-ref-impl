@@ -779,8 +779,9 @@
         "Zone":"Zone",
         "Logout":"Logout"
     },
-    "paginationLabel":{
-        "showRows":"Show rows"
+    "paginatorIntl": {
+        "itemsPerPageLabel": "Items per page: ",
+        "of":"of"
     },
     "keymanager": {
         "applicationIds": [{

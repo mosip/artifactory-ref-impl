@@ -905,8 +905,9 @@
         "Zone": "மண்டலம்",
         "Logout": "வெளியேறு"
     },
-    "paginationLabel": {
-        "showRows": "வரிசைகளைக் காட்டு"
+    "paginatorIntl": {
+        "itemsPerPageLabel": "ஒரு பக்கத்திற்கு உருப்படிகள்",
+        "of":"இன்"
     },
     "keymanager": {
         "applicationIds": [{
