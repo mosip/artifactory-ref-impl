@@ -1465,6 +1465,7 @@
         "ADM-AVD-009" : "Data share usuage expired",
         "ADM-AVD-509" : "RID not found",
         "ADM-AVD-510" : "Applicant search limit exceeded",
-        "ADM-AVD-511" : "Request id not found"
+        "ADM-AVD-511" : "Request id not found",
+        "KER-USR-025" : "Center mapping is missing, the User cannot be Activated."
     }
 }
