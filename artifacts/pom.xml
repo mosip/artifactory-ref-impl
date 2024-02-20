@@ -77,7 +77,7 @@
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 		
 		<!-- kernel-smsserviceprovider-->
-		<kernel-smsserviceprovider.version>1.2.0.1-SNAPSHOT</kernel-smsserviceprovider.version>
+		<kernel-smsserviceprovider.version>1.2.0.1-B2</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 		<!-- kernel-ref-idobjectvalidator -->
@@ -93,7 +93,7 @@
 		<clamav-client.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</clamav-client.location>
 		<clamav-client.fileName>clamav.jar</clamav-client.fileName>
 		<!-- biosdk-client-->
-		<biosdk-client.version>1.2.1-SNAPSHOT</biosdk-client.version>
+		<biosdk-client.version>1.2.0.1-B3</biosdk-client.version>
 		<biosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/mock/0.9/biosdk-client</biosdk-client.location>
 		<biosdk-client-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/biosdk-lib</biosdk-client-lib.location>
 		<biosdk-client.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client.fileName>
