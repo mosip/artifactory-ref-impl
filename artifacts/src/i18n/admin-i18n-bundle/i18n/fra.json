@@ -1150,7 +1150,7 @@
 		"KER-MSD-149": "Une erreur s'est produite lors de la récupération des détails du mappage de type de demandeur-catégorie de document-type de document",
 		"KER-MSD-150": "Catégorie de document - Mappage de type de document introuvable",
 		"KER-MSD-001": "Une erreur s'est produite lors de la récupération des applications",
-		"KER-MSD-101": "Une erreur s'est produite lors de l'insertion des détails de l'application",
+		"KER-MSD-101": "Demande de type Centre en double, le centre existe avec les mêmes détails.",
 		"KER-MSD-002": "Application non trouvée",
 		"KER-MSD-201": "Mauvaise demande trouvée",
 		"KER-MSD-193": "Une erreur s'est produite lors de la récupération de la configuration de l'application",

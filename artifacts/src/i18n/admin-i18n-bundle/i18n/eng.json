@@ -878,7 +878,7 @@
         "KER-MSD-149": "Error occurred while fetching Applicant Type-Document Category-Document Type Mapping details",
         "KER-MSD-150": "Document Category- Document Type mapping not found",
         "KER-MSD-001": "Error occurred while fetching Applications",
-        "KER-MSD-101": "Error occurred while inserting application details",
+        "KER-MSD-101": "Duplicate Center type request. the center exists with the same details.",
         "KER-MSD-002": "Application not found",
         "KER-MSD-201": "Bad Request Found",
         "KER-MSD-193": "Error occurred while fetching Application config",
