@@ -239,7 +239,21 @@
         "unmapped-documents": "Unmapped Documents",
         "masterDataTypes": "Masterdata Types",
         "dynamicField": "Dynamic Field",
-        "createDynamicField": "Create New Dynamic Field"
+        "createDynamicField": "Create New Dynamic Field",
+        "centerType":{
+            "create":{
+                "title": "Confirmation",
+                "message": "You are about to create a Center Type. \n Please ensure that all the information is correct. Center ID will be generated once you Confirm.",
+                "yesBtnText": "Confirm",
+                "noBtnText": "Cancel"
+            },
+            "update":{
+                "title": "Confirmation",
+                "message": "You are about to update a Center Type. \n Please ensure that all the information is correct. Center details will be update once you Confirm.",
+                "yesBtnText": "Confirm",
+                "noBtnText": "Cancel"
+            }
+        }
     },
     "masterdataupload": {
         "title": "Master Data Upload"
@@ -765,8 +779,9 @@
         "Zone":"Zone",
         "Logout":"Logout"
     },
-    "paginationLabel":{
-        "showRows":"Show rows"
+    "paginatorIntl": {
+        "itemsPerPageLabel": "Items per page: ",
+        "of":"of"
     },
     "keymanager": {
         "applicationIds": [{
@@ -1450,6 +1465,7 @@
         "ADM-AVD-009" : "Data share usuage expired",
         "ADM-AVD-509" : "RID not found",
         "ADM-AVD-510" : "Applicant search limit exceeded",
-        "ADM-AVD-511" : "Request id not found"
+        "ADM-AVD-511" : "Request id not found",
+        "KER-USR-025" : "Center mapping is missing, the User cannot be Activated."
     }
 }

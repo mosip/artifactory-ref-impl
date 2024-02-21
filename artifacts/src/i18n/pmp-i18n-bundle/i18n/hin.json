@@ -348,6 +348,18 @@
         " ? \n आप चाहें तो इसे बाद में एक्टिवेट कर सकते हैं। तब तक इसे निष्क्रिय के रूप में सेट किया जाएगा"
       ],
       "confirmation-title": "पुष्टीकरण"
+    },
+    "Approve": {
+      "yesBtnTxt": "हाँ",
+      "noBtnTxt": "नहीं",
+      "confirmation-message": ["क्या आप अनुमोदन करना चाहते हैं ", "बनाना ", "संस्करण "],
+      "confirmation-title": "पुष्टीकरण"
+    },
+    "Reject": {
+      "yesBtnTxt": "हाँ",
+      "noBtnTxt": "नहीं",
+      "confirmation-message": ["क्या आप इसे अस्वीकार करना चाहते हैं ", "बनाना ", "संस्करण "],
+      "confirmation-title": "पुष्टीकरण"
     }
   },
   "policy": {
@@ -589,5 +601,19 @@
     "PMS_POL_056": "नीति समूह के अंतर्गत सक्रिय नीतियां मौजूद हैं।",
     "PMS_POL_057": "नीति के तहत सक्रिय apiKey मौजूद है।",
     "PMS_POL_058": "प्रकाशित नीति के लिए स्थिति नहीं बदली जा सकती.;"
+  },
+  "generickeys":{
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "detailView": "विस्तृत दृश्य",
+    "ok": "ठीक है",
+    "updatedSuccessfully": "सफलतापूर्वक अपडेट किया गया",
+    "createdSuccessfully": "सफलतापूर्वक बनाया गया",
+    "success": "सफलता",
+    "error": "त्रुटि"
+  },
+  "paginatorIntl": {
+    "itemsPerPageLabel": "आइटम प्रति पेज",
+    "of": "का"
   }
 }

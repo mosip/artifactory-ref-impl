@@ -89,7 +89,8 @@
     "dob": "Enter DOB",
     "policyNumber_placeholder": "Policy Number",
     "fullName_placeholder": "Full Name",
-    "dob_placeholder": "DOB"
+    "dob_placeholder": "DOB",
+    "auth_failed": "Login failed, please enter correct credentials"
   },
   "LoginQRCode": {
     "scan_with_wallet": "Scan with {{walletName}} to login",

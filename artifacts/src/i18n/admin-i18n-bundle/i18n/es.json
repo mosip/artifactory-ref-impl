@@ -807,8 +807,9 @@
         "Zone":"Zona",
         "Logout":"Cerrar sesión"
     },
-    "paginationLabel":{
-        "showRows":"Mostrar filas"
+    "paginatorIntl": {
+        "itemsPerPageLabel": "Artículos por página: ",
+        "of":"de"
     },
     "keymanager": {
         "applicationIds": [{
@@ -1452,6 +1453,7 @@
         "ADM-AVD-006": "Por favor, confirma los detalles antes de descargar la tarjeta digital",
         "ADM-AVD-007": "ID de solicitud no encontrado",
         "ADM-AVD-008": "Has alcanzado el límite diario de búsquedas. Por favor, intenta buscar nuevamente mañana.",
-        "ADM-AVD-009": "El uso compartido de datos ha expirado"
+        "ADM-AVD-009": "El uso compartido de datos ha expirado",
+        "KER-USR-025": "Falta el mapeo central, el usuario no se puede activar."
     }
 }

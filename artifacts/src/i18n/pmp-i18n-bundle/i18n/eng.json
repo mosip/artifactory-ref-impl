@@ -345,6 +345,18 @@
         " ? \n You can Activate it later if you wish. Till then it will be set as Inactive"
       ],
       "confirmation-title": "Confirmation"
+    },
+    "Approve": {
+      "yesBtnTxt": "Yes",
+      "noBtnTxt": "No",
+      "confirmation-message": ["Do you want to Approve the ", "Make ", "Version "],
+      "confirmation-title": "Confirmation"
+    },
+    "Reject": {
+      "yesBtnTxt": "Yes",
+      "noBtnTxt": "No",
+      "confirmation-message": ["Do you want to Reject the ", "Make ", "Version "],
+      "confirmation-title": "Confirmation"
     }
   },
   "policy": {
@@ -594,5 +606,19 @@
     "PMS_POL_056": "Active policies exists under the policy group.",
     "PMS_POL_057": "Active apiKey exists under the policy.",
     "PMS_POL_058": "Status cannot be changed for published policy.;"
+  },
+  "generickeys":{
+    "save":"Save",
+    "cancel":"Cancel",
+    "detailView":"Detail View",
+    "ok":"Ok",
+    "updatedSuccessfully":"Updated Successfully",
+    "createdSuccessfully":"Created Successfully",
+    "success":"Success",
+    "error":"Error"
+  },
+  "paginatorIntl": {
+      "itemsPerPageLabel": "Items per page: ",
+      "of":"of"
   }
 }

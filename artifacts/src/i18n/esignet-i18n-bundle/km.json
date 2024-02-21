@@ -81,6 +81,16 @@
     "forgot_password": "ភ្លេច​លេខសំងាត់​?",
     "reset_password": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ"
   },
+  "Form": {
+    "sign_in_with_details": "ចូលទៅកាន់គណនីរបស់អ្នកជាមួយព័ត៌មាន",
+    "login": "ចូលគណនី",
+    "policyNumber": "បញ្ចូលលេខកូដបញ្ជា",
+    "fullName": "បញ្ចូលឈ្មោះពេញ",
+    "dob": "បញ្ចូលថ្ងៃខែឆ្នាំកំណើត",
+    "policyNumber_placeholder": "លេខកូដបញ្ជា",
+    "fullName_placeholder": "ឈ្មោះពេញ",
+    "dob_placeholder": "ថ្ងៃខែឆ្នាំកំណើត"
+  },
   "LoginQRCode": {
     "scan_with_wallet": "ស្កេនដោយប្រើកម្មវិធី {{walletName}}ដើម្បីចូលប្រើប្រាស់",
     "dont_have_wallet": "មិនមាន {{walletName}}?",
@@ -125,7 +135,7 @@
     "register": "ចុះឈ្មោះ"
   },
   "esignetDetails": {
-    "esignnet_details_heading": "APIs ល្បី",
+    "esignet_details_heading": "APIs ល្បី",
     "internal_api": "API ខាងក្នុង",
     "wellknown_api": ".API ល្បី"
   },

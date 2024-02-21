@@ -348,6 +348,22 @@
         " ? \n يمكنك تنشيطه لاحقًا إذا كنت ترغب في ذلك. حتى ذلك الحين سيتم تعيينه على أنه غير نشط"
       ],
       "confirmation-title": "تأكيد"
+    },
+    "Approve": {
+      "yesBtnTxt": "نعم",
+      "noBtnTxt": "رقم",
+      "confirmation-message": [
+        "هل تريد الموافقة على", "يصنع ", "إصدار "
+      ],
+      "confirmation-title": "تأكيد"
+    },
+    "Reject": {
+      "yesBtnTxt": "نعم",
+      "noBtnTxt": "رقم",
+      "confirmation-message": [
+        "هل تريد رفض", "يصنع ", "إصدار "
+      ],
+      "confirmation-title": "تأكيد"
     }
   },
   "policy": {
@@ -589,5 +605,19 @@
     "PMS_POL_056": "السياسات النشطة موجودة ضمن مجموعة السياسة.",
     "PMS_POL_057": "نشط apiKey موجود بموجب السياسة.",
     "PMS_POL_058": "لا يمكن تغيير الحالة للنهج المنشور .؛"
+  },
+  "generickeys":{
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "detailView": "عرض التفاصيل",
+    "ok": "موافق",
+    "updatedSuccessfully": "تم التحديث بنجاح",
+    "createdSuccessfully": "تم الإنشاء بنجاح",
+    "success": "نجاح",
+    "error": "خطأ"
+  },
+  "paginatorIntl": {
+    "itemsPerPageLabel": "مواد لكل صفحة",
+    "of": "ل"
   }
 }

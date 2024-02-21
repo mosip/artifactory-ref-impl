@@ -32,7 +32,10 @@
 			"subItem3": "Obtenir un certificat",
 			"subItem4": "Télécharger le certificat",
 			"subItem5": "Télécharger un autre certificat de domaine"
-		}
+		},
+        "item8": {
+            "title": "Récupérer le RID perdu"
+        }
 	},
 	"dashboard": {
 		"welcomeMessage": "Bienvenue sur le portail d'administration Mosip!"
@@ -464,7 +467,21 @@
 		"unmapped-documents": "Documents non mappés",
 		"masterDataTypes": "Types de données maîtres",
 		"dynamicField": "Champ dynamique",
-		"createDynamicField": "Créer un nouveau champ dynamique"
+		"createDynamicField": "Créer un nouveau champ dynamique",
+		"centerType":{
+            "create":{
+                "title": "Confirmation",
+                "message": "Vous êtes sur le point de créer un type de centre. \n Veuillez vous assurer que toutes les informations sont correctes. L'ID du centre sera généré une fois que vous aurez confirmé.",
+                "yesBtnText": "Confirmer",
+                "noBtnText": "Annuler"
+            },
+            "update":{
+                "title": "Confirmation",
+                "message": "Vous êtes sur le point de mettre à jour un type de centre. \n Veuillez vous assurer que toutes les informations sont correctes. Les détails du centre seront mis à jour une fois que vous aurez confirmé.",
+                "yesBtnText": "Confirmer",
+                "noBtnText": "Annuler"
+            }
+        }
 	},
 	"masterdataupload": {
 		"title": "Téléchargement des données de base"
@@ -1024,9 +1041,10 @@
 		"Zone": "Zone",
 		"Logout": "Se déconnecter"
 	},
-	"paginationLabel": {
-		"showRows": "Afficher les lignes"
-	},
+    "paginatorIntl": {
+        "itemsPerPageLabel": "objets par page",
+        "of": "de"
+    },
 	"keymanager": {
 		"applicationIds": [
 			{
@@ -1718,6 +1736,7 @@
         "ADM-AVD-009" : "L'utilisation du partage de données a expiré",
 		"ADM-AVD-509" : "RID introuvable",
 		"ADM-AVD-510" : "Limite de recherche de candidats dépassée",
-		"ADM-AVD-511" : "ID de demande introuvable"
+		"ADM-AVD-511" : "ID de demande introuvable",
+		"KER-USR-025" : "Le mappage central est manquant, l'utilisateur ne peut pas être activé."
 	}
 }
