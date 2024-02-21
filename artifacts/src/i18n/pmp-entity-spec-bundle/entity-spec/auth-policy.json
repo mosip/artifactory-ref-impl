@@ -141,8 +141,7 @@
 			"inputType": "dropdown",
 			"ismandatory": "true",
 			"showInListView": "true",
-			"showInSingleView": "true",
-			"maxLength": 5120
+			"showInSingleView": "true"
 		},
 		{
 			"name": "version",
@@ -199,7 +198,8 @@
 			"inputType": "textarea",
 			"ismandatory": "true",
 			"showInListView": "false",
-			"showInSingleView": "true"
+			"showInSingleView": "true",
+			"maxLength": 5120
 		},
 		{
 			"name": "isActive",
