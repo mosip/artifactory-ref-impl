@@ -474,7 +474,8 @@
   },
   "genericerror": {
     "fieldValidation": "هذه الخانة مطلوبه",
-    "fieldNameValidation": " مطلوب"
+    "fieldNameValidation": " مطلوب",
+    "invalidJson": "تنسيق JSON غير صالح لبيانات السياسات"
   },
   "serverError": {
     "PMS_COR_001": "معلمة الإدخال مفقود",
