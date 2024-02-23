@@ -1,23 +1,29 @@
 {
-  "auditEventIds": ["ADM-032", "ADM-054"],
-  "actionButtons": [{
-    "buttonName": {
-      "eng": "Activate",
-      "ara": "تنشيط",
-      "fra": "déclencher",
-      "tam": "செயல்படுத்த",
-      "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  "auditEventIds": [
+    "ADM-032",
+    "ADM-054"
+  ],
+  "actionButtons": [
+    {
+      "buttonName": {
+        "eng": "Activate",
+        "kin": "Tangiza",
+        "ara": "تنشيط",
+        "fra": "déclencher",
+        "tam": "செயல்படுத்த",
+        "hin": "सक्रिय",
+        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "activateCenter"
     },
-    "actionURL": "",
-    "redirectURL": "",
-    "showIn": "Ellipsis",
-    "validations": "",
-    "callBackFunction": "activateCenter"
-  },
     {
       "buttonName": {
         "eng": "Deactivate",
+        "kin": "Hagarika",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "tam": "செயலிழக்க",
@@ -33,6 +39,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "kin": "Hindura",
         "ara": "تصحيح",
         "fra": "modifier",
         "tam": "தொகு",
@@ -48,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Create",
+        "kin": "Ongeraho Ikigo",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "tam": "உருவாக்கு",
@@ -65,6 +73,7 @@
       "buttonName": {
         "eng": "Filter",
         "fra": "filtre",
+        "kin": "Hitamo",
         "ara": "تصفيه",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
@@ -82,6 +91,7 @@
     {
       "buttonName": {
         "eng": "Document Type not available in English",
+        "kin": "Ubwo bw'inyandiko ntibubonetse mu Kinyarwanda",
         "ara": "نوع الوثيقة غير متوفر باللغة العربية",
         "fra": "Type de document non disponible en français",
         "tam": "ஆவண வகை தமிழில் இல்லை",
@@ -94,27 +104,33 @@
         "case": "missingData",
         "title": {
           "eng": "Document Type not available in English",
+          "kin": "Ubwo bw'inyandiko ntibubonetse mu Kinyarwanda",
           "ara": "نوع الوثيقة غير متوفر باللغة العربية",
           "fra": "Type de centre non disponible en français",
           "tam": "ஆவண வகை தமிழில் இல்லை",
           "hin": "दस्तावेज़ प्रकार हिंदी में उपलब्ध नहीं है",
           "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರವು ಕನ್ನಡದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ"
         },
-        "columnNames": [{
-          "eng": "Code",
-          "ara": "الشفرة",
-          "fra": "Code",
-          "tam": "குறியீடு",
-          "hin": "कोड",
-          "kan": "ಕೋಡ್"
-        }, {
-          "eng": "Name",
-          "ara": "اسم",
-          "fra": "prénom",
-          "tam": "பெயர்",
-          "hin": "नाम",
-          "kan": "ಹೆಸರು"
-        }],
+        "columnNames": [
+          {
+            "eng": "Code",
+            "kin": "Kode",
+            "ara": "الشفرة",
+            "fra": "Code",
+            "tam": "குறியீடு",
+            "hin": "कोड",
+            "kan": "ಕೋಡ್"
+          },
+          {
+            "eng": "Name",
+            "kin": "Izina",
+            "ara": "اسم",
+            "fra": "prénom",
+            "tam": "பெயர்",
+            "hin": "नाम",
+            "kan": "ಹೆಸರು"
+          }
+        ],
         "fieldName": "name"
       },
       "redirectURL": "",
@@ -122,31 +138,34 @@
       "validations": ""
     }
   ],
-  "columnsToDisplay": [{
-    "name": "code",
-    "showInListView": "true",
-    "showInSingleView": "true",
-    "label": {
-      "eng": "Code",
-      "ara": "الشفرة",
-      "fra": "Code",
-      "tam": "குறியீடு",
-      "hin": "कोड",
-      "kan": "ಕೋಡ್"
+  "columnsToDisplay": [
+    {
+      "name": "code",
+      "showInListView": "true",
+      "showInSingleView": "true",
+      "label": {
+        "eng": "Code",
+        "kin": "Kode",
+        "ara": "الشفرة",
+        "fra": "Code",
+        "tam": "குறியீடு",
+        "hin": "कोड",
+        "kan": "ಕೋಡ್"
+      },
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true"
     },
-    "sortOrder": "3",
-    "showAsLink": "",
-    "linkType": "",
-    "LinkURL": "",
-    "inputType": "text",
-    "ismandatory": "true"
-  },
     {
       "name": "name",
       "showInListView": "true",
       "showInSingleView": "true",
       "label": {
         "eng": "Name",
+        "kin": "Izina",
         "ara": "اسم",
         "fra": "prénom",
         "tam": "பெயர்",
@@ -166,6 +185,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Description",
+        "kin": "Igisobanuro",
         "ara": "وصف",
         "fra": "description",
         "tam": "விளக்கம்",
@@ -185,6 +205,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created By",
+        "kin": "Byakozwe na",
         "ara": "تم إنشاؤه من قبل",
         "fra": "Créé par",
         "tam": "உருவாக்கப்பட்டது",
@@ -202,6 +223,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated By",
+        "kin": "Byahinduwe na",
         "ara": "تم التحديث بواسطة",
         "fra": "Mise à jour par",
         "tam": "புதுப்பிக்கப்பட்டது",
@@ -219,6 +241,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated Time",
+        "kin": "Igihe Byahinduriwe",
         "ara": "وقت التحديث",
         "fra": "Temps mis à jour",
         "tam": "புதுப்பிக்கப்பட்ட நேரம்",
@@ -235,6 +258,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Created Time",
+        "kin": "Igihe Byakorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "tam": "Created Time",
@@ -254,6 +278,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Status",
+        "kin": "Imiterere",
         "ara": "نشط",
         "fra": "c'est actif",
         "tam": "நிலை",
@@ -269,49 +294,58 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
-    "filtername": "code",
-    "filterlabel": {
-      "eng": "Code",
-      "ara": "الشفرة",
-      "fra": "Code",
-      "tam": "குறியீடு",
-      "hin": "कोड",
-      "kan": "ಕೋಡ್"
-    },
-    "filterType": "equals",
-    "autocomplete": "false",
-    "dropdown": "true",
-    "datePicker": "false",
-    "apiName": "documenttypes",
-    "fieldName": "code",
-    "methodCallName": ""
+      "filtername": "code",
+      "filterlabel": {
+        "eng": "Code",
+        "kin": "Kode",
+        "ara": "الشفرة",
+        "fra": "Code",
+        "tam": "குறியீடு",
+        "hin": "कोड",
+        "kan": "ಕೋಡ್"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "true",
+      "datePicker": "false",
+      "apiName": "documenttypes",
+      "fieldName": "code",
+      "methodCallName": ""
     },
     {
-    "filtername": "name",
-    "filterlabel": {
-      "eng": "Name",
-      "ara": "اسم",
-      "fra": "prénom",
-      "tam": "பெயர்",
-      "hin": "नाम",
-      "kan": "ಹೆಸರು"
-    },
-    "filterType": "equals",
-    "autocomplete": "false",
-    "dropdown": "false",
-    "datePicker": "false",
-    "apiName": "documenttypes",
-    "fieldName": "name",
-    "methodCallName": ""
+      "filtername": "name",
+      "filterlabel": {
+        "eng": "Name",
+        "kin": "Izina",
+        "ara": "اسم",
+        "fra": "prénom",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "documenttypes",
+      "fieldName": "name",
+      "methodCallName": ""
     },
     {
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
+        "kin": "Imiterere",
         "ara": "نشط",
         "fra": "Statut",
         "tam": "நிலை",

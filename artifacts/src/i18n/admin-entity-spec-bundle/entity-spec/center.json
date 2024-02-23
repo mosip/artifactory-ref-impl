@@ -1,23 +1,29 @@
 {
-  "auditEventIds": ["ADM-027", "ADM-049"],
-  "actionButtons": [{
-    "buttonName": {
-      "eng": "Activate",
-      "ara": "تنشيط",
-      "fra": "déclencher",
-      "tam": "செயல்படுத்த",
-      "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  "auditEventIds": [
+    "ADM-027",
+    "ADM-049"
+  ],
+  "actionButtons": [
+    {
+      "buttonName": {
+        "eng": "Activate",
+        "kin": "Tangiza",
+        "ara": "تنشيط",
+        "fra": "déclencher",
+        "tam": "செயல்படுத்த",
+        "hin": "सक्रिय",
+        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "activateCenter"
     },
-    "actionURL": "",
-    "redirectURL": "",
-    "showIn": "Ellipsis",
-    "validations": "",
-    "callBackFunction": "activateCenter"
-  },
     {
       "buttonName": {
         "eng": "Deactivate",
+        "kin": "Hagarika",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "tam": "செயலிழக்க",
@@ -33,12 +39,12 @@
     {
       "buttonName": {
         "eng": "Decommission",
+        "kin": "Kuraho Serivisi",
         "ara": "وقف التشغيل",
         "fra": "mettre hors service",
         "tam": "நீக்கம்",
         "hin": "डीकमिशन",
         "kan": "ಡಿಕೊಮಿಷನ್"
-
       },
       "actionURL": "",
       "redirectURL": "",
@@ -49,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "kin": "Hindura",
         "ara": "تصحيح",
         "fra": "modifier",
         "tam": "தொகு",
@@ -64,6 +71,7 @@
     {
       "buttonName": {
         "eng": "Create Center",
+        "kin": "Kora Ikigo",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "tam": "மையத்தை உருவாக்கவும்",
@@ -80,6 +88,7 @@
     {
       "buttonName": {
         "eng": "Filter",
+        "kin": "Hitamo",
         "ara": "تصفيه",
         "fra": "filtre",
         "tam": "வடிகட்டி",
@@ -98,6 +107,7 @@
     {
       "buttonName": {
         "eng": "Centers not available in English",
+        "kin": "Ibigo ntibibonetse mu Kinyarwanda",
         "ara": "المراكز غير متوفرة باللغة الإنجليزية",
         "fra": "Centres non disponibles en anglais",
         "tam": "மையங்கள் ஆங்கிலத்தில் கிடைக்கவில்லை",
@@ -110,27 +120,33 @@
         "case": "missingData",
         "title": {
           "eng": "Centers not available in English",
+          "kin": "",
           "ara": "المراكز غير متوفرة باللغة الإنجليزية",
           "fra": "Centres non disponibles en anglais",
           "tam": "மையங்கள் ஆங்கிலத்தில் கிடைக்கவில்லை",
           "hin": "केंद्र अंग्रेजी में उपलब्ध नहीं हैं",
           "kan": "ಕೇಂದ್ರಗಳು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ"
         },
-        "columnNames": [{
-          "eng": "Center Id",
-          "ara": "معرف المركز",
-          "fra": "Identifiant du centre",
-          "tam": "மைய ஐடி",
-          "hin": "केंद्र आईडी",
-          "kan": "ಸೆಂಟರ್ ಐಡಿ"
-        }, {
-          "eng": "Center Name",
-          "ara": "اسم المركز",
-          "fra": "Nom du centre",
-          "tam": "மையத்தின் பெயர்",
-          "hin": "केंद्र का नाम",
-          "kan": "ಕೇಂದ್ರದ ಹೆಸರು"
-        }],
+        "columnNames": [
+          {
+            "eng": "Center Id",
+            "kin": "Numero y'ikigo",
+            "ara": "معرف المركز",
+            "fra": "Identifiant du centre",
+            "tam": "மைய ஐடி",
+            "hin": "केंद्र आईडी",
+            "kan": "ಸೆಂಟರ್ ಐಡಿ"
+          },
+          {
+            "eng": "Center Name",
+            "kin": "Izina ry'ikigo",
+            "ara": "اسم المركز",
+            "fra": "Nom du centre",
+            "tam": "மையத்தின் பெயர்",
+            "hin": "केंद्र का नाम",
+            "kan": "ಕೇಂದ್ರದ ಹೆಸರು"
+          }
+        ],
         "fieldName": "name"
       },
       "redirectURL": "",
@@ -138,27 +154,30 @@
       "validations": ""
     }
   ],
-  "columnsToDisplay": [{
-    "name": "name",
-    "showInListView": "true",
-    "label": {
-      "eng": "Center",
-      "ara": "مركز ",
-      "fra": "Centre",
-      "tam": "மையம்",
-      "hin": "केंद्र",
-      "kan": "ಕೇಂದ್ರ"
+  "columnsToDisplay": [
+    {
+      "name": "name",
+      "showInListView": "true",
+      "label": {
+        "eng": "Center",
+        "kin": "Ikigo",
+        "ara": "مركز ",
+        "fra": "Centre",
+        "tam": "மையம்",
+        "hin": "केंद्र",
+        "kan": "ಕೇಂದ್ರ"
+      },
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
     },
-    "sortOrder": "3",
-    "showAsLink": "",
-    "linkType": "",
-    "LinkURL": ""
-  },
     {
       "name": "centerTypeName",
       "showInListView": "true",
       "label": {
         "eng": "Center Type",
+        "kin": "Ubwoko bw'ikigo",
         "ara": "نوع المركز",
         "fra": "Type de centre",
         "tam": "மைய வகை",
@@ -170,12 +189,12 @@
       "linkType": "",
       "LinkURL": ""
     },
-
     {
       "name": "users",
       "showInListView": "",
       "label": {
         "eng": "Users",
+        "kin": "Abakoresha",
         "ara": "المستخدمين",
         "fra": "Utilisateur",
         "tam": "பயனர்கள்",
@@ -192,6 +211,7 @@
       "showInListView": "",
       "label": {
         "eng": "Devices",
+        "kin": "Ibikoresho",
         "ara": "الأجهزة",
         "fra": "Dispositifs",
         "tam": "சாதனங்கள்",
@@ -208,6 +228,7 @@
       "showInListView": "",
       "label": {
         "eng": "Machines",
+        "kin": "Imashini",
         "ara": "آلات",
         "fra": "Machines",
         "tam": "இயந்திரங்கள்",
@@ -224,6 +245,7 @@
       "showInListView": "",
       "label": {
         "eng": "Contact Phone",
+        "kin": "Numero ya telefoni",
         "ara": "هاتف مُتَكَون",
         "fra": "Téléphone Contact",
         "tam": "தொலைபேசியைத் தொடர்பு கொள்ளுங்கள்",
@@ -240,6 +262,7 @@
       "showInListView": "",
       "label": {
         "eng": "Contact Person",
+        "kin": "Umuntu wabazwa amakuru",
         "ara": "الشخص المسؤول",
         "fra": "Personne-ressource",
         "tam": "நபரைத் தொடர்பு கொள்ளுங்கள்",
@@ -256,6 +279,7 @@
       "showInListView": "",
       "label": {
         "eng": "Created Time",
+        "kin": "Igihe byakorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "tam": "Created Time",
@@ -272,6 +296,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Status",
+        "kin": "Imiterere",
         "ara": "الحالة",
         "fra": "Statut",
         "tam": "நிலை",
@@ -287,32 +312,40 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
-    "filtername": "name",
-    "filterlabel": {
-      "eng": "Center",
-      "ara": "مركز",
-      "fra": "Centre",
-      "tam": "மையம்",
-      "hin": "केंद्र",
-      "kan": "ಕೇಂದ್ರ"
-    },
-    "filterType": "equals",
-    "fieldType": "input",
-    "autocomplete": "false",
-    "dropdown": "true",
-    "datePicker": "false",
-    "apiName": "registrationcenters",
-    "fieldName": "name",
-    "methodCallName": ""
+      "filtername": "name",
+      "filterlabel": {
+        "eng": "Center",
+        "kin": "Ikigo",
+        "ara": "مركز",
+        "fra": "Centre",
+        "tam": "மையம்",
+        "hin": "केंद्र",
+        "kan": "ಕೇಂದ್ರ"
+      },
+      "filterType": "equals",
+      "fieldType": "input",
+      "autocomplete": "false",
+      "dropdown": "true",
+      "datePicker": "false",
+      "apiName": "registrationcenters",
+      "fieldName": "name",
+      "methodCallName": ""
     },
     {
       "filtername": "centerTypeName",
       "filterlabel": {
         "eng": "Center Type",
+        "kin": "Ubwoko bw'ikigo",
         "ara": "نوع المركز",
         "fra": "Type de centre",
         "tam": "மைய வகை",
@@ -332,6 +365,7 @@
       "filtername": "locationCode",
       "filterlabel": {
         "eng": "Location Code",
+        "kin": "Kode y'ahantu",
         "ara": "كود الموقع",
         "fra": "Le code d'emplacement",
         "tam": "இருப்பிடக் குறியீடு",
@@ -351,6 +385,7 @@
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
+        "kin": "Imiterere",
         "ara": "الحالة",
         "fra": "Statut",
         "tam": "நிலை",

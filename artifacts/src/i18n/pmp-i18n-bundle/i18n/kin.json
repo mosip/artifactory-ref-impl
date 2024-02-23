@@ -1,0 +1,614 @@
+{
+  "menuItems": {
+    "item1": {
+      "title": "AHABANZA"
+    },
+    "item2": {
+      "title": "Policy",
+      "subItem1": "Itsinda rya Policy",
+      "subItem2": "Auth Policy",
+      "subItem3": "Policy yo gusangira amakuru"
+    },
+    "item3": {
+      "title": "Umufatanyabikorwa"
+    },
+    "item4": {
+      "title": "Ibisobanuro by'igikoresho"
+    },
+    "item5": {
+      "title": "Ubusobanura burambuye bwa FTM"
+    },
+    "item6": {
+      "title":  "Incamake za SBI"
+    },
+    "item7": {
+      "title": "Guhuza umufatanyabikorwa na Policy"
+    },
+    "item8": {
+      "title": "Ohereza icyemezo cya CA"
+    }
+  },
+  "dashboard": {
+    "welcomeMessage": "Murakaza neza ku rubuga rw'abafatanyabikorwa ba Mosip !",
+    "Logout": "Gusohoka"
+  },
+  "singleView": {
+    "errorMessages": [
+      "Nta nyandiko yabonetse",
+      "Ikosa rya tekiniki ryabaye"
+    ],
+    "buttonText": "OK",
+    "title": "Ikosa"
+  },
+  "masterData": {
+    "master-data": "Amakuru yibanze",
+    "total-no": "Byose hamwe",
+    "common": "Rusange",
+    "device-definition": "Ubusobanura bw'igikoresho",
+    "machine-definition": "Ubusobanuro bw'imashini",
+    "document-definition": "Ubusobanuro bw'inyandiko",
+    "doc-category-mapping": "Ubwoko bwa dosiye - ubwoko guhuzwa",
+    "category": "Icyiciro",
+    "mapped-documents": "Dosiye zahujwe",
+    "unmapped-documents": "Dosiye zitahujwe"
+  },
+  "pmanager": {
+    "status": "Imiterere",
+    "language": "Icyongereza",
+    "edit": "Hindura",
+    "create": "Kora",
+    "cancel": "Kureka",
+    "keyboard-tooltip": "Kanda hano ubone Mwandikisho ya Virtual (Icyongereza)",
+    "update": "Hindura",
+    "created-on": "Byakozwe kuri",
+    "created-by": "Byakozwa Na",
+    "updated-on": "Byahinduwe kuri",
+    "updated-by": "Byahinduwe Na",
+    "header": "Hindura Policy",
+    "name": "Izina rya Policy",
+    "popupMessages": {
+      "create": {
+        "title": "Kwemeza",
+        "message": [
+          "Ugiye gukora ikigo cyo kwiyandikisha muri ",
+          ". Nyamuneka reba neza ko amakuru yose ariyo. ID y'ikigo irakorwa umaze Kwemeza"
+        ],
+        "yesBtnText": "Yego",
+        "noBtnText": "Oya",
+        "mandatorySecondaryFields": "Ntabwo wujuje amakuru ateganijwe mururimi rwisumbuye. Ikigo cyo kwiyandikisha kirakorwa mururimi rwibanze gusa. Uracyashaka gukomeza?"
+      },
+      "edit": {
+        "title": "Kwemeza",
+        "message": "Ugiye kuvugurura ikigo cyo kwiyandikisha. Nyamuneka reba neza ko amakuru yose ariyo",
+        "yesBtnText": "Emeza",
+        "noBtnText": "Kureka",
+        "mandatorySecondaryFields": "Ntabwo wujuje amakuru ateganijwe mururimi rwisumbuye. Ikigo cyo kwiyandikisha kirakorwa mururimi rwibanze gusa. Uracyashaka gukomeza?"
+      },
+      "update-success": {
+        "title": "Byakozwe neza",
+        "message": "Umufatanyabikorwa yahinduwe neza",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Ikosa",
+        "message": "Habayeho ikibazo cyo guhindura Umufatanyabikorwa. Nyamuneka ongera ugerageze",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Byakozwe neza",
+        "message": [
+          "Umufatanyabikorwa yakozwe neza afite ID ya: ",
+          " N'izina rye ni: "
+        ],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Ikosa",
+        "message": "Habaye ikibazo cyo gukora Umufatanyabikorwa. Nyamuneka ongera ugerageze",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Kwemeza",
+        "message": "Uzi neza ko ushaka kujya ahandi? Amakuru yose atabitswe arabura",
+        "yesBtnTxt": "Genda",
+        "noBtnTxt": "Guma hano"
+      },
+      "noData": {
+        "title": "Ikosa",
+        "message": "Nta makuru yabonetse",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "partner": {
+    "address1": "Aderesi",
+    "header": "Serivisi y'amufatanyabikorwa",
+    "name": "Ikigo",
+    "id": "Id",
+    "status": "Aho bigeze",
+    "language": "Icyongereza",
+    "edit": "Hindura",
+    "create": "Kora",
+    "cancel": "Kureka",
+    "keyboard-tooltip": "Kanda hano ubone Mwandikisho ya Virtual (Icyongereza)",
+    "update": "Hindura",
+    "partner-details": "Partner Details",
+    "created-on": "Byakozwe kuri",
+    "created-by": "Byakozwa Na",
+    "updated-on": "Byahinduwe kuri",
+    "updated-by": "Byahinduwe Na",
+    "registration-partner-name": "Izina ryikigo",
+    "registration-partner-type": "Izina rya Policy",
+    "contact-person": "Imeli",
+    "contact-number": "Numero yo guhamagara",
+    "location-details": "Aderesi irambuye",
+    "validationMessages": {
+      "partnerTypeCode": {
+        "required": "Izina rya Policy  rirakenewe"
+      },
+      "name": {
+        "required": "Izina ryikigo rirakenewe",
+        "max-length": "Birenze uburebure (128)"
+      },
+      "addressLine1": {
+        "required": "Aderesi irakenewe",
+        "max-length": "Birenze uburebure (256)"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Kwemeza",
+        "message": [
+          "Ugiye gukora ikigo cyo kwiyandikisha muri ",
+          ". Nyamuneka reba neza ko amakuru yose ariyo. ID yikigo irakorwa umaze Kwemeza"
+        ],
+        "yesBtnText": "Yego",
+        "noBtnText": "Oya",
+        "mandatorySecondaryFields": "Ntabwo wujuje amakuru ateganijwe mururimi rwisumbuye. Ikigo cyo kwiyandikisha kirakorwa mururimi rwibanze gusa. Uracyashaka gukomeza?"
+      },
+      "edit": {
+        "title": "Kwemeza",
+        "message": "Ugiye kuvugurura ikigo cyo kwiyandikisha. Nyamuneka reba neza ko amakuru yose ariyo",
+        "yesBtnText": "Emeza",
+        "noBtnText": "Kureka",
+        "mandatorySecondaryFields": "Ntabwo wujuje amakuru ateganijwe mururimi rwisumbuye. Ikigo cyo kwiyandikisha kirakorwa mururimi rwibanze gusa. Uracyashaka gukomeza?"
+      },
+      "update-success": {
+        "title": "Byakozwe neza",
+        "message": "Umufatanyabikorwa yahinduwe neza",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Ikosa",
+        "message": "Habayeho ikibazo cyo guhindura Umufatanyabikorwa. Nyamuneka ongera ugerageze",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Byakozwe neza",
+        "message": [
+          "Umufatanyabikorwa yakozwe neza afite ID ya: ",
+          " Imitere( Status) y'umufatanyabikorwa ni: "
+        ],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Ikosa",
+        "message": "Habaye ikibazo cyo gukora Umufatanyabikorwa. Nyamuneka ongera ugerageze",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Kwemeza",
+        "message": "Uzi neza ko ushaka kujya ahandi? Amakuru yose atabitswe arabura",
+        "yesBtnTxt": "Genda",
+        "noBtnTxt": "Guma hano"
+      },
+      "noData": {
+        "title": "Ikosa",
+        "message": "Nta makuru yabonetse",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "misp": {
+    "header": "MISP",
+    "name": "Izina",
+    "id": "Id",
+    "isActive": "Uko Misp ihageze",
+    "contact_no": "Nimero ya telefone",
+    "status": "Aho bigeze",
+    "address": "Aderesi",
+    "misp-details": "Incamake za Misp",
+    "created-on": "Byakozwe kuri",
+    "created-by": "Byakozwa Na",
+    "updated-on": "Byahinduwe kuri",
+    "updated-by": "Byahinduwe Na",
+    "email_id": "Imeli",
+    "edit": "Hindura",
+    "create": "Kora",
+    "cancel": "Kureka",
+    "language": "Icyongereza",
+    "keyboard-tooltip": "Kanda hano ubone Mwandikisho ya Virtual (Icyongereza)",
+    "update": "Hindura",
+    "validationMessages": {
+      "name": {
+        "required": "Misp Name irakenewe",
+        "max-length": "Birenze uburebure (128)"
+      },
+      "address": {
+        "required": "Misp Aderesi irakenewe",
+        "max-length": "Birenze uburebure (128)"
+      },
+      "phoneNo": {
+        "required": "Misp phoneNo irakenewe"
+      },
+      "email": {
+        "required": "Misp email irakenewe"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Kwemeza",
+        "message": [
+          "Ugiye gukora Msip muri ",
+          ". Nyamuneka reba neza ko amakuru yose ariyo. ID yikigo irakorwa umaze Kwemeza"
+        ],
+        "yesBtnText": "Yego",
+        "noBtnText": "Oya",
+        "mandatorySecondaryFields": "Ntabwo wujuje amakuru ateganijwe mururimi rwisumbuye. Misp irakorwa mururimi rwibanze gusa. Uracyashaka gukomeza?"
+      },
+      "edit": {
+        "title": "Kwemeza",
+        "message": "Ugiye guhindura misp. nyamuneka reba ko amakuru yose ariyo",
+        "yesBtnText": "Emeza",
+        "noBtnText": "Kureka",
+        "mandatorySecondaryFields": "Ntabwo wujuje amakuru ateganijwe mururimi rwisumbuye. Misp irakorwa mururimi rwibanze gusa. Uracyashaka gukomeza?"
+      },
+      "update-success": {
+        "title": "Byakozwe neza",
+        "message": "Misp Yahinduwe neza",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Ikosa",
+        "message": "Habaye ikibazo muguhindura misp. Mwongere mugerageze",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Byakozwe neza",
+        "message": [
+          "MISP yakozwe neza."
+        ],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Ikosa",
+        "message": "Habe ikibazo mugukora misp. Mwongere mugerageze",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Kwemeza",
+        "message": "Uzi neza ko ushaka kujya ahandi? Amakuru yose atabitswe arabura",
+        "yesBtnTxt": "Genda",
+        "noBtnTxt": "Guma hano"
+      },
+      "noData": {
+        "title": "Ikosa",
+        "message": "Nta makuru yabonetse",
+        "btnTxt": "Ok"
+      },
+      "lunchTimeValidation": {
+        "title": "Ikosa",
+        "message": "Nyabuneka hitamo igihe cyo gukora mbere yuko muhitamo igihe cy'ikiruhuko",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "validationMessages": {
+    "required": "Nyamuneka wuzuze ahajya itariki hombi 'Kuva' na 'Kugeza' kugirango ushake ukurikije itariki",
+    "range": "Itariki yo 'Kugeza' ntago yaba itariki iri imbere y'itariki yo 'Kuva'",
+    "invalid": "Nyamuneka hitamo itariki yemewe"
+  },
+  "actionMessages": {
+    "decommission": {
+      "success-message": [
+        "",
+        " Byemejwe neza"
+      ],
+      "success-title": "Byakozwe neza",
+      "error-message": "Ntushobora kwemeza Misp.Ntago Misp iri gukora ubu",
+      "error-title": "Ikosa",
+      "btnTxt": "Ok",
+      "yesBtnTxt": "Emeza",
+      "noBtnTxt": "Kureka",
+      "confirmation-message": [
+        "Urashaka kwemeza Misp ",
+        " ? \n Ntago mwasubira inyuma nimumara Kwemeza."
+      ],
+      "confirmation-title": "Kwemeza"
+    },
+    "activate": {
+      "success-message": [
+        "",
+        " iri gukora neza"
+      ],
+      "success-title": "Byakozwe neza",
+      "error-message": "Ntishobora Gukora(Activated)",
+      "error-title": "Ikosa",
+      "btnTxt": "Ok",
+      "yesBtnTxt": "Yego",
+      "noBtnTxt": "Oya",
+      "confirmation-message": [
+        "Urashaka ko ikora ",
+        "? \n Ushobora kuyihagarika nyuma niba ubishaka.Kugeza icyo giha izaba ikora"
+      ],
+      "confirmation-title": "Kwemeza"
+    },
+    "deactivate": {
+      "success-message": [
+        "",
+        " Yahagaritswe neza"
+      ],
+      "success-title": "Byakozwe neza",
+      "error-message": "Guhagarika Misp ntibikunze",
+      "error-title": "Ikosa",
+      "btnTxt": "Ok",
+      "yesBtnTxt": "Yego",
+      "noBtnTxt": "Oya",
+      "confirmation-message": [
+        "Urashaka guhagarika ",
+        " ? \n Wakongera kuyikoresha nyuma ubishaka. Kugeza icyo gihe iza ihagaze"
+      ],
+      "confirmation-title": "Kwemeza"
+    }
+  },
+  "policy": {
+    "header": "Policy",
+    "name": "Izina",
+    "desc": "Ubusobanuro",
+    "authPolicies": "Ubwo bwa Auth bwemewe",
+    "allowedKycAttributes": "Ibiranga(Attributes) Kyc byemewe",
+    "id": "Id",
+    "isActive": "Aho bigeze",
+    "policy-details": "Ubusobanuro bwa Policy ",
+    "created-on": "Byakozwe kuri",
+    "created-by": "Byakozwa Na",
+    "updated-on": "Byahinduwe kuri",
+    "updated-by": "Byahinduwe Na",
+    "edit": "Hindura",
+    "create": "Kora",
+    "cancel": "Kureka",
+    "language": "Icyongereza",
+    "keyboard-tooltip": "Kanda hano ubone Mwandikisho ya Virtual (Icyongereza)",
+    "update": "Hindura",
+    "validationMessages": {
+      "name": {
+        "required": "Izina rya Policy rirakenewe",
+        "max-length": "Birenze uburebure (128)"
+      },
+      "desc": {
+        "required": "Amakuru arambuye ya Policy arakenewe",
+        "max-length": "Birenze uburebure (128)"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Kwemeza",
+        "message": [
+          "Ugiye gukora Policy muri ",
+          ". Nyamuneka reba neza ko amakuru yose ariyo. ID yikigo irakorwa umaze Kwemeza"
+        ],
+        "yesBtnText": "Yego",
+        "noBtnText": "Oya",
+        "mandatorySecondaryFields": "Ntabwo wujuje amakuru ateganijwe mururimi rwisumbuye. Policy irakorwa gusa mururimi rwibanze. Uracyashaka gukomeza?"
+      },
+      "edit": {
+        "title": "Kwemeza",
+        "message": "Ugiye guhindura Policy. Nyamuneka reba neza ko amakuru yose ariyo",
+        "yesBtnText": "Emeza",
+        "noBtnText": "Kureka",
+        "mandatorySecondaryFields": "Ntabwo wujuje amakuru ateganijwe mururimi rwisumbuye. Misp irakorwa mururimi rwibanze gusa. Uracyashaka gukomeza?"
+      },
+      "update-success": {
+        "title": "Byakozwe neza",
+        "message": "policy yahinduwe neza",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Ikosa",
+        "message": "Habayeho ikibazo cyo guhindura policy. Nyamuneka ongera ugerageze",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Byakozwe neza",
+        "message": [
+          "Policy yakozwe neza."
+        ],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Ikosa",
+        "message": "Habayeho ikibazo cyo gukora policy. Nyamuneka ongera ugerageze",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Kwemeza",
+        "message": "Uzi neza ko ushaka kujya ahandi? Amakuru yose atabitswe arabura",
+        "yesBtnTxt": "Genda",
+        "noBtnTxt": "Guma hano"
+      },
+      "noData": {
+        "title": "Ikosa",
+        "message": "Nta makuru yabonetse",
+        "btnTxt": "Ok"
+      },
+      "lunchTimeValidation": {
+        "title": "Ikosa",
+        "message": "Nyabuneka hitamo igihe cyo gukora mbere yuko muhitamo igihe cy'ikiruhuko",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "uploadcertificate": {
+    "title": "Ohereza Icyemezo",
+    "CAtitle": "Ohereza Icyemezo cya CA",
+    "partnerDomain": "Domain y'umufatanyabikorwa",
+    "chooseFile": "Hitamo dosiye",
+    "uploadYourFile": "Ohereza dosiye",
+    "button": "Ohereza",
+    "cancel": "Kureka"
+  },
+  "filters": {
+    "titleTxt": "Sanisha itsinda rya Policy",
+    "footerButtons": {
+      "resetTxt": "Subiza uko byari bimeze",
+      "cancelTxt": "Kureka",
+      "applyTxt": "Bika"
+    }
+  },
+  "filters": {
+    "titleTxt": "Ongeramo itandukaniro",
+    "footerButtons": {
+      "resetTxt": "Subiza uko byari bimeze",
+      "cancelTxt": "Kureka",
+      "applyTxt": "Koresha"
+    }
+  },
+  "isActive": {
+    "Active": "Ikora",
+    "InActive": "Idakora"
+  },
+  "genericerror": {
+    "fieldValidation": "Iyi field irakenewe",
+    "fieldNameValidation": " irakenewe"
+  },
+  "serverError": {
+    "PMS_COR_001": "Hari amakuru mugomba kwinjiza abura",
+    "PMS_PRT_002": " Itsinda rya Policy ntago ribaho",
+    "PMS_PRT_010": " Ubwoko bw'abafatanyabikorwa ntibubaho",
+    "PMS_PRT_310": " Mwashyizemo amakuru atariyo : %s",
+    "PMS_PRT_313": " Agaciro ka pagination katemewe pagestart:%d and pagefetch:%d",
+    "PMS_PRT_312": " Filter type is missing",
+    "PMS_PRT_311": " Hari amakuru abura mubusabe",
+    "PMS_PRT_314": " Missing sort field or sort type values",
+    "PMS_PRT_315": " Invalid fromValue or toValue",
+    "PMS_PRT_356": " Pagination igomba kuzuzwa",
+    "PMS_PRT_358": " Sort type %s is not supported",
+    "PMS_PRT_359": " Error occured while sorting",
+    "PMS_PRT_357": " Invalid sort field %s",
+    "KER_PRT_390": " Invalid filter value",
+    "PMS_PRT_001": "  Umufantanya bikorwa ufite iri zina arahari",
+    "PMS_PRT_051": " Umufantanya bikorwa ufite iyi Id arahari",
+    "PMS_PRT_052": " Uburebure bwa Id y'umufatanyabikorwa bugomba kuba ",
+    "PMS_ATH_053": " IO Exception occured while passing paging request",
+    "PMS_ATH_054": " konti ntabwo yabonetse",
+    "PMS_ATH_500": " Ikosa rya seriveri ryabaye, Nyamuneka reba logs ",
+    "PMS_PRT_061": "Partner policy mapping not exists.",
+    "PMS_PRT_062": "Partner api key request is approved already. Cann't add extractors now.",
+    "PMS_PRT_063": "Biometric extractors can be added only for:",
+    "PMS_PRT_064": "Nta bisobanuro birambuye byabonetse",
+    "PMS_PRT_070": "Credential mapping allowed only for :",
+    "PMS_PRT_071": " Habayeho ikosa mukugereranya Policy string na object ya json",
+    "PMS_PRT_072": "Ubwoko bw'ibyangombwa ntibyemewe. Ubwoko bw'ibyangombwa byemewe:",
+    "PMS_PRT_073": "Policy ntago ibaho.",
+    "PMS_PRT_074": "Hari indi konti ikoresha iyi imeli",
+    "PMS_PRT_005": "Umufatanyabikorwa ntabaho",
+    "PMS_PRT_006": "Nta api key req ibaho",
+    "PMS_PRT_105": " API KEY y'umufantanyabikorwa ntago yakozwe",
+    "PMS_PRT_011": "Imeri irahari.",
+    "PMS_PRT_012": "Imeri itemewe.",
+    "PMS_PRT_013": " Inomero igendanwa itemewe.Uburebure bugomba kuba munsi.",
+    "PMS_ATH_401": "Kwinjira byanze",
+    "PMS_PRT_106": "APIKeyReqID status is In_progress",
+    "PMS_KKS_001": " API ntabwo igerwaho  ",
+    "PMS_PRT_107": "Responese ya api irimo ubusa",
+    "PMS_PRT_500": "Gutungaya ibyo wasabye byanze.",
+    "PMS_PMP_016": "Umufatanyabikorwa ntabwo akora.",
+    "PMS_PRT_098": "Policy yatanzwe munsi y'itsinda ry'abafatanyabikorwa ntago ibaho.",
+    "PMS_PMP_019": "Policy ntago ikora",
+    "PMS_PMP_023": "Itsinda rya policy ntago rikora.",
+    "PMS_DTS_001": "Igisubizo cya DataShare kirimo ubusa",
+    "PMS_PRT_045": "Habayeho ikosa mu makuru y'icyemezo cya P7B",
+    "PMS_PRT_046": "Habaye ikosa mukugerageza gusohora leaf cert.",
+    "PMS_PRT_047": "Umufatanya bikorwa ntago ahujwe na policy group",
+    "PMS_PRT_048": "guhuza policy group ntago ari ngombwa kuri uyu mufatanyabikorwa",
+    "PMS_PRT_049": "Umufatanyabikorwa yamaze guhuzwa niyi policy group",
+    "PMS_PRT_050": "Itsinda rya policy ntishobora guhindurwa kubafatanyabikorwa bemewe",
+    "PMS_PRT_054": "Itsinda rya Policy ntago rihujwe nuyu mufatanyabikorwa",
+    "PMS_PRT_055": "Umukoresha ntabwo yemerewe.",
+    "PMS_PM_034": "Ubusabe bwa Policy bwarangije kwemezwa.",
+    "PMS_PM_035": "Ubusabe bwa Policy bwarangije guhakanwa.",
+    "PMS_PM_045": " Status igomba kuba yemejwe cyangwa yahakanywe",
+    "PMS_PM_051": " Extractors ntago zihari. Nyamuneka ongeramo extractors.",
+    "PMS_PM_058": " Status igomba kuba ikora(active) cyangwa idakora(De_activate)",
+    "PMS_PMP_010": "Policy ntago iba mu itsinda rya Policy ry'umufatanyabikorwa",
+    "PMS_PMP_015": "Nta busabe api key kuri iri tsinda rya Policy",
+    "PMS_PMP_007": "Api key y'umufantanyabikorwa ntago ibaho",
+    "PMS_PMP_011": "Api key y'umufantanyabikorwa ntago ibaho",
+    "PMS_PMP_009": " Kuri uyu mufatanyabikorwa niyi apikey ntago bihujwe.",
+    "PMS_PMP_013": "Umufatanyabikorwa ntabaho",
+    "PMS_PMP_005": "ID y'umufantanyabikorwa ntago ibaho",
+    "PMS_PMP_017": "Umufantanyabikorwa ntago yahujwe nta policy iyo ariyo yose.",
+    "PMS_PMP_020": "License key ya MISP ntago ibaho.",
+    "PMS_PMP_021": "license key ya MISP yarengeje igihe.",
+    "PMS_PMP_022": "Policy ntago ibaho.",
+    "PMS_PMP_024": "Dosiye ya Policy yarangiritse.",
+    "PMS_PMP_025": "License key of MISP yarafunzwe",
+    "PMS_PMP_50": "Apikey, umufantanyabikorwa na policy byatanzwe ntago bihujwe",
+    "PMS_PMP_51": "Policy yatanzwe ntago iba mu itsinda rya policy ry'umufantanyabikorwa",
+    "PMS_PMP_052": "Icyemezo cy'umufantanyabikorwa ntago gihari",
+    "PMS_PMP_014": "Policy ntago ibaho",
+    "PMS_PMS_022": "Api key y'umufantanyabikorwa yatanzwe ntago ikora.",
+    "PMS_PMP_018": "Policy yarengeje igihe.",
+    "PMS_PRT_108": "Icyemezo ntago cyoherejwe k'umufantanyabikorwa watanzwe. kwemeza iki gikorwa byanze",
+    "PMS_AUT_002": "Id yuwantanze igikoresho ntago yabonetse mubafatanyabikorwa",
+    "PMS_AUT_003": "Amakuru y'igikoresho arahari",
+    "PMS_AUT_004": "Mwongeye gusaba ibintu bimwe ubu busabwe bwakiriwe",
+    "PMS_AUT_005": "Amakuru y'igikoresho kuri id ya %s ntago abaho",
+    "PMS_AUT_025": "ApprovalStatus igomba kuba Gukora(Activate) / Kudakora(De_activate); ",
+    "PMP_AUT_030": "uwatanze ftp ntago abaho.",
+    "PMP_AUT_031": "ftp chip id ntago ibaho.",
+    "PMP_AUT_032": "Provider,make na moderi byatanzwe birasanzwe.",
+    "PMP_AUT_033": "Icyemezo ntago cyoherejwe.",
+    "PMP_AUT_034": "Amakuru Ftp chip id na ftp provider id ntago bihujwe. ",
+    "PMP_AUT_037": "amakuru ya ftp chip yatanzwe asanzwe atabitswe.;",
+    "PMS_AUT_007": "Imigaragarire ya Biometrike Yizewe ntabwo iboneka kuri id %s",
+    "PMS_AUT_026": "ApprovalStatus igomba kuba Gukora(Activate) / Kudakora(De_activate)",
+    "PMS_AUT_506": "Tanga amakuru y'igikoresho cy'umu provider umwe.",
+    "PMS_AUT_507": "Itariki ntarengwa igomba kuba nyuma y'itariki byakoreweho",
+    "PMS_AUT_508": "Itariki ntarengwa igo kuba uyu munsi cyangwa nyuma yaho.;",
+    "PMS_POL_002": "Amakuru y'ibanga(Credentials) ya Policy Manager ntago ahuye",
+    "PMS_POL_004": "Izina rya Policy ryatanzwe risanzwe rihari muri polic Group.name :",
+    "PMS_POL_005": "Ikiranga(attribute) cya KYC mwatanze muri dosiye ya Policy ntago cyemewe",
+    "PMS_POL_006": "Ubwoko bwo kwinjira (Authentcation Type) mwakoreshe muri dosiye ya Policy ntago bwemewe",
+    "PMS_POL_007": " Ikiranga(attribute) cya eKYC kirabura muri dosiye ya policy",
+    "PMS_POL_008": "Policy ID ntago ibaho",
+    "PMS_POL_009": "Policy ya Auth ibaho ifite izina : ",
+    "PMS_COR_002": "Mwinjije amakuru(Input parameter) atemewe _ ",
+    "PMS_COR_003": "Ntago tubashije kwakira ubusabe",
+    "PMS_POL_010": " Auth Policies ntago zasobanuwe kuri policy",
+    "PMS_POL_013": "Nta policy ihari kuri PartnerAPIKey yatanzwe",
+    "PMS_POL_014": "Itsinda rya policy ibaho ifite izina : ",
+    "PMS_POL_015": "Itsinda rya policy na policy ntago byahujwe.",
+    "PMS_POL_016": "Policy Group ntago ibaho",
+    "PMS_POL_017": "Nta policy ihari k'umufantanyabikorwa watanzwe",
+    "PMS_POL_018": "Umufantanyabikorwa na policy byatanzwe ntago bihujwe.",
+    "PMS_POL_019": "Itsinda rya policy rifite iri izina ntago ribaho",
+    "PMS_POL_020": "Ntushobora gutangaza policy yatangajwe",
+    "PMS_POL_021": "Auth types zemewe ntago ari itegeko kuri policyType ",
+    "PMS_POL_022": "Auth token type yatanzwe is ntago yemewe",
+    "PMS_POL_023": "Policy type yatanzwe ntago yemewe ",
+    "PMS_POL_045": "Imiterere(Status) ya Policy yaba Ikora(Active) cyangwa Idakora(De_active).",
+    "PMS_POL_046": "Ibiranga(attributes) bya Datashare ntago ari itegeko kuri policyType yatanzwe ",
+    "PMS_POL_047": "Ibiranga(attributes) bya Shareable ntago ari itegeko kuri policyType yatanzwe ",
+    "PMS_POL_048": "Ibiranga(attributes) bay AllowedKYC ntago ari itegeko kuri policyType yatanzwe ",
+    "PMS_POL_050": "Verisiyo yatanzwe ntabwo iboneka. Verisiyo zemewe ni : ",
+    "PMS_POL_051": "Policy Schema and policy ntago zihura",
+    "PMS_POL_052": "Ikosa ryabaye mugihe cyo kugereranya(Parsing) string ya policy na json object",
+    "PMS_POL_053": "Itsinda rya policy ntago rikora.",
+    "PMS_POL_054": "Ntushobora gukora(activate) policy itatangajwe(unpublished).",
+    "PMS_POL_055": "Policy yatangajwe(published) ntishobora guhindurwa.",
+    "PMS_POL_056": "Hari policies zikora(Active) exists mu itsinda rya policy.",
+    "PMS_POL_057": "Hari apiKey zikora(Active) muri policy.",
+    "PMS_POL_058": "Imiterere(Status) ntishobora guhinduka kuri policy yatangajwe.;"
+  }
+}

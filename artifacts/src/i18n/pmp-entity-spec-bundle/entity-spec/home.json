@@ -10,6 +10,7 @@
       "filtername": "policyGroup",
       "filterlabel": {
         "eng": "Policy Group",
+		"kin": "_kin_Policy Group"
         "ara": "نوع الجهاز",
         "fra": "Type de machine",
         "hin": "मशीन की तरह",

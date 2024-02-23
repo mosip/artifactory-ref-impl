@@ -1,9 +1,13 @@
 {
-  "auditEventIds": ["ADM-040", "ADM-062"],
+  "auditEventIds": [
+    "ADM-040",
+    "ADM-062"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Activate",
+        "kin": "tangiza",
         "ara": "تنشيط",
         "fra": "déclencher",
         "hin": "सक्रिय ",
@@ -19,6 +23,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "kin": "hagarika",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "hin": "निष्क्रिय करें  ",
@@ -34,6 +39,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "kin": "Hindura",
         "ara": "تصحيح",
         "fra": "modifier",
         "hin": "संपादित करें ",
@@ -49,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Create",
+        "kin": "ongeraho centre",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "hin": "सर्जन करना  ",
@@ -63,10 +70,20 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan":"ಫಿಲ್ಟರ್ ಮಾಡಿ","tam":"வடிகட்டி"  },
+      "buttonName": {
+        "eng": "Filter",
+        "kin": "Hitamo",
+        "ara": "تصفيه",
+        "fra": "filtre",
+        "hin": "फ़िल्टर",
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "tam": "வடிகட்டி"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -74,8 +91,9 @@
     {
       "buttonName": {
         "eng": "Template not available in English",
+        "kin": "nta cyitegererezo gihari mu kinyarwanda",
         "ara": "النموذج غير متوفر باللغة العربية",
-        "fra": "Modèle non disponible en français" ,
+        "fra": "Modèle non disponible en français",
         "hin": "टेम्प्लेट हिंदी में उपलब्ध नहीं है  ",
         "kan": "ಕನ್ನಡದಲ್ಲಿ ಟೆಂಪ್ಲೇಟು ಲಭ್ಯವಿಲ್ಲ ",
         "tam": "வார்ப்புரு தமிழில் கிடைக்கவில்லை   "
@@ -86,27 +104,33 @@
         "case": "missingData",
         "title": {
           "eng": "Template not available in English",
+          "kin": "nta cyitegererezo gihari mu kinyarwanda",
           "ara": "النموذج غير متوفر باللغة العربية",
-          "fra": "Modèle non disponible en français" ,
+          "fra": "Modèle non disponible en français",
           "hin": "टेम्प्लेट हिंदी में उपलब्ध नहीं है  ",
           "kan": "ಕನ್ನಡದಲ್ಲಿ ಟೆಂಪ್ಲೇಟು ಲಭ್ಯವಿಲ್ಲ ",
           "tam": "வார்ப்புரு தமிழில் கிடைக்கவில்லை   "
         },
-        "columnNames": [{
-          "eng": "Template ID",
-          "ara": "معرف القالب",
-          "fra": "ID de modèle",
-          "hin": "टेम्पलेट आईडी   ",
-          "kan": "ಟೆಂಪ್ಲೇಟು ID ",
-          "tam": "வார்ப்புரு ஐடி   "
-        },{
-          "eng": "Name",
-          "ara": "اسم",
-          "fra": "nom",
-          "hin": "नाम    ",
-          "kan": "ಹೆಸರು  ",
-          "tam": "பெயர்  "
-        }],
+        "columnNames": [
+          {
+            "eng": "Template ID",
+            "kin": "Numero y'icyitegererezo",
+            "ara": "معرف القالب",
+            "fra": "ID de modèle",
+            "hin": "टेम्पलेट आईडी   ",
+            "kan": "ಟೆಂಪ್ಲೇಟು ID ",
+            "tam": "வார்ப்புரு ஐடி   "
+          },
+          {
+            "eng": "Name",
+            "kin": "izina",
+            "ara": "اسم",
+            "fra": "nom",
+            "hin": "नाम    ",
+            "kan": "ಹೆಸರು  ",
+            "tam": "பெயர்  "
+          }
+        ],
         "fieldName": "name"
       },
       "redirectURL": "",
@@ -121,6 +145,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Name",
+        "kin": "izina",
         "ara": "اسم",
         "fra": "nom",
         "hin": "नाम    ",
@@ -140,6 +165,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Description",
+        "kin": "igisobanuro",
         "ara": "وصف",
         "fra": "décrire",
         "hin": "विवरण    ",
@@ -159,6 +185,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Model",
+        "kin": "ubwoko",
         "ara": "نموذج",
         "fra": "forme",
         "hin": "नमूना ",
@@ -178,6 +205,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Scenario",
+        "kin": "",
         "ara": "السيناريو",
         "fra": "scénario",
         "hin": "परिदृश्य ",
@@ -197,6 +225,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Template Format",
+        "kin": "ubwoko bw' icyitegererezo",
         "ara": "تنسيق القالب",
         "fra": "Modèle de format",
         "hin": "टेम्पलेट प्रारूप ",
@@ -216,6 +245,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Template",
+        "kin": "icyitegererezo",
         "ara": "قالب",
         "fra": "format",
         "hin": "टेम्पलेट ",
@@ -235,6 +265,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Module Name",
+        "kin": "izina rya modili",
         "ara": "اسم الوحدة النمطية",
         "fra": "Nom du module",
         "hin": "मोड्यूल का नाम  ",
@@ -254,6 +285,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Module Name",
+        "kin": "izina rya modili",
         "ara": "اسم الوحدة النمطية",
         "fra": "Nom du module",
         "hin": "मोड्यूल का नाम  ",
@@ -273,6 +305,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created By",
+        "kin": "byakozwe na ",
         "ara": "تم إنشاؤه من قبل",
         "fra": "Créé par",
         "hin": "बनाया गया समय  ",
@@ -290,6 +323,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated By",
+        "kin": "byahinduwe na ",
         "ara": "تم التحديث بواسطة",
         "fra": "Mise à jour par",
         "hin": "द्वारा अपडेट   ",
@@ -307,6 +341,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated Time",
+        "kin": "igihe byahinduriwe",
         "ara": "وقت التحديث",
         "fra": "Temps mis à jour",
         "hin": "दअपडेट किया गया समय  ",
@@ -324,6 +359,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Template ID",
+        "kin": "Numero y'icyitegererezo",
         "ara": "معرف القالب",
         "fra": "ID de modèle",
         "hin": "टेम्पलेट आईडी   ",
@@ -341,6 +377,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created Time",
+        "kin": "igihe byakorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "hin": "बनाया गया समय  ",
@@ -356,7 +393,15 @@
       "name": "isActive",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif","hin": "स्थिति","kan":"ಸ್ಥಿತಿ","tam":"நிலை" },
+      "label": {
+        "eng": "Status",
+        "kin": "imiterere",
+        "ara": "نشط",
+        "fra": "c'est actif",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -368,13 +413,20 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "name",
       "filterlabel": {
         "eng": "Name",
+        "kin": "izina",
         "ara": "اسم",
         "fra": "nom",
         "hin": "नाम    ",
@@ -393,6 +445,7 @@
       "filtername": "moduleName",
       "filterlabel": {
         "eng": "Module Name",
+        "kin": "izina rya modili",
         "ara": "اسم الوحدة النمطية",
         "fra": "Nom du module",
         "hin": "मोड्यूल का नाम  ",
@@ -409,7 +462,12 @@
     },
     {
       "filtername": "isActive",
-      "filterlabel": { "eng": "Status", "ara": "نشط", "fra": "Statut" },
+      "filterlabel": {
+        "eng": "Status",
+        "kin": "imiterere",
+        "ara": "نشط",
+        "fra": "Statut"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "true",

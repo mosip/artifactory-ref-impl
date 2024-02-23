@@ -1,9 +1,13 @@
 {
-  "auditEventIds": ["ADM-027", "ADM-049"],
-  "actionButtons": [    
+  "auditEventIds": [
+    "ADM-027",
+    "ADM-049"
+  ],
+  "actionButtons": [
     {
       "buttonName": {
         "eng": "Remap",
+        "kin": "Kongera guhuza ikarita",
         "ara": "إعادة رسم خريطة",
         "fra": "remapper",
         "hin": "सरीमैप ",
@@ -19,6 +23,7 @@
     {
       "buttonName": {
         "eng": "Delete",
+        "kin": "Siba",
         "ara": "حذف",
         "fra": "Supprimer",
         "hin": "हटाएं",
@@ -34,6 +39,7 @@
     {
       "buttonName": {
         "eng": "Activate",
+        "kin": "Tangiza",
         "ara": "تنشيط",
         "fra": "déclencher",
         "hin": "सक्रिय",
@@ -49,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "kin": "Hagarika",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "hin": "निष्क्रिय करें",
@@ -64,6 +71,7 @@
     {
       "buttonName": {
         "eng": "Map Zone",
+        "kin": "Ikarita y'ahantu",
         "ara": "منطقة الخريطة",
         "fra": "Zone de carte",
         "hin": "मानचित्र क्षेत्र",
@@ -81,6 +89,7 @@
       "buttonName": {
         "eng": "Filter",
         "fra": "filtre",
+        "kin": "Hitamo",
         "ara": "تصفيه",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
@@ -88,7 +97,9 @@
       },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -98,13 +109,14 @@
     {
       "name": "userName",
       "showInListView": "true",
-      "label": { 
-        "eng": "Name", 
-        "ara": "ماسم", 
+      "label": {
+        "eng": "Name",
+        "kin": "Izina",
+        "ara": "ماسم",
         "fra": "Nom",
         "tam": "பெயர்",
         "hin": "नाम",
-        "kan": "ಹೆಸರು" 
+        "kan": "ಹೆಸರು"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -117,6 +129,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Zone Name",
+        "kin": "Izina ry'ahantu",
         "ara": "نوع المركز",
         "fra": "Type de centre",
         "hin": "जोन कोड",
@@ -134,6 +147,7 @@
       "showInListView": "",
       "label": {
         "eng": "CreatedBy",
+        "kin": "Byakozwe na ",
         "ara": "الشخص المسؤول",
         "fra": "Personne-ressource",
         "hin": "के द्वारा बनाई गई ",
@@ -150,6 +164,7 @@
       "showInListView": "",
       "label": {
         "eng": "Created Time",
+        "kin": "Igihe byakorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "hin": "बनाया गया समय ",
@@ -164,7 +179,15 @@
     {
       "name": "isActive",
       "showInListView": "true",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": {
+        "eng": "Status",
+        "kin": "Imiterere",
+        "ara": "حاله",
+        "fra": "statut",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -174,12 +197,26 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "userName",
-      "filterlabel": { "eng": "Name", "ara": "اسم", "fra": "Nom", "tam": "பெயர்", "hin": "नाम","kan": "ಹೆಸರು" },
+      "filterlabel": {
+        "eng": "Name",
+        "kin": "iizina",
+        "ara": "اسم",
+        "fra": "Nom",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು"
+      },
       "filterType": "equals",
       "fieldType": "input",
       "autocomplete": "false",
@@ -191,7 +228,15 @@
     },
     {
       "filtername": "zoneName",
-      "filterlabel": { "eng": "Zone Name", "ara": "اسم المنطقة", "fra": "Nom de la zone", "tam": "மண்டல பெயர்", "hin": "क्षेत्र का नाम","kan": "ವಲಯದ ಹೆಸರು" },
+      "filterlabel": {
+        "eng": "Zone Name",
+        "kin": "Izina ry'ahantu",
+        "ara": "اسم المنطقة",
+        "fra": "Nom de la zone",
+        "tam": "மண்டல பெயர்",
+        "hin": "क्षेत्र का नाम",
+        "kan": "ವಲಯದ ಹೆಸರು"
+      },
       "filterType": "equals",
       "fieldType": "input",
       "autocomplete": "false",

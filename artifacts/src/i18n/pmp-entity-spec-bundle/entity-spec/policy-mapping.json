@@ -1,263 +1,287 @@
 {
-	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [{
-			"buttonName": {
-				"eng": "Manage Policy",
-				"ara": "Manage Policy_ara",
-				"fra": "Manage Policy_fra",
-				"hin": "Manage Policy_hin",
-				"kan": "Manage Policy_kan",
-				"tam": "Manage Policy_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "ApproveorRejectPolicy"
-		},
-		{
-			"buttonName": {
-				"eng": "Map Policy",
-				"ara": "Map Policy_ara",
-				"fra": "Map Policy_fra",
-				"hin": "Map Policy_hin",
-				"kan": "Map Policy_kan",
-				"tam": "Map Policy_tam"
-			},
-			"imagePath": "assets/images/add-icon.png",
-			"actionListType": "redirect",
-			"actionURL": "",
-			"redirectURL": "pmp/resources/policymapping/create",
-			"showIn": "Button",
-			"validations": ""
-		},
-		{
-			"buttonName": {
-				"eng": "Filter",
-				"ara": "Filter_ara",
-				"fra": "Filter_fra",
-				"hin": "Filter_hin",
-				"kan": "Filter_kan",
-				"tam": "Filter_tam"
-			},
-			"imagePath": "assets/images/filter.png",
-			"actionListType": "action",
-			"actionURL": {
-				"case": "filter"
-			},
-			"redirectURL": "",
-			"showIn": "Button",
-			"validations": ""
-		},
-		{
-			"buttonName": {
-				"eng": "Generate API Key",
-				"ara": "Generate API Key_ara",
-				"fra": "Generate API Key_fra",
-				"hin": "Generate API Key_hin",
-				"kan": "Generate API Key_kan",
-				"tam": "Generate API Key_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "/pmp/resources/policymapping/single-view/$id",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "partnerEdit"
-		},
-		{
-			"buttonName": {
-				"eng": "Edit",
-				"ara": "Edit_ara",
-				"fra": "Edit_fra",
-				"hin": "Edit_hin",
-				"kan": "Edit_kan",
-				"tam": "Edit_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "/pmp/resources/policymapping/single-view/$id",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "partnerEdit"
-		}
-	],
-	"columnsToDisplay": [
-		{
-			"name": "partnerId",
-			"label": {
-				"eng": "Partner Name",
-				"ara": "Partner Name_ara",
-				"fra": "Partner Name_fra",
-				"hin": "Partner Name_hin",
-				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
-			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "dropdown",
-			"ismandatory": "true",
-			"showInListView": "false",
-			"showInSingleView": "true"
-		},
-		{
-			"name": "policyId",
-			"label": {
-				"eng": "Policy Name",
-				"ara": "Policy Name_ara",
-				"fra": "Policy Name_fra",
-				"hin": "Policy Name_hin",
-				"kan": "Policy Name_kan",
-				"tam": "Policy Name_tam"
-			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "dropdown",
-			"ismandatory": "true",
-			"showInListView": "false",
-			"showInSingleView": "true"
-		},
-		{
-			"name": "partnerName",
-			"label": {
-				"eng": "Partner Name",
-				"ara": "Partner Name_ara",
-				"fra": "Partner Name_fra",
-				"hin": "Partner Name_hin",
-				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
-			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "",
-			"ismandatory": "false",
-			"showInListView": "true",
-			"showInSingleView": "false"
-		},
-		{
-			"name": "policyName",
-			"label": {
-				"eng": "Policy Name",
-				"ara": "Policy Name_ara",
-				"fra": "Policy Name_fra",
-				"hin": "Policy Name_hin",
-				"kan": "Policy Name_kan",
-				"tam": "Policy Name_tam"
-			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "",
-			"ismandatory": "false",
-			"showInListView": "true",
-			"showInSingleView": "false"
-		},
-		{
-			"name": "requestDetail",
-			"label": {
-				"eng": "Request Detail",
-				"ara": "Request Detail_ara",
-				"fra": "Request Detail_fra",
-				"hin": "Request Detail_hin",
-				"kan": "Request Detail_kan",
-				"tam": "Request Detail_tam"
-			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "text",
-			"ismandatory": "true",
-			"showInListView": "true",
-			"showInSingleView": "true"
-		},
-		{
-			"name": "statusCode",
-			"label": {
-				"eng": "Status",
-				"ara": "Status_ara",
-				"fra": "Status_fra",
-				"hin": "Status_hin",
-				"kan": "Status_kan",
-				"tam": "Status_tam"
-			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "",
-			"ismandatory": "false",
-			"showInListView": "true",
-			"showInSingleView": "false"
-		}
-	],
-	"paginator": {
-		"totalEntries": null,
-		"pageSize": "10",
-		"pageSizeList": [10, 20, 30, 40, 50]
-	},
-	"filterColumns": [
-		{
-			"filtername": "partnerName",
-			"filterlabel": {
-				"eng": "Partner Name",
-				"ara": "Partner Name_ara",
-				"fra": "Partner Name_fra",
-				"hin": "Partner Name_hin",
-				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
-			},
-			"filterType": "equals",
-			"fieldType": "input",
-			"autocomplete": "false",
-			"dropdown": "false",
-			"datePicker": "false",
-			"apiName": "",
-			"fieldName": "partnerName",
-			"methodCallName": ""
-		},
-		{
-			"filtername": "policyName",
-			"filterlabel": {
-				"eng": "Policy Name",
-				"ara": "Policy Name_ara",
-				"fra": "Policy Name_fra",
-				"hin": "Policy Name_hin",
-				"kan": "Policy Name_kan",
-				"tam": "Policy Name_tam"
-			},
-			"filterType": "equals",
-			"fieldType": "input",
-			"autocomplete": "false",
-			"dropdown": "false",
-			"datePicker": "false",
-			"apiName": "",
-			"fieldName": "policyName",
-			"methodCallName": ""
-		},
-		{
-			"filtername": "requestDetail",
-			"filterlabel": {
-				"eng": "Request Detail",
-				"ara": "Request Detail_ara",
-				"fra": "Request Detail_fra",
-				"hin": "Request Detail_hin",
-				"kan": "Request Detail_kan",
-				"tam": "Request Detail_tam"
-			},
-			"filterType": "equals",
-			"fieldType": "input",
-			"autocomplete": "false",
-			"dropdown": "false",
-			"datePicker": "false",
-			"apiName": "",
-			"fieldName": "requestDetail",
-			"methodCallName": ""
-		}
-	]
+  "auditEventIds": [
+    "ADM-027",
+    "ADM-049"
+  ],
+  "actionButtons": [
+    {
+      "buttonName": {
+        "eng": "Manage Policy",
+        "ara": "Manage Policy_ara",
+        "fra": "Manage Policy_fra",
+        "hin": "Manage Policy_hin",
+        "kan": "Manage Policy_kan",
+        "tam": "Manage Policy_tam",
+        "kin": "_kin_Manage Policy"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "ApproveorRejectPolicy"
+    },
+    {
+      "buttonName": {
+        "eng": "Map Policy",
+        "ara": "Map Policy_ara",
+        "fra": "Map Policy_fra",
+        "hin": "Map Policy_hin",
+        "kan": "Map Policy_kan",
+        "tam": "Map Policy_tam",
+        "kin": "_kin_Map Policy"
+      },
+      "imagePath": "assets/images/add-icon.png",
+      "actionListType": "redirect",
+      "actionURL": "",
+      "redirectURL": "pmp/resources/policymapping/create",
+      "showIn": "Button",
+      "validations": ""
+    },
+    {
+      "buttonName": {
+        "eng": "Filter",
+        "ara": "Filter_ara",
+        "fra": "Filter_fra",
+        "hin": "Filter_hin",
+        "kan": "Filter_kan",
+        "tam": "Filter_tam",
+        "kin": "_kin_Filter"
+      },
+      "imagePath": "assets/images/filter.png",
+      "actionListType": "action",
+      "actionURL": {
+        "case": "filter"
+      },
+      "redirectURL": "",
+      "showIn": "Button",
+      "validations": ""
+    },
+    {
+      "buttonName": {
+        "eng": "Generate API Key",
+        "ara": "Generate API Key_ara",
+        "fra": "Generate API Key_fra",
+        "hin": "Generate API Key_hin",
+        "kan": "Generate API Key_kan",
+        "tam": "Generate API Key_tam",
+        "kin": "_kin_Generate API Key"
+      },
+      "actionURL": "",
+      "redirectURL": "/pmp/resources/policymapping/single-view/$id",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "partnerEdit"
+    },
+    {
+      "buttonName": {
+        "eng": "Edit",
+        "ara": "Edit_ara",
+        "fra": "Edit_fra",
+        "hin": "Edit_hin",
+        "kan": "Edit_kan",
+        "tam": "Edit_tam",
+        "kin": "_kin_Edit"
+      },
+      "actionURL": "",
+      "redirectURL": "/pmp/resources/policymapping/single-view/$id",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "partnerEdit"
+    }
+  ],
+  "columnsToDisplay": [
+    {
+      "name": "partnerId",
+      "label": {
+        "eng": "Partner Name",
+        "ara": "Partner Name_ara",
+        "fra": "Partner Name_fra",
+        "hin": "Partner Name_hin",
+        "kan": "Partner Name_kan",
+        "tam": "Partner Name_tam",
+        "kin": "_kin_Partner Name"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "dropdown",
+      "ismandatory": "true",
+      "showInListView": "false",
+      "showInSingleView": "true"
+    },
+    {
+      "name": "policyId",
+      "label": {
+        "eng": "Policy Name",
+        "ara": "Policy Name_ara",
+        "fra": "Policy Name_fra",
+        "hin": "Policy Name_hin",
+        "kan": "Policy Name_kan",
+        "tam": "Policy Name_tam",
+        "kin": "_kin_Policy Name"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "dropdown",
+      "ismandatory": "true",
+      "showInListView": "false",
+      "showInSingleView": "true"
+    },
+    {
+      "name": "partnerName",
+      "label": {
+        "eng": "Partner Name",
+        "ara": "Partner Name_ara",
+        "fra": "Partner Name_fra",
+        "hin": "Partner Name_hin",
+        "kan": "Partner Name_kan",
+        "tam": "Partner Name_tam",
+        "kin": "_kin_Partner Name"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "",
+      "ismandatory": "false",
+      "showInListView": "true",
+      "showInSingleView": "false"
+    },
+    {
+      "name": "policyName",
+      "label": {
+        "eng": "Policy Name",
+        "ara": "Policy Name_ara",
+        "fra": "Policy Name_fra",
+        "hin": "Policy Name_hin",
+        "kan": "Policy Name_kan",
+        "tam": "Policy Name_tam",
+        "kin": "_kin_Policy Name"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "",
+      "ismandatory": "false",
+      "showInListView": "true",
+      "showInSingleView": "false"
+    },
+    {
+      "name": "requestDetail",
+      "label": {
+        "eng": "Request Detail",
+        "ara": "Request Detail_ara",
+        "fra": "Request Detail_fra",
+        "hin": "Request Detail_hin",
+        "kan": "Request Detail_kan",
+        "tam": "Request Detail_tam",
+        "kin": "_kin_Request Detail"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true",
+      "showInListView": "true",
+      "showInSingleView": "true"
+    },
+    {
+      "name": "statusCode",
+      "label": {
+        "eng": "Status",
+        "ara": "Status_ara",
+        "fra": "Status_fra",
+        "hin": "Status_hin",
+        "kan": "Status_kan",
+        "tam": "Status_tam",
+        "kin": "_kin_Status"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "",
+      "ismandatory": "false",
+      "showInListView": "true",
+      "showInSingleView": "false"
+    }
+  ],
+  "paginator": {
+    "totalEntries": null,
+    "pageSize": "10",
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
+  },
+  "filterColumns": [
+    {
+      "filtername": "partnerName",
+      "filterlabel": {
+        "eng": "Partner Name",
+        "ara": "Partner Name_ara",
+        "fra": "Partner Name_fra",
+        "hin": "Partner Name_hin",
+        "kan": "Partner Name_kan",
+        "tam": "Partner Name_tam",
+        "kin": "_kin_Partner Name"
+      },
+      "filterType": "equals",
+      "fieldType": "input",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "",
+      "fieldName": "partnerName",
+      "methodCallName": ""
+    },
+    {
+      "filtername": "policyName",
+      "filterlabel": {
+        "eng": "Policy Name",
+        "ara": "Policy Name_ara",
+        "fra": "Policy Name_fra",
+        "hin": "Policy Name_hin",
+        "kan": "Policy Name_kan",
+        "tam": "Policy Name_tam",
+        "kin": "_kin_Policy Name"
+      },
+      "filterType": "equals",
+      "fieldType": "input",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "",
+      "fieldName": "policyName",
+      "methodCallName": ""
+    },
+    {
+      "filtername": "requestDetail",
+      "filterlabel": {
+        "eng": "Request Detail",
+        "ara": "Request Detail_ara",
+        "fra": "Request Detail_fra",
+        "hin": "Request Detail_hin",
+        "kan": "Request Detail_kan",
+        "tam": "Request Detail_tam",
+        "kin": "_kin_Request Detail"
+      },
+      "filterType": "equals",
+      "fieldType": "input",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "",
+      "fieldName": "requestDetail",
+      "methodCallName": ""
+    }
+  ]
 }

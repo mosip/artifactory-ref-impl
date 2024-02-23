@@ -1,9 +1,13 @@
 {
-  "auditEventIds": ["ADM-039", "ADM-061"],
+  "auditEventIds": [
+    "ADM-039",
+    "ADM-061"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Activate",
+        "kin": "Tangiza",
         "ara": "تنشيط",
         "fra": "déclencher",
         "hin": "सक्रिय",
@@ -19,6 +23,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "kin": "Hagarika",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "hin": "निष्क्रिय करें",
@@ -34,6 +39,7 @@
     {
       "buttonName": {
         "eng": "Decommission",
+        "kin": "Vana muri servisi",
         "ara": "وقف التشغيل",
         "fra": "mettre hors service",
         "hin": "डीकमिशन",
@@ -49,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "kin": "Hindura",
         "ara": "تصحيح",
         "fra": "modifier",
         "hin": "संपादित करें",
@@ -64,6 +71,7 @@
     {
       "buttonName": {
         "eng": "Create Machine",
+        "kin": "Ongeraho imashini",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "hin": "मशीन बनाएं",
@@ -78,10 +86,20 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி" },
+      "buttonName": {
+        "eng": "Filter",
+        "kin": "Hitamo",
+        "ara": "تصفيه",
+        "fra": "filtre",
+        "hin": "फ़िल्टर",
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "tam": "வடிகட்டி"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -93,6 +111,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Machine Name",
+        "kin": "Izina ry'imashini",
         "ara": "اسم الجهاز",
         "fra": "Nom de la machine",
         "hin": "मशीन का नाम",
@@ -109,6 +128,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Machine Type",
+        "kin": "Ubwoko bw'imashini",
         "ara": "نوع الجهاز",
         "fra": "Type de machine",
         "hin": "मशीन की तरह",
@@ -123,7 +143,15 @@
     {
       "name": "macAddress",
       "showInListView": "",
-      "label": { "eng": "Mac Address", "ara": "عنوان", "fra": "Mac Adresse","hin": "मैक पते", "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ", "tam": "Mac முகவரி" },
+      "label": {
+        "eng": "Mac Address",
+        "kin": "Ikirango cy'imashini",
+        "ara": "عنوان",
+        "fra": "Mac Adresse",
+        "hin": "मैक पते",
+        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ",
+        "tam": "Mac முகவரி"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -134,6 +162,7 @@
       "showInListView": "",
       "label": {
         "eng": "Serial Number",
+        "kin": "Nomero iranga imashini",
         "ara": "الرقم التسلسلي",
         "fra": "numéro",
         "hin": "क्रमिक संख्या",
@@ -150,6 +179,7 @@
       "showInListView": "",
       "label": {
         "eng": "Center",
+        "kin": "Ikigo",
         "ara": "مركز",
         "fra": "Centre",
         "hin": "केंद्र",
@@ -166,6 +196,7 @@
       "showInListView": "",
       "label": {
         "eng": "Created Time",
+        "kin": "Igihe Bikorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "hin": "बनाया गया समय",
@@ -180,7 +211,15 @@
     {
       "name": "isActive",
       "showInListView": "true",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": {
+        "eng": "Status",
+        "kin": "Imiterere",
+        "ara": "حاله",
+        "fra": "statut",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -190,13 +229,20 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "name",
       "filterlabel": {
         "eng": "Machine Name",
+        "kin": "Izina ry'imashini",
         "ara": "اسم الجهاز",
         "fra": "Nom de la machine",
         "hin": "मशीन का नाम",
@@ -215,6 +261,7 @@
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
+        "kin": "Imiterere",
         "ara": "حاله",
         "fra": "statut",
         "hin": "स्थिति",
@@ -231,7 +278,15 @@
     },
     {
       "filtername": "macAddress",
-      "filterlabel": { "eng": "MAC Address", "ara":"عنوان ماك", "fra": "Adresse Mac","hin": "मैक पते", "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ", "tam": "Mac முகவரி" },
+      "filterlabel": {
+        "eng": "MAC Address",
+        "kin": "Ikirango cy'imashini",
+        "ara": "عنوان ماك",
+        "fra": "Adresse Mac",
+        "hin": "मैक पते",
+        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ",
+        "tam": "Mac முகவரி"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -242,9 +297,15 @@
     },
     {
       "filtername": "serialNum",
-      "filterlabel": {"eng":"Serial Number","ara":"رقم سري", "fra": "Numéro de série","hin": "क्रमिक संख्या",
+      "filterlabel": {
+        "eng": "Serial Number",
+        "kin": "Nomero iranga imashini",
+        "ara": "رقم سري",
+        "fra": "Numéro de série",
+        "hin": "क्रमिक संख्या",
         "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ",
-        "tam": "வரிசை எண்"},
+        "tam": "வரிசை எண்"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -257,6 +318,7 @@
       "filtername": "machineTypeName",
       "filterlabel": {
         "eng": "Machine Type",
+        "kin": "Ubwoko bw'imashini",
         "ara": "نوع الجهاز",
         "fra": "Type de machine",
         "hin": "मशीन की तरह",

@@ -1,23 +1,29 @@
 {
-  "auditEventIds": ["ADM-030", "ADM-052"],
-  "actionButtons": [{
-    "buttonName": {
-      "eng": "Activate",
-      "ara": "تنشيط",
-      "fra": "déclencher",
-      "tam": "செயல்படுத்த",
-      "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
-    },
-    "actionURL": "",
-    "redirectURL": "",
-    "showIn": "Ellipsis",
-    "validations": "",
-    "callBackFunction": "activateCenter"
-  },
+  "auditEventIds": [
+    "ADM-030",
+    "ADM-052"
+  ],
+  "actionButtons": [
     {
       "buttonName": {
-        "eng": "Deactivate",
+        "eng": "Activate",
+        "kin": "Emeza",
+        "ara": "تنشيط",
+        "fra": "déclencher",
+        "tam": "செயல்படுத்த",
+        "hin": "सक्रिय",
+        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "activateCenter"
+    },
+    {
+      "buttonName": {
+        "eng": "DeactivateDeactivate",
+        "kin": "Kuraho",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "tam": "செயலிழக்க",
@@ -33,6 +39,7 @@
     {
       "buttonName": {
         "eng": "Decommission",
+        "kin": "Kureka",
         "ara": "وقف التشغيل",
         "fra": "mettre hors service",
         "tam": "நீக்கம்",
@@ -48,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "kin": "Hindura",
         "ara": "تصحيح",
         "fra": "modifier",
         "tam": "தொகு",
@@ -63,6 +71,7 @@
     {
       "buttonName": {
         "eng": "Create Device",
+        "kin": "kora igikoresho",
         "ara": "إإنشاء الجهاز",
         "fra": "Créer un appareil",
         "tam": "சாதனத்தை உருவாக்கவும்",
@@ -79,6 +88,7 @@
     {
       "buttonName": {
         "eng": "Filter",
+        "kin": "Yungurura",
         "ara": "تصفيه",
         "fra": "filtre",
         "tam": "வடிகட்டி",
@@ -95,27 +105,30 @@
       "validations": ""
     }
   ],
-  "columnsToDisplay": [{
-    "name": "name",
-    "showInListView": "True",
-    "label": {
-      "eng": "Device Name",
-      "ara": "اسم الجهاز",
-      "fra": "Nom de la Device",
-      "tam": "சாதனத்தின் பெயர்",
-      "hin": "डिवाइस का नाम",
-      "kan": "ಸಾಧನದ ಹೆಸರು"
+  "columnsToDisplay": [
+    {
+      "name": "name",
+      "showInListView": "True",
+      "label": {
+        "eng": "Device Name",
+        "kin": "Izina ry'igikoresho",
+        "ara": "اسم الجهاز",
+        "fra": "Nom de la Device",
+        "tam": "சாதனத்தின் பெயர்",
+        "hin": "डिवाइस का नाम",
+        "kan": "ಸಾಧನದ ಹೆಸರು"
+      },
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
     },
-    "sortOrder": "3",
-    "showAsLink": "",
-    "linkType": "",
-    "LinkURL": ""
-  },
     {
       "name": "deviceTypeName",
       "showInListView": "true",
       "label": {
         "eng": "Device Type",
+        "kin": "Ubwoko bw'igikoresho",
         "ara": "نوع الجهاز",
         "fra": "Type de Device",
         "tam": "கருவியின் வகை",
@@ -132,6 +145,7 @@
       "showInListView": "",
       "label": {
         "eng": "Mac Address",
+        "kin": "aderesi ya Mac",
         "ara": "عنوان",
         "fra": "Mac Adresse",
         "tam": "Mac முகவரி",
@@ -148,6 +162,7 @@
       "showInListView": "",
       "label": {
         "eng": "Serial Number",
+        "kin": "nimero ya serial",
         "ara": "الرقم التسلسلي",
         "fra": "numéro",
         "tam": "வரிசை எண்",
@@ -164,6 +179,7 @@
       "showInListView": "",
       "label": {
         "eng": "Center",
+        "kin": "Icyicaro",
         "ara": "مركز",
         "fra": "Centre",
         "hin": "केंद्र",
@@ -180,6 +196,7 @@
       "showInListView": "",
       "label": {
         "eng": "Created Time",
+        "kin": "Igihe byakorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "tam": "நேரம் உருவாக்கப்பட்டது",
@@ -196,6 +213,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Status",
+        "kin": "Uko Bihagaze",
         "ara": "حاله",
         "fra": "statut",
         "tam": "நிலை",
@@ -211,31 +229,40 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
-  "filterColumns": [{
-    "filtername": "name",
-    "filterlabel": {
-      "eng": "Device Name",
-      "ara": "اسم الجهاز",
-      "fra": "Nom de l'appareil",
-      "tam": "பெயர்",
-      "hin": "नाम",
-      "kan": "ಹೆಸರು"
+  "filterColumns": [
+    {
+      "filtername": "name",
+      "filterlabel": {
+        "eng": "Device Name",
+        "kin": "Izina ry'igikoresho",
+        "ara": "اسم الجهاز",
+        "fra": "Nom de l'appareil",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು"
+      },
+      "filterType": "contains",
+      "fieldType": "input",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "devices",
+      "fieldName": "name",
+      "methodCallName": ""
     },
-    "filterType": "contains",
-    "fieldType": "input",
-    "autocomplete": "false",
-    "dropdown": "false",
-    "datePicker": "false",
-    "apiName": "devices",
-    "fieldName": "name",
-    "methodCallName": ""
-  },
     {
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
+        "kin": "Uko Bihagaze",
         "ara": "الحالة",
         "fra": "Statut",
         "tam": "நிலை",
@@ -255,6 +282,7 @@
       "filtername": "macAddress",
       "filterlabel": {
         "eng": "MAC Address",
+        "kin": "aderesi ya Mac",
         "ara": "عنوان ماك",
         "fra": "Adresse Mac",
         "tam": "Mac முகவரி",
@@ -273,6 +301,7 @@
       "filtername": "serialNum",
       "filterlabel": {
         "eng": "Serial Number",
+        "kin": "nimero ya serial",
         "ara": "رقم سري",
         "fra": "Numéro de série",
         "tam": "வரிசை எண்",
@@ -291,6 +320,7 @@
       "filtername": "deviceTypeName",
       "filterlabel": {
         "eng": "Device Type",
+        "kin": "Ubwoko bw'igikoresho",
         "ara": " نوع الجهاز",
         "fra": "Type d'appareil",
         "tam": "கருவியின் வகை",

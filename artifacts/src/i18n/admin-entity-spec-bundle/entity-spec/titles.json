@@ -1,15 +1,18 @@
 {
-  "auditEventIds": ["ADM-041", "ADM-063"],
+  "auditEventIds": [
+    "ADM-041",
+    "ADM-063"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Activate",
+        "kin": "Emeza",
         "ara": "تنشيط",
         "fra": "déclencher",
         "hin": "सक्रिय ",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ  ",
         "tam": "செயல்படுத்த "
-
       },
       "actionURL": "",
       "redirectURL": "",
@@ -20,12 +23,12 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "kin": "Kuraho",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "hin": "निष्क्रिय करें  ",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ   ",
         "tam": "செயலிழக்க  "
-
       },
       "actionURL": "",
       "redirectURL": "",
@@ -36,6 +39,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "kin": "Hindura",
         "ara": "تصحيح",
         "fra": "modifier",
         "hin": "संपादित करें ",
@@ -51,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Create",
+        "kin": "Kora",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "hin": "सर्जन करना  ",
@@ -65,10 +70,17 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" },
+      "buttonName": {
+        "eng": "Filter",
+        "kin": "Yungurura",
+        "ara": "تصفيه",
+        "fra": "filtre"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -81,6 +93,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Code",
+        "kin": "Kode",
         "ara": "رمز",
         "fra": "Code",
         "hin": "कोड   ",
@@ -101,6 +114,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Name",
+        "kin": "Izina",
         "ara": "اسم",
         "fra": "prénom",
         "hin": "नाम    ",
@@ -119,10 +133,15 @@
       "name": "titleDescription",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Description", "ara": "وصف", "fra": "description",
+      "label": {
+        "eng": "Description",
+        "kin": "Ubusobanuro",
+        "ara": "وصف",
+        "fra": "description",
         "hin": "विवरण ",
         "kan": "ವಿವರಣೆ   ",
-        "tam": "விளக்கம்  " },
+        "tam": "விளக்கம்  "
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -136,6 +155,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created By",
+        "kin": "Byakozwe na",
         "ara": "تم إنشاؤه من قبل",
         "fra": "Créé par",
         "hin": "बनाया गया समय  ",
@@ -153,6 +173,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated By",
+        "kin": "Byahinduwe na",
         "ara": "تم التحديث بواسطة",
         "fra": "Mise à jour par",
         "hin": "द्वारा अपडेट   ",
@@ -170,6 +191,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated Time",
+        "kin": "Igihe byahinduriwe",
         "ara": "وقت التحديث",
         "fra": "Temps mis à jour",
         "hin": "दअपडेट किया गया समय  ",
@@ -187,6 +209,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created Time",
+        "kin": "Igihe byakorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "hin": "बनाया गया समय  ",
@@ -202,9 +225,15 @@
       "name": "isActive",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif","hin": "स्थिति ",
+      "label": {
+        "eng": "Status",
+        "kin": "Uko bihagaze",
+        "ara": "نشط",
+        "fra": "c'est actif",
+        "hin": "स्थिति ",
         "kan": "ಸ್ಥಿತಿ    ",
-        "tam": "நிலை"  },
+        "tam": "நிலை"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -216,14 +245,26 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "isActive",
-      "filterlabel": { "eng": "Status", "ara": "نشط", "fra": "Statut", "hin": "स्थिति ",
+      "filterlabel": {
+        "eng": "Status",
+        "kin": "Uko bihagaze",
+        "ara": "نشط",
+        "fra": "Statut",
+        "hin": "स्थिति ",
         "kan": "ಸ್ಥಿತಿ    ",
-        "tam": "நிலை" },
+        "tam": "நிலை"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "true",

@@ -1,9 +1,13 @@
 {
-  "auditEventIds": ["ADM-029", "ADM-051"],
+  "auditEventIds": [
+    "ADM-029",
+    "ADM-051"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Activate",
+        "kin": "Emeza",
         "ara": "تنشيط",
         "fra": "déclencher",
         "tam": "செயல்படுத்த",
@@ -19,6 +23,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "kin": "Hagarika",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "tam": "செயலிழக்க",
@@ -34,6 +39,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "kin": "Hindura",
         "ara": "تصحيح",
         "fra": "modifier",
         "tam": "தொகு",
@@ -49,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Create",
+        "kin": "Kora",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "tam": "உருவாக்கு",
@@ -63,15 +70,20 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter",
-        "fra": "filtre",
+      "buttonName": {
+        "eng": "Filter",
+        "fra": "Yungurura",
+        "kin": "",
         "ara": "تصفيه",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ" },
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -82,9 +94,15 @@
       "name": "code",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Code", "ara": "الشفرة", "fra": "Code","tam": "குறியீடு",
+      "label": {
+        "eng": "Code",
+        "kin": "Kode",
+        "ara": "الشفرة",
+        "fra": "Code",
+        "tam": "குறியீடு",
         "hin": "कोड",
-        "kan": "ಕೋಡ್"},
+        "kan": "ಕೋಡ್"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -96,9 +114,15 @@
       "name": "name",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Name", "ara": "اسم", "fra": "prénom","tam": "பெயர்",
+      "label": {
+        "eng": "Name",
+        "kin": "Izina",
+        "ara": "اسم",
+        "fra": "prénom",
+        "tam": "பெயர்",
         "hin": "नाम",
-        "kan": "ಹೆಸರು"},
+        "kan": "ಹೆಸರು"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -110,9 +134,15 @@
       "name": "description",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Description", "ara": "وصف", "fra": "description","tam": "விளக்கம்",
+      "label": {
+        "eng": "Description",
+        "kin": "Ubusobanuro",
+        "ara": "وصف",
+        "fra": "description",
+        "tam": "விளக்கம்",
         "hin": "विवरण",
-        "kan": "ವಿವರಣೆ" },
+        "kan": "ವಿವರಣೆ"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -120,13 +150,13 @@
       "inputType": "textarea",
       "ismandatory": "false"
     },
-
     {
       "name": "createdBy",
       "showInListView": "false",
       "showInSingleView": "false",
       "label": {
         "eng": "Created By",
+        "kin": "Byakozwe na",
         "ara": "تم إنشاؤه من قبل",
         "fra": "Créé par",
         "tam": "உருவாக்கப்பட்டது",
@@ -144,6 +174,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated By",
+        "kin": "Byahinduwe na",
         "ara": "تم التحديث بواسطة",
         "fra": "Mise à jour par",
         "tam": "புதுப்பிக்கப்பட்டது",
@@ -161,6 +192,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated Time",
+        "kin": "Igihe byahinduriwe",
         "ara": "وقت التحديث",
         "fra": "Temps mis à jour",
         "tam": "புதுப்பிக்கப்பட்ட நேரம்",
@@ -178,6 +210,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created Time",
+        "kin": "Igihe byakorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "tam": "Created Time",
@@ -189,28 +222,46 @@
       "name": "isActive",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif","tam": "நிலை",
+      "label": {
+        "eng": "Status",
+        "kin": "Uko bihagaze",
+        "ara": "نشط",
+        "fra": "c'est actif",
+        "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"},
+        "kan": "ಸ್ಥಿತಿ"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
       "LinkURL": "",
       "inputType": "dropdown",
       "ismandatory": "false"
-      }
+    }
   ],
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "name",
-      "filterlabel": { "eng": "Name", "ara": "اسم", "fra": "prénom","tam": "பெயர்",
+      "filterlabel": {
+        "eng": "Name",
+        "kin": "Izina",
+        "ara": "اسم",
+        "fra": "prénom",
+        "tam": "பெயர்",
         "hin": "नाम",
-        "kan": "ಹೆಸರು"},
+        "kan": "ಹೆಸರು"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -221,9 +272,15 @@
     },
     {
       "filtername": "isActive",
-      "filterlabel": { "eng": "Status", "ara": "نشط", "fra": "Statut", "tam": "நிலை",
+      "filterlabel": {
+        "eng": "Status",
+        "kin": "Uko bihagaze",
+        "ara": "نشط",
+        "fra": "Statut",
+        "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"},
+        "kan": "ಸ್ಥಿತಿ"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "true",

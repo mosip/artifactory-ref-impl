@@ -1,0 +1,823 @@
+{
+  "quick_guide": {
+    "breadcrumb": {
+      "home": "Ahabanza",
+      "getting_started": "Gutangira"
+    },
+    "headerText": {
+      "line1": "Gukora igikorwa kibanziriza kwiyandikisha ku muntu umwe cyangwa benshi, Uzuza amakuru y'ibanze uahyireho n'ibyangombwa bisabwa. Gusaba gahunda, hitamo aho wifuza kwiyandikishiriza, itariki n'umunsi. Igikorwa kibanziriza kwiyandikisa nikigenda neza, murabona ubutumwa kuri imeri cyangwa kuri nomero ya telephone.",
+      "line2": "Kanda ku bika bikurikira kugirango ubone amakuru ahagije ajyanye no kuzuza ifishi y'igikorwa kibanziriza kwiyandikisha."
+    },
+    "select_language": {
+      "name": "Hitamo ururimi ushaka",
+      "list": {
+        "line1": "Ku ipaji yo kwinjira muri konti yawe, kanda ku kamenyetso kareba hasi ku rurimi kugirango ubone ilisiti y'indimi",
+        "line2": "Hitamo ururimi ushaka"
+      },
+      "note": "Icyitonderwa: Amazina y'ibyo mwuzuza mu tuzu, aho mwibeshye n'ubutumwa ku makuru bujyanye n'iki gikorwa cyo kwiyandikisha muragenda mubibona mu rurimi mwahisemo."
+    },
+    "login": {
+      "name": "Kwinjira muri konti",
+      "list": {
+        "line1": "Ku ipaji yo kwinjira muri konti yawe, injiza imeri cyangwa nomero ya telefone mu kazu ka emeri ID cyangwa aka nomero ya telefone.",
+        "line2": "Hitamo akazu ka captcha",
+        "line3": "Kanda kohereza OTP kugirango ubone ijambobanga rikoreshwa rimwe (OTP) kuri imeri cyangwa nomero ya telefone mwatanze.",
+        "line4": "Injiza OTP (ijambobanga rikoreshwa rimwe) mu kazu ka OTP ubundi ukande kuri genzura."
+      },
+      "note": "Icyitonderwa: Mu gihe mutabonye OTP, kanda kongera kohereza kugirango mubone indi OTP. Injiza OTP (ijambobanga rikoreshwa rimwe) nshya mwabonye.",
+      "line": "Iyo OTP yagenzuwe, ushobora gukora, kureba cyangwa ugahindura ubusabe bw'igikorwa kibanziriza kwiyandikisha."
+    },
+    "select_data_capture_language": {
+      "name": "Hitamo ururimi rwo gufatamo amakuru",
+      "list": {
+        "line1": "Umuntu winjiye muri sisitemu bwa mbere kandi adafite ubusabe azajya asabwa guhitamo ururimi rwo gufatamo amakuru ye. Izondimi nizo zizakoreshwa ubutaha ku bundi busabe bwose buzakorwa mu ako kanya.",
+        "line2": "Ururimi ukoresha sisitemu yahisemo yinjira muri konti nirwo ruzatoranywamo nk'ururimi rwo gufatamo amakuru",
+        "line3": "Ukoresha sisitemu ashobora kubihindura akanze kuri hindura ururimi rwo gufatamo amakuru"
+      },
+      "note": "Icyitonderwa: Aya mahitamo araboneka gusa ari uko ushinzwe gutanga indangamuntu (ID) yashyizemo uburyo bwo gukoresha izindi ndimi."
+    },
+    "t&c": {
+      "name": "Emeza Amategeko n' Amabwiriza",
+      "list": {
+        "line1": "Ku ipaji y'amakuru y'abanze, uragirwa inama yo kubanza gusoma amategeko n' amabwiriza ukavivura akazu ka ndabyemeye. Icyi cyemezo n'icyo kutwemerera kubika no gukoresha amakuru akwerekeyeho.",
+        "line2": "Kanda ndabyemeye kugirango ubyemere ubundi wuzuze amakuru y'ibanze."
+      },
+      "note": "Icyitonderwa: Ukoresha sisitemu ni itegeko ko agomba kutwemerera gukoresha amakuru amwerekeyeho mu gukora cyangwa kuvugurura ubusabe. Ibigize ubusabe bizajya bigaragazwa mu ndimi zose zo gufata amakuru"
+    },
+    "demographic": {
+      "name": "Uzuza amakuru y'ibanze",
+      "list": {
+        "line1": "Uzuza amakuru yose y'ibanze akwerekeyeho, harimo amazina, imyaka ufite/ itariki y'amavuko, igitsina, utuye mu Rwanda nka, aderesi, nomero ya telefone na imeri ID, n'ibindi.",
+        "line1_note": "Icyitonderwa: Mushobora kwinjiza imyaka mufite cyangwa mukinjiza itariki yanyu y'amavuko.",
+        "line2": "Mushobora no guhindura cyangwa mukagenzura amakuru yanyu y'ibanze mu rurimi rwa kabiri i buryo.",
+        "line3": "Nyuma yo kuzuza no kugenzura amakuru yanyu y'ibanze, kanda komeza ushyireho ibyangombwa byawe."
+      },
+      "line": "Icyitonderwa: Amazina y'ibyo mwuzuza mu tuzu, aho mwibeshye n'ubutumwa ku makuru bujyanye n'iki gikorwa cyo kwiyandikisha muragenda mubibona mu rurimi mwahisemo."
+    },
+    "documents": {
+      "name": "Shyiraho ibyangombwa",
+      "list": {
+        "line1": "Ku ipaji yo gushyiraho ibyangombwa, hitamo ibyangombwa (urugero: pasiporo, indangamuntu, n'ibindi) ku kamenyetso kareba hasi ka lisiti y'ibyangombwa ku byangombwa byose bikenewe.",
+        "line2": "Kanda gushakisha kugirango ufungure akazu ko gushaka aho ibyangombwa bibitse kuri mudasobwa yawe cyangwa ahandi waba warabitse ibyangombwa bisikannye.",
+        "line3": "Hitamo icyangombwa ushaka gushyiraho.",
+        "line4": "Iyo gushyiraho icyangomba byagenze neza, Icyangombwa kigaragara ku ruhande rw'iburyo. Genzura ko washyizeho icyangombwa cya nyacyo.",
+        "line5": "Subiramo intambwe ya 1-4 kugirango ushyireho icyangombwa kuri buri bwoko bw'ibyangombwa bishoboka.",
+        "line6": "Iyo wongeraho undi muntu usaba, niba umuntu mushya usaba yongeweho, icyangombwa k' ikizibiti cya aderesi (POA) ni kimwe n'igisanzwe ku muntu warusanzwemo, wari waramaze gushyiraho icyangombwa cye cya POA, ubundi ukande ni kimwe ubundi uhitemo amazina y'usaba.",
+        "line7": "Iyo urangije gushyiraho ibyangombwa byose, kanda gukomeza kugirango usubiremo usuzume ubusabe bwawe."
+      }
+    },
+    "preview": {
+      "name": "Subiramo usuzume amakuru",
+      "list": {
+        "line1": "Ku ipaji yo gusuzuma ubusabe bwanyu, niba mushaka guhindura amakuru yanyu yibanze (amazina, imyaka, n'ibindi), kanda guhindura ku ruhande rwo hejuru iburyo ku gika cy'amakuru y'ibanze, kugirango ujye ku ipaji y'amakuru y'ibanze uhindure amakuru nk'uko bisabwa.",
+        "line2": "Guhindura ibyangombwa mwashyizeho,kanda guhindura ku ruhande rwo hasi ku gika cy'ibyangombwa, Jya ku ipaji yo gushyiraho ibyangombwa hanyuma uhindure ibyangombwa washyizeho nk'uko bisabwa.",
+        "line3": "Niba ushaka kongeraho usaba mushya, Kanda ongeraho usaba.",
+        "line3_note": "Icyitonderwa: N'ukanda kongeraho usaba, urajyanwa ku ipaji y'amakuru y'ibanze kugirango utwemerere gukoresha amakuru yawe hanyuma ukomeze utange amakuru y'ibanze akenewe n'ibyangombwa.",
+        "line4": "Kanda gusaba gahunda."
+      }
+    },
+    "CenterSelection": {
+      "name": "Hitamo aho kwiyandikishiriza",
+      "list": {
+        "line1": "Ku ipaji yo gusaba gahunda, ushobora kubona aho kwiyandikishiriza unyuze muri aya mahitamo atatu akurikira:",
+        "line1_note": "Icyitonderwa: aho kwiyandikishiriza hashoboka hahita hagaragazwa hashingiwe ku makuru y'ibanze watanze (agasanduku k'iposita)",
+        "subList": {
+          "line1": "Kanda aho kwiyandikishiriza hakwegereye kugirango urebe aho kwiyandikishiriza hashingiwe ku makuru y'aho mutuye.",
+          "line2": "Koresha akazu k'ishakiro kugirango ushake aho kwiyandikishiriza hashingiwe kucyo mushaka gushingiraho mushaka.",
+          "line3": "Kanda aho kwiyandikishiriza hashoboka kugirango ubone aho kwiyandikishiriza hashingiwe ku makuru yawe y'ibanze.(agasanduku k'iposita)"
+        },
+        "line2": "Ikarita y'aho kwiyandikishiriza hatoranyijwe hagaragara ku ruhande rw'iburyo rwa ekara yanyu.",
+        "line3": "Mukoresheje amahitamo ayo ariyo yose muri aya mahitamo atatu, hitamo aho ushaka kujya kwiyandikishiriza ubundi ukande komeza gusaba gahunda."
+      }
+    },
+    "Booking": {
+      "name": "Saba gahunda",
+      "list": {
+        "line1": "Sisitemu iragaragaza urutonde rw'iminsi ihari kuri karindari n'imibare ya gahunda zihari. Hitamo itariki ushaka.",
+        "line2": "Urutonde amasaha ahari ku itariki mwahisemo ari hagati ya mu gitondo n'ikigoroba. Hitamo igihe ushaka.",
+        "line3": "Hitamo isaha ushaka mu rutonde.",
+        "line4": "Hitamo amazina y'usaba kugirango usabe gahunda.",
+        "line4_note": "Icyitonderwa: Urutonde rw'usaba/abasaba rugaragara hasi i buryo.",
+        "line5": "Genzura isaha nk'uko yatoranijwe ku izina ry'usaba/abasaba.",
+        "line6": "Kanda Kohereza kugirango urebe icyemeza ubusabe bwawe."
+      }
+    },
+    "Acknowledgement": {
+      "name": "Reba icyemeza ubusabe",
+      "list": {
+        "line1": "Nyuma y'uko kuzuza ubusabe bw'igikorwa kibanziriza kwiyandikisha byagenze neza, irabona icyemeza ubusabe.",
+        "line2": "Mushobora gucapa, gusohora cyangwa kohereza icyemeza ubusabe bwanyu kuri imeri cyangwa ubutumwa bugufi.",
+        "subList": {
+          "line1": "Gucapa icyemeza ubusabe, kanda gucapa.",
+          "line2": "Gusohora icyemeza ubusabe, kanda gusohora.",
+          "line3": "Kongeraho undi muntu ubona icyemeza ubusabe, kurikiza izi ntambwe:",
+          "subList": {
+            "line1": "Kanda ohereza imeri/ubutumwa bugufi.",
+            "line2": "Injiza nomero ya telefone mu kazu ka nomero ya telefone na/cyangwa imeri mu kazu ko kwandikamo imeri.",
+            "line3": "Kanda ohereza kugirango ubone icyemeza ubusabe kuri imeri cyangwa nomero ya telefone mwatanze."
+          }
+        }
+      }
+    },
+    "status": {
+      "name": "Ubusobanuro bw'aho bigeze",
+      "headers": {
+        "status": "Aho bigeze",
+        "explanation": "ubusobanuro"
+      },
+      "status": {
+        "pendingAppointment": "Ghunda igitegereje",
+        "booked": "gahunda yasabwe",
+        "expired": "gahunda yarangiye",
+        "canceled": "gahunda yahakanywe"
+      },
+      "explanation": {
+        "pendingAppointment": {
+          "line1": "1. yujuje amakuru y'ibanze gusa",
+          "line1_action": "Igikorwa: Shyiraho ibyangombwa byawe hanyuma usabe gahunda",
+          "line2": "2. Yujuje amakuru y'ibanze ashyiraho n'ibyangombwa",
+          "line2_action": "Igikorwa: saba gahunda"
+        },
+        "booked": {
+          "line1": "Yujuje amakuru y'ibanze, ashyiraho ibyangombwa asaba na gahunda",
+          "line1_action": "Igikorwa: Sura aho kwiyandikishiriza ki itariki n'isaha bya gahunda yawe"
+        },
+        "cancelled": {
+          "line1": "Gahunda yahakanywe"
+        },
+        "expired": {
+          "line1": "Itariki ya gahunda yararenze"
+        }
+      }
+    },
+    "addApplicant": {
+      "name": "Ongeraho usaba mushya",
+      "line": "Ku ipaji yo gusaba, Kanda gukora ubusabe bushya kugirango utangire ubusabe bushya bw'usaba mushya."
+    },
+    "modify": {
+      "name": "Hindura amakuru",
+      "list": {
+        "line1": "Ku ipaji y'ubusabe, kanda guhindura amakuru kugirango ujye ku ipaji y'amakuru y'ibanze.",
+        "line2": "Ku ipaji y'amakuru y'ibanze, ushobora guhindura amakuru nk'ibikenewe hanyuma ukande komeza kugirango ujye ku ipaji yo gushyiraho ibyangombwa",
+        "line3": "ku ipaji yo gushyiraho ibyangombwa, ushobora guhindura ibyangombwa nk'ibikenewe."
+      }
+    },
+    "rebook": {
+      "name": "Ongera usabe gaunda",
+      "list": {
+        "line1": "Ku ipaji y'ubusabe, hitamo akazu k'usaba.",
+        "line2": "Kanda gusaba/ guhindura gahunda kugirango wongere usabe gahunda.",
+        "line3": "Kugirango umenye amakuru ku bijyanye no gusaba gahunda, reba igika cyo gusaba gahunda."
+      }
+    },
+    "cancelAppointment": {
+      "name": "Burizamo gahunda",
+      "list": {
+        "line1": "Ku ipaji y'ubusabe, kanda akamenyetso ko gusiba ubusabe bw'igikorwa kibanziriza kwiyandikisha cy'uwiyandikisha, akazu k'ubutumwa karaza kuri ekara yanyu.",
+        "line2": "Hitamo kuburizamo gahunda hanyuma ubike amakuru mu kazu k'ubutumwa. ",
+        "line3": "Click SUBMIT to cancel an appointment."
+      }
+    },
+    "discard": {
+      "name": "Kureka ubusabe",
+      "list": {
+        "line1": "Ku ipaji y'ubusabe, kanda akamenyetso ko gusiba ubusabe bw'igikorwa kibanziriza kwiyandikisha cy'uwiyandikisha, akazu k'ubutumwa karaza kuri ekara yanyu.",
+        "line2": "Hitamo uburyo bwo kureka ubusabe bwose mu kazu kari kuri ekara yanyu. ",
+        "line3": "Kanda kohereza kugirango ureke ubusabe."
+      }
+    },
+    "Logout": {
+      "name": "Sohoka",
+      "list": {
+        "line1": "Knada gusohoka mu nguni yo hejuru y'iburyo.",
+        "line2": "Kanda OK kugirango usohoke mu gikorwa cy'ubusabe bw'igikorwa kibanziriza kwiyandikisha."
+      },
+      "line": "Kwinjira ukoresheje nomero ya telefone cyangwa imeri kugirango ubone uburenganzira ku busabe bwabitswe."
+    }
+  },
+  "faq": {
+    "breadcrumb": {
+      "home": "Ahabanza",
+      "getting_started": "Ibibazo bikunzwe kubazwa"
+    },
+    "answer": "Ibisubizo",
+    "questions": [
+      {
+        "question": "Nta nomero ya telefone mfite cyangwa imeri. Ni gute nakora ubusabe bw'igikorwa kibanziriza kwiyandikisha?",
+        "answer": "Uahobora gukoresha nomero ya telefone cyangwa imeri y'inshuti cyangwa umuvandimwe ukinjira mu busabe bw'igikorwa kibanziriza kwiyandikisha"
+      },
+      {
+        "question": "Nabuze nomero ya telefone/imeri nakoresheje nkora ubusabe bw'igikorwa kibanziriza kwiyandikisha. nakora iki?",
+        "answer": "Kora indi konti ukoresheje nomero ya telefone cyangwa imeri nshya."
+      },
+      {
+        "question": "Ni iki kiba iyo mpisemo ururimi runaka kuri ekara yo kwinjira?",
+        "answer": "Hitamo ururimi ushobora gusoma no kwandika byoroshye kuko ifishi yose iragaragazwa mu rurimi runaka wahisemo"
+      },
+      {
+        "question": "Niba ntafite ibyangombwa bikenewe mu gihe cyo kuzuza ubusabe bw'igikorwa kibanziriza kwiyandikisha?",
+        "answer": "Uzuza amakuru y'ibanze hanyuma ubike ubusabe. Ushobora gushyiraho ibyangombwa ikindi gihe."
+      },
+      {
+        "question": "Nshobora gusaba gahunda y'abanyu babiri gusa mu bantu batanu bari ku busabe bw'igikorwa kibanziriza kwiyandikisha?",
+        "answer": "Yego, ushobora gusaba gahunda y'umubare runaka mu mubare wose w'abasaba."
+      },
+      {
+        "question": "Bigenda bite iyo ntubahirije itariki ya gahunda?",
+        "answer": "Gerageza wubahirize itariki ya gahunda. Nutayubahiriza, ongera uyisabe ukoresheje uburyo bwa “Hindura”."
+      },
+      {
+        "question": "Nasabye gahunda ku itariki ya 10 Gashyantare. Ese nshobora guhindura itariki ya gahunda yanjye ikaba ku itariki ya 18 Gashyantare?",
+        "answer": "Yego, Niba itararangiza igihe, ushobora gusaba gahunda nshya ku itariki izaza mu gihe kiri imbere."
+      },
+      {
+        "question": "Nsabye gahunda aho kwiyandikishiriza hitwa Kimironko. Ese nshobora guhindura aho kwiyandikishiriza hakaba ahitwa Gisozi?",
+        "answer": "Oya. gusa ushobora kureka gahunda ihari ugasaba indi gahunda nshyashya mu kandi gace wahisemo."
+      },
+      {
+        "question": "Nahinduye amakuru nyuma mbona icyemeza ubusabe. Ese ngomba gusohora cyangwa gucapa icyemeza ubusabe nanone?",
+        "answer": "Ipaji y'icyemeza ubusabe ni icyangombwa cyo kureberaho ukibuka agace n'itariki ya gahunda, n'ibindi. Aho kwiyandikishiriza, amakuru yawe mashya bazahita bayabona byihuse. Ntago ari ngombwa kongera gucapa cyangwa gusohora icyemeza ubusabe."
+      },
+      {
+        "question": "Nongeye gusaba iyindi gahunda nyuma mbona icyemeza ubusabe. Ese ni ngombwa ko nongera gusohora cyangwa gucapa icyemeza ubusabe nanone?",
+        "answer": "Ipaji y'icyemeza ubusabe ni icyangombwa cyo kwifashisha gusa wibuka agace n'isaha ya gahunda, n'ibindi. Uahobora kongera gucapa cyangwa gusohora icyemeza ubusabe kugirango bigufashe kwibuka igihe cya gahunda yawe ariko si ngombwa kubikora."
+      },
+      {
+        "question": "Ese undi muntu yakohereza ubusabe mu cyimbo cyanjye mu gihe cy'igikorwa kwiyandikisha?",
+        "answer": "Oya, igikorwa cyo kwiyandikisha bisaba gufata ifoto yawe n'amakuru(amafoto) y'ibice bimwe na bimwe bigize umubiri. Rero ugomba kuba uhari wowe ubwawe aho biyandikishiriza."
+      },
+      {
+        "question": "Ndi kuba kure y'aho ntuye ku buryo buhoraho mu gihe cy'imyaka ibiri. Ni ikihe kimenyetso (kizibiti) cy'aho ntuye ngomba gutanga?",
+        "answer": "GoM izafata umwanzuro w'ikibazo n'ibisubizo bikwiriye."
+      },
+      {
+        "question": "Ntago mfite ikimenyetso cya aderesi y'aho ntuye ubu. Nakora iki?",
+        "answer": "GoM izafata umwanzuro w'ikibazo n'ibisubizo bikwiriye."
+      },
+      {
+        "question": "Nta byangombwa na bimwe mfite. Nakora iki?",
+        "answer": "GoM izafata umwanzuro w'ikibazo n'ibisubizo bikwiriye."
+      },
+      {
+        "question": "Ni iminsi ingahe mbere nareka cyangwa nkasaba indi gahunda y'ubusabe?",
+        "answer": "GoM izafata umwanzuro w'ikibazo n'ibisubizo bikwiriye."
+      },
+      {
+        "question": "Ese ni ngombwa kwitwaza ibyangombwa bya orijinali cyangwa ibifotoje byasinyweho na noteri igihe nje aho biyandikishiriza?",
+        "answer": "GoM izafata umwanzuro w'ikibazo n'ibisubizo bikwiriye"
+      }
+    ]
+  },
+  "header": {
+    "link_about": "Gutangira",
+    "link_faq": "Ibibazo bikunze kubazwa",
+    "link_contact": "Aderesi",
+    "link_applications": "Ubusabe bwawe",
+    "link_logout": "Sohoka",
+    "link_login": "Injira"
+  },
+  "login": {
+    "text": "Intwambwe zihuse kandi zoroshye",
+    "sub_text": "kora igikorwa kibanziriza kwiyandikisha cya",
+    "sub_text_UID": "Ikiranga umuntu cyihariye",
+    "label_email_num": "Imeri cyangwa nomero ya telefone",
+    "label_otp": "Injiza ijambobanga rikoreshwa rimwe (OTP)",
+    "action_send": "Ohereza OTP",
+    "action_resend": "Ongera wohereze",
+    "action_verify": "Genzura",
+    "logout_msg": "Usaba agomba kwinjira akoresheje nomero/imeri kugirango akore ubusabe.",
+    "otp_valid_label": "Iracyafite agaciro kuri",
+    "invalidEmail": "Winjije imeri itariyo",
+    "invalidMobile": "Winjije nomero ya telefone itariyo",
+    "invalidInput": "Winjije imeri cyangwa nomero ya telefone itariyo",
+    "serverUnavailable": "Ntibishobotse kukoherereza OTP. Ongera ugerageze..",
+    "loading": "Iri kohereza..."
+  },
+  "stepper": {
+    "link_demographic": "Amakuru y'ibanze",
+    "link_upload_doc": "Shyiraho ibyangombwa",
+    "link_book": "Saba gahunda",
+    "link_confirm": "Kwemeza"
+  },
+  "demographic": {
+    "title": "Amakuru y'ibanze",
+    "language": "Icyongereza",
+    "label_name": "Amazina",
+    "label_age": "Imyaka",
+    "date_dd": "Umunsi",
+    "date_mm": "Ukwezi",
+    "date_yyyy": "Umwaka",
+    "text_or": "Cyangwa",
+    "text_years": "Imyaka",
+    "text_gender": "Igitsina",
+    "button_male": "Gabo",
+    "button_female": "Gore",
+    "text_residence_status": "Uba mu gihugu nk'",
+    "button_national": "Umunyagihugu",
+    "button_foreigner": "Umunyamahanga",
+    "label_address1": "Aderesi umurongo wa 1",
+    "label_address2": "Aderesi umurongo wa 2",
+    "label_address3": "Aderesi umurongo wa 3",
+    "label_region": "Agace",
+    "label_province": "Intara",
+    "label_city": "Umujyi",
+    "label_zone": "Zone",
+    "label_mob_num": "Nomero ya telefone",
+    "label_postalCode": "Agasanduku k'iposita",
+    "label_email_id": "Imeri",
+    "label_pin": "Indangamuntu y'ifatizo",
+    "action_back": "Inyuma",
+    "action_continue": "Komeza",
+    "action_preview": "Reba",
+    "read_only_message": "** Ntago uhobora guhindura ubu busabe, kuko ubu cyangwa wamaze gusaba gahunda y'ubu busabe. Niba ugishaka kugira icyo uhindura, reka ubu busabe ukore ubundi bushya.",
+    "lookup_search_message": "Shakisha ",
+    "lookup_no_results_found": "Ntacyo bijyanye cyabonetse.",
+    "change_data_capture_langs": "Hindura indimi zo gufatamo amakuru",
+    "change_data_capture_langs_msg": "Amakuru yose winjije azaburizwamo hanyuma wongere utangire. Nyabuneka Byemeze.",
+    "consent": {
+      "title": "Amategeko n'amabwiriza",
+      "subtitle": "Icyemezo cyawe",
+      "message": "Kugirango utwemerere kubika no gukoresha amakuru yawe akwerekeyeho nk'uko yatanzwe",
+      "checkCondition": "Kanda kwemera amategeko n'amabwiriza",
+      "acceptButton": "Emeza",
+      "cancelButton": "Hakana",
+      "alertMessageFirst": "Urasohorwa n'utemera amategeko n'amabwiriza",
+      "alertMessageSecond": "Urajyanwa ku ipaji y'ubusabe bwawe n'utemera amategeko n'amabwiriza",
+      "alertMessageThird": "Urajyanwa ku ipaji yo kureba n'utemera amategeko n'amabwiriza"
+    },
+    "validation": {
+      "DOB_validation": "Injiza itariki ya nyayo y'amavuko cyangwa imyaka",
+      "requiredMessage": "Ni ngombwa",
+      "InvalidMessage": "Ni iyanyayo"
+    }
+  },
+  "documents": {
+    "title_document": "Shyiraho ibyangombwa",
+    "text_filetype": "Ubwoko bw'icyangomwa bwemewe ",
+    "text_filesize": "n' ingano y'icyangombwa yemewe",
+    "action_browse": "Shakisha",
+    "action_back": "Inyuma",
+    "action_skip": "Bisimbuke",
+    "action_continue": "Komeza",
+    "label_sameas": "Ni kimwe na",
+    "text_or": "Cyangwa",
+    "action_view": "Reba",
+    "OR": "Cyangwa",
+    "text_docrefid": "Ikiranga icyangombwa cyo kwifashisha",
+    "sameAs": "Ni kimwe na",
+    "sameAsNone": "Nta na kimwe"
+  },
+  "acknowledgement": {
+    "title": "Ubusabe bwemejwe",
+    "message": "Gahunda y'ubusabe bw'igikorwa kibanziriza kwiyandikisha yoherejwe kuri imeri na nomero ya telefone mwatanze",
+    "label_name": "Amazina",
+    "label_pre_id": "Ikiranga igikorwa kibanziriza kwiyandikisha",
+    "label_reg_cntr": "Izina ry'aho kwiyandikishiriza",
+    "label_cntr_contact_number": "Nomero ya telefone y'aho kwiyandikishiriza",
+    "label_appointment_date_time": "Itariki n'isaha bya gahunda",
+    "container_guideline": "Amabwiriza y'ingenzi",
+    "action_send": "Ohereza Imeri/Ubutumwa bugufi",
+    "action_download": "Sohora PDF",
+    "action_print": "Gucapa",
+    "label_reg_cntr_dtl": "Aderesi y'aho kwiyandikishiriza"
+  },
+  "preview": {
+    "title_preview": "Reba",
+    "language": "Icyongereza",
+    "subheading_information": "Amakuru akwerekeyeho",
+    "label_name": "Amazina",
+    "label_age": "Imyaka",
+    "label_DOB": "Itariki y'amavuko",
+    "text_years": "Imyaka",
+    "text_gender": "Igitsina",
+    "text_resident_status": "Utuye mu gihugu nk'",
+    "subheading_contact": "Nomero ya telefone",
+    "label_address": "Aderesi",
+    "label_region": "Agace",
+    "label_province": "Intara",
+    "label_city": "Umujyi",
+    "label_zone": "Zone",
+    "label_mob_num": "Nomero ya telefone",
+    "label_alt_mob_num": "Indi nomero ya telefone",
+    "label_email_id": "Imeri",
+    "label_pin": "Indangamuntu y'ifatizo",
+    "title_document": "Ibyangombwa byasyizweho",
+    "text_not_uploaded": "Ntago byashyizweho",
+    "action_modify": "Hindura",
+    "action_back": "Inyuma",
+    "action_add_applicant": "Ongeraho usaba",
+    "action_continue": "Komeza"
+  },
+  "message": {
+    "login": {
+      "msg1": "Imeri ntago ariyo",
+      "msg2": "Nomero ya telefone ntago ariyo",
+      "msg3": "OTP mwinjije ntago ariyo",
+      "msg4": "Kwinjira byagenze neza"
+    },
+    "demographicDetails": {
+      "msg1": "Ijambo riri kuri lisiti y'umukara ryinjijwe "
+    },
+    "uploadDocuments": {
+      "msg1": "Icyangombwa cyarengeje ingano yemewe",
+      "msg2": "Gusikana virusi byanze",
+      "msg3": "Ubwoko bw'icyangombwa ntago bwemewe",
+      "msg4": "Icyangombwa ni kinini cyane",
+      "msg5": "Izina ry'icyangombwa ntirigomba kurenza inyuguti 50",
+      "msg6": "Ubwoko bw'icyangombwa sibwo, Nyabuneka ongera ugishyireho nanone",
+      "msg7": "Icyangombwa ntago cyashoboye kujyaho, Nyabuneka ongera ugerageza.",
+      "msg8": "Ntago byakunze gufata kopi y'icyangombwa",
+      "msg9": "Ibyangombwa birabura",
+      "msg10": "Icyangombwa ntago cyashoboye gusibwa, Ongera ugerageza nanone.",
+      "msg11": "Nyabuneka emeza ko ushaka gusiba icyangombwa ",
+      "msg12": "Nyabuneka injiza ijambo cyangwa imibare gusa",
+      "msg13": "Nyabuneka injiza gusa inyuguti 50 cyangwa nkeya",
+      "title_confirm": "Siba",
+      "button_cancel": "Reka",
+      "none": "Nta nakimwe"
+    },
+    "appointmentCentreSearch": {
+      "msg1": "Nta gisubizo cyabonetse",
+      "msg2": "Ikiranga aho muri ntago mwakemeje"
+    },
+    "bookAppointment": {
+      "msg1": "Usaba ukurikira ntago bigeze bamufata ku isaha n'imwe",
+      "msg2": "(Ugomba gutanga izina ry'ukoresha konti) Urashaka gukomeza gusaba gahunda?"
+    },
+    "cancelAppointment": {
+      "msg1": "Gahunda y'ubusabe bukurikira yahagaritswe",
+      "msg2": "Igikorwa cya gahunda y'ubusabe bukurikira cyahagaritswe neza"
+    }
+  },
+  "dashboard": {
+    "title": "Ubusabe bwanyu",
+    "action_modify_information": "Hindura amakuru",
+    "action_modify_appointment": "Saba/Hindura gahunda",
+    "action_cre_application": "Kora ubusabe bushya ",
+    "card": {
+      "text_app_id": "Ikiranga ubusabe",
+      "text_name": "Amazina",
+      "text_appoinment_date": "Itariki ya gahunda",
+      "text_status": "Aho bigeze",
+      "action_modify_information": "Hindura amakuru",
+      "action_view_acknowledgement": "Reba icyemeza ubusabe",
+      "action_view_information": "Reba amakuru",
+      "data_capture_langs": "Indimi zo gufatamo amakuru"
+    },
+    "discard": {
+      "title_confirm": "Emeza",
+      "title_success": "Byakunze",
+      "title_error": "Byanze",
+      "cancelAppointment": {
+        "msg_confirm": "Ubusabe bukurikira bwahagaritswe.",
+        "msg_deleted": "Igikorwa cyo guhagarika ubusabe bukurikira cyahagaritswe neza.",
+        "msg_could_not_deleted": "Ubusabe bukurikira ntago bwashoboye guhagarikwa"
+      },
+      "deletePreregistration": {
+        "msg_confirm": "Ubusabe bukurikira bugiye gusibwa. Nyabuneka Byemeze.",
+        "msg_deleted": "Igikorwa cyo gusiba ubusabe bukurikira cyagenze neza",
+        "msg_could_not_deleted": "Ubusabe bukurikira ntago bwashoboye gusibwa"
+      },
+      "button_confirm": "Byemeze",
+      "button_cancel": "Bihagarike"
+    },
+    "status": {
+      "pendingAppointment": "Ubusabe bugitegereje",
+      "booked": "Bwasabwe",
+      "expired": "Bwarangije igihe",
+      "cancelled": "Bwahagaritswe",
+      "Application_Incomplete": "Ubusabe ntago bwuzuye",
+      "prefetched": "Amakuru yakuruwe mbere"
+    },
+    "error": {
+      "error": "Ikibazo cy'ikoranabuhanga ry'imbere. Nyabuneka wongere mukanya nyuma y'igihe gito.",
+      "button_ok": "OK"
+    },
+    "dataCaptureLanguage": {
+      "title": "Hitamo ururimi",
+      "message": [
+        "Nyabuneka hitamo",
+        "Ushobora guhitamo nkeya",
+        "n'inyinshi",
+        "Indimi zo kwinjiza amakuru.",
+        "Ni itegeko kubaba mu gihugu uhitamo hakurikijwe amabwiriza ya guverinoma.",
+        "Umurongo w'amahitamo urayobora uko amakuru y'ibanze agaragara."
+      ],
+      "error_text": ["Ushobora guhitamo nyinshi zishoboka ", "Indimi zo gufatamo amakuru."],
+      "cancel_btn": "Reka",
+      "submit_btn": "Ohereza"
+    }
+  },
+  "timeSelection": {
+    "title_book": "Saba Gahunda",
+    "text_prev": "Ahabanza",
+    "text_next": "Ahakurikira",
+    "text_morning": "Mu gitondo",
+    "text_afternoon": "Ikigoroba",
+    "text_available": "Abasaba bahari",
+    "text_selected": "Hitamo usaba",
+    "text_availability": "Gahunda zihari",
+    "text_slots": "Amasaha",
+    "action_done": "Byarangiye",
+    "action_back": "Inyuma",
+    "action_bookLater": "Gusaba gahunda ikindi gihe",
+    "action_continue": "Komeza",
+    "note_text": "Nyabuneka menya ko amakuru yerekeye ubusabe adashobora guhindurwa nyuma y'uko yasabiwe gahunda.",
+    "booking": {
+      "title_success": "Byagenze neza",
+      "msg_success": "Igikorwa cyo gusaba gahunda cyagenze neza",
+      "title_failure": "Ntago byakunze",
+      "msg_failure": "Igikorwa cyo gusaba gahunda nticyagenze neza",
+      "noSlotsSelectedForApplicant": "Nta tariki/isaha yatoranijwe ku busabe",
+      "deletedApplicant1": [
+        "Ntago wahisemo isaha k'usaba ukurikira \r\n",
+        "Urifuza gukomeza gusaba gahunda?"
+      ],
+      "yesButtonText": "Yego",
+      "noButtonText": "Oya",
+      "applicationLockConfirm": {
+        "title": "Kwemeza",
+        "message": "Urumva wizeye kohereza aya makuru? N'umara kuyohereza ntago ushobora kuyahindura",
+        "yesButtonText": "Emeza",
+        "noButtonText": "Hakana"
+      }
+    }
+  },
+  "appointmentCentreSearch": {
+    "title": "Saba gahunda",
+    "text_recommended_centres": "Aho kwiyandikishiriza hatoranyijwe",
+    "text_finding_result": "Shaka ibyerekeye",
+    "text_nearBy": "Ahakwegereye",
+    "action_back": "Inyuma",
+    "action_bookLater": "Saba ikindi gihe",
+    "action_continue": "Komeza"
+  },
+  "appointmentConfirmed": {
+    "title": "Gahunda yemejwe",
+    "text_confirmation": "Ikiranga igikorwa (ID) kibanziriza kwiyandikisha n'ibijyanye na gahunda byoherejwe kuri imeri na nomero ya telefone",
+    "action_download": "Gosohora",
+    "action_print": "Gucapa"
+  },
+  "dialog": {
+    "title_applicant": "Ohereza icyemeza gahundaSend Appointment Confirmation",
+    "content_applicant": "Imeri / Ubutumwa bugufi kwemeza",
+    "text_email": "Injiza Imeri",
+    "text_mobile": "Injiza nomero ya telefone",
+    "invalidApplicantNumber": "Nomero ya telefone siyo",
+    "invalidApplicantEmailId": "Imeri siyo",
+    "action_ok": "OK",
+    "title_discard": "Kuburizamo",
+    "action_discard_app": "Kuburizamo ubusabe bwose",
+    "action_cancel": "Kureka ubusabe ukabika amakuru",
+    "action_submit": "Ohereza",
+    "action_dismiss": "Ok",
+    "action_add": "Ongeraho",
+    "action_close": "Funga",
+    "action_add_to_slot": "Ongera ku isaha",
+    "navigation_alert": "Uremeza neza ko ushaka gusohoka ko amakuru yinjijwe atari bubikwe. Nyabuneka Byemeze"
+  },
+  "centerSelection": {
+    "title": " Saba gahunda ",
+    "action_nearBy": "Ahakwegereye",
+    "display_recommended": "Aho biyandikishiriza hatoranyijwe",
+    "text_found": "Byabonetse",
+    "text_centers": "Aho biyandikishiriza",
+    "text_timing": "Igihe",
+    "text_open": "Fungura",
+    "text_select": "Hitamo ubwoko bw'ahantu",
+    "text_enter": "Injiza",
+    "text_search": "Shakisha....",
+    "action_back": "Inyuma",
+    "action_book_later": "Saba gahunda ikindi gihe",
+    "action_continue": "Komeza",
+    "noResult_found": "Nta bisubizo byabonetse",
+    "lunch_hours": "Amasaha ya saa sita"
+  },
+  "autologout": {
+    "preview": "Urafungirwa igikorwa mu masegonda 60 kubera ko ntacyo uri gukora. Nyabuneka kanda aho ariho hose kugirango usubukure igikorwa",
+    "post": "Wasohowe muri sisitemu kubera ntacyo wakoraga."
+  },
+  "helpText": {
+    "applicationId": "Ikiranga (ID) ubusabe bwawe bw'igikorwa kibanziriza kwiyandikisha",
+    "status": {
+      "pendingAppointment": "Gahunda ntago irasabwa",
+      "booked": "Igikorwa cyo gusaba gahunda cyagenze neza",
+      "expired": "Itariki ya gahunda yararangiye",
+      "cancelled": "Igikorwa cyo gusaba gahunda cyahakanywe",
+      "Application_Incomplete": "Ubusabe ntago bwuzuye",
+      "prefetched": "Ubusabe bwakuruwe aho biyandikishiriza"
+    },
+    "deleteIcon": "Ushobora kuburizamo ubusabe bwose cyangwa ukareka gahunda ukabika amakuru.",
+    "book/modify_appointment": "Ugomba guhitamo akazu kegereye ikiranga igikorwa kibanziriza kwiyandikisha ku muntu umwe cyangwa benshi kugirango Usabe/Uhindure gahunda",
+    "bookAppointment": "Mbere na mbere, Hitamo isaha ushaka nk'uko yatanzwe hanyuma uhitemo Usaba wemewe kuri iyi saha yatoranijwe. Ku basaba benshi, subiramo ibyo wakoze haruguru ku bandi basigaye ",
+    "send_email/sms": "Ushobora kongeraho undi usaba kugorango ubone ubutumwa.",
+    "modify_at_DemoPreview": "Kanda Guhindura kugirango ukosore amakuru y'ibanze",
+    "modify_at_DocumentPreview": "Kanda kuri Hindura ukosore ibyangombwa washyizeho",
+    "same_as": "Niba ikimenyetso cy'aderesi ari kimwe nk'icyo usaba yari yujujemo, ushobora gukoresha amahitamo amwe",
+    "add_applicant": "Kanda Kongeraho usaba kugirango wongereho abandi basaba.",
+    "recommended_centers": "Urutonde rw'aho kwiyandikisha hatoranijwe hagendewe ku gasanduku k'iposita",
+    "nearBy": "Aho kwiyandikishiriza hashingiwe ku gace mutuyemo",
+    "magnifying_glass": "Shakisha ugendeye ku kamenyetso kareba hasi.",
+    "preview_continue": "Shyiraho ibyangombwa byose kugirango ukomeze",
+    "lockIcon": "Amakuru ajyanye n'ubusabe ntago wayahindura iyo gahunda wamaze kuyisaba, kuyireka cyangwa yarangiye",
+    "prefetchedLockIcon": "Application details cannot be modified once it is Prefetched in Registration Center"
+  },
+  "error": {
+    "error": "Habaye ikibazo tekinike none igikorwa ntigishoboye kurangira. Amakuru ayo ariyo yose utanga ntago ari bubikwe",
+    "contactInformation": [
+      "\n \nNyabuneka ku bindi bisobanuro wavugana n'ushinwe kugenzura sisitemu kuri iyi imeri:",
+      " Niyi nomero ya telefone: ",
+      "\n\n Kode y'ikibazo: "
+    ],
+    "sessionInvalidLogout": "Umwanya wanyu wo gukoresha sisitemu warangiye. Nyabuneka ongera winjire nanone.",
+    "button_ok": "OK",
+    "postalCode": "Umubarebanga (PIN) mwinjijemo siyo",
+    "email": "Imeri mwinjijemo siyo",
+    "phone": "Nomero ya telefone mwinjijemo siyo",
+    "dateOfBirth": "Itariki y'amavuko mwinjijemo siyo",
+    "referenceIdentityNumber": "Ikiranga umubare wo kugenderaho sicyo",
+    "tokenExpiredLogout": "Wasohowe kubera ntacyo uri gukora.",
+    "slotNotAvailable": "Gusaba gahunda/kongera gusaba gahunda ntago byakorwa nk'uko mwabisabye kuko igihe mwasabye kidashoboye kuboneka. Nyabuneka hitamo ikindi gihe cyangwa wongere mukanya",
+    "timeExpired_1": "Gahunda ntago yakimurwa mu gihe ",
+    "timeExpired_2": " Amasaha ya gahunda",
+    "errorLabel": "Byanze",
+    "regCenterNotavailabe": "Aho biyandikishiriza ntago hashoboye kuboneka.",
+    "centerDetailsNotAvailable": "Nta saha ihari, gusaba/kongera gusaba ntago byakorwa. Nyabuneka wongere mukanya.",
+    "fileUploadDeactivateMsg": "Nyabuneka shyiraho ibyangombwa kugirango ukomeze."
+  },
+  "residentTypesMapping": {
+    "NFR": "Umwenegihugu",
+    "FR": "Umunyamahanga"
+  },
+  "sameAs": "Icyangombwa cyashyizweho hakoreshejwe bimwe na",
+  "DAYS": [
+    "Ku Cyumweru",
+    "Kuwa Mbere",
+    "Kuwa Kabiri",
+    "Kuwa Gatatu",
+    "Kuwa Kane",
+    "Kuwa Gatanu",
+    "Kuwa Gatandatu"
+  ],
+
+  "recaptcha": {
+    "errorMessage": "Uburyo bwo kugenzura (Recaptcha) ntago bwakunze. Nyabuneka ongera ugerageze"
+  },
+  "API_ERROR_CODES": {
+    "PRG_MSD_APP_001": "Byanze kuzana amakuru y'ikirenga",
+    "KER-MSD-046": "Template ntago iri kuboneka",
+    "KER-MSD-026": "Agace ntago kari kuboneka",
+    "KER-IOV-004": "Ibyo mwinjijemo sibyo - garagaza/utuye mu gihugu nk'",
+    "KER-MSD-150": "Ubwoko bw'icyangombwa - Guhuza Ubwo bw'icyangombwa ntago byabonetse",
+    "KER-MSD-042": "Aho kwiyandikishiriza ntago habonetse",
+    "PRG_PAM_LGN_001": "Ijambobanga rikoreshwa rimwe (OTP) ryanze kugirango wohereze mu muyoboro wagenwe",
+    "PRG_PAM_LGN_002": "Kugenzura konti yanyu byanze",
+    "PRG_PAM_LGN_003": "Kutemeza umubare wo kugenzura konti yawe byanze",
+    "PRG_PAM_LGN_004": "Ikiranga ubusabe twabonye sicyo",
+    "PRG_PAM_LGN_005": "Versiyo y'ubusabe yakiriwe siyo",
+    "PRG_PAM_LGN_006": "Kashe y' amasaha y'ubusabe yakiriwe siyo",
+    "PRG_PAM_LGN_007": "Ubusabe bwakiriwe sibwo",
+    "PRG_PAM_LGN_008": "ubusabe bw'ikiranga usaba cyakiriwe sicyo",
+    "PRG_PAM_LGN_009": "Kode y'ururimi rw'ubusabe yakiriwe siyo",
+    "PRG_PAM_LGN_010": "Ijambobanga rikoreshwa rimwe (OTP) ryinjijwe siryo",
+    "PRG_PAM_LGN_011": "Habaye ikibazo mu gihe twateguraga igisubizo muri sisitemu",
+    "PRG_PAM_LGN_012": "Config file not found in the config server",
+    "PRG_PAM_LGN_013": "Ijambobanga rikoreshwa rimwe (OTP) ryinjijwe siryo",
+    "PRG_PAM_LGN_014": "Ibiranga ururimi rwa mosip ntago byasobanuwe",
+    "PRG_PAM_LGN_015": "Ibiranga ururimi rwa mosip ntago byasobanuwe",
+    "PRE-REG-OTP-101": "Ubusabe bw' Ijambobanga rikoreshwa rimwe (OTP) butabarika bwakiriwe",
+    "PRE-REG-OTP-401": "Ntihashoboye gukorwa/kohereza Ijambobanga rikoreshwa rimwe (OTP) ",
+    "PRE-REG-OTP-402": "Nyabuneka ongera ukore Ijambobanga rikoreshwa rimwe (OTP) hanyuma wongere nyuma y'akanya",
+    "PRE-REG-OTP-403": "Ijambobanga rikoreshwa rimwe (OTP) siryo. Nyabuneka tanga Ijambobanga rikoreshwa rimwe (OTP) riri ryo",
+    "PRE-REG-OTP-404": "Ubwoko bw'ibyinjizwa sibwo - %s",
+    "PRE-REG-OTP-405": "Ubwoko bw'ibyinjizwa ntabuhari - %s",
+    "PRE-REG-OTP-406": "Kwemeza amakuru yinjizwa byanze",
+    "PRE-REG-OTP-407": "Gukora umubare wo gukoresha byanze",
+    "PRE-REG-OTP-408": "Ijambobanga rikoreshwa rimwe (OTP) ryamazwe gukorwa, ryoherejwe kuri imeri/nomero ya telephone yawe. Niba ushaka Ijambobanga rikoreshwa rimwe (OTP) rishya, wongere nanone hashize akanya.",
+    "PRG_PAM_APP_001": "Byanze gukora igikorwa kibanziriza kwiyandikisha twifashishije amakuru yatanzwe",
+    "PRG_PAM_APP_002": "Ntidushoboye kubona uburenganzira ku mbonerahamwe y'igikorwa kibanziriza kwiyandikisha ",
+    "PRG_PAM_APP_003": "Gusiba igikorwa ntibyemewe ",
+    "PRG_PAM_APP_004": "Byanze gusiba amakuru y'igikorwa kibanziriza kwiyandikisha",
+    "PRG_PAM_APP_005": "Nta makuru yabonetse ajyanye n'ibiranga igikorwa kibanziriza kwiyandikisha yasabwe, Nta makuru yabitswe ajyanye n'itariki mwasabye  ",
+    "PRG_PAM_APP_006": "Kode y'uko bihagaze ntago ariyo  ",
+    "PRG_PAM_APP_007": "json parsing ntago yakunze , json validation ntago yakunze , ikosa k'ubusabe bwa json Http , ikosa kuri json validation processing ,Ikosa rya json IO,ikosa rya json schema IO",
+    "PRG_PAM_APP_008": "Byanze kuvugurura amakuru y'ubusabe. Nyabuneka mwongere mugerageze mukanya.",
+    "PRG_PAM_APP_009": "Ikosa rya file IO ,encoding charset ntago yemewe ",
+    "PRG_PAM_APP_011": "Nyabuneka injiza itariki ukurikije uko itariki yandikwa",
+    "PRG_PAM_APP_012": "request parameter ntago yabonetse ",
+    "PRG_PAM_APP_013": "Nta makuru yabitswe yabonetse",
+    "PRG_PAM_APP_014": "Serivisi yo guhamagara icyangomba ntago yakunze",
+    "PRG_PAM_APP_015": "Ingano y'ipaji igomba kuba iruta zeru",
+    "PRG_PAM_APP_016": "Nta makuru yabitswe ajyanye n'umubare w'ipaji mwasabye",
+    "PRG_PAM_APP_017": "Ikiranga igikorwa kibanziriza kwiyandikisha cyasabwe ntago ari icy'usaba",
+    "PRG_PAM_APP_018": "Ntago byakunze gusoma identity json ivuye kuri server",
+    "PRG_PAM_APP_019": "Umubare wa page index ntabwo ariwo",
+    "PRG_PAM_APP_020": "Rest call to get prid ntabwo yakunze,Id schema fetch ntabwo yakunze",
+    "PRG_PAM_APP_021": "Key ya prid yisubiyemo",
+    "PRG_PAM_APP_022 ": "Ubusabe bwanyu ntago bushobora guhindurwa.",
+    "PRG_PAM_DOC_001": "Kugenzura umwimerere w'icyangombwa ntabwo byakunze",
+    "PRG_PAM_DOC_002": "Uburyo bw'ikoranabuhanga bwo guhisha amakuru y'icyangombwa cyawe ntabwo bwakunze",
+    "PRG_PAM_DOC_003": "Uburyo bw'ikoranabuhanga bwo kureba amakuru y'icyangombwa cyawe yahishwe ntabwo bwakunze",
+    "PRG_PAM_DOC_004": "Nyabuneka shyiraho icyangombwa cyo mu bwoko bwa: pdf, jpg",
+    "PRG_PAM_DOC_005": "Icyangobmwa cyawe kijyanye n'ikiranga igikorwa kibanziriza kwiyandikisha ntago cyabonetse, Gukurura icyangombwa muri sisitemu byanze",
+    "PRG_PAM_DOC_006": "Gusiba ibyangombwa ntago byakunze",
+    "PRG_PAM_DOC_007": "Icyangombwa mwashyizeho cyarengeje ingano ntarengwa. Nyabuneka shyiraho icyangombwa gifite ingano iri munsi ya $MB.",
+    "PRG_PAM_DOC_008": "Ubwoko bw'icyangombwa ntago bwemewe",
+    "PRG_PAM_DOC_009": "Gushyiraho icyangombwa byanze",
+    "PRG_PAM_DOC_010": "Gusikana virusi ku cyangombwa byanze",
+    "PRG_PAM_DOC_011": "Gukora kopi y'icyangombwa uyivana hamwe uyijyana ahandi byanze",
+    "PRG_PAM_DOC_012": "Imbonerahamwe y'icyangombwa ntishoboye kuboneka",
+    "PRG_PAM_DOC_013": "Ikosa rya I/O ry' icyangombwa",
+    "PRG_PAM_DOC_014": "Akazu ko kuzuza k'itegeko ntago kabonetse",
+    "PRG_PAM_DOC_015": "Ikosa rya Json",
+    "PRG_PAM_DOC_016": "CEPH connection ntago ariyo",
+    "PRG_PAM_DOC_017": "Connection ntishoboye kuboneka",
+    "PRG_PAM_DOC_018": "Parameter mwasabye siyo, ikiranga igikorwa kibanziriza kwiyandikisha sicyo, Kode y'aho bigeze siyo,Byashyizweho na siyo, itariki n' isaha byashyiriwe siyo",
+    "PRG_PAM_DOC_019": "Amakuru y'ingenzi ajyanye n'ikiranga igikorwa kibanziriza kwiyandikisha ntago yabonetse, byanze gukurura amakuru y'ibanze abitse",
+    "PRG_PAM_DOC_021": "Icyangombwa gisanzwe gihari",
+    "PRG_PAM_DOC_022": "ikiranga icyangombwa ntago ari iki ikiranga igikorwa kibanziriza kwiyandikisha",
+    "PRG_PAM_DOC_024": "Imbonerahamwe y'ibyangombwa ntago yashoboye kuvugururwa bijyanye n'aho bigeze",
+    "PRG_PAM_ACK_001": "Imeri cyangwa nomero ya telefone ntayihari",
+    "PRG_PAM_ACK_002": "Akazu ko kuzuza k'itegeko ntago kabonetse",
+    "PRG_PAM_ACK_003": "Ikosa ry'ubusabe bwa Json http",
+    "PRG_PAM_ACK_004": "Json ntishoboye gu parse",
+    "PRG_PAM_ACK_005": "Ikosa ku byinjizwa n'ibisohoka",
+    "PRG_PAM_ACK_006": "Imeri ntago ariyo",
+    "PRG_PAM_ACK_007": "Nomero ya telefone siyo",
+    "PRG_PAM_ACK_008": "Amazina siyo",
+    "PRG_PAM_ACK_009 ": "Itariki ya gahunda siyo",
+    "PRG_PAM_ACK_010 ": "Isaha ya gahunda siyo",
+    "PRG_PAM_ACK_011 ": "Guhamagara amakuru y'ibanze ntago byakunze",
+    "PRG_PAM_ACK_012 ": "Guhamagara gusaba gahunda ntago byakunze",
+    "PRG_QRC_001": "Ikosa ku cyangombwa ry'ibyinjizwa ibisohoka",
+    "PRG_QRC_002": "Byanze gukora QR code",
+    "PRG_QRC_004": "Uko mwanditse isaha sibyo",
+    "PRG_TRL_APP_001": "Byanze gukora transliteration",
+    "PRG_TRL_APP_002": "Utuzu two kuzuza tw'itegeko ntago aritwo, Ururimi sirwo",
+    "PRG_TRL_APP_004": "Ubusabe bwa Json sibwo",
+    "PRG_TRL_APP_005": "Imbonerahamwe ya PreReg transliteration ntago ishoboye kuboneka",
+    "PRG_TRL_APP_006": "Byanze gukora Json parsing",
+    "PRG_APP_001": "Byanze kubika ui spec",
+    "PRG_APP_002": "Byanze kuvugurura ui spec",
+    "PRG_APP_003": "Byanze gukurura ui spec",
+    "PRG_APP_004": "Byanze gusiba ui spec",
+    "PRG_APP_005": "Byanze gutangaza ui spec",
+    "PRG_APP_006": "Ikosa mu gihe cya parsing json",
+    "PRG_APP_007": "Igenzura ntabwo ryakunze",
+    "PRG_APP_015": "ikiranga ubusabe cyasabwe ntago ari icy'usaba",
+    "PRG_APP_016": "Ubwoko bwa gahunda sibwo",
+    "PRG_DATA_SYNC_001": "Nta makuru yabonetse ajyanye n'itariki mwasabye",
+    "PRG_DATA_SYNC_005": "Byanze gukora zip file",
+    "PRG_DATA_SYNC_006": "Byanze gukurura icyangombwa",
+    "PRG_DATA_SYNC_007": "Byanze gukurura amakuru y'ibanze yabitswe",
+    "PRG_DATA_SYNC_009": "Aho kwiyandikishiriza siho",
+    "PRG_DATA_SYNC_011": "Ibiranga ibikorwa bibanziriza igikorwa cyo kwiyandikisha byasabwe ntago aribyo",
+    "PRG_DATA_SYNC_012 ": "Byanze kubika prereg id",
+    "PRG_DATA_SYNC_014": "Ikosa rya IO ku cyangombwa",
+    "PRG_DATA_SYNC_016": "Amakuru ya gahunda ntago yabonetse",
+    "PRG_DATA_SYNC_017": "Habaye ikosa mu gikorwa cya parsing data",
+    "PRG_DATA_SYNC_018": "Byanze gukurura amakuru y'ikiranga igikorwa kibanziriza kwiyandikisha",
+    "PRG_DATA_SYNC_019": "Byanze gukurura encryption publickey y'imashini",
+    "PRG_PAM_CORE_001": "parameter isaba ntayihari, ikiranga ubusabe ntago aricyo",
+    "PRG_PAM_CORE_002 ": "Version isaba ntago ariyo",
+    "PRG_PAM_CORE_003": "Isaha yasabwe siyo",
+    "PRG_PAM_CORE_004": "Body isaba siyo",
+    "PRG_PAM_CORE_010": "Byanze gukora hashing",
+    "PRG_CORE_REQ_013": "Itariki isabwa igomba kuba iya vuba",
+    "PRG_CORE_REQ_014": "Lang code siyo",
+    "PRG_CORE_REQ_015": "Ibyo mwasabye sibyo",
+    "PRG_CORE_REQ_016": "Ikosa ry'imbere muri server",
+    "PRG_CORE_REQ_017": "Kode y'ubwoko bw'icyangombwa siyo",
+    "PRG_CORE_REQ_018": "Kode y'ubwoko bw'icyangombwa siyo + validDoc + langCode",
+    "PRG_CORE_REQ_019": "Nyabuneka injiza itariki gutya: Umunsi/Ukwezi/Umwaka",
+    "PRG_CORE_REQ_020": "Itariki yo kuva ni nini kuruta itariki ya none",
+    "PRG_CORE_REQ_021": "Ikosa mu gihe cya Parsing the kernel igisubizo",
+    "PRG_CORE_REQ_022": "Guhamagara amakuru y'ikirenga ntago byakunze",
+    "PRG_BOOK_RCI_002 ": "Gusaba/kongera gusaba gahunda ntago byakorwa kuko igihe cyasabwe kidashoboye kuboneka. Nyabuneka hitamo ikindi gihe cyangwa wongere mukanya",
+    "PRG_BOOK_RCI_003 ": "Usaba ntiyahisemo isaha",
+    "PRG_BOOK_RCI_006 ": "Ikiranga igikorwa kibanziriza kwiyandikisha ntago kinjijwe",
+    "PRG_BOOK_RCI_007 ": "Ikiranga aho kwiyandikishiriza ntago kinjijwe",
+    "PRG_BOOK_RCI_008": "Itariki n'isaha ya gahunda ntago wabihisemo",
+    "PRG_BOOK_RCI_015": "Nta gihe cyabonetse aho mushaka kwiyandikishiriza",
+    "PRG_BOOK_RCI_013": "Amakuru yo gusaba gahunda ntago yabonetse",
+    "PRG_BOOK_RCI_017": "Imbonerahamwe y'ibihari ntago ishoboye kuboneka",
+    "PRG_BOOK_RCI_018": "Gahunda yanyu ntago yarekwa. Nyabuneka burizamo ubusabe ubundi ukore ubundi.",
+    "PRG_BOOK_RCI_020": "Amakuru y'ikirenga ntago yabonetse",
+    "PRG_BOOK_RCI_021": "Gahunda yawe ntago yashoboye guhindurwa. Nyabuneka ongera ugerageze cyangwa uhamagare ushinzwe sisitemu.",
+    "PRG_BOOK_RCI_024": "Kuvugurura kuboneka ntabwo byakunze",
+    "PRG_BOOK_RCI_026": "Igikorwa cyo kureka gahunda yawe ntago gishoboye gukunda. Nyabuneka burizamo ubusabe bwawe hanyuma ukore ubundi bushya.",
+    "PRG_BOOK_RCI_028": "Gusiba amakuru yabitswe y'igikorwa kibanziriza kwiyandikisha byanze",
+    "PRG_BOOK_RCI_031": "Itariki n'isaha ya gahunda ntago aribyo",
+    "PRG_BOOK_RCI_032": "Amakuru yabitswe ajyanye n'iyo tariki n'aho kwiyandikishiriza ntago yabonetse",
+    "PRG_BOOK_RCI_033": "Serivisi yo guhamagara ubutumwa ntago yakunze",
+    "PRG_BOOK_RCI_034": "Ikosa muri Json processing",
+    "PRG_BOOK_RCI_035": "Ikiranga aho biyandikishiriza nta cyabonetse",
+    "PRG_BOOK_RCI_036": "Nyabuneka uzuza ubusabe mbere yo gusaba gahunda"
+  },
+  "UI_VALIDATION_ERROR_CODES": {
+    "UI_1000": "Inyuguti zonyine nizo zemewe",
+    "UI_1001": "Nyabuneka injiza inyuguti hagati ya 3 na 50",
+    "UI_1003": "Nyabuneka injiza ibisabwa ubanje inyuguti ikurikiwe n'imibarwa 6 hanyuma usoze n'inyuguti",
+    "UI_1004": "Injiza imibare 10 gusa"
+  }  
+}

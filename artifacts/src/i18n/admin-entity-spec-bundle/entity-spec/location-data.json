@@ -1,9 +1,13 @@
 {
-  "auditEventIds": ["ADM-036", "ADM-058"],
+  "auditEventIds": [
+    "ADM-036",
+    "ADM-058"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Activate",
+        "kin": "Tangiza",
         "ara": "تنشيط",
         "fra": "déclencher",
         "hin": "सक्रिय",
@@ -19,6 +23,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "kin": "",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "hin": "निष्क्रिय करें",
@@ -34,6 +39,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "kin": "Hindura",
         "ara": "تصحيح",
         "fra": "modifier",
         "hin": "संपादित करें",
@@ -49,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Create",
+        "kin": "Ongeraho Ikigo",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "hin": "बनाएं",
@@ -63,10 +70,20 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி" },
+      "buttonName": {
+        "eng": "Filter",
+        "kin": "Hitamo",
+        "ara": "تصفيه",
+        "fra": "filtre",
+        "hin": "फ़िल्टर",
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "tam": "வடிகட்டி"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -74,6 +91,7 @@
     {
       "buttonName": {
         "eng": "Location not available in English",
+        "kin": "Ahantu ntabwo hahari mu Kinyarwanda",
         "ara": "الموقع غير متوفر باللغة العربية",
         "fra": "Emplacement non disponible en français",
         "hin": "स्थान अंग्रेजी में उपलब्ध नहीं है",
@@ -86,27 +104,33 @@
         "case": "missingData",
         "title": {
           "eng": "Location not available in English",
+          "kin": "Ahantu ntabwo hahari mu Kinyarwanda",
           "ara": "الموقع غير متوفر باللغة العربية",
           "fra": "Emplacement non disponible en français",
           "hin": "स्थान अंग्रेजी में उपलब्ध नहीं है",
           "kan": "ಸ್ಥಳ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
           "tam": "இடம் ஆங்கிலத்தில் கிடைக்கவில்லை"
         },
-        "columnNames": [{
-          "eng": "Code",
-          "ara": "شفرة",
-          "fra": "Code",
-          "hin": "कोड",
-          "kan": "ಕೋಡ್",
-          "tam": "குறியீடு"
-        },{
-          "eng": "Name",
-          "ara": "اسم",
-          "fra": "nom",
-          "hin": "नाम",
-          "kan": "ಹೆಸರು",
-          "tam": "பெயர்"
-        }],
+        "columnNames": [
+          {
+            "eng": "Code",
+            "kin": "Kode",
+            "ara": "شفرة",
+            "fra": "Code",
+            "hin": "कोड",
+            "kan": "ಕೋಡ್",
+            "tam": "குறியீடு"
+          },
+          {
+            "eng": "Name",
+            "kin": "Izina",
+            "ara": "اسم",
+            "fra": "nom",
+            "hin": "नाम",
+            "kan": "ಹೆಸರು",
+            "tam": "பெயர்"
+          }
+        ],
         "fieldName": "name"
       },
       "redirectURL": "",
@@ -121,6 +145,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Postal Code",
+        "kin": "Kode y'iposita",
         "ara": "رمز",
         "fra": "code postal",
         "hin": "कोड पोस्टल",
@@ -141,6 +166,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Zone",
+        "kin": "umudugudu",
         "ara": "منطقة",
         "fra": "Zone",
         "hin": "क्षेत्र",
@@ -155,13 +181,13 @@
       "inputType": "text",
       "ismandatory": "true"
     },
-
     {
       "name": "city",
       "showInListView": "true",
       "showInSingleView": "false",
       "label": {
         "eng": "City",
+        "kin": "Umujyi",
         "ara": "مدينة",
         "fra": "ville",
         "hin": "शहर",
@@ -180,7 +206,15 @@
       "name": "province",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Province", "ara": "المحافظة", "fra": "Province","hin": "प्रांत", "kan": "ಪ್ರಾಂತ್ಯ", "tam": "மாகாணம்"},
+      "label": {
+        "eng": "Province",
+        "kin": "Intara",
+        "ara": "المحافظة",
+        "fra": "Province",
+        "hin": "प्रांत",
+        "kan": "ಪ್ರಾಂತ್ಯ",
+        "tam": "மாகாணம்"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -193,7 +227,15 @@
       "name": "region",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Region", "ara": "منطقة", "fra": "Région","hin": "क्षेत्र", "kan": "ಪ್ರದೇಶ", "tam": "பிராந்தியம்"},
+      "label": {
+        "eng": "Region",
+        "kin": "Agace/Akarere",
+        "ara": "منطقة",
+        "fra": "Région",
+        "hin": "क्षेत्र",
+        "kan": "ಪ್ರದೇಶ",
+        "tam": "பிராந்தியம்"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -208,6 +250,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created By",
+        "kin": "Byakozwe na ",
         "ara": "تم إنشاؤه من قبل",
         "fra": "Créé par",
         "hin": "के द्वारा बनाई गई",
@@ -225,6 +268,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated By",
+        "kin": "Byahinduwe na",
         "ara": "تم التحديث بواسطة",
         "fra": "Mise à jour par",
         "hin": "द्वारा अपडेट",
@@ -242,6 +286,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated Time",
+        "kin": "Igihe Byahinduriwe",
         "ara": "وقت التحديث",
         "fra": "Temps mis à jour",
         "hin": "अद्यतन समय",
@@ -259,6 +304,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created Time",
+        "kin": "Igihe byakorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "hin": "बनाया गया समय",
@@ -274,7 +320,15 @@
       "name": "isActive",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை"},
+      "label": {
+        "eng": "Status",
+        "kin": "Imiterere",
+        "ara": "نشط",
+        "fra": "c'est actif",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -286,12 +340,26 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "isActive",
-      "filterlabel": { "eng": "Status", "ara": "نشط", "fra": "Statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "filterlabel": {
+        "eng": "Status",
+        "kin": "Imiterere",
+        "ara": "نشط",
+        "fra": "Statut",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை"
+      },
       "filterType": "contains",
       "fieldType": "input",
       "autocomplete": "false",
@@ -303,7 +371,15 @@
     },
     {
       "filtername": "region",
-      "filterlabel": { "eng": "Region", "ara": "منطقة", "fra": "Région","hin": "क्षेत्र", "kan": "ಪ್ರದೇಶ", "tam": "பிராந்தியம்"},
+      "filterlabel": {
+        "eng": "Region",
+        "kin": "Agace/Akarere",
+        "ara": "منطقة",
+        "fra": "Région",
+        "hin": "क्षेत्र",
+        "kan": "ಪ್ರದೇಶ",
+        "tam": "பிராந்தியம்"
+      },
       "filterType": "contains",
       "fieldType": "input",
       "autocomplete": "true",
@@ -315,7 +391,15 @@
     },
     {
       "filtername": "province",
-      "filterlabel": { "eng": "Province", "ara":"المحافظة", "fra": "Province","hin": "प्रांत", "kan": "ಪ್ರಾಂತ್ಯ", "tam": "மாகாணம்"},
+      "filterlabel": {
+        "eng": "Province",
+        "kin": "Intara",
+        "ara": "المحافظة",
+        "fra": "Province",
+        "hin": "प्रांत",
+        "kan": "ಪ್ರಾಂತ್ಯ",
+        "tam": "மாகாணம்"
+      },
       "filterType": "contains",
       "fieldType": "input",
       "autocomplete": "true",
@@ -327,7 +411,15 @@
     },
     {
       "filtername": "city",
-      "filterlabel":{ "eng": "City", "ara":"مدينة", "fra": "Ville","hin": "शहर","kan": "ನಗರ","tam": "நகரம்" },
+      "filterlabel": {
+        "eng": "City",
+        "kin": "Umujyi",
+        "ara": "مدينة",
+        "fra": "Ville",
+        "hin": "शहर",
+        "kan": "ನಗರ",
+        "tam": "நகரம்"
+      },
       "uiField": "string",
       "filterType": "contains",
       "fieldType": "input",
@@ -340,9 +432,15 @@
     },
     {
       "filtername": "Zone",
-      "filterlabel": { "eng": "Zone", "ara":"منطقة", "fra": "Zone","hin": "क्षेत्र",
+      "filterlabel": {
+        "eng": "Zone",
+        "kin": "umudugudu",
+        "ara": "منطقة",
+        "fra": "Zone",
+        "hin": "क्षेत्र",
         "kan": "ವಲಯ",
-        "tam": "மண்டலம்" },
+        "tam": "மண்டலம்"
+      },
       "filterType": "contains",
       "fieldType": "input",
       "autocomplete": "true",
@@ -354,7 +452,15 @@
     },
     {
       "filtername": "postalCode",
-      "filterlabel": { "eng": "Pin Code", "ara":"الرقم السري", "fra": "Code PIN","hin": "पिन कोड", "kan":"ಪಿನ್ ಕೋಡ್", "tam": "அஞ்சல் குறியீடு" },
+      "filterlabel": {
+        "eng": "Pin Code",
+        "kin": "Umubare w'ibanga",
+        "ara": "الرقم السري",
+        "fra": "Code PIN",
+        "hin": "पिन कोड",
+        "kan": "ಪಿನ್ ಕೋಡ್",
+        "tam": "அஞ்சல் குறியீடு"
+      },
       "filterType": "contains",
       "fieldType": "input",
       "autocomplete": "true",

@@ -1,14 +1,24 @@
 {
-  "auditEventIds": ["ADM-030", "ADM-052"],
+  "auditEventIds": [
+    "ADM-030",
+    "ADM-052"
+  ],
   "actionButtons": [
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" ,
+      "buttonName": {
+        "eng": "Filter",
+        "kin": "Hitamo",
+        "ara": "تصفيه",
+        "fra": "filtre",
         "hin": "पफ़िल्टर ",
         "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ     ",
-        "tam": "வடிகட்டி  "},
+        "tam": "வடிகட்டி  "
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -18,7 +28,15 @@
     {
       "name": "registrationId",
       "showInListView": "True",
-      "label": { "eng": "Registration Id", "ara": "معرف تسجيل", "fra": "ID d'enregistrement" , "hin": "पंजीयन पहचान", "kan": "ನೋಂದಣಿ ಐಡಿ", "tam": "பதிவு ஐடி"},
+      "label": {
+        "eng": "Registration Id",
+        "kin": "Nomero wiyandikishirijeho",
+        "ara": "معرف تسجيل",
+        "fra": "ID d'enregistrement",
+        "hin": "पंजीयन पहचान",
+        "kan": "ನೋಂದಣಿ ಐಡಿ",
+        "tam": "பதிவு ஐடி"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -28,7 +46,15 @@
     {
       "name": "registartionDate",
       "showInListView": "True",
-      "label": { "eng": "Registartion Date", "ara": "تاريخ التسجيل", "fra": "Date d'enregistrement" , "hin": "पंजीकरण तिथि", "kan": "ನೋಂದಣಿ ದಿನಾಂಕ", "tam": "பதிவு தேதி"},
+      "label": {
+        "eng": "Registartion Date",
+        "kin": "Italiki wiyandikishirijeho",
+        "ara": "تاريخ التسجيل",
+        "fra": "Date d'enregistrement",
+        "hin": "पंजीकरण तिथि",
+        "kan": "ನೋಂದಣಿ ದಿನಾಂಕ",
+        "tam": "பதிவு தேதி"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -39,7 +65,15 @@
       "name": "name",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": {"eng": "Name","ara": "اسم","fra": "prénom","tam": "பெயர்","hin": "नाम","kan": "ಹೆಸರು"},
+      "label": {
+        "eng": "Name",
+        "kin": "Izina",
+        "ara": "اسم",
+        "fra": "prénom",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -51,7 +85,15 @@
   "filterColumns": [
     {
       "filtername": "registrationDateFrom",
-      "filterlabel": { "eng": "Registration From Date", "ara": "تاريخ التسجيل من", "fra": "Date d'inscription Du","hin": "पंजीकरण की तारीख", "kan": "ನೋಂದಣಿ ದಿನಾಂಕದಿಂದ", "tam": "பதிவு தேதி முதல்" },
+      "filterlabel": {
+        "eng": "Registration From Date",
+        "kin": "Uhereye italiki wiyandikirijeho",
+        "ara": "تاريخ التسجيل من",
+        "fra": "Date d'inscription Du",
+        "hin": "पंजीकरण की तारीख",
+        "kan": "ನೋಂದಣಿ ದಿನಾಂಕದಿಂದ",
+        "tam": "பதிவு தேதி முதல்"
+      },
       "filterType": "between",
       "autocomplete": "false",
       "dropdown": "false",
@@ -63,7 +105,15 @@
     },
     {
       "filtername": "registrationDateTo",
-      "filterlabel": { "eng": "Registration To Date", "ara": "التسجيل حتى تاريخه", "fra": "Inscription à ce jour","hin": "आज तक पंजीकरण", "kan": "ಇಲ್ಲಿಯವರೆಗೆ ನೋಂದಣಿ", "tam": "இன்றுவரை பதிவு" },
+      "filterlabel": {
+        "eng": "Registration To Date",
+        "kin": "italiki yanyuma wiyandikirijeho",
+        "ara": "التسجيل حتى تاريخه",
+        "fra": "Inscription à ce jour",
+        "hin": "आज तक पंजीकरण",
+        "kan": "ಇಲ್ಲಿಯವರೆಗೆ ನೋಂದಣಿ",
+        "tam": "இன்றுவரை பதிவு"
+      },
       "filterType": "between",
       "autocomplete": "false",
       "dropdown": "false",
@@ -77,6 +127,7 @@
       "filtername": "name",
       "filterlabel": {
         "eng": "Name",
+        "kin": "Izina",
         "ara": "اسم",
         "fra": "prénom",
         "tam": "பெயர்",
@@ -96,6 +147,7 @@
       "filtername": "email",
       "filterlabel": {
         "eng": "Email",
+        "kin": "imeli",
         "ara": "بريد الالكتروني",
         "fra": "E-mail",
         "hin": "ईमेल",
@@ -115,6 +167,7 @@
       "filtername": "phone",
       "filterlabel": {
         "eng": "Phone",
+        "kin": "telefoni",
         "ara": "هاتف",
         "fra": "Téléphoner",
         "hin": "फ़ोन",
@@ -134,6 +187,7 @@
       "filtername": "locationCode",
       "filterlabel": {
         "eng": "Location Code",
+        "kin": "kode y'ahantu",
         "ara": "نوع المركز",
         "fra": "Type de centre",
         "tam": "மைய வகை",
@@ -154,6 +208,7 @@
       "filtername": "centerId",
       "filterlabel": {
         "eng": "Center",
+        "kin": "Ikigo",
         "ara": "معرف المركز",
         "fra": "Identifiant du centre",
         "hin": "केंद्र आईडी",

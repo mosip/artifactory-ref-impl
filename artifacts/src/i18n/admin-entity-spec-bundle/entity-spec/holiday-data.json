@@ -1,9 +1,13 @@
 {
-  "auditEventIds": ["ADM-034", "ADM-056"],
+  "auditEventIds": [
+    "ADM-034",
+    "ADM-056"
+  ],
   "actionButtons": [
     {
       "buttonName": {
         "eng": "Activate",
+        "kin": "Tangira",
         "ara": "تنشيط",
         "fra": "déclencher",
         "hin": "सक्रिय",
@@ -19,6 +23,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "kin": "Hagarika",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "hin": "निष्क्रिय करें",
@@ -34,6 +39,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "kin": "Hindura",
         "ara": "تصحيح",
         "fra": "modifier",
         "hin": "संपादित करें",
@@ -49,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Create",
+        "kin": "Ongeraho ikigo",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "hin": "बनाएं",
@@ -63,10 +70,20 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி"},
+      "buttonName": {
+        "eng": "Filter",
+        "kin": "Hitamo",
+        "ara": "تصفيه",
+        "fra": "filtre",
+        "hin": "फ़िल्टर",
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "tam": "வடிகட்டி"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
-      "actionURL": { "case": "filter" },
+      "actionURL": {
+        "case": "filter"
+      },
       "redirectURL": "",
       "showIn": "Button",
       "validations": ""
@@ -74,6 +91,7 @@
     {
       "buttonName": {
         "eng": "Holiday not available in English",
+        "kin": "Ikiruhuko nticyibonetse mu Kinyarwanda",
         "ara": "عطلة غير متوفرة باللغة العربية",
         "fra": "Vacances non disponibles en français",
         "hin": "अवकाश अंग्रेजी में उपलब्ध नहीं है",
@@ -86,6 +104,7 @@
         "case": "missingData",
         "title": {
           "eng": "Holiday not available in English",
+          "kin": "Ikiruhuko nticyibonetse mu Kinyarwanda",
           "ara": "عطلة غير متوفرة باللغة العربية",
           "fra": "Vacances non disponibles en français",
           "hin": "अवकाश अंग्रेजी में उपलब्ध नहीं है",
@@ -94,21 +113,24 @@
         },
         "columnNames": [
           {
-          "eng": "Holiday Id",
-          "ara": "اسم",
-          "fra": "ಹಾಲಿಡೇ ಐಡಿ",
-          "hin": "हॉलिडे आईडी",
-          "kan": "ರಜಾ ಐಡಿ",
-          "tam": "விடுமுறை ஐடி"
+            "eng": "Holiday Id",
+            "kin": "Nomero y'Ikiruhuko",
+            "ara": "اسم",
+            "fra": "ಹಾಲಿಡೇ ಐಡಿ",
+            "hin": "हॉलिडे आईडी",
+            "kan": "ರಜಾ ಐಡಿ",
+            "tam": "விடுமுறை ஐடி"
           },
           {
-          "eng": "Holiday Name",
-          "ara": "اسم العطلة",
-          "fra": "Nom des vacances",
-          "hin": "छुट्टी का नाम",
-          "kan": "ರಜಾದಿನದ ಹೆಸರು",
-          "tam": "விடுமுறை பெயர்"
-          }],
+            "eng": "Holiday Name",
+            "kin": "Izina ry'Ikiruhuko",
+            "ara": "اسم العطلة",
+            "fra": "Nom des vacances",
+            "hin": "छुट्टी का नाम",
+            "kan": "ರಜಾದಿನದ ಹೆಸರು",
+            "tam": "விடுமுறை பெயர்"
+          }
+        ],
         "fieldName": "holidayName"
       },
       "redirectURL": "",
@@ -123,6 +145,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Holiday Name",
+        "kin": "Izina ry'Ikiruhuko",
         "ara": "اسم العطلة",
         "fra": "Nom des vacances",
         "hin": "छुट्टी का नाम",
@@ -140,7 +163,15 @@
       "name": "holidayDesc",
       "showInListView": "false",
       "showInSingleView": "true",
-      "label": { "eng": "Description", "ara": "وصف", "fra": "description","hin": "विवरण", "kan": "ವಿವರಣೆ", "tam": "விளக்கம்"},
+      "label": {
+        "eng": "Description",
+        "kin": "Igisobanuro",
+        "ara": "وصف",
+        "fra": "description",
+        "hin": "विवरण",
+        "kan": "ವಿವರಣೆ",
+        "tam": "விளக்கம்"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -152,7 +183,15 @@
       "name": "holidayDate",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Holiday Date", "ara": "تاريخ", "fra": "date","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕ", "tam": "விடுமுறை தேதி"},
+      "label": {
+        "eng": "Holiday Date",
+        "kin": "Italiki y'Ikiruhuko",
+        "ara": "تاريخ",
+        "fra": "date",
+        "hin": "छुट्टी की तारीख",
+        "kan": "ರಜಾದಿನದ ದಿನಾಂಕ",
+        "tam": "விடுமுறை தேதி"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -164,7 +203,15 @@
       "name": "locationCode",
       "showInSingleView": "true",
       "showInListView": "false",
-      "label": { "eng": "Location", "ara": "موقع", "fra": "Emplacement","hin": "स्थान", "kan": "ಸ್ಥಳ", "tam": "இடம்" },
+      "label": {
+        "eng": "Location",
+        "kin": "Ahantu",
+        "ara": "موقع",
+        "fra": "Emplacement",
+        "hin": "स्थान",
+        "kan": "ಸ್ಥಳ",
+        "tam": "இடம்"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -178,6 +225,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Updated By",
+        "kin": "Byahinduwe na",
         "ara": "تم التحديث بواسطة",
         "fra": "Mise à jour par",
         "hin": "द्वारा अपडेट",
@@ -195,6 +243,7 @@
       "showInListView": "false",
       "label": {
         "eng": "Created Time",
+        "kin": "Igihe Byakorewe",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "hin": "बनाया गया समय",
@@ -210,7 +259,15 @@
       "name": "isActive",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": {
+        "eng": "Status",
+        "kin": "Imiterere",
+        "ara": "حاله",
+        "fra": "statut",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -222,12 +279,26 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
       "filtername": "holidayDateFrom",
-      "filterlabel": { "eng": "Holiday Date From", "ara": "تاريخ عطلة من", "fra": "Date de vacances de","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕದಿಂದ", "tam": "விடுமுறை தேதி" },
+      "filterlabel": {
+        "eng": "Holiday Date From",
+        "kin": "Italiki ikiruhuko cyatangiriyeho",
+        "ara": "تاريخ عطلة من",
+        "fra": "Date de vacances de",
+        "hin": "छुट्टी की तारीख",
+        "kan": "ರಜಾದಿನದ ದಿನಾಂಕದಿಂದ",
+        "tam": "விடுமுறை தேதி"
+      },
       "filterType": "between",
       "autocomplete": "false",
       "dropdown": "false",
@@ -238,7 +309,15 @@
     },
     {
       "filtername": "holidayDateTo",
-      "filterlabel": { "eng": "Holiday Date To", "ara": "تاريخ عطلة ل", "fra": "Date de vacances à","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕ", "tam": "விடுமுறை தேதி" },
+      "filterlabel": {
+        "eng": "Holiday Date To",
+        "kin": "Italiki ikiruhuko Kizarangiriraho",
+        "ara": "تاريخ عطلة ل",
+        "fra": "Date de vacances à",
+        "hin": "छुट्टी की तारीख",
+        "kan": "ರಜಾದಿನದ ದಿನಾಂಕ",
+        "tam": "விடுமுறை தேதி"
+      },
       "filterType": "between",
       "autocomplete": "false",
       "dropdown": "false",
@@ -251,6 +330,7 @@
       "filtername": "holidayName",
       "filterlabel": {
         "eng": "Holiday Name",
+        "kin": "Izina ry'Ikiruhuko",
         "ara": "اسم العطلة",
         "fra": "Nom des vacances",
         "hin": "छुट्टी का नाम",
@@ -267,7 +347,15 @@
     },
     {
       "filtername": "isActive",
-      "filterlabel": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை"},
+      "filterlabel": {
+        "eng": "Status",
+        "kin": "Imiterere",
+        "ara": "حاله",
+        "fra": "statut",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "true",

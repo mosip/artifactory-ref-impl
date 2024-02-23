@@ -5,6 +5,11 @@
       "nativeName": "English",
       "locale": "en_GB"
     },
+    "kin": {
+      "name": "Kinyarwanda",
+      "nativeName": "Kinyarwanda",
+      "locale": "rw_RW"
+    },
     "ara": {
       "name": "Arabic",
       "nativeName": "العَرَبِيَّة‎",

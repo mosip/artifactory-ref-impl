@@ -4,6 +4,7 @@
       {
         "label": {
           "eng": "Center Types",
+          "kin": "Ubwoko bw'ikigo",
           "ara": "نوع المركز",
           "fra": "Type de centre",
           "hin": "केंद्र प्रकार   ",
@@ -16,6 +17,7 @@
       {
         "label": {
           "eng": "Blocklisted Words",
+          "kin": "",
           "ara": "الكلمات المحظورة",
           "fra": "Mots bloqués",
           "tam": "தடுப்புப்பட்டியலில் உள்ள வார்த்தைகள்",
@@ -28,6 +30,7 @@
       {
         "label": {
           "eng": "List Of Holidays",
+          "kin": "Urutonde rw'Ibiruhuko",
           "ara": "قائمة عطلة",
           "fra": "Liste de vacances",
           "hin": "छुट्टियों की सूची    ",
@@ -40,6 +43,7 @@
       {
         "label": {
           "eng": "Templates",
+          "kin": "Inyandikorugero",
           "ara": "قوالب",
           "fra": "Modèles",
           "hin": "टेम्पलेट्स     ",
@@ -54,6 +58,7 @@
       {
         "label": {
           "eng": "Device Specs",
+          "kin": "Imiterere y'Igikoresho",
           "ara": "مواصفات الجهاز",
           "fra": "Spécifications de l'appareil",
           "hin": "डिवाइस चश्मा      ",
@@ -66,6 +71,7 @@
       {
         "label": {
           "eng": "Device Types",
+          "kin": "Ubwoko bw'igikoresho",
           "ara": "أنواع الأجهزة",
           "fra": "Types de périphériques",
           "hin": "डिवाइस के प्रकार  ",
@@ -80,6 +86,7 @@
       {
         "label": {
           "eng": "Machine Specs",
+          "kin": "Imiterere y'imashini",
           "ara": "المواصفات الجهاز",
           "fra": "Spécifications de la machine",
           "hin": "मशीन चश्मा  ",
@@ -92,6 +99,7 @@
       {
         "label": {
           "eng": "Machine Types",
+          "kin": "Ubwoko bw'imashini",
           "ara": "أنواع الآلات",
           "fra": "Types de machines",
           "hin": "मशीन के प्रकार   ",
@@ -106,6 +114,7 @@
       {
         "label": {
           "eng": "Document Types",
+          "kin": "Ubwoko bw'inyandiko",
           "ara": "أنواع المستندات",
           "fra": "Types de documents",
           "hin": "दस्तावेज़ प्रकार  ",
@@ -118,6 +127,7 @@
       {
         "label": {
           "eng": "Document Categories",
+          "kin": "Ibyiciro by'Inyandiko",
           "ara": "فئات المستندات",
           "fra": "Catégories de document",
           "hin": "दस्तावेज़ श्रेणियाँ   ",
@@ -130,6 +140,7 @@
       {
         "label": {
           "eng": "Document Category - Type Mapping",
+          "kin": "Icyiciro by'Inyandiko - Ihuza nyandiko",
           "ara": "فئة الوثيقة - نوع التعيين",
           "fra": "Catégorie de document - Mappage de types",
           "hin": "दस्तावेज़ श्रेणी - प्रकार मानचित्रण ",
