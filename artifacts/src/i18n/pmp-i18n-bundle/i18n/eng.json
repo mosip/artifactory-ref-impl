@@ -441,14 +441,6 @@
     "button": "Upload",
     "cancel": "Cancel"
   },
-  "filtersmap": {
-    "titleTxt": "Map Policy Group",
-    "footerButtons": {
-      "resetTxt": "Reset",
-      "cancelTxt": "Cancel",
-      "applyTxt": "Save"
-    }
-  },
   "filters": {
     "titleTxt": "Add Filters",
     "footerButtons": {
