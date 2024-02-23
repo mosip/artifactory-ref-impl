@@ -470,7 +470,8 @@
   },
   "genericerror": {
     "fieldValidation": "இந்த புலம் தேவை",
-    "fieldNameValidation": "தேவைப்படுகிறது"
+    "fieldNameValidation": "தேவைப்படுகிறது",
+    "invalidJson": "கொள்கைகள் தரவிற்கான தவறான JSON வடிவம்"
   },
   "serverError": {
   	"PMS_COR_001": "உள்ளீட்டு அளவுரு இல்லை",

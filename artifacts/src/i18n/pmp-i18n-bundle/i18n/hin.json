@@ -470,7 +470,8 @@
   },
   "genericerror": {
     "fieldValidation": "यह फ़ील्ड आवश्यक है",
-    "fieldNameValidation": " आवश्यक है"
+    "fieldNameValidation": " आवश्यक है",
+    "invalidJson": "नीतियों के डेटा के लिए अमान्य JSON प्रारूप"
   },
   "serverError": {
     "PMS_COR_001": "गुम इनपुट पैरामीटर",

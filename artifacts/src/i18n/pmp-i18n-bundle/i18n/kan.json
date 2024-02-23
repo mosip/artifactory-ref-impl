@@ -470,7 +470,8 @@
   },
   "genericerror": {
     "fieldValidation": "ಈ ಜಾಗ ಬೇಕಾಗಿದೆ",
-    "fieldNameValidation": " ಅಗತ್ಯವಿದೆ"
+    "fieldNameValidation": " ಅಗತ್ಯವಿದೆ",
+    "invalidJson": "ನೀತಿಗಳ ಡೇಟಾಕ್ಕಾಗಿ ಅಮಾನ್ಯ JSON ಫಾರ್ಮ್ಯಾಟ್"
   },
   "serverError": {
     "PMS_COR_001": "ಇನ್‌ಪುಟ್ ಪ್ಯಾರಾಮೀಟರ್ ಕಾಣೆಯಾಗಿದೆ",
