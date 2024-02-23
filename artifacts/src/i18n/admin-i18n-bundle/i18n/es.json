@@ -870,7 +870,7 @@
         "KER-MSD-149": "Se produjo un error al obtener los detalles de mapeo de tipo de solicitante-categoría de documento-tipo de documento",
         "KER-MSD-150": "No se encontró el mapeo de categoría de documento-tipo de documento",
         "KER-MSD-001": "Se produjo un error al obtener las aplicaciones",
-        "KER-MSD-101": "Se produjo un error al insertar los detalles de la aplicación",
+        "KER-MSD-101": "Solicitud tipo Centro Duplicado, el centro existe con los mismos datos.",
         "KER-MSD-002": "Aplicación no encontrada",
         "KER-MSD-201": "Se encontró una solicitud incorrecta",
         "KER-MSD-193": "Se produjo un error al obtener la configuración de la aplicación",
