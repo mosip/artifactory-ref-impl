@@ -470,7 +470,8 @@
   },
   "genericerror": {
     "fieldValidation": "Ce champ est requis",
-    "fieldNameValidation": " est requis"
+    "fieldNameValidation": " est requis",
+    "invalidJson": "Format JSON non valide pour les données des règles"
   },
   "serverError": {
     "PMS_COR_001": "Paramètre d'entrée manquant",
