@@ -454,14 +454,6 @@
     "cancel": "Cancel"
   },
   "filters": {
-    "titleTxt": "Map Policy Group",
-    "footerButtons": {
-      "resetTxt": "Reset",
-      "cancelTxt": "Cancel",
-      "applyTxt": "Save"
-    }
-  },
-  "filters": {
     "titleTxt": "Add Filters",
     "footerButtons": {
         "resetTxt": "Reset",
@@ -475,7 +467,8 @@
   },
   "genericerror": {
     "fieldValidation": "This field is required",
-    "fieldNameValidation": " is required"
+    "fieldNameValidation": " is required",
+    "invalidJson": "Invalid JSON format for policies data"
   },
   "serverError": {
     "PMS_COR_001": "Missing Input Parameter",
