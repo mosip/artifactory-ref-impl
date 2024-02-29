@@ -72,7 +72,7 @@
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
-		<auth-adapter-lite.version>1.2.0.1-B4-SNAPSHOT</auth-adapter-lite.version>
+		<auth-adapter-lite.version>1.2.0.1-B4</auth-adapter-lite.version>
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 		
@@ -127,7 +127,7 @@
 		<esignet-mock-wrapper.version>0.9.2-SNAPSHOT</esignet-mock-wrapper.version>
 		<esignet-mock-wrapper.fileName>esignet-mock-wrapper.jar</esignet-mock-wrapper.fileName>
 		<!-- esignet IDA wrapper -->
-		<esignet-ida-wrapper.version>1.2.0.1-B6-SNAPSHOT</esignet-ida-wrapper.version>
+		<esignet-ida-wrapper.version>1.2.0.1-B6</esignet-ida-wrapper.version>
 		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
 		<!-- latest mock-sdk -->
 		<mock-sdk-latest.version>1.2.0.1-B3</mock-sdk-latest.version>
