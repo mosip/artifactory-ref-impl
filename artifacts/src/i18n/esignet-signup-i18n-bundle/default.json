@@ -1,0 +1,11 @@
+{
+  "languages_2Letters": {
+    "km": "ខ្មែរ",
+    "en": "English"
+  },
+  "rtlLanguages": [],
+  "langCodeMapping": {
+    "khm": "km",
+    "eng": "en"
+  }
+}
