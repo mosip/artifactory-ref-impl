@@ -68,7 +68,7 @@
 
 	<properties>
 		<!-- kernel-auth-apadter -->
-		<auth-adapter.version>1.2.0.1-SNAPSHOT</auth-adapter.version>
+		<auth-adapter.version>1.2.0.1</auth-adapter.version>
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
@@ -77,15 +77,15 @@
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 		
 		<!-- kernel-smsserviceprovider-->
-		<kernel-smsserviceprovider.version>1.2.0.1-B2</kernel-smsserviceprovider.version>
+		<kernel-smsserviceprovider.version>1.2.0.1</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 		<!-- kernel-ref-idobjectvalidator -->
-		<kernel-ref-idobjectvalidator.version>1.2.0.1-B2</kernel-ref-idobjectvalidator.version>
+		<kernel-ref-idobjectvalidator.version>1.2.0.1</kernel-ref-idobjectvalidator.version>
 		<kernel-ref-idobjectvalidator.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator</kernel-ref-idobjectvalidator.location>
 		<kernel-ref-idobjectvalidator.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator.fileName>
 		<!-- kernel-virusscanner-clamav -->
-		<kernel-virusscanner-clamav.version>1.2.0.1-B2</kernel-virusscanner-clamav.version>
+		<kernel-virusscanner-clamav.version>1.2.0.1</kernel-virusscanner-clamav.version>
 		<kernel-virusscanner-clamav.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</kernel-virusscanner-clamav.location>
 		<kernel-virusscanner-clamav.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav.fileName>
 		<!-- clamav-client -->
@@ -93,20 +93,20 @@
 		<clamav-client.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</clamav-client.location>
 		<clamav-client.fileName>clamav.jar</clamav-client.fileName>
 		<!-- biosdk-client-->
-		<biosdk-client.version>1.2.0.1-SNAPSHOT</biosdk-client.version>
+		<biosdk-client.version>1.2.0.1</biosdk-client.version>
 		<biosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/mock/0.9/biosdk-client</biosdk-client.location>
 		<biosdk-client-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/biosdk-lib</biosdk-client-lib.location>
 		<biosdk-client.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client.fileName>
 		<!-- demosdk-client -->
-		<demosdk-client.version>1.2.0.1-SNAPSHOT</demosdk-client.version>
+		<demosdk-client.version>1.2.0.1</demosdk-client.version>
 		<demosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/demosdk/default/demosdk</demosdk-client.location>
 		<demosdk-client.fileName>demosdk-client-jar-with-dependencies.jar</demosdk-client.fileName>
 		<!-- mock-sdk -->
-		<mock-sdk.version>1.2.0.1-B3</mock-sdk.version>
+		<mock-sdk.version>1.2.0.1-B4</mock-sdk.version>
 		<mock-sdk.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/1.1.5</mock-sdk.location>
 		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
 		<!-- mock-sdk-jpeg-extractor -->
-		<mock-sdk-jpeg-extractor.version>1.2.0.1-SNAPSHOT</mock-sdk-jpeg-extractor.version>
+		<mock-sdk-jpeg-extractor.version>1.2.0.1</mock-sdk-jpeg-extractor.version>
 		<mock-sdk-jpeg-extractor.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-mock-sdk/1.1.5</mock-sdk-jpeg-extractor.location>
 		<mock-sdk-jpeg-extractor-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-sdk/jpeg-sdk-lib</mock-sdk-jpeg-extractor-lib.location>
 		<mock-sdk-jpeg-extractor.fileName>mock-sdk-jpeg-extractor-jar-with-dependencies.jar</mock-sdk-jpeg-extractor.fileName>
@@ -115,7 +115,7 @@
 		<hazelcast.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast.location>
 		<hazelcast.fileName>cache-provider.jar</hazelcast.fileName>
 		<!-- authentication-childauthfilter-impl -->
-		<authentication-childauthfilter-impl.version>1.2.0.1-SNAPSHOT</authentication-childauthfilter-impl.version>
+		<authentication-childauthfilter-impl.version>1.2.0.1</authentication-childauthfilter-impl.version>
 		<authentication-childauthfilter-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/authentication/authentication-ref-impl</authentication-childauthfilter-impl.location>
 		<authentication-childauthfilter-impl.fileName>authentication-childauthfilter-impl.jar</authentication-childauthfilter-impl.fileName>
 		<!-- idp authentication wrapper -->
@@ -124,13 +124,13 @@
 		<authentication-wrapper.fileName>authentication-wrapper.jar</authentication-wrapper.fileName>
 		<!-- esignet mock authentication wrapper -->
 		<esignet-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-wrapper</esignet-wrapper.location>
-		<esignet-mock-wrapper.version>0.9.2-SNAPSHOT</esignet-mock-wrapper.version>
+		<esignet-mock-wrapper.version>0.9.2</esignet-mock-wrapper.version>
 		<esignet-mock-wrapper.fileName>esignet-mock-wrapper.jar</esignet-mock-wrapper.fileName>
 		<!-- esignet IDA wrapper -->
-		<esignet-ida-wrapper.version>1.2.0.1-SNAPSHOT</esignet-ida-wrapper.version>
+		<esignet-ida-wrapper.version>1.2.0.1</esignet-ida-wrapper.version>
 		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
 		<!-- latest mock-sdk -->
-		<mock-sdk-latest.version>1.2.0.1-B3</mock-sdk-latest.version>
+		<mock-sdk-latest.version>1.2.0.1-B4</mock-sdk-latest.version>
 	</properties>
 	
 	<build>
