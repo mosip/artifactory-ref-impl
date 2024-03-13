@@ -8,7 +8,7 @@
       "subItem1": "Groupe de politiques",
       "subItem2": "Politique d'authentification",
       "subItem3": "Politique de partage de données"
-    },
+    }, 
     "item3": {
       "title": "Partenaire"
     },
@@ -454,7 +454,8 @@
     "chooseFile": "Choisir le fichier",
     "uploadYourFile": "Téléchargez votre fichier",
     "button": "Télécharger",
-    "cancel": "Annuler"
+    "cancel": "Annuler",
+    "supportedDoc":"Fichier au format PEM ou CER uniquement pris en charge."
   },
   "filters": {
     "titleTxt": "Ajouter des filtres",
@@ -471,6 +472,12 @@
   "genericerror": {
     "fieldValidation": "Ce champ est requis",
     "fieldNameValidation": " est requis"
+  },
+  "successMessages":{
+    "sbi":{
+      "Activate":"Informations biométriques sécurisées approuvées avec succès.",
+      "De-activate":"Les informations biométriques sécurisées ont été rejetées avec succès."
+    }
   },
   "serverError": {
     "PMS_COR_001": "Paramètre d'entrée manquant",
@@ -600,7 +607,12 @@
     "PMS_POL_055": "La politique publiée ne peut pas être mise à jour.",
     "PMS_POL_056": "Les stratégies actives existent sous le groupe de stratégies.",
     "PMS_POL_057": "L'apiKey active existe sous la stratégie.",
-    "PMS_POL_058": "Le statut ne peut pas être modifié pour la politique publiée.;"
+    "PMS_POL_058": "Le statut ne peut pas être modifié pour la politique publiée.;",
+    "KER-PCM-006": "Certificats d'autorité de certification racine/autorité de certification intermédiaire introuvables.",
+    "KER-PCM-015": "Certificat auto-signé non autorisé en tant que partenaire.",
+    "KER-PCM-004": "Les dates des certificats ne sont pas valides.",
+    "KER-KMS-013": "Erreur d'analyse du certificat. dépassement de signature, octets = 917",
+    "PMS_AUT_001": "Code de sous-type de périphérique Reg introuvable dans la liste des sous-types de périphérique Reg"
   },
   "generickeys":{
     "save": "Enregistrer",
@@ -610,7 +622,9 @@
     "updatedSuccessfully": "Mise à jour réussie",
     "createdSuccessfully": "Création réussie",
     "success": "Succès",
-    "error": "Erreur"
+    "error": "Erreur",
+    "failure":"Échec !",
+    "certificate": "Certificat"
   },
   "paginatorIntl": {
     "itemsPerPageLabel": "objets par page",
