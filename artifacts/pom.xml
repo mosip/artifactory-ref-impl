@@ -72,9 +72,9 @@
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
-		<auth-adapter-without-spring.version>1.2.1-es-SNAPSHOT</auth-adapter-without-spring.version>
-		<auth-adapter-without-spring.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-without-spring.location>
-		<auth-adapter-without-spring.fileName>kernel-auth-adapter-without-spring.jar</auth-adapter-without-spring.fileName>
+		<auth-adapter-lite.version>1.2.0.1-B4</auth-adapter-lite.version>
+		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
+		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 		
 		<!-- kernel-smsserviceprovider-->
 		<kernel-smsserviceprovider.version>1.2.1-SNAPSHOT</kernel-smsserviceprovider.version>
@@ -171,10 +171,10 @@
 
 				<artifactItem>
 	       	 	                <groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-auth-adapter</artifactId>
-					<version>${auth-adapter-without-spring.version}</version>
-					<outputDirectory>${auth-adapter-without-spring.location}</outputDirectory> 
-					<destFileName>${auth-adapter-without-spring.fileName}</destFileName>
+					<artifactId>kernel-auth-adapter-lite</artifactId>
+					<version>${auth-adapter-lite.version}</version>
+					<outputDirectory>${auth-adapter-lite.location}</outputDirectory> 
+					<destFileName>${auth-adapter-lite.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
 					
