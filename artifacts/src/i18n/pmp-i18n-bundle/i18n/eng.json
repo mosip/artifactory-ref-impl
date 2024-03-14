@@ -8,7 +8,7 @@
       "subItem1": "Policy Group",
       "subItem2": "Auth Policy",
       "subItem3": "Data Share Policy"
-    }, 
+    },
     "item3": {
       "title": "Partner"
     },
@@ -617,7 +617,8 @@
     "KER-PCM-015": "Self Signed Certificate not allowed as partner.",
     "KER-PCM-004": "Certificate Dates are not valid.",
     "KER-KMS-013": "Certificate Parsing Error.signed overrun, bytes = 917",
-    "PMS_AUT_001": "Reg Device Sub Type Code not found in the list of Reg Device Sub Types"
+    "PMS_AUT_001": "Reg Device Sub Type Code not found in the list of Reg Device Sub Types",
+    "PMS_PV_005": "Invalid input parameter - errorCode in policy data"
   },
   "generickeys":{
     "save":"Save",
