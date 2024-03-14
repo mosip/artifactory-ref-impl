@@ -8,7 +8,7 @@
       "subItem1": "Policy Group",
       "subItem2": "Auth Policy",
       "subItem3": "Data Share Policy"
-    },
+    }, 
     "item3": {
       "title": "Partner"
     },
@@ -451,7 +451,8 @@
     "chooseFile": "Choose File",
     "uploadYourFile": "Upload Your File",
     "button": "Upload",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "supportedDoc":"PEM or CER format file only supported."
   },
   "filters": {
     "titleTxt": "Add Filters",
@@ -469,6 +470,12 @@
     "fieldValidation": "This field is required",
     "fieldNameValidation": " is required",
     "invalidJson": "Invalid JSON format for policies data"
+  },
+  "successMessages":{
+    "sbi":{
+      "Activate":"Secure biometric details approved successfully.",
+      "De-activate":"Secure biometric details rejected successfully."
+    }
   },
   "serverError": {
     "PMS_COR_001": "Missing Input Parameter",
@@ -598,7 +605,12 @@
     "PMS_POL_055": "Published policy cannot be updated.",
     "PMS_POL_056": "Active policies exists under the policy group.",
     "PMS_POL_057": "Active apiKey exists under the policy.",
-    "PMS_POL_058": "Status cannot be changed for published policy.;"
+    "PMS_POL_058": "Status cannot be changed for published policy.;",
+    "KER-PCM-006": "Root CA/Intermediate CA Certificates not found.",
+    "KER-PCM-015": "Self Signed Certificate not allowed as partner.",
+    "KER-PCM-004": "Certificate Dates are not valid.",
+    "KER-KMS-013": "Certificate Parsing Error.signed overrun, bytes = 917",
+    "PMS_AUT_001": "Reg Device Sub Type Code not found in the list of Reg Device Sub Types"
   },
   "generickeys":{
     "save":"Save",
@@ -608,7 +620,9 @@
     "updatedSuccessfully":"Updated Successfully",
     "createdSuccessfully":"Created Successfully",
     "success":"Success",
-    "error":"Error"
+    "error":"Error",
+    "failure":"Failure !",
+    "certificate": "Certificate"
   },
   "paginatorIntl": {
       "itemsPerPageLabel": "Items per page: ",
