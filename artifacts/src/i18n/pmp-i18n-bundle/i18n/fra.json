@@ -8,7 +8,7 @@
       "subItem1": "Groupe de politiques",
       "subItem2": "Politique d'authentification",
       "subItem3": "Politique de partage de données"
-    }, 
+    },
     "item3": {
       "title": "Partenaire"
     },
@@ -613,7 +613,8 @@
     "KER-PCM-015": "Certificat auto-signé non autorisé en tant que partenaire.",
     "KER-PCM-004": "Les dates des certificats ne sont pas valides.",
     "KER-KMS-013": "Erreur d'analyse du certificat. dépassement de signature, octets = 917",
-    "PMS_AUT_001": "Code de sous-type de périphérique Reg introuvable dans la liste des sous-types de périphérique Reg"
+    "PMS_AUT_001": "Code de sous-type de périphérique Reg introuvable dans la liste des sous-types de périphérique Reg",
+    "PMS_PV_005": "Paramètre d'entrée non valide - errorCode dans les données de stratégie"
   },
   "generickeys":{
     "save": "Enregistrer",
