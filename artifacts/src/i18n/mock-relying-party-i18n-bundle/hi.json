@@ -49,7 +49,9 @@
     "or": "या",
     "sign_in_with": "ई-सिग्नेट के साथ साइन इन करें",
     "dont_have_existing_account": "कोई मौजूदा खाता नहीं है?",
-    "sign_up_here": "यहां साइन अप करें"
+    "sign_up_here": "यहां साइन अप करें",
+    "logged_out": "उपयोगकर्ता लॉगआउट",
+    "session_expired": "सत्र समाप्त हो गया"
   },
   "signup": {
     "sign_up_with_health_portal": "स्वास्थ्य पोर्टल पर साइन अप करें",
