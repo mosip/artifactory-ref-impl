@@ -304,7 +304,8 @@
   "validationMessages": {
     "required": "Veuillez remplir les champs À et De pour filtrer par plage de dates",
     "range": "La date de fin ne peut pas être antérieure à la date de début",
-    "invalid": "Veuillez sélectionner une valeur valide pour Date"
+    "invalid": "Veuillez sélectionner une valeur valide pour Date",
+    "max-limit": "Limite maximale atteinte"
   },
   "actionMessages": {
     "decommission": {
@@ -381,7 +382,6 @@
     "language": "Anglais",
     "keyboard-tooltip": "Cliquez pour le clavier virtuel (anglais)",
     "update": "Mise à jour",
-    "max-limit": "Limite maximale atteinte",
     "validationMessages": {
       "name": {
         "required": "Le nom de la stratégie est requis",
