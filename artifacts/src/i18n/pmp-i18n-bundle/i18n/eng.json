@@ -378,6 +378,7 @@
     "language": "English",
     "keyboard-tooltip": "Click for Virtual Keyboard (English)",
     "update": "Update",
+    "max-limit": "Max limit reached",
     "validationMessages": {
       "name": {
         "required": "Policy Name is required",

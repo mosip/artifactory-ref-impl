@@ -385,6 +385,7 @@
     "language": "إنجليزي",
     "keyboard-tooltip": "انقر للحصول على لوحة المفاتيح الافتراضية (الإنجليزية)",
     "update": "تحديث",
+    "max-limit": "تم الوصول إلى الحد الأقصى",
     "validationMessages": {
       "name": {
         "required": "اسم السياسة مطلوب",

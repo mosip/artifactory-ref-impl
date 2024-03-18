@@ -381,6 +381,7 @@
     "language": "Anglais",
     "keyboard-tooltip": "Cliquez pour le clavier virtuel (anglais)",
     "update": "Mise à jour",
+    "max-limit": "Limite maximale atteinte",
     "validationMessages": {
       "name": {
         "required": "Le nom de la stratégie est requis",
