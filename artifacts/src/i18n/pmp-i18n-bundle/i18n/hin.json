@@ -381,6 +381,7 @@
     "language": "अंग्रेज़ी",
     "keyboard-tooltip": "वर्चुअल कीबोर्ड के लिए क्लिक करें (अंग्रेज़ी)",
     "update": "अद्यतन",
+    "max-limit": "अधिकतम सीमा तक पहुँच गया",
     "validationMessages": {
       "name": {
         "required": "पॉलिसी का नाम आवश्यक है",

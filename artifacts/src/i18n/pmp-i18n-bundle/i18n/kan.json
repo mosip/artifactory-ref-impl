@@ -381,6 +381,7 @@
     "language": "ಆಂಗ್ಲ",
     "keyboard-tooltip": "ವರ್ಚುವಲ್ ಕೀಬೋರ್ಡ್‌ಗಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಿ (ಇಂಗ್ಲಿಷ್)",
     "update": "ನವೀಕರಿಸಿ",
+    "max-limit": "ಗರಿಷ್ಠ ಮಿತಿಯನ್ನು ತಲುಪಿದೆ",
     "validationMessages": {
       "name": {
         "required": "ನೀತಿಯ ಹೆಸರು ಅಗತ್ಯವಿದೆ",
