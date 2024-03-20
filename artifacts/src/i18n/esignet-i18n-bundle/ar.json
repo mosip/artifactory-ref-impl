@@ -36,7 +36,7 @@
     "authorize_scope_tooltip": "يسمح لمزود الخدمة بالوصول إلى هذه الخدمات المحمية نيابة عنك",
     "essential_claims_tooltip": "معلومات المستخدم الإلزامية التي يطلبها مزود الخدمة",
     "voluntary_claims_tooltip": "معلومات المستخدم الإضافية التي يمكنك اختيار مشاركتها مع مزود الخدمة",
-    "logo_alt": "e-Signet",
+    "logo_alt": "eSignet",
     "Manage-Identity-Data": "السماح بالوصول لإدارة بيانات الهوية",
     "Manage-VID": "السماح بالوصول لإدارة VID",
     "Manage-Authentication": "السماح بالوصول لإدارة المصادقة",
@@ -89,7 +89,8 @@
     "dob": "أدخل تاريخ الميلاد",
     "policyNumber_placeholder": "رقم الوثيقة",
     "fullName_placeholder": "الاسم الكامل",
-    "dob_placeholder": "تاريخ الميلاد"
+    "dob_placeholder": "تاريخ الميلاد",
+    "auth_failed": "فشل تسجيل الدخول، يرجى ادخال بيانات الاعتماد الصحيحة"
   },
   "LoginQRCode": {
     "scan_with_wallet": "قم بالمسح باستخدام {{walletName}} لتسجيل الدخول",
@@ -140,14 +141,14 @@
     "wellknown_api": ".wellknown API"
   },
   "header": {
-    "login_heading": "تسجيل الدخول باستخدام e-Signet",
+    "login_heading": "تسجيل الدخول باستخدام eSignet",
     "login_subheading": "الرجاء إدخال اسم المستخدم وكلمة المرور المسجلين لديك",
     "login_linkName": "التسجيل المسبق",
     "more_ways_to_sign_in": "المزيد من الطرق لتسجيل الدخول",
     "invalid_auth_factor": "عوامل المصادقة غير صالحة. حاول مرة اخرى...",
     "download_now": "التحميل الان",
-    "logo_alt": "e-Signet",
-    "backgroud_image_alt": "قم بتسجيل الدخول باستخدام e-Signet",
+    "logo_alt": "eSignet",
+    "backgroud_image_alt": "قم بتسجيل الدخول باستخدام eSignet",
     "language": "لغة",
     "noAccount": "ليس لديك حساب؟",
     "signup_for_unified_login": "قم بالتسجيل باستخدام تسجيل الدخول الموحد"
@@ -303,6 +304,7 @@
     "proof_invalid_nonce": "قيمة غير صالحة في مطالبة PHAILLOLL NONCE.",
     "invalid_state_response": "حالة غير صالحة",
     "authCode_missing": "رمز المصادقة مفقود",
+    "failed_to_validate_captcha": "فشل التحقق من صحة كلمة التحقق",
     "0": "النجاح",
     "100": "الجهاز غير مسجل",
     "101": "غير قادر على الكشف عن كائن القياسات الحيوية",

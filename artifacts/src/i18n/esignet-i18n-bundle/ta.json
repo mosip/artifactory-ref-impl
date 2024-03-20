@@ -36,7 +36,7 @@
     "authorize_scope_tooltip": "உங்கள் சார்பாக இந்த பாதுகாக்கப்பட்ட சேவைகளை அணுக சேவை வழங்குநரை அனுமதிக்கிறது",
     "essential_claims_tooltip": "சேவை வழங்குநரால் தேவைப்படும் பயனர் தகவல் கட்டாயம்",
     "voluntary_claims_tooltip": "சேவை வழங்குநருடன் பகிர நீங்கள் தேர்வுசெய்யக்கூடிய கூடுதல் பயனர் தகவல்",
-    "logo_alt": "e-Signet",
+    "logo_alt": "eSignet",
     "Manage-Identity-Data": "அடையாள தரவை நிர்வகிக்க அணுகல் அனுமதி கொடுக்கவும்",
     "Manage-VID": "VID ஐ நிர்வகிக்க அணுகல் அனுமதி கொடுக்கவும்",
     "Manage-Authentication": "அங்கீகாரத்தை நிர்வகிக்க அணுகல் அனுமதி கொடுக்கவும்",
@@ -89,7 +89,8 @@
     "dob": "பிறந்த தேதியை உள்ளிடுக",
     "policyNumber_placeholder": "காப்பீடு எண்",
     "fullName_placeholder": "முழு பெயர்",
-    "dob_placeholder": "பிறந்த தேதி"
+    "dob_placeholder": "பிறந்த தேதி",
+    "auth_failed": "உள்நுழைவு தோல்வியடைந்தது, சரியான சான்றுகளை உள்ளிடவும்"
   },
   "LoginQRCode": {
     "scan_with_wallet": "உள்நுழைய {{walletName}} உடன் ஸ்கேன் செய்யவும்",
@@ -140,14 +141,14 @@
     "wellknown_api": ".wellknown API"
   },
   "header": {
-    "login_heading": "e-Signet மூலம் உள்நுழையவும்",
+    "login_heading": "eSignet மூலம் உள்நுழையவும்",
     "login_subheading": "உங்கள் பதிவு செய்யப்பட்ட பயனர்பெயர் மற்றும் கடவுச்சொல்லை உள்ளிடவும்",
     "login_linkName": "முன்பதிவு",
     "more_ways_to_sign_in": "உள்நுழைவதற்கான கூடுதல் வழிகள்",
     "invalid_auth_factor": "தவறான அங்கீகார காரணிகள் தயவுசெய்து மீண்டும் முயற்சி செய்க...",
     "download_now": "இப்போது பதிவிறக்கவும்",
-    "logo_alt": "e-Signet",
-    "backgroud_image_alt": "e-Signet மூலம் உள்நுழையவும்",
+    "logo_alt": "eSignet",
+    "backgroud_image_alt": "eSignet மூலம் உள்நுழையவும்",
     "language": "மொழி",
     "noAccount": "கணக்கு இல்லையா?",
     "signup_for_unified_login": "ஒருங்கிணைந்த உள்நுழைவுடன் பதிவு செய்யவும்"
@@ -303,6 +304,7 @@
     "proof_invalid_nonce": "ஆதாரத்தில் தவறான மதிப்பு payload nonce உரிமைகோரல்.",
     "invalid_state_response": "தவறான நிலை",
     "authCode_missing": "அங்கீகாரக் குறியீடு இல்லை",
+    "failed_to_validate_captcha": "கேப்ட்சாவைச் சரிபார்க்க முடியவில்லை",
     "0": "வெற்றி",
     "100": "சாதனம் பதிவு செய்யப்படவில்லை",
     "101": "பயோமெட்ரிக் பொருளைக் கண்டறிய முடியவில்லை",

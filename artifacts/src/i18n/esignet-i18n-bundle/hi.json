@@ -89,7 +89,8 @@
     "dob": "जन्मतिथि दर्ज करें",
     "policyNumber_placeholder": "पॉलिसी नंबर",
     "fullName_placeholder": "पूरा नाम",
-    "dob_placeholder": "जन्मतिथि"
+    "dob_placeholder": "जन्मतिथि",
+    "auth_failed": "लॉगिन विफल, कृपया सही क्रेडेंशियल दर्ज करें"
   },
   "LoginQRCode": {
     "scan_with_wallet": "लॉगिन करने के लिए {{walletName}} से स्कैन करें",
@@ -303,6 +304,7 @@
     "proof_invalid_nonce": "प्रूफ पेलोड में अमान्य मूल्य गैर -दावे।",
     "invalid_state_response": "अमान्य स्थिति",
     "authCode_missing": "ऑथकोड गुम है",
+    "failed_to_validate_captcha": "कैप्चा सत्यापित करने में विफल",
     "0": "सफलता",
     "100": "डिवाइस पंजीकृत नहीं है",
     "101": "बायोमेट्रिक वस्तु का पता लगाने में असमर्थ",

@@ -36,7 +36,7 @@
     "authorize_scope_tooltip": "Allows Service provider to access these protected services on your behalf",
     "essential_claims_tooltip": "Mandatory user information required by the Service provider",
     "voluntary_claims_tooltip": "Additional user information that the resident can choose to share with the Service provider",
-    "logo_alt": "e-Signet",
+    "logo_alt": "eSignet",
     "Manage-Identity-Data": "Allow access to manage identity data",
     "Manage-VID": "Allow access to manage VID",
     "Manage-Authentication": "Allow access to manage Authentication",
@@ -89,7 +89,8 @@
     "dob": "Enter DOB",
     "policyNumber_placeholder": "Policy Number",
     "fullName_placeholder": "Full Name",
-    "dob_placeholder": "DOB"
+    "dob_placeholder": "DOB",
+    "auth_failed": "Login failed, please enter correct credentials"
   },
   "LoginQRCode": {
     "scan_with_wallet": "Scan with {{walletName}} to login",
@@ -146,8 +147,8 @@
     "more_ways_to_sign_in": "More Ways to Login",
     "invalid_auth_factor": "Invalid Auth Factors. Please Try Again...",
     "download_now": "Download Now",
-    "logo_alt": "e-Signet",
-    "backgroud_image_alt": "Sign in with e-Signet",
+    "logo_alt": "eSignet",
+    "backgroud_image_alt": "Sign in with eSignet",
     "language": "Language",
     "noAccount": "Don't have an account?",
     "signup_for_unified_login": "Sign Up with Unified Login"
@@ -303,6 +304,7 @@
     "proof_invalid_nonce": "Invalid value in proof payload nonce claim.",
     "invalid_state_response": "Invalid state",
     "authCode_missing": "AuthCode Missing",
+    "failed_to_validate_captcha": "Failed to validate captcha",
     "0": "Success",
     "100": "Device Not Registered",
     "101": "Unable to Detect a Biometrics",
