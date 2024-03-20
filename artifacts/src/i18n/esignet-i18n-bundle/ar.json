@@ -89,8 +89,7 @@
     "dob": "أدخل تاريخ الميلاد",
     "policyNumber_placeholder": "رقم الوثيقة",
     "fullName_placeholder": "الاسم الكامل",
-    "dob_placeholder": "تاريخ الميلاد",
-    "auth_failed": "فشل تسجيل الدخول، يرجى ادخال بيانات الاعتماد الصحيحة"
+    "dob_placeholder": "تاريخ الميلاد"
   },
   "LoginQRCode": {
     "scan_with_wallet": "قم بالمسح باستخدام {{walletName}} لتسجيل الدخول",

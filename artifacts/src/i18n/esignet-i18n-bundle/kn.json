@@ -89,8 +89,7 @@
     "dob": "ಹುಟ್ಟಿದ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ",
     "policyNumber_placeholder": "ಪಾಲಿಸಿ ಸಂಖ್ಯೆ",
     "fullName_placeholder": "ಪೂರ್ಣ ಹೆಸರು",
-    "dob_placeholder": "ಹುಟ್ಟಿದ ದಿನಾಂಕ",
-    "auth_failed": "ಲಾಗಿನ್ ವಿಫಲವಾಗಿದೆ, ದಯವಿಟ್ಟು ಸರಿಯಾದ ರುಜುವಾತುಗಳನ್ನು ನಮೂದಿಸಿ"
+    "dob_placeholder": "ಹುಟ್ಟಿದ ದಿನಾಂಕ"
   },
   "LoginQRCode": {
     "scan_with_wallet": "ಲಾಗಿನ್ ಮಾಡಲು {{walletName}} ನೊಂದಿಗೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
