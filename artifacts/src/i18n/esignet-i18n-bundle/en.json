@@ -394,7 +394,8 @@
       "IDA-OTA-002": "Could not generate/send OTP",
       "IDA-OTA-003": "OTP has expired",
       "IDA-OTA-004": "OTP is invalid",
-      "IDA-OTA-005": "Input transactionID does not match transactionID of OTP Request","IDA-OTA-006": "UIN is locked for OTP generation. Please try again later",
+      "IDA-OTA-005": "Input transactionID does not match transactionID of OTP Request",
+      "IDA-OTA-006": "UIN is locked for OTP generation. Please try again later",
       "IDA-OTA-007": "UIN is locked for OTP validation due to exceeding no of invalid OTP trials",
       "IDA-OTA-008": "OTP Notification Channel not provided.",
       "IDA-OTA-009": "Notification Channel not configured",
@@ -404,7 +405,7 @@
       "send_otp_failed_msg": "Failed to Send OTP",
       "invalid_otp_channel": "Invalid OTP Channel Provided.",
       "auth_failed": "Incorrect OTP. Please try again.",
-      "IDA-MLC-018": "Incorrect OTP. Please try again."
+      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
     },
     "biometrics": {
       "IDA-BIA-001": "Biometric data did not match",
@@ -425,12 +426,12 @@
       "IDA-BIA-017": "Unable to Perform Biometric Match due to a Technical Issue",
       "IDA-BIA-018": "Unable to Process the Request due to a Technical Issue",
       "auth_failed": "Biometric data not available. Please try again.",
-      "IDA-MLC-018": "Biometric data not available. Please try again."
+      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
     },
     "pin": {
       "invalid_pin": "Invalid Pin",
       "auth_failed": "Incorrect pin. Please try again.",
-      "IDA-MLC-018": "Incorrect pin. Please try again."
+      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
     },
     "wallet": {
       "failed_to_link": "Failed to Link",
@@ -438,12 +439,12 @@
       "invalid_qrcode_config": "Invalid QRCode configuration. Please report to the site admin.",
       "link_code_refresh_failed": "Failed to Load",
       "auth_failed": "Wallet local authentication failed. Please try again.",
-      "IDA-MLC-018": "Wallet local authentication failed. Please try again."
+      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
     },
     "password": {
       "auth_failed": "Incorrect username or password. Please try again.",
       "password_error_msg": "Invalid Password",
-      "IDA-MLC-018": "Incorrect username or password. Please try again.",
+      "IDA-MLC-018": "Invalid username. Please enter a valid username.",
       "IDA-PSD-001": "Incorrect username or password. Please try again.",
       "IDA-PSD-002": "Incorrect username or password. Please try again."
     },"statusCodeHeader": {
