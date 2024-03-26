@@ -36,7 +36,7 @@
     "authorize_scope_tooltip": "Allows Service provider to access these protected services on your behalf",
     "essential_claims_tooltip": "Mandatory user information required by the Service provider",
     "voluntary_claims_tooltip": "Additional user information that the resident can choose to share with the Service provider",
-    "logo_alt": "e-Signet",
+    "logo_alt": "eSignet",
     "Manage-Identity-Data": "Allow access to manage identity data",
     "Manage-VID": "Allow access to manage VID",
     "Manage-Authentication": "Allow access to manage Authentication",
@@ -89,7 +89,8 @@
     "dob": "Enter DOB",
     "policyNumber_placeholder": "Policy Number",
     "fullName_placeholder": "Full Name",
-    "dob_placeholder": "DOB"
+    "dob_placeholder": "DOB",
+    "auth_failed": "Login failed, please enter correct credentials"
   },
   "LoginQRCode": {
     "scan_with_wallet": "Scan with {{walletName}} to login",
@@ -146,11 +147,20 @@
     "more_ways_to_sign_in": "More Ways to Login",
     "invalid_auth_factor": "Invalid Auth Factors. Please Try Again...",
     "download_now": "Download Now",
-    "logo_alt": "e-Signet",
-    "backgroud_image_alt": "Sign in with e-Signet",
+    "logo_alt": "eSignet",
+    "backgroud_image_alt": "Sign in with eSignet",
     "language": "Language",
     "noAccount": "Don't have an account?",
-    "signup_for_unified_login": "Sign Up with Unified Login"
+    "signup_for_unified_login": "Sign Up with Unified Login",
+    "subheader_text": {
+      "all_login_options": "Please choose the login option",
+      "otp_login": "Please enter your VID",
+      "biometrics_login": "Please enter your VID & verify using the Biometric device",
+      "pin_login": "Please enter your UIN/VID and PIN",
+      "password_login": "Please enter your registered username and password",
+      "kba_login": "Please fill the below details",
+      "wallet_login": "Please scan the below QR code to login"
+    }
   },
   "footer": {
     "powered_by": "Powered by",
@@ -303,6 +313,7 @@
     "proof_invalid_nonce": "Invalid value in proof payload nonce claim.",
     "invalid_state_response": "Invalid state",
     "authCode_missing": "AuthCode Missing",
+    "failed_to_validate_captcha": "Failed to validate captcha",
     "0": "Success",
     "100": "Device Not Registered",
     "101": "Unable to Detect a Biometrics",
@@ -383,7 +394,8 @@
       "IDA-OTA-002": "Could not generate/send OTP",
       "IDA-OTA-003": "OTP has expired",
       "IDA-OTA-004": "OTP is invalid",
-      "IDA-OTA-005": "Input transactionID does not match transactionID of OTP Request","IDA-OTA-006": "UIN is locked for OTP generation. Please try again later",
+      "IDA-OTA-005": "Input transactionID does not match transactionID of OTP Request",
+      "IDA-OTA-006": "UIN is locked for OTP generation. Please try again later",
       "IDA-OTA-007": "UIN is locked for OTP validation due to exceeding no of invalid OTP trials",
       "IDA-OTA-008": "OTP Notification Channel not provided.",
       "IDA-OTA-009": "Notification Channel not configured",
@@ -393,7 +405,7 @@
       "send_otp_failed_msg": "Failed to Send OTP",
       "invalid_otp_channel": "Invalid OTP Channel Provided.",
       "auth_failed": "Incorrect OTP. Please try again.",
-      "IDA-MLC-018": "Incorrect OTP. Please try again."
+      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
     },
     "biometrics": {
       "IDA-BIA-001": "Biometric data did not match",
@@ -414,12 +426,12 @@
       "IDA-BIA-017": "Unable to Perform Biometric Match due to a Technical Issue",
       "IDA-BIA-018": "Unable to Process the Request due to a Technical Issue",
       "auth_failed": "Biometric data not available. Please try again.",
-      "IDA-MLC-018": "Biometric data not available. Please try again."
+      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
     },
     "pin": {
       "invalid_pin": "Invalid Pin",
       "auth_failed": "Incorrect pin. Please try again.",
-      "IDA-MLC-018": "Incorrect pin. Please try again."
+      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
     },
     "wallet": {
       "failed_to_link": "Failed to Link",
@@ -427,12 +439,12 @@
       "invalid_qrcode_config": "Invalid QRCode configuration. Please report to the site admin.",
       "link_code_refresh_failed": "Failed to Load",
       "auth_failed": "Wallet local authentication failed. Please try again.",
-      "IDA-MLC-018": "Wallet local authentication failed. Please try again."
+      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
     },
     "password": {
       "auth_failed": "Incorrect username or password. Please try again.",
       "password_error_msg": "Invalid Password",
-      "IDA-MLC-018": "Incorrect username or password. Please try again.",
+      "IDA-MLC-018": "Invalid username. Please enter a valid username.",
       "IDA-PSD-001": "Incorrect username or password. Please try again.",
       "IDA-PSD-002": "Incorrect username or password. Please try again."
     },"statusCodeHeader": {
