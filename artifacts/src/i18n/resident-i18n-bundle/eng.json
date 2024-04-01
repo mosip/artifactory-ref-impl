@@ -1,7 +1,7 @@
 {
     "menuItems": [
         {
-            "displayName": "UIN Services",
+            "displayName": "UIN Services artifacts",
             "displaydescription": "Residents can use these services to view, update, manage or share their data. They can also report an issue in case of a grievance.",
             "availableServicesDescription": "Following are the available services:",
             "icon": "./assets/icons/iconfont/uin_services.svg",
