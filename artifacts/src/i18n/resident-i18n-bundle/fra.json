@@ -1,0 +1,715 @@
+{
+    "menuItems": [
+        {
+            "displayName": "Services UIN",
+            "displaydescription": "Les résidents peuvent utiliser ces services pour consulter, mettre à jour, gérer ou partager leurs données. Ils peuvent également signaler un problème en cas de réclamation.",
+            "availableServicesDescription": "Voici les services disponibles :",
+            "icon": "./assets/icons/iconfont/uin_services.svg",
+            "activeIcon": "./assets/icons/iconfont/uin_services_active.svg",
+            "route": "",
+            "auditEventId": "ADM-004",
+            "cols": 2,
+            "rows": 2,
+            "id":"UINservices",
+            "subMenus": [
+                {
+                    "displayName": "Consulter mon historique",
+                    "icon": "assets/images/viewhistory.png",
+                    "route": "uinservices/viewhistory",
+                    "description": "Consultez l'historique de toutes les transactions associées à votre UIN/ VID connecté. Vous pouvez également consulter leurs détails et si une entrée non comptabilisée est trouvée, un rapport peut être établi à ce sujet.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "Gérer mon VID",
+                    "icon": "assets/images/managemyvid.png",
+                    "route": "uinservices/managemyvid",
+                    "description": "Affichez les détails des VIDs existants, créez de nouveaux VIDs, supprimez un VID existant ou téléchargez une carte VID.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "Sécuriser mon identifiant",
+                    "icon": "assets/images/lockunlockauth.png",
+                    "route": "uinservices/lockunlockauth",
+                    "description": "Affichez l'état de tous les types d'authentification. Vous pouvez choisir de verrouiller ou déverrouiller des types d'authentification tels que l'authentification par iris, l'authentification par e-mail, etc.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "Suivre mes demande",
+                    "icon": "assets/images/trackservicerequest.png",
+                    "route": "uinservices/trackservicerequest",
+                    "description": "Suivez l'état d'un identifiant d'événement (EID) associé à votre UIN/ VID connecté. Vous pouvez également consulter les informations détaillées sur l'EID saisi.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "Obtenir une carte personnalisée",
+                    "icon": "assets/images/personalisedcard.png",
+                    "route": "uinservices/personalisedcard",
+                    "description": "Les résidents peuvent sélectionner les données à ajouter à leur justificatif d'identité. Ils peuvent également prévisualiser les données choisies et les télécharger.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "Partager mes données",
+                    "icon": "assets/images/sharewithpartner.png",
+                    "route": "uinservices/sharewithpartner",
+                    "description": "Les résidents peuvent choisir les données à partager avec l'un des partenaires enregistrés pour bénéficier de divers services tiers.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "Mettre à jour mes données",
+                    "icon": "assets/images/updatedemographic.png",
+                    "route": "uinservices/updatedemographic",
+                    "description": "Les résidents peuvent mettre à jour les données déjà existantes associées à leur UIN/ VID. Les données pouvant être mises à jour incluent le nom, le genre, la date de naissance, l'adresse, les documents téléchargés, le numéro de téléphone, l'adresse e-mail, la langue préférée, etc.",
+                    "auditEventId": "ADM-004"
+                }
+            ]
+        },
+        {
+            "displayName": "Obtenir des informations",
+            "icon": "./assets/icons/iconfont/get_information.svg",
+            "activeIcon": "./assets/icons/iconfont/get_information_active.svg",
+            "route": "",
+            "auditEventId": "ADM-004",
+            "cols": 1,
+            "rows": 1,
+            "id":"getInformation",
+            "availableServicesDescription": "Cliquez ici pour effectuer une recherche",
+            "subMenus": [
+                {
+                    "displayName": "Centres d'inscription",
+                    "icon": "",
+                    "route": "regcenter",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "Documents justificatifs",
+                    "icon": "",
+                    "route": "document",
+                    "auditEventId": "ADM-004"
+                }
+            ]
+        },
+        {
+            "displayName": "Prendre rendez-vous",
+            "icon": "./assets/icons/iconfont/book_appointment.svg",
+            "activeIcon": "./assets/icons/iconfont/book_appointment_active.svg",
+            "route": "",
+            "auditEventId": "ADM-004",
+            "cols": 1,
+            "rows": 1,
+            "id":"bookingAnAppointment",
+            "subMenus": [
+                {
+                    "displayName": "Cliquez ici pour une nouvelle inscription",
+                    "icon": "",
+                    "route": "redirect",
+                    "auditEventId": "ADM-004"
+                }
+            ]
+        },
+        {
+            "displayName": "Obtenir mon UIN",
+            "icon": "./assets/icons/iconfont/get_my_uin.svg",
+            "activeIcon": "./assets/icons/iconfont/get_my_uin_active.svg",
+            "route": "getuin",
+            "auditEventId": "ADM-004",
+            "cols": 1,
+            "rows": 1,
+            "id":"getMyUIN",
+            "subMenus": [
+                {
+                    "displayName": "Cliquez ici pour télécharger votre carte UIN ou pour connaître le statut de votre UIN"
+                }
+            ]
+        },
+        {
+            "displayName": "Vérifier le numéro de téléphone / l'identifiant de messagerie",
+            "icon": "./assets/icons/iconfont/verify_phone_number.svg",
+            "activeIcon": "./assets/icons/iconfont/verify_phone_number_active.svg",
+            "route": "verify",
+            "auditEventId": "ADM-004",
+            "cols": 1,
+            "rows": 1,
+            "id":"verifyPhoneNumber/EmailID",
+            "subMenus": [
+                {
+                    "displayName": "Cliquez ici pour vérifier votre numéro de téléphone / identifiant de messagerie"
+                }
+            ]
+        }
+    ],
+    "header": {
+        "lastLogin": "Dernière connexion",
+        "logout": "Se déconnecter"
+    },
+    "dashboard": {
+        "welcomeMessage": "Bienvenue sur le portail Mosip Partner !",
+        "Logout": "Déconnexion",
+        "home": "Accueil",
+        "getinformation": "Obtenir des informations",
+        "regcenter": "Trouver un centre d'inscription",
+        "document": "Liste des documents justificatifs",
+        "verify": "Vérifier le numéro de téléphone/ l'adresse e-mail",
+        "uinservices": "Services UIN",
+        "uindescription": "Les résidents peuvent utiliser ces services pour consulter, mettre à jour, modifier, gérer ou partager leurs données. Ils peuvent également signaler un problème en cas de réclamation."
+    },
+    "uinservices": {
+        "login": "Connexion",
+        "title": "Entrez votre AID/UIN/VID",
+        "description": "Entrez votre AID/UIN/VID pour continuer.",
+        "plaginLabel": "Je ne suis pas un robot",
+        "buttonText": "Envoyer le OTP",
+        "home": "Accueil",
+        "enterHere": "Entrer ici",
+        "label": "Obtenir mon UIN",
+        "icon": "assets/images/info_black_24dp (1).png"
+    },
+    "downloadUin": {
+        "home": "Accueil",
+        "label": "Télécharger l'UIN",
+        "subTitle": "Le OTP expirera dans",
+        "subTitle2": "L'OTP a expiré. Veuillez cliquer sur Renvoyer l'OTP.",
+        "inputLabel": "Entrez le mot de passe à usage unique (OTP)",
+        "otpDescription": "Un mot de passe à usage unique (OTP) a été envoyé à votre numéro de mobile enregistré",
+        "otpDescriptionEmail": " et à votre adresse e-mail enregistrée",
+        "resendBtnLabel": "Renvoyer le OTP",
+        "submitBtnLabel": "Soumettre",
+        "enterOtp": "Entrez OTP ici"
+    },
+    "centerSelection": {
+        "title": "Prendre rendez-vous",
+        "action_nearBy": "Lieux à proximité",
+        "display_recommended": "Centres recommandés",
+        "text_found": "Trouvé",
+        "text_centers": "centres",
+        "text_timing": "Horaires",
+        "text_open": "Ouvert",
+        "text_select": "Sélectionner les types de lieux",
+        "text_enter": "Entrer",
+        "text_search": "Rechercher",
+        "action_back": "Retour",
+        "action_book_later": "Réserver plus tard",
+        "action_continue": "Continuer",
+        "noResult_found": "Aucun résultat trouvé",
+        "lunch_hours": "Déjeuner",
+        "helpText": "Centres d'inscription basés sur votre géolocalisation",
+        "noRegCentersNearby": "Aucun centre d'inscription à proximité trouvé. Veuillez entrer manuellement du texte pour rechercher des centres d'inscription.",
+        "noRegCenters": "Aucun centre d'inscription trouvé.",
+        "warnMessage": "Veuillez entrer des lettres/chiffres pour effectuer une recherche.",
+        "or":"OU",
+        "showMapBtnLabel":"Afficher le centre d'enregistrement sur la carte"
+    },
+    "downloadDocument": {
+        "downloadbutton": "Télécharger"
+    },
+    "grievanceRedressal": {
+        "title": "Formulaire de règlement des plaintes",
+        "namelabel": "Nom",
+        "emailidlabel": "Adresse e-mail",
+        "alternateemailidlabel": "Adresse e-mail alternative",
+        "phonenumberlabel": "Numéro de téléphone",
+        "alternatephonenumberlabel": "Numéro de téléphone alternatif",
+        "eventidlabel": "Identifiant d'événement",
+        "commentlabel": "Commentaire",
+        "alternateEmailPlaceholder": "Entrez une adresse e-mail alternative",
+        "alternatePhoneNoPlaceholder": "Entrez un numéro de téléphone alternatif",
+        "EnterMsgPlaceholder": "Veuillez saisir votre commentaire",
+        "submitBtn": "Soumettre",
+        "TotalCharacters": "Total de caractères",
+        "remainingCharacters": "Restants"
+    },
+    "breadCrumbNames": {
+        "trackMyRequest": "Suivre ma demande",
+        "viewMyHistory": "Consulter mon historique"
+    },
+    "verifyuinvid": {
+        "title": "",
+        "mobileno": "Vérifier le numéro de téléphone",
+        "email": "Vérifier l'adresse e-mail",
+        "uid": "Entrez l'UIN/VID",
+        "captcha": "Entrez le Captcha",
+        "sendotp": "Envoyer OTP",
+        "otp": "Entrez OTP",
+        "phoneicon": "assets/images/phone_iphone_black_24dp.png",
+        "subTitle": "Le OTP expirera dans",
+        "subTitle2": "L'OTP a expiré. Veuillez cliquer sur Renvoyer l'OTP.",
+        "inputLabel": "Entrez le mot de passe à usage unique (OTP)",
+        "otpDescriptionEmail": "Veuillez saisir le OTP qui a été envoyé à votre adresse e-mail enregistrée",
+        "otpDescriptionPhone": "Veuillez saisir le OTP qui a été envoyé à votre numéro de téléphone enregistré",
+        "resendBtnLabel": "Renvoyer OTP",
+        "submitBtnLabel": "Soumettre",
+        "back": "Retour"
+    },
+    "viewhistory": {
+        "title": "Consulter mon historique",
+        "inputsearch": "Rechercher",
+        "inputAppId": "EID",
+        "inputHistory": "Type d'historique",
+        "inputStatus": "Statut",
+        "inputFrom": "Du (jj/MMM/aaaa)",
+        "inputTo": "Au (jj/MMM/aaaa)",
+        "searchBtn": "Rechercher",
+        "description": "Description",
+        "timestamp": "Horodatage",
+        "selectAll": "Tout",
+        "noData": "Aucun résultat à afficher",
+        "historyType": "Type d'historique",
+        "status": "Statut",
+        "serviceTypeFilter": {
+            "ALL": {
+                "serviceType": "Tous",
+                "checked": false
+            },
+            "AUTHENTICATION_REQUEST": {
+                "serviceType": "Demande d'authentification",
+                "checked": false
+            },
+            "SERVICE_REQUEST": {
+                "serviceType": "Demande de service",
+                "checked": false
+            },
+            "DATA_UPDATE_REQUEST": {
+                "serviceType": "Demande de mise à jour des données",
+                "checked": false
+            },
+            "ID_MANAGEMENT_REQUEST": {
+                "serviceType": "Demande de gestion de l'identifiant",
+                "checked": false
+            },
+            "DATA_SHARE_REQUEST": {
+                "serviceType": "Demande de partage de données",
+                "checked": false
+            }
+        },
+        "statusTypeFilter": {
+            "ALL": {
+                "statusType": "Tous",
+                "checked": false
+            },
+            "SUCCESS": {
+                "statusType": "Succès",
+                "checked": false
+            },
+            "IN_PROGRESS": {
+                "statusType": "En cours",
+                "checked": false
+            },
+            "FAILED": {
+                "statusType": "Échec",
+                "checked": false
+            },
+            "CANCELED":{
+                "statusType": "Annulé",
+                "checked": false
+            }
+        },
+        "reportIssueLabel": "Signaler un problème",
+        "pinToTopLabel": "Épingler en haut",
+        "unpinToToplabel": "Détacher du haut",
+        "viewhistoryLabel": "Voir les détails"
+    },
+    "managemyvid": {
+        "title": "Gérer mon VID",
+        "Perpetual": {
+            "vidType": "VID permanent",
+            "message": "Pas de limite d'utilisation ou d'expiration"
+        },
+        "Temporary": {
+            "vidType": "VID temporaire",
+            "message": "Expire après 30 minutes et ne peut être utilisé qu'une seule fois"
+        },
+        "OneTimeUse": {
+            "vidType": "VID à usage unique",
+            "message": "N'a pas de date d'expiration mais ne peut être utilisé qu'une seule fois"
+        },
+        "generatevid": [
+            {
+                "vidType": "VID permanent",
+                "message": "Pas de limite d'utilisation ou d'expiration"
+            },
+            {
+                "vidType": "VID à usage unique",
+                "message": "N'a pas de date d'expiration mais ne peut être utilisé qu'une seule fois"
+            },
+            {
+                "vidType": "VID temporaire",
+                "message": "Expire après 30 minutes et ne peut être utilisé qu'une seule fois"
+            }
+        ],
+        "revokevid": "",
+        "create": "Créer",
+        "generatevidtoggle": "Générer un VID",
+        "revokevidtoggle": "Révoquer un VID",
+        "introDescription": "Affichez les détails des VIDs existants, créez de nouveaux VIDs, supprimez un VID existant ou téléchargez une carte VID.",
+        "generatedOn": "Généré le",
+        "expiry": "Expiration",
+        "vid": "VID",
+        "transactionLeft": "Transactions restantes",
+        "noVidsText": "Vous n'avez actuellement aucun $VIDTYPE. Veuillez cliquer sur le bouton ",
+        "noVidsText2": " pour en générer un nouveau."
+    },
+    "lockunlockauth": {
+        "title": "Sécuriser mon identifiant",
+        "generatevid": [
+            {
+                "title": "Perpétuel",
+                "message": "Aucune limite d'utilisation ou d'expiration"
+            },
+            {
+                "title": "Temporaire",
+                "message": "Expire après 30 minutes et ne peut être utilisé qu'une seule fois"
+            },
+            {
+                "title": "À usage unique",
+                "message": "N'a pas de date d'expiration mais ne peut être utilisé qu'une seule fois"
+            }
+        ],
+        "revokevid": "",
+        "generatevidtoggle": "Générer un VID",
+        "revokevidtoggle": "Révoquer un VID",
+        "labelmap": {
+            "demo": {
+                "label": "Authentification démographique",
+                "icon": "Demographic Authentication"
+            },
+            "bio-FINGER": {
+                "label": "Authentification par empreinte digitale",
+                "icon": "Fingerprint Authentication"
+            },
+            "bio-IRIS": {
+                "label": "Authentification de l'iris",
+                "icon": "Iris Authentication"
+            },
+            "bio-FACE": {
+                "label": "Authentification faciale",
+                "icon": "Face Authentication"
+            },
+            "otp-email": {
+                "label": "Authentification OTP par e-mail",
+                "icon": "Email OTP Authentication"
+            },
+            "otp-phone": {
+                "label": "Authentification mobile OTP",
+                "icon": "Mobile OTP Authentication"
+            }
+        },
+        "introDescription": "Consultez l'état de tous les types d'authentification. Vous pouvez choisir de verrouiller ou déverrouiller des types d'authentification tels que l'authentification par iris, l'authentification par e-mail, etc.",
+        "unlockLabel": "Déverrouiller",
+        "lockLabel": "Verrouiller"
+    },
+    "updatedemographic": {
+        "title": "Mettre à jour mes données",
+        "identity": "Identité",
+        "address": "Adresse",
+        "contact": "Contact",
+        "languagePreference": "Préférence de langue",
+        "identityHeading": "Mon identité",
+        "addressHeading": "Mon adresse",
+        "contactHeading": "Mon contact",
+        "uploadImage": "Télécharger une image",
+        "dropImage": "Déposer l'image",
+        "or": "ou",
+        "preview": "Aperçu",
+        "enteredValuesNotMatch": "Les valeurs saisies ne correspondent pas.",
+        "submit": "Soumettre",
+        "update": "Mettre à jour",
+        "calendarPlaceHolder": "JJ/MMM/AAAA",
+        "documentUploaded": "Document téléchargé",
+        "languageHeading": "Ma préférence de langue",
+        "InvalidFormatMsg": "Le type de fichier que vous essayez de télécharger n'est pas pris en charge. Veuillez télécharger un autre type de fichier.",
+        "InvalidFileSize": "Le document que vous essayez de télécharger dépasse la limite de taille de fichier de 2 Mo. Veuillez télécharger un document de taille inférieure à 2 Mo.",
+        "sameNameInputErrorMsg": "Le $NAME que vous avez saisi existe déjà. Veuillez saisir un nouveau $NAME pour continuer.",
+        "sameDobInputErrorMsg": "La date de naissance que vous avez saisie existe déjà. Veuillez saisir une nouvelle date de naissance pour continuer.",
+        "sameGenderInputErrorMsg": "Le genre que vous avez choisi existe déjà. Veuillez choisir un nouveau genre pour continuer.",
+        "EnterAllAddress": "S'il te plaît ",
+        "select": "Sélectionner",
+        "remainingAttems":"Il vous reste $remainingAttems tentatives.",
+        "maxAttems": "Vous pouvez faire une demande de changement de $Name un maximum de $MaxAttems fois.",
+        "fullName": "Nom",
+        "dateOfBirth": "Date de naissance",
+        "gender": "Genre",
+        "addressLine1":"Adresse",
+        "sameFileUploading":"Veuillez télécharger le fichier avec un nom de fichier différent.",
+        "docTypePlaceholder": "Sélectionner le type de document",
+        "DocIDPlaceholder": "Entrer l'identifiant du document",
+        "pendingDrafts":{
+            "heading": "Demande existante trouvée, action requise!",
+            "descriptionText": "Description: ",
+            "descriptionDetails": "Nous avons trouvé une demande de mise à jour des données existante qui est toujours en cours. Afin de soulever une nouvelle demande, vous devrez supprimer la demande existante.",
+            "viewMore":"Voir plus",
+            "viewLess":"Voir moins",
+            "warnMsg":"Êtes-vous sûr de vouloir annuler la demande de mise à jour des données existante pour mettre à jour votre ?",
+            "warnMsgTwo":"Vous ne pouvez pas annuler cette demande car elle est toujours à l'état En attente. S'il vous plaît, essayez après un certain temps."
+        },
+        "draftCanceled":"Votre demande de mise à jour de données existante a été annulée avec succès. Vous pouvez maintenant procéder à une autre demande de mise à jour des données."
+    },
+    "trackservicerequest": {
+        "title": "Suivre mes demandes",
+        "source": "Consulter mon historique",
+        "searchLabel": "Entrez l'identifiant d'événement que vous souhaitez suivre",
+        "searchPlaceholder": "Entrez l'EID à 16 chiffres",
+        "searchButton": "Suivre",
+        "eventId": "Identifiant d'événement",
+        "eventType": "Type d'événement",
+        "eventStatus": "Statut de l'événement",
+        "description": "Description",
+        "individualId": "Identifiant individuel",
+        "authenticationMode": "Mode d'authentification",
+        "vidType": "Type de VID",
+        "vid": "VID",
+        "timestamp": "Horodatage",
+        "descriptionText": "Suivez l'état d'un identifiant d'événement (EID) associé à votre UIN/ VID connecté. Vous pouvez également consulter les informations détaillées sur l'EID saisi.",
+        "transactionTitle": "Détails de la transaction",
+        "partnerName": "Nom du partenaire",
+        "partnerLogo": "Logo du partenaire",
+        "transactionDate": "Date de la transaction",
+        "downloadbuttonLabel": "Télécharger",
+        "summary": "Résumé",
+        "attributeList": "Liste des attributs",
+        "downloadVIDCard": "Télécharger la carte VID",
+        "downloadUINCard": "Télécharger la carte UIN",
+        "purpose": "But",
+        "raiseSupportRequest": "Pour soumettre une demande de support concernant cet EID,",
+        "clickHere": "cliquez ici.",
+        "warningMsg": "Veuillez entrer un EID valide de 16 chiffres."
+    },
+    "personalisedcard": {
+        "title": "Obtenir une carte personnalisée",
+        "mainlabel": "Veuillez sélectionner au moins trois attributs pour continuer.",
+        "downloadbutton": "Télécharger",
+        "introDescription": "Les résidents peuvent sélectionner les données à ajouter à leur justificatif d'identité. Ils peuvent également prévisualiser les données choisies et les télécharger."
+    },
+    "physicalcard": {
+        "title": "Commander une carte physique",
+        "mainlabel": "Sélectionnez un fournisseur d'impression",
+        "introDescription": "Ce service peut être utilisé pour commander une carte physique à l'adresse de votre choix. Les types de cartes disponibles, les tarifs et autres fonctionnalités dépendront du partenaire choisi dans le processus."
+    },
+    "sharewithpartner": {
+        "title": "Partager mes données",
+        "mainlabel": "Veuillez sélectionner au moins trois attributs pour continuer.",
+        "partnerName": "Nom du partenaire autorisé",
+        "sharingReason": "Raison du partage de vos justificatifs",
+        "sharingReasonPlaceholder": "Entrez la raison ici",
+        "sharebutton": "Partager",
+        "sharePartnerSuccessMsg": "Vos données ont été partagées avec succès avec le partenaire choisi",
+        "successIcon": "./assets/sucess_icon.png",
+        "introDescription": "Les résidents peuvent choisir les données à partager avec l'un des partenaires enregistrés pour bénéficier de divers services tiers.",
+        "messageDescription1": "Vos données ont été partagées avec succès avec le partenaire choisi pour l'EID : ",
+        "messageDescription2": ". Pour suivre l'état de la transaction, utilisez l'EID ci-dessus dans ",
+        "trackMyserviceLink": "Suivre ma demande de service",
+        "orin": "ou dans",
+        "viewHistoryLink": "consulter l'historique",
+        "TotalCharacters": "Nombre total de caractères",
+        "remainingCharacters": "Restants"
+    },
+    "uinStatus": {
+        "status": "Statut",
+        "uinTitleDescription": "La génération de votre UIN pour l'AID : $AID est encore en cours.",
+        "uinTitleDescription2": "La génération de votre UIN pour l'AID : $AID a échoué.",
+        "requestMsg": "Veuillez réessayer après quelques jours.",
+        "requestMsg2": "Pour plus d'informations, veuillez vous rendre au centre d'inscription le plus proche.",
+        "UINCardStatus": "Statut de la carte UIN",
+        "statusTime": "Date prévue de complétion : $date",
+        "statusStages": {
+            "REQUEST_RECEIVED": "Demande reçue",
+            "VALIDATION_STAGE": "Étape de validation",
+            "VERIFICATION_STAGE": "Étape de vérification",
+            "UIN_GENERATION_STAGE": "Étape de génération de l'UIN",
+            "CARD_READY_TO_DOWNLOAD": "Carte prête à être téléchargée"
+        },
+        "trackDetailsHeading": "Détails de suivi"
+    },
+    "paginatorIntl": {
+        "itemsPerPageLabel": "objets par page",
+        "of": "de"
+    },
+    "genericmessage": {
+        "successLabel": "Success",
+        "successButton": "D'ACCORD",
+        "submitButton": "Soumettre",
+        "resentBtn": "Renvoyer OTP",
+        "yesButton": "Oui",
+        "noButton": "Non",
+        "shareButton": "Partager",
+        "sendButton": "Envoyer",
+        "deleteButton": "Supprimer",
+        "errorLabel": "Error",
+        "warningLabel": "Warning",
+        "downloadLabel": "Télécharger",
+        "warningForChannel": "Avertissement pour le canal",
+        "createMessage": "Créé avec succès",
+        "updateMessage": "Mis à jour avec succès",
+        "mappingMessage": "Mappé avec succès",
+        "termsAndConditionsLabel": "Conditions générales",
+        "clickHere": "ici",
+        "clickHere2": "cliquez ",
+        "relogin": " pour vous connecter à nouveau.",
+        "login": " pour vous connecter.",
+        "click":"cliquez ici.",
+        "cancel":"Annuler",
+        "confirm":"Confirmer",
+        "continue":"Continuer",
+        "langChgWarnText":"En cliquant sur continuer, les données que vous avez saisies seront perdues.",
+        "toSeeMoreDetails":"pour voir plus de détails",
+        "otpPopupDescription": "Un mot de passe à usage unique (OTP) a été envoyé à",
+        "loginSuccessfully": "Cher résident, vous vous êtes connecté avec succès",
+        "successRemainMsg": "pour suivre la demande de service avec l'EID pré-rempli.",
+        "passwordCombinationHeading": "Combinaison de mot de passe :",
+        "passwordCombination": "Les quatre premières lettres de votre prénom en majuscules suivies de votre année de naissance. Par exemple : si votre nom est Johnny Depp et votre date de naissance est le 09/06/1963, votre mot de passe sera JOHN1963.",
+        "SuccessLogin": "Vous vous êtes connecté avec succès.",
+        "successLogout": "Vous vous êtes déconnecté avec succès.",
+        "dearResident": "Cher résident,",
+        "trackStatusText": "Pour suivre l'état de l'événement, cliquez ",
+        "trackStatusForLogin": "Cet identifiant d'événement peut être utilisé pour afficher les détails sur l'événement. Cliquez ",
+        "clickYesToProceed": "Cliquez sur Oui pour continuer.",
+        "logoutconfirmMessage": "Êtes-vous sûr de vouloir vous déconnecter.",
+        "accessDenied": "Vous ne pouvez pas accéder à ce service car vous n'avez pas accepté le consentement lors de votre connexion. Veuillez vous reconnecter et accepter le consentement correspondant pour continuer.",
+        "toFindRegCen": " pour trouver les centres d'inscription.",
+        "sessionExpired": "La session a expiré",
+        "getMyUin": {
+            "downloadedSuccessFully": "Votre carte UIN a été téléchargée avec succès pour l'ID d'événement : $eventId.",
+            "invalidOtp": "Le code OTP saisi est invalide. Veuillez cliquer sur Renvoyer OTP et réessayer avec un code OTP valide."
+        },
+        "termsAndConditionsDescription": [
+            "Vos données seront partagées avec le tiers choisi (partenaire d'authentification)",
+            "Vous êtes responsable de tous les coûts et frais associés aux accords conclus avec le fournisseur tiers.",
+            "En aucun cas, nous ne serons responsables de la perte ou de l'utilisation abusive des données, quelle qu'elle soit, découlant de l'utilisation des données partagées avec le partenaire.",
+            "Si un fournisseur tiers cesse de rendre son service disponible ou demande à MOSIP de suspendre ou de résilier la fourniture de tout ou partie de ses services, cette partie des données ou des services sera immédiatement résiliée sans préavis ni autre obligation envers vous."
+        ],
+        "conditionsForupdateDemographicData": [
+            "Les données choisies par vous seront mises à jour après vérification du justificatif de domicile ou du justificatif d'identité.",
+            "Vous êtes responsable de tous les coûts et frais associés à l'accord de mise à jour de vos données.",
+            "Vous êtes responsable de toute modification apportée à vos données personnelles déjà existantes ou aux documents téléchargés pour les étayer."
+        ],
+        "agreeLabel": "J'accepte les termes et conditions pour partager mes identifiants avec le partenaire choisi",
+        "agreeLabelForUpdateData": "J'accepte les termes et conditions pour mettre à jour les données démographiques",
+        "personalisedcardConditions": {
+            "title": "Téléchargez votre carte personnalisée",
+            "wishes": "Cher résident,",
+            "description": "Il nous faudra un certain temps pour préparer la carte. Nous vous enverrons un lien à partir duquel vous pourrez télécharger la carte demandée. Vous pourrez également télécharger la carte depuis la section des notifications une fois qu'elle sera prête.",
+            "sendVid": "Envoyer VID",
+            "agreeLabel1": "Envoyer VID au téléphone enregistré",
+            "agreeLabel": "Envoyer VID à l'adresse e-mail enregistrée"
+        },
+        "manageMyVidMessages": {
+            "Perpetual": {
+                "WarningMessageLabel": "La génération d'un nouvel VID perpétuel révoquera l'VID déjà existant.",
+                "confirmationMessageForCreateVid": "Êtes-vous sûr de vouloir créer une carte VID perpétuelle ?",
+                "confirmationMessageForDeleteVid": "Etes-vous sûr de vouloir supprimer la carte VID permanente sélectionnée ?",
+                "confirmationMessageForDownloadVid": "Êtes-vous sûr de vouloir télécharger la carte Perpetual VID ?"
+            },
+            "Temporary": {
+                "confirmationMessageForCreateVid": "Êtes-vous sûr de vouloir créer une carte VID temporaire ?",
+                "confirmationMessageForDeleteVid": "Êtes-vous sûr de vouloir supprimer la carte VID temporaire choisie ?",
+                "confirmationMessageForDownloadVid": "Êtes-vous sûr de vouloir télécharger la carte VID temporaire ?"
+            },
+            "OneTimeUse": {
+                "confirmationMessageForCreateVid": "Êtes-vous sûr de vouloir créer une carte VID à usage unique ?",
+                "confirmationMessageForDeleteVid": "Êtes-vous sûr de vouloir supprimer la carte VID à usage unique choisie ?",
+                "confirmationMessageForDownloadVid": "Êtes-vous sûr de vouloir télécharger la carte VID à usage unique ?"
+            },
+            "createdSuccessfully": "Votre VID a été généré avec succès pour l'ID d'événement : $eventId.",
+            "downloadedSuccessFully": "Votre demande de téléchargement de la carte VID a été traitée avec succès pour l'ID d'événement : $eventId.",
+            "downloadedSuccessFully2": "Il faudra un certain temps pour préparer la carte. Vous recevrez un lien sur votre adresse e-mail et/ou numéro de téléphone enregistré à partir duquel vous pourrez télécharger la carte VID demandée. Alternativement, elle peut également être téléchargée à partir du suivi de demande une fois que vous recevez une notification indiquant que la carte est prête.",
+            "deletedSuccessfully": "Votre VID a été supprimé avec succès pour l'ID d'événement : $eventId."
+        },
+        "personalisedcardMessages": {
+            "downloadedSuccessFully": "Votre carte personnalisée a été téléchargée avec succès pour l'ID d'événement : $eventId. Le mot de passe sera envoyé à votre adresse e-mail ou numéro de téléphone enregistré."
+        },
+        "sharewithpartner": {
+            "needPartner": "Veuillez choisir un partenaire pour continuer.",
+            "needPurpose": "Le but du partage de vos informations d'identification est un champ obligatoire. Veuillez indiquer le but du partage de vos informations d'identification.",
+            "specialCharacters": "Veuillez saisir des lettres/chiffres pour partager vos informations d'identification.",
+            "sharedSuccessfully": "Les données choisies par vous ont été partagées avec succès avec le partenaire choisi pour l'ID d'événement : $eventId."
+        },
+        "verifyChannel": {
+            "warningMsgForEmail": "Votre identifiant de messagerie : $userID est déjà vérifié.",
+            "warningMsgForPhone": "Votre numéro de téléphone : $userID est déjà vérifié.",
+            "emailSuccess": "Votre adresse e-mail : $channel a été vérifiée avec succès pour l'ID d'événement : $eventId.",
+            "phoneSuccess": "Votre numéro de téléphone : $channel a été vérifié avec succès pour l'ID d'événement : $eventId."
+        },
+        "grievanceRedressal": {
+            "successMsg": "Votre plainte a été envoyée avec succès pour l'ID de ticket : $ticketId.",
+            "warningMsg": "Votre plainte n'a pas pu être envoyée. Veuillez réessayer ultérieurement."
+        },
+        "secureMyId": {
+            "successMsg": "Votre demande de modification du(des) type(s) d'authentification a été enregistrée avec succès pour l'ID d'événement : $eventId.",
+            "confirmationMessage": "Êtes-vous sûr de vouloir enregistrer les modifications apportées aux types d'authentification ?"
+        },
+        "updateMyData": {
+            "emailSuccessMsg": "Votre adresse e-mail a été mise à jour avec succès pour l'ID d'événement : $eventId.",
+            "phoneNumberSuccessMsg": "Votre numéro de téléphone a été mis à jour avec succès pour l'ID d'événement : $eventId.",
+            "newDataUpdatedSuccessMsg": "Votre demande de modification de vos données $dataType a été soumise pour l'ID de l'événement : $eventId.",
+            "updateNotificationData": "Votre demande de modification de la langue des notifications a été soumise pour l'ID de l'événement : $eventId."
+        }
+    },
+    "autologout": {
+        "preview": "Votre session sera automatiquement terminée dans 60 secondes en raison d'une inactivité. Veuillez cliquer n'importe où sur l'écran pour réactiver votre session.",
+        "post": "Vous avez été déconnecté en raison d'une inactivité."
+    },
+    "InfomationContent": {
+        "readMoreLabel": "En savoir plus...",
+        "readLessLabel": "Lire moins...",
+        "revokevid": {
+            "Perpetual": "Un VID perpétuel n'a pas de date d'expiration et aucune limite sur le nombre de transactions pouvant être effectuées avec ce VID. Un seul UIN peut être associé à un VID perpétuel $instancesVID à la fois.",
+            "Temporary": "Un VID temporaire est valide pendant $expiryTime minutes et seulement $transactionLimit transaction peut être effectuée avec ce VID. Un seul UIN peut être associé à $instancesVID VID temporaires à la fois.",
+            "OneTimeUse": "Un VID à usage unique n'a pas de date d'expiration, mais seulement $transactionLimit transaction peut être effectuée avec ce VID. Un seul UIN peut être associé à un VID à usage unique $instancesVID à la fois."
+        },
+        "secureMyID": {
+            "Email OTP Authentication": "En verrouillant/déverrouillant l'« Authentification par OTP par e-mail », toute tentative d'authentification utilisant un OTP par e-mail sera désactivée/activée.",
+            "Mobile OTP Authentication": "En verrouillant/déverrouillant l'« Authentification par OTP mobile », toute tentative d'authentification utilisant un OTP mobile sera désactivée/activée.",
+            "Demographic Authentication": "En verrouillant/déverrouillant l'« Authentification démographique », toute tentative d'authentification utilisant des informations démographiques (nom, âge, adresse, ou toute combinaison de celles-ci) sera désactivée/activée.",
+            "Fingerprint Authentication": "En verrouillant/déverrouillant l'« Authentification par empreinte digitale », toute tentative d'authentification utilisant une empreinte digitale sera désactivée/activée.",
+            "Iris Authentication": "En verrouillant/déverrouillant l'« Authentification par iris », toute tentative d'authentification utilisant un iris sera désactivée/activée.",
+            "Face Authentication": "En verrouillant/déverrouillant l'« Authentification faciale », toute tentative d'authentification utilisant un visage sera désactivée/activée."
+        },
+        "trackStatus": "Veuillez saisir l'EID (Event ID) associé à l'événement que vous souhaitez suivre. Il est important que l'EID que vous saisissez soit associé au UIN connecté.",
+        "getUin": "Un AID est votre identifiant d'application à $AID chiffres qui vous a été fourni après l'inscription. Un UIN est votre numéro d'identité unique à $UIN chiffres. Un VID est votre identifiant virtuel à $VID chiffres.",
+        "verifyChannel": "Un UIN est votre numéro d'identification unique à 10 chiffres. Un VID est votre identifiant virtuel à 16 chiffres."
+    },
+    "serverErrors": {
+        "IDA-MLC-009": "Aucun e-mail ou numéro de téléphone enregistré n'a été trouvé avec le UIN/VID saisi. Pour ajouter une adresse e-mail ou un numéro de téléphone, veuillez vous rendre au centre d'enregistrement le plus proche.",
+        "IDA-MLC-002": "Aucun e-mail ou numéro de téléphone enregistré n'a été trouvé avec le UIN/VID saisi. Pour ajouter une adresse e-mail ou un numéro de téléphone, veuillez vous rendre au centre d'enregistrement le plus proche.",
+        "IDA-MLC-018": "UIN/AID/VID invalide saisi. Veuillez saisir un UIN/AID/VID valide et réessayer.",
+        "RES-SER-422": "OTP invalide saisi. Veuillez réessayer avec un OTP valide.",
+        "RES-SER-410": {
+            "individualIdError": "UIN/AID/VID invalide saisi. Veuillez saisir un UIN/AID/VID valide et réessayer.",
+            "individualId": "UIN/AID/VID invalide saisi. Veuillez saisir un UIN/AID/VID valide et réessayer.",
+            "EMAIL": "L'adresse e-mail que vous avez saisie est invalide. Veuillez saisir une adresse e-mail valide.",
+            "PHONE": "Le numéro de téléphone que vous avez saisi est invalide. Veuillez saisir un numéro de téléphone valide.",
+            "eventId": "L'ID de l'événement que vous avez saisi est invalide. Veuillez saisir un ID de l'événement valide.",
+            "userId": "L'adresse e-mail/le numéro de téléphone que vous avez saisi est invalide. Veuillez saisir une adresse e-mail/un numéro de téléphone valide.",
+            "otp": "OTP invalide saisi. Veuillez réessayer avec un OTP valide.",
+            "channel": "UIN/VID invalide saisi. Veuillez saisir un UIN/VID valide et réessayer.",
+            "identity/preferredLang": "Langue préférée invalide. Veuillez fournir des données valides."
+        },
+        "RES-SER-459": "L'EID saisi n'est pas associé au UIN/VID utilisé pour se connecter.",
+        "RES-SER-412": "Impossible d'accéder à la ressource API.",
+        "RES-SER-405": "Le nombre maximum de VIDs autorisés est atteint. Désactivez des VIDs pour en générer un nouveau.",
+        "RES-SER-511": "L'EID saisi n'est pas associé au UIN/VID utilisé pour se connecter.",
+        "RES-SER-449": "UIN/AID/VID invalide saisi. Veuillez saisir un UIN/AID/VID valide et réessayer.",
+        "RES-SER-414": "La section des commentaires ne peut pas être vide. Veuillez saisir vos commentaires pour continuer.",
+        "RES-SER-471": "Ce VID ne peut pas être révoqué car vous êtes connecté avec le même VID.",
+        "RES-SER-513": "Impossible de générer un nouveau VID car vous êtes connecté avec le même VID.",
+        "RES-OTP-007": "OTP invalide saisi. Veuillez réessayer avec un OTP valide.",
+        "RES-SER-415": "Erreur de modèle exceptionServiceError.",
+        "RES-SER-463": "Échec de l'envoi de l'OTP. Réessayez dans un moment.",
+        "RES-SER-461": "Le type de document est un champ obligatoire. Veuillez choisir un type de document pour continuer.",
+        "RES-SER-519": "Veuillez saisir une adresse e-mail différente de celle déjà existante.",
+        "RES-SER-520": "Veuillez saisir un numéro de téléphone différent de celui déjà existant.",
+        "RES-SER-456": "AID introuvable. Veuillez réessayer ultérieurement.",
+        "RES-SER-515": "Veuillez saisir des lettres/chiffres pour partager.",
+        "RES-SER-425": "Une erreur s'est produite lors de la génération de l'OTP.",
+        "RES-SER-514": "UIN/VID invalide saisi. Veuillez saisir un UIN/VID valide et réessayer.",
+        "IDA-MLC-019": "Le type d'authentification par OTP par e-mail est verrouillé pour le UIN.",
+        "RES-SER-522": "UIN/VID invalide saisi. Veuillez saisir un UIN/VID valide et réessayer.",
+        "RES-SER-509": "La carte n'est pas prête à être téléchargée.",
+        "RES-SER-418": "UIN/AID/VID invalide saisi. Veuillez saisir un UIN/AID/VID valide et réessayer.",
+        "RES-OTP-006": "OTP invalide saisi. Veuillez réessayer avec un OTP valide.",
+        "RES-SER-406": "Impossible d'accéder à la ressource API.",
+        "RES-SER-523": "L'URL de rappel n'est pas disponible pour l'événement terminé le flux de travail Regproc",
+        "RES-SER-524": "Non autorisé à mettre à jour l'UIN car le paquet précédent est en attente. Pour continuer, veuillez le jeter.",
+        "RES-SER-525": "Non autorisé à mettre à jour l'UIN car le paquet précédent est en attente et il ne peut pas être annulé.",
+        "RES-SER-526": "Limite du nombre de mises à jour pour les attributs dépassée : - %s",
+        "RES-SER-470": "Aucun enregistrement trouvé"
+    }
+}
