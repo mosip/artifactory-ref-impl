@@ -301,7 +301,8 @@
   "validationMessages": {
     "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range",
     "range": "’To’ date cannot be before ‘From’ date'",
-    "invalid": "Please select a valid value for Date"
+    "invalid": "Please select a valid value for Date",
+    "max-limit": "Max limit reached"
   },
   "actionMessages": {
     "decommission": {
@@ -455,14 +456,6 @@
     "supportedDoc":"PEM or CER format file only supported."
   },
   "filters": {
-    "titleTxt": "Map Policy Group",
-    "footerButtons": {
-      "resetTxt": "Reset",
-      "cancelTxt": "Cancel",
-      "applyTxt": "Save"
-    }
-  },
-  "filters": {
     "titleTxt": "Add Filters",
     "footerButtons": {
         "resetTxt": "Reset",
@@ -476,7 +469,8 @@
   },
   "genericerror": {
     "fieldValidation": "This field is required",
-    "fieldNameValidation": " is required"
+    "fieldNameValidation": " is required",
+    "invalidJson": "Invalid JSON format for policies data"
   },
   "successMessages":{
     "sbi":{

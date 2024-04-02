@@ -304,7 +304,8 @@
   "validationMessages": {
     "required": "يرجى ملء كل من الحقل إلى ومن الحقل للتصفية حسب النطاق الزمني",  
     "range": "حتى الآن لا يمكن أن يكون قبل من تاريخ",
-    "invalid": "الرجاء تحديد قيمة صالحة للتاريخ"
+    "invalid": "الرجاء تحديد قيمة صالحة للتاريخ",
+    "max-limit": "تم الوصول إلى الحد الأقصى"
   },
   "actionMessages": {
     "decommission": {
@@ -475,7 +476,8 @@
   },
   "genericerror": {
     "fieldValidation": "هذه الخانة مطلوبه",
-    "fieldNameValidation": " مطلوب"
+    "fieldNameValidation": " مطلوب",
+    "invalidJson": "تنسيق JSON غير صالح لبيانات السياسات"
   },
   "successMessages":{
     "sbi":{

@@ -304,7 +304,8 @@
   "validationMessages": {
     "required": "कृपया दिनांक सीमा के अनुसार फ़िल्टर करने के लिए 'प्रति' और 'प्रेषक' दोनों फ़ील्ड भरें",
     "range": "'टू' तारीख 'से' तारीख से पहले की नहीं हो सकती'_हिन",
-    "invalid": "कृपया दिनांक के लिए एक मान्य मान चुनें"
+    "invalid": "कृपया दिनांक के लिए एक मान्य मान चुनें",
+    "max-limit": "अधिकतम सीमा तक पहुँच गया"
   },
   "actionMessages": {
     "decommission": {
@@ -471,7 +472,8 @@
   },
   "genericerror": {
     "fieldValidation": "यह फ़ील्ड आवश्यक है",
-    "fieldNameValidation": " आवश्यक है"
+    "fieldNameValidation": " आवश्यक है",
+    "invalidJson": "नीतियों के डेटा के लिए अमान्य JSON प्रारूप"
   },
   "successMessages":{
     "sbi":{
