@@ -128,6 +128,7 @@
     "QRCode": "QR Code",
     "OTP": "OTP",
     "PWD": "Password",
+    "walletName": "Inji",
     "preferred_mode_of_login": "Select a preferred mode of login",
     "more_ways_to_sign_in": "More ways to sign in",
     "or": "OR",
