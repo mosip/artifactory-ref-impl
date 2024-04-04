@@ -102,7 +102,7 @@
 		<demosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/demosdk/default/demosdk</demosdk-client.location>
 		<demosdk-client.fileName>demosdk-client-jar-with-dependencies.jar</demosdk-client.fileName>
 		<!-- mock-sdk -->
-		<mock-sdk.version>1.2.0.2-SNAPSHOT</mock-sdk.version>
+		<mock-sdk.version>1.2.0.2</mock-sdk.version>
 		<mock-sdk.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/1.1.5</mock-sdk.location>
 		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
 		<!-- mock-sdk-jpeg-extractor -->
@@ -133,7 +133,7 @@
 		<esignet-digital-credential-wrapper.version>0.1.0-SNAPSHOT</esignet-digital-credential-wrapper.version>
 		<esignet-digital-credential-wrapper.fileName>sunbird-rc-esignet-integration-impl.jar</esignet-digital-credential-wrapper.fileName>
 		<!-- latest mock-sdk -->
-		<mock-sdk-latest.version>1.2.0.2-SNAPSHOT</mock-sdk-latest.version>
+		<mock-sdk-latest.version>1.2.0.2</mock-sdk-latest.version>
 	</properties>
 	
 	<build>
