@@ -710,6 +710,7 @@
         "RES-SER-524": "Non autorisé à mettre à jour l'UIN car le paquet précédent est en attente. Pour continuer, veuillez le jeter.",
         "RES-SER-525": "Non autorisé à mettre à jour l'UIN car le paquet précédent est en attente et il ne peut pas être annulé.",
         "RES-SER-526": "Limite du nombre de mises à jour pour les attributs dépassée : - %s",
-        "RES-SER-470": "Aucun enregistrement trouvé"
+        "RES-SER-470": "Aucun enregistrement trouvé",
+        "RES-SER-401": "Exception de base"
     }
 }

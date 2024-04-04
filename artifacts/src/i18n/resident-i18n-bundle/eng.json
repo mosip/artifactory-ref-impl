@@ -710,6 +710,7 @@
         "RES-SER-524": "Not allowed to update UIN as previous packet is pending. To proceed further please discard it.",
         "RES-SER-525": "Not allowed to update UIN as previous packet is pending and it cannot be cancelled.",
         "RES-SER-526": "Update count limit for the attributes exceeded:- %s",
-        "RES-SER-470": "No Record(s) found"
+        "RES-SER-470": "No Record(s) found",
+        "RES-SER-401": "Base exception."
     }
 }
