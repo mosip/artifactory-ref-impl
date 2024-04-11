@@ -178,9 +178,11 @@
 					<artifactId>auth-adapter-java-21</artifactId>
 					<version>${auth-adapter-java-21.version}</version>
 					<outputDirectory>${auth-adapter-java-21.location}</outputDirectory>
-					<destFileName>${auth-adapter-java-21.fileName}</destFileName>
+						<!-- Keep the destination filename consistent with the original -->
+					<destFileName>auth-adapter-java-21.jar</destFileName>
 					<type>jar</type>
 				</artifactItem>
+
 
 				<artifactItem>
 	       	 	                <groupId>io.mosip.kernel</groupId>
