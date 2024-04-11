@@ -130,7 +130,7 @@
 		<esignet-ida-wrapper.version>1.2.0.1</esignet-ida-wrapper.version>
 		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
 		<!-- esignet sunbird wrapper -->
-		<esignet-digital-credential-wrapper.version>0.1.0-SNAPSHOT</esignet-digital-credential-wrapper.version>
+		<esignet-digital-credential-wrapper.version>0.1.0</esignet-digital-credential-wrapper.version>
 		<esignet-digital-credential-wrapper.fileName>sunbird-rc-esignet-integration-impl.jar</esignet-digital-credential-wrapper.fileName>
 		<!-- latest mock-sdk -->
 		<mock-sdk-latest.version>1.2.0.2</mock-sdk-latest.version>
