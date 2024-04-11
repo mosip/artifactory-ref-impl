@@ -175,7 +175,7 @@
 
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
-					<artifactId>auth-adapter-java-12.version</artifactId>
+					<artifactId>auth-adapter-java-12</artifactId>
 					<version>${auth-adapter-java-12.version}</version>
 					<outputDirectory>${auth-adapter-java-12.location}</outputDirectory>
 					<destFileName>${auth-adapter-java-12.fileName}</destFileName>
