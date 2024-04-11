@@ -72,9 +72,9 @@
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
-		<auth-adapter-java-12.version>1.2.1-java21-SNAPSHOT</auth-adapter-java-12.version>
-		<auth-adapter-java-12.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-java-12.location>
-		<auth-adapter-java-12.fileName>kernel-auth-adapter.jar</auth-adapter-java-12.fileName>
+		<auth-adapter-java-21.version>1.2.1-java21-SNAPSHOT</auth-adapter-java-21.version>
+		<auth-adapter-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-java-21.location>
+		<auth-adapter-java-21.fileName>kernel-auth-adapter.jar</auth-adapter-java-21.fileName>
 
 		<auth-adapter-lite.version>1.2.0.1-B4</auth-adapter-lite.version>
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
@@ -175,10 +175,10 @@
 
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
-					<artifactId>auth-adapter-java-12</artifactId>
-					<version>${auth-adapter-java-12.version}</version>
-					<outputDirectory>${auth-adapter-java-12.location}</outputDirectory>
-					<destFileName>${auth-adapter-java-12.fileName}</destFileName>
+					<artifactId>auth-adapter-java-21</artifactId>
+					<version>${auth-adapter-java-21.version}</version>
+					<outputDirectory>${auth-adapter-java-21.location}</outputDirectory>
+					<destFileName>${auth-adapter-java-21.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
 
