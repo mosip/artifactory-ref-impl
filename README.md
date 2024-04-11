@@ -12,4 +12,3 @@ Following are the artifacts which is being served by the service:
   7. clamav-antivirus.jar
 
 All these artifacts are released as a part of the Mosip Release with some of them being taken from open sourced repository as per the need.
-
