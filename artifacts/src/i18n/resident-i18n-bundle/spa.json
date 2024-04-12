@@ -710,6 +710,8 @@
         "RES-SER-524": "No se permite actualizar UIN porque el paquete anterior está pendiente. Para continuar, deséchelo.",
         "RES-SER-525": "No se permite actualizar UIN porque el paquete anterior está pendiente y no se puede cancelar.",
         "RES-SER-526": "Límite de recuento de actualizaciones para los atributos excedidos: - %s",
-        "RES-SER-470": "No se encontraron registros"
+        "RES-SER-470": "No se encontraron registros",
+        "RES-SER-401": "Excepción básica",
+        "RES-SER-474": "Excepción de identificación individual no encontrada"
     }
 }
