@@ -12,6 +12,7 @@ on:
       - 1.*
       - MOSIP*
       - release*
+      - camdgc*
   
 jobs:
   build-docker-artifactory-server:
