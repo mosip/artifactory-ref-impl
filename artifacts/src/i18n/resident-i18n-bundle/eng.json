@@ -1,7 +1,7 @@
 {
     "menuItems": [
         {
-            "displayName": "UIN Services artifacts",
+            "displayName": "UIN Services",
             "displaydescription": "Residents can use these services to view, update, manage or share their data. They can also report an issue in case of a grievance.",
             "availableServicesDescription": "Following are the available services:",
             "icon": "./assets/icons/iconfont/uin_services.svg",
@@ -710,6 +710,8 @@
         "RES-SER-524": "Not allowed to update UIN as previous packet is pending. To proceed further please discard it.",
         "RES-SER-525": "Not allowed to update UIN as previous packet is pending and it cannot be cancelled.",
         "RES-SER-526": "Update count limit for the attributes exceeded:- %s",
-        "RES-SER-470": "No Record(s) found"
+        "RES-SER-470": "No Record(s) found",
+        "RES-SER-401": "Base exception.",
+        "RES-SER-474": "Individual ID not found exception"
     }
 }
