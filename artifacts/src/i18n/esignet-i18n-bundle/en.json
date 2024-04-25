@@ -89,8 +89,7 @@
     "dob": "Enter DOB",
     "policyNumber_placeholder": "Policy Number",
     "fullName_placeholder": "Full Name",
-    "dob_placeholder": "DOB",
-    "auth_failed": "Login failed, please enter correct credentials"
+    "dob_placeholder": "DOB"
   },
   "LoginQRCode": {
     "scan_with_wallet": "Scan with {{walletName}} to login",
@@ -454,7 +453,11 @@
       "IDA-MLC-018": "Invalid username. Please enter a valid username.",
       "IDA-PSD-001": "Incorrect username or password. Please try again.",
       "IDA-PSD-002": "Incorrect username or password. Please try again."
-    },"statusCodeHeader": {
+    },
+    "kba": {
+      "auth_failed": "Login failed, please enter correct credentials"
+    },
+    "statusCodeHeader": {
       "400": "Bad Request",
       "401": "Unauthorized",
       "402": "Payment Required",
