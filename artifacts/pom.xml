@@ -154,7 +154,7 @@
 		<hazelcast.fileName>cache-provider.jar</hazelcast.fileName>
 
 		<!-- hazelcast cast java21 -->
-		<hazelcast-java-21.version>1.2.1-java21-SNAPSHOT</hazelcast-java-21.version>
+		<hazelcast-java-21.version>3.12.12</hazelcast-java-21.version>
 		<hazelcast-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast-java-21.location>
 		<hazelcast-java-21.fileName>cache-provider.jar</hazelcast-java-21.fileName>
 		
