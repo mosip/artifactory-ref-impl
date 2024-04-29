@@ -379,6 +379,7 @@
     "language": "English",
     "keyboard-tooltip": "Click for Virtual Keyboard (English)",
     "update": "Update",
+    "updatedSuccessfully": "Policy mapping request submitted successfully.",
     "validationMessages": {
       "name": {
         "required": "Policy Name is required",

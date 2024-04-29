@@ -382,6 +382,7 @@
     "language": "अंग्रेज़ी",
     "keyboard-tooltip": "वर्चुअल कीबोर्ड के लिए क्लिक करें (अंग्रेज़ी)",
     "update": "अद्यतन",
+    "updatedSuccessfully": "पॉलिसी मैपिंग अनुरोध सफलतापूर्वक सबमिट किया गया",
     "validationMessages": {
       "name": {
         "required": "पॉलिसी का नाम आवश्यक है",
