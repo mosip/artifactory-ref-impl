@@ -615,7 +615,9 @@
     "KER-PCM-004": "Les dates des certificats ne sont pas valides.",
     "KER-KMS-013": "Erreur d'analyse du certificat. dépassement de signature, octets = 917",
     "PMS_AUT_001": "Code de sous-type de périphérique Reg introuvable dans la liste des sous-types de périphérique Reg",
-    "PMS_PV_005": "Paramètre d'entrée non valide - errorCode dans les données de stratégie"
+    "PMS_PV_005": "Paramètre d'entrée non valide - errorCode dans les données de stratégie",
+    "PMS_PRT_053": "Le mappage existe pour une politique et un partenaire donnés et est en cours.",
+    "PMS_AUT_028": "Les détails de l'appareil pour l'identifiant $ID sont rejetés. Impossible d'utiliser les mêmes détails pour le mappage."
   },
   "generickeys":{
     "save": "Enregistrer",
@@ -627,7 +629,8 @@
     "success": "Succès",
     "error": "Erreur",
     "failure":"Échec !",
-    "certificate": "Certificat"
+    "certificate": "Certificat",
+    "mapped": "La cartographie existe déjà."
   },
   "paginatorIntl": {
     "itemsPerPageLabel": "objets par page",
