@@ -379,6 +379,7 @@
     "language": "English",
     "keyboard-tooltip": "Click for Virtual Keyboard (English)",
     "update": "Update",
+    "updatedSuccessfully": "Policy mapping request submitted successfully.",
     "validationMessages": {
       "name": {
         "required": "Policy Name is required",
@@ -612,7 +613,9 @@
     "KER-PCM-004": "Certificate Dates are not valid.",
     "KER-KMS-013": "Certificate Parsing Error.signed overrun, bytes = 917",
     "PMS_AUT_001": "Reg Device Sub Type Code not found in the list of Reg Device Sub Types",
-    "PMS_PV_005": "Invalid input parameter - errorCode in policy data"
+    "PMS_PV_005": "Invalid input parameter - errorCode in policy data",
+    "PMS_PRT_053": "Mapping exists for given policy and partner and is in InProgress state.",
+    "PMS_AUT_028": "Device details for id $ID are rejected. Can't use same details for mapping."
   },
   "generickeys":{
     "save":"Save",
@@ -624,7 +627,8 @@
     "success":"Success",
     "error":"Error",
     "failure":"Failure !",
-    "certificate": "Certificate"
+    "certificate": "Certificate",
+    "mapped": "Mapping already exists."
   },
   "paginatorIntl": {
       "itemsPerPageLabel": "Items per page: ",
