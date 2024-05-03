@@ -114,7 +114,7 @@
     "consent_required": "Consent Required",
     "too_many_attempts": "Request OTP too many attempts",
     "too_early_attempt": "Request OTP too early attempts",
-    "too_many_verify_attempts": "Too many verification attempts, Please try again after some time",
+    "too_many_verify_attempts": "Too many verification attempts, Kindly generate new OTP",
     "invalid_request": "Invalid OTP request",
     "already-registered": "Already Registered",
     "timed_out": "Timedout",

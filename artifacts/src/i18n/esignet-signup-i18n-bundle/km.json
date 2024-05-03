@@ -114,7 +114,7 @@
     "consent_required": "ទាមទារវិធានផ្ទៀងផ្ទាត់",
     "too_many_attempts": "ស្នើសុំ លេខកូដសម្ងាត់ (OTP) ច្រើនដងពេក",
     "too_early_attempt": "ស្នើសុំ លេខកូដសម្ងាត់ (OTP) លឿនពេក",
-    "too_many_verify_attempts": "ការព្យាយាមផ្ទៀងផ្ទាត់ច្រើនពេក សូមព្យាយាមម្តងទៀតបន្ទាប់ពីពេលខ្លះ",
+    "too_many_verify_attempts": "ការ ប៉ុនប៉ង ផ្ទៀង ផ្ទាត់ ច្រើន ពេក Kindly បង្កើត OTP ថ្មី",
     "invalid_request": "សំណើ លេខកូដសម្ងាត់ (OTP) មិនត្រឹមត្រូវ",
     "already-registered": "បានចុះឈ្មោះរួចហើយ",
     "timed_out": "អស់ម៉ោង",
