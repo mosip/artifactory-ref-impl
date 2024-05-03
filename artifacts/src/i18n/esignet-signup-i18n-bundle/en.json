@@ -7,6 +7,7 @@
   "fail_to_send_otp": "Failed to send OTP. Please provide a valid mobile number.",
   "otp_header": "Enter OTP",
   "otp_subheader": "Please enter {no_of_digit}-digit OTP received on your number",
+  "too_many_verify_attempts": "Too many verify attempts, Please try again later",
   "verify": "Verify",
   "resend_otp_detail": "You can resend the OTP in <CountDownSpan>{{countDown}}</CountDownSpan>",
   "resend_otp": "Resend OTP",
