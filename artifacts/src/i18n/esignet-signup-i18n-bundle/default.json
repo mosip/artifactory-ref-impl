@@ -7,5 +7,9 @@
   "langCodeMapping": {
     "khm": "km",
     "eng": "en"
+  },
+  "langFontMapping": {
+    "en": "font-inter",
+    "km": "font-kantumruypro"
   }
 }
