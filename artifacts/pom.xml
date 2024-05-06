@@ -88,7 +88,12 @@
 		<!-- kernel-smsserviceprovider java21-->
 		<kernel-smsserviceprovider-java-21.version>1.2.1-java21-SNAPSHOT</kernel-smsserviceprovider-java-21.version>
 		<kernel-smsserviceprovider-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider-java-21.location>
-		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider-java-21.fileName>		
+		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider-java-21.fileName>	
+
+		<!-- kernel-smsserviceprovider-msg91 java21-->
+		<kernel-smsserviceprovider-java-21.version>1.2.1-java21-SNAPSHOT</kernel-smsserviceprovider-java-21.version>
+		<kernel-smsserviceprovider-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider-java-21.location>
+		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91-1.2.1-java21.jar</kernel-smsserviceprovider-java-21.fileName>
 		
 		<!-- kernel-ref-idobjectvalidator -->
 		<kernel-ref-idobjectvalidator.version>1.2.0.1-B1</kernel-ref-idobjectvalidator.version>
@@ -254,6 +259,17 @@
 					<destFileName>${kernel-smsserviceprovider.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+
+<!-- artifactItem section for smsserviceprovider -->
+				<artifactItem>
+					<groupId>io.mosip.kernel</groupId>
+					<artifactId>kernel-smsserviceprovider-msg91-1.2.1-java21.jar</artifactId>
+					<version>${kernel-smsserviceprovider.version}</version>
+					 <outputDirectory>${kernel-smsserviceprovider.location}</outputDirectory> 
+					<destFileName>${kernel-smsserviceprovider.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+					
 <!-- artifactItem section for ref-idobjectvaidator -->
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
