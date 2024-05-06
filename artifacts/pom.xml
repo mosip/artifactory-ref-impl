@@ -92,7 +92,7 @@
 
 		<!-- kernel-smsserviceprovider-msg91 java21-->
 		<kernel-smsserviceprovider-java-21.version>1.2.1-java21-SNAPSHOT</kernel-smsserviceprovider-java-21.version>
-		<kernel-smsserviceprovider-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider-java-21.location>
+		<kernel-smsserviceprovider-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/java21</kernel-smsserviceprovider-java-21.location>
 		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91-1.2.1-java21.jar</kernel-smsserviceprovider-java-21.fileName>
 		
 		<!-- kernel-ref-idobjectvalidator -->
