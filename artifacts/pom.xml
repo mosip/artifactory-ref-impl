@@ -218,7 +218,7 @@
 					<version>${auth-adapter-java-21.version}</version>
 					<outputDirectory>${auth-adapter-java-21.location}</outputDirectory>
 						<!-- Keep the destination filename consistent with the original -->
-					<destFileName>kernel-auth-adapter-java-21.jar</destFileName>
+					<destFileName>kernel-auth-adapter.jar</destFileName>
 					<type>jar</type>
 				</artifactItem>
 
