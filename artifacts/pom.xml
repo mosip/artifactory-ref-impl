@@ -263,7 +263,7 @@
 <!-- artifactItem section for smsserviceprovider -->
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-smsserviceprovider-msg91-1.2.1-java21.jar</artifactId>
+					<artifactId>kernel-smsserviceprovider-msg91</artifactId>
 					<version>${kernel-smsserviceprovider.version}</version>
 					 <outputDirectory>${kernel-smsserviceprovider.location}</outputDirectory> 
 					<destFileName>${kernel-smsserviceprovider.fileName}</destFileName>
