@@ -239,7 +239,7 @@
     "invalid_no_of_challenges": "Null or Empty Authentication Challenges Not Allowed.",
     "invalid_transaction_id": "Null or Empty TransactionId Not Allowed.",
     "invalid_auth_factor_type": "Null or Empty Authentication Factor Type Not Allowed.",
-    "invalid_challenge": "Authentication Challenge is Required.",
+    "invalid_challenge": "Invalid input provided",
     "invalid_status": "Unsupported Status Value Provided.",
     "invalid_accepted_claim": "Invalid User Claims Accepted.",
     "invalid_auth_code": "Invalid Authorization Code Provided.",
