@@ -102,7 +102,7 @@
 
 		<!-- kernel-ref-idobjectvalidator java21 -->
 		<kernel-ref-idobjectvalidator-java-21.version>1.2.1-java21-SNAPSHOT</kernel-ref-idobjectvalidator-java-21.version>
-		<kernel-ref-idobjectvalidator-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator</kernel-ref-idobjectvalidator-java-21.location>
+		<kernel-ref-idobjectvalidator-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator/java21</kernel-ref-idobjectvalidator-java-21.location>
 		<kernel-ref-idobjectvalidator-java-21.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator-java-21.fileName>
 		
 		<!-- kernel-virusscanner-clamav -->
@@ -112,7 +112,7 @@
 
 		<!-- kernel-virusscanner-clamav java21 -->
 		<kernel-virusscanner-clamav-java-21.version>1.2.1-java21-SNAPSHOT</kernel-virusscanner-clamav-java-21.version>
-		<kernel-virusscanner-clamav-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</kernel-virusscanner-clamav-java-21.location>
+		<kernel-virusscanner-clamav-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav/java21</kernel-virusscanner-clamav-java-21.location>
 		<kernel-virusscanner-clamav-java-21.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav-java-21.fileName>
 		
 		<!-- clamav-client -->
@@ -160,7 +160,7 @@
 
 		<!-- hazelcast cast java21 -->
 		<hazelcast-java-21.version>3.12.12</hazelcast-java-21.version>
-		<hazelcast-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast-java-21.location>
+		<hazelcast-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/cache/java21</hazelcast-java-21.location>
 		<hazelcast-java-21.fileName>cache-provider.jar</hazelcast-java-21.fileName>
 		
 		<!-- authentication-childauthfilter-impl -->
