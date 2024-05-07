@@ -239,7 +239,7 @@
     "invalid_no_of_challenges": "اختبارات المصادقة الفارغة أو الفارغة غير مسموح بها.",
     "invalid_transaction_id": "معاملة فارغة أو فارغة لم يُسمح بها.",
     "invalid_auth_factor_type": "نوع عامل المصادقة الفارغ أو الفارغ غير مسموح به.",
-    "invalid_challenge": "مطلوب تحدي المصادقة.",
+    "invalid_challenge": "تم توفير إدخال غير صالح",
     "invalid_status": "تم تقديم قيمة حالة غير مدعومة.",
     "invalid_accepted_claim": "تم قبول مطالبات المستخدم غير الصالحة",
     "invalid_auth_code": "تم تقديم رمز تفويض غير صالح.",
