@@ -31,6 +31,11 @@ zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-li
 rm -rf ${biosdk_lib_zip_path}/biosdk-lib
 echo biosdk-lib zip creation completed
 
+echo biosdk-lib java21 zip creation started
+zip -r -j ${biosdk_lib_zip_java21_path}/biosdk-lib.zip ${biosdk_lib_zip_java21_path}/biosdk-lib/*
+rm -rf ${biosdk_lib_zip_java21_path}/biosdk-lib
+echo biosdk-lib zip creation completed
+
 echo image-compressor zip creation started
 zip -r -j ${image_compressor_path}/image-compressor.zip ${image_compressor_path}/image-compressor/*
 rm -rf ${image_compressor_path}/image-compressor
