@@ -60,6 +60,8 @@ ENV demosdk_zip_path=${base_path}/libs-release-local/demosdk/default/
 # environment variable for Biosdk lib Zip path
 ENV biosdk_lib_zip_path=${base_path}/libs-release-local/biosdk/
 
+ENV biosdk_lib_zip_java21_path=${base_path}/libs-release-local/biosdk/java21/
+
 # environment variable for Biosdk lib Zip path
 ENV jpegsdk_lib_zip_path=${base_path}/libs-release-local/jpeg-sdk/
 
