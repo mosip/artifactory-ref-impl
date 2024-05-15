@@ -423,6 +423,15 @@
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
+				<artifactItem>
+					<groupId>io.mosip.mock.sdk</groupId>
+					<artifactId>mock-sdk</artifactId>
+					<version>${mock-sdk.version}</version>
+					 <outputDirectory>${biosdk-client-lib-java21.location}</outputDirectory> 
+					<destFileName>${mock-sdk-dep.fileName}</destFileName>
+					<classifier>jar-with-dependencies</classifier>
+					<type>jar</type>
+				</artifactItem>
 <!-- artifactItem section for childauthfilter jar -->
 				<artifactItem>
 					<groupId>io.mosip.authentication</groupId>
