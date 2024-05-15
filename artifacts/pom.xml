@@ -129,7 +129,7 @@
                 <!-- biosdk-client JAVA-21-->
 		<biosdk-client-java21.version>1.2.1-java21-SNAPSHOT</biosdk-client-java21.version>
 		<biosdk-client-java21.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/mock/0.9/java21/biosdk-client</biosdk-client-java21.location>
-		<biosdk-client-lib-java21.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/biosdk-lib</biosdk-client-lib-java21.location>
+		<biosdk-client-lib-java21.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/java21/biosdk-lib</biosdk-client-lib-java21.location>
 		<biosdk-client-java21.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client-java21.fileName>
 		
 		<!-- demosdk-client -->
