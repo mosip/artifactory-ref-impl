@@ -16,6 +16,11 @@ zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/
 rm -rf ${biosdk_client_zip_path}/biosdk-client
 echo biosdk client zip creation completed
 
+echo biosdk client zip java21 creation started
+zip -r -j ${biosdk_client_zip_java21_path}/biosdk-client.zip ${biosdk_client_zip_java21_path}/biosdk-client/*
+rm -rf ${biosdk_client_zip_java21_path}/biosdk-client
+echo biosdk client zip creation completed
+
 echo jpeg-sdk-lib zip creation started
 zip -r -j ${jpegsdk_lib_zip_path}/jpeg-sdk-lib.zip ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/*
 rm -rf ${jpegsdk_lib_zip_path}/jpeg-sdk-lib

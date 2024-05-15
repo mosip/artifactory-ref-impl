@@ -51,6 +51,9 @@ ENV base_path=/usr/share/nginx/html/artifactory
 # environment variable for Biosdk client Zip path
 ENV biosdk_client_zip_path=${base_path}/libs-release-local/biosdk/mock/0.9
 
+# environment variable for Biosdk client Zip path
+ENV biosdk_client_zip_java21_path=${base_path}/libs-release-local/biosdk/mock/0.9/java21
+
 # environment variable for Demosdk Zip path
 ENV demosdk_zip_path=${base_path}/libs-release-local/demosdk/default/
 
