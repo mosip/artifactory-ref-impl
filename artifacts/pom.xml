@@ -426,7 +426,7 @@
 				<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
 					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk.version}</version>
+					<version>${mock-sdk-java21.version}</version>
 					 <outputDirectory>${biosdk-client-lib-java21.location}</outputDirectory> 
 					<destFileName>${mock-sdk-dep.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
