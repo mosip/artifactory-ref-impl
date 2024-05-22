@@ -84,6 +84,13 @@
   "footer": {
     "powered_by": "Powered by"
   },
+  "video_preview": {
+    "header": "Key Information",
+    "cancel_button": "Cancel",
+    "proceed_button": "Proceed",
+    "permission_denied_header": "Camera Permission Denied",
+    "permission_denied_description": "You have to given camera permission otherwise we can't move forward"
+  },
   "terms_and_conditions": {
     "header": "Terms & Conditions",
     "sub_header": "Please read the terms and conditions carefully.",
@@ -96,6 +103,12 @@
     "description": "{relyingParty} requires access in order to proceed further, do you still wish to discontinue?",
     "stay": "Stay",
     "discontinue": "Discontinue"
+  },
+  "kyc_provider": {
+    "header": "Please select an eKYC service provider",
+    "search_placeholder": "Search",
+    "cancel_button": "Cancel",
+    "proceed_button": "Proceed"
   },
   "verification_steps": {
     "header": "Complete your eKYC verification with the below simple steps",
