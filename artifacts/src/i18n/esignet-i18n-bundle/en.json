@@ -358,6 +358,8 @@
     "proof_invalid_aud": "Invalid value in proof payload aud claim.",
     "proof_invalid_iat": "Invalid value in proof payload iat claim.",
     "proof_invalid_nonce": "Invalid value in proof payload nonce claim.",
+    "no_attempts_left": "Maximum authentication attempts reached. Please try again later.",
+    "individual_id_blocked": "User temporarily blocked. Please try again after some time.", 
     "invalid_state_response": "Invalid state",
     "authCode_missing": "AuthCode Missing",
     "failed_to_validate_captcha": "Failed to validate captcha",

@@ -358,6 +358,8 @@
     "proof_invalid_aud": "قيمة غير صالحة في مطالبة Aud Payload.",
     "proof_invalid_iat": "قيمة غير صالحة في مطالبة حمولة IAT.",
     "proof_invalid_nonce": "قيمة غير صالحة في مطالبة PHAILLOLL NONCE.",
+    "no_attempts_left": "تم الوصول إلى الحد الأقصى لمحاولات المصادقة. الرجاء معاودة المحاولة في وقت لاحق.",
+    "individual_id_blocked": "تم حظر المستخدم مؤقتًا. من فضلك حاول مرة أخرى بعد بعض من الوقت.",
     "invalid_state_response": "حالة غير صالحة",
     "authCode_missing": "رمز المصادقة مفقود",
     "failed_to_validate_captcha": "فشل التحقق من صحة كلمة التحقق",
