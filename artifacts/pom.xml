@@ -350,7 +350,7 @@
 				<artifactItem>
 					<groupId>io.mosip.biosdk</groupId>
 					<artifactId>biosdk-client</artifactId>
-					<version>${biosdk-client.version}</version>
+					<version>${biosdk-client-java21.version}</version>
 					 <outputDirectory>${biosdk-client-java21.location}</outputDirectory> 
 					<destFileName>${biosdk-client-java21.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
