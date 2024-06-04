@@ -192,8 +192,8 @@
 
 		<!-- certify sunbird plugin -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
-		<certify-sunbird-plugin.version>0.2.0-SNAPSHOT</esignet-mock-wrapper.version>
-		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</esignet-mock-wrapper.fileName>
+		<certify-sunbird-plugin.version>0.2.0-SNAPSHOT</certify-sunbird-plugin.version>
+		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
 		
 		<!-- esignet IDA wrapper -->
 		<esignet-ida-wrapper.version>1.2.1-SNAPSHOT</esignet-ida-wrapper.version>
@@ -517,9 +517,6 @@
 						<type>jar</type>
 					</artifactItem>
 				</artifactItems>
-				
-
-		
 			<overWriteReleases>true</overWriteReleases>
               		<overWriteSnapshots>true</overWriteSnapshots>
               		<overWriteIfNewer>true</overWriteIfNewer>
