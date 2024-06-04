@@ -110,7 +110,16 @@
     "cancel_button": "Cancel",
     "proceed_button": "Proceed",
     "permission_denied_header": "Camera Permission Denied",
-    "permission_denied_description": "You have to given camera permission otherwise we can't move forward"
+    "permission_denied_description": "You have to given camera permission otherwise we can't move forward",
+    "key_info": {
+      "step_1": "Verify the functionality of your camera using the video preview on the right",
+      "step_2": "Ensure you are positioned in a well-lit area to facilitate clear video capture",
+      "step_3": "Position your face within the oval frame, ensuring your face is clearly visible",
+      "step_4": "Remove any accessories or items that could obstruct your face, such as hats or sunglasses.",
+      "step_5": "Maintain a stable posture throughout the video recording to prevent blurring",
+      "step_6": "Be prepared to follow instructions provided on screen during the eKYC process, such as blinking or turning your head as directed.",
+      "step_7": "Have your ID readily accessible for the verification purposes."
+    }
   },
   "kyc_provider": {
     "header": "Please select an eKYC service provider",
