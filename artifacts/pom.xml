@@ -133,7 +133,12 @@
 		<esignet-digital-credential-wrapper.version>0.1.0</esignet-digital-credential-wrapper.version>
 		<esignet-digital-credential-wrapper.fileName>sunbird-rc-esignet-integration-impl.jar</esignet-digital-credential-wrapper.fileName>
 		<!-- latest mock-sdk -->
-		<mock-sdk-latest.version>1.2.0.2</mock-sdk-latest.version>
+		<mock-sdk-latest.version>1.2.0.1-B4</mock-sdk-latest.version>
+
+		<!-- certify sunbird plugin -->
+		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
+		<certify-sunbird-plugin.version>0.2.0-SNAPSHOT</certify-sunbird-plugin.version>
+		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
 	</properties>
 	
 	<build>
@@ -337,7 +342,15 @@
 						<destFileName>${esignet-digital-credential-wrapper.fileName}</destFileName>
 						<type>jar</type>
 					</artifactItem>
-
+					<!-- artifactItem section for certify plugin -->
+					<artifactItem>
+						<groupId>io.mosip.certify.sunbirdrc</groupId>
+						<artifactId>sunbird-rc-certify-integration-impl</artifactId>
+						<version>${certify-sunbird-plugin.version}</version>
+						<outputDirectory>${certify-plugin.location}</outputDirectory>
+						<destFileName>${certify-sunbird-plugin.fileName}</destFileName>
+						<type>jar</type>
+					</artifactItem>
 				</artifactItems>
 			<overWriteReleases>true</overWriteReleases>
               		<overWriteSnapshots>true</overWriteSnapshots>
