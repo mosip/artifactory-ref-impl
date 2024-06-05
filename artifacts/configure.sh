@@ -52,7 +52,7 @@ rm -rf ${esignet_wrapper_lib_zip_path}/esignet-wrapper
 echo esignet-wrapper zip creation completed
 
 echo certify-plugin zip creation started
-zip -r -j ${certify_plugin_zip_path}/cetify-plugin.zip ${certify_plugin_zip_path}/certify-plugin/*
+zip -r -j ${certify_plugin_zip_path}/certify-plugin.zip ${certify_plugin_zip_path}/certify-plugin/*
 rm -rf ${certify_plugin_zip_path}/certify-plugin
 echo certify-plugin zip creation completed
 
