@@ -418,6 +418,7 @@
         "InvalidFormatMsg": "El tipo de archivo que estás intentando cargar no es compatible. Por favor, carga un tipo de archivo diferente.",
         "InvalidFileSize": "El documento que estás intentando cargar excede el límite de tamaño de archivo de 2 MB. Por favor, carga un documento dentro de 2 MB.",
         "sameNameInputErrorMsg": "El $NAME que has ingresado ya existe. Por favor, ingresa un nuevo $NAME para continuar.",
+        "enteredOnlyNums": "Este campo de entrada solo acepta letras.",
         "sameDobInputErrorMsg": "La fecha de nacimiento que has ingresado ya existe. Por favor, ingresa una fecha de nacimiento nueva para continuar.",
         "sameGenderInputErrorMsg": "El género que has elegido ya existe. Por favor, elige un género nuevo para continuar.",
         "EnterAllAddress": "Por favor ",
@@ -462,7 +463,7 @@
         "partnerName": "Nombre del socio",
         "partnerLogo": "Logotipo del socio",
         "transactionDate": "Fecha de la transacción",
-        "downloadbuttonLabel": "Descargar",
+        "downloadbuttonLabel": "Descargar Acuse de recibo",
         "summary": "Resumen",
         "attributeList": "Lista de atributos",
         "downloadVIDCard": "Descargar tarjeta VID",
@@ -680,7 +681,8 @@
             "userId": "El correo electrónico/número de teléfono ingresado no es válido. Por favor, ingresa un correo electrónico/número de teléfono válido.",
             "otp": "OTP ingresado inválido. Por favor, intenta nuevamente con un OTP válido.",
             "channel": "UIN/VID ingresado inválido. Por favor, ingresa un UIN/VID válido y vuelve a intentarlo.",
-            "identity/preferredLang": "Idioma preferido inválido. Por favor, ingresa datos válidos."
+            "identity/preferredLang": "Idioma preferido inválido. Por favor, ingresa datos válidos.",
+            "identity/dateOfBirth": "Por favor ingrese una fecha de nacimiento válida."
         },
         "RES-SER-459": "El EID ingresado no está asociado con el UIN/VID utilizado para iniciar sesión.",
         "RES-SER-412": "No se puede acceder al recurso API.",

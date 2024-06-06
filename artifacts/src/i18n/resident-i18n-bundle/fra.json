@@ -418,6 +418,7 @@
         "InvalidFormatMsg": "Le type de fichier que vous essayez de télécharger n'est pas pris en charge. Veuillez télécharger un autre type de fichier.",
         "InvalidFileSize": "Le document que vous essayez de télécharger dépasse la limite de taille de fichier de 2 Mo. Veuillez télécharger un document de taille inférieure à 2 Mo.",
         "sameNameInputErrorMsg": "Le $NAME que vous avez saisi existe déjà. Veuillez saisir un nouveau $NAME pour continuer.",
+        "enteredOnlyNums": "Ce champ de saisie n'accepte que les lettres",
         "sameDobInputErrorMsg": "La date de naissance que vous avez saisie existe déjà. Veuillez saisir une nouvelle date de naissance pour continuer.",
         "sameGenderInputErrorMsg": "Le genre que vous avez choisi existe déjà. Veuillez choisir un nouveau genre pour continuer.",
         "EnterAllAddress": "S'il te plaît ",
@@ -462,7 +463,7 @@
         "partnerName": "Nom du partenaire",
         "partnerLogo": "Logo du partenaire",
         "transactionDate": "Date de la transaction",
-        "downloadbuttonLabel": "Télécharger",
+        "downloadbuttonLabel": "Télécharger l'accusé de réception",
         "summary": "Résumé",
         "attributeList": "Liste des attributs",
         "downloadVIDCard": "Télécharger la carte VID",
@@ -680,7 +681,8 @@
             "userId": "L'adresse e-mail/le numéro de téléphone que vous avez saisi est invalide. Veuillez saisir une adresse e-mail/un numéro de téléphone valide.",
             "otp": "OTP invalide saisi. Veuillez réessayer avec un OTP valide.",
             "channel": "UIN/VID invalide saisi. Veuillez saisir un UIN/VID valide et réessayer.",
-            "identity/preferredLang": "Langue préférée invalide. Veuillez fournir des données valides."
+            "identity/preferredLang": "Langue préférée invalide. Veuillez fournir des données valides.",
+            "identity/dateOfBirth": "Veuillez saisir une date de naissance valide."
         },
         "RES-SER-459": "L'EID saisi n'est pas associé au UIN/VID utilisé pour se connecter.",
         "RES-SER-412": "Impossible d'accéder à la ressource API.",
