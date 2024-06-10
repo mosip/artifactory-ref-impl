@@ -418,7 +418,7 @@
         "InvalidFormatMsg": "The file type that you are trying to upload is not supported. Please upload a different file type.",
         "InvalidFileSize": "The document you are trying to upload exceeds the file size limit of 2mb. Please upload a document within 2mb.",
         "sameNameInputErrorMsg": "The $NAME you have entered already exists. Please enter a new $NAME to proceed.",
-        "enteredOnlyNums": "Only numbers are not allowed as name",
+        "enteredOnlyNums": "This input field only accepts letters",
         "sameDobInputErrorMsg": "The DOB you have entered already exists. Please enter a new DOB to proceed.",
         "sameGenderInputErrorMsg": "The gender you have chosen already exists. Please choose a new gender to proceed.",
         "EnterAllAddress":"Please ",
@@ -651,9 +651,9 @@
         "readMoreLabel": "Read More...",
         "readLessLabel": "Read Less...",
         "revokevid": {
-            "Perpetual": "A perpetual VID has no expiry date and no limit on the number of transactions that can be performed using this VID. One UIN can be associated with only $instancesVID perpetual VID at a time.",
-            "Temporary": "A temporary VID is valid for $expiryTime minutes and only $transactionLimit transaction can be performed using this VID. One UIN can be associated with $instancesVID temporary VIDs at a time.",
-            "OneTimeUse": "A one-time VID's has no expiry date but only $transactionLimit transaction can be performed using this VID. One UIN can be associated with $instancesVID one-time VID at a time."
+            "Perpetual": "A perpetual VID has no expiry date and no limit on the number of transactions that can be performed using this VID. One UIN can be associated with only $instancesVID perpetual $VID at a time.",
+            "Temporary": "A temporary VID is valid for $expiryTime minutes and only $transactionLimit transaction can be performed using this VID. One UIN can be associated with $instancesVID temporary $VID at a time.",
+            "OneTimeUse": "A one-time VID's has no expiry date but only $transactionLimit transaction can be performed using this VID. One UIN can be associated with $instancesVID one-time $VID at a time."
         },
         "secureMyID": {
             "Email OTP Authentication": "On locking/unlocking 'Email OTP Authentication', any Authentication attempt made using an email OTP will be disabled/ enabled.",
