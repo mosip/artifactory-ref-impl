@@ -651,9 +651,9 @@
         "readMoreLabel": "Leer más...",
         "readLessLabel": "Leer menos...",
         "revokevid": {
-            "Perpetual": "Un VID perpetuo no tiene fecha de vencimiento y no tiene límite en el número de transacciones que se pueden realizar con este VID. Un UIN puede estar asociado solo con un VID perpetuo $instancesVID a la vez.",
-            "Temporary": "Un VID temporal es válido por $expiryTime minutos y solo se pueden realizar $transactionLimit transacciones utilizando este VID. Un UIN puede estar asociado con $instancesVID VID temporales a la vez.",
-            "OneTimeUse": "Un VID de un solo uso no tiene fecha de vencimiento, pero solo se pueden realizar $transactionLimit transacciones utilizando este VID. Un UIN puede estar asociado con un VID de un solo uso $instancesVID a la vez."            
+            "Perpetual": "நிரந்தர விஐடிக்கு காலாவதி தேதி இல்லை மற்றும் இந்த விஐடியைப் பயன்படுத்தி செய்யப்படும் பரிவர்த்தனைகளின் எண்ணிக்கையில் வரம்பு இல்லை. ஒரு UIN ஆனது ஒரு நேரத்தில் $instancesVID நிரந்தர $VID உடன் மட்டுமே இணைக்கப்படும்.",
+            "Temporary": "$expiryTime நிமிடங்களுக்கு ஒரு தற்காலிக VID செல்லுபடியாகும், மேலும் இந்த VIDஐப் பயன்படுத்தி $transactionLimit பரிவர்த்தனை மட்டுமே செய்ய முடியும். ஒரு நேரத்தில் $instancesVID தற்காலிக $VID உடன் ஒரு UIN இணைக்கப்படலாம்.",
+            "OneTimeUse": "ஒருமுறை மட்டுமே பயன்படுத்தப்படும் விஐடிக்கு காலாவதி தேதி கிடையாது ஆனால் இந்த விஐடியைப் பயன்படுத்தி $transactionLimit பரிவர்த்தனை மட்டுமே செய்ய முடியும். ஒரு UIN ஐ ஒரு நேரத்தில் $instancesVID ஒரு முறை $VID உடன் இணைக்கலாம்."
         },
         "secureMyID": {
             "Email OTP Authentication": "Al bloquear/desbloquear 'Autenticación por correo electrónico con OTP', cualquier intento de autenticación realizado utilizando un OTP por correo electrónico se deshabilitará/habilitará.",
