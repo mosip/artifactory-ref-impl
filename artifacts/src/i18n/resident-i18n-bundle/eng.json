@@ -438,7 +438,7 @@
             "descriptionDetails": "We have found an existing Data Update Request which is still in progress. In order to raise a new request, you will have to delete the existing request.",
             "viewMore":"View More",
             "viewLess":"View Less",
-            "warnMsg":"Are you sure you want to cancel the existing Data Update Request to update your?",
+            "warnMsg":"Are you sure you want to cancel the existing Data Update Request to update your data?",
             "warnMsgTwo":"You cannot cancel this request since it is still in Pending state. Please try after sometime."
         },
         "draftCanceled":"Your existing Data Update Request has been successfully canceled. You can now proceed to raise another Data Update request."

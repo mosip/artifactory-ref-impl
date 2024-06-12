@@ -438,7 +438,7 @@
             "descriptionDetails": "Hemos encontrado una solicitud de actualización de datos existente que aún está en curso. Para generar una nueva solicitud, deberá eliminar la solicitud existente.",
             "viewMore":"Ver más",
             "viewLess":"Ver menos",
-            "warnMsg":"¿Está seguro de que desea cancelar la Solicitud de actualización de datos existente para actualizar la suya?",
+            "warnMsg":"¿Está seguro de que desea cancelar la Solicitud de actualización de datos existente para actualizar sus datos?",
             "warnMsgTwo":"No puede cancelar esta solicitud ya que todavía está en estado Pendiente. Inténtalo después de un tiempo."
         },
         "draftCanceled":"Su solicitud de actualización de datos existente se canceló exitosamente. Ahora puede proceder a generar otra solicitud de Actualización de datos."
