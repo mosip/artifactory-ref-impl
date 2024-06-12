@@ -153,6 +153,8 @@ COPY /src/hsm/client.zip ${hsm_client_path}/
 
 COPY /src/hsm/client-alpine.zip ${hsm_client_path}/
 
+COPY /src/hsm/client-ubuntu.zip ${hsm_client_path}/
+
 COPY /src/mosip-plugins/sign-in-with-esignet/sign-in-with-esignet.zip ${mosip_plugins_zip_path}/
 
 COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
