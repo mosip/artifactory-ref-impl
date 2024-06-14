@@ -12,7 +12,8 @@ on:
       - 1.*
       - MOSIP*
       - release*
-  
+      - ES-*
+      
 jobs:
   build-docker-artifactory-server:
     strategy:
