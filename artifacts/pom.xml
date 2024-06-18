@@ -139,10 +139,14 @@
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-sunbird-plugin.version>0.2.0-SNAPSHOT</certify-sunbird-plugin.version>
 		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
-		<!-- certify mosip ida plugin -->
+		<!-- certify mosip identity plugin -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-mosip-identity-plugin.version>0.2.0-SNAPSHOT</certify-mosip-identity-plugin.version>
 		<certify-mosip-identity-plugin.fileName>certify-mosip-identity-plugin.jar</certify-mosip-identity-plugin.fileName>
+		<!-- certify mock identity plugin -->
+		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
+		<certify-mock-identity-plugin.version>0.2.0-SNAPSHOT</certify-mock-identity-plugin.version>
+		<certify-mock-identity-plugin.fileName>certify-mock-identity-plugin.jar</certify-mock-identity-plugin.fileName>
 	</properties>
 	
 	<build>
@@ -355,13 +359,22 @@
 						<destFileName>${certify-sunbird-plugin.fileName}</destFileName>
 						<type>jar</type>
 					</artifactItem>
-					<!-- artifactItem section for certify mosip ida plugin -->
+					<!-- artifactItem section for certify mosip identity plugin -->
 					<artifactItem>
 						<groupId>io.mosip.certify</groupId>
 						<artifactId>mosip-identity-certify-plugin</artifactId>
 						<version>${certify-mosip-identity-plugin.version}</version>
 						<outputDirectory>${certify-plugin.location}</outputDirectory>
 						<destFileName>${certify-mosip-identity-plugin.fileName}</destFileName>
+						<type>jar</type>
+					</artifactItem>
+					<!-- artifactItem section for certify mock identity plugin -->
+					<artifactItem>
+						<groupId>io.mosip.certify</groupId>
+						<artifactId>mock-identity-certify-plugin</artifactId>
+						<version>${certify-mock-identity-plugin.version}</version>
+						<outputDirectory>${certify-plugin.location}</outputDirectory>
+						<destFileName>${certify-mock-identity-plugin.fileName}</destFileName>
 						<type>jar</type>
 					</artifactItem>
 				</artifactItems>
