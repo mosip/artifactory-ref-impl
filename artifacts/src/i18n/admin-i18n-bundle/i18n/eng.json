@@ -35,6 +35,9 @@
         },
         "item8": {
             "title": "Retrieve Lost RID"
+        },
+        "item9": {
+            "title": "Download Card"
         }
     },
     "dashboard": {
