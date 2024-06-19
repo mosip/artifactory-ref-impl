@@ -77,7 +77,7 @@
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 		
 		<!-- kernel-smsserviceprovider-->
-		<kernel-smsserviceprovider.version>1.2.0.2-SNAPSHOT</kernel-smsserviceprovider.version>
+		<kernel-smsserviceprovider.version>1.2.0.2</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 		<!-- kernel-ref-idobjectvalidator -->
@@ -124,7 +124,7 @@
 		<authentication-wrapper.fileName>authentication-wrapper.jar</authentication-wrapper.fileName>
 		<!-- esignet mock authentication wrapper -->
 		<esignet-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-wrapper</esignet-wrapper.location>
-		<esignet-mock-wrapper.version>0.9.3-SNAPSHOT</esignet-mock-wrapper.version>
+		<esignet-mock-wrapper.version>0.9.3</esignet-mock-wrapper.version>
 		<esignet-mock-wrapper.fileName>esignet-mock-wrapper.jar</esignet-mock-wrapper.fileName>
 		<!-- esignet IDA wrapper -->
 		<esignet-ida-wrapper.version>1.2.0.1</esignet-ida-wrapper.version>
