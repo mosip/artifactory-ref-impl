@@ -35,6 +35,9 @@
 		},
         "item8": {
             "title": "Récupérer le RID perdu"
+        },
+        "item9": {
+            "title": "Télécharger la carte"
         }
 	},
 	"dashboard": {

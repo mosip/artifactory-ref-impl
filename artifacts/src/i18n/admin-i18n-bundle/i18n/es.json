@@ -35,6 +35,9 @@
         },
         "item8": {
             "title": "Recuperar RID Perdido"
+        },
+        "item9": {
+            "title": "Descargar tarjeta"
         }
     },
     "dashboard": {
