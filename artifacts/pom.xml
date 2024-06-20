@@ -110,6 +110,10 @@
 		<mock-sdk-jpeg-extractor.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-mock-sdk/1.1.5</mock-sdk-jpeg-extractor.location>
 		<mock-sdk-jpeg-extractor-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-sdk/jpeg-sdk-lib</mock-sdk-jpeg-extractor-lib.location>
 		<mock-sdk-jpeg-extractor.fileName>mock-sdk-jpeg-extractor-jar-with-dependencies.jar</mock-sdk-jpeg-extractor.fileName>
+		<!-- redis-cache -->
+		<redis-cache.version>1.0-SNAPSHOT</redis-cache.version>
+		<redis-cache.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</redis-cache.location>
+		<redis-cache.fileName>redis-cache-provider.jar</redis-cache.fileName>
 		<!-- hazelcast cast -->
 		<hazelcast.version>3.12.12</hazelcast.version>
 		<hazelcast.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast.location>
@@ -300,6 +304,15 @@
 					<version>${hazelcast.version}</version>
 					 <outputDirectory>${hazelcast.location}</outputDirectory> 
 					<destFileName>${hazelcast.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for redis-cache jar -->
+				<artifactItem>
+					<groupId>io.mosip.cacheprovider</groupId>
+					<artifactId>cache-provider-redis</artifactId>
+					<version>${redis-cache.version}</version>
+					 <outputDirectory>${redis-cache.location}</outputDirectory> 
+					<destFileName>${redis-cache.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for idp authentication wrapper - only required for idp v090-->
