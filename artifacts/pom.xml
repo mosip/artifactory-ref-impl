@@ -139,7 +139,7 @@
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-sunbird-plugin.version>0.2.0-SNAPSHOT</certify-sunbird-plugin.version>
 		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
-		<!-- certify mosip ida plugin -->
+		<!-- certify mosip identity plugin -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-mosip-identity-plugin.version>0.2.0-SNAPSHOT</certify-mosip-identity-plugin.version>
 		<certify-mosip-identity-plugin.fileName>certify-mosip-identity-plugin.jar</certify-mosip-identity-plugin.fileName>
