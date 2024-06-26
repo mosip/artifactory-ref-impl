@@ -135,7 +135,7 @@
 		<!-- latest mock-sdk -->
 		<mock-sdk-latest.version>1.2.0.1-B4</mock-sdk-latest.version>
 
-		<!-- certify sunbird plugin -->
+		<!-- certify sunbird plugin  -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-sunbird-plugin.version>0.2.0-SNAPSHOT</certify-sunbird-plugin.version>
 		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
