@@ -1,0 +1,719 @@
+
+{
+    "menuItems": [
+        {
+            "displayName": "خدمات UIN",
+            "displaydescription": "يمكن للمقيمين استخدام هذه الخدمات لعرض وتحديث وإدارة أو مشاركة بياناتهم. يمكنهم أيضًا الإبلاغ عن أي مشكلة في حالة وجود شكوى.",
+            "availableServicesDescription": "فيما يلي الخدمات المتاحة:",
+            "icon": "./assets/icons/iconfont/uin_services.svg",
+            "activeIcon": "./assets/icons/iconfont/uin_services_active.svg",
+            "route": "",
+            "auditEventId": "ADM-004",
+            "cols": 2,
+            "rows": 2,
+            "id":"UINservices",
+            "subMenus": [
+                {
+                    "displayName": "عرض تاريخي الخاص بي",
+                    "icon": "assets/images/viewhistory.png",
+                    "route": "uinservices/viewhistory",
+                    "description": "عرض تاريخ جميع المعاملات المرتبطة بمعرّف UIN/ VID الخاص بك. يمكنك أيضًا عرض تفاصيلها وإذا تم العثور على إدخال غير محاسب له ، يمكن تقديم تقرير بشأنه.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "إدارة معرّف VID الخاص بي",
+                    "icon": "assets/images/managemyvid.png",
+                    "route": "uinservices/managemyvid",
+                    "description": "عرض تفاصيل معرّفات VID الحالية ، إنشاء معرّفات VID جديدة ، حذف معرّف VID موجود أو تنزيل بطاقة VID.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "تأمين هويتي",
+                    "icon": "assets/images/lockunlockauth.png",
+                    "route": "uinservices/lockunlockauth",
+                    "description": "عرض حالة جميع أنواع المصادقة. يمكنك اختيار قفل أو فتح أنواع المصادقة مثل مصادقة القزحية ومصادقة البريد الإلكتروني ، إلخ.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "تتبع طلباتي",
+                    "icon": "assets/images/trackservicerequest.png",
+                    "route": "uinservices/trackservicerequest",
+                    "description": "تتبع حالة معرّف الحدث (EID) المرتبط بمعرّف UIN/VID الخاص بك. يمكنك أيضًا عرض المعلومات المفصلة حول EID المدخلة.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "الحصول على بطاقة شخصية مخصصة",
+                    "icon": "assets/images/personalisedcard.png",
+                    "route": "uinservices/personalisedcard",
+                    "description": "يمكن للمقيمين اختيار البيانات المراد إضافتها إلى بطاقتهم الشخصية. يمكنهم أيضًا معاينة البيانات المختارة وتنزيلها.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "مشاركة بياناتي",
+                    "icon": "assets/images/sharewithpartner.png",
+                    "route": "uinservices/sharewithpartner",
+                    "description": "يمكن للمقيمين اختيار البيانات المراد مشاركتها مع أي من الشركاء المسجلين للاستفادة من مختلف الخدمات من الطرف الثالث.",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "تحديث بياناتي",
+                    "icon": "assets/images/updatedemographic.png",
+                    "route": "uinservices/updatedemographic",
+                    "description": "يمكن للمقيمين تحديث البيانات الموجودة بالفعل المرتبطة بمعرّف UIN/VID الخاص بهم. يمكن تحديث البيانات التي يمكن تحديثها بما في ذلك الاسم والجنس وتاريخ الميلاد والعنوان والوثائق المرفوعة ورقم الهاتف وعنوان البريد الإلكتروني واللغة المفضلة ، إلخ.",
+                    "auditEventId": "ADM-004"
+                }
+            ]
+        },
+        {
+            "displayName": "الحصول على معلومات",
+            "icon": "./assets/icons/iconfont/get_information.svg",
+            "activeIcon": "./assets/icons/iconfont/get_information_active.svg",
+            "route": "",
+            "auditEventId": "ADM-004",
+            "cols": 1,
+            "rows": 1,
+            "id":"getInformation",
+            "availableServicesDescription": "انقر هنا للبحث عن",
+            "subMenus": [
+                {
+                    "displayName": "مراكز التسجيل",
+                    "icon": "",
+                    "route": "regcenter",
+                    "auditEventId": "ADM-004"
+                },
+                {
+                    "displayName": "الوثائق الداعمة",
+                    "icon": "",
+                    "route": "document",
+                    "auditEventId": "ADM-004"
+                }
+            ]
+        },
+        {
+            "displayName": "حجز موعد",
+            "icon": "./assets/icons/iconfont/book_appointment.svg",
+            "activeIcon": "./assets/icons/iconfont/book_appointment_active.svg",
+            "route": "",
+            "auditEventId": "ADM-004",
+            "cols": 1,
+            "rows": 1,
+            "id":"bookingAnAppointment",
+            "subMenus": [
+                {
+                    "displayName": "انقر هنا للتسجيل الجديد",
+                    "icon": "",
+                    "route": "redirect",
+                    "auditEventId": "ADM-004"
+                }
+            ]
+        },
+        {
+            "displayName": "الحصول على UIN الخاص بي",
+            "icon": "./assets/icons/iconfont/get_my_uin.svg",
+            "activeIcon": "./assets/icons/iconfont/get_my_uin_active.svg",
+            "route": "getuin",
+            "auditEventId": "ADM-004",
+            "cols": 1,
+            "rows": 1,
+            "id":"getMyUIN",
+            "subMenus": [
+                {
+                    "displayName": "انقر هنا لتنزيل بطاقة UIN الخاصة بك أو معرفة حالة UIN الخاصة بك"
+                }
+            ]
+        },
+        {
+            "displayName": "تحقق من رقم الهاتف / البريد الإلكتروني",
+            "icon": "./assets/icons/iconfont/verify_phone_number.svg",
+            "activeIcon": "./assets/icons/iconfont/verify_phone_number_active.svg",
+            "route": "verify",
+            "auditEventId": "ADM-004",
+            "cols": 1,
+            "rows": 1,
+            "id":"verifyPhoneNumber/EmailID",
+            "subMenus": [
+                {
+                    "displayName": "انقر هنا للتحقق من رقم هاتفك / عنوان بريدك الإلكتروني"
+                }
+            ]
+        }
+    ],
+    "header": {
+        "lastLogin": "آخر تسجيل دخول",
+        "logout": "تسجيل خروج"
+    },
+    "dashboard": {
+        "welcomeMessage": "مرحبًا بك في بوابة شريك Mosip!",
+        "Logout": "تسجيل الخروج",
+        "home": "الصفحة الرئيسية",
+        "getinformation": "الحصول على معلومات",
+        "regcenter": "البحث عن مركز تسجيل",
+        "document": "قائمة الوثائق الداعمة",
+        "verify": "التحقق من رقم الهاتف / البريد الإلكتروني",
+        "uinservices": "خدمات UIN",
+        "uindescription": "يمكن للمقيمين استخدام هذه الخدمات لعرض وتحديث وتغيير وإدارة أو مشاركة بياناتهم. يمكنهم أيضًا الإبلاغ عن مشكلة في حالة وجود شكوى."
+    },
+    "uinservices": {
+        "login": "تسجيل الدخول",
+        "title": "أدخل رقم AID/UIN/VID الخاص بك",
+        "description": "أدخل رقم AID/UIN/VID الخاص بك للمتابعة.",
+        "plaginLabel": "أنا لست روبوتًا",
+        "buttonText": "إرسال رمز التحقق",
+        "home": "الصفحة الرئيسية",
+        "enterHere": "أدخل هنا",
+        "label": "الحصول على UIN الخاص بي",
+        "icon": "assets/images/info_black_24dp (1).png"
+    },
+    "downloadUin": {
+        "home": "الصفحة الرئيسية",
+        "label": "تنزيل UIN",
+        "subTitle": "سينتهي صلاحية رمز التحقق في",
+        "subTitle2": "لقد انتهت صلاحية كلمة المرور لمرة واحدة (OTP)، الرجاء الضغط على إعادة إرسال كلمة المرور لمرة واحدة.",
+        "inputLabel": "أدخل رمز التحقق لمرة واحدة (OTP)",
+        "otpDescription": "تم إرسال رمز التحقق لمرة واحدة (OTP) إلى رقم هاتفك المسجل",
+        "otpDescriptionEmail": " وعنوان البريد الإلكتروني المسجل",
+        "resendBtnLabel": "إعادة إرسال OTP",
+        "submitBtnLabel": "إرسال",
+        "enterOtp": "أدخل OTP هنا"
+    },
+    "centerSelection": {
+        "title": "حجز موعد",
+        "action_nearBy": "المواقع القريبة مني",
+        "display_recommended": "مراكز موصى بها",
+        "text_found": "تم العثور على",
+        "text_centers": "مراكز",
+        "text_timing": "التوقيت",
+        "text_open": "مفتوح",
+        "text_select": "حدد أنواع المواقع",
+        "text_enter": "أدخل",
+        "text_search": "البحث",
+        "action_back": "العودة",
+        "action_book_later": "حجز لاحقًا",
+        "action_continue": "متابعة",
+        "noResult_found": "لم يتم العثور على نتائج",
+        "lunch_hours": "الغداء",
+        "helpText": "مراكز التسجيل بناءً على موقعك الجغرافي",
+        "noRegCentersNearby": "لم يتم العثور على مراكز تسجيل قريبة. يُرجى إدخال النص يدويًا للبحث عن مراكز التسجيل.",
+        "noRegCenters": "لم يتم العثور على مركز تسجيل.",
+        "warnMessage": "يرجى إدخال أحرف / أرقام للبحث.",
+        "or":"أو",
+        "showMapBtnLabel":"عرض مركز ريج على الخريطة"
+    },
+    "downloadDocument": {
+        "downloadbutton": "تحميل"
+    },
+    "grievanceRedressal": {
+        "title": "نموذج تقديم شكوى",
+        "namelabel": "الاسم",
+        "emailidlabel": "عنوان البريد الإلكتروني",
+        "alternateemailidlabel": "عنوان البريد الإلكتروني البديل",
+        "phonenumberlabel": "رقم الهاتف",
+        "alternatephonenumberlabel": "رقم الهاتف البديل",
+        "eventidlabel": "معرّف الحدث",
+        "commentlabel": "تعليق",
+        "alternateEmailPlaceholder": "أدخل عنوان البريد الإلكتروني البديل",
+        "alternatePhoneNoPlaceholder": "أدخل رقم الهاتف البديل",
+        "EnterMsgPlaceholder": "يرجى إدخال تعليقك",
+        "submitBtn": "إرسال",
+        "TotalCharacters": "إجمالي الأحرف",
+        "remainingCharacters": "الأحرف المتبقية"
+    },
+    "breadCrumbNames": {
+        "trackMyRequest": "تتبع طلبي",
+        "viewMyHistory": "عرض تاريخي الخاص بي"
+    },
+    "verifyuinvid": {
+        "title": "",
+        "mobileno": "تحقق من رقم الهاتف",
+        "email": "تحقق من عنوان البريد الإلكتروني",
+        "uid": "أدخل UIN/VID",
+        "captcha": "أدخل رمز التحقق",
+        "sendotp": "أرسل OTP",
+        "otp": "أدخل رمز التحقق لمرة واحدة (OTP)",
+        "phoneicon": "assets/images/phone_iphone_black_24dp.png",
+        "subTitle": "سينتهي صلاحية رمز التحقق في",
+        "subTitle2": "لقد انتهت صلاحية كلمة المرور لمرة واحدة (OTP)، الرجاء الضغط على إعادة إرسال كلمة المرور لمرة واحدة.",
+        "inputLabel": "أدخل رمز التحقق لمرة واحدة (OTP)",
+        "otpDescriptionEmail": "يرجى إدخال رمز التحقق لمرة واحدة (OTP) الذي تم إرساله إلى عنوان البريد الإلكتروني المسجل الخاص بك ",
+        "otpDescriptionPhone": "يرجى إدخال رمز التحقق لمرة واحدة (OTP) الذي تم إرساله إلى رقم هاتفك المسجل ",
+        "resendBtnLabel": "إعادة إرسال OTP",
+        "submitBtnLabel": "إرسال",
+        "back": "رجوع"
+    },
+    "viewhistory": {
+        "title": "عرض تاريخي الخاص بي",
+        "inputsearch": "بحث",
+        "inputAppId": "EID",
+        "inputHistory": "نوع التاريخ",
+        "inputStatus": "الحالة",
+        "inputFrom": "من (ي ي/ش ش ش/السنة)",
+        "inputTo": "إلى (ي ي/ش ش ش/السنة)",
+        "searchBtn": "بحث",
+        "description": "الوصف",
+        "timestamp": "الطابع الزمني",
+        "selectAll": "الكل",
+        "noData": "لا توجد نتائج لعرضها",
+        "historyType": "نوع التاريخ",
+        "status": "حالة",
+        "serviceTypeFilter": {
+            "ALL": {
+                "serviceType": "الكل",
+                "checked": false
+            },
+            "AUTHENTICATION_REQUEST": {
+                "serviceType": "طلب المصادقة",
+                "checked": false
+            },
+            "SERVICE_REQUEST": {
+                "serviceType": "طلب الخدمة",
+                "checked": false
+            },
+            "DATA_UPDATE_REQUEST": {
+                "serviceType": "طلب تحديث البيانات",
+                "checked": false
+            },
+            "ID_MANAGEMENT_REQUEST": {
+                "serviceType": "طلب إدارة المعرف",
+                "checked": false
+            },
+            "DATA_SHARE_REQUEST": {
+                "serviceType": "طلب مشاركة البيانات",
+                "checked": false
+            }
+        },
+        "statusTypeFilter": {
+            "ALL": {
+                "statusType": "الكل",
+                "checked": false
+            },
+            "SUCCESS": {
+                "statusType": "نجاح",
+                "checked": false
+            },
+            "IN_PROGRESS": {
+                "statusType": "قيد التقدم",
+                "checked": false
+            },
+            "FAILED": {
+                "statusType": "فشل",
+                "checked": false
+            },
+            "CANCELED":{
+                "statusType": "ألغيت",
+                "checked": false
+            }
+        },
+        "reportIssueLabel": "الإبلاغ عن مشكلة",
+        "pinToTopLabel": "تثبيت في الأعلى",
+        "unpinToToplabel": "إزالة التثبيت من الأعلى",
+        "viewhistoryLabel": "عرض التفاصيل"
+    },
+    "managemyvid": {
+        "title": "إدارة VID الخاص بي",
+        "Perpetual": {
+            "vidType": "VID دائم",
+            "message": "لا يوجد حد للاستخدام أو تاريخ الانتهاء"
+        },
+        "Temporary": {
+            "vidType": "VID مؤقت",
+            "message": "ينتهي بعد 30 دقيقة ويمكن استخدامه مرة واحدة فقط"
+        },
+        "OneTimeUse": {
+            "vidType": "VID للاستخدام مرة واحدة",
+            "message": "لا يوجد تاريخ انتهاء ولكن يمكن استخدامه مرة واحدة فقط"
+        },
+        "generatevid": [
+            {
+                "vidType": "VID دائم",
+                "message": "لا يوجد حد للاستخدام أو تاريخ الانتهاء"
+            },
+            {
+                "vidType": "VID للاستخدام مرة واحدة",
+                "message": "لا يوجد تاريخ انتهاء ولكن يمكن استخدامه مرة واحدة فقط"
+            },
+            {
+                "vidType": "VID مؤقت",
+                "message": "ينتهي بعد 30 دقيقة ويمكن استخدامه مرة واحدة فقط"
+            }
+        ],
+        "revokevid": "",
+        "create": "إنشاء",
+        "generatevidtoggle": "إنشاء VID",
+        "revokevidtoggle": "إلغاء VID",
+        "introDescription": "عرض تفاصيل VID الحالية ، إنشاء VID جديدة ، حذف VID موجودة أو تنزيل بطاقة VID.",
+        "generatedOn": "تم إنشاؤها في",
+        "expiry": "تاريخ الانتهاء",
+        "vid": "VID",
+        "transactionLeft": "المعاملة المتبقية",
+        "noVidsText": "ليس لديك أي $VIDTYPE حاليًا. يُرجى النقر على زر",
+        "noVidsText2": " لإنشاء واحد جديد."
+    },
+    "lockunlockauth": {
+        "title": "تأمين هويتي",
+        "generatevid": [
+            {
+                "title": "دائم",
+                "message": "لا يوجد حد للاستخدام أو تاريخ الانتهاء"
+            },
+            {
+                "title": "مؤقت",
+                "message": "ينتهي بعد 30 دقيقة ويمكن استخدامه مرة واحدة فقط"
+            },
+            {
+                "title": "مرة واحدة",
+                "message": "لا يوجد تاريخ انتهاء ولكن يمكن استخدامه مرة واحدة فقط"
+            }
+        ],
+        "revokevid": "",
+        "generatevidtoggle": "إنشاء VID",
+        "revokevidtoggle": "إلغاء VID",
+        "labelmap": {
+            "demo": {
+                "label": "المصادقة الديموغرافية",
+                "icon": "Demographic Authentication"
+            },
+            "bio-FINGER": {
+                "label": "المصادقة بصمة الإصبع",
+                "icon": "Fingerprint Authentication"
+            },
+            "bio-IRIS": {
+                "label": "المصادقة بالعين الشاملة",
+                "icon": "Iris Authentication"
+            },
+            "bio-FACE": {
+                "label": "المصادقة بالوجه",
+                "icon": "Face Authentication"
+            },
+            "otp-email": {
+                "label": "المصادقة برمز OTP عبر البريد الإلكتروني",
+                "icon": "Email OTP Authentication"
+            },
+            "otp-phone": {
+                "label": "المصادقة برمز OTP عبر الهاتف المحمول",
+                "icon": "Mobile OTP Authentication"
+            }
+        },
+        "introDescription": "عرض حالة جميع أنواع المصادقة. يمكنك اختيار قفل أو فتح أنواع المصادقة مثل مصادقة العين الشاملة ، مصادقة البريد الإلكتروني ، إلخ.",
+        "unlockLabel": "إلغاء القفل",
+        "lockLabel": "قفل"
+    },
+    "updatedemographic": {
+        "title": "تحديث بياناتي",
+        "identity": "الهوية",
+        "address": "العنوان",
+        "contact": "جهة الاتصال",
+        "languagePreference": "تفضيل اللغة",
+        "identityHeading": "هويتي",
+        "addressHeading": "عنواني",
+        "contactHeading": "جهة اتصالي",
+        "uploadImage": "تحميل الصورة",
+        "dropImage": "اسحب الصورة هنا",
+        "or": "أو",
+        "preview": "معاينة",
+        "enteredValuesNotMatch": "القيم المدخلة غير متطابقة.",
+        "submit": "إرسال",
+        "update": "تحديث",
+        "calendarPlaceHolder": "اليوم / الشهر / السنة",
+        "documentUploaded": "تم تحميل المستند",
+        "languageHeading": "تفضيل لغتي",
+        "InvalidFormatMsg": "نوع الملف الذي تحاول تحميله غير مدعوم. يرجى تحميل نوع ملف مختلف.",
+        "InvalidFileSize": "المستند الذي تحاول تحميله يتجاوز حد الحجم المسموح به البالغ 2 ميجابايت. يرجى تحميل مستند يكون حجمه أقل من 2 ميجابايت.",
+        "sameNameInputErrorMsg": "ال$NAME الذي أدخلته موجود بالفعل. الرجاء إدخال $NAME جديد للمتابعة.",
+        "enteredOnlyNums": "حقل الإدخال هذا يقبل الحروف فقط",
+        "sameDobInputErrorMsg": "تاريخ الميلاد الذي أدخلته موجود بالفعل. يرجى إدخال تاريخ ميلاد جديد للمتابعة.",
+        "sameGenderInputErrorMsg": "الجنس الذي اخترته موجود بالفعل. يرجى اختيار جنس جديد للمتابعة.",
+        "EnterAllAddress": "لو سمحت ",
+        "select": "يختار",
+        "remainingAttems": "$remainingAttems محاولات متبقية",
+        "maxAttems": "$Name يمكن تقديم طلب تغيير الاسم مرات كحد أقصى $MaxAttems.",
+        "fullName": "الاسم",
+        "dateOfBirth": "تاريخ الميلاد",
+        "gender": "الجنس",
+        "addressLine1":"العنوان",
+        "sameFileUploading":"يرجى تحميل الملف باستخدام اسم ملف مختلف.",
+        "docTypePlaceholder": "اختر نوع المستند",
+        "DocIDPlaceholder": "أدخل معرف المستند",
+        "pendingDrafts":{
+            "heading": "تم العثور على طلب موجود، مطلوب اتخاذ إجراء!",
+            "descriptionText": "الوصف:",
+            "descriptionDetails": "لقد عثرنا على طلب تحديث بيانات موجود والذي لا يزال قيد التقدم. لكي تتمكن من رفع طلب جديد، سيتعين عليك حذف الطلب الحالي.",
+            "viewMore":"عرض المزيد",
+            "viewLess":"عرض أقل",
+            "warnMsg":"هل أنت متأكد من رغبتك في إلغاء الطلب الحالي لتحديث البيانات المختارة؟",
+            "warnMsgTwo":"لا يمكنك إلغاء هذا الطلب لأنه لا يزال في حالة انتظار. يرجى المحاولة بعد مرور بعض الوقت."
+        },
+        "draftCanceled":"لقد تم إلغاء طلب تحديث البيانات الحالي الخاص بك بنجاح. يمكنك الآن المتابعة لرفع طلب آخر لتحديث البيانات."
+    },
+    "trackservicerequest": {
+        "title": "تتبع طلباتي",
+        "source": "عرض تاريخي الخاص بي",
+        "searchLabel": "أدخل معرّف الحدث الذي ترغب في تتبعه",
+        "searchPlaceholder": "أدخل معرف EID المكون من 16 رقمًا",
+        "searchButton": "تتبع",
+        "eventId": "معرّف الحدث",
+        "eventType": "نوع الحدث",
+        "eventStatus": "حالة الحدث",
+        "description": "الوصف",
+        "individualId": "معرّف الفرد",
+        "authenticationMode": "طريقة المصادقة",
+        "vidType": "نوع VID",
+        "vid": "VID",
+        "timestamp": "الطابع الزمني",
+        "descriptionText": "تتبع حالة معرّف الحدث (EID) المرتبط بمعرّف UIN/VID المسجل الدخول. يمكنك أيضًا عرض المعلومات المفصلة حول معرّف EID المُدخل.",
+        "transactionTitle": "تفاصيل المعاملة",
+        "partnerName": "اسم الشريك",
+        "partnerLogo": "شعار الشريك",
+        "transactionDate": "تاريخ المعاملة",
+        "downloadbuttonLabel": "تحميل الاعتراف",
+        "summary": "ملخص",
+        "attributeList": "قائمة السمات",
+        "downloadVIDCard": "تحميل بطاقة VID",
+        "downloadUINCard": "تحميل بطاقة UIN",
+        "purpose": "الغرض",
+        "raiseSupportRequest": "لتقديم طلب دعم ضد هذا المعرّف (EID) ،",
+        "clickHere": "انقر هنا.",
+        "warningMsg": "يرجى إدخال معرّف EID المكون من 16 رقمًا صحيحًا."
+    },
+    "personalisedcard": {
+        "title": "الحصول على بطاقة مخصصة",
+        "mainlabel": "يرجى تحديد ثلاثة سمات على الأقل للمتابعة.",
+        "downloadbutton": "تحميل",
+        "introDescription": "يمكن للمقيمين تحديد البيانات التي سيتم إضافتها إلى بيانات اعتمادهم. يمكنهم أيضًا معاينة البيانات المختارة وتنزيلها."
+    },
+    "physicalcard": {
+        "title": "طلب بطاقة فيزيائية",
+        "mainlabel": "حدد مزود الطباعة",
+        "introDescription": "يمكن استخدام هذه الخدمة لطلب بطاقة فيزيائية إلى العنوان المفضل. ستعتمد أنواع البطاقات المتاحة والتعرفات والميزات الأخرى على الشريك المختار في العملية."
+    },
+    "sharewithpartner": {
+        "title": "مشاركة بياناتي",
+        "mainlabel": "يرجى تحديد ثلاثة سمات على الأقل للمتابعة.",
+        "partnerName": "اسم شريك المصادقة",
+        "sharingReason": "غرض مشاركة بياناتك",
+        "sharingReasonPlaceholder": "أدخل الغرض هنا",
+        "sharebutton": "مشاركة",
+        "sharePartnerSuccessMsg": "تمت مشاركة بياناتك بنجاح مع الشريك المختار",
+        "successIcon": "./assets/success_icon.png",
+        "introDescription": "يمكن للمقيمين تحديد البيانات التي سيتم مشاركتها مع أي من الشركاء المسجلين للاستفادة من خدمات الطرف الثالث المختلفة.",
+        "messageDescription1": "تم مشاركة بياناتك بنجاح مع الشريك المختار ضد معرّف EID: ",
+        "messageDescription2": ". من أجل تتبع حالة المعاملة ، استخدم معرّف EID أعلاه في ",
+        "trackMyserviceLink": "تتبع طلب الخدمة الخاص بي",
+        "orin": "أو في",
+        "viewHistoryLink": "عرض التاريخ",
+        "TotalCharacters": "إجمالي الأحرف",
+        "remainingCharacters": "المتبقي"
+    },
+    "uinStatus": {
+        "status": "الحالة",
+        "uinTitleDescription": "جاري إنشاء UIN الخاص بك ضد AID: $AID.",
+        "uinTitleDescription2": "فشل إنشاء UIN الخاص بك ضد AID: $AID.",
+        "requestMsg": "يرجى المحاولة مرة أخرى بعد بضعة أيام.",
+        "requestMsg2": "لمزيد من المعلومات ، يرجى زيارة أقرب مركز تسجيل.",
+        "UINCardStatus": "حالة بطاقة UIN",
+        "statusTime": "تاريخ الانتهاء المتوقع: $تاريخ",
+        "statusStages": {
+            "REQUEST_RECEIVED": "تم استلام الطلب",
+            "VALIDATION_STAGE": "مرحلة التحقق",
+            "VERIFICATION_STAGE": "مرحلة التحقق",
+            "UIN_GENERATION_STAGE": "مرحلة إنشاء UIN",
+            "CARD_READY_TO_DOWNLOAD": "البطاقة جاهزة للتنزيل"
+        },
+        "trackDetailsHeading": "تفاصيل التتبع"
+    },
+    "paginatorIntl": {
+        "itemsPerPageLabel": "مواد لكل صفحة",
+        "of": "ل"
+    },
+    "genericmessage": {
+        "successLabel": "Success",
+        "successButton": "موافق",
+        "submitButton": "إرسال",
+        "resentBtn": "إعادة إرسال كلمة المرور المؤقتة",
+        "yesButton": "نعم",
+        "noButton": "لا",
+        "shareButton": "مشاركة",
+        "sendButton": "إرسال",
+        "deleteButton": "حذف",
+        "errorLabel": "Error",
+        "warningLabel": "Warning",
+        "downloadLabel": "تحميل",
+        "warningForChannel": "تحذير للقناة",
+        "createMessage": "تم الإنشاء بنجاح",
+        "updateMessage": "تم التحديث بنجاح",
+        "mappingMessage": "تمت مطابقة البيانات بنجاح",
+        "termsAndConditionsLabel": "الشروط والأحكام",
+        "clickHere": "هنا",
+        "clickHere2": "انقر ",
+        "relogin": " لتسجيل الدخول مرة أخرى.",
+        "login": " لتسجيل الدخول.",
+        "click":"انقر هنا.",
+        "cancel":"يلغي",
+        "confirm":"يتأكد",
+        "continue":"يكمل",
+        "langChgWarnText":"عند الضغط على متابعة، سيتم فقدان البيانات التي قمت بإدخالها.",
+        "toSeeMoreDetails":"لرؤية المزيد من التفاصيل",
+        "otpPopupDescription": "تم إرسال رمز المرور لمرة واحدة (OTP) إلى",
+        "loginSuccessfully": "عزيزي المقيم ، تم تسجيل دخولك بنجاح",
+        "successRemainMsg": "لتتبع طلب الخدمة باستخدام EID مملوء مسبقًا.",
+        "passwordCombinationHeading": "تركيبة كلمة المرور: ",
+        "passwordCombination": "الأربعة أحرف الأولى من اسمك الأول بحروف كبيرة وسنة ميلادك. على سبيل المثال: إذا كان اسمك Johnny Depp وتاريخ ميلادك هو 09/06/1963، سيكون كلمة المرور الخاصة بك JOHN1963.",        "SuccessLogin": "لقد سجلت الدخول بنجاح.",
+        "successLogout": "لقد قمت بتسجيل الخروج بنجاح. ",
+        "dearResident": "عزيزي المقيم،",
+        "trackStatusText": "لتتبع حالة الحدث ، انقر ",
+        "trackStatusForLogin": "يمكن استخدام هذا الرقم التسلسلي لعرض تفاصيل الحدث. انقر ",
+        "clickYesToProceed": "انقر نعم للمتابعة.",
+        "logoutconfirmMessage": "هل أنت متأكد أنك تريد تسجيل الخروج.",
+        "accessDenied": "ا يمكنك الوصول إلى هذه الخدمة حيث لم تقبل الاستجابة أثناء تسجيل الدخول",
+        "toFindRegCen": " للعثور على مراكز التسجيل.",
+        "sessionExpired": "انتهت الجلسة",
+        "getMyUin": {
+            "downloadedSuccessFully": "تم تحميل بطاقة UIN الخاصة بك بنجاح بموجب رقم الحدث: $eventId.",
+            "invalidOtp": "تم إدخال رمز OTP غير صالح. يرجى النقر فوق إعادة إرسال OTP والمحاولة مرة أخرى برمز OTP صالح."
+        },
+        "termsAndConditionsDescription": [
+            "سيتم مشاركة بياناتك مع الطرف الثالث المختار (شريك الاعتماد)",
+            "أنت مسؤول عن جميع التكاليف والرسوم المتعلقة بالاتفاقيات التي تمت مع مزود الطرف الثالث.",
+            "بأي حال من الأحوال، لن نكون مسؤولين عن فقدان أو سوء استخدام البيانات بأي شكل من الأشكال، ناتج عن استخدام البيانات المشتركة مع الشريك.",
+            "إذا توقف مزود الطرف الثالث عن توفير خدمته أو طلب من MOSIP تعليق أو إنهاء تقديم جميع أو جزء من خدماته لك، سيتم إنهاء تلك البيانات أو الخدمات على الفور دون إشعار أو التزام إضافي تجاهك."
+        ],
+        "conditionsForupdateDemographicData": [
+            "سيتم تحديث البيانات التي اخترتها بعد التحقق الصحيح من إثبات العنوان أو إثبات الهوية.",
+            "أنت مسؤول عن جميع التكاليف والرسوم المتعلقة بالاتفاقية لتحديث بياناتك.",
+            "أنت مسؤول عن أي تغييرات تتم في البيانات الشخصية الموجودة بالفعل لديك أو المستندات المرفقة لدعم هذه التغييرات."
+        ],
+        "agreeLabel": "أوافق على الشروط والأحكام لمشاركة بياناتي مع الشريك المختار",
+        "agreeLabelForUpdateData": "أوافق على الشروط والأحكام لتحديث البيانات الشخصية",
+        "personalisedcardConditions": {
+            "title": "قم بتنزيل بطاقتك الشخصية المخصصة",
+            "wishes": "عزيزي المقيم،",
+            "description": "سيستغرق بعض الوقت لإعداد البطاقة. سنرسل لك رابطًا يمكنك من خلاله تنزيل البطاقة المطلوبة. يمكنك أيضًا تنزيل البطاقة من قسم الإشعارات بمجرد أن تكون جاهزة.",
+            "sendVid": "إرسال VID",
+            "agreeLabel1": "إرسال VID إلى الهاتف المسجل",
+            "agreeLabel": "إرسال VID إلى عنوان البريد الإلكتروني المسجل"
+        },
+        "manageMyVidMessages": {
+            "Perpetual": {
+                "WarningMessageLabel": "إن إنشاء VID دائم جديد سيلغي VID الحالي الموجود بالفعل.",
+                "confirmationMessageForCreateVid": "هل أنت متأكد أنك تريد إنشاء بطاقة VID دائمة؟",
+                "confirmationMessageForDeleteVid": "هل أنت متأكد أنك تريد حذف بطاقة VID الدائمة المحددة؟",
+                "confirmationMessageForDownloadVid": "هل أنت متأكد أنك تريد تنزيل بطاقة VID الدائمة؟"
+            },
+            "Temporary": {
+                "confirmationMessageForCreateVid": "هل أنت متأكد أنك تريد إنشاء بطاقة VID مؤقتة؟",
+                "confirmationMessageForDeleteVid": "هل أنت متأكد أنك تريد حذف بطاقة VID المؤقتة التي اخترتها؟",
+                "confirmationMessageForDownloadVid": "هل أنت متأكد أنك تريد تنزيل بطاقة VID المؤقتة؟"
+            },
+            "OneTimeUse": {
+                "confirmationMessageForCreateVid": "هل أنت متأكد أنك تريد إنشاء بطاقة VID لمرة واحدة؟",
+                "confirmationMessageForDeleteVid": "هل أنت متأكد أنك تريد حذف بطاقة VID لمرة واحدة التي اخترتها؟",
+                "confirmationMessageForDownloadVid": "هل أنت متأكد أنك تريد تنزيل بطاقة VID لمرة واحدة؟"
+            },
+            "createdSuccessfully": "تم إنشاء VID الخاص بك بنجاح بالنسبة لرقم الحدث: $eventId.",
+            "downloadedSuccessFully": "تم معالجة طلبك لتنزيل بطاقة VID بنجاح بالنسبة لرقم الحدث: $eventId.",
+            "downloadedSuccessFully2": "سيستغرق بعض الوقت لإعداد البطاقة. سيتم إرسال رابط إلى عنوان بريدك الإلكتروني المسجل و/أو رقم هاتفك باستخدامه يمكنك تنزيل بطاقة VID المطلوبة. بشكل بديل، يمكنك تنزيلها من طلب المتابعة بمجرد استلامك إشعارًا يفيد بأن البطاقة جاهزة.",
+            "deletedSuccessfully": "تم حذف VID الخاص بك بنجاح بالنسبة لرقم الحدث: $eventId."
+        },
+        "personalisedcardMessages": {
+            "downloadedSuccessFully": "تم تنزيل بطاقتك المخصصة بنجاح بالنسبة لرقم الحدث: $eventId. سيتم إرسال كلمة المرور إلى عنوان البريد الإلكتروني المسجل أو رقم الهاتف الخاص بك."
+        },
+        "sharewithpartner": {
+            "needPartner": "يرجى اختيار شريك للمتابعة.",
+            "needPurpose": "يجب تحديد غرض مشاركة بياناتك المصادقة. يرجى ذكر غرض مشاركة بياناتك المصادقة.",
+            "specialCharacters": "يرجى إدخال أحرف/أرقام لمشاركة بياناتك المصادقة.",
+            "sharedSuccessfully": "تمت مشاركة البيانات التي اخترتها بنجاح مع الشريك المحدد بناءً على رقم الحدث: $eventId"
+        },
+        "verifyChannel": {
+            "warningMsgForEmail": "معرف البريد الإلكتروني الخاص بك: $userID تم التحقق منه بالفعل.",
+            "warningMsgForPhone": "رقم هاتفك: $userID تم التحقق منه بالفعل.",
+            "emailSuccess": "تم التحقق بنجاح من عنوان البريد الإلكتروني الخاص بك: $channel ضد رقم الحدث: $eventId.",
+            "phoneSuccess": "تم التحقق بنجاح من رقم هاتفك: $channel ضد رقم الحدث: $eventId."
+        },
+        "grievanceRedressal": {
+            "successMsg": "تم إرسال شكواك بنجاح ضد رقم التذكرة $ticketId.",
+            "warningMsg": "تعذر إرسال شكواك. يرجى المحاولة مرة أخرى لاحقًا."
+        },
+        "secureMyId": {
+            "successMsg": "تم حفظ طلبك لتغيير نوع (أنواع) المصادقة بنجاح ضد رقم الحدث: $eventId.",
+            "confirmationMessage": " هل أنت متأكد أنك تريد حفظ التغييرات المُجراة في أنواع المصادقة؟"
+        },
+        "updateMyData": {
+            "emailSuccessMsg": "تم تحديث عنوان بريدك الإلكتروني بنجاح ضد رقم الحدث: $eventId.",
+            "phoneNumberSuccessMsg": "تم تحديث رقم هاتفك بنجاح ضد رقم الحدث: $eventId.",
+            "newDataUpdatedSuccessMsg": "تم تقديم طلبك لتغيير بيانات $dataType ضد معرّف الحدث: $eventId.",
+            "updateNotificationData": "تم تقديم طلبك لتغيير لغة الإشعارات ضد معرّف الحدث: $eventId."
+        }
+    },
+    "autologout": {
+        "preview": "ستتم إنهاء جلستك تلقائيًا بعد 60 ثانية من عدم النشاط. يرجى النقر في أي مكان على الشاشة لإعادة تنشيط الجلسة.",
+        "post": "تم تسجيل خروجك تلقائيًا بسبب عدم النشاط."
+    },
+    "InfomationContent": {
+        "readMoreLabel": "اقرأ المزيد...",
+        "readLessLabel": "اقرأ أقل...",
+        "revokevid": {
+            "Perpetual": "ليس لدى VID الدائم تاريخ انتهاء صلاحية ولا يوجد حد لعدد المعاملات التي يمكن تنفيذها باستخدام VID هذا. يمكن ربط UIN واحد فقط بـ $instancesVID الدائم $VID في المرة الواحدة.",
+            "Temporary": "يكون VID المؤقت صالحًا لمدة $expiryTime دقائق ويمكن تنفيذ معاملة $transactionLimit فقط باستخدام VID هذا. يمكن ربط UIN واحد بـ $instancesVID $VID المؤقت في المرة الواحدة.",
+            "OneTimeUse": "لا يوجد تاريخ انتهاء صلاحية لـ VID لمرة واحدة ولكن يمكن تنفيذ معاملة $transactionLimit فقط باستخدام VID هذا. يمكن ربط UIN واحد بـ $instancesVID لمرة واحدة $VID في المرة الواحدة."
+        },
+        "secureMyID": {
+            "Email OTP Authentication": "عند قفل/فتح 'المصادقة باستخدام رمز OTP عبر البريد الإلكتروني'، سيتم تعطيل/تمكين أي محاولة للمصادقة باستخدام رمز OTP عبر البريد الإلكتروني.",
+            "Mobile OTP Authentication": "عند قفل/فتح 'المصادقة باستخدام رمز OTP عبر الهاتف المحمول'، سيتم تعطيل/تمكين أي محاولة للمصادقة باستخدام رمز OTP عبر الهاتف المحمول.",
+            "Demographic Authentication": "عند قفل/فتح 'المصادقة الديموغرافية'، سيتم تعطيل/تمكين أي محاولة للمصادقة باستخدام تفاصيل ديموغرافية (الاسم، العمر، العنوان، أو أي توازن من هذه التفاصيل).",
+            "Fingerprint Authentication": "عند قفل/فتح 'المصادقة ببصمة الأصبع'، سيتم تعطيل/تمكين أي محاولة للمصادقة باستخدام بصمة الأصبع.",
+            "Iris Authentication": "عند قفل/فتح 'المصادقة بواسطة قزحية العين'، سيتم تعطيل/تمكين أي محاولة للمصادقة باستخدام قزحية العين.",
+            "Face Authentication": "عند قفل/فتح 'المصادقة بواسطة التعرف على الوجه'، سيتم تعطيل/تمكين أي محاولة للمصادقة باستخدام التعرف على الوجه."
+        },
+        "trackStatus": "يرجى إدخال معرّف الحدث (EID) المرتبط بالحدث الذي ترغب في تتبعه. من المهم أن يكون معرّف الحدث الذي تدخله مرتبطًا برقم التعريف الفريد للمستخدم (UIN) المسجل في النظام.",
+        "getUin": "AID هو رقم تسجيلك المؤلف من $AID أرقام الذي تم تزويدك به بعد التسجيل. UIN هو رقم الهوية الفريد الخاص بك المؤلف من $UIN أرقام. VID هو الهوية الافتراضية الخاصة بك المؤلفة من $VID أرقام.",
+        "verifyChannel": "رقم التعريف الفريد (UIN) هو رقم الهوية الفريد المكون من 10 أرقام. رقم الهوية الافتراضي (VID) هو رقم الهوية الافتراضي المكون من 16 رقمًا."
+    },
+    "serverErrors": {
+        "IDA-MLC-009": "لم يتم العثور على معرف بريد إلكتروني / رقم هاتف مسجل مع UIN / VID الذي تم إدخاله. لإضافة معرف بريد إلكتروني / رقم هاتف ، قم بزيارة أقرب مركز تسجيل.",
+        "IDA-MLC-002": "لم يتم العثور على معرف بريد إلكتروني / رقم هاتف مسجل مع UIN / VID الذي تم إدخاله. لإضافة معرف بريد إلكتروني / رقم هاتف ، قم بزيارة أقرب مركز تسجيل.",
+        "IDA-MLC-018": "تم إدخال UIN/ AID/ VID غير صالح. يرجى إدخال UIN/ AID/ VID صالح والمحاولة مرة أخرى.",
+        "RES-SER-422": "تم إدخال رمز OTP غير صالح. يرجى المحاولة مرة أخرى مع رمز OTP صالح.",
+        "RES-SER-410": {
+            "individualIdError": "تم إدخال UIN/ AID/ VID غير صالح. يرجى إدخال UIN/ AID/ VID صالح والمحاولة مرة أخرى.",
+            "individualId": "تم إدخال UIN/ AID/ VID غير صالح. يرجى إدخال UIN/ AID/ VID صالح والمحاولة مرة أخرى.",
+            "EMAIL": "عنوان البريد الإلكتروني الذي أدخلته غير صالح. يرجى إدخال عنوان بريد إلكتروني صالح.",
+            "PHONE": "رقم الهاتف الذي أدخلته غير صالح. يرجى إدخال رقم هاتف صالح.",
+            "eventId": "معرف الحدث الذي أدخلته غير صالح. يرجى إدخال معرف حدث صالح.",
+            "userId": "عنوان البريد الإلكتروني / رقم الهاتف الذي أدخلته غير صالح. يرجى إدخال عنوان بريد إلكتروني / رقم هاتف صالح.",
+            "otp": "تم إدخال رمز OTP غير صالح. يرجى المحاولة مرة أخرى مع رمز OTP صالح.",
+            "channel": "تم إدخال UIN/ VID غير صالح. يرجى إدخال UIN/ VID صالح والمحاولة مرة أخرى.",
+            "identity/preferredLang": "اللغة المفضلة غير صالحة. يرجى إدخال بيانات صالحة.",
+            "identity/dateOfBirth": "الرجاء إدخال تاريخ ميلاد صحيح."
+        },
+        "RES-SER-459": "الـ EID المُدخَل غير مرتبط بالـ UIN/ VID المستخدم لتسجيل الدخول.",
+        "RES-SER-412": "غير قادر على الوصول إلى موارد API.",
+        "RES-SER-405": "الحد الأقصى المسموح به من الـ VIDs نشط. يجب إلغاء تفعيل VID(s) لإنشاء واحد جديد.",
+        "RES-SER-511": "الـ EID المُدخَل غير مرتبط بالـ UIN/ VID المستخدم لتسجيل الدخول.",
+        "RES-SER-449": "تم إدخال UIN/ AID/ VID غير صالح. يرجى إدخال UIN/ AID/ VID صالح والمحاولة مرة أخرى.",
+        "RES-SER-414": "لا يمكن أن يكون قسم التعليق فارغًا. يرجى إدخال تعليقاتك للمتابعة.",
+        "RES-SER-471": "لا يمكن إلغاء تنشيط هذا الرقم التعريفي الافتراضي (VID) لأنك قد قمت بتسجيل الدخول باستخدام نفس الرقم التعريفي الافتراضي (VID).",
+        "RES-SER-513": "لا يمكن إنشاء رقم تعريف افتراضي جديد لأنك قمت بتسجيل الدخول بنفس الرقم التعريفي الافتراضي (VID).",
+        "RES-OTP-007": "تم إدخال رمز OTP غير صالح. يرجى المحاولة مرة أخرى باستخدام رمز OTP صالح.",
+        "RES-SER-415": "خطأ في القالب لخدمة الاستثناء.",
+        "RES-SER-463": "فشل في إرسال رمز OTP. حاول مرة أخرى في وقت لاحق.",
+        "RES-SER-461": "نوع المستند هو حقل إلزامي. يرجى اختيار نوع المستند للمتابعة.",
+        "RES-SER-519": "يرجى إدخال عنوان بريد إلكتروني مختلف عن العنوان الموجود بالفعل.",
+        "RES-SER-520": "يرجى إدخال رقم هاتف مختلف عن الرقم الموجود بالفعل.",
+        "RES-SER-456": "الهوية الافتراضية (AID) غير موجودة. يرجى المحاولة مرة أخرى في وقت لاحق.",
+        "RES-SER-515": "يرجى إدخال أحرف / أرقام للمشاركة.",
+        "RES-SER-425": "حدث خطأ أثناء إنشاء رمز OTP.",
+        "RES-SER-514": "تم إدخال UIN/VID غير صالح. يرجى إدخال UIN/VID صالح والمحاولة مرة أخرى.",
+        "IDA-MLC-019": "نوع مصادقة otp-email مقفل للـ UIN",
+        "RES-SER-522": "تم إدخال UIN/VID غير صالح. يرجى إدخال UIN/VID صالح والمحاولة مرة أخرى.",
+        "RES-SER-509": "البطاقة غير جاهزة للتنزيل.",
+        "RES-SER-418": "تم إدخال UIN/ AID/ VID غير صالح. يرجى إدخال UIN/ AID/ VID صالح والمحاولة مرة أخرى.",
+        "RES-OTP-006": "تم إدخال رمز OTP غير صالح. يرجى المحاولة مرة أخرى باستخدام رمز OTP صالح.",
+        "RES-SER-406": "غير قادر على الوصول إلى موارد API.",
+        "RES-SER-523": "عنوان URL لرد الاتصال غير متاح لحدث اكتمال سير عمل Regproc",
+        "RES-SER-524": "غير مسموح بتحديث UIN لأن الحزمة السابقة معلقة. للمضي قدمًا، يرجى تجاهلها.",
+        "RES-SER-525": "غير مسموح بتحديث UIN لأن الحزمة السابقة معلقة ولا يمكن إلغاؤها.",
+        "RES-SER-526": "تم تجاوز الحد الأقصى لعدد التحديثات للسمات:- %s",
+        "RES-SER-470": "لا توجد سجلات",
+        "RES-SER-401": "استثناء قاعدة",
+        "RES-SER-474": "لم يتم العثور على معرف فردي استثناء"
+    }
+}
