@@ -582,7 +582,7 @@
             "Eres responsable de cualquier cambio realizado en tus datos personales ya existentes o en el documento cargado para respaldarlo."
         ],
         "agreeLabel": "Acepto los términos y condiciones para compartir mis credenciales con el socio elegido",
-        "agreeLabelForUpdateData": "Acepto los términos y condiciones para actualizar los datos demográficos",
+        "agreeLabelForUpdateData": "Acepto los términos y condiciones para actualizar datos demográficos",
         "personalisedcardConditions": {
             "title": "Descarga tu tarjeta personalizada",
             "wishes": "Estimado residente,",
@@ -637,8 +637,8 @@
             "confirmationMessage": "¿Estás seguro de que quieres guardar los cambios realizados en los tipos de autenticación?"
         },
         "updateMyData": {
-            "emailSuccessMsg": "Tu ID de correo electrónico se ha actualizado correctamente para el ID de evento: $eventId.",
-            "phoneNumberSuccessMsg": "Tu número de teléfono se ha actualizado correctamente para el ID de evento: $eventId.",
+            "emailSuccessMsg": "Su solicitud para cambiar su ID de correo electrónico se envió con el ID del evento: $eventId.",
+            "phoneNumberSuccessMsg": "Su solicitud para cambiar su número de teléfono se envió con el ID del evento: $eventId.",
             "newDataUpdatedSuccessMsg": "Se ha enviado su solicitud para cambiar sus datos de $dataType con éxito. Se ha registrado con el ID del evento: $eventId.",
             "updateNotificationData": "Se ha enviado su solicitud para cambiar su idioma de notificación con éxito. Se ha registrado con el ID del evento: $eventId."
         }
