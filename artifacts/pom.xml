@@ -96,7 +96,7 @@
 		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider-java-21.fileName>
 		
 		<!-- kernel-ref-idobjectvalidator -->
-		<kernel-ref-idobjectvalidator.version>1.2.0.1-B1</kernel-ref-idobjectvalidator.version>
+		<kernel-ref-idobjectvalidator.version>1.2.1-SNAPSHOT</kernel-ref-idobjectvalidator.version>
 		<kernel-ref-idobjectvalidator.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator</kernel-ref-idobjectvalidator.location>
 		<kernel-ref-idobjectvalidator.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator.fileName>
 
@@ -106,7 +106,7 @@
 		<kernel-ref-idobjectvalidator-java-21.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator-java-21.fileName>
 		
 		<!-- kernel-virusscanner-clamav -->
-		<kernel-virusscanner-clamav.version>1.2.0.1-B1</kernel-virusscanner-clamav.version>
+		<kernel-virusscanner-clamav.version>1.2.1-SNAPSHOT</kernel-virusscanner-clamav.version>
 		<kernel-virusscanner-clamav.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</kernel-virusscanner-clamav.location>
 		<kernel-virusscanner-clamav.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav.fileName>
 
