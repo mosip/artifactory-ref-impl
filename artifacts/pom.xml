@@ -317,7 +317,7 @@
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for esignet authentication wrapper -->
-				<artifactItem>
+				<!-- <artifactItem>
 					<groupId>io.mosip.esignet.mock</groupId>
 					<artifactId>mock-esignet-integration-impl</artifactId>
 					<version>${esignet-mock-wrapper.version}</version>
@@ -333,7 +333,7 @@
 						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
 						<destFileName>${esignet-ida-wrapper.fileName}</destFileName>
 						<type>jar</type>
-					</artifactItem>
+					</artifactItem>-->
 
 					<artifactItem>
 						<groupId>io.mosip.esignet.sunbirdrc</groupId>
