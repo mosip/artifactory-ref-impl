@@ -353,14 +353,14 @@
 						<type>jar</type>
 					</artifactItem>
 
-					<!--<artifactItem>
+					<artifactItem>
 						<groupId>io.mosip.esignet.plugin</groupId>
 						<version>${esignet-mock-plugin.version}</version>
 						<artifactId>mock-plugin</artifactId>
 						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
 						<destFileName>${esignet-mock-plugin-plugin.fileName}</destFileName>
 						<type>jar</type>
-					</artifactItem> -->
+					</artifactItem>
 
 				</artifactItems>
 			<overWriteReleases>true</overWriteReleases>
