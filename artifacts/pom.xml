@@ -80,6 +80,17 @@
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 		
+                <!-- kernel-transliteration-jar -->
+                <kernel-transliteration.version>1.2.0.1</kernel-transliteration.version>
+                <kernel-transliteration.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j</kernel-transliteration.location>
+                <kernel-transliteration.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration.fileName>
+
+                <!-- kernel-transliteration-jar java21-->
+                <kernel-transliteration-java-21.version>1.2.1-SNAPSHOT</kernel-transliteration-java-21.version>
+                <kernel-transliteration-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j/java21</kernel-transliteration-java-21.location>
+                <kernel-transliteration-java-21.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration-java-21.fileName>
+
+
 		<!-- kernel-smsserviceprovider-->
 		<kernel-smsserviceprovider.version>1.2.1-SNAPSHOT</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
@@ -276,6 +287,26 @@
 					<destFileName>${kernel-smsserviceprovider.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
+
+<!-- artifactItem section for kernel-transliteration-icu4j -->
+                                <artifactItem>
+                                        <groupId>io.mosip.kernel</groupId>
+                                        <artifactId>kernel-transliteration-icu4j</artifactId>
+                                        <version>${kernel-transliteration.version}</version>
+                                         <outputDirectory>${kernel-transliteration.location}</outputDirectory>
+                                        <destFileName>${kernel-transliteration.fileName}</destFileName>
+                                        <type>jar</type>
+                                </artifactItem>
+
+<!-- artifactItem section for kernel-transliteration-icu4j java21 -->
+                                <artifactItem>
+                                        <groupId>io.mosip.kernel</groupId>
+                                        <artifactId>kernel-transliteration-icu4j</artifactId>
+                                        <version>${kernel-transliteration-java-21.version}</version>
+                                         <outputDirectory>${kernel-transliteration.location-java-21}</outputDirectory>
+                                        <destFileName>${kernel-transliteration.fileName-java-21}</destFileName>
+                                        <type>jar</type>
+                                </artifactItem>
 
 <!-- artifactItem section for smsserviceprovider -->
 				<artifactItem>
