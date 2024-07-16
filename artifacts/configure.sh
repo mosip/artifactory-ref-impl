@@ -97,6 +97,8 @@ echo theme zip creation for all mentioned modules completed
 echo image zip creation for all mentioned modules started
 zip -r -j ${image_zip_path}/esignet-image.zip ${work_dir}/esignet-image/*
 rm -rf ${work_dir}/esignet-image
+zip -r -j ${image_zip_path}/esignet-signup-image.zip ${work_dir}/esignet-signup-image/*
+rm -rf ${work_dir}/esignet-signup-image
 echo image zip creation for all mentioned modules completed
 
 echo master-templates zip creation started
