@@ -154,6 +154,8 @@ COPY /src/i18n/pmp-entity-spec-bundle/*  ${work_dir}/pmp-entity-spec-bundle/
 
 COPY /src/i18n/pmp-i18n-bundle/*  ${work_dir}/pmp-i18n-bundle/
 
+COPY /src/i18n/pmp-revamp-i18n-bundle/*  ${work_dir}/pmp-revamp-i18n-bundle/
+
 COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n-bundle/
 
 COPY /src/master-templates/* ${work_dir}/master-templates/
