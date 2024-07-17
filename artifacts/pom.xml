@@ -126,6 +126,11 @@
 		<kernel-virusscanner-clamav-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav/java21</kernel-virusscanner-clamav-java-21.location>
 		<kernel-virusscanner-clamav-java-21.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav-java-21.fileName>
 		
+		<!-- registration-api-impl -->
+		<registration-api-impl.version>1.2.1-SNAPSHOT</registration-api-impl.version>
+		<registration-api-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/registration-client/registration-api-impl</registration-api-impl.location>
+		<registration-api-impl.fileName>registration-api-stub-impl.jar</registration-api-impl.fileName>
+		
 		<!-- clamav-client -->
 		<clamav-client.version>1.0.4</clamav-client.version>
 		<clamav-client.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</clamav-client.location>
@@ -325,6 +330,15 @@
 					<version>${kernel-ref-idobjectvalidator.version}</version>
 					 <outputDirectory>${kernel-ref-idobjectvalidator.location}</outputDirectory> 
 					<destFileName>${kernel-ref-idobjectvalidator.fileName}</destFileName>
+					<type>jar</type>
+				</artifactItem>
+<!-- artifactItem section for registration-api-impl -->
+				<artifactItem>
+					<groupId>io.mosip.registration</groupId>
+					<artifactId>registration-api-stub-impl</artifactId>
+					<version>${registration-api-impl.version}</version>
+					 <outputDirectory>${registration-api-impl.location}</outputDirectory> 
+					<destFileName>${registration-api-impl.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for virusscanner -->

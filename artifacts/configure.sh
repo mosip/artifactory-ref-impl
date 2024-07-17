@@ -10,6 +10,7 @@ set -e
 # 4. demosdk-lib zip creation
 # 5. Create resources zip for reg-client
 # 6. Create i18n and entity-spec bundles zip files for all the required modules
+# 7. registration-api-impl zip creation
 
 echo biosdk client zip creation started
 zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/biosdk-client/*
@@ -105,4 +106,7 @@ echo master-templates zip creation started
 zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templates/*
 echo master-templates zip creation completed
 
-
+echo registration-api-impl zip creation started
+zip -r -j ${registration_api_impl_zip_path}/registration-api-impl.zip ${registration_api_impl_zip_path}/registration-api-impl/*
+rm -rf ${registration_api_impl_zip_path}/registration-api-impl
+echo registration-api-impl zip creation completed
