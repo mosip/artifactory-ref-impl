@@ -583,7 +583,7 @@
             "You are responsible for any changes made to your already existing personal data or uploaded document to support the same."
         ],
         "agreeLabel": "I agree to the terms and conditions to share my credentials with the chosen partner",
-        "agreeLabelForUpdateData": "I agree to the terms and conditions to update demograohic data",
+        "agreeLabelForUpdateData": "I agree to the terms and conditions to update demographic data",
         "personalisedcardConditions": {
             "title": "Download Your Personalised Card",
             "wishes": "Dear Resident,",
@@ -638,8 +638,8 @@
             "confirmationMessage": " Are you sure you want to save the changes made in Authentication types?"
         },
         "updateMyData": {
-            "emailSuccessMsg": "Your Email ID has been successfully updated against the Event ID: $eventId.",
-            "phoneNumberSuccessMsg": "your phone number has been successfully updated against the event ID: $eventId.",
+            "emailSuccessMsg": "Your request to change your Email ID has been submitted against the Event ID: $eventId.",
+            "phoneNumberSuccessMsg": "Your request to change your phone number has been submitted against the Event ID: $eventId.",
             "newDataUpdatedSuccessMsg": "Your request to change your $dataType data has been submitted against the Event ID: $eventId.",
             "updateNotificationData":"Your request to change your notification language has been submitted against the Event ID: $eventId."
         }
