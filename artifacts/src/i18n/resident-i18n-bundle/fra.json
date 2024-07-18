@@ -595,8 +595,8 @@
         "manageMyVidMessages": {
             "Perpetual": {
                 "WarningMessageLabel": "La génération d'un nouvel VID perpétuel révoquera l'VID déjà existant.",
-                "confirmationMessageForCreateVid": "Êtes-vous sûr de vouloir créer une carte VID perpétuelle ?",
-                "confirmationMessageForDeleteVid": "Etes-vous sûr de vouloir supprimer la carte VID permanente sélectionnée ?",
+                "confirmationMessageForCreateVid": "Êtes-vous sûr de vouloir créer une carte VID perpétuelle ?",
+                "confirmationMessageForDeleteVid": "Etes-vous sûr de vouloir supprimer la carte VID permanente sélectionnée ?",
                 "confirmationMessageForDownloadVid": "Êtes-vous sûr de vouloir télécharger la carte Perpetual VID ?"
             },
             "Temporary": {
@@ -624,8 +624,8 @@
             "sharedSuccessfully": "Les données choisies par vous ont été partagées avec succès avec le partenaire choisi pour l'ID d'événement : $eventId."
         },
         "verifyChannel": {
-            "warningMsgForEmail": "Votre identifiant de messagerie : $userID est déjà vérifié.",
-            "warningMsgForPhone": "Votre numéro de téléphone : $userID est déjà vérifié.",
+            "warningMsgForEmail": "Votre identifiant de messagerie : $userID est déjà vérifié.",
+            "warningMsgForPhone": "Votre numéro de téléphone : $userID est déjà vérifié.",
             "emailSuccess": "Votre adresse e-mail : $channel a été vérifiée avec succès pour l'ID d'événement : $eventId.",
             "phoneSuccess": "Votre numéro de téléphone : $channel a été vérifié avec succès pour l'ID d'événement : $eventId."
         },
@@ -638,8 +638,8 @@
             "confirmationMessage": "Êtes-vous sûr de vouloir enregistrer les modifications apportées aux types d'authentification ?"
         },
         "updateMyData": {
-            "emailSuccessMsg": "Votre adresse e-mail a été mise à jour avec succès pour l'ID d'événement : $eventId.",
-            "phoneNumberSuccessMsg": "Votre numéro de téléphone a été mis à jour avec succès pour l'ID d'événement : $eventId.",
+            "emailSuccessMsg": "Votre demande de modification de votre identifiant de messagerie a été soumise par rapport à l'ID d'événement : $eventId.",
+            "phoneNumberSuccessMsg": "Votre demande de modification de votre numéro de téléphone a été soumise par rapport à l'ID d'événement : $eventId.",
             "newDataUpdatedSuccessMsg": "Votre demande de modification de vos données $dataType a été soumise pour l'ID de l'événement : $eventId.",
             "updateNotificationData": "Votre demande de modification de la langue des notifications a été soumise pour l'ID de l'événement : $eventId."
         }
@@ -712,7 +712,7 @@
         "RES-SER-523": "L'URL de rappel n'est pas disponible pour l'événement terminé le flux de travail Regproc",
         "RES-SER-524": "Non autorisé à mettre à jour l'UIN car le paquet précédent est en attente. Pour continuer, veuillez le jeter.",
         "RES-SER-525": "Non autorisé à mettre à jour l'UIN car le paquet précédent est en attente et il ne peut pas être annulé.",
-        "RES-SER-526": "Limite du nombre de mises à jour pour les attributs dépassée : - %s",
+        "RES-SER-526": "Limite du nombre de mises à jour pour les attributs dépassée : - %s",
         "RES-SER-470": "Aucun enregistrement trouvé",
         "RES-SER-401": "Exception de base",
         "RES-SER-474": "Exception d'identification individuelle introuvable"
