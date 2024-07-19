@@ -714,6 +714,7 @@
         "RES-SER-526": "Update count limit for the attributes exceeded:- %s",
         "RES-SER-470": "No Record(s) found",
         "RES-SER-401": "Base exception.",
-        "RES-SER-474": "Individual ID not found exception"
+        "RES-SER-474": "Individual ID not found exception",
+        "RES-SER-527": "The input you have entered already exists. Please enter a new value to proceed."
     }
 }

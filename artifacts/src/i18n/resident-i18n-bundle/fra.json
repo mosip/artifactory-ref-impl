@@ -714,6 +714,7 @@
         "RES-SER-526": "Limite du nombre de mises à jour pour les attributs dépassée : - %s",
         "RES-SER-470": "Aucun enregistrement trouvé",
         "RES-SER-401": "Exception de base",
-        "RES-SER-474": "Exception d'identification individuelle introuvable"
+        "RES-SER-474": "Exception d'identification individuelle introuvable",
+        "RES-SER-527": "L'entrée que vous avez saisie existe déjà. Veuillez saisir une nouvelle valeur pour continuer."
     }
 }
