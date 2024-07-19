@@ -338,7 +338,7 @@
         "consentSaveError": "Error while saving user consent"
      },
      "blockerMessage": {
-        "description": "Are you sure you want to leave?",
+        "description": "Your changes will be lost, are you sure you want to proceed?",
         "cancel": "Cancel",
         "proceed": "Proceed"
      },
