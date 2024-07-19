@@ -340,7 +340,7 @@
         "consentSaveError": "Erreur lors de l'enregistrement du consentement de l'utilisateur"
     },
     "blockerMessage": {
-        "description": "Êtes-vous sûr de vouloir quitter?",
+        "description": "Vos modifications seront perdues, êtes-vous sûr de vouloir continuer ?",
         "cancel": "Annuler",
         "proceed": "Procéder"
     },
