@@ -48,7 +48,9 @@
       "confirm_text": "هل أنت متأكد أنك تريد إيقاف عملية تسجيل الدخول؟",
       "stay_btn": "يقضي",
       "discontinue_btn": "توقف"
-    }
+    },
+    "noRecordClaimsMessage": "ليس لدينا حاليًا سجل بـ {{claims}}. انقر على السماح للتحقق من {{claims}} والتقاطها.",
+    "and": "و"
   },
   "l1Biometrics": {
     "scan_and_verify": "المسح والتحقق",
