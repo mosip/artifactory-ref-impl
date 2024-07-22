@@ -714,6 +714,7 @@
         "RES-SER-526": "Límite de recuento de actualizaciones para los atributos excedidos: - %s",
         "RES-SER-470": "No se encontraron registros",
         "RES-SER-401": "Excepción básica",
-        "RES-SER-474": "Excepción de identificación individual no encontrada"
+        "RES-SER-474": "Excepción de identificación individual no encontrada",
+        "RES-SER-527": "La entrada que has ingresado ya existe. Ingrese un nuevo valor para continuar."
     }
 }
