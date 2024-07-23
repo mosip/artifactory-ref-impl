@@ -515,6 +515,7 @@
         "PMS_CONSENT_ERROR_001": "Erreur lors de la récupération du consentement du partenaire.",
         "PMS_CONSENT_ERROR_002": "Erreur lors de l'enregistrement du consentement du partenaire.",
         "PMP-AUT-020": "Exception d'erreur d'analyse",
-        "PMP-AUT-021": "Exception d'audit du client"
+        "PMP-AUT-021": "Exception d'audit du client",
+        "KER-AUD-001": "La longueur maximale du PartnerId doit être 36"
     }
 }
