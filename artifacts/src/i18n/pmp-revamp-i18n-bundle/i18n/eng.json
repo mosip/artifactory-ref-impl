@@ -513,6 +513,7 @@
         "PMS_CONSENT_ERROR_001": "Error while fetching partner consent.",
         "PMS_CONSENT_ERROR_002": "Error while saving partner consent.",
         "PMP-AUT-020": "Parse Error exception",
-        "PMP-AUT-021": "Audit Exception from client"
+        "PMP-AUT-021": "Audit Exception from client",
+        "KER-AUD-001": "PartnerId max length should be 36"
     }
 }
