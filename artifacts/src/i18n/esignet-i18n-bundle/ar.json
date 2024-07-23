@@ -186,7 +186,9 @@
     "pin_info": "أدخل UIN/VID الذي تم إنشاؤه",
     "username_info": "أدخل UIN/VID الذي تم إنشاؤه"
   },
-  "errors": {
+  "errors": {    
+    "invalid_policy_number": "رقم السياسة غير صالح",
+    "invalid_full_name": "الاسم الكامل غير صالح",
     "navigate_option": "يرجى محاولة التنقل باستخدام الخيارات أدناه.",
     "page_not_exist": "أُووبس! الصفحة التي تبحث عنها غير موجودة.",
     "something_went_wrong": "هناك خطأ ما!",
