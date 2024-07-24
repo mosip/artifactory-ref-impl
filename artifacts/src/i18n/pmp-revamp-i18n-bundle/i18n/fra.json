@@ -491,6 +491,7 @@
         "PMS_CERTIFICATE_ERROR_004": "Le type de partenaire est nul ou vide",
         "PMS_CERTIFICATE_ERROR_005": "Le statut d'approbation est nul ou vide",
         "PMS_CERTIFICATE_ERROR_006": "Impossible de décoder les données du certificat",
+        "PMS_CERTIFICATE_ERROR_007": "L'ID de partenaire donné n'appartient pas à l'utilisateur. Impossible donc d'obtenir les certificats de partenaire d'origine",
         "PMS_POLICY_ERROR_001": "Le groupe de stratégies n existe pas.",
         "PMS_POLICY_ERROR_002": "Erreur lors de la récupération des stratégies partenaires.",
         "PMS_POLICY_ERROR_003": "Erreur lors de la récupération de tous les identifiants de partenaires approuvés avec les groupes de stratégies.",
