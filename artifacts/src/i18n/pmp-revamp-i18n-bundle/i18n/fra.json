@@ -424,7 +424,7 @@
         "PMS_PMS_022": "La clé API a déjà été désactivée",
         "PMS_PMP_018": "La politique a expiré.",
         "PMS_PRT_108": "Le groupe de stratégies est obligatoire pour Auth_Partner",
-        "PMS_PRT_110": "Le nom saisi existe déjà. Fournissez un nom unique et soumettez-le.",
+        "PMS_PRT_110": "Le nom de la clé API saisi existe déjà. Fournissez un nom de clé API unique et soumettez-le.",
         "PMS_AUT_002": "Identifiant du fournisseur de l'appareil introuvable dans la liste des partenaires",
         "PMS_AUT_003": "Les détails de l'appareil existent déjà",
         "PMS_AUT_004": "Demande en double reçue",
