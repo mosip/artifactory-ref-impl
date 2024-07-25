@@ -330,7 +330,7 @@
     },
     "consentPopup": {
         "title": "Terms and Conditions",
-        "description": "Hello User, The data provided during registration, including your Name, Phone Number, Email Address, Organisation Name, and Address, will be used by the Partner Management Portal (PMP). 
+        "description": "Hello User, The data provided during registration, including your Name, Phone Number, Email Address, Organisation Name, and Address, will be used by the Partner Management Portal (PMP).",
         "proceed": "Proceed",
         "logoutMsg": "Incase if you do not wish to proceed further, you can",
         "consentFetchError": "Error while fetching user consent",
