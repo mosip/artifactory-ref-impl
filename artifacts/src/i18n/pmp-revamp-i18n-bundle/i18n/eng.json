@@ -61,7 +61,7 @@
     },
     "selectPolicyPopup": {
         "title": "Select Policy Group",
-        "description": "Select policy group applicable to your organisation to proceed with enrolled partner type flow. Please ensure you go through the policy group description to confirm the policy group. After your selection is saved, you will not be able to modify the policy group again. Only one policy group is allowed per partner ID.",
+        "description": "The data provided during registration, including your Name, Phone Number, Email Address, Organisation Name, and Address, will be used by the Partner Management Portal (PMP)",
         "partnerTypeLabel": "Partner Type",
         "policyGroup": "Policy Group",
         "policyGroupError": "Unable to fetch any policy groups. Contact the administrator.",
