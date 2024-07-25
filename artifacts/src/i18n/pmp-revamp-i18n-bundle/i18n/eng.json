@@ -489,6 +489,7 @@
         "PMS_CERTIFICATE_ERROR_004": "Partner Type is null or empty",
         "PMS_CERTIFICATE_ERROR_005": "Approval Status is null or empty",
         "PMS_CERTIFICATE_ERROR_006": "Unable to decode the certificate data",
+        "PMS_CERTIFICATE_ERROR_007": "The given partner ID does not belong to the user.So unable to get the original partner certificates",
         "PMS_POLICY_ERROR_001": "Policy Group does not exists.",
         "PMS_POLICY_ERROR_002": "Error while fetching partner policies.",
         "PMS_POLICY_ERROR_003": "Error while fetching all approved partner Ids with policy groups.",
