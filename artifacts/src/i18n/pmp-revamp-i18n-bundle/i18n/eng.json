@@ -328,6 +328,20 @@
        "apiKeyName": "Do you want to Deactivate API Key",
        "description": "On clicking Confirm, you will not be able to use the API Key for authentication anymore."
     },
+    "deviceProviderServices": {
+        "listOfSbisAndDevices": "List Of SBIs And Devices",
+        "addSbiDevices": "Add SBI - Device"
+    },
+    "addSbis": {
+        "addSbi": "Add SBI",
+        "guidence": "On clicking “Save & Add Device” button, the SBI request will be sent to admin for approval. Meanwhile, you can add the devices under the newly created SBI.",
+        "sbiVersion": "SBI Version",
+        "enterVersion": "Enter Version",
+        "sbiCreatedDateTime": "SBI Created Date & Time",
+        "selectDateAndTime": "Select Date And Time",
+        "sbiExpiryDateTime": "SBI Expiry Date & Time",
+        "saveAndAddDevices": "Save And Add Devices"
+    },
     "consentPopup": {
         "title": "Terms and Conditions",
         "description": "The data provided during registration, including your Name, Phone Number, Email Address, Organisation Name, and Address, will be used by the Partner Management Portal (PMP). Your email address will also be used for password resets, email verification, and notifications in the event of Partner Certificate expiration or similar situations. This information will be used solely to create your credentials, facilitating your use of MOSIP. By ticking the box below, you consent to submitting your data to be stored and processed for the above purpose.",

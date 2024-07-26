@@ -330,6 +330,20 @@
        "apiKeyName": "Voulez-vous désactiver la clé API",
        "description": "En cliquant sur Confirmer, vous ne pourrez plus utiliser la clé API pour l'authentification."
     },
+    "deviceProviderServices": {
+        "listOfSbisAndDevices": "Liste des SBI et des appareilsBI - Device",
+        "addSbiDevices": "Ajouter SBI - Appareil"
+    },
+    "addSbis": {
+        "addSbi": "Ajouter un SBI",
+        "guidence": "En cliquant sur le bouton « Enregistrer et ajouter un appareil », la demande SBI sera envoyée à l'administrateur pour approbation. Pendant ce temps, vous pouvez ajouter les appareils sous le SBI nouvellement créé.",
+        "sbiVersion": "Version SBI",
+        "enterVersion": "Entrez la version",
+        "sbiCreatedDateTime": "Date et heure de création du SBI",
+        "selectDateAndTime": "Sélectionnez la date et l'heure",
+        "sbiExpiryDateTime": "Date et heure d’expiration du SBI",
+        "saveAndAddDevices": "Enregistrer et ajouter des appareils"
+    },
     "consentPopup": {
         "title": "Termes et conditions",
         "description": "Les données fournies lors de l'inscription, y compris votre nom, votre numéro de téléphone, votre adresse e-mail, le nom de votre organisation et votre adresse, seront utilisées par le portail de gestion des partenaires (PMP). Votre adresse e-mail sera également utilisée pour la réinitialisation du mot de passe, la vérification des e-mails et les notifications en cas d'expiration du certificat partenaire ou de situations similaires. Ces informations seront utilisées uniquement pour créer vos informations d'identification, facilitant ainsi votre utilisation de MOSIP. En cochant la case ci-dessous, vous consentez à ce que vos données soient stockées et traitées aux fins ci-dessus.",
