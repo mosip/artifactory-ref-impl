@@ -334,9 +334,10 @@
     },
     "addSbis": {
         "addSbi": "Add SBI",
-        "guidence": "On clicking “Save & Add Device” button, the SBI request will be sent to admin for approval. Meanwhile, you can add the devices under the newly created SBI.",
+        "guidence": "On clicking “Save & Add Device” button after filling the details, the SBI request will be sent to admin for approval. Meanwhile, you can add the devices under the newly created SBI.",
+        "partnerIdTooltip": "Select partner ID Dropdown should only display the list of partner IDs of DEVICE PROVIDERS whose partner certificate is successfully uploaded.",
         "sbiVersion": "SBI Version",
-        "enterVersion": "Enter Version",
+        "enterVersionOfSoftware": "Enter version of software",
         "sbiCreatedDateTime": "SBI Created Date & Time",
         "selectDateAndTime": "Select Date And Time",
         "sbiExpiryDateTime": "SBI Expiry Date & Time",
