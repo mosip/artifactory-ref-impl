@@ -242,21 +242,7 @@
         "unmapped-documents": "Unmapped Documents",
         "masterDataTypes": "Masterdata Types",
         "dynamicField": "Dynamic Field",
-        "createDynamicField": "Create New Dynamic Field",
-        "centerType":{
-            "create":{
-                "title": "Confirmation",
-                "message": "You are about to create a Center Type. \n Please ensure that all the information is correct. Center ID will be generated once you Confirm.",
-                "yesBtnText": "Confirm",
-                "noBtnText": "Cancel"
-            },
-            "update":{
-                "title": "Confirmation",
-                "message": "You are about to update a Center Type. \n Please ensure that all the information is correct. Center details will be update once you Confirm.",
-                "yesBtnText": "Confirm",
-                "noBtnText": "Cancel"
-            }
-        }
+        "createDynamicField": "Create New Dynamic Field"
     },
     "masterdataupload": {
         "title": "Master Data Upload"
