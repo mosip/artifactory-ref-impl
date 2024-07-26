@@ -330,7 +330,8 @@
     },
     "consentPopup": {
         "title": "Terms and Conditions",
-        "description": "Hello User, The data provided during registration, including your Name, Phone Number, Email Address, Organisation Name, and Address, will be used by the Partner Management Portal (PMP).",
+        "description": "The data provided during registration, including your Name, Phone Number, Email Address, Organisation Name, and Address, will be used by the Partner Management Portal (PMP). Your email address will also be used for password resets, email verification, and notifications in the event of Partner Certificate expiration or similar situations. This information will be used solely to create your credentials, facilitating your use of MOSIP. By ticking the box below, you consent to submitting your data to be stored and processed for the above purpose.",
+        "checkBoxDesc": "I have read the terms & conditions and consent to submitting my data to be stored and processed for the stated purpose.",
         "proceed": "Proceed",
         "logoutMsg": "Incase if you do not wish to proceed further, you can",
         "consentFetchError": "Error while fetching user consent",
