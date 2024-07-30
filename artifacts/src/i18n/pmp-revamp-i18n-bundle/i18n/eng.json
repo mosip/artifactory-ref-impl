@@ -34,6 +34,8 @@
         "policiesDesc": "Request and view your policies",
         "authenticationServices": "Authentication Services",
         "authenticationServicesDesc": "Request OIDC Client creation / API key generation for eSignet and API key based authentications",
+        "deviceProviderServices":"Device Provider Services",
+        "deviceProviderServicesDesc":"Add, View, Deactivate SBI (Secure Biometric Interface) and associated devices",
         "userRegistrationError": "Unable to register user. Try login again!",
         "verifyEmailError": "Error during user's email verification. Try login again!"
     },
@@ -343,6 +345,23 @@
         "sbiExpiryDateTime": "SBI Expiry Date & Time",
         "saveAndAddDevices": "Save And Add Devices"
     },
+    "sbiList": {
+        "addSbiDevice": "Add SBI-Device",
+        "addSbi": "Add SBI",
+        "devices": "devices",
+        "devicesCountTxt": "are associated with this SBI",
+        "addDevices": "Add Devices",
+        "viewDevices": "View Devices",
+        "partnerId": "Partner ID",
+        "partnerType": "Partner Type",
+        "createdDate": "SBI Created Date & Time",
+        "expiryDate": "SBI Expiry Date & Time",
+        "deactivate": "Deactivate",
+        "submittedOn": "Submitted On"
+    },
+    "addDevices": {
+        "addDevices": "Add Devices"
+    },
     "consentPopup": {
         "title": "Terms and Conditions",
         "description": "The data provided during registration, including your Name, Phone Number, Email Address, Organisation Name, and Address, will be used by the Partner Management Portal (PMP). Your email address will also be used for password resets, email verification, and notifications in the event of Partner Certificate expiration or similar situations. This information will be used solely to create your credentials, facilitating your use of MOSIP. By ticking the box below, you consent to submitting your data to be stored and processed for the above purpose.",
@@ -351,12 +370,12 @@
         "logoutMsg": "Incase if you do not wish to proceed further, you can",
         "consentFetchError": "Error while fetching user consent",
         "consentSaveError": "Error while saving user consent"
-     },
-     "blockerMessage": {
+    },
+    "blockerMessage": {
         "description": "Your changes will be lost, are you sure you want to proceed?",
         "cancel": "Cancel",
         "proceed": "Proceed"
-     },
+    },
     "serverError": {
         "PMS_COR_001": "Missing Input Parameter",
         "PMS_PRT_002": " Policy group does not exist",

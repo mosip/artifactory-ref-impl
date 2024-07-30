@@ -34,6 +34,8 @@
         "policiesDesc": "طلب وعرض السياسات الخاصة بك.",
         "authenticationServices": "خدمات المصادقة",
         "authenticationServicesDesc": "طلب إنشاء عميل OIDC / إنشاء مفتاح API لمصممي التصميم والمصادقة المستندة إلى مفتاح API",
+        "deviceProviderServices":"خدمات مزودي الأجهزة",
+        "deviceProviderServicesDesc":"إضافة وعرض وإلغاء تنشيط SBI (الواجهة البيومترية الآمنة) والأجهزة المرتبطة بها",
         "userRegistrationError": "غير قادر على تسجيل المستخدم. حاول تسجيل الدخول مرة أخرى",
         "verifyEmailError": "حدث خطأ أثناء التحقق من البريد الإلكتروني للمستخدم. حاول تسجيل الدخول مرة أخرى"
     },
@@ -340,10 +342,28 @@
         "partnerIdTooltip": "يجب أن تعرض القائمة المنسدلة لتحديد معرف الشريك فقط قائمة معرفات الشركاء لموفري الأجهزة الذين تم تحميل شهادة الشريك الخاصة بهم بنجاح",
         "sbiVersion": "نسخة الهيئة الفرعية للتنفيذ",
         "enterVersionOfSoftware": "أدخل إصدار البرنامج",
+        "enterVersion": "أدخل الإصدار",
         "sbiCreatedDateTime": "تاريخ ووقت إنشاء الهيئة الفرعية للتنفيذ",
         "selectDateAndTime": "حدد التاريخ والوقت",
         "sbiExpiryDateTime": "تاريخ ووقت انتهاء صلاحية الهيئة الفرعية للتنفيذ",
         "saveAndAddDevices": "حفظ وإضافة الأجهزة"
+    },
+    "sbiList": {
+        "addSbiDevice": "إضافة جهاز SBI",
+        "addSbi": "إضافة SBI",
+        "devices": "الأجهزة",
+        "devicesCountTxt": "مرتبطة بجهاز SBI هذا",
+        "addDevices": "إضافة أجهزة",
+        "viewDevices": "عرض الأجهزة",
+        "partnerId": "معرف الشريك",
+        "partnerType": "نوع الشريك",
+        "createdDate": "تاريخ ووقت إنشاء SBI",
+        "expiryDate": "تاريخ ووقت انتهاء صلاحية SBI",
+        "deactivate": "إلغاء التنشيط",
+        "submittedOn": "تم إرساله"
+    },
+    "addDevices": {
+        "addDevices": "إضافة أجهزة"
     },
     "consentPopup": {
         "title": "الأحكام والشروط",
@@ -353,12 +373,12 @@
         "logoutMsg": "إذا كنت لا ترغب في المضي قدمًا، فيمكنك ذلك",
         "consentFetchError": "حدث خطأ أثناء جلب موافقة المستخدم",
         "consentSaveError": "حدث خطأ أثناء حفظ موافقة المستخدم"
-     },
-     "blockerMessage": {
+    },
+    "blockerMessage": {
         "description": "سيتم فقدان التغييرات التي قمت بها، هل أنت متأكد من أنك تريد المتابعة؟",
         "cancel": "يلغي",
         "proceed": "يتابع"
-     },
+    },
     "serverError": {
         "PMS_COR_001": "معلمة الإدخال مفقود",
         "PMS_PRT_002": " مجموعة السياسة غير موجود",

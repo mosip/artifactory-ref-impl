@@ -34,6 +34,8 @@
         "policiesDesc": "Demandez et consultez vos polices",
         "authenticationServices": "Services d'authentification",
         "authenticationServicesDesc": "Demander la création d'un client OIDC / la génération de clés API pour les concepteurs et l'authentification basée sur les clés API",
+        "deviceProviderServices":"Services du fournisseur d'appareils",
+        "deviceProviderServicesDesc":"Ajouter, afficher, désactiver SBI (Secure Biometric Interface) et les appareils associés",
         "userRegistrationError": "Impossible d'enregistrer l'utilisateur. Essayez de vous connecter à nouveau !",
         "verifyEmailError": "Erreur lors de la vérification de l'e-mail de l'utilisateur. Essayez de vous connecter à nouveau!"
     },
@@ -340,10 +342,28 @@
         "partnerIdTooltip": "La liste déroulante Sélectionner l'ID de partenaire ne doit afficher que la liste des ID de partenaire des FOURNISSEURS D'APPAREILS dont le certificat de partenaire a été téléchargé avec succès.",
         "sbiVersion": "Version SBI",
         "enterVersionOfSoftware": "Entrez la version du logiciel",
+        "enterVersion": "Entrez la version",
         "sbiCreatedDateTime": "Date et heure de création du SBI",
         "selectDateAndTime": "Sélectionnez la date et l'heure",
         "sbiExpiryDateTime": "Date et heure d’expiration du SBI",
         "saveAndAddDevices": "Enregistrer et ajouter des appareils"
+    },
+    "sbiList": {
+        "addSbiDevice": "Ajouter un périphérique SBI",
+        "addSbi": "Ajouter un SBI",
+        "devices": "appareils",
+        "devicesCountTxt": "sont associés à ce SBI",
+        "addDevices": "Ajouter des périphériques",
+        "viewDevices": "Afficher les périphériques",
+        "partnerId": "ID partenaire",
+        "partnerType": "Type de partenaire",
+        "createdDate": "Date et heure de création du SBI",
+        "expiryDate": "Date et heure d'expiration du SBI",
+        "deactivate": "Désactiver",
+        "submittedOn": "Soumis le"
+    },
+    "addDevices": {
+        "addDevices": "Ajouter des périphériques"
     },
     "consentPopup": {
         "title": "Termes et conditions",
