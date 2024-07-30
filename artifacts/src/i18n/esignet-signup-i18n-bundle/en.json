@@ -188,6 +188,16 @@
     "unsuccessful_header": "Verification Unsuccessful!",
     "unsuccessful_subheader": "Oops! We were unable to complete the eKYC verification."
   },
+  "identity_verification_status": {
+    "successful": {
+      "title": "Verification Successful!",
+      "description": "Please wait while we finalize the process"
+    },
+    "failed": {
+      "title": "Verification Unsuccessful!",
+      "description": "Oops! We were unable to complete the eKYC verification."
+    }
+  },
   "error_response": {
     "invalid_transaction": "The transaction has timed out. Please try again.",
     "invalid_otp_channel": "Invalid OTP Channel Provided",
