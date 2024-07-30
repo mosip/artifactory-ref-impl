@@ -33,6 +33,8 @@
         "policies": "سياسات",
         "policiesDesc": "طلب وعرض السياسات الخاصة بك.",
         "authenticationServices": "خدمات المصادقة",
+        "deviceProviderServices": "خدمات مزودي الأجهزة",
+        "deviceProviderServicesDesc": "إضافة وعرض وإلغاء تنشيط SBI (الواجهة البيومترية الآمنة) والأجهزة المرتبطة بها",
         "authenticationServicesDesc": "طلب إنشاء عميل OIDC / إنشاء مفتاح API لمصممي التصميم والمصادقة المستندة إلى مفتاح API",
         "userRegistrationError": "غير قادر على تسجيل المستخدم. حاول تسجيل الدخول مرة أخرى",
         "verifyEmailError": "حدث خطأ أثناء التحقق من البريد الإلكتروني للمستخدم. حاول تسجيل الدخول مرة أخرى"
@@ -48,7 +50,7 @@
         "lastName": "اسم العائلة",
         "organisationName": "اسم المنظمة",
         "address": "عنوان",
-        "partnerType":"نوع الشريك",
+        "partnerType": "نوع الشريك",
         "phoneNumber": "رقم التليفون",
         "emailAddress": "عنوان البريد الإلكتروني",
         "userName": "اسم المستخدم"
@@ -276,12 +278,12 @@
         "policyName": "اسم السياسة",
         "policyGroupDescription": "وصف مجموعة السياسات",
         "policyNameDescription": "وصف اسم السياسة",
-        "clientName":"اسم العميل",
+        "clientName": "اسم العميل",
         "publicKey": "المفتاح العمومي",
         "logoUri": "عنوان URL للشعار",
         "redirectUri": "إعادة توجيه URI",
         "grantTypes": "أنواع المنح",
-        "comments":"تعليقات",
+        "comments": "تعليقات",
         "adminComment": "تعليقات المشرف",
         "adminName": "اسم المشرف",
         "commentsOfAdmin": "تعليقات المشرف",
@@ -302,11 +304,11 @@
         "editSuccessMsg": "تم تعديل تفاصيل عميل OIDC وإرسالها بنجاح."
     },
     "deactivateOidcClient": {
-       "oidcClientName": "هل تريد إلغاء تنشيط عميل OIDC",
-       "description": "عند النقر فوق تأكيد، لن تتمكن من استخدام معرف عميل OIDC للمصادقة بعد الآن.",
-       "confirm": "يتأكد"
+        "oidcClientName": "هل تريد إلغاء تنشيط عميل OIDC",
+        "description": "عند النقر فوق تأكيد، لن تتمكن من استخدام معرف عميل OIDC للمصادقة بعد الآن.",
+        "confirm": "يتأكد"
     },
-    "apiKeysList" : {
+    "apiKeysList": {
         "apiKeyLabel": "اسم مفتاح API",
         "apiKeyId": "معرف مفتاح API",
         "apiKey": "مفتاح API",
@@ -321,14 +323,14 @@
         "selectedPolicyName": "حدد السياسة التي يلزم فيها مفتاح واجهة برمجة التطبيقات API.",
         "name": "اسم",
         "enterNameForApiKey": "أدخل اسمًا لمفتاح API",
-        "generateApiKeySuccessHeader":"تم إرسال التفاصيل بنجاح!",
+        "generateApiKeySuccessHeader": "تم إرسال التفاصيل بنجاح!",
         "apiKeySuccessMsg": "تم إرسال تفاصيل مفتاح API بنجاح",
         "errorInGenerateApiKey": "أثناء إنشاء مفتاح API، واجهنا خطأ.",
         "nameTooLong": "يجب ألا يسمح الاسم بأكثر من 36 حرفًا."
     },
     "deactivateApiKey": {
-       "apiKeyName": "هل تريد إلغاء تنشيط مفتاح API",
-       "description": "عند النقر فوق تأكيد، لن تتمكن من استخدام مفتاح API للمصادقة بعد الآن."
+        "apiKeyName": "هل تريد إلغاء تنشيط مفتاح API",
+        "description": "عند النقر فوق تأكيد، لن تتمكن من استخدام مفتاح API للمصادقة بعد الآن."
     },
     "deviceProviderServices": {
         "listOfSbisAndDevices": "قائمة الهيئات الفرعية للتنفيذ والأجهزة",
@@ -353,12 +355,12 @@
         "logoutMsg": "إذا كنت لا ترغب في المضي قدمًا، فيمكنك ذلك",
         "consentFetchError": "حدث خطأ أثناء جلب موافقة المستخدم",
         "consentSaveError": "حدث خطأ أثناء حفظ موافقة المستخدم"
-     },
-     "blockerMessage": {
+    },
+    "blockerMessage": {
         "description": "سيتم فقدان التغييرات التي قمت بها، هل أنت متأكد من أنك تريد المتابعة؟",
         "cancel": "يلغي",
         "proceed": "يتابع"
-     },
+    },
     "serverError": {
         "PMS_COR_001": "معلمة الإدخال مفقود",
         "PMS_PRT_002": " مجموعة السياسة غير موجود",

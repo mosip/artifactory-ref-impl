@@ -34,6 +34,8 @@
         "policiesDesc": "Demandez et consultez vos polices",
         "authenticationServices": "Services d'authentification",
         "authenticationServicesDesc": "Demander la création d'un client OIDC / la génération de clés API pour les concepteurs et l'authentification basée sur les clés API",
+        "deviceProviderServices":"Services du fournisseur d'appareils",
+        "deviceProviderServicesDesc":"Ajouter, afficher, désactiver SBI (Secure Biometric Interface) et les appareils associés",
         "userRegistrationError": "Impossible d'enregistrer l'utilisateur. Essayez de vous connecter à nouveau !",
         "verifyEmailError": "Erreur lors de la vérification de l'e-mail de l'utilisateur. Essayez de vous connecter à nouveau!"
     },

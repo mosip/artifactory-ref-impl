@@ -34,6 +34,8 @@
         "policiesDesc": "Request and view your policies",
         "authenticationServices": "Authentication Services",
         "authenticationServicesDesc": "Request OIDC Client creation / API key generation for eSignet and API key based authentications",
+        "deviceProviderServices":"Device Provider Services",
+        "deviceProviderServicesDesc":"Add, View, Deactivate SBI (Secure Biometric Interface) and associated devices",
         "userRegistrationError": "Unable to register user. Try login again!",
         "verifyEmailError": "Error during user's email verification. Try login again!"
     },
