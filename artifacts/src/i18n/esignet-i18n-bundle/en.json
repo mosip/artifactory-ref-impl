@@ -161,6 +161,7 @@
       "pin_login": "Please enter your UIN/VID and PIN",
       "password_login": "Please enter your UIN/VID and password",
       "kbi_login": "Please fill the below details",
+      "kba_login": "Please fill the below details",
       "wallet_login": "Please scan the below QR code to login"
     }
   },
@@ -497,6 +498,9 @@
       "IDA-MLC-018": "Invalid username. Please enter a valid username.",
       "IDA-PSD-001": "Incorrect username or password. Please try again.",
       "IDA-PSD-002": "Incorrect username or password. Please try again."
+    },
+    "kba": {
+      "auth_failed": "Login failed, please enter correct credentials"
     },
     "kbi": {
       "auth_failed": "Login failed, please enter correct credentials"
