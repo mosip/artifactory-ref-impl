@@ -340,6 +340,8 @@
         "partnerIdTooltip": "Select partner ID Dropdown should only display the list of partner IDs of DEVICE PROVIDERS whose partner certificate is successfully uploaded.",
         "sbiVersion": "SBI Version",
         "enterVersionOfSoftware": "Enter version of software",
+        "binaryHash": "Binary Hash",
+        "enterBinaryHash": "Enter Binary Hash",
         "sbiCreatedDateTime": "SBI Created Date & Time",
         "selectDateAndTime": "Select Date And Time",
         "sbiExpiryDateTime": "SBI Expiry Date & Time",

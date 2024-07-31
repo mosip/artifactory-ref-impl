@@ -342,6 +342,8 @@
         "partnerIdTooltip": "La liste déroulante Sélectionner l'ID de partenaire ne doit afficher que la liste des ID de partenaire des FOURNISSEURS D'APPAREILS dont le certificat de partenaire a été téléchargé avec succès.",
         "sbiVersion": "Version SBI",
         "enterVersionOfSoftware": "Entrez la version du logiciel",
+        "binaryHash": "Hachage binaire",
+        "enterBinaryHash": "Entrez le hachage binaire",
         "sbiCreatedDateTime": "Date et heure de création du SBI",
         "selectDateAndTime": "Sélectionnez la date et l'heure",
         "sbiExpiryDateTime": "Date et heure d’expiration du SBI",
