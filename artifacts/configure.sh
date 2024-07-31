@@ -36,6 +36,11 @@ zip -r -j ${esignet_wrapper_lib_zip_path}/esignet-wrapper.zip ${esignet_wrapper_
 rm -rf ${esignet_wrapper_lib_zip_path}/esignet-wrapper
 echo esignet-wrapper zip creation completed
 
+echo esignet-plugins zip creation started
+zip -r -j ${esignet_wrapper_lib_zip_path}/esignet-plugins.zip ${esignet_wrapper_lib_zip_path}/esignet-plugins/*
+rm -rf ${esignet_wrapper_lib_zip_path}/esignet-plugins
+echo esignet-plugins zip creation completed
+
 echo Creating resources.zip file for all the resources provided
 zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources
 rm -rf ${work_dir}/resources
