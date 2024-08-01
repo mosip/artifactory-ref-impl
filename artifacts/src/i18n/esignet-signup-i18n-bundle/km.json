@@ -189,6 +189,17 @@
     "unsuccessful_header": "ការផ្ទៀងផ្ទាត់មិនបានជោគជ័យ!",
     "unsuccessful_subheader": "ឱ! យើងមិនអាចបញ្ចប់ការផ្ទៀងផ្ទាត់ eKYC បានទេ។"
   },
+  "identity_verification_status": {
+    "successful": {
+      "title": "ការផ្ទៀងផ្ទាត់បានជោគជ័យ!",
+      "description": "សូមរង់ចាំខណៈពេលដែលយើងបញ្ចប់ដំណើរការ"
+    },
+    "failed": {
+      "title": "ការផ្ទៀងផ្ទាត់មិនបានជោគជ័យ!",
+      "description": "យើងមិនអាចបញ្ចប់ការផ្ទៀងផ្ទាត់ eKYC បានទេ"
+    },
+    "loading_title": "សូមរង់ចាំខណៈពេលដែលយើងបញ្ចប់ដំណើរការ..."
+  },
   "error_response": {
     "invalid_transaction": "ប្រតិបត្តិការបានផុតកំណត់។ សូមព្យាយាមម្ដងទៀត។",
     "invalid_otp_channel": "ឆានែលលេខសម្ងាត់ដែលបានផ្ដល់មិនត្រឹមត្រូវ",
