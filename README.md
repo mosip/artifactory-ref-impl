@@ -18,7 +18,7 @@ All these artifacts are released as a part of the Mosip Release with some of the
 * Set KUBECONFIG variable to point to existing K8 cluster kubeconfig file:
     * ```
         export KUBECONFIG=~/.kube/<my-cluster.config>
-     ```
+      ```
 ### Install
   ```
     $ cd deploy
