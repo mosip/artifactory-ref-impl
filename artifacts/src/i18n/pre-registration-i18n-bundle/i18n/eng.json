@@ -457,7 +457,7 @@
     "name" : "Application",
     "action_modify_information": "Modify Information",
     "action_modify_appointment": "Book/Modify Appointment",
-    "action_cre_application": "Pre Registration ",
+    "action_cre_application": "Create Application ",
     "action_lost_uin": "Lost UIN ",
     "action_update_registration": "Update Registration ",
     "card": {
@@ -582,7 +582,7 @@
     "action_add": "Add",
     "action_close": "Close",
     "action_add_to_slot": "Add to Slot",
-    "navigation_alert": "Are you sure you would like to navigate away as data entered will not be saved. Please confirm"
+    "navigation_alert": "There are unsaved changes on this form that will be lost if you decide to navigate away. Would you like to navigate away?"
   },
   "centerSelection": {
     "title": " Book Appointment ",

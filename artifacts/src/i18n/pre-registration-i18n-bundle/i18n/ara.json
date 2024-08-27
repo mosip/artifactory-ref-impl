@@ -458,7 +458,7 @@
     "name" : "طلب",
     "action_modify_information": "تعديل المعلومات",
     "action_modify_appointment": "كتاب / تعديل موعد",
-    "action_cre_application": "التسجيل المسبق ",
+    "action_cre_application": "إنشاء تطبيق جديد",
     "action_lost_uin": "UIN ضائع",
     "action_update_registration": "تحديث التسجيل",
     "card": {
@@ -573,7 +573,7 @@
     "action_add": "إضافة",
     "action_close": "قريب",
     "action_add_to_slot": "أضف إلى الفتحة",
-    "navigation_alert": "هل أنت متأكد من رغبتك في التنقل بعيدًا حيث لن يتم حفظ البيانات التي تم إدخالها. يرجى تأكيد"
+    "navigation_alert": "هناك تغييرات غير محفوظة في هذا النموذج والتي ستفقد إذا قررت الابتعاد. هل ترغب في الإبحار بعيدا؟"
   },
   "centerSelection": {
     "title": " موعد الكتاب ",

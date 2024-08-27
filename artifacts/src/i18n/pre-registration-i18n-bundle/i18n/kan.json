@@ -456,7 +456,7 @@
 		"name" : "ಅಪ್ಲಿಕೇಶನ್",
 		"action_modify_information": "ಮಾಹಿತಿಯನ್ನು ಮಾರ್ಪಡಿಸಿ",
 		"action_modify_appointment": "ನೇಮಕಾತಿಯನ್ನು ಪುಸ್ತಕ / ಮಾರ್ಪಡಿಸಿ",
-		"action_cre_application": "ಪೂರ್ವ ನೋಂದಣಿ ",
+		"action_cre_application": "ಹೊಸ ಅಪ್ಲಿಕೇಶನ್ ರಚಿಸಿ ",
     	"action_lost_uin": "ಕಳೆದುಹೋಗಿದೆ UIN ",
     	"action_update_registration": "ನೋಂದಣಿ ನವೀಕರಿಸಿ ",
 		"card": {
@@ -574,7 +574,7 @@
 		"action_add": "ಸೇರಿಸಿ",
 		"action_close": "ಮುಚ್ಚು",
 		"action_add_to_slot": "ಸ್ಲಾಟ್‌ಗೆ ಸೇರಿಸಿ",
-		"navigation_alert": "ನಮೂದಿಸಿದ ಡೇಟಾವನ್ನು ಉಳಿಸಲಾಗದ ಕಾರಣ ನೀವು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ. ದಯವಿಟ್ಟು ದ್ರುಡೀಕರಿಸಿ"
+		"navigation_alert": "ಈ ಫಾರ್ಮ್‌ನಲ್ಲಿ ಉಳಿಸದ ಬದಲಾವಣೆಗಳಿವೆ, ನೀವು ದೂರಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ನಿರ್ಧರಿಸಿದರೆ ಅದು ಕಳೆದುಹೋಗುತ್ತದೆ. ನೀವು ದೂರ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಬಯಸುವಿರಾ?"
 	},
 	"centerSelection": {
 		"title": " ಪುಸ್ತಕ ನೇಮಕಾತಿ ",
