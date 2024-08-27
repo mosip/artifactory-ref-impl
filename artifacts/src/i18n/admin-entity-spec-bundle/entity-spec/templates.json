@@ -177,12 +177,12 @@
       "showInListView": "false",
       "showInSingleView": "true",
       "label": {
-        "eng": "Scenario",
-        "ara": "السيناريو",
-        "fra": "scénario",
-        "hin": "परिदृश्य ",
-        "kan": "ಸನ್ನಿವೇಶ   ",
-        "tam": "காட்சி "
+        "eng": "Content",
+        "ara": "محتوى",
+        "fra": "Contenu",
+        "hin": "सामग्री ",
+        "kan": "ವಿಷಯ   ",
+        "tam": "உள்ளடக்கம் "
       },
       "sortOrder": "",
       "showAsLink": "false",
