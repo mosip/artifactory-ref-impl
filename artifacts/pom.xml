@@ -145,7 +145,7 @@
 		<certify-mosip-identity-plugin.fileName>certify-mosip-identity-plugin.jar</certify-mosip-identity-plugin.fileName>
 		<!-- certify mock plugin -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
-		<certify-mock-plugin.version>0.2.0</certify-mock-plugin.version>
+		<certify-mock-plugin.version>0.3.0-SNAPSHOT</certify-mock-plugin.version>
 		<certify-mock-plugin.fileName>certify-mock-identity-plugin.jar</certify-mock-plugin.fileName>
 	</properties>
 	
