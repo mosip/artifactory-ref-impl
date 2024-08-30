@@ -78,7 +78,7 @@
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 
 		<!-- kernel-transliteration-jar -->
-		<kernel-transliteration.version>1.3.0-SNAPSHOT</kernel-transliteration.version>
+		<kernel-transliteration.version>1.3.0-beta.1</kernel-transliteration.version>
 		<kernel-transliteration.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j</kernel-transliteration.location>
 		<kernel-transliteration.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration.fileName>
 
