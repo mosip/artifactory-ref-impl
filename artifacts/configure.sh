@@ -16,11 +16,6 @@ zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/
 rm -rf ${biosdk_client_zip_path}/biosdk-client
 echo biosdk client zip creation completed
 
-echo jpeg-sdk-lib zip creation started
-zip -r -j ${jpegsdk_lib_zip_path}/jpeg-sdk-lib.zip ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/*
-rm -rf ${jpegsdk_lib_zip_path}/jpeg-sdk-lib
-echo jpeg-sdk-lib zip creation completed
-
 echo biosdk-lib zip creation started
 zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-lib/*
 rm -rf ${biosdk_lib_zip_path}/biosdk-lib
