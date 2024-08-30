@@ -5,11 +5,11 @@ set -e
 # This scripts performs multiple commands to set up the libraries inside the artifactory server docker.
 # Activies performed are listed as below
 # 1. biosdk-client zip creation
-# 2. jpeg-sdk-lib zip creation
-# 3. biosdk-lib zip ceation
-# 4. demosdk-lib zip creation
-# 5. Create resources zip for reg-client
-# 6. Create i18n and entity-spec bundles zip files for all the required modules
+# 2. biosdk-lib zip ceation
+# 3. demosdk-lib zip creation
+# 4. Create resources zip for reg-client
+# 5. Create i18n and entity-spec bundles zip files for all the required modules
+# 6. registration-api-impl zip creation
 
 echo biosdk client zip creation started
 zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/biosdk-client/*
@@ -20,6 +20,11 @@ echo biosdk-lib zip creation started
 zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-lib/*
 rm -rf ${biosdk_lib_zip_path}/biosdk-lib
 echo biosdk-lib zip creation completed
+
+echo image-compressor zip creation started
+zip -r -j ${image_compressor_path}/image-compressor.zip ${image_compressor_path}/image-compressor/*
+rm -rf ${image_compressor_path}/image-compressor
+echo image-compressor zip creation completed
 
 echo demosdk-client zip creation started
 zip -r -j ${demosdk_zip_path}/demosdk.zip ${demosdk_zip_path}/demosdk/*
@@ -65,3 +70,8 @@ echo i18n-bundle zip creation completed
 echo master-templates zip creation started
 zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templates/*
 echo master-templates zip creation completed
+
+echo registration-api-impl zip creation started
+zip -r -j ${registration_api_impl_zip_path}/registration-api-impl.zip ${registration_api_impl_zip_path}/registration-api-impl/*
+rm -rf ${registration_api_impl_zip_path}/registration-api-impl
+echo registration-api-impl zip creation completed
