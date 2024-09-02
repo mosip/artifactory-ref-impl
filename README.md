@@ -13,3 +13,25 @@ Following are the artifacts which is being served by the service:
 
 All these artifacts are released as a part of the Mosip Release with some of them being taken from open sourced repository as per the need.
 
+## Deployment in K8 cluster with other MOSIP services:
+### Pre-requisites
+* Set KUBECONFIG variable to point to existing K8 cluster kubeconfig file:
+  * ```
+    export KUBECONFIG=~/.kube/<my-cluster.config>
+    ```
+### Install
+  ```
+    $ cd deploy
+    $ ./install.sh
+   ```
+### Delete
+  ```
+    $ cd deploy
+    $ ./delete.sh
+   ```
+### Restart
+  ```
+    $ cd deploy
+    $ ./restart.sh
+   ```
+
