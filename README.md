@@ -34,3 +34,4 @@ All these artifacts are released as a part of the Mosip Release with some of the
     $ cd deploy
     $ ./restart.sh
    ```
+
