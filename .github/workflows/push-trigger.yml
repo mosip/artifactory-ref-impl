@@ -12,6 +12,7 @@ on:
       - 1.*
       - MOSIP*
       - release*
+      - tf_nira_dev
   
 jobs:
   build-docker-artifactory-server:
