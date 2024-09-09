@@ -2,7 +2,7 @@
 ## Please, note that this will override the image parameters, including dependencies, configured to use the global value
 ## Current available global Docker image parameters: imageRegistry and imagePullSecrets
 ##
-# global:
+## global:
 #   imageRegistry: myRegistryName
 #   imagePullSecrets:
 #     - myRegistryKeySecretName
@@ -53,7 +53,7 @@ service:
 image:
   registry: docker.io
   repository: mosipid/artifactory-server
-  tag: 1.2.0.3
+  tag: 0.9.0-INJI
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
   ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
@@ -88,7 +88,7 @@ livenessProbe:
     path: /
     port: 8080
   initialDelaySeconds: 20
-  periodSeconds: 30
+  periodSeconds: 10
   timeoutSeconds: 1
   failureThreshold: 3
   successThreshold: 1
@@ -363,6 +363,10 @@ artifacts:
   regprocJars: /artifactory/libs-release-local/clamav/kernel-virusscanner-clamav.jar
   runtimeDepUrl: /artifactory/libs-release-local/io/mosip/kernel/
   preregistrationBundleUrl: /artifactory/libs-release-local/i18n/pre-registration-i18n-bundle.zip
+  residentBundleUrl: /artifactory/libs-release-local/i18n/resident-i18n-bundle.zip
   virusscannerUrl: /artifactory/libs-release-local/clamav/kernel-virusscanner-clamav.jar
   authwrapperUrl: /artifactory/libs-release-local/idp/idp-auth-wrapper/authentication-wrapper.jar
   esignetauthwrapperUrl: /artifactory/libs-release-local/esignet/esignet-wrapper.zip
+  kernelRefIdObjectValidator: /artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator/java21/kernel-ref-idobjectvalidator.jar
+  icu4j: /artifactory/libs-release-local/icu4j/icu4j.jar
+  kernelTransliterationIcu4j: /artifactory/libs-release-local/icu4j/kernel-transliteration-icu4j.jar

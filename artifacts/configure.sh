@@ -36,6 +36,11 @@ zip -r -j ${esignet_wrapper_lib_zip_path}/esignet-wrapper.zip ${esignet_wrapper_
 rm -rf ${esignet_wrapper_lib_zip_path}/esignet-wrapper
 echo esignet-wrapper zip creation completed
 
+echo certify-plugin zip creation started
+zip -r -j ${certify_plugin_zip_path}/certify-plugin.zip ${certify_plugin_zip_path}/certify-plugin/*
+rm -rf ${certify_plugin_zip_path}/certify-plugin
+echo certify-plugin zip creation completed
+
 echo Creating resources.zip file for all the resources provided
 zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources
 rm -rf ${work_dir}/resources
@@ -60,7 +65,7 @@ zip -r -j ${i18n_zip_path}/esignet-i18n-bundle.zip ${work_dir}/esignet-i18n-bund
 echo theme zip creation for all mentioned modules started
 zip -r -j ${theme_zip_path}/esignet-theme.zip ${work_dir}/esignet-theme/*
 
-rm -rf ${work_dir}/admin-i18n-bundle ${work_dir}/pmp-i18n-bundle ${work_dir}/pmp-revamp-i18n-bundle ${work_dir}/pre-registration-i18n-bundle ${work_dir}/oidc-demo-i18n-bundle ${work_dir}/idp-i18n-bundle
+rm -rf ${work_dir}/admin-i18n-bundle ${work_dir}/pmp-i18n-bundle ${work_dir}/pre-registration-i18n-bundle ${work_dir}/oidc-demo-i18n-bundle ${work_dir}/idp-i18n-bundle
 echo i18n-bundle zip creation completed
 
 echo master-templates zip creation started
