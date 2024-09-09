@@ -135,16 +135,14 @@
 		<!-- latest mock-sdk -->
 		<mock-sdk-latest.version>1.2.0.1-B4</mock-sdk-latest.version>
 
-		<!-- certify sunbird plugin  -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
+		<!-- certify sunbird plugin -->
 		<certify-sunbird-plugin.version>0.2.1-SNAPSHOT</certify-sunbird-plugin.version>
 		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
 		<!-- certify mosip identity plugin -->
-		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-mosip-identity-plugin.version>0.2.1-SNAPSHOT</certify-mosip-identity-plugin.version>
 		<certify-mosip-identity-plugin.fileName>certify-mosip-identity-plugin.jar</certify-mosip-identity-plugin.fileName>
 		<!-- certify mock plugin -->
-		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-mock-plugin.version>0.2.1-SNAPSHOT</certify-mock-plugin.version>
 		<certify-mock-plugin.fileName>certify-mock-identity-plugin.jar</certify-mock-plugin.fileName>
 	</properties>
