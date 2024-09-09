@@ -61,9 +61,29 @@ zip -r -j ${i18n_zip_path}/oidc-demo-i18n-bundle.zip ${work_dir}/oidc-demo-i18n-
 zip -r -j ${i18n_zip_path}/idp-i18n-bundle.zip ${work_dir}/idp-i18n-bundle/*
 zip -r -j ${i18n_zip_path}/mock-relying-party-i18n-bundle.zip ${work_dir}/mock-relying-party-i18n-bundle/*
 zip -r -j ${i18n_zip_path}/esignet-i18n-bundle.zip ${work_dir}/esignet-i18n-bundle/*
+zip -r -j ${i18n_zip_path}/esignet-signup-i18n-bundle.zip ${work_dir}/esignet-signup-i18n-bundle/*
+rm -rf ${work_dir}/admin-i18n-bundle \
+ ${work_dir}/pmp-i18n-bundle \
+ ${work_dir}/pre-registration-i18n-bundle \
+ ${work_dir}/oidc-demo-i18n-bundle \
+ ${work_dir}/idp-i18n-bundle \
+ ${work_dir}/mock-relying-party-i18n-bundle \
+ ${work_dir}/esignet-i18n-bundle \
+ ${work_dir}/resident-i18n-bundle \
+ ${work_dir}/esignet-signup-i18n-bundle
+echo i18n-bundles zip creation for all the mentioned modules completed
 
 echo theme zip creation for all mentioned modules started
 zip -r -j ${theme_zip_path}/esignet-theme.zip ${work_dir}/esignet-theme/*
+
+zip -r -j ${theme_zip_path}/esignet-signup-theme.zip ${work_dir}/esignet-signup-theme/*
+rm -rf ${work_dir}/esignet-theme ${work_dir}/esignet-signup-theme
+echo theme zip creation for all mentioned modules completed
+
+echo image zip creation for all mentioned modules started
+zip -r -j ${image_zip_path}/esignet-image.zip ${work_dir}/esignet-image/*
+rm -rf ${work_dir}/esignet-image
+echo image zip creation for all mentioned modules completed
 
 rm -rf ${work_dir}/admin-i18n-bundle ${work_dir}/pmp-i18n-bundle ${work_dir}/pmp-revamp-i18n-bundle ${work_dir}/pre-registration-i18n-bundle ${work_dir}/oidc-demo-i18n-bundle ${work_dir}/idp-i18n-bundle
 echo i18n-bundle zip creation completed
