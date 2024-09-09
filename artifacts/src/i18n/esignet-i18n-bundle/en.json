@@ -54,8 +54,8 @@
     "scan_and_verify": "Scan and Verify",
     "sign_in_with_biometric": "Login with Biometric",
     "retry": "Retry",
-    "vid_label_text": "Enter Your VID",
-    "vid_placeholder": "VID",
+    "vid_label_text": "UIN/VID",
+    "vid_placeholder": "Enter Your UIN or VID",
     "Face": "Face",
     "Finger": "Finger",
     "Iris": "Iris",
@@ -65,18 +65,18 @@
     "sign_in_with_pin": "Login with PIN",
     "remember_me": "Remember Me",
     "login": "Login",
-    "uin_label_text": "UIN",
+    "uin_label_text": "UIN/VID",
     "pin_label_text": "PIN",
-    "uin_placeholder": "UIN or VID",
+    "uin_placeholder": "Enter Your UIN or VID",
     "pin_placeholder": "Enter PIN"
   },
   "password": {
     "sign_in_with_password": "Login with Password",
     "remember_me": "Remember Me",
     "login": "Continue",
-    "uin_label_text": "Username",
+    "uin_label_text": "UIN/VID",
     "password_label_text": "Password",
-    "uin_placeholder": "Enter 8-9 digit mobile number",
+    "uin_placeholder": "Enter Your UIN or VID",
     "password_placeholder": "Enter password",
     "forgot_password": "Forgot Password?",
     "reset_password": "Reset Password"
@@ -89,8 +89,7 @@
     "dob": "Enter DOB",
     "policyNumber_placeholder": "Policy Number",
     "fullName_placeholder": "Full Name",
-    "dob_placeholder": "DOB",
-    "auth_failed": "Login failed, please enter correct credentials"
+    "dob_placeholder": "DOB"
   },
   "LoginQRCode": {
     "scan_with_wallet": "Scan with {{walletName}} to login",
@@ -107,9 +106,9 @@
     "not_a_robot": "I'm Not a Robot",
     "get_otp": "Get OTP",
     "verify": "Verify",
-    "vid_label_text": "Enter Your VID",
+    "vid_label_text": "UIN/VID",
     "otp_label_text": "OTP",
-    "vid_placeholder": "VID",
+    "vid_placeholder": "Enter Your UIN or VID",
     "otp_placeholder": "1234",
     "mobile_number": "Mobile Number",
     "email_address": "Email Address",
@@ -128,6 +127,7 @@
     "QRCode": "QR Code",
     "OTP": "OTP",
     "PWD": "Password",
+    "walletName": "Inji",
     "preferred_mode_of_login": "Select a preferred mode of login",
     "more_ways_to_sign_in": "More ways to sign in",
     "or": "OR",
@@ -154,10 +154,10 @@
     "signup_for_unified_login": "Sign Up with Unified Login",
     "subheader_text": {
       "all_login_options": "Please choose the login option",
-      "otp_login": "Please enter your VID",
-      "biometrics_login": "Please enter your VID & verify using the Biometric device",
+      "otp_login": "Please enter your UIN/VID",
+      "biometrics_login": "Please enter your UIN/VID & verify using the Biometric device",
       "pin_login": "Please enter your UIN/VID and PIN",
-      "password_login": "Please enter your registered username and password",
+      "password_login": "Please enter your UIN/VID and password",
       "kba_login": "Please fill the below details",
       "wallet_login": "Please scan the below QR code to login"
     }
@@ -181,7 +181,10 @@
   },
   "tooltips": {
     "vid_info": "Please fill in this field",
-    "username_info": "Enter your 8-9 digit registered mobile number and ensure it does not begin with \"0\""
+    "otp_info": "Enter your generated UIN/VID",
+    "bio_info": "Enter your generated UIN/VID",
+    "pin_info": "Enter your generated UIN/VID",
+    "username_info": "Enter your generated UIN/VID"
   },
   "errors": {
     "navigate_option": "Please try navigating using the options below.",
@@ -236,7 +239,7 @@
     "invalid_no_of_challenges": "Null or Empty Authentication Challenges Not Allowed.",
     "invalid_transaction_id": "Null or Empty TransactionId Not Allowed.",
     "invalid_auth_factor_type": "Null or Empty Authentication Factor Type Not Allowed.",
-    "invalid_challenge": "Authentication Challenge is Required.",
+    "invalid_challenge": "Invalid input provided",
     "invalid_status": "Unsupported Status Value Provided.",
     "invalid_accepted_claim": "Invalid User Claims Accepted.",
     "invalid_auth_code": "Invalid Authorization Code Provided.",
@@ -313,6 +316,8 @@
     "proof_invalid_aud": "Invalid value in proof payload aud claim.",
     "proof_invalid_iat": "Invalid value in proof payload iat claim.",
     "proof_invalid_nonce": "Invalid value in proof payload nonce claim.",
+    "no_attempts_left": "Maximum authentication attempts reached. Please try again later.",
+    "individual_id_blocked": "User temporarily blocked. Please try again after some time.", 
     "invalid_state_response": "Invalid state",
     "authCode_missing": "AuthCode Missing",
     "failed_to_validate_captcha": "Failed to validate captcha",
@@ -450,7 +455,11 @@
       "IDA-MLC-018": "Invalid username. Please enter a valid username.",
       "IDA-PSD-001": "Incorrect username or password. Please try again.",
       "IDA-PSD-002": "Incorrect username or password. Please try again."
-    },"statusCodeHeader": {
+    },
+    "kba": {
+      "auth_failed": "Login failed, please enter correct credentials"
+    },
+    "statusCodeHeader": {
       "400": "Bad Request",
       "401": "Unauthorized",
       "402": "Payment Required",
