@@ -2,8 +2,13 @@
   "quick_guide": {
     "breadcrumb": {
       "home": "Home",
-      "getting_started": "Getting Started"
+      "getting_started": "How to Preregister"
     },
+    "headerText": {
+      "line1": "To pre-register for one or more applicants, fill out the demographic details and upload the required documents. To book an appointment, choose your preferred registration center, date and time. On successful pre-registration, you will receive the notification on your provided email id or phone number.",
+      "line2": "Click the following sections for more information about completing the Pre-registration form."
+    },
+
     "headerText": {
       "line1": "To pre-register for one or more applicants, fill out the demographic details and upload the required documents. To book an appointment, choose your preferred registration center, date and time. On successful pre-registration, you will receive the notification on your provided email id or phone number.",
       "line2": "Click the following sections for more information about completing the Pre-registration form."
@@ -197,10 +202,262 @@
       "line": "Login with the same mobile number or email id to access the saved applications."
     }
   },
+  "quick_guideFaq": {
+    "breadcrumb": {
+      "home": "Home",
+      "getting_started": "How to Preregister"
+    },
+    "headerText": {
+      "line1": ".",
+      "line2": "Click the following sections to view the answers to the FAQs."
+    },
+
+    "select_language": {
+      "name": "How many categories of Ugandan citizenship are there?",
+      "list": {
+        "line1": "Citizenship by Birth (Art 10): This applies to individuals born in Uganda under certain conditions, such as having parents or grandparents belonging to listed indigenous communities.",
+        "line2": "Citizenship by Registration (Art 12): This allows legal residents who meet specific requirements to become citizens through an application process.",
+        "line3": "Citizenship by Naturalization (Art 13): This category is for foreign nationals who have lived in Uganda for a significant period and meet specific criteria to become citizens."
+      },
+      "note": "Note: Field and button labels, error and information messages throughout the application will be displayed in the preferred language."
+    },
+    "login": {
+      "name": "Am I a Ugandan Citizen by Birth/Descent?",
+      "note": "You are automatically a Ugandan citizen by birth if you meet one of the following conditions (Ref Art 10 of 1995 Constitution):",
+      "list": {
+        "line1": "You were born in Uganda, and any of your parents or grandparents belonged to one of the tribes listed in the Third Schedule of the 1995 Constitution of Uganda as of February 1, 1926. (See the list for details.)",
+        "line2": "You were born inside or outside Uganda, and one of your parents or grandparents was a Ugandan citizen by birth at the time of your birth."
+      }
+    },
+    "login2": {
+      "name": "How Do I Prove Citizenship by birth to obtain a National ID?",
+      "note": " If you believe you qualify as a Ugandan citizen by birth, you can apply for a National ID by presenting the following documents:",
+      "list": {
+        "line1": "Parents' National IDs: Bring either your mother's or father's National ID (or both if available).",
+        "line2": "Recommendation: Obtain a recommendation letter from your Local Council (LC) and District Internal Security Officer (DISO)."
+      }
+    },
+    "login3": {
+      "name": "Can I Become a Ugandan Citizen by Registration?",
+      "note": " Yes, you can apply to be registered as a Ugandan citizen if you meet one of the following conditions:",
+      "list": {
+        "line1": "You have been married to a Ugandan citizen for at least three years and can provide valid proof of marriage.",
+        "line2": "You have legally and voluntarily resided in Uganda for at least ten years.",
+        "line3": "You have lived in Uganda for at least twenty years as of the start of the 1995 Constitution."
+      }
+    },
+
+    "login4": {
+      "name": "Can I Become a Ugandan Citizen by Naturalization?",
+      "note": " Yes, you can apply for Ugandan citizenship by naturalization if you meet all of the following conditions:",
+      "list": {
+        "line1": "You have resided in Uganda for a total of 20 years, with at least the last 2 years continuously before applying.",
+        "line2": "You have adequate knowledge of either an indigenous Ugandan language or English.",
+        "line3": "You have a good moral character.",
+        "line4": "You intend to permanently reside in Uganda."
+      },
+      "note": "Note: These are just the basic requirements additional information can be obtained from DCIC."
+    },
+
+    "login5": {
+      "name": "I was a Ugandan citizen before the 1995 constitution. How do I get a National ID?",
+      "note": "If you already held Ugandan citizenship on October 8th, 1995, the day the current Constitution came into effect, you automatically retained your citizenship under Article 9. However, to obtain a National ID, you'll need to provide evidence of your existing citizenship i.e under granted 1962,1966,1967. This is because the National Identification and Registration Authority (NIRA) needs to verify your status before issuing the ID. Here are some documents that can support your claim:",
+      "list": {
+        "line1": "Previous passports: Passports of your parents or grandparents showing their birth and your birth in Uganda during the British Protectorate period.",
+        "line2": "Birth certificates: Your birth certificate indicating your birth in Uganda during the British Protectorate period.",
+        "line3": "Previous immigration records: Any documentation showing your immigration status and residence in Uganda before the 1995 Constitution."
+      }
+    },
+    "login6": {
+      "name": "Does Uganda recognize Dual Citizenship?",
+      "note": "Yes, dual citizenship is possible in Uganda under the 1995 Constitution (as amended) and the Uganda Citizenship and Immigration Control (Amendment) Act of 2009. This means you can hold Ugandan citizenship alongside another nationality. Who is eligible and how does one apply?",
+      "list": {
+        "line1": "Ugandan citizens: If you already have Ugandan citizenship and wish to acquire another, you can apply for dual citizenship.",
+        "line2": "Non-citizens: If you're a foreign national seeking Ugandan citizenship but want to retain your current nationality, you can apply for dual citizenship.",
+        "line3": "Both scenarios require an application to the National Citizenship and Immigration Board (NCIB). They will assess your eligibility based on specific criteria."
+      }
+    },
+    "login7": {
+      "name": "As a dual citizen what do I need to present to obtain a National ID ?",
+      "note": "",
+      "list": {
+        "line1": "Once you receive your Certificate of Dual Citizenship from the NCIB, you can apply for a National ID by presenting the certificate alongside a certified copy of the Certificate to any of the Designated NIRA registration Centers."
+       
+      }
+    },
+    
+    "select_data_capture_language": {
+      "name": "Select data capture language",
+      "list": {
+        "line1": "A user logging in for the first time and having no applications will be prompted with a data capture language pop-up. The same set of languages will be used for the next set of applications created in the same session.",
+        "line2": "The language user selected in login screen will be pre-selected in the data capture language pop-up",
+        "line3": "The user can change this by clicking on the CHANGE DATA CAPTURE LANGUAGES button"
+      },
+      "note": "Note: This choice will be available only if the ID issuer has configured usage of optional languages."
+    },
+    "t&c": {
+      "name": "Accept Terms & Conditions",
+      "list": {
+        "line1": "On the Demographic Details page, you are advised to read the Terms and Conditions and select the check box to agree. This agreement is to provide consent for the storage and processing of your personal information.",
+        "line2": "Click Accept to agree and then fill the demographic details."
+      },
+      "note": "Note: User consent is mandatory for creating/updating applications. The contents will be displayed in all data capture languages"
+    },
+    "demographic": {
+      "name": "Fill Demographic Details",
+      "list": {
+        "line1": "Fill out all your demographic details, which include Name, Age/DOB, Gender, Residential Status, Address, Mobile Number, Email Id, etc.",
+        "line1_note": "Note: You can either enter your Age or enter your Date of Birth (DOB).",
+        "line2": "You can also change or verify your demographic details in the second language on the right side.",
+        "line3": "After you have filled and verified your demographic details, click Continue to upload your documents."
+      },
+      "line": "Note: Field and button labels, error and information messages will be displayed in the user preferred language selected in login screen."
+    },
+    "documents": {
+      "name": "Upload Documents",
+      "list": {
+        "line1": "On the Upload Documents page, select the document (e.g. Passport, Reference Identity Number, etc.) from the document drop-down list per applicable Document Category.",
+        "line2": "Click Browse to open a pop-up window to search the folder on your computer or removable drive where you have saved the scanned document.",
+        "line3": "Select the file that you want to upload.",
+        "line4": "When uploaded successfully, the document will appear on the right side. Verify that you have uploaded the correct document.",
+        "line5": "Repeat steps 1-4 to upload document for each applicable document category.",
+        "line6": "When adding an applicant, if a newly added applicant’s Proof of Address (POA) document is same as the existing user’s POA, who has already uploaded POA document, then click on the Same As option and select the name of the applicant.",
+        "line7": "When you complete upload of all the documents, click Continue to preview your application."
+      }
+    },
+    "preview": {
+      "name": "Preview the Data",
+      "list": {
+        "line1": "On the Preview page, if you want to change your demographic details (Name, Age, etc.), click Modify at the top-right adjacent to the Demographic Details section, to go to the Demographic Details page and change the details as required.",
+        "line2": "To modify your uploaded documents, click Modify at the bottom-right adjacent to the Documents section, to go to the Upload Documents page and modify the uploaded document as required.",
+        "line3": "If you want to add a new applicant, click Add Applicant.",
+        "line3_note": "Note: On clicking the Add Applicant option, you will be navigated to the Demographic Details page to provide Consent and proceed with providing the required demographic data/documents.",
+        "line4": "Click Book Now to book your appointment."
+      }
+    },
+    "CenterSelection": {
+      "name": "Choose a Registration Center",
+      "list": {
+        "line1": "On the Book Appointment page, you can find a registration center through the three options as follows:",
+        "line1_note": "Note:  The recommended registration centers are automatically displayed based on your demographic details (Postal Code)",
+        "subList": {
+          "line1": "Click Nearby Centers to view the registration centers based on your geographical location.",
+          "line2": "Use the search box to find the registration center based on your search criteria.",
+          "line3": "Click Recommended Centers to view registration centers based on your demographic details. (Postal Code)"
+        },
+        "line2": "The map of the selected registration center will be displayed on the right side of your screen.",
+        "line3": "Using any of the three options, select the registration center that you want to visit and click Continue to book an appointment."
+      }
+    },
+    "Booking": {
+      "name": "Book an Appointment",
+      "list": {
+        "line1": "The system displays the list of available calendar days with the number of available bookings. Select your preferred date.",
+        "line2": "The list of available time slots for your selected date is categorized between Morning and Afternoon. Select your preferred option.",
+        "line3": "Select your preferred time slot from the list.",
+        "line4": "Select the particular applicant name to book an appointment.",
+        "line4_note": "Note: A list of applicant name(s) is displayed on the bottom right.",
+        "line5": "Verify the time slot(s) as selected against the applicant name(s).",
+        "line6": "Click Submit to view acknowledgment of your application."
+      }
+    },
+    "Acknowledgement": {
+      "name": "View Acknowledgement",
+      "list": {
+        "line1": "After successful completion of the Pre-registration application, you will receive an acknowledgment.",
+        "line2": "You can print, download, email or SMS your acknowledgment.",
+        "subList": {
+          "line1": "To print your acknowledgement, click Print.",
+          "line2": "To download your acknowledgement, click Download PDF.",
+          "line3": "To add the additional recipient(s) to receive the acknowledgment of your application, follow these steps:",
+          "subList": {
+            "line1": "Click Send Email/SMS.",
+            "line2": "Enter the mobile number in the Enter mobile number text box and/or enter the email ID in the Enter email ID text box.",
+            "line3": "Click Send to receive the acknowledgement on your provided e-mail address or mobile number."
+          }
+        }
+      }
+    },
+    "status": {
+      "name": "Status Explanation",
+      "headers": {
+        "status": "Status",
+        "explanation": "Explanation"
+      },
+      "status": {
+        "pendingAppointment": "Pending Appointment",
+        "booked": "Booked",
+        "expired": "Expired",
+        "canceled": "Cancelled"
+      },
+      "explanation": {
+        "pendingAppointment": {
+          "line1": "Filled only demographic details",
+          "line1_action": "Action: Upload your documents and book an appointment",
+          "line2": "2. Filled demographic details and uploaded documents",
+          "line2_action": "Action: Book an appointment"
+        },
+        "booked": {
+          "line1": "Filled demographic details, uploaded documents, and booked appointment",
+          "line1_action": "Action: Visit the registration center on your appointment date and time"
+        },
+        "cancelled": {
+          "line1": "Appointment has been cancelled"
+        },
+        "expired": {
+          "line1": "Appointment date has passed"
+        }
+      }
+    },
+    "addApplicant": {
+      "name": "Add new Applicant",
+      "line": "In Your Applications page, click Create New Application to generate a new application for the new applicant."
+    },
+    "modify": {
+      "name": "Modify Data",
+      "list": {
+        "line1": "On Your Applications page, click Modify information to go to the Demographic Details page.",
+        "line2": "On the Demographic Details page, you can change the information as necessary and click Continue to go to the Upload Document page",
+        "line3": "On the Upload Document page, you can modify the documents as necessary."
+      }
+    },
+    "rebook": {
+      "name": "Re-book an Appointment",
+      "list": {
+        "line1": "On Your Applications page, select the check box for the applicable applicant.",
+        "line2": "Click Book / Modify Appointment to re-book an appointment.",
+        "line3": "For more information about booking an appointment, see Book an Appointment section."
+      }
+    },
+    "cancelAppointment": {
+      "name": "Cancel an Appointment",
+      "list": {
+        "line1": "On Your Applications page, click on the delete icon against pre-registration application of an applicant, a pop-up window appears on the screen.",
+        "line2": "Select the Cancel appointment and save the details option in the pop-up window. ",
+        "line3": "Click SUBMIT to cancel an appointment."
+      }
+    },
+    "discard": {
+      "name": "Discard an Application",
+      "list": {
+        "line1": "On Your Applications page, click on the delete icon against pre-registration application of an applicant, a pop-up window appears on the screen.",
+        "line2": "Select the Discard entire application option in the pop-up window. ",
+        "line3": "Click SUBMIT to discard your application."
+      }
+    },
+    "Logout": {
+      "name": "Logout",
+      "list": {
+        "line1": "Click Logout at the top right corner.",
+        "line2": "Click OK to logout from Pre-registration application."
+      },
+      "line": "Login with the same mobile number or email id to access the saved applications."
+    }
+  },
   "faq": {
     "breadcrumb": {
       "home": "Home",
-      "getting_started": "FAQ"
+      "getting_started": " Frequently Asked Questions"
     },
     "answer": "Answer",
     "questions": [
@@ -213,12 +470,8 @@
         "answer": "Create a new account using a new mobile number or email ID."
       },
       {
-        "question": "What happens when I select the specific language on the login screen?",
-        "answer": "Select the language that you can easily read and write because the entire form will be displayed in the specific language you have chosen."
-      },
-      {
         "question": "What if I do not have the required document(s) available while filling the pre-registration application?",
-        "answer": "Fill the demographic data and save the application. You can upload the documents later."
+        "answer": "Fill the demographic data and save the application. You will upload the documents later when Biometrics are being Captured."
       },
       {
         "question": "Can I only book an appointment for only two people out of five applicants in the pre-registration application?",
@@ -233,7 +486,7 @@
         "answer": "Yes. If your appointment has expired, you can book a new appointment with a future date."
       },
       {
-        "question": "I have booked an appointment at Casablanca registration center. Can I change my appointment registration center to Rabat?",
+        "question": "I have booked an appointment at Kampala Central registration center. Can I change my appointment registration center to Mukono Registartion Center?",
         "answer": "No, but you can cancel the current appointment and book a new appointment at a new location of your choice."
       },
       {
@@ -250,15 +503,15 @@
       },
       {
         "question": "I am staying away from my permanent residence for two years. What proof of residence do I have to provide?",
-        "answer": "GoM to decide suitability of question and answers"
+        "answer": "You will need LC recomendation letter to proove your area of residence"
       },
       {
         "question": "I do not have proof of residence for my present address. What should I do?",
-        "answer": "GoM to decide suitability of question and answers."
+        "answer": "You may continue Pre registration process and later, prepare a recomendation Letter from LC and then Present it on the day when biometrics will be uploaded."
       },
       {
         "question": "I do not have any documents. What should I do?",
-        "answer": "GoM to decide suitability of question and answers."
+        "answer": "Prepare all the required documents depending on your type of Citzeship before appearing for Biometric Capture."
       },
       {
         "question": "How many days before can I cancel or re-book an appointment?",
@@ -266,23 +519,98 @@
       },
       {
         "question": "Do I have to carry original documents or certified document copies when I visit registration center?",
-        "answer": "GoM to decide suitability of question and answers."
+        "answer": "You need to carry all the Necesary documents that prooves your Citizenship or Residential status."
       }
     ]
   },
+
+  "faq-citizen": {
+    "breadcrumb": {
+      "home": " Home ",
+      "getting_started": " Common Citizenship Questions"
+    },
+    "answer": "Answer",
+    "answer1": "Answer",
+    "answer2": "Answer2",
+    "questions": [
+      {
+        "question": "How many categories of Ugandan citizenship are there?",
+        "answer1": "How many categories /n of Ugandan citizenship are there?",
+        "answer2": "How many categories /n of Ugandan citizenship are there?"
+      },
+      {
+        "question": "I have lost the mobile number/email ID that I used to create the pre-registration application. What should I do?",
+        "answer": "Create a new account using a new mobile number or email ID."
+      },
+      {
+        "question": "What if I do not have the required document(s) available while filling the pre-registration application?",
+        "answer": "Fill the demographic data and save the application. You will upload the documents later when Biometrics are being Captured."
+      },
+      {
+        "question": "Can I only book an appointment for only two people out of five applicants in the pre-registration application?",
+        "answer": "Yes, you can book an appointment for any number of people out of the total applicants."
+      },
+      {
+        "question": "What happens if I miss an appointment date?",
+        "answer": "Try not to miss an appointment date. If you still miss it, reschedule the appointment by using the “Modify” option."
+      },
+      {
+        "question": "I have booked an appointment on 10th of February. Can I change my appointment date to 18th of February?",
+        "answer": "Yes. If your appointment has expired, you can book a new appointment with a future date."
+      },
+      {
+        "question": "I have booked an appointment at Kampala Central registration center. Can I change my appointment registration center to Mukono Registartion Center?",
+        "answer": "No, but you can cancel the current appointment and book a new appointment at a new location of your choice."
+      },
+      {
+        "question": "I have modified my information after I received an acknowledgment. Do I have to download or print the acknowledgement again?",
+        "answer": "The acknowledgement page is only a reference document to remember the location and time of appointment, etc. At the registration center, your latest information will be automatically available. Thus, there is no official need to re-print or download"
+      },
+      {
+        "question": "I have rescheduled an appointment after I received an acknowledgment. Do I have to download or print the acknowledgement again?",
+        "answer": "The acknowledgement page is only a reference document to remember the location and time of appointment, etc. You can re-print or download the acknowledgment to help you remember when your appointment is but there is no official need to do so."
+      },
+      {
+        "question": "Can someone else submit an application on my behalf during the registration process?",
+        "answer": "No, the registration process requires biometric and photo capture. Therefore, you must be present in person at the registration center."
+      },
+      {
+        "question": "I am staying away from my permanent residence for two years. What proof of residence do I have to provide?",
+        "answer": "You will need LC recomendation letter to proove your area of residence"
+      },
+      {
+        "question": "I do not have proof of residence for my present address. What should I do?",
+        "answer": "You may continue Pre registration process and later, prepare a recomendation Letter from LC and then Present it on the day when biometrics will be uploaded."
+      },
+      {
+        "question": "I do not have any documents. What should I do?",
+        "answer": "Prepare all the required documents depending on your type of Citzeship before appearing for Biometric Capture."
+      },
+      {
+        "question": "How many days before can I cancel or re-book an appointment?",
+        "answer": "GoM to decide suitability of question and answers."
+      },
+      {
+        "question": "Do I have to carry original documents or certified document copies when I visit registration center?",
+        "answer": "You need to carry all the Necesary documents that prooves your Citizenship or Residential status."
+      }
+    ]
+  },
+
   "header": {
-    "link_about": "GETTING STARTED",
-    "link_faq": "FAQ",
+    "link_about": "HOW TO PRE-REGISTER",
+    "link_faq": "FAQs",
+    "link_faq-citizen": "Citizenship Guidelines",
     "link_contact": "CONTACT",
     "link_applications": "Your Applications",
     "link_logout": "Logout",
     "link_login": "LOGIN"
   },
   "login": {
-    "text": "Quick & Easy steps",
-    "sub_text": "Pre-register for",
-    "sub_text_UID": "Unique Identification Number",
-    "label_email_num": "Email ID or Phone Number",
+    "text": "Uganda National ID Application",
+    "sub_text": "Pre-Registration",
+    "sub_text_UID": "Portal",
+    "label_email_num": "Enter your Email Address or Phone Number",
     "label_otp": "Enter OTP",
     "action_send": "Send OTP",
     "action_resend": "Resend",
@@ -332,7 +660,6 @@
     "action_continue": "CONTINUE",
     "action_preview": "PREVIEW",
     "read_only_message": "** You can no longer edit this application, since you have currently or previously booked an appointment for it. If you still want to make changes, then discard this application and make a new one.",
-    "read_only_message_prefetched": "** You can no longer edit this application, since the application is Prefetched. If you still want to make changes, then discard this application and make a new one.",
     "lookup_search_message": "Search ",
     "lookup_no_results_found": "No matching results found.",
     "change_data_capture_langs": "Change data capture languages",
@@ -355,7 +682,7 @@
     }
   },
   "documents": {
-    "title_document": "Upload Documents",
+    "title_document": "Upload Documents For Proof",
     "text_filetype": "Allowed file type ",
     "text_filesize": "and allowed file size",
     "action_browse": "BROWSE",
@@ -385,7 +712,7 @@
     "label_reg_cntr_dtl": "Center Address"
   },
   "preview": {
-    "title_preview": "Preview",
+    "title_preview": "Applicant Details",
     "language": "English",
     "subheading_information": "Personal Information",
     "label_name": "Full Name",
@@ -456,14 +783,11 @@
     "title": "Your Applications",
     "name" : "Application",
     "action_modify_information": "Modify Information",
-    "action_modify_appointment": "Book/Modify Appointment",
-    "action_cre_application": "Pre Registration ",
-    "action_lost_uin": "Lost UIN ",
-    "action_update_registration": "Update Registration ",
+    "action_modify_appointment": "Book / Modify Appointment",
+    "action_cre_application": "Create New Application ",
     "card": {
       "text_app_id": "Application ID",
       "text_name": "Name",
-      "text_type": "Application Type",
       "text_appoinment_date": "Appointment Date",
       "text_status": "Status",
       "action_modify_information": "Modify Information",
@@ -536,7 +860,6 @@
       "title_failure": "Failure",
       "msg_failure": "Appointment Booking Failed",
       "noSlotsSelectedForApplicant": "No Date/Slot has been selected for an application",
-      "noApplicantSelected": "No Applicant has been selected for an application",
       "deletedApplicant1": [
         "You have not selected any time slot for following user \r\n",
         "Do you wish to continue booking"
@@ -589,8 +912,7 @@
     "action_nearBy": "Nearby",
     "display_recommended": "Recommended Centres",
     "text_found": "Found",
-    "text_centers": "centers.",
-    "use_search_option": "Please use search option to find a center.",
+    "text_centers": "centers",
     "text_timing": "Timing",
     "text_open": "Open",
     "text_select": "Select Location Types",
@@ -703,7 +1025,6 @@
     "PRE-REG-OTP-406": "Input Data Validation Failed",
     "PRE-REG-OTP-407": "Token generation failed",
     "PRE-REG-OTP-408": "OTP has already been generated and sent to your email id / phone number. If you want a new OTP, please try again after sometime.",
-    "PRE-REG-OTP-409": "OTP Validation attempt exceeded, Please regenerate OTP and try again after sometime",
     "PRG_PAM_APP_001": "Failed to create the pre-registration with demographic data provided",
     "PRG_PAM_APP_002": "unable to access the pre-registration table ",
     "PRG_PAM_APP_003": "delete operation is not allowed ",
@@ -829,5 +1150,5 @@
     "UI_1001": "Please enter between 3 to 50 characters",
     "UI_1003": "Please enter values starting with a character followed by 6 digits and ending with a character",
     "UI_1004": "Enter only 10 digit numbers"
-  }  
+  }
 }
