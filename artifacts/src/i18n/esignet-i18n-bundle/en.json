@@ -56,8 +56,8 @@
     "scan_and_verify": "Scan and Verify",
     "sign_in_with_biometric": "Login with Biometric",
     "retry": "Retry",
-    "vid_label_text": "VID",
-    "vid_placeholder": "Enter Your VID",
+    "vid_label_text": "UIN/VID",
+    "vid_placeholder": "Enter Your UIN or VID",
     "Face": "Face",
     "Finger": "Finger",
     "Iris": "Iris",
@@ -67,18 +67,18 @@
     "sign_in_with_pin": "Login with PIN",
     "remember_me": "Remember Me",
     "login": "Login",
-    "uin_label_text": "VID",
+    "uin_label_text": "UIN/VID",
     "pin_label_text": "PIN",
-    "uin_placeholder": "Enter Your VID",
+    "uin_placeholder": "Enter Your UIN or VID",
     "pin_placeholder": "Enter PIN"
   },
   "password": {
     "sign_in_with_password": "Login with Password",
     "remember_me": "Remember Me",
     "login": "Continue",
-    "uin_label_text": "VID",
+    "uin_label_text": "UIN/VID",
     "password_label_text": "Password",
-    "uin_placeholder": "Enter Your VID",
+    "uin_placeholder": "Enter Your UIN or VID",
     "password_placeholder": "Enter password",
     "forgot_password": "Forgot Password?",
     "reset_password": "Reset Password"
@@ -98,7 +98,7 @@
     "dont_have_wallet": "Don't Have {{walletName}}?",
     "download_now": "Download Now",
     "link_code_status": "Link Code Status",
-    "failed": "Failed",
+    "failed": "Unable to login. Please scan QR code and try again.",
     "refresh": "Refresh QR Code",
     "open_wallet_app": "Open {{walletName}} App"
   },
@@ -108,9 +108,9 @@
     "not_a_robot": "I'm Not a Robot",
     "get_otp": "Get OTP",
     "verify": "Verify",
-    "vid_label_text": "VID",
+    "vid_label_text": "UIN/VID",
     "otp_label_text": "OTP",
-    "vid_placeholder": "Enter Your VID",
+    "vid_placeholder": "Enter Your UIN or VID",
     "otp_placeholder": "1234",
     "mobile_number": "Mobile Number",
     "email_address": "Email Address",
@@ -156,10 +156,10 @@
     "signup_for_unified_login": "Sign Up with Unified Login",
     "subheader_text": {
       "all_login_options": "Please choose the login option",
-      "otp_login": "Please enter your VID",
-      "biometrics_login": "Please enter your VID & verify using the Biometric device",
-      "pin_login": "Please enter your VID and PIN",
-      "password_login": "Please enter your VID and password",
+      "otp_login": "Please enter your UIN/VID",
+      "biometrics_login": "Please enter your UIN/VID & verify using the Biometric device",
+      "pin_login": "Please enter your UIN/VID and PIN",
+      "password_login": "Please enter your UIN/VID and password",
       "kba_login": "Please fill the below details",
       "kbi_login": "Please fill the below details",
       "wallet_login": "Please scan the below QR code to login"
@@ -299,7 +299,7 @@
     "response_timeout": "The request took too long to process. Please try again later.",
     "invalid_state": "The transaction is found in an invalid state. Please contact support for assistance.",
     "authorization_failed_msg": "Unable to authorize. Please try again.",
-    "consent_request_rejected": "Consent Request Rejected",
+    "consent_request_rejected": "We’re sorry! Your login was unsuccessful as consent was not shared.",
     "invalid_bind_auth_factor_type": "Invalid bind auth factor type.",
     "json_processing_error": "Unable to process. Please try again.",
     "invalid_auth_challenge": "Invalid Auth challenge.",
@@ -374,7 +374,7 @@
     "103": "Device tampering has been detected. Please check and try again.",
     "104": "Unable to connect to the management server. Please check your connection and try again.",
     "105": "Image orientation error detected. Please adjust the image and resubmit.",
-    "106": "Device Not Found",
+    "106": "Unable to locate the biometric device. Please try again.",
     "107": "Device Public Key Expired",
     "108": "Domain Public Key Missing",
     "109": "Requested Number of Biometric (Finger/Iris) Not Supported",
@@ -447,7 +447,7 @@
       "IDA-OTA-002": "Unable to send OTP. Please try again.",
       "IDA-OTA-003": "OTP expired. Please request a new one and try again.",
       "IDA-OTA-004": "Please enter valid OTP.",
-      "IDA-OTA-005": "Input transactionID does not match transactionID of OTP Request",
+      "IDA-OTA-005": "OTP verification unsuccessful. Please try again.",
       "IDA-OTA-006": "UIN is locked for OTP generation. Please try again later",
       "IDA-OTA-007": "UIN is locked for OTP validation due to exceeding no of invalid OTP trials",
       "IDA-OTA-008": "OTP Notification Channel not provided.",
@@ -458,7 +458,7 @@
       "send_otp_failed": "Unable to send OTP. Please try again.",
       "send_otp_failed_msg": "Unable to send OTP. Please try again.",
       "invalid_otp_channel": "Invalid OTP Channel Provided.",
-      "auth_failed": "Wrong OTP entered. Please enter valid OTP.",
+      "auth_failed": "OTP authentication failed. Please try again.",
       "IDA-MLC-018": "IPlease Enter Valid UIN."
     },
     "biometrics": {
@@ -479,34 +479,34 @@
       "IDA-BIA-016": "Quality check could not be performed due to a technical issue. Please try again later or contact support for assistance.",
       "IDA-BIA-017": "Unable to perform biometric match due to a technical issue. Please try again later or contact support if the problem persists.",
       "IDA-BIA-018": "Unable to Process the Request due to a Technical Issue",
-      "auth_failed": "Biometric data not available. Please try again.",
-      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
+      "auth_failed": "Biometric authentication failed. Please try again.",
+      "IDA-MLC-018": "The UIN/VID you entered is incorrect. Please Enter Valid UIN/VID."
     },
     "pin": {
-      "invalid_pin": "Invalid Pin",
-      "auth_failed": "Incorrect pin. Please try again.",
-      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
+      "invalid_pin": "The PIN you entered is incorrect. Please check and enter the valid PIN.",
+      "auth_failed": "PIN authentication failed. Please try again.",
+      "IDA-MLC-018": "The UIN/VID you entered is incorrect. Please Enter Valid UIN/VID."
     },
     "wallet": {
-      "failed_to_link": "Failed to Link",
-      "qr_code_expired": "QR Code Expired",
+      "failed_to_link": "Failed to link wallet. Please try scanning the QR code again.",
+      "qr_code_expired": "QR code has expired. Please request a new QR code and try scanning again.",
       "invalid_qrcode_config": "Invalid QRCode configuration. Please report to the site admin.",
       "link_code_refresh_failed": "Failed to Load",
-      "auth_failed": "Wallet local authentication failed. Please try again.",
-      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
+      "auth_failed": "Wallet authentication failed. Please try again.",
+      "IDA-MLC-018": "The UIN/VID you entered is incorrect. Please Enter Valid UIN/VID."
     },
     "password": {
-      "auth_failed": "Incorrect username or password. Please try again.",
-      "password_error_msg": "Invalid Password",
-      "IDA-MLC-018": "Invalid username. Please enter a valid username.",
-      "IDA-PSD-001": "Incorrect username or password. Please try again.",
-      "IDA-PSD-002": "Incorrect username or password. Please try again."
+      "auth_failed": "Username or password is not valid. Please enter valid credentials.",
+      "password_error_msg": "The password you entered is not valid. Please enter valid password.",
+      "IDA-MLC-018": "The username you entered is not valid. Please enter valid username.",
+      "IDA-PSD-001": "Username or password is not valid. Please enter valid credentials.",
+      "IDA-PSD-002": "Username or password is not valid. Please enter valid credentials."
     },
     "kba": {
-      "auth_failed": "Login failed, please enter correct credentials"
+      "auth_failed": "Login unsuccessful. Please check your credentials and try again."
     },
     "kbi": {
-      "auth_failed": "Login failed, please enter correct credentials"
+      "auth_failed": "Login unsuccessful. Please check your credentials and try again."
     },
     "statusCodeHeader": {
       "400": "Bad Request",
