@@ -12,6 +12,7 @@ on:
       - 1.*
       - MOSIP*
       - release*
+      - DSD-6231
   
 jobs:
   build-docker-artifactory-server:
