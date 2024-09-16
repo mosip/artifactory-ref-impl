@@ -84,10 +84,10 @@
   "Form": {
     "sign_in_with_details": "Login with Details",
     "login": "Login",
-    "policyNumber": "Enter Policy Number",
+    "policyNumber": "Enter Farmer ID",
     "fullName": "Enter Full Name",
     "dob": "Enter DOB",
-    "policyNumber_placeholder": "Policy Number",
+    "policyNumber_placeholder": "Farmer ID",
     "fullName_placeholder": "Full Name",
     "dob_placeholder": "DOB"
   },
