@@ -177,12 +177,12 @@
       "showInListView": "false",
       "showInSingleView": "true",
       "label": {
-        "eng": "Scenario",
-        "ara": "السيناريو",
-        "fra": "scénario",
-        "hin": "परिदृश्य ",
-        "kan": "ಸನ್ನಿವೇಶ   ",
-        "tam": "காட்சி "
+        "eng": "Content",
+        "ara": "محتوى",
+        "fra": "Contenu",
+        "hin": "सामग्री ",
+        "kan": "ವಿಷಯ   ",
+        "tam": "உள்ளடக்கம் "
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -208,7 +208,53 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "dropdown",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "options": [
+        {
+          "code": "txt",
+          "label": {
+            "eng": "Text File",
+            "ara": "ملف نصي",
+            "fra": "Fichier texte",
+            "hin": "पाठ फ़ाइल",
+            "kan": "ಮಾತ್ರದ ಪಾठ",
+            "tam": "உரை கோப்பு"
+          }
+        },
+        {
+          "code": "xml",
+          "label": {
+            "eng": "Xml File",
+            "ara": "ملف XML",
+            "fra": "Fichier XML",
+            "hin": "एक्सएमएल फ़ाइल",
+            "kan": "XML  ಕಡತ",
+            "tam": "XML கோப்பு"
+          }
+        },
+        {
+          "code": "json",
+          "label": {
+            "eng": "Json File",
+            "ara": "ملف JSON",
+            "fra": "Fichier JSON",
+            "hin": "जेसन फ़ाइल",
+            "kan": "JSON  ಕಡತ",
+            "tam": "JSON கோப்பு"
+          }
+        },
+        {
+          "code": "html",
+          "label": {
+            "eng": "Html File",
+            "ara": "ملف HTML",
+            "fra": "Fichier HTML",
+            "hin": "एचटीएमएल फ़ाइल",
+            "kan": "HTML ಕಡತ",
+            "tam": "HTML கோப்பு"
+          }
+        }
+      ]
     },
     {
       "name": "templateTypeCode",
@@ -246,7 +292,75 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "dropdown",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "options": [
+        {
+          "id": "10001",
+          "label": {
+            "eng": "Pre-Registration",
+            "ara": "التسجيل المسبق",
+            "fra": "Pré-inscription",
+            "hin": "पूर्व-पंजीकरण",
+            "kan": "ಪೂರ್ವ ನೋಂದಣಿ",
+            "tam": "முன் பதிவு"
+          }
+        },
+        {
+          "id": "10002",
+          "label": {
+            "eng": "Registration Client",
+            "ara": "عميل التسجيل",
+            "fra": "Client dinscription",
+            "hin": "पंजीकरण ग्राहक",
+            "kan": "ನೋಂದಣಿ ಗ್ರಾಹಕ",
+            "tam": "பதிவு வாடிக்கையாளர்"
+          }
+        },
+        {
+          "id": "10003",
+          "label":{
+            "eng": "Registration Processor",
+            "ara": "معالج التسجيل",
+            "fra": "Processeur dinscription",
+            "hin": "पंजीकरण प्रोसेसर",
+            "kan": "ನೋಂದಣಿ ಪ್ರೊಸೆಸರ್",
+            "tam": "பதிவு செயலி"
+          }
+        },
+        {
+          "id":"10004",
+          "label":{
+            "eng": "ID Authentication",
+            "ara": "مصادقة الهوية",
+            "fra": "Authentification ID",
+            "hin": "आईडी प्रमाणीकरण",
+            "kan": "ID ದೃಢೀಕರಣ",
+            "tam": "ஐடி அங்கீகாரம்"
+          }
+        },
+        {
+          "id":"10005",
+          "label":{
+            "eng": "ID Control",
+            "ara": "معرف التحكم",
+            "fra": "Contrôle didentité",
+            "hin": "आईडी नियंत्रण",
+            "kan": "ID ನಿಯಂತ್ರಣ",
+            "tam": "அடையாளக் கட்டுப்பாடு"
+          }
+        },
+        {
+          "id":"10006",
+          "label":{
+            "eng": "Resident Portal",
+            "ara": "بوابة المقيمين",
+            "fra": "Portail Résident",
+            "hin": "निवासी पोर्टल",
+            "kan": "ನಿವಾಸ ಪೋರ್ಟಲ್",
+            "tam": "குடியுரிமை போர்ட்டல்"
+          }
+        }
+      ]
     },
     {
       "name": "moduleName",

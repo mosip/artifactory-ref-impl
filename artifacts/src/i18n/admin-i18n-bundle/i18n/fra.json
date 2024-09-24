@@ -32,7 +32,10 @@
 			"subItem3": "Obtenir un certificat",
 			"subItem4": "Télécharger le certificat",
 			"subItem5": "Télécharger un autre certificat de domaine"
-		}
+		},
+        "item8": {
+            "title": "Récupérer le RID perdu"
+        }
 	},
 	"dashboard": {
 		"welcomeMessage": "Bienvenue sur le portail d'administration Mosip!"
@@ -490,11 +493,21 @@
 			"message": "Échec de la validation de la session en cours",
 			"btnTxt": "D'accord"
 		},
-        "payloadtoolarge": {
-            "title": "La charge utile de la requête est trop volumineuse",
-            "message": "La taille de la charge utile dépasse la limite de taille. Veuillez vérifier la taille de la charge utile.",
-            "btnTxt": "D'accord"
-        }
+                "payloadtoolarge": {
+                        "title": "La charge utile de la requête est trop volumineuse",
+                        "message": "La taille de la charge utile dépasse la limite de taille. Veuillez vérifier la taille de la charge utile.",
+                        "btnTxt": "D'accord"
+                },
+	        "servicedown": {
+                        "title": "Service temporairement indisponible",
+                        "message": "Le service n'est pas prêt à traiter la demande. Veuillez essayer après un certain temps.",
+                        "btnTxt": "D'accord"
+                },
+                "offLine": {
+                        "title": "Pas d'Internet",
+                         "message": "La page ne peut pas être chargée",
+                          "btnTxt": "D'accord"
+               }
 	},
 	"validationMessages": {
 		"required": "Veuillez renseigner les champs \"À\" et \"De\" pour filtrer selon la plage de dates",
@@ -1014,9 +1027,10 @@
 		"Zone": "Zone",
 		"Logout": "Se déconnecter"
 	},
-	"paginationLabel": {
-		"showRows": "Afficher les lignes"
-	},
+    "paginatorIntl": {
+        "itemsPerPageLabel": "objets par page",
+        "of": "de"
+    },
 	"keymanager": {
 		"applicationIds": [
 			{
@@ -1085,7 +1099,7 @@
 		"KER-MSD-149": "Une erreur s'est produite lors de la récupération des détails du mappage de type de demandeur-catégorie de document-type de document",
 		"KER-MSD-150": "Catégorie de document - Mappage de type de document introuvable",
 		"KER-MSD-001": "Une erreur s'est produite lors de la récupération des applications",
-		"KER-MSD-101": "Une erreur s'est produite lors de l'insertion des détails de l'application",
+		"KER-MSD-101": "Demande de type Centre en double, le centre existe avec les mêmes détails.",
 		"KER-MSD-002": "Application non trouvée",
 		"KER-MSD-201": "Mauvaise demande trouvée",
 		"KER-MSD-193": "Une erreur s'est produite lors de la récupération de la configuration de l'application",
@@ -1296,6 +1310,7 @@
 		"KER-MSD-058": "Une erreur s'est produite lors de l'insertion des détails de la raison",
 		"KER-MSD-263": "une erreur s'est produite lors de la recherche de l'enregistrement : demande invalide",
 		"KER-MSD-364": "Impossible de reprendre le paquet",
+		"KER-MSD-365": "La spécification de l'appareil est inactive",
 		"ADM-DPM-032": "L'ID/le nom du fournisseur de périphérique n'existe pas dans la liste des fournisseurs de périphériques enregistrés",
 		"ADM-DPM-035": "Une erreur s'est produite lors du stockage des détails du périphérique enregistré",
 		"ADM-DPM-042": "%s Impossible d'enregistrer le périphérique car il ne s'agit pas d'un périphérique sur liste blanche",
@@ -1423,7 +1438,6 @@
 		"KER-MSD-037": "Une erreur s'est produite lors de la récupération des mappages du centre d'enregistrement, de la machine et de l'utilisateur",
 		"KER-MSD-038": "Centre d'enregistrement, Machine, Utilisateur non trouvé",
 		"KER-MSD-039": "Format de date invalide",
-		"KER-MSD-319": "Entrée de requête invalide",
 		"KER-MSD-500": "Erreur serveur interne",
 		"KER-MSD-998": "Déjà activé ou désactivé",
 		"KER-MSD-997": "Identifiant non valide transmis pour la langue principale",
@@ -1451,7 +1465,6 @@
 		"KER-SCH-019": "Mêmes bioattributs utilisés dans le champ avec le même sous-type : %s",
 		"KER-MSD-045": "Une erreur s'est produite lors de la récupération des modèles",
 		"KER-MSD-145": "Exception lors de l'insertion de données dans la base de données",
-		"KER-MSD-046": "Modèle introuvable.",
 		"KER-MSD-238": "Une erreur s'est produite lors de la mise à jour du modèle",
 		"KER-MSD-096": "Une erreur s'est produite lors de la suppression du modèle",
 		"KER-MSD-232": "Une erreur s'est produite lors de l'insertion des détails du format de fichier modèle",
@@ -1526,7 +1539,7 @@
 		"KER-USR-017": "Mappage de zone et d'utilisateur non présent dans la base de données",
 		"KER-USR-018": "demande en double",
 		"KER-USR-021": "L'utilisateur donné déjà mappé avec une zone différente",
-		"KER-USR-022": "Le mappage du centre utilisateur doit être supprimé avant que l'utilisateur ne soit retiré de la zone", 
+		"KER-USR-022": "Le mappage du centre utilisateur doit être supprimé avant de supprimer l'utilisateur de la zone", 
 		"ADMN-BLK-TRNSCTNS-001": "Impossible de récupérer les transactions",
 		"ADMN-BLK-001": "Toute erreur s'est produite lors de l'opération en bloc. Si la catégorie est des données maîtres, les opérations de liste sont répertoriées. Si la catégorie est un paquet, la liste des informations sur les paquets ayant échoué sont répertoriées",
 		"ADM-BLK-001": "Les données n'existent pas dans la base de données",
@@ -1672,6 +1685,8 @@
         "ADM-AVD-009" : "L'utilisation du partage de données a expiré",
 		"ADM-AVD-509" : "RID introuvable",
 		"ADM-AVD-510" : "Limite de recherche de candidats dépassée",
-		"ADM-AVD-511" : "ID de demande introuvable"
+		"ADM-AVD-511" : "ID de demande introuvable",
+		"KER-USR-025" : "Le mappage central est manquant, l'utilisateur ne peut pas être activé.",
+		"KER-MSD-281" : "Nombre de kiosques invalide"
 	}
 }
