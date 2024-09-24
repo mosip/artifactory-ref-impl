@@ -438,6 +438,7 @@
       "msg11": "Veuillez confirmer que vous souhaitez supprimer le fichier ",
       "msg12": "Veuillez saisir uniquement du texte ou des chiffres",
       "msg13": "Veuillez entrer seulement 50 caractères ou moins",
+      "msg14": "Le fichier protégé par mot de passe n'est pas autorisé au téléchargement",
       "title_confirm": "Supprimer",
       "button_cancel": "Annuler",
       "none": "aucun"
@@ -460,7 +461,7 @@
     "name" : "Application",
     "action_modify_information": "Modifier les informations",
     "action_modify_appointment": "Réserver / modifier un rendez-vous",
-    "action_cre_application": "Pré-inscription ",
+    "action_cre_application": "Créer une nouvelle application ",
     "action_lost_uin": "Perdue UIN ",
     "action_update_registration": "Mettre à jour l'enregistrement ",
     "card": {
@@ -578,7 +579,7 @@
     "action_add": "Ajouter",
     "action_close": "Fermer",
     "action_add_to_slot": "Ajouter à la fente",
-    "navigation_alert": "Êtes-vous sûr de vouloir quitter le site car les données saisies ne seront pas enregistrées. Veuillez confirmer"
+    "navigation_alert": "Certaines modifications non enregistrées sur ce formulaire seront perdues si vous décidez de quitter le formulaire. Souhaitez-vous vous éloigner?"
   },
   "centerSelection": {
     "title": " Rendez-vous du livre ",
@@ -735,6 +736,7 @@
     "PRG_PAM_DOC_021": "Le document est déjà présent",
     "PRG_PAM_DOC_022": "DocumentId n'appartient pas à l'Id de pré-inscription",
     "PRG_PAM_DOC_024": "Le tableau des documents ne peut pas être mis à jour par ce statut",
+    "PRG_PAM_DOC_025": "Le fichier protégé par mot de passe n'est pas autorisé au téléchargement",
     "PRG_PAM_ACK_001": "Le numéro de mobile ou l'identifiant de messagerie est manquant",
     "PRG_PAM_ACK_002": "Les champs obligatoires sont manquants",
     "PRG_PAM_ACK_003": "Exception de requête http Json",
