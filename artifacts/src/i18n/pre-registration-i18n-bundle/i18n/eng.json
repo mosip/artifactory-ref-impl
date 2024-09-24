@@ -435,6 +435,7 @@
       "msg11": "Please confirm that you want to delete file ",
       "msg12": "Please enter only text or numbers",
       "msg13": "Please enter only 50 characters or less",
+      "msg14": "Password-protected file is not allowed for upload",
       "title_confirm": "Delete",
       "button_cancel": "Cancel",
       "none": "None"
@@ -457,7 +458,7 @@
     "name" : "Application",
     "action_modify_information": "Modify Information",
     "action_modify_appointment": "Book/Modify Appointment",
-    "action_cre_application": "Pre Registration ",
+    "action_cre_application": "Create Application ",
     "action_lost_uin": "Lost UIN ",
     "action_update_registration": "Update Registration ",
     "card": {
@@ -582,7 +583,7 @@
     "action_add": "Add",
     "action_close": "Close",
     "action_add_to_slot": "Add to Slot",
-    "navigation_alert": "Are you sure you would like to navigate away as data entered will not be saved. Please confirm"
+    "navigation_alert": "There are unsaved changes on this form that will be lost if you decide to navigate away. Would you like to navigate away?"
   },
   "centerSelection": {
     "title": " Book Appointment ",
@@ -747,6 +748,7 @@
     "PRG_PAM_DOC_021": "Document is alredy present",
     "PRG_PAM_DOC_022": "DocumentId is not belongs to the pre-registration Id",
     "PRG_PAM_DOC_024": "Document table not able to update by this status",
+    "PRG_PAM_DOC_025": "Password-protected file is not allowed for upload",
     "PRG_PAM_ACK_001": "Mobile number or Email Id is missing",
     "PRG_PAM_ACK_002": "Mandatory fields are missing",
     "PRG_PAM_ACK_003": "Json http request exception",
