@@ -101,8 +101,6 @@ ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 
 # environment variable for theme zip path
 ENV theme_zip_path=${base_path}/libs-release-local/theme
-# environment variable for image zip path
-ENV image_zip_path=${base_path}/libs-release-local/image
 
 # environment variable for image zip path
 ENV image_zip_path=${base_path}/libs-release-local/image
@@ -196,7 +194,7 @@ COPY ./configure.sh ${work_dir}/
 
 COPY pom.xml ${work_dir}/
 
-#RUN cd ${work_dir} && mvn dependency:resolve && mvn clean install
+RUN cd ${work_dir} && mvn dependency:resolve && mvn clean install
 
 RUN bash configure.sh
 
