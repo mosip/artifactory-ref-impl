@@ -110,6 +110,9 @@ ENV image_zip_path=${base_path}/libs-release-local/image
 # environment variable for idp auth wrapper zip path
 ENV idp_auth_wrapper_lib_zip_path=${base_path}/libs-release-local/idp/idp-auth-wrapper
 
+# environment variable for certify plugins zip path
+ENV certify_plugin_zip_path=${base_path}/libs-release-local/certify
+
 # environment variable for esignet wrappers zip path
 ENV esignet_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet
 
@@ -142,6 +145,8 @@ COPY /src/sdk/demosdk/install.sh ${demosdk_zip_path}/demosdk/
 COPY /src/deployment/docker/id-authentication/* ${ida_sh_path}/
 
 COPY /src/hsm/client.zip ${hsm_client_path}/
+
+COPY /src/hsm/client-21.zip ${hsm_client_path}/
 
 COPY /src/mosip-plugins/sign-in-with-esignet/sign-in-with-esignet.zip ${mosip_plugins_zip_path}/
 
@@ -191,7 +196,7 @@ COPY ./configure.sh ${work_dir}/
 
 COPY pom.xml ${work_dir}/
 
-RUN cd ${work_dir} && mvn dependency:resolve && mvn clean install
+#RUN cd ${work_dir} && mvn dependency:resolve && mvn clean install
 
 RUN bash configure.sh
 
