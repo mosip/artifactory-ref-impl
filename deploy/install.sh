@@ -7,7 +7,7 @@ if [ $# -ge 1 ] ; then
 fi
 
 NS=artifactory
-CHART_VERSION=0.9.1-INJI
+CHART_VERSION=0.9.1-INJI-develop
 
 echo Create $NS namespace
 kubectl create ns $NS 
