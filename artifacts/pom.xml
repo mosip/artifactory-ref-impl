@@ -87,6 +87,11 @@
 		<kernel-transliteration.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j</kernel-transliteration.location>
 		<kernel-transliteration.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration.fileName>
 
+		<!-- This is added temporary and will be removed once resident service is released -->
+		<kernel-transliteration-java-11.version>1.2.0.1</kernel-transliteration-java-11.version>
+		<kernel-transliteration-java-11.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j/java11</kernel-transliteration-java-11.location>
+		<kernel-transliteration-java-11.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration-java-11.fileName>
+
 		<!-- kernel-smsserviceprovider-->
 		<kernel-smsserviceprovider.version>1.2.0.2</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
