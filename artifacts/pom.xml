@@ -128,6 +128,12 @@
 		<biosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/mock/0.9/biosdk-client</biosdk-client.location>
 		<biosdk-client-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/biosdk-lib</biosdk-client-lib.location>
 		<biosdk-client.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client.fileName>
+		<!-- This is added temporary and will be removed dependent modules are migrated to java 21 -->
+		<biosdk-client-java-11.version>1.2.0.1</biosdk-client-java-11.version>
+		<biosdk-client-java-11.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/mock/0.9/java11/biosdk-client</biosdk-client-java-11.location>
+		<biosdk-client-lib-java-11.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/java11/biosdk-lib</biosdk-client-lib-java-11.location>
+		<biosdk-client-java-11.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client-java-11.fileName>
+
 		<!-- demosdk-client -->
 		<demosdk-client.version>1.2.0.1</demosdk-client.version>
 		<demosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/demosdk/default/demosdk</demosdk-client.location>
@@ -328,6 +334,16 @@
 					<version>${biosdk-client.version}</version>
 					 <outputDirectory>${biosdk-client.location}</outputDirectory> 
 					<destFileName>${biosdk-client.fileName}</destFileName>
+					<classifier>jar-with-dependencies</classifier>
+					<type>jar</type>
+				</artifactItem>
+				<!-- This is added temporary and will be removed dependent modules are migrated to java 21 -->
+				<artifactItem>
+					<groupId>io.mosip.biosdk</groupId>
+					<artifactId>biosdk-client</artifactId>
+					<version>${biosdk-client-java-11.version}</version>
+					<outputDirectory>${biosdk-client-java-11.location}</outputDirectory>
+					<destFileName>${biosdk-client-java-11.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
