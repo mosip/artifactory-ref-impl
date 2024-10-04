@@ -16,6 +16,12 @@ zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/
 rm -rf ${biosdk_client_zip_path}/biosdk-client
 echo biosdk client zip creation completed
 
+# This is added temporary and will be removed dependent modules are migrated to java 21
+echo biosdk client zip java11 creation started
+zip -r -j ${biosdk_client_zip_java11_path}/biosdk-client.zip ${biosdk_client_zip_java11_path}/biosdk-client/*
+rm -rf ${biosdk_client_zip_java11_path}/biosdk-client
+echo biosdk client zip creation completed
+
 echo biosdk-lib zip creation started
 zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-lib/*
 rm -rf ${biosdk_lib_zip_path}/biosdk-lib
