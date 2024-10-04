@@ -72,6 +72,11 @@
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
+		<!-- This is added temporary and will be removed dependent modules are migrated to java 21 -->
+		<auth-adapter-java-11.version>1.2.0.1</auth-adapter-java-11.version>
+		<auth-adapter-java-11.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/java11</auth-adapter-java-11.location>
+		<auth-adapter-java-11.fileName>kernel-auth-adapter.jar</auth-adapter-java-11.fileName>
+
 		<!-- This is auth-adapter-lite dependency and kept for backward compatibility and will be removed in future -->
 		<auth-adapter-lite.version>1.2.0.1-B4</auth-adapter-lite.version>
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
@@ -82,14 +87,26 @@
 		<kernel-transliteration.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j</kernel-transliteration.location>
 		<kernel-transliteration.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration.fileName>
 
+		<!-- This is added temporary and will be removed once resident service is released -->
+		<kernel-transliteration-java-11.version>1.2.0.1</kernel-transliteration-java-11.version>
+		<kernel-transliteration-java-11.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j/java11</kernel-transliteration-java-11.location>
+		<kernel-transliteration-java-11.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration-java-11.fileName>
+
 		<!-- kernel-smsserviceprovider-->
 		<kernel-smsserviceprovider.version>1.2.0.2</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 		<!-- kernel-ref-idobjectvalidator -->
-		<kernel-ref-idobjectvalidator.version>1.2.0.2</kernel-ref-idobjectvalidator.version>
+		<!-- This is added temporary and need to change with release branch -->
+		<kernel-ref-idobjectvalidator.version>1.2.1-SNAPSHOT</kernel-ref-idobjectvalidator.version>
 		<kernel-ref-idobjectvalidator.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator</kernel-ref-idobjectvalidator.location>
 		<kernel-ref-idobjectvalidator.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator.fileName>
+
+		<!-- This is added temporary and will be removed once mosip-ref-impl is released -->
+		<kernel-ref-idobjectvalidator-java-11.version>1.2.0.2</kernel-ref-idobjectvalidator-java-11.version>
+		<kernel-ref-idobjectvalidator-java-11.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator/java11</kernel-ref-idobjectvalidator-java-11.location>
+		<kernel-ref-idobjectvalidator-java-11.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator-java-11.fileName>
+
 		<!-- kernel-virusscanner-clamav -->
 		<kernel-virusscanner-clamav.version>1.2.0.2</kernel-virusscanner-clamav.version>
 		<kernel-virusscanner-clamav.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</kernel-virusscanner-clamav.location>
