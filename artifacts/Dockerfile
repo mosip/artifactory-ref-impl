@@ -22,11 +22,10 @@ ARG container_user_uid=1001
 ARG container_user_gid=1001
 
 # install packages and create user
-RUN add-apt-repository ppa:openjdk-r/ppa -y && \
-apt-get update -y && \
+RUN apt-get update -y && \
 apt-get install -y gnupg2 && \
 apt-get update -y && \
-apt-get install -y --no-install-recommends unzip wget zip openjdk-21-jdk && \
+apt-get install -y --no-install-recommends unzip wget zip openjdk-11-jdk && \
 groupadd -g ${container_user_gid} ${container_user_group} &&\
 rm -rf /var/lib/apt/lists/* &&\
 wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz &&\
