@@ -25,6 +25,7 @@ ARG container_user_gid=1001
 # install packages and create user
 # install packages and create user
 # install packages and create user
+# install packages and create user
 RUN apt-get update -y && \
 apt-get install -y gnupg2 && \
 apt-get update -y && \
@@ -43,7 +44,7 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 
 ENV MAVEN_HOME /usr/local/maven
 ENV PATH $MAVEN_HOME/bin:$PATH
-ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64
+ENV JAVA_HOME /usr/lib/jvm/java-21-openjdk
 
 # set working directory for the user
 WORKDIR /home/${container_user}
