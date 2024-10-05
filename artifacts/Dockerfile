@@ -22,7 +22,8 @@ ARG container_user_uid=1001
 ARG container_user_gid=1001
 
 # install packages and create user
-RUN apt-get update -y && \
+RUN add-apt-repository ppa:openjdk-r/ppa -y && \
+apt-get update -y && \
 apt-get install -y gnupg2 && \
 apt-get update -y && \
 apt-get install -y --no-install-recommends unzip wget zip openjdk-21-jdk && \
