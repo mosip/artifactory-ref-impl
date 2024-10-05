@@ -25,7 +25,8 @@ ARG container_user_gid=1001
 RUN apt-get update -y && \
 apt-get install -y gnupg2 && \
 apt-get update -y && \
-apt-get install -y --no-install-recommends unzip wget zip openjdk-11-jdk && \
+wget https://download.java.net/java/GA/jdk21.0.2/f2283984656d49d69e91c558476027ac/13/GPL/openjdk-21.0.2_linux-x64_bin.tar.gz &&\
+tar xvf openjdk-21.0.2_linux-x64_bin.tar.gz && mv jdk-21.0.2/ /usr/lib/jvm/java-21-openjdk && rm openjdk-21.0.2_linux-x64_bin.tar.gz &&\
 groupadd -g ${container_user_gid} ${container_user_group} &&\
 rm -rf /var/lib/apt/lists/* &&\
 wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz &&\
@@ -38,7 +39,7 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 
 ENV MAVEN_HOME /usr/local/maven
 ENV PATH $MAVEN_HOME/bin:$PATH
-ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64
+ENV JAVA_HOME /usr/lib/jvm/java-21-openjdk
 
 # set working directory for the user
 WORKDIR /home/${container_user}
