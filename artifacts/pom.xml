@@ -109,13 +109,9 @@
 		<kernel-ref-idobjectvalidator-java-11.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator-java-11.fileName>
 
 		<!-- kernel-virusscanner-clamav -->
-		<kernel-virusscanner-clamav.version>1.2.1-SNAPSHOT</kernel-virusscanner-clamav.version>
+		<kernel-virusscanner-clamav.version>1.2.0.2</kernel-virusscanner-clamav.version>
 		<kernel-virusscanner-clamav.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</kernel-virusscanner-clamav.location>
 		<kernel-virusscanner-clamav.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav.fileName>
-		<!-- This is added temporary and will be removed dependent modules are migrated to java 21 -->
-		<kernel-virusscanner-clamav-java-11.version>1.2.0.2</kernel-virusscanner-clamav-java-11.version>
-		<kernel-virusscanner-clamav-java-11.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav/java11</kernel-virusscanner-clamav-java-11.location>
-		<kernel-virusscanner-clamav-java-11.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav-java-11.fileName>
 		<!-- registration-api-impl -->
 		<registration-api-impl.version>1.2.0.2</registration-api-impl.version>
 		<registration-api-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/registration-client/registration-api-impl</registration-api-impl.location>
@@ -217,15 +213,6 @@
 					<destFileName>${auth-adapter.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
-				<!-- This is added temporary and will be removed dependent modules are migrated to java 21 -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-auth-adapter</artifactId>
-					<version>${auth-adapter-java-11.version}</version>
-					<outputDirectory>${auth-adapter-java-11.location}</outputDirectory>
-					<destFileName>${auth-adapter-java-11.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
 
 				<artifactItem>
 	       	 	                <groupId>io.mosip.kernel</groupId>
@@ -255,15 +242,6 @@
 					<destFileName>${kernel-transliteration.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
-				<!-- This is added temporary and will be removed dependent modules are migrated to java 21 -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-transliteration-icu4j</artifactId>
-					<version>${kernel-transliteration-java-11.version}</version>
-					<outputDirectory>${kernel-transliteration-java-11.location}</outputDirectory>
-					<destFileName>${kernel-transliteration-java-11.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
 <!-- artifactItem section for ref-idobjectvaidator -->
 				<artifactItem>
 					<groupId>io.mosip.kernel</groupId>
@@ -271,15 +249,6 @@
 					<version>${kernel-ref-idobjectvalidator.version}</version>
 					 <outputDirectory>${kernel-ref-idobjectvalidator.location}</outputDirectory> 
 					<destFileName>${kernel-ref-idobjectvalidator.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-				<!-- This is added temporary and will be removed dependent modules are migrated to java 21 -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-ref-idobjectvalidator</artifactId>
-					<version>${kernel-ref-idobjectvalidator-java-11.version}</version>
-					<outputDirectory>${kernel-ref-idobjectvalidator-java-11.location}</outputDirectory>
-					<destFileName>${kernel-ref-idobjectvalidator-java-11.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
 
@@ -299,15 +268,6 @@
 					<version>${kernel-virusscanner-clamav.version}</version>
 					 <outputDirectory>${kernel-virusscanner-clamav.location}</outputDirectory> 
 					<destFileName>${kernel-virusscanner-clamav.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-				<!-- This is added temporary and will be removed dependent modules are migrated to java 21 -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-virusscanner-clamav</artifactId>
-					<version>${kernel-virusscanner-clamav-java-11.version}</version>
-					<outputDirectory>${kernel-virusscanner-clamav-java-11.location}</outputDirectory>
-					<destFileName>${kernel-virusscanner-clamav-java-11.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for clamav client -->
