@@ -93,8 +93,7 @@
 		<kernel-transliteration-java-11.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration-java-11.fileName>
 
 		<!-- kernel-smsserviceprovider-->
-		<!-- This is added temporary and need to change with release branch -->
-		<kernel-smsserviceprovider.version>1.2.1-SNAPSHOT</kernel-smsserviceprovider.version>
+		<kernel-smsserviceprovider.version>1.2.0.2</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 		<!-- kernel-ref-idobjectvalidator -->
