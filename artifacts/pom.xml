@@ -83,15 +83,15 @@
 		<kernel-transliteration.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration.fileName>
 
 		<!-- kernel-smsserviceprovider-->
-		<kernel-smsserviceprovider.version>1.2.0.2</kernel-smsserviceprovider.version>
+		<kernel-smsserviceprovider.version>1.3.0-SNAPSHOT</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 		<!-- kernel-ref-idobjectvalidator -->
-		<kernel-ref-idobjectvalidator.version>1.2.0.2</kernel-ref-idobjectvalidator.version>
+		<kernel-ref-idobjectvalidator.version>1.3.0-SNAPSHOT</kernel-ref-idobjectvalidator.version>
 		<kernel-ref-idobjectvalidator.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator</kernel-ref-idobjectvalidator.location>
 		<kernel-ref-idobjectvalidator.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator.fileName>
 		<!-- kernel-virusscanner-clamav -->
-		<kernel-virusscanner-clamav.version>1.2.0.2</kernel-virusscanner-clamav.version>
+		<kernel-virusscanner-clamav.version>1.3.0-SNAPSHOT</kernel-virusscanner-clamav.version>
 		<kernel-virusscanner-clamav.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</kernel-virusscanner-clamav.location>
 		<kernel-virusscanner-clamav.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav.fileName>
 		<!-- registration-api-impl -->
