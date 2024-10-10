@@ -136,8 +136,6 @@ COPY /src/sdk/demosdk/install.sh ${demosdk_zip_path}/demosdk/
 
 COPY /src/deployment/docker/id-authentication/* ${ida_sh_path}/
 
-COPY /src/hsm/client.zip ${hsm_client_path}/
-
 COPY /src/hsm/client-21.zip ${hsm_client_path}/
 
 COPY /src/mosip-plugins/sign-in-with-esignet/sign-in-with-esignet.zip ${mosip_plugins_zip_path}/
@@ -170,7 +168,7 @@ COPY /src/i18n/esignet-i18n-bundle/*  ${work_dir}/esignet-i18n-bundle/
 
 COPY /src/theme/esignet-theme/* ${work_dir}/esignet-theme/
 
-COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
+COPY /src/jre/* ${regclient_jar_path}/
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
 
