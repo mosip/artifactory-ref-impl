@@ -72,6 +72,9 @@ ENV ida_sh_path=${base_path}/libs-release-local/deployment/docker/id-authenticat
 # environment variable for hsm client path
 ENV hsm_client_path=${base_path}/libs-release-local/hsm
 
+# environment variable for custom-impl jar path
+ENV custom_zip_path=${base_path}/libs-release-local/impl
+
 # environment variable for mosip-plugins zip path
 ENV mosip_plugins_zip_path=${base_path}/libs-release-local/mosip-plugins
 
@@ -160,6 +163,8 @@ COPY /src/i18n/pmp-entity-spec-bundle/*  ${work_dir}/pmp-entity-spec-bundle/
 COPY /src/i18n/pmp-i18n-bundle/*  ${work_dir}/pmp-i18n-bundle/
 
 COPY /src/i18n/pmp-revamp-i18n-bundle/*  ${work_dir}/pmp-revamp-i18n-bundle/
+
+COPY /src/impl/* ${custom_zip_path}/
 
 COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n-bundle/
 
