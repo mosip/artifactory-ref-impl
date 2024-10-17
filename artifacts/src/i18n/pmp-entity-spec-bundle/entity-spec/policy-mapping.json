@@ -1,20 +1,20 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
 	"actionButtons": [{
-			"buttonName": {
-				"eng": "Manage Policy",
-				"ara": "إدارة النهج",
-				"fra": "Gérer la politique",
-				"hin": "नीति प्रबंधित करें",
-				"kan": "ನೀತಿಯನ್ನು ನಿರ್ವಹಿಸಿ",
-				"tam": "கொள்கையை நிர்வகிக்கவும்"
-			},
-			"actionURL": "",
-			"redirectURL": "",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "ApproveorRejectPolicy"
+		"buttonName": {
+			"eng": "Manage Policy",
+			"ara": "إدارة النهج",
+			"fra": "Gérer la politique",
+			"hin": "नीति प्रबंधित करें",
+			"kan": "ನೀತಿಯನ್ನು ನಿರ್ವಹಿಸಿ",
+			"tam": "கொள்கையை நிர்வகிக்கவும்"
 		},
+		"actionURL": "",
+		"redirectURL": "",
+		"showIn": "Ellipsis",
+		"validations": "",
+		"callBackFunction": "ApproveorRejectPolicy"
+	},
 		{
 			"buttonName": {
 				"eng": "Map Policy",
@@ -95,7 +95,7 @@
 			"showAsLink": "",
 			"linkType": "",
 			"LinkURL": "",
-			"inputType": "dropdown",
+			"inputType": "dropdownpartner",
 			"ismandatory": "true",
 			"showInListView": "false",
 			"showInSingleView": "true"
@@ -207,11 +207,11 @@
 			"filtername": "partnerName",
 			"filterlabel": {
 				"eng": "Partner Name",
-                                "ara": "اسم شريك",
-                                "fra": "Nom du partenaire",
-                                "hin": "साथी का नाम",
-                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
-                                "tam": "கூட்டாளர் பெயர்"
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -226,11 +226,11 @@
 			"filtername": "policyName",
 			"filterlabel": {
 				"eng": "Partner Name",
-                                "ara": "اسم السياسة",
-                                "fra": "Nom de la politique",
-                                "hin": "पालिसी का नाम",
-                                "kan": "ನೀತಿಯ ಹೆಸರು",
-                                "tam": "கொள்கை பெயர்"
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿಯ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -245,11 +245,11 @@
 			"filtername": "requestDetail",
 			"filterlabel": {
 				"eng": "Request Detail",
-                                "ara": "طلب التفاصيل",
-                                "fra": "Détail de la demande",
-                                "hin": "अनुरोध विवरण",
-                                "kan": "ವಿನಂತಿಯ ವಿವರ",
-                                "tam": "கோரிக்கை விவரம்"
+				"ara": "طلب التفاصيل",
+				"fra": "Détail de la demande",
+				"hin": "अनुरोध विवरण",
+				"kan": "ವಿನಂತಿಯ ವಿವರ",
+				"tam": "கோரிக்கை விவரம்"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
