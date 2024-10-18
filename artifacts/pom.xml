@@ -75,7 +75,7 @@
 		<auth-adapter-lite.version>1.2.0.1-B4</auth-adapter-lite.version>
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
-		
+
 		<!-- kernel-smsserviceprovider-->
 		<kernel-smsserviceprovider.version>1.2.0.2</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
@@ -135,16 +135,35 @@
 		<!-- latest mock-sdk -->
 		<mock-sdk-latest.version>1.2.0.2</mock-sdk-latest.version>
 
+		<!-- certify sunbird plugin -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
-		<!-- certify sunbird plugin  -->
-		<certify-sunbird-plugin.version>0.2.1</certify-sunbird-plugin.version>
+		<certify-sunbird-plugin.version>0.3.0-SNAPSHOT</certify-sunbird-plugin.version>
 		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
 		<!-- certify mosip identity plugin -->
-		<certify-mosip-identity-plugin.version>0.2.1</certify-mosip-identity-plugin.version>
+		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
+		<certify-mosip-identity-plugin.version>0.3.0-SNAPSHOT</certify-mosip-identity-plugin.version>
 		<certify-mosip-identity-plugin.fileName>certify-mosip-identity-plugin.jar</certify-mosip-identity-plugin.fileName>
 		<!-- certify mock plugin -->
-		<certify-mock-plugin.version>0.2.1</certify-mock-plugin.version>
+		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
+		<certify-mock-plugin.version>0.3.0-SNAPSHOT</certify-mock-plugin.version>
 		<certify-mock-plugin.fileName>certify-mock-identity-plugin.jar</certify-mock-plugin.fileName>
+
+		<!-- certify mock ida dataprovider plugin -->
+		<certify-mock-ida-dataprovider-plugin.version>0.3.0-SNAPSHOT</certify-mock-ida-dataprovider-plugin.version>
+		<certify-mock-ida-dataprovider-plugin.fileName>certify-mock-ida-dataprovider-plugin.jar</certify-mock-ida-dataprovider-plugin.fileName>
+
+		<!-- esignet IDA wrapper -->
+		<esignet-ida-wrapper.version>1.2.1-SNAPSHOT</esignet-ida-wrapper.version>
+		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
+		<esignet-digital-credential-wrapper.version>0.2.1-SNAPSHOT</esignet-digital-credential-wrapper.version>
+		<esignet-digital-credential-wrapper.fileName>sunbird-rc-esignet-integration-impl.jar</esignet-digital-credential-wrapper.fileName>
+
+		<esignet-plugins.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-plugins</esignet-plugins.location>
+		<esignet-mock-plugin.version>1.3.0-SNAPSHOT</esignet-mock-plugin.version>
+		<esignet-mock-plugin.fileName>esignet-mock-plugin.jar</esignet-mock-plugin.fileName>
+		<mosip-identity-plugin.version>1.3.0-SNAPSHOT</mosip-identity-plugin.version>
+		<mosip-identity-plugin.fileName>mosip-identity-plugin.jar</mosip-identity-plugin.fileName>
+
 	</properties>
 	
 	<build>
@@ -375,6 +394,34 @@
                             <destFileName>${certify-mock-plugin.fileName}</destFileName>
                             <type>jar</type>
                     </artifactItem>
+<!-- artifactItem section for certify mock ida dataprovider plugin -->
+					<artifactItem>
+						<groupId>io.mosip.certify</groupId>
+						<artifactId>mock-ida-dataprovider-plugin</artifactId>
+						<version>${certify-mock-ida-dataprovider-plugin.version}</version>
+						<outputDirectory>${certify-plugin.location}</outputDirectory>
+						<destFileName>${certify-mock-ida-dataprovider-plugin.fileName}</destFileName>
+						<type>jar</type>
+					</artifactItem>
+
+					<artifactItem>
+						<groupId>io.mosip.esignet.plugin</groupId>
+						<version>${mosip-identity-plugin.version}</version>
+						<artifactId>mosip-identity-plugin</artifactId>
+						<outputDirectory>${esignet-plugins.location}</outputDirectory>
+						<destFileName>${mosip-identity-plugin.fileName}</destFileName>
+						<type>jar</type>
+					</artifactItem>
+
+					<artifactItem>
+						<groupId>io.mosip.esignet.plugin</groupId>
+						<version>${esignet-mock-plugin.version}</version>
+						<artifactId>mock-plugin</artifactId>
+						<outputDirectory>${esignet-plugins.location}</outputDirectory>
+						<destFileName>${esignet-mock-plugin.fileName}</destFileName>
+						<type>jar</type>
+					</artifactItem>
+
 				</artifactItems>
 			<overWriteReleases>true</overWriteReleases>
               		<overWriteSnapshots>true</overWriteSnapshots>
