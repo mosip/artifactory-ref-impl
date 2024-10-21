@@ -134,10 +134,6 @@
 		<authentication-childauthfilter-impl.version>1.2.0.2</authentication-childauthfilter-impl.version>
 		<authentication-childauthfilter-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/authentication/authentication-ref-impl</authentication-childauthfilter-impl.location>
 		<authentication-childauthfilter-impl.fileName>authentication-childauthfilter-impl.jar</authentication-childauthfilter-impl.fileName>
-		<!-- idp authentication wrapper -->
-		<authentication-wrapper.version>0.9.0</authentication-wrapper.version>
-		<authentication-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/idp/idp-auth-wrapper</authentication-wrapper.location>
-		<authentication-wrapper.fileName>authentication-wrapper.jar</authentication-wrapper.fileName>
 		<!-- esignet mock authentication wrapper -->
 		<esignet-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-wrapper</esignet-wrapper.location>
 		<esignet-mock-wrapper.version>0.9.3</esignet-mock-wrapper.version>
@@ -327,15 +323,6 @@
 							<version>${redis-cache.version}</version>
 							<outputDirectory>${redis-cache.location}</outputDirectory>
 							<destFileName>${redis-cache.fileName}</destFileName>
-							<type>jar</type>
-						</artifactItem>
-						<!-- artifactItem section for idp authentication wrapper - only required for idp v090-->
-						<artifactItem>
-							<groupId>io.mosip.idp</groupId>
-							<artifactId>authentication-wrapper</artifactId>
-							<version>${authentication-wrapper.version}</version>
-							<outputDirectory>${authentication-wrapper.location}</outputDirectory>
-							<destFileName>${authentication-wrapper.fileName}</destFileName>
 							<type>jar</type>
 						</artifactItem>
 						<!-- artifactItem section for esignet authentication wrapper -->
