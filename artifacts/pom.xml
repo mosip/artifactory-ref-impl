@@ -130,10 +130,6 @@
 		<hazelcast.version>3.12.12</hazelcast.version>
 		<hazelcast.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast.location>
 		<hazelcast.fileName>cache-provider.jar</hazelcast.fileName>
-		<!-- authentication-childauthfilter-impl -->
-		<authentication-childauthfilter-impl.version>1.2.0.2</authentication-childauthfilter-impl.version>
-		<authentication-childauthfilter-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/authentication/authentication-ref-impl</authentication-childauthfilter-impl.location>
-		<authentication-childauthfilter-impl.fileName>authentication-childauthfilter-impl.jar</authentication-childauthfilter-impl.fileName>
 		<!-- esignet mock authentication wrapper -->
 		<esignet-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-wrapper</esignet-wrapper.location>
 		<esignet-mock-wrapper.version>0.9.3</esignet-mock-wrapper.version>
@@ -295,15 +291,6 @@
 							<outputDirectory>${biosdk-client-lib.location}</outputDirectory>
 							<destFileName>${mock-sdk-dep.fileName}</destFileName>
 							<classifier>jar-with-dependencies</classifier>
-							<type>jar</type>
-						</artifactItem>
-						<!-- artifactItem section for childauthfilter jar -->
-						<artifactItem>
-							<groupId>io.mosip.authentication</groupId>
-							<artifactId>authentication-childauthfilter-impl</artifactId>
-							<version>${authentication-childauthfilter-impl.version}</version>
-							<outputDirectory>${authentication-childauthfilter-impl.location}</outputDirectory>
-							<destFileName>${authentication-childauthfilter-impl.fileName}</destFileName>
 							<type>jar</type>
 						</artifactItem>
 						<!-- artifactItem section for hazelcast-all jar -->
