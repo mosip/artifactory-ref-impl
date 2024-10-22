@@ -150,7 +150,7 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "textarea",
-      "ismandatory": "false"
+      "ismandatory": "true"
     },
     {
       "name": "value",
