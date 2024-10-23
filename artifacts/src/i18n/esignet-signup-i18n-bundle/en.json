@@ -1,4 +1,5 @@
 {
+  "logo_alt": "eSignet Signup",
   "register": "Register",
   "landing_page_title": "Oops! The page you are looking for does not exist.",
   "landing_page_description": "Please try navigating using the options below.",
@@ -70,6 +71,8 @@
   "full_name_validation": "Please enter a valid name",
   "full_name_all_spaces_validation": "Please enter a valid name.",
   "full_name_in_lng_validation": "Full Name has to be in Khmer only.",
+  "full_name_min_validation": "Full Name has to be greater than or equal to {minLength} characters.",
+  "full_name_max_validation": "Full Name has to be less than or equal to {maxLength} characters.",
   "password_validation": "Password does not meet the password policy. Click on \"i\" to know more.",
   "password_validation_must_match": "New Password and Confirm New Password do not match.",
   "register_password_validation_must_match": "Password and Confirm Password do not match.",
@@ -81,8 +84,124 @@
   "privacy_and_policy_title": "Privacy & Policy",
   "signup_discontinue_prompt": "Are you sure you want to discontinue the sign up process?",
   "reset_password_discontinue_prompt": "Are you sure you want to discontinue the reset password process?",
+  "offline_polling_prompt": "Your network connection dropped, please check your internet connection.",
+  "online_polling_prompt": "You are now connected with internet.",
   "footer": {
     "powered_by": "Powered by"
+  },
+  "eykc_loading": {
+    "header": "Alert!",
+    "description": "Oops! It looks like you’re using an unsupported browser. Please consider upgrading to the latest version of the browser for the best experience. Thank you for your understanding"
+  },
+  "session": {
+    "alert": {
+      "title": "Alert!",
+      "description": "Your session is about to expire due to inactivity",
+      "countDown": "Session expiring in {remainingTimeBeforePrompt} minutes",
+      "continueSession": "Continue Session"
+    },
+    "expired": {
+      "title": "Session Expired",
+      "description": "Your session has expired due to inactivity. Please click on the below button to return to the login screen.",
+      "returnToLogin": "Return to Login"
+    }
+  },
+  "slot_checking": {
+    "header": "Loading!!!",
+    "description": "Kindly wait as we initiate your eKYC"
+  },
+  "slot_unavailable": {
+    "header": "Alert!",
+    "description": "We are experiencing a higher than usual demand, hence we are unable to proceed with the eKYC verification process at this moment. We regret the inconvenience and request you to please try again later. Thank you for your understanding."
+  },
+  "loadingMsgs": {
+    "please_wait": "Loading. Please wait....."
+  },
+  "video_preview": {
+    "header": "Key Information",
+    "cancel_button": "Cancel",
+    "proceed_button": "Proceed",
+    "permission_denied_header": "Camera Access Disabled",
+    "permission_denied_description": "Your camera permission has be disabled. Please enable camera permission from your browser setting..",
+    "not_accessible_header": "Camera Not Accessible",
+    "not_accessible_description": "Your camera is not accessible. Please check your camera accessibility, some other application is accessing your camera right now.",
+    "key_info": {
+      "step_1": "Verify the functionality of your camera using the video preview on the right",
+      "step_2": "Ensure you are positioned in a well-lit area to facilitate clear video capture",
+      "step_3": "Position your face within the oval frame, ensuring your face is clearly visible",
+      "step_4": "Remove any accessories or items that could obstruct your face, such as hats or sunglasses.",
+      "step_5": "Maintain a stable posture throughout the video recording to prevent blurring",
+      "step_6": "Be prepared to follow instructions provided on screen during the eKYC process, such as blinking or turning your head as directed.",
+      "step_7": "Have your ID readily accessible for the verification purposes."
+    }
+  },
+  "terms_and_conditions": {
+    "header": "Terms & Conditions",
+    "sub_header": "Please read the terms and conditions carefully.",
+    "agree_text": "I agree to the terms and conditions as set out by the user agreement.",
+    "failed_to_load": "Failed to load terms and conditions",
+    "still_loading": "Terms and conditions are still loading. Please wait",
+    "cancel_button": "Cancel",
+    "proceed_button": "Proceed"
+  },
+  "cancel_alert_popover": {
+    "title": "Attention!",
+    "description": "{relyingParty} requires access in order to proceed further, do you still wish to discontinue?",
+    "stay": "Stay",
+    "discontinue": "Discontinue"
+  },
+  "kyc_provider": {
+    "header": "Please select an eKYC service provider",
+    "no_kyc_provider": "No eKYC provider found",
+    "search_placeholder": "Search",
+    "cancel_button": "Cancel",
+    "proceed_button": "Proceed"
+  },
+  "verification_steps": {
+    "header": "Complete your eKYC verification with the below simple steps",
+    "cancel": "Cancel",
+    "proceed": "Proceed",
+    "ekycSteps": {
+      "ekyc_provider": {
+        "label": "Choose an eKYC provider",
+        "description": "Select an eKYC service provider that aligns with your requirements"
+      },
+      "terms_&_conditions": {
+        "label": "Terms & Conditions",
+        "description": "verify the terms & conditions"
+      },
+      "pre_verification_guide": {
+        "label": "Pre-verification guide",
+        "description": "Key instructions for a seamless eKYC experience"
+      },
+      "identity_verification": {
+        "label": "Identity verification",
+        "description": "This step verifies the individual’s physical presence during the identity verification process as well as verification of the individual’s identity with their physical ID"
+      },
+      "review_consent": {
+        "label": "Review Consent",
+        "description": "Review and approve consent before sharing with the service provider"
+      }
+    }
+  },
+  "verification_screen":{
+    "welcome_message": "Welcome! Initiating Identity verification process in {count} seconds",
+    "focus_on_screen_message": "Please try to focus on the screen",
+    "successful_header": "Verification Successful!",
+    "successful_subheader": "Please wait while we finalize the process",
+    "unsuccessful_header": "Verification Unsuccessful!",
+    "unsuccessful_subheader": "Oops! We were unable to complete the eKYC verification."
+  },
+  "identity_verification_status": {
+    "successful": {
+      "title": "Verification Successful!",
+      "description": "Please wait while we finalize the process"
+    },
+    "failed": {
+      "title": "Verification Unsuccessful!",
+      "description": "Oops! We were unable to complete the eKYC verification."
+    },
+    "loading_title": "Please wait while we finalize the process…"
   },
   "error_response": {
     "invalid_transaction": "The transaction has timed out. Please try again.",
@@ -114,9 +233,9 @@
     "identifier_mismatch": "Identifier Mismatch",
     "consent_required": "Consent Required",
     "too_many_attempts": "Request OTP too many attempts",
-    "too_early_attempt": "Request OTP too early attempts",
     "too_many_verify_attempts": "Too many verification attempts, Kindly generate new OTP",
-    "invalid_request": "Invalid OTP request",
+    "too_early_attempt": "Request OTP too early attempts",
+    "invalid_request": "Invalid Request",
     "already-registered": "Already Registered",
     "timed_out": "Timedout",
     "timeout_transaction": "Transaction Timeout",
@@ -128,12 +247,15 @@
     "identifier_not_found": "Invalid number or name. Please enter a registered mobile number and full name.",
     "invalid_kba_challenge": "Invalid number or name. Please enter a registered mobile number and full name.",
     "kba_challenge_not_found": "Invalid number or name. Please enter a registered mobile number and full name.",
+    "invalid_kbi_challenge": "Invalid number or name. Please enter a registered mobile number and full name.",
+    "kbi_challenge_not_found": "Invalid number or name. Please enter a registered mobile number and full name.",
     "identity_inactive": "Identifier inactive",
     "fetch_identity_failed": "Fetch Identifier Failed",
     "challenge_format_and_type_mismatch": "Challenge format and type mismatch",
     "knowledgebase_mismatch": "Invalid number or name. Please enter a registered mobile number and full name.",
     "identifier_blocked": "User is blocked. Please try again after 5 minutes.",
     "unsupported_purpose": "Invalid Request",
+    "server_unreachable": "We are unable to process your request, please try again later.",
     "otp_notification_failed": "Failed to send the otp",
     "IDR-IDC-001": "Missing Input Parameter",
     "IDR-IDC-002": "Invalid Input Parameter",
@@ -142,8 +264,8 @@
     "IDR-IDC-005": "Input Data Validation Failed",
     "IDR-IDC-006": "Username already exist. Please try again with a different username",
     "IDR-IDC-007": "No Record(s) found",
-    "IDR-IDC-008": "4XX - Client Error occured",
-    "IDR-IDC-009": "5XX - Server Error occured",
+    "IDR-IDC-008": "4XX - Client Error occurred",
+    "IDR-IDC-009": "5XX - Server Error occurred",
     "IDR-IDC-010": "Connection timed out",
     "IDR-IDC-011": "Authorization Failed",
     "IDR-IDC-012": "Record already exists in DB",
@@ -168,6 +290,7 @@
     "IDR-VID-006": "Uin hash does not match",
     "IDR-IDS-012": "Authentication Failed",
     "IDR-BIE-001": "Technical Error in Biometric Extraction",
-    "IDR-CFJ-001": "Credential Feeder job failed"
+    "IDR-CFJ-001": "Credential Feeder job failed",
+    "grant_exchange_failed": "Unable to Authorise - grant exchange failed. Please try again."
   }
 }
