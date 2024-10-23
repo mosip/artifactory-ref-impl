@@ -84,6 +84,8 @@
   "privacy_and_policy_title": "Privacy & Policy",
   "signup_discontinue_prompt": "Are you sure you want to discontinue the sign up process?",
   "reset_password_discontinue_prompt": "Are you sure you want to discontinue the reset password process?",
+  "offline_polling_prompt": "Your network connection dropped, please check your internet connection.",
+  "online_polling_prompt": "You are now connected with internet.",
   "footer": {
     "powered_by": "Powered by"
   },
@@ -166,7 +168,7 @@
       },
       "terms_&_conditions": {
         "label": "Terms & Conditions",
-        "description": "Review the policy terms & conditions"
+        "description": "Verify the change"
       },
       "pre_verification_guide": {
         "label": "Pre-verification guide",
@@ -231,9 +233,9 @@
     "identifier_mismatch": "Identifier Mismatch",
     "consent_required": "Consent Required",
     "too_many_attempts": "Request OTP too many attempts",
-    "too_early_attempt": "Request OTP too early attempts",
     "too_many_verify_attempts": "Too many verification attempts, Kindly generate new OTP",
-    "invalid_request": "Invalid OTP request",
+    "too_early_attempt": "Request OTP too early attempts",
+    "invalid_request": "Invalid Request",
     "already-registered": "Already Registered",
     "timed_out": "Timedout",
     "timeout_transaction": "Transaction Timeout",
@@ -245,6 +247,8 @@
     "identifier_not_found": "Invalid number or name. Please enter a registered mobile number and full name.",
     "invalid_kba_challenge": "Invalid number or name. Please enter a registered mobile number and full name.",
     "kba_challenge_not_found": "Invalid number or name. Please enter a registered mobile number and full name.",
+    "invalid_kbi_challenge": "Invalid number or name. Please enter a registered mobile number and full name.",
+    "kbi_challenge_not_found": "Invalid number or name. Please enter a registered mobile number and full name.",
     "identity_inactive": "Identifier inactive",
     "fetch_identity_failed": "Fetch Identifier Failed",
     "challenge_format_and_type_mismatch": "Challenge format and type mismatch",
@@ -287,6 +291,6 @@
     "IDR-IDS-012": "Authentication Failed",
     "IDR-BIE-001": "Technical Error in Biometric Extraction",
     "IDR-CFJ-001": "Credential Feeder job failed",
-    "grant_exchange_failed": "Grant exchange failed"
+    "grant_exchange_failed": "Unable to Authorise - grant exchange failed. Please try again."
   }
 }
