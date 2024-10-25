@@ -126,13 +126,13 @@
     "not_accessible_header": "Camera Not Accessible",
     "not_accessible_description": "Your camera is not accessible. Please check your camera accessibility, some other application is accessing your camera right now.",
     "key_info": {
-      "step_1": "Verify the functionality of your camera using the video preview on the right",
-      "step_2": "Ensure you are positioned in a well-lit area to facilitate clear video capture",
-      "step_3": "Position your face within the oval frame, ensuring your face is clearly visible",
-      "step_4": "Remove any accessories or items that could obstruct your face, such as hats or sunglasses.",
-      "step_5": "Maintain a stable posture throughout the video recording to prevent blurring",
-      "step_6": "Be prepared to follow instructions provided on screen during the eKYC process, such as blinking or turning your head as directed.",
-      "step_7": "Have your ID readily accessible for the verification purposes."
+      "step_1": "Verify the functionality of your camera using the video preview on the right testing",
+      "step_2": "Ensure you are positioned in a well-lit area to facilitate clear video capture testing",
+      "step_3": "Position your face within the oval frame, ensuring your face is clearly visible testing",
+      "step_4": "Remove any accessories or items that could obstruct your face, such as hats or sunglasses testing",
+      "step_5": "Maintain a stable posture throughout the video recording to prevent blurring testing",
+      "step_6": "Be prepared to follow instructions provided on screen during the eKYC process, such as blinking or turning your head as directed testing",
+      "step_7": "Have your ID readily accessible for the verification purposes testing"
     }
   },
   "terms_and_conditions": {
