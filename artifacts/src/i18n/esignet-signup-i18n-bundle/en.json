@@ -136,9 +136,9 @@
     }
   },
   "terms_and_conditions": {
-    "header": "Terms & Conditions for testing",
-    "sub_header": "Please read the terms and conditions carefully. for testing",
-    "agree_text": "I agree to the terms and conditions as set out by the user agreement. for testing",
+    "header": "Terms & Conditions",
+    "sub_header": "Please read the terms and conditions carefully.",
+    "agree_text": "I agree to the terms and conditions as set out by the user agreement.",
     "failed_to_load": "Failed to load terms and conditions",
     "still_loading": "Terms and conditions are still loading. Please wait",
     "cancel_button": "Cancel",
@@ -168,7 +168,7 @@
       },
       "terms_&_conditions": {
         "label": "Terms & Conditions",
-        "description": "Review the policy terms & conditions"
+        "description": "verify the terms & conditions"
       },
       "pre_verification_guide": {
         "label": "Pre-verification guide",
