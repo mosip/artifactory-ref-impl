@@ -187,7 +187,7 @@
     "otp_info": "Enter your generated UIN/VID",
     "bio_info": "Enter your generated UIN/VID",
     "pin_info": "Enter your generated UIN/VID",
-    "username_info": "Enter your generated UIN/VID"
+    "username_info": "Enter your generated UIN/VID testing"
   },
   "consentDetails": {
     "essential_claims": "Essential Claims",
