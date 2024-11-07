@@ -668,7 +668,7 @@
       "title": "Terms and Conditions",
       "subtitle": "Your Agreement",
       "message": "To provide consent for storage and utilization of personal information as given",
-      "checkCondition": "Click to accept the terms and conditions",
+      "checkCondition": "I have read and accept the terms and conditions to share my Personal Identifying Information (PII).",
       "acceptButton": "Accept",
       "cancelButton": "Cancel",
       "alertMessageFirst": "You will be logged out due to not accepting Terms & Conditions",
