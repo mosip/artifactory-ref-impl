@@ -108,7 +108,7 @@
   },
   "slot_checking": {
     "header": "Loading!!!",
-    "description": "Kindly wait as we initiate your eKYC"
+    "description": "Kindly wait as we initiate your eKYC testing"
   },
   "slot_unavailable": {
     "header": "Alert!",
