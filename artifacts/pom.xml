@@ -220,6 +220,10 @@
 		<certify-mock-ida-dataprovider-plugin.version>0.3.0-SNAPSHOT</certify-mock-ida-dataprovider-plugin.version>
 		<certify-mock-ida-dataprovider-plugin.fileName>certify-mock-ida-dataprovider-plugin.jar</certify-mock-ida-dataprovider-plugin.fileName>
 
+		<!-- certify mock csv dataprovider plugin -->
+		<certify-mock-csv-dataprovider-plugin.version>0.3.0-SNAPSHOT</certify-mock-csv-dataprovider-plugin.version>
+		<certify-mock-csv-dataprovider-plugin.fileName>certify-mock-csv-dataprovider-plugin.jar</certify-mock-csv-dataprovider-plugin.fileName>
+
 		<!-- esignet IDA wrapper -->
 		<esignet-ida-wrapper.version>1.2.1-SNAPSHOT</esignet-ida-wrapper.version>
 		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
@@ -593,6 +597,15 @@
 						<version>${certify-mock-ida-dataprovider-plugin.version}</version>
 						<outputDirectory>${certify-plugin.location}</outputDirectory>
 						<destFileName>${certify-mock-ida-dataprovider-plugin.fileName}</destFileName>
+						<type>jar</type>
+					</artifactItem>
+<!-- artifactItem section for certify mock csv dataprovider plugin -->
+					<artifactItem>
+						<groupId>io.mosip.certify</groupId>
+						<artifactId>mock-csv-dataprovider-plugin</artifactId>
+						<version>${certify-mock-csv-dataprovider-plugin.version}</version>
+						<outputDirectory>${certify-plugin.location}</outputDirectory>
+						<destFileName>${certify-mock-csv-dataprovider-plugin.fileName}</destFileName>
 						<type>jar</type>
 					</artifactItem>
 
