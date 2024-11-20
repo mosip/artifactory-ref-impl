@@ -678,7 +678,7 @@
     "validation": {
       "DOB_validation": "Enter Valid date of birth or age",
       "requiredMessage": "Is required",
-      "InvalidMessage": "is invalid"
+      "InvalidMessage": "Invalid"
     }
   },
   "documents": {
