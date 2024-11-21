@@ -668,7 +668,7 @@
       "title": "Terms and Conditions",
       "subtitle": "Your Agreement",
       "message": "To provide consent for storage and utilization of personal information as given",
-      "checkCondition": "Click to accept the terms and conditions",
+      "checkCondition": "I have read and accept the terms and conditions to share my Personal Identifying Information (PII).",
       "acceptButton": "Accept",
       "cancelButton": "Cancel",
       "alertMessageFirst": "You will be logged out due to not accepting Terms & Conditions",
@@ -678,7 +678,7 @@
     "validation": {
       "DOB_validation": "Enter Valid date of birth or age",
       "requiredMessage": "Is required",
-      "InvalidMessage": "is invalid"
+      "InvalidMessage": "Invalid"
     }
   },
   "documents": {
@@ -910,7 +910,7 @@
     "action_add": "Add",
     "action_close": "Close",
     "action_add_to_slot": "Add to Slot",
-    "navigation_alert": "Are you sure you would like to navigate away as data entered will not be saved. Please confirm"
+    "navigation_alert": "Please accept the Terms & Conditions to continue with your application. Redirecting you to the Home Page."
   },
   "centerSelection": {
     "title": " Book Appointment ",
