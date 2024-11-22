@@ -370,3 +370,5 @@ artifacts:
   kernelRefIdObjectValidator: /artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator/java21/kernel-ref-idobjectvalidator.jar
   icu4j: /artifactory/libs-release-local/icu4j/icu4j.jar
   kernelTransliterationIcu4j: /artifactory/libs-release-local/icu4j/kernel-transliteration-icu4j.jar
+  hsmClientPath: /artifactory/libs-release-local/hsm/client.zip
+  hsmZipFilePath: /artifactory/libs-release-local/hsm/client.zip
