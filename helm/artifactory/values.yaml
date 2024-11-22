@@ -350,7 +350,6 @@ serviceAccount:
   ## If not set and create is true, a name is generated using the fullname template
   ##
   name:
-
 ## There are various jars and libs in artifactory.  Listing their locations here.  The locations are vis-a-vis
 ## /usr/share/nginx/html/artifactory path in artifactory docker
 artifacts:
