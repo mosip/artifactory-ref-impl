@@ -28,3 +28,5 @@ data:
   kernel_ref_idobjectvalidator_url: {{ printf "%s%s" (include "artifactory.baseUrl" .) .Values.artifacts.kernelRefIdObjectValidator }}
   icu4j_url_env: {{ printf "%s%s" (include "artifactory.baseUrl" .) .Values.artifacts.icu4j }}
   kernel_transliteration_icu4j_url_env: {{ printf "%s%s" (include "artifactory.baseUrl" .) .Values.artifacts.kernelTransliterationIcu4j }}
+  hsm_client_path: {{ .Values.artifacts.hsmClientPath }}
+  hsm_zip_client_path: {{ .Values.artifacts.hsmZipFilePath }}
