@@ -1727,6 +1727,7 @@
 		"ADM-AVD-510" : "Limite de recherche de candidats dépassée",
 		"ADM-AVD-511" : "ID de demande introuvable",
 		"KER-USR-025" : "Le mappage central est manquant, l'utilisateur ne peut pas être activé.",
-		"KER-MSD-281" : "Nombre de kiosques invalide"
+		"KER-MSD-281" : "Nombre de kiosques invalide",
+		"KER-MSD-023" : "Code de langue invalide"
 	}
 }
