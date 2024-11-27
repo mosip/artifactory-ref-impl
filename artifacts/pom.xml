@@ -211,14 +211,19 @@
 		<certify-mosip-identity-plugin.version>0.3.0-SNAPSHOT</certify-mosip-identity-plugin.version>
 		<certify-mosip-identity-plugin.fileName>certify-mosip-identity-plugin.jar</certify-mosip-identity-plugin.fileName>
 
-		<!-- certify mock plugin -->
+        <!-- certify mock plugin -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-mock-plugin.version>0.3.0-SNAPSHOT</certify-mock-plugin.version>
 		<certify-mock-plugin.fileName>certify-mock-identity-plugin.jar</certify-mock-plugin.fileName>
 
 		<!-- certify mock ida dataprovider plugin -->
 		<certify-mock-ida-dataprovider-plugin.version>0.3.0-SNAPSHOT</certify-mock-ida-dataprovider-plugin.version>
-		<certify-mock-ida-dataprovider-plugin.fileName>certify-mock-ida-dataprovider-plugin.jar</certify-mock-ida-dataprovider-plugin.fileName>
+        <certify-mock-ida-dataprovider-plugin.fileName>certify-mock-ida-dataprovider-plugin.jar</certify-mock-ida-dataprovider-plugin.fileName>
+
+		<!-- certify postgres plugin -->
+		<certify-postgres-dataprovider-plugin.version>0.3.0-SNAPSHOT</certify-postgres-dataprovider-plugin.version>
+		<certify-postgres-dataprovider-plugin.fileName>certify-postgres-dataprovider-plugin.jar</certify-postgres-dataprovider-plugin.fileName>
+
 
 		<!-- esignet IDA wrapper -->
 		<esignet-ida-wrapper.version>1.2.1-SNAPSHOT</esignet-ida-wrapper.version>
@@ -584,6 +589,15 @@
 						<version>${certify-mock-plugin.version}</version>
 						<outputDirectory>${certify-plugin.location}</outputDirectory>
 						<destFileName>${certify-mock-plugin.fileName}</destFileName>
+						<type>jar</type>
+					</artifactItem>
+<!-- artifactItem section for certify postgres dataprovider plugin -->
+					<artifactItem>
+						<groupId>io.mosip.certify</groupId>
+						<artifactId>postgres-dataprovider-plugin</artifactId>
+						<version>${certify-postgres-dataprovider-plugin.version}</version>
+						<outputDirectory>${certify-plugin.location}</outputDirectory>
+						<destFileName>${certify-postgres-dataprovider-plugin.fileName}</destFileName>
 						<type>jar</type>
 					</artifactItem>
 <!-- artifactItem section for certify mock ida dataprovider plugin -->
