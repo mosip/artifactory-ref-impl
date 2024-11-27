@@ -1458,6 +1458,7 @@
         "ADM-AVD-008": "Has alcanzado el límite diario de búsquedas. Por favor, intenta buscar nuevamente mañana.",
         "ADM-AVD-009": "El uso compartido de datos ha expirado",
         "KER-USR-025": "Falta el mapeo central, el usuario no se puede activar.",
-        "KER-MSD-281": "Número de quioscos no válido"
+        "KER-MSD-281": "Número de quioscos no válido",
+        "KER-MSD-023" : "Código de idioma no válido"
     }
 }
