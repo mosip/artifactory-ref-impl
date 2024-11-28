@@ -12,6 +12,7 @@ on:
       - 1.*
       - MOSIP*
       - release*
+      - v1.4.1-ES-demo
   
 jobs:
   build-docker-artifactory-server:
