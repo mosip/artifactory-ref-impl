@@ -5,7 +5,8 @@
     "ar": "عربى",
     "kn": "ಕನ್ನಡ",
     "ta": "தமிழ்",
-    "km": "ខ្មែរ"
+    "km": "ខ្មែរ",
+    "pt": "Português"
   },
   "rtlLanguages": ["ar"],
   "langCodeMapping": {
@@ -14,6 +15,7 @@
     "ara": "ar",
     "kan": "kn",
     "tam": "ta",
-    "khm": "km"
+    "khm": "km",
+    "por": "pt"
   }
 }
