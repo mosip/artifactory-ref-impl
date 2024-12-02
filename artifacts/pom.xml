@@ -303,7 +303,7 @@
 					<groupId>io.mosip.authentication</groupId>
 					<artifactId>authentication-childauthfilter-impl</artifactId>
 					<version>${authentication-childauthfilter-impl.version}</version>
-					 <outputDirectory>${authentication-childauthfilter-impl.location}</outputDirectory>
+					 <outputDirectory>${authentication-childauthfilter-impl.location}</outputDirectory> 
 					<destFileName>${authentication-childauthfilter-impl.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
