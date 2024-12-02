@@ -136,9 +136,9 @@
     }
   },
   "terms_and_conditions": {
-    "header": "Terms & Conditions for testing",
-    "sub_header": "Please read and understand the terms and conditions carefully.",
-    "agree_text": "I have read and understood the terms and conditionditions and agree to the terms and conditions as set out by the user agreement.",
+    "header": "Points to agree",
+    "sub_header": "Understand the points and accept",
+    "agree_text": "I read and Understood the points and i am accepting the above points",
     "failed_to_load": "Failed to load terms and conditions",
     "still_loading": "Terms and conditions are still loading. Please wait",
     "cancel_button": "Cancel",
@@ -158,29 +158,29 @@
     "proceed_button": "Proceed"
   },
   "verification_steps": {
-    "header": "Complete your eKYC testing with the below five steps",
+    "header": "following the below instructions verify yourself ",
     "cancel": "Cancel",
     "proceed": "Proceed",
     "ekycSteps": {
       "ekyc_provider": {
-        "label": "Select the eKYC for testing",
-        "description": "Select an testing service provider to check it aligns with your requirements"
+        "label": "Select one among these",
+        "description": "Choose the one which suits well"
       },
       "terms_&_conditions": {
-        "label": "Terms & Conditions for testing",
-        "description": "verify the terms & conditions for testing the eKYC process"
+        "label": "requirements for testing",
+        "description": "agree to the requirements under testing"
       },
       "pre_verification_guide": {
-        "label": "Pre-verification guide to continue",
-        "description": "Key instructions for a seamless eKYC experience in testing"
+        "label": "instructions to follow",
+        "description": "instructions to follow to complete the process"
       },
       "identity_verification": {
-        "label": "Identity verification for eKYC",
-        "description": "testing"
+        "label": "Checking details",
+        "description": "Checking for the authentication"
       },
       "review_consent": {
-        "label": "Review Consent and continue",
-        "description": "Review and approve and continue"
+        "label": "acceptance",
+        "description": "agree to the acceptance and continue"
       }
     }
   },
