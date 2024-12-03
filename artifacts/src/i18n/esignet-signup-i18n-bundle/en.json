@@ -91,7 +91,7 @@
   },
   "eykc_loading": {
     "header": "Alert!",
-    "description": "Oops! It looks like you’re using an unsupported browser. Please consider upgrading to the latest version of the browser for the best experience. Thank you for your understanding"
+    "description": "Testing Oops! It looks like you’re using an unsupported browser. Please consider upgrading to the latest version of the browser for the best experience. Thank you for your understanding Testing"
   },
   "session": {
     "alert": {
@@ -136,9 +136,9 @@
     }
   },
   "terms_and_conditions": {
-    "header": "Points to agree",
-    "sub_header": "Understand the points and accept",
-    "agree_text": "I read and Understood the points and i am accepting the above points",
+    "header": "Terms & Conditions",
+    "sub_header": "Please read the terms and conditions carefully.",
+    "agree_text": "I agree to the terms and conditions as set out by the user agreement",
     "failed_to_load": "Failed to load terms and conditions",
     "still_loading": "Terms and conditions are still loading. Please wait",
     "cancel_button": "Cancel",
@@ -158,29 +158,29 @@
     "proceed_button": "Proceed"
   },
   "verification_steps": {
-    "header": "following the below instructions verify yourself ",
+    "header": "Complete your eKYC verification with the below simple steps",
     "cancel": "Cancel",
     "proceed": "Proceed",
     "ekycSteps": {
       "ekyc_provider": {
-        "label": "Select one among these",
-        "description": "Choose the one which suits well"
+        "label": "Choose an eKYC provider",
+        "description": "Select an eKYC service provider that aligns with your requirements"
       },
       "terms_&_conditions": {
-        "label": "requirements for testing",
-        "description": "agree to the requirements under testing"
+        "label": "Terms & Conditions",
+        "description": "verify the terms & conditions"
       },
       "pre_verification_guide": {
-        "label": "instructions to follow",
-        "description": "instructions to follow to complete the process"
+        "label": "Pre-verification guide",
+        "description": "Key instructions for a seamless eKYC experience"
       },
       "identity_verification": {
-        "label": "Checking details",
-        "description": "Checking for the authentication"
+        "label": "Identity verification",
+        "description": "This step verifies the individual’s physical presence during the identity verification process as well as verification of the individual’s identity with their physical ID"
       },
       "review_consent": {
-        "label": "acceptance",
-        "description": "agree to the acceptance and continue"
+        "label": "Review Consent",
+        "description": "Review and approve consent before sharing with the service provider"
       }
     }
   },
