@@ -28,7 +28,7 @@
   "full_name_tooltip": "Maximum 30 characters allowed with no alphabets or special characters, except space.",
   "password": "Password",
   "password_placeholder": "Enter Password",
-  "password_rules": "Use 8 or more characters with a mix of alphabets and at least one number.",
+  "password_rules": "Use 8 or more characters with a mix of alphabets, atleast one capital letter, atleast one special character and one number",
   "confirm_password": "Confirm Password",
   "confirm_password_placeholder": "Enter Password",
   "terms_and_condition": "I agree to Cambodia’s <TermsAndConditionsAnchor>Terms & Conditions</TermsAndConditionsAnchor> and <PrivacyPolicyAnchor>Privacy Policy</PrivacyPolicyAnchor>, to store & process my information as required.",
