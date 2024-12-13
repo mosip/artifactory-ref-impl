@@ -538,7 +538,7 @@
      
         },
         "source":[{"label":"Registration Client","value":"REGISTRATION_CLIENT"}],
-        "process":[{"label":"New","value":"NEW"},{"label":"Update UIN","value":"UPDATE"},{"label":"Lost","value":"LOST"},{"label":"Biometrics Correction","value":"BIOMETRIC_CORRECTION"}],
+        "process":[{"label":"New","value":"NEW"},{"label":"Change of Particulars","value":"UPDATE"},{"label":"Renewal","value":"RENEWAL"},{"label":"Lost","value":"LOST"},{"label":"Biometrics Correction","value":"BIOMETRIC_CORRECTION"}],
         "supervisorStatus":[{"label":"Approved","value":"APPROVED"},{"label":"Rejected","value":"REJECTED"}]
       }
     },
