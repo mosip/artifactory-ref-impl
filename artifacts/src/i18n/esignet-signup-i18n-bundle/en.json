@@ -151,7 +151,7 @@
     "discontinue": "Discontinue"
   },
   "kyc_provider": {
-    "header": "Please select an eKYC service provider",
+    "header": "Please select an eKYC service provider to complete identity verification status",
     "no_kyc_provider": "No eKYC provider found",
     "search_placeholder": "Search",
     "cancel_button": "Cancel",
