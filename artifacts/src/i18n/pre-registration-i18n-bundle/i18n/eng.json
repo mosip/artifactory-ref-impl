@@ -699,7 +699,7 @@
   },
   "acknowledgement": {
     "title": "Appointment Confirmed",
-    "message": "The Application ID and Appointment details have been sent to the registered email id and phone number",
+    "message": "The Application ID details have been sent to the registered email Id and phone number",
     "label_name": "Name",
     "label_pre_id": "Application ID",
     "label_reg_cntr": "Center Name",
