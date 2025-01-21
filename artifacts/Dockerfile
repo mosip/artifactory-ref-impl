@@ -101,6 +101,9 @@ ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.1
 # environment variable for redis cache URL
 ENV redis_cache_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/cacheprovider/cache-provider-redis/1.0-SNAPSHOT/cache-provider-redis-1.0-20220209.125929-1.jar
 
+# environment variable for tech5 jar path
+ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
+
 # environment variable for cache URL
 #ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.1.5.5-SNAPSHOT/biosdk-client-1.1.5.5-20220303.141920-26-jar-with-dependencies.jar
 ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/1.2.0/biosdk-client-1.2.0-jar-with-dependencies.jar
@@ -108,6 +111,8 @@ ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/1.2.0/biosd
 RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
 
 # Copy all the respective jars to the location
+
+COPY /src/sdk/tech5/* ${tech5_zip_path}/
 
 COPY /src/biosdk/install.sh ${biosdk_client_zip_path}/biosdk-client/
 
