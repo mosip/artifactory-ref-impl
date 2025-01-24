@@ -112,7 +112,7 @@ zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templa
 echo master-templates zip creation completed
 
 echo pdf-generator zip creation started
-zip -r -j ${pdf_generator_path}/master-templates.zip ${work_dir}/pdf-generator/*
+zip -r -j ${pdf_generator_path}/pdf-generator.zip ${work_dir}/pdf-generator/*
 echo pdf-generator zip creation completed
 
 echo registration-api-impl zip creation started
