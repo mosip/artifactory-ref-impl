@@ -111,6 +111,10 @@ echo master-templates zip creation started
 zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templates/*
 echo master-templates zip creation completed
 
+echo pdf-generator zip creation started
+zip -r -j ${pdf_generator_path}/master-templates.zip ${work_dir}/pdf-generator/*
+echo pdf-generator zip creation completed
+
 echo registration-api-impl zip creation started
 zip -r -j ${registration_api_impl_zip_path}/registration-api-impl.zip ${registration_api_impl_zip_path}/registration-api-impl/*
 rm -rf ${registration_api_impl_zip_path}/registration-api-impl

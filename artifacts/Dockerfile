@@ -129,6 +129,8 @@ ENV regclient_jar_path=${base_path}/libs-release-local
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
+ENV pdf_generator_path=${base_path}/libs-release-local/pdf-generator
+
 # environment variable for child auth filter jar path
 ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authentication/authentication-ref-impl
 
@@ -180,6 +182,8 @@ COPY /src/i18n/pmp-i18n-bundle/*  ${work_dir}/pmp-i18n-bundle/
 COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n-bundle/
 
 COPY /src/master-templates/* ${work_dir}/master-templates/
+
+COPY /src/pdf-generator/* ${work_dir}/pdf-generator/
 
 COPY /src/i18n/idp-i18n-bundle/*  ${work_dir}/idp-i18n-bundle/
 
