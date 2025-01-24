@@ -129,6 +129,7 @@ ENV regclient_jar_path=${base_path}/libs-release-local
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
+# environment variable
 ENV pdf_generator_path=${base_path}/libs-release-local/pdf-generator
 
 # environment variable for child auth filter jar path
