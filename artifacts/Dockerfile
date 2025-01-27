@@ -129,6 +129,9 @@ ENV regclient_jar_path=${base_path}/libs-release-local
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
+# environment variable
+ENV pdf_generator_path=${base_path}/libs-release-local/pdf-generator
+
 # environment variable for child auth filter jar path
 ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authentication/authentication-ref-impl
 
@@ -140,7 +143,7 @@ ENV version=1.2.1-SNAPSHOT
 ENV idp_auth_wrapper_version=0.0.1-SNAPSHOT
 
 # Create all the jar, i18n & theme paths.
-RUN mkdir -p ${biosdk_client_zip_java21_path}/biosdk-client/ ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${biosdk_lib_zip_java21_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${mosip_plugins_zip_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${image_compressor_path}/image-compressor ${icu4j_jar_path} ${icu4j_jar_path}/java21 ${clamav_path} ${i18n_zip_path} ${theme_zip_path} ${image_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path} ${esignet_wrapper_lib_zip_path}/esignet-wrapper ${certify_plugin_zip_path}/certify-plugin ${registration_api_impl_zip_path}/registration-api-impl ${esignet_wrapper_lib_zip_path}/esignet-plugins
+RUN mkdir -p ${biosdk_client_zip_java21_path}/biosdk-client/ ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${biosdk_lib_zip_java21_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${mosip_plugins_zip_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${image_compressor_path}/image-compressor ${icu4j_jar_path} ${icu4j_jar_path}/java21 ${clamav_path} ${i18n_zip_path} ${theme_zip_path} ${image_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${pdf_generator_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path} ${esignet_wrapper_lib_zip_path}/esignet-wrapper ${certify_plugin_zip_path}/certify-plugin ${registration_api_impl_zip_path}/registration-api-impl ${esignet_wrapper_lib_zip_path}/esignet-plugins
 # Copy all the respective jars to the location
 
 COPY /src/sdk/biosdk/install.sh ${biosdk_client_zip_path}/biosdk-client/
@@ -180,6 +183,8 @@ COPY /src/i18n/pmp-i18n-bundle/*  ${work_dir}/pmp-i18n-bundle/
 COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n-bundle/
 
 COPY /src/master-templates/* ${work_dir}/master-templates/
+
+COPY /src/pdf-generator/* ${work_dir}/pdf-generator/
 
 COPY /src/i18n/idp-i18n-bundle/*  ${work_dir}/idp-i18n-bundle/
 
