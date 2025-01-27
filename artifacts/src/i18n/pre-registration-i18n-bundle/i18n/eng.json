@@ -709,6 +709,7 @@
     "action_send": "SEND EMAIL/SMS",
     "action_download": "DOWNLOAD PDF",
     "action_print": "PRINT",
+    "action_add_applicant": "ADD APPLICANT",
     "label_reg_cntr_dtl": "Center Address",
     "prnLabel":"Payment Reference Number(PRN)",
     "feeLabel":"Fee",
