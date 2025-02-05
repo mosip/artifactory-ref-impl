@@ -494,7 +494,11 @@
             "btnTxt": "Ok"
         },
         "statuscheckFailed":"Failed",
+		"statuscheckProcessed":"Processed",
         "statuscheckCompleted":"Completed"
+		"statuscheckInProgress":"In Progress",
+        "statuscheckCompleted":"Completed",
+        "statuscheckRejected":"Rejected"
 
     },
     "packet-upload":{
@@ -1366,6 +1370,8 @@
         "RPR-BAU-SUCCESS-001": "Biometric Authentication is Successful",
         "RPR-DDP-SUCCESS-001": "Demo Dedupe is Successful",
         "RPR-DDP-FAILED-001": "Demo Dedupe is Successful",
+		"RPR-MVS-FAILED-002":"MVS has failed",
+        "RPR-MVS-SUCCESS-001":"MVS is Successful",
         "RPR-DDP-FAILED-002": "Potential Demo Match was Found",
         "RPR-MNV-SUCCESS-001": "Match Not Found by Manual Verifier",
         "RPR-MNV-FAILED-001": "Match Found by Manual Verifier",
