@@ -495,7 +495,7 @@
         },
         "statuscheckFailed":"Failed",
 		"statuscheckProcessed":"Processed",
-        "statuscheckCompleted":"Completed"
+        "statuscheckCompleted":"Completed",
 		"statuscheckInProgress":"In Progress",
         "statuscheckCompleted":"Completed",
         "statuscheckRejected":"Rejected"
