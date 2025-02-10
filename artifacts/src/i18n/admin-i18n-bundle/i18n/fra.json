@@ -1728,6 +1728,7 @@
 		"ADM-AVD-511" : "ID de demande introuvable",
 		"KER-USR-025" : "Le mappage central est manquant, l'utilisateur ne peut pas être activé.",
 		"KER-MSD-281" : "Nombre de kiosques invalide",
-		"KER-MSD-023" : "Code de langue invalide"
+		"KER-MSD-023" : "Code de langue invalide",
+		"KER-MSD-444" : "Le centre d'inscription ne peut pas être vide ou nul"
 	}
 }
