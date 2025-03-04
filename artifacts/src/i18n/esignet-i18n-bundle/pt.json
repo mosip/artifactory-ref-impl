@@ -142,7 +142,7 @@
   },
   "header": {
     "login_heading": "Conecte-se",
-    "login_subheading": "Por favor insira seu nome de usuário e senha cadastrados",
+    "login_subheading": "{{clientName}} requer autenticação através do eSignet",
     "login_linkName": "Pré-registro",
     "more_ways_to_sign_in": "Mais maneiras de fazer login",
     "invalid_auth_factor": "Fatores de autenticação inválidos. ",
