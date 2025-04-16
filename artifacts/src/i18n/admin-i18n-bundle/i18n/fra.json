@@ -1608,6 +1608,7 @@
 		"ADM-BLK-007": "Aucun fichier téléchargé",
 		"ADM-BLK-008": "Entrée trouvée avec les mêmes valeurs de clé primaire",
 		"ADM-BLK-009": "Échec du traitement de l'entrée",
+		"ADM-BLK-010" : "Délimiteur invalide utilisé",
 		"KER-MSD-413": "Entrée déjà trouvée pour le nom de machine fourni",
 		"KER-MSD-414": "Entrée déjà trouvée pour les clés publiques fournies",
 		"ADM-PKT-004": "RID non trouvé",
