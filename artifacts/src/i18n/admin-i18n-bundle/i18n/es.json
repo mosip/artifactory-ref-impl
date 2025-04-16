@@ -1342,6 +1342,7 @@
         "ADM-BLK-007": "No se ha cargado ningún archivo",
         "ADM-BLK-008": "Se encontró una entrada con los mismos valores de clave primaria",
         "ADM-BLK-009": "Error al procesar la entrada",
+        "ADM-BLK-010" : "Se utilizó un delimitador no válido",
         "KER-MSD-413": "Ya se encontró una entrada para el nombre de máquina proporcionado",
         "KER-MSD-414": "Ya se encontró una entrada para las claves públicas proporcionadas",
         "ADM-PKT-004": "RID no encontrado",
