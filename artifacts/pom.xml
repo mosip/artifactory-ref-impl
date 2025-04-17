@@ -333,7 +333,7 @@
 					</artifactItem>
 
 					<artifactItem>
-						<groupId>io.compass.esignet</groupId>
+						<groupId>io.mosip.esignet</groupId>
 	     					<artifactId>compass-identity-plugin</artifactId>
 						<version>${esignet-compass-wrapper.version}</version>
 						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
