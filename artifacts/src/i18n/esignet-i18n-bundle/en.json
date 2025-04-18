@@ -42,7 +42,7 @@
     "Manage-Authentication": "Allow access to manage Authentication",
     "Manage-Service-Requests": "Allow access to manage Service Requests",
     "Manage-Credentials": "Allow access to manage Credentials",
-    "individual_id": "UIN/VID used in login",
+    "individual_id": "NationalId used in login",
     "cancelpopup": {
       "confirm_header": "Please confirm",
       "confirm_text": "Are you sure you want to discontinue the login process?",
@@ -54,8 +54,8 @@
     "scan_and_verify": "Scan and Verify",
     "sign_in_with_biometric": "Login with Biometric",
     "retry": "Retry",
-    "vid_label_text": "UIN/VID",
-    "vid_placeholder": "Enter Your UIN or VID",
+    "vid_label_text": "NationalId",
+    "vid_placeholder": "Enter Your National ID",
     "Face": "Face",
     "Finger": "Finger",
     "Iris": "Iris",
@@ -67,16 +67,16 @@
     "login": "Login",
     "uin_label_text": "UIN/VID",
     "pin_label_text": "PIN",
-    "uin_placeholder": "Enter Your UIN or VID",
+    "uin_placeholder": "Enter Your National ID",
     "pin_placeholder": "Enter PIN"
   },
   "password": {
     "sign_in_with_password": "Login with Password",
     "remember_me": "Remember Me",
     "login": "Continue",
-    "uin_label_text": "UIN/VID",
+    "uin_label_text": "NationalId",
     "password_label_text": "Password",
-    "uin_placeholder": "Enter Your UIN or VID",
+    "uin_placeholder": "Enter Your National ID",
     "password_placeholder": "Enter password",
     "forgot_password": "Forgot Password?",
     "reset_password": "Reset Password"
@@ -106,9 +106,9 @@
     "not_a_robot": "I'm Not a Robot",
     "get_otp": "Get OTP",
     "verify": "Verify",
-    "vid_label_text": "UIN/VID",
+    "vid_label_text": "NationalId",
     "otp_label_text": "OTP",
-    "vid_placeholder": "Enter Your UIN or VID",
+    "vid_placeholder": "Enter Your National ID",
     "otp_placeholder": "1234",
     "mobile_number": "Mobile Number",
     "email_address": "Email Address",
@@ -154,7 +154,7 @@
     "signup_for_unified_login": "Sign Up with Unified Login",
     "subheader_text": {
       "all_login_options": "Please choose the login option",
-      "otp_login": "Please enter your UIN/VID",
+      "otp_login": "Please enter your NationalId",
       "biometrics_login": "Please enter your UIN/VID & verify using the Biometric device",
       "pin_login": "Please enter your UIN/VID and PIN",
       "password_login": "Please enter your UIN/VID and password",
@@ -181,10 +181,10 @@
   },
   "tooltips": {
     "vid_info": "Please fill in this field",
-    "otp_info": "Enter your generated UIN/VID",
-    "bio_info": "Enter your generated UIN/VID",
-    "pin_info": "Enter your generated UIN/VID",
-    "username_info": "Enter your generated UIN/VID"
+    "otp_info": "Enter Your generated National ID",
+    "bio_info": "Enter Your generated National ID",
+    "pin_info": "Enter Your generated National ID",
+    "username_info": "Enter Your generated National ID"
   },
   "errors": {
     "navigate_option": "Please try navigating using the options below.",
@@ -413,7 +413,7 @@
       "send_otp_failed_msg": "Failed to Send OTP",
       "invalid_otp_channel": "Invalid OTP Channel Provided.",
       "auth_failed": "Incorrect OTP. Please try again.",
-      "IDA-MLC-018": "Invalid UIN/VID. Please enter a valid UIN/VID."
+      "IDA-MLC-018": "Invalid NationalId. Please enter a valid NationalId."
     },
     "biometrics": {
       "IDA-BIA-001": "Biometric data did not match",
