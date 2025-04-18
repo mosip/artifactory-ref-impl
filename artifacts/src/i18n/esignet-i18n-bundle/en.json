@@ -76,7 +76,7 @@
     "login": "Continue",
     "uin_label_text": "National ID",
     "password_label_text": "Password",
-    "uin_placeholder": "Enter Your UIN or VID",
+    "uin_placeholder": "Enter Your National ID",
     "password_placeholder": "Enter password",
     "forgot_password": "Forgot Password?",
     "reset_password": "Reset Password"
@@ -108,7 +108,7 @@
     "verify": "Verify",
     "vid_label_text": "National ID",
     "otp_label_text": "OTP",
-    "vid_placeholder": "Enter Your UIN or VID",
+    "vid_placeholder": "Enter Your National ID",
     "otp_placeholder": "1234",
     "mobile_number": "Mobile Number",
     "email_address": "Email Address",
