@@ -201,11 +201,11 @@
 		<esignet-mock-wrapper.version>0.9.2</esignet-mock-wrapper.version>
 		<esignet-mock-wrapper.fileName>esignet-mock-wrapper.jar</esignet-mock-wrapper.fileName>
 
-		<!-- certify sunbird plugin -->
+<!-- 		<!-- certify sunbird plugin -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-sunbird-plugin.version>0.3.0-SNAPSHOT</certify-sunbird-plugin.version>
 		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
-
+ -->
 		<!-- certify mosip identity plugin -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
 		<certify-mosip-identity-plugin.version>0.3.0-SNAPSHOT</certify-mosip-identity-plugin.version>
@@ -565,14 +565,14 @@
 						<type>jar</type>
 					</artifactItem> -->
 <!-- artifactItem section for certify plugin -->				
-					<artifactItem>
+<!-- 					<artifactItem>
                                                 <groupId>io.mosip.certify.sunbirdrc</groupId>
 	                                        <artifactId>sunbird-rc-certify-integration-impl</artifactId>
 						<version>${certify-sunbird-plugin.version}</version>
 						<outputDirectory>${certify-plugin.location}</outputDirectory>
 						<destFileName>${certify-sunbird-plugin.fileName}</destFileName>
 						<type>jar</type>
-					</artifactItem>
+					</artifactItem> -->
 <!-- artifactItem section for certify mosip identity plugin -->
 					<artifactItem>
 						<groupId>io.mosip.certify</groupId>
