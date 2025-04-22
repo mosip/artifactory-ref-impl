@@ -901,31 +901,31 @@
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",
-            "value": "பதிவுக்கு முந்தைய 3 ஆண்டுகள்"
+            "value": "பதிவுக்கு முந்தைய"
         }, {
             "id": "REGISTRATION_PROCESSOR",
-            "value": "பதிவு செயல்முறை 3 ஆண்டுகள்"
+            "value": "பதிவு செயல்முறை"
         }, {
             "id": "REGISTRATION",
-            "value": "பதிவு 3 ஆண்டுகள்"
+            "value": "பதிவு"
         }, {
             "id": "ID_REPO",
-            "value": "ID_REPO 3 ஆண்டுகள்"
+            "value": "அடையாள களஞ்சியம்"
         }, {
             "id": "KERNEL",
-            "value": "கர்னல் 3 ஆண்டுகள்"
+            "value": "கர்னல்"
         }, {
             "id": "ROOT",
-            "value": "ரூட் 5 ஆண்டுகள்"
+            "value": "ரூட்"
         }, {
             "id": "PMS",
-            "value": "PMS 3 ஆண்டுகள்"
+            "value": "கூட்டாளர் மேலாண்மை சேவை"
         }, {
             "id": "ADMIN_SERVICES",
-            "value": "நிர்வாகம்_சேவை 3 ஆண்டுகள்"
+            "value": "நிர்வாக சேவைகள்"
         }, {
             "id": "RESIDENT",
-            "value": "வசிப்பவர் 3 ஆண்டுகள்"
+            "value": "வசிப்பவர்"
         }]
     },
     "download-card": {

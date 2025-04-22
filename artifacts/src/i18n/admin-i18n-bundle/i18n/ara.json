@@ -827,31 +827,31 @@
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",
-            "value": "\nقبل التسجيل 3 سنوات"
+            "value": "\nقبل التسجيل"
         }, {
             "id": "REGISTRATION_PROCESSOR",
-            "value": "\nREGISTRATION_PROCESSOR 3 سنوات"
+            "value": "\nمعالج التسجيل"
         }, {
             "id": "REGISTRATION",
-            "value": "التسجيل 3 سنوات"
+            "value": "التسجيل"
         }, {
             "id": "ID_REPO",
-            "value": "\nID_REPO 3 سنوات"
+            "value": "\nمستودع الهوية"
         }, {
             "id": "KERNEL",
-            "value": "\nنواة 3 سنوات"
+            "value": "\nالنواة"
         }, {
             "id": "ROOT",
-            "value": "\nالجذر 5 سنوات"
+            "value": "\nالجذر"
         }, {
             "id": "PMS",
-            "value": "\nالدورة الشهرية 3 سنوات"
+            "value": "\nخدمة إدارة الشركاء"
         }, {
             "id": "ADMIN_SERVICES",
-            "value": "\nADMIN_SERVICES 3 سنوات"
+            "value": "\nالخدمات الإدارية"
         }, {
             "id": "RESIDENT",
-            "value": "\nالمقيم 3 سنوات"
+            "value": "\nالمقيم"
         }]
     },
 
