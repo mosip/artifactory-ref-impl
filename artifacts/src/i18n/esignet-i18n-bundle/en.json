@@ -98,7 +98,8 @@
     "link_code_status": "Link Code Status",
     "failed": "Failed",
     "refresh": "Refresh QR Code",
-    "open_wallet_app": "Open {{walletName}} App"
+    "open_wallet_app": "Open {{walletName}} App",
+    "wallet_header": "Scan the QR code with your {{walletName}}"
   },
   "otp": {
     "sign_in_with_otp": "Login with OTP",
@@ -132,7 +133,7 @@
     "more_ways_to_sign_in": "More ways to sign in",
     "or": "OR",
     "sign_in_with": "Verify using {{idProviderName}}",
-    "verify_using_national_id":"Verify using other National IDs",
+    "verify_using_national_id": "Verify using other National IDs",
     "register": "Register"
   },
   "esignetDetails": {
@@ -142,7 +143,7 @@
   },
   "header": {
     "login_heading": "Login",
-    "login_subheading": "Please enter your registered username and password",
+    "login_subheading": "<strong>{{clientName}}</strong> is requesting for authentication",
     "login_linkName": "Preregister",
     "more_ways_to_sign_in": "More Ways to Login",
     "invalid_auth_factor": "Invalid Auth Factors. Please Try Again...",
@@ -296,8 +297,8 @@
     "captcha_validator_not_found": "Failed to find captcha validator instance, Please check classpath.",
     "invalid_captcha": "Invalid captcha found.",
     "invalid_auth_factor_type_or_challenge_format": "Invalid auth factor type or challenge format.",
-    "invalid_auth_factor_type_format" : "Invalid auth factor type or challenge format.",
-    "invalid_challenge_length" : "Invalid challenge, Min or Max length constraint violated.",
+    "invalid_auth_factor_type_format": "Invalid auth factor type or challenge format.",
+    "invalid_challenge_length": "Invalid challenge, Min or Max length constraint violated.",
     "unsupported_pkce_challenge_method": "Unsupported proof key challenge exchange method.",
     "invalid_pkce_challenge": "Invalid Proof key challenge.",
     "invalid_pkce_code_verifier": "Invalid proof key code verifier.",
@@ -317,7 +318,7 @@
     "proof_invalid_iat": "Invalid value in proof payload iat claim.",
     "proof_invalid_nonce": "Invalid value in proof payload nonce claim.",
     "no_attempts_left": "Maximum authentication attempts reached. Please try again later.",
-    "individual_id_blocked": "User temporarily blocked. Please try again after some time.", 
+    "individual_id_blocked": "User temporarily blocked. Please try again after some time.",
     "invalid_state_response": "Invalid state",
     "authCode_missing": "AuthCode Missing",
     "failed_to_validate_captcha": "Failed to validate captcha",
