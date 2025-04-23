@@ -98,7 +98,8 @@
     "link_code_status": "حالة رمز الارتباط",
     "failed": "باءت بالفشل",
     "refresh": "قم بتحديث رمز الاستجابة السريعة",
-    "open_wallet_app": "{{walletName}} افتح تطبيق"
+    "open_wallet_app": "{{walletName}} افتح تطبيق",
+    "wallet_header": "امسح رمز الاستجابة السريعة باستخدام {{walletName}} الخاص بك"
   },
   "otp": {
     "sign_in_with_otp": "تسجيل الدخول باستخدام OTP",
@@ -296,8 +297,8 @@
     "captcha_validator_not_found": "فشل في العثور على مثيل Captcha Valitator ، يرجى التحقق من ClassPath.",
     "invalid_captcha": "وجدت captcha غير صالحة.",
     "invalid_auth_factor_type_or_challenge_format": "نوع عامل المصادقة غير صالح أو تنسيق التحدي.",
-    "invalid_auth_factor_type_format" :"نوع عامل المصادقة غير صالح أو تنسيق التحدي.",
-    "invalid_challenge_length" : "اعتراض غير صالح ، تم انتهاك قيد الحد الأدنى أو الحد الأقصى للطول.",
+    "invalid_auth_factor_type_format": "نوع عامل المصادقة غير صالح أو تنسيق التحدي.",
+    "invalid_challenge_length": "اعتراض غير صالح ، تم انتهاك قيد الحد الأدنى أو الحد الأقصى للطول.",
     "unsupported_pkce_challenge_method": "طريقة تبادل التحدي الرئيسية إثبات غير مدعوم.",
     "invalid_pkce_challenge": "تحدي مفتاح إثبات غير صالح.",
     "invalid_pkce_code_verifier": "دليل مفتاح إثبات غير صالح.",
