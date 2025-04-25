@@ -42,7 +42,7 @@
     "Manage-Authentication": "Allow access to manage Authentication",
     "Manage-Service-Requests": "Allow access to manage Service Requests",
     "Manage-Credentials": "Allow access to manage Credentials",
-    "individual_id": "NationalId used in login",
+    "individual_id": "National ID used in login",
     "cancelpopup": {
       "confirm_header": "Please confirm",
       "confirm_text": "Are you sure you want to discontinue the login process?",
@@ -54,7 +54,7 @@
     "scan_and_verify": "Scan and Verify",
     "sign_in_with_biometric": "Login with Biometric",
     "retry": "Retry",
-    "vid_label_text": "NationalId",
+    "vid_label_text": "National ID",
     "vid_placeholder": "Enter Your National ID",
     "Face": "Face",
     "Finger": "Finger",
@@ -74,7 +74,7 @@
     "sign_in_with_password": "Login with Password",
     "remember_me": "Remember Me",
     "login": "Continue",
-    "uin_label_text": "NationalId",
+    "uin_label_text": "National ID",
     "password_label_text": "Password",
     "uin_placeholder": "Enter Your National ID",
     "password_placeholder": "Enter password",
@@ -107,7 +107,7 @@
     "not_a_robot": "I'm Not a Robot",
     "get_otp": "Get OTP",
     "verify": "Verify",
-    "vid_label_text": "NationalId",
+    "vid_label_text": "National ID",
     "otp_label_text": "OTP",
     "vid_placeholder": "Enter Your National ID",
     "otp_placeholder": "1234",
@@ -155,7 +155,7 @@
     "signup_for_unified_login": "Sign Up with Unified Login",
     "subheader_text": {
       "all_login_options": "Please choose the login option",
-      "otp_login": "Please enter your NationalId",
+      "otp_login": "Please enter your National ID",
       "biometrics_login": "Please enter your UIN/VID & verify using the Biometric device",
       "pin_login": "Please enter your UIN/VID and PIN",
       "password_login": "Please enter your UIN/VID and password",
@@ -414,7 +414,7 @@
       "send_otp_failed_msg": "Failed to Send OTP",
       "invalid_otp_channel": "Invalid OTP Channel Provided.",
       "auth_failed": "Incorrect OTP. Please try again.",
-      "IDA-MLC-018": "Invalid NationalId. Please enter a valid NationalId."
+      "IDA-MLC-018": "Invalid National ID. Please enter a valid National ID."
     },
     "biometrics": {
       "IDA-BIA-001": "Biometric data did not match",
