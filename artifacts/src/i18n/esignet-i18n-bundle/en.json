@@ -185,10 +185,10 @@
   },
   "tooltips": {
     "vid_info": "Please fill in this field",
-    "otp_info": "Enter Your generated National ID",
-    "bio_info": "Enter Your generated National ID",
-    "pin_info": "Enter Your generated National ID",
-    "username_info": "Enter Your generated National ID"
+    "otp_info": "Enter your National ID",
+    "bio_info": "Enter your National ID",
+    "pin_info": "Enter your National ID",
+    "username_info": "Enter your National ID"
   },
   "errors": {
     "navigate_option": "Please try navigating using the options below.",
