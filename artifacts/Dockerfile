@@ -189,6 +189,7 @@ COPY /src/icu4j/* ${icu4j_jar_path}/
 
 COPY /src/pdf-generator/* ${work_dir}/pdf-generator/
 
+
 COPY /src/auth/* ${regproc_jar_path}/
 
 COPY ./configure.sh ${work_dir}/
