@@ -25,7 +25,7 @@ ARG container_user_gid=1001
 RUN apt-get update -y && \
 apt-get install -y gnupg2 && \
 apt-get update -y && \
-apt-get install -y --no-install-recommends unzip wget zip openjdk-11-jdk && \
+apt-get install -y --no-install-recommends unzip wget zip && \
 groupadd -g ${container_user_gid} ${container_user_group} &&\
 rm -rf /var/lib/apt/lists/* &&\
 wget https://dlcdn.apache.org/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.tar.gz &&\
