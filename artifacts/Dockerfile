@@ -21,6 +21,8 @@ ARG container_user_uid=1001
 # can be passed during Docker build as build time environment for github branch to pickup configuration from.
 ARG container_user_gid=1001
 
+RUN apt-repository universe
+
 # install packages and create user
 RUN apt-get update -y && \
 apt-get install -y gnupg2 && \
