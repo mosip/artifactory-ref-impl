@@ -28,7 +28,8 @@ RUN groupadd -g ${container_user_gid} ${container_user_group} || true
 
 RUN useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user} || true
 
-RUN wget https://dlcdn.apache.org/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.tar.gz && \
+RUN wget -O apache-maven-3.8.8-bin.tar.gz https://dlcdn.apache.org/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.tar.gz && \
+    ls -lh apache-maven-3.8.8-bin.tar.gz && \
     tar -xzf apache-maven-3.8.8-bin.tar.gz && \
     mv apache-maven-3.8.8 /usr/local/maven && \
     rm apache-maven-3.8.8-bin.tar.gz
