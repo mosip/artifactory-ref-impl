@@ -5,21 +5,15 @@ set -e
 # This scripts performs multiple commands to set up the libraries inside the artifactory server docker.
 # Activies performed are listed as below
 # 1. biosdk-client zip creation
-# 2. jpeg-sdk-lib zip creation
-# 3. biosdk-lib zip ceation
-# 4. demosdk-lib zip creation
-# 5. Create resources zip for reg-client
-# 6. Create i18n and entity-spec bundles zip files for all the required modules
+# 2. biosdk-lib zip ceation
+# 3. demosdk-lib zip creation
+# 4. Create resources zip for reg-client
+# 5. Create i18n and entity-spec bundles zip files for all the required modules
 
 echo biosdk client zip creation started
 zip -r -j ${biosdk_client_zip_path}/biosdk-client.zip ${biosdk_client_zip_path}/biosdk-client/*
 rm -rf ${biosdk_client_zip_path}/biosdk-client
 echo biosdk client zip creation completed
-
-echo jpeg-sdk-lib zip creation started
-zip -r -j ${jpegsdk_lib_zip_path}/jpeg-sdk-lib.zip ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/*
-rm -rf ${jpegsdk_lib_zip_path}/jpeg-sdk-lib
-echo jpeg-sdk-lib zip creation completed
 
 echo biosdk-lib zip creation started
 zip -r -j ${biosdk_lib_zip_path}/biosdk-lib.zip ${biosdk_lib_zip_path}/biosdk-lib/*
