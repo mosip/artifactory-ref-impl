@@ -2,7 +2,7 @@ apiVersion: v2
 name: artifactory
 description: A Helm chart for MOSIP Artifactory
 type: application
-version: 0.10.0-INJI
+version: 12.0.4-develop
 appVersion: ""
 dependencies:
   - name: common
