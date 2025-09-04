@@ -76,11 +76,11 @@
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 		<!-- kernel-smsserviceprovider-->
-		<kernel-smsserviceprovider.version>1.2.0.2</kernel-smsserviceprovider.version>
+		<kernel-smsserviceprovider.version>1.2.0.3-SNAPSHOT</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 		<!-- kernel-ref-idobjectvalidator -->
-		<kernel-ref-idobjectvalidator.version>1.2.0.1</kernel-ref-idobjectvalidator.version>
+		<kernel-ref-idobjectvalidator.version>1.2.0.3-SNAPSHOT</kernel-ref-idobjectvalidator.version>
 		<kernel-ref-idobjectvalidator.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator</kernel-ref-idobjectvalidator.location>
 		<kernel-ref-idobjectvalidator.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator.fileName>
 		<!-- kernel-virusscanner-clamav -->
@@ -109,7 +109,7 @@
 		<hazelcast.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast.location>
 		<hazelcast.fileName>cache-provider.jar</hazelcast.fileName>
 		<!-- authentication-childauthfilter-impl -->
-		<authentication-childauthfilter-impl.version>1.2.0.1</authentication-childauthfilter-impl.version>
+		<authentication-childauthfilter-impl.version>1.2.0.3-SNAPSHOT</authentication-childauthfilter-impl.version>
 		<authentication-childauthfilter-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/authentication/authentication-ref-impl</authentication-childauthfilter-impl.location>
 		<authentication-childauthfilter-impl.fileName>authentication-childauthfilter-impl.jar</authentication-childauthfilter-impl.fileName>
 		<!-- idp authentication wrapper -->
