@@ -33,12 +33,9 @@
 			"subItem4": "Télécharger le certificat",
 			"subItem5": "Télécharger un autre certificat de domaine"
 		},
-        "item8": {
-            "title": "Récupérer le RID perdu"
-        },
-        "item9": {
-            "title": "Télécharger la carte"
-        }
+		"item8": {
+			"title": "Récupérer le RID perdu"
+		}
 	},
 	"dashboard": {
 		"welcomeMessage": "Bienvenue sur le portail d'administration Mosip!"
@@ -496,21 +493,21 @@
 			"message": "Échec de la validation de la session en cours",
 			"btnTxt": "D'accord"
 		},
-                "payloadtoolarge": {
-                        "title": "La charge utile de la requête est trop volumineuse",
-                        "message": "La taille de la charge utile dépasse la limite de taille. Veuillez vérifier la taille de la charge utile.",
-                        "btnTxt": "D'accord"
-                },
-	        "servicedown": {
-                        "title": "Service temporairement indisponible",
-                        "message": "Le service n'est pas prêt à traiter la demande. Veuillez essayer après un certain temps.",
-                        "btnTxt": "D'accord"
-                },
-                "offLine": {
-                        "title": "Pas d'Internet",
-                         "message": "La page ne peut pas être chargée",
-                          "btnTxt": "D'accord"
-               }
+		"payloadtoolarge": {
+			"title": "La charge utile de la requête est trop volumineuse",
+			"message": "La taille de la charge utile dépasse la limite de taille. Veuillez vérifier la taille de la charge utile.",
+			"btnTxt": "D'accord"
+		},
+		"servicedown": {
+			"title": "Service temporairement indisponible",
+			"message": "Le service n'est pas prêt à traiter la demande. Veuillez essayer après un certain temps.",
+			"btnTxt": "D'accord"
+		},
+		"offLine": {
+			"title": "Pas d'Internet",
+			"message": "La page ne peut pas être chargée",
+			"btnTxt": "D'accord"
+		}
 	},
 	"validationMessages": {
 		"required": "Veuillez renseigner les champs \"À\" et \"De\" pour filtrer selon la plage de dates",
@@ -553,9 +550,9 @@
 			"upload-btn": "TÉLÉCHARGER",
 			"cancel-btn": "ANNULER",
 			"center": "Centre",
-	        "sourceLabel": "La source",
-	        "processLabel": "Traiter",
-	        "supervisorStatusLabel": "Statut de superviseur",
+			"sourceLabel": "La source",
+			"processLabel": "Traiter",
+			"supervisorStatusLabel": "Statut de superviseur",
 			"popupMessaages": {
 				"popup1": {
 					"uploadConfirm": "Confirmer le téléchargement des paquets",
@@ -573,9 +570,9 @@
 					"btnTxt": "TERMINÉ"
 				}
 			},
-            "source":[{"label":"Client d'inscription","value":"REGISTRATION_CLIENT"}],
-            "process":[{"label":"Nouveau","value":"NEW"},{"label":"Mettre à jour l'UIN","value":"UPDATE"},{"label":"Perdu","value":"LOST"},{"label":"Correction biométrique","value":"BIOMETRIC_CORRECTION"}],
-            "supervisorStatus":[{"label":"Approuvé","value":"APPROVED"},{"label":"Rejeté","value":"REJECTED"}]
+			"source":[{"label":"Client d'inscription","value":"REGISTRATION_CLIENT"}],
+			"process":[{"label":"Nouveau","value":"NEW"},{"label":"Mettre à jour l'UIN","value":"UPDATE"},{"label":"Perdu","value":"LOST"},{"label":"Correction biométrique","value":"BIOMETRIC_CORRECTION"}],
+			"supervisorStatus":[{"label":"Approuvé","value":"APPROVED"},{"label":"Rejeté","value":"REJECTED"}]
 		}
 	},
 	"actionMessages": {
@@ -1030,87 +1027,50 @@
 		"Zone": "Zone",
 		"Logout": "Se déconnecter"
 	},
-    "paginatorIntl": {
-        "itemsPerPageLabel": "objets par page",
-        "of": "de"
-    },
+	"paginatorIntl": {
+		"itemsPerPageLabel": "objets par page",
+		"of": "de"
+	},
 	"keymanager": {
 		"applicationIds": [
 			{
 				"id": "PRE_REGISTRATION",
-				"value": "PRÉ-INSCRIPTION"
+				"value": "PRE_REGISTRATION 3 années"
 			},
 			{
 				"id": "REGISTRATION_PROCESSOR",
-				"value": "PROCESSEUR D'INSCRIPTION"
+				"value": "REGISTRATION_PROCESSOR 3ans"
 			},
 			{
 				"id": "REGISTRATION",
-				"value": "INSCRIPTION"
+				"value": "INSCRIPTION 3ans"
 			},
 			{
 				"id": "ID_REPO",
-				"value": "RÉFÉRENTIEL D'IDENTIFIANTS"
+				"value": "ID_REPO 3ans"
 			},
 			{
 				"id": "KERNEL",
-				"value": "NŒUD CENTRAL"
+				"value": "KERNEL 3ans"
 			},
 			{
 				"id": "ROOT",
-				"value": "RACINE"
+				"value": "RACINE 5ans"
 			},
 			{
 				"id": "PMS",
-				"value": "SERVICE DE GESTION DES PARTENAIRES"
+				"value": "PMS 3ans"
 			},
 			{
 				"id": "ADMIN_SERVICES",
-				"value": "SERVICES ADMINISTRATIFS"
+				"value": "ADMIN_SERVICES 3ans"
 			},
 			{
 				"id": "RESIDENT",
-				"value": "RÉSIDENT"
+				"value": "RÉSIDENT 3ans"
 			}
 		]
 	},
-	"download-card": {
-        "header": "Télécharger la carte",
-        "text": "Veuillez entrer un ID d'enregistrement pour télécharger la carte numérique",
-        "error": "ID d'enregistrement invalide saisi",
-        "id": "ID d'enregistrement",
-        "dob": "Date de naissance",
-        "verifyanddownload": "J'ai vérifié le visage.",
-        "reject": "Le visage ne correspond pas.",
-        "submit": "Rejeter",
-        "download": "Télécharger",
-        "searchLimit": "Il vous reste",
-        "outof": "cherche hors de",
-        "dailylimit": "de votre limite quotidienne",
-        "verify": "Pouvez-vous confirmer si le visage a été vérifié ?",
-        "placeholder":"ID d'enregistrement",
-        "errorMessages": {
-            "title": "Erreur",
-            "message": "RID introuvable",
-            "btnTxt": "D'accord"
-        },
-        "popupMessages": {
-            "rejectMessages": {
-                "title": "Succès",
-                "message": "Vous avez rejeté la vérification.",
-                "btnTxt": "D'accord"
-            },
-            "noData": {
-                "title": "Erreur",
-                "message": "Aucune donnée disponible",
-                "btnTxt": "D'accord"
-            }
-        },
-        "statuscheckFailed":"Échoué",
-        "statuscheckCompleted":"complété"
-
-    },
-
 	"serverError": {
 		"KER-KMS-001": "Le certificat n'est pas valide",
 		"KER-KMS-002": "ApplicationId introuvable dans la stratégie de clé",
@@ -1579,7 +1539,7 @@
 		"KER-USR-017": "Mappage de zone et d'utilisateur non présent dans la base de données",
 		"KER-USR-018": "demande en double",
 		"KER-USR-021": "L'utilisateur donné déjà mappé avec une zone différente",
-		"KER-USR-022": "Le mappage du centre utilisateur doit être supprimé avant de supprimer l'utilisateur de la zone", 
+		"KER-USR-022": "Le mappage du centre utilisateur doit être supprimé avant de supprimer l'utilisateur de la zone",
 		"ADMN-BLK-TRNSCTNS-001": "Impossible de récupérer les transactions",
 		"ADMN-BLK-001": "Toute erreur s'est produite lors de l'opération en bloc. Si la catégorie est des données maîtres, les opérations de liste sont répertoriées. Si la catégorie est un paquet, la liste des informations sur les paquets ayant échoué sont répertoriées",
 		"ADM-BLK-001": "Les données n'existent pas dans la base de données",
@@ -1608,7 +1568,6 @@
 		"ADM-BLK-007": "Aucun fichier téléchargé",
 		"ADM-BLK-008": "Entrée trouvée avec les mêmes valeurs de clé primaire",
 		"ADM-BLK-009": "Échec du traitement de l'entrée",
-		"ADM-BLK-010" : "Délimiteur invalide utilisé",
 		"KER-MSD-413": "Entrée déjà trouvée pour le nom de machine fourni",
 		"KER-MSD-414": "Entrée déjà trouvée pour les clés publiques fournies",
 		"ADM-PKT-004": "RID non trouvé",
@@ -1716,20 +1675,18 @@
 		"RPR-RGS-034" : "la recherche entre les dates doit être inférieure à 30 jours",
 		"KER-MSD-394" : "Votre mappage de zone est manquant. Veuillez contacter l'administrateur.",
 		"ADM-AVD-001" : "Une erreur technique s'est produite lors de la récupération des données, veuillez réessayer après un certain temps.",
-        "ADM-AVD-002" : "Le RID est invalide",
-        "ADM-AVD-003" : "La carte pour cet ID de demande n'est pas générée. Veuillez vérifier l'état de l'ID.",
-        "ADM-AVD-004" : "Photo du demandeur introuvable",
-        "ADM-AVD-005" : "Carte numérique introuvable pour le RID, veuillez réessayer après quelques jours",
-        "ADM-AVD-006" : "Veuillez prendre connaissance des détails avant de télécharger la carte numérique",
-        "ADM-AVD-007" : "Identifiant de la requête introuvable",
-        "ADM-AVD-008" : "Votre limite de recherche quotidienne a été dépassée. Veuillez réessayer demain.",
-        "ADM-AVD-009" : "L'utilisation du partage de données a expiré",
+		"ADM-AVD-002" : "Le RID est invalide",
+		"ADM-AVD-003" : "La carte pour cet ID de demande n'est pas générée. Veuillez vérifier l'état de l'ID.",
+		"ADM-AVD-004" : "Photo du demandeur introuvable",
+		"ADM-AVD-005" : "Carte numérique introuvable pour le RID, veuillez réessayer après quelques jours",
+		"ADM-AVD-006" : "Veuillez prendre connaissance des détails avant de télécharger la carte numérique",
+		"ADM-AVD-007" : "Identifiant de la requête introuvable",
+		"ADM-AVD-008" : "Votre limite de recherche quotidienne a été dépassée. Veuillez réessayer demain.",
+		"ADM-AVD-009" : "L'utilisation du partage de données a expiré",
 		"ADM-AVD-509" : "RID introuvable",
 		"ADM-AVD-510" : "Limite de recherche de candidats dépassée",
 		"ADM-AVD-511" : "ID de demande introuvable",
 		"KER-USR-025" : "Le mappage central est manquant, l'utilisateur ne peut pas être activé.",
-		"KER-MSD-281" : "Nombre de kiosques invalide",
-		"KER-MSD-023" : "Code de langue invalide",
-		"KER-MSD-444" : "Le centre d'inscription ne peut pas être vide ou nul"
+		"KER-MSD-281" : "Nombre de kiosques invalide"
 	}
 }

@@ -301,8 +301,7 @@
   "validationMessages": {
     "required": "Please fill both the ‘To’ and ‘From’ field to filter by the date range",
     "range": "’To’ date cannot be before ‘From’ date'",
-    "invalid": "Please select a valid value for Date",
-    "max-limit": "Max limit reached"
+    "invalid": "Please select a valid value for Date"
   },
   "actionMessages": {
     "decommission": {
@@ -346,18 +345,6 @@
         " ? \n You can Activate it later if you wish. Till then it will be set as Inactive"
       ],
       "confirmation-title": "Confirmation"
-    },
-    "Approve": {
-      "yesBtnTxt": "Yes",
-      "noBtnTxt": "No",
-      "confirmation-message": ["Do you want to Approve the ", "Make ", "Version "],
-      "confirmation-title": "Confirmation"
-    },
-    "Reject": {
-      "yesBtnTxt": "Yes",
-      "noBtnTxt": "No",
-      "confirmation-message": ["Do you want to Reject the ", "Make ", "Version "],
-      "confirmation-title": "Confirmation"
     }
   },
   "policy": {
@@ -379,7 +366,6 @@
     "language": "English",
     "keyboard-tooltip": "Click for Virtual Keyboard (English)",
     "update": "Update",
-    "updatedSuccessfully": "Policy mapping request submitted successfully.",
     "validationMessages": {
       "name": {
         "required": "Policy Name is required",
@@ -453,8 +439,15 @@
     "chooseFile": "Choose File",
     "uploadYourFile": "Upload Your File",
     "button": "Upload",
-    "cancel": "Cancel",
-    "supportedDoc":"PEM or CER format file only supported."
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "titleTxt": "Map Policy Group",
+    "footerButtons": {
+      "resetTxt": "Reset",
+      "cancelTxt": "Cancel",
+      "applyTxt": "Save"
+    }
   },
   "filters": {
     "titleTxt": "Add Filters",
@@ -470,14 +463,7 @@
   },
   "genericerror": {
     "fieldValidation": "This field is required",
-    "fieldNameValidation": " is required",
-    "invalidJson": "Invalid JSON format for policies data"
-  },
-  "successMessages":{
-    "sbi":{
-      "Activate":"Secure biometric details approved successfully.",
-      "De-activate":"Secure biometric details rejected successfully."
-    }
+    "fieldNameValidation": " is required"
   },
   "serverError": {
     "PMS_COR_001": "Missing Input Parameter",
@@ -607,31 +593,6 @@
     "PMS_POL_055": "Published policy cannot be updated.",
     "PMS_POL_056": "Active policies exists under the policy group.",
     "PMS_POL_057": "Active apiKey exists under the policy.",
-    "PMS_POL_058": "Status cannot be changed for published policy.;",
-    "KER-PCM-006": "Root CA/Intermediate CA Certificates not found.",
-    "KER-PCM-015": "Self Signed Certificate not allowed as partner.",
-    "KER-PCM-004": "Certificate Dates are not valid.",
-    "KER-KMS-013": "Certificate Parsing Error.signed overrun, bytes = 917",
-    "PMS_AUT_001": "Reg Device Sub Type Code not found in the list of Reg Device Sub Types",
-    "PMS_PV_005": "Invalid input parameter - errorCode in policy data",
-    "PMS_PRT_053": "Mapping exists for given policy and partner and is in InProgress state.",
-    "PMS_AUT_028": "Device details for id $ID are rejected. Can't use same details for mapping."
-  },
-  "generickeys":{
-    "save":"Save",
-    "cancel":"Cancel",
-    "detailView":"Detail View",
-    "ok":"Ok",
-    "updatedSuccessfully":"Updated Successfully",
-    "createdSuccessfully":"Created Successfully",
-    "success":"Success",
-    "error":"Error",
-    "failure":"Failure !",
-    "certificate": "Certificate",
-    "mapped": "Mapping already exists."
-  },
-  "paginatorIntl": {
-      "itemsPerPageLabel": "Items per page: ",
-      "of":"of"
+    "PMS_POL_058": "Status cannot be changed for published policy.;"
   }
 }

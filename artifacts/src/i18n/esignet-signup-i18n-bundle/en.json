@@ -122,7 +122,7 @@
     "cancel_button": "Cancel",
     "proceed_button": "Proceed",
     "permission_denied_header": "Camera Access Disabled",
-    "permission_denied_description": "Your camera permission has be disabled. Please enable camera permission from your browser settings.",
+    "permission_denied_description": "Your camera permission has be disabled. Please enable camera permission from your browser setting..",
     "not_accessible_header": "Camera Not Accessible",
     "not_accessible_description": "Your camera is not accessible. Please check your camera accessibility, some other application is accessing your camera right now.",
     "key_info": {
@@ -136,9 +136,9 @@
     }
   },
   "terms_and_conditions": {
-    "header": "Terms & Conditions",
-    "sub_header": "Please read the terms and conditions carefully.",
-    "agree_text": "I agree to the terms and conditions as set out by the user agreement.",
+    "header": "Terms & Conditions for testing",
+    "sub_header": "Please read and understand the terms and conditions carefully.",
+    "agree_text": "I have read and understood the terms and conditionditions and agree to the terms and conditions as set out by the user agreement.",
     "failed_to_load": "Failed to load terms and conditions",
     "still_loading": "Terms and conditions are still loading. Please wait",
     "cancel_button": "Cancel",
@@ -158,34 +158,34 @@
     "proceed_button": "Proceed"
   },
   "verification_steps": {
-    "header": "Complete your eKYC verification with the below simple steps",
+    "header": "Complete your eKYC testing with the below five steps",
     "cancel": "Cancel",
     "proceed": "Proceed",
     "ekycSteps": {
       "ekyc_provider": {
-        "label": "Choose An eKYC Provider",
-        "description": "Select an eKYC service provider that aligns with your requirements"
+        "label": "Select the eKYC for testing",
+        "description": "Select an testing service provider to check it aligns with your requirements"
       },
       "terms_&_conditions": {
-        "label": "Terms & Conditions",
-        "description": "Review the policy terms & conditions"
+        "label": "Terms & Conditions for testing",
+        "description": "verify the terms & conditions for testing the eKYC process"
       },
       "pre_verification_guide": {
-        "label": "Pre-verification Guide",
-        "description": "Essential tips to follow for a smooth eKYC experience"
+        "label": "Pre-verification guide to continue",
+        "description": "Key instructions for a seamless eKYC experience in testing"
       },
       "identity_verification": {
-        "label": "Identity Verification",
-        "description": "This step verifies an individual’s physical presence during the identity verification process as well as verification of the individual’s identity with their physical ID"
+        "label": "Identity verification for eKYC",
+        "description": "testing"
       },
       "review_consent": {
-        "label": "Review Consent",
-        "description": "Review and approve consent before sharing with the service provider"
+        "label": "Review Consent and continue",
+        "description": "Review and approve and continue"
       }
     }
   },
   "verification_screen":{
-    "welcome_message": "Welcome! Initiating identity verification process in {count} seconds",
+    "welcome_message": "Welcome! Initiating Identity verification process in {count} seconds",
     "focus_on_screen_message": "Please try to focus on the screen",
     "successful_header": "Verification Successful!",
     "successful_subheader": "Please wait while we finalize the process",
@@ -204,59 +204,59 @@
     "loading_title": "Please wait while we finalize the process…"
   },
   "error_response": {
-    "invalid_transaction": "The request took too long to process. Please try again later.",
-    "invalid_otp_channel": "Please provide a valid OTP notification channel and try again.",
-    "invalid_captcha": "The captcha you entered is incorrect. Please try again.",
-    "send_otp_failed": "Unable to send OTP. Please try again.",
-    "active_otp_found": "An active OTP is already in use. Please enter the existing OTP or wait for it to expire before requesting a new one.",
-    "unknown_error": "An unknown error has occurred. Please try again later.",
-    "challenge_failed": "OTP authentication failed. Please try again.",
-    "challenge_expired": "OTP expired. Please request a new one and try again.",
+    "invalid_transaction": "The transaction has timed out. Please try again.",
+    "invalid_otp_channel": "Invalid OTP Channel Provided",
+    "invalid_captcha": "Invalid captcha found.",
+    "send_otp_failed": "Send OTP failed",
+    "active_otp_found": "Active OTP Found",
+    "unknown_error": "Unknown Error",
+    "challenge_failed": "Entered OTP is incorrect. Please try again.",
+    "challenge_expired": "Entered OTP has expired. Please try again.",
     "invalid_challenge_type": "Invalid Challenge Type",
     "invalid_challenge_format": "Invalid Challenge Format",
-    "invalid_phone_number": "Please Enter Valid Phone Number and try again.",
+    "invalid_phone_number": "Invalid Mobile Number",
     "unsupported_language": "Unsupported Language",
-    "invalid_value": "Please Enter Valid Value and try again.",
+    "invalid_value": "Invalid Value",
     "add_identity_failed": "Add Identity Failed",
     "hash_generate_failed": "Fail to generate secret HASH",
-    "get_uin_failed": "Unable to retrieve your UIN. Please try again later or contact support for assistance.",
-    "invalid_fullname": "Please Enter Valid Name and try again.",
-    "invalid_challenge": "Challenge is invalid. Please try again.",
-    "generate_challenge_failed": "Failed to generate the challenge. Please try again.",
+    "get_uin_failed": "Fail to  obtain UIN",
+    "invalid_fullname": "Invalid Fullname",
+    "invalid_challenge": "Invalid Challenge",
+    "generate_challenge_failed": "Fail to generate challenge",
     "active_challenge_found": "An active challenge found",
     "unsupported_challenge_type": "Unsupported Challenge Type",
     "invalid_challenge_info": "Invalid Challenge Info",
-    "invalid_identifier": "Please Enter Valid Individual ID.",
-    "invalid_username": "Please Enter Valid Username and try again.",
-    "invalid_password": "Please Enter Valid Password and try again.",
+    "invalid_identifier": "Invalid Identifier",
+    "invalid_username": "Invalid Username",
+    "invalid_password": "Invalid Password",
     "invalid_consent": "Invalid Consent",
     "identifier_mismatch": "Identifier Mismatch",
     "consent_required": "Consent Required",
-    "too_many_attempts": "Too many OTP requests received. Please wait a moment before trying again.",
-    "too_many_verify_attempts": "Maximum number of verification attempts reached. Please generate new OTP and try again.",
-    "too_early_attempt": "OTP request made frequently. Please wait before requesting a new OTP.",
-    "invalid_request": "Request is invalid. Please try again.",
-    "already-registered": "User is registered already. Please try to login.",
-    "timed_out": "The request took too long to process. Please try again later.",
-    "timeout_transaction": "The transaction took too long to process. Please try again later.",
-    "request_limit": "It is taking time to fetch your account status. Please try to login after some time.",
-    "reset_pwd_request_limit": "Limit exceeded for reset password request. Please try again after some time.",
-    "not_registered": "User is not registered. Please register and then try to login.",
-    "reset_pwd_failed": "Password reset was unsuccessful. Please try again.",
-    "identifier_already_registered": "The mobile number is already registered. Please try with different mobile number.",
-    "identifier_not_found": "The mobile number or name entered is invalid. Please enter valid credentials associated with your account and try again.",
+    "too_many_attempts": "Request OTP too many attempts",
+    "too_many_verify_attempts": "Too many verification attempts, Kindly generate new OTP",
+    "too_early_attempt": "Request OTP too early attempts",
+    "invalid_request": "Invalid Request",
+    "already-registered": "Already Registered",
+    "timed_out": "Timedout",
+    "timeout_transaction": "Transaction Timeout",
+    "request_limit": "It is taking time to fetch your account status. Please try login after 5 minutes.",
+    "reset_pwd_request_limit": "Delay in fetching status of your request. Try logging in with a new password after 5 minutes.",
+    "not_registered": "Not Registered",
+    "reset_pwd_failed": "Reset Password Failed",
+    "identifier_already_registered": "Identifier already registered",
+    "identifier_not_found": "Invalid number or name. Please enter a registered mobile number and full name.",
     "invalid_kba_challenge": "Invalid number or name. Please enter a registered mobile number and full name.",
     "kba_challenge_not_found": "Invalid number or name. Please enter a registered mobile number and full name.",
-    "invalid_kbi_challenge": "The mobile number or name entered is invalid. Please enter valid credentials associated with your account and try again.",
-    "kbi_challenge_not_found": "The mobile number or name entered is invalid. Please enter valid credentials associated with your account and try again.",
+    "invalid_kbi_challenge": "Invalid number or name. Please enter a registered mobile number and full name.",
+    "kbi_challenge_not_found": "Invalid number or name. Please enter a registered mobile number and full name.",
     "identity_inactive": "Identifier inactive",
     "fetch_identity_failed": "Fetch Identifier Failed",
     "challenge_format_and_type_mismatch": "Challenge format and type mismatch",
-    "knowledgebase_mismatch": "The mobile number or name entered is invalid. Please enter valid credentials associated with your account and try again.",
-    "identifier_blocked": "The user account is currently blocked. Please try again after some time.",
-    "unsupported_purpose": "Request is invalid. Please try again.",
-    "server_unreachable": "Unable to process your request. Please try again after some time.",
-    "otp_notification_failed": "Unable to send OTP. Please try again after some time.",
+    "knowledgebase_mismatch": "Invalid number or name. Please enter a registered mobile number and full name.",
+    "identifier_blocked": "User is blocked. Please try again after 5 minutes.",
+    "unsupported_purpose": "Invalid Request",
+    "server_unreachable": "We are unable to process your request, please try again later.",
+    "otp_notification_failed": "Failed to send the otp",
     "IDR-IDC-001": "Missing Input Parameter",
     "IDR-IDC-002": "Invalid Input Parameter",
     "IDR-IDC-003": "Invalid Request",
@@ -291,6 +291,6 @@
     "IDR-IDS-012": "Authentication Failed",
     "IDR-BIE-001": "Technical Error in Biometric Extraction",
     "IDR-CFJ-001": "Credential Feeder job failed",
-    "grant_exchange_failed": "Unable to Authorize. Please try again."
+    "grant_exchange_failed": "Unable to Authorise - grant exchange failed. Please try again."
   }
 }

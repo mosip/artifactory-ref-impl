@@ -29,11 +29,6 @@
       "name": "Kannada",
       "nativeName": "ಕನ್ನಡ",
       "locale": "kn_IN"
-    },
-    "spa": {
-      "name": "Spanish",
-      "nativeName": "Española",
-      "locale": "es_ES"
     }
   }
 }

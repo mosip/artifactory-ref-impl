@@ -304,8 +304,7 @@
   "validationMessages": {
     "required": "Veuillez remplir les champs À et De pour filtrer par plage de dates",
     "range": "La date de fin ne peut pas être antérieure à la date de début",
-    "invalid": "Veuillez sélectionner une valeur valide pour Date",
-    "max-limit": "Limite maximale atteinte"
+    "invalid": "Veuillez sélectionner une valeur valide pour Date"
   },
   "actionMessages": {
     "decommission": {
@@ -349,18 +348,6 @@
         " ? \n Vous pouvez l'activer plus tard si vous le souhaitez. Jusque-là, il sera défini comme inactif"
       ],
       "confirmation-title": "Confirmation"
-    },
-    "Approve": {
-      "yesBtnTxt": "Oui",
-      "noBtnTxt": "Non",
-      "confirmation-message": ["Voulez-vous approuver le ", "Faire ", "Version "],
-      "confirmation-title": "Confirmation"
-    },
-    "Reject": {
-      "yesBtnTxt": "Oui",
-      "noBtnTxt": "Non",
-      "confirmation-message": ["Voulez-vous rejeter le ", "Faire ", "Version "],
-      "confirmation-title": "Confirmation"
     }
   },
   "policy": {
@@ -382,7 +369,6 @@
     "language": "Anglais",
     "keyboard-tooltip": "Cliquez pour le clavier virtuel (anglais)",
     "update": "Mise à jour",
-    "updatedSuccessfully": "Demande de mappage de stratégie soumise avec succès.",
     "validationMessages": {
       "name": {
         "required": "Le nom de la stratégie est requis",
@@ -456,8 +442,7 @@
     "chooseFile": "Choisir le fichier",
     "uploadYourFile": "Téléchargez votre fichier",
     "button": "Télécharger",
-    "cancel": "Annuler",
-    "supportedDoc":"Fichier au format PEM ou CER uniquement pris en charge."
+    "cancel": "Annuler"
   },
   "filters": {
     "titleTxt": "Ajouter des filtres",
@@ -473,14 +458,7 @@
   },
   "genericerror": {
     "fieldValidation": "Ce champ est requis",
-    "fieldNameValidation": " est requis",
-    "invalidJson": "Format JSON non valide pour les données des règles"
-  },
-  "successMessages":{
-    "sbi":{
-      "Activate":"Informations biométriques sécurisées approuvées avec succès.",
-      "De-activate":"Les informations biométriques sécurisées ont été rejetées avec succès."
-    }
+    "fieldNameValidation": " est requis"
   },
   "serverError": {
     "PMS_COR_001": "Paramètre d'entrée manquant",
@@ -610,31 +588,6 @@
     "PMS_POL_055": "La politique publiée ne peut pas être mise à jour.",
     "PMS_POL_056": "Les stratégies actives existent sous le groupe de stratégies.",
     "PMS_POL_057": "L'apiKey active existe sous la stratégie.",
-    "PMS_POL_058": "Le statut ne peut pas être modifié pour la politique publiée.;",
-    "KER-PCM-006": "Certificats d'autorité de certification racine/autorité de certification intermédiaire introuvables.",
-    "KER-PCM-015": "Certificat auto-signé non autorisé en tant que partenaire.",
-    "KER-PCM-004": "Les dates des certificats ne sont pas valides.",
-    "KER-KMS-013": "Erreur d'analyse du certificat. dépassement de signature, octets = 917",
-    "PMS_AUT_001": "Code de sous-type de périphérique Reg introuvable dans la liste des sous-types de périphérique Reg",
-    "PMS_PV_005": "Paramètre d'entrée non valide - errorCode dans les données de stratégie",
-    "PMS_PRT_053": "Le mappage existe pour une politique et un partenaire donnés et est en cours.",
-    "PMS_AUT_028": "Les détails de l'appareil pour l'identifiant $ID sont rejetés. Impossible d'utiliser les mêmes détails pour le mappage."
-  },
-  "generickeys":{
-    "save": "Enregistrer",
-    "cancel": "Annuler",
-    "detailView": "Vue détaillée",
-    "ok": "OK",
-    "updatedSuccessfully": "Mise à jour réussie",
-    "createdSuccessfully": "Création réussie",
-    "success": "Succès",
-    "error": "Erreur",
-    "failure":"Échec !",
-    "certificate": "Certificat",
-    "mapped": "La cartographie existe déjà."
-  },
-  "paginatorIntl": {
-    "itemsPerPageLabel": "objets par page",
-    "of": "de"
+    "PMS_POL_058": "Le statut ne peut pas être modifié pour la politique publiée.;"
   }
 }

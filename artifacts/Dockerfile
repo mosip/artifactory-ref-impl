@@ -28,8 +28,8 @@ apt-get update -y && \
 apt-get install -y --no-install-recommends unzip wget zip openjdk-11-jdk && \
 groupadd -g ${container_user_gid} ${container_user_group} &&\
 rm -rf /var/lib/apt/lists/* &&\
-wget https://dlcdn.apache.org/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.tar.gz &&\
-tar -xzf apache-maven-3.8.8-bin.tar.gz && mv apache-maven-3.8.8 /usr/local/maven && rm apache-maven-3.8.8-bin.tar.gz &&\
+wget https://dlcdn.apache.org/maven/maven-3/3.8.9/binaries/apache-maven-3.8.9-bin.tar.gz &&\
+tar -xzf apache-maven-3.8.9-bin.tar.gz && mv apache-maven-3.8.9 /usr/local/maven && rm apache-maven-3.8.9-bin.tar.gz &&\
 useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user} \
 && mkdir -p /var/run/nginx /var/tmp/nginx \
 && chown -R ${container_user}:${container_user} /usr/share/nginx /var/run/nginx /var/tmp/nginx
@@ -51,16 +51,11 @@ ENV base_path=/usr/share/nginx/html/artifactory
 # environment variable for Biosdk client Zip path
 ENV biosdk_client_zip_path=${base_path}/libs-release-local/biosdk/mock/0.9
 
-# environment variable for Biosdk client Zip path
-ENV biosdk_client_zip_java21_path=${base_path}/libs-release-local/biosdk/mock/0.9/java21
-
 # environment variable for Demosdk Zip path
 ENV demosdk_zip_path=${base_path}/libs-release-local/demosdk/default/
 
 # environment variable for Biosdk lib Zip path
 ENV biosdk_lib_zip_path=${base_path}/libs-release-local/biosdk/
-
-ENV biosdk_lib_zip_java21_path=${base_path}/libs-release-local/biosdk/java21/
 
 # environment variable for Biosdk lib Zip path
 ENV jpegsdk_lib_zip_path=${base_path}/libs-release-local/jpeg-sdk/
@@ -79,9 +74,6 @@ ENV mosip_plugins_zip_path=${base_path}/libs-release-local/mosip-plugins
 
 # environment valiable for sdk jar
 ENV sdk_path=${base_path}/libs-release-local/mock-sdk/1.1.5/
-
-# environment valiable for sdk jar
-ENV jpeg_sdk_path=${base_path}/libs-release-local/jpeg-mock-sdk/1.1.5/
 
 # environment valiable for image-compressor jar
 ENV image_compressor_path=${base_path}/libs-release-local/compressor/
@@ -113,11 +105,11 @@ ENV image_zip_path=${base_path}/libs-release-local/image
 # environment variable for idp auth wrapper zip path
 ENV idp_auth_wrapper_lib_zip_path=${base_path}/libs-release-local/idp/idp-auth-wrapper
 
+# environment variable for certify plugins zip path
+ENV certify_plugin_zip_path=${base_path}/libs-release-local/certify
+
 # environment variable for esignet wrappers zip path
 ENV esignet_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet
-
-#environment variable for certify plugins zip path
-ENV certify_plugin_zip_path=${base_path}/libs-release-local/certify
 
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
@@ -129,9 +121,6 @@ ENV regclient_jar_path=${base_path}/libs-release-local
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
-# environment variable
-ENV pdf_generator_path=${base_path}/libs-release-local/pdf-generator
-
 # environment variable for child auth filter jar path
 ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authentication/authentication-ref-impl
 
@@ -142,25 +131,21 @@ ENV scripts_path=/home/mosip/scripts
 ENV version=1.2.1-SNAPSHOT
 ENV idp_auth_wrapper_version=0.0.1-SNAPSHOT
 
+#environment variable for pdf generator
+ENV pdf_generator_path=${base_path}/libs-release-local/pdf-generator
+
 # Create all the jar, i18n & theme paths.
-RUN mkdir -p ${biosdk_client_zip_java21_path}/biosdk-client/ ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${biosdk_lib_zip_java21_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${mosip_plugins_zip_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${image_compressor_path}/image-compressor ${icu4j_jar_path} ${icu4j_jar_path}/java21 ${clamav_path} ${i18n_zip_path} ${theme_zip_path} ${image_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${pdf_generator_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path} ${esignet_wrapper_lib_zip_path}/esignet-wrapper ${certify_plugin_zip_path}/certify-plugin ${registration_api_impl_zip_path}/registration-api-impl ${esignet_wrapper_lib_zip_path}/esignet-plugins
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${mosip_plugins_zip_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${image_compressor_path}/image-compressor ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${theme_zip_path} ${image_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${pdf_generator_path} ${idp_auth_wrapper_lib_zip_path} ${esignet_wrapper_lib_zip_path}/esignet-wrapper ${certify_plugin_zip_path}/certify-plugin ${registration_api_impl_zip_path}/registration-api-impl
+
 # Copy all the respective jars to the location
 
 COPY /src/sdk/biosdk/install.sh ${biosdk_client_zip_path}/biosdk-client/
-
-COPY /src/sdk/biosdk/install.sh ${biosdk_client_zip_java21_path}/biosdk-client/
 
 COPY /src/sdk/demosdk/install.sh ${demosdk_zip_path}/demosdk/
 
 COPY /src/deployment/docker/id-authentication/* ${ida_sh_path}/
 
 COPY /src/hsm/client.zip ${hsm_client_path}/
-
-COPY /src/hsm/client-alpine.zip ${hsm_client_path}/
-
-COPY /src/hsm/client-ubuntu.zip ${hsm_client_path}/
-
-COPY /src/hsm/client-21.zip ${hsm_client_path}/
 
 COPY /src/mosip-plugins/sign-in-with-esignet/sign-in-with-esignet.zip ${mosip_plugins_zip_path}/
 
@@ -174,8 +159,6 @@ COPY /src/i18n/admin-entity-spec-bundle/*  ${work_dir}/admin-entity-spec-bundle/
 
 COPY /src/i18n/admin-i18n-bundle/*  ${work_dir}/admin-i18n-bundle/
 
-COPY /src/i18n/resident-i18n-bundle/*  ${work_dir}/resident-i18n-bundle/
-
 COPY /src/i18n/pmp-entity-spec-bundle/*  ${work_dir}/pmp-entity-spec-bundle/
 
 COPY /src/i18n/pmp-i18n-bundle/*  ${work_dir}/pmp-i18n-bundle/
@@ -183,10 +166,6 @@ COPY /src/i18n/pmp-i18n-bundle/*  ${work_dir}/pmp-i18n-bundle/
 COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n-bundle/
 
 COPY /src/master-templates/* ${work_dir}/master-templates/
-
-COPY /src/pdf-generator/* ${work_dir}/pdf-generator/
-
-COPY /src/i18n/idp-i18n-bundle/*  ${work_dir}/idp-i18n-bundle/
 
 COPY /src/i18n/oidc-demo-i18n-bundle/*  ${work_dir}/oidc-demo-i18n-bundle/
 
@@ -207,6 +186,9 @@ COPY /src/theme/esignet-signup-theme/* ${work_dir}/esignet-signup-theme/
 COPY /src/jre/* ${regclient_jar_path}/
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
+
+COPY /src/pdf-generator/* ${work_dir}/pdf-generator/
+
 
 COPY /src/auth/* ${regproc_jar_path}/
 
