@@ -28,16 +28,13 @@
         "item7": {
             "title": "KeyManager",
             "subItem2": "GenerateMasterKey",
-            "subItem1": "GenerateCSR",            
+            "subItem1": "GenerateCSR",
             "subItem3": "GetCertificate",
             "subItem4": "UploadCertificate",
             "subItem5": "UploadOtherDomainCertificate"
         },
         "item8": {
             "title": "Retrieve Lost RID"
-        },
-        "item9": {
-            "title": "Download Card"
         }
     },
     "dashboard": {
@@ -166,7 +163,7 @@
             },
             "workingDays": {
                 "required": "Please select atleast one day"
-            } 
+            }
         },
         "popupMessages": {
             "create": {
@@ -228,7 +225,7 @@
         ],
         "buttonText": "OK",
         "title": "Error"
-    }, 
+    },
     "masterData": {
         "master-data": "Master Data",
         "total-no": "Total No",
@@ -476,12 +473,12 @@
             "message": "Payload size exceeds the size limit. Kindly check the payload size.",
             "btnTxt": "Ok"
         },
-	"servicedown": {
+        "servicedown": {
             "title": "Service Temporarily Unavailable",
             "message": "Service is not ready to handle the request. Kindly try after sometime.",
             "btnTxt": "Ok"
         },
-	"offLine": {
+        "offLine": {
             "title": "No internet",
             "message": "Page cannot be loaded",
             "btnTxt": "Ok"
@@ -511,49 +508,49 @@
 
     },
     "packet-upload":{
-      "header":"Packet Upload",
-      "singleView":{
-        "detailed-view-txt":"Detailed View",
-        "status-txt":"Status",
-        "uploadedBy-txt": "Uploaded By",
-        "count-txt":"Count",
-        "dataAndTime-txt" : "Date And Time",
-        "failureDescription-txt":"Failure Description",
-        "placeHolder1-txt":"Table Name",
-        "placeHolder2-txt":"Operations"
-      },
-      "createView":{
-        "input-btn-text":"Choose File",
-        "input-text1":"Upload file...",
-        "input-text2":"Upload Your File",
-        "upload-btn":"UPLOAD",
-        "cancel-btn":"CANCEL",
-        "center": "Center",
-        "sourceLabel": "Source",
-        "processLabel": "Process",
-        "supervisorStatusLabel": "Supervisor Status",
-        "popupMessaages":{
-            "popup1":{
-                "uploadConfirm":"Confirm Packet Upload",
-                "message":"Packet will be processed.\n Please ensure that all information is correct.\n\n\n Transaction will start once you click on confirm.",
-                "confirmBtnTxt":"CONFIRM",
-                "cancelBtnTxt":"Cancel"
-            },
-            "popup2":{
-                "title":"Failure",
-                "btnTxt":"DONE"
-            },
-            "popup3":{
-                "title":"Success",
-                "message" :"Your file has been uploaded successfully. \n Data upload is currently in progress.\n\n\n Transaction ID :",
-                "btnTxt":"DONE"
-            }
-     
+        "header":"Packet Upload",
+        "singleView":{
+            "detailed-view-txt":"Detailed View",
+            "status-txt":"Status",
+            "uploadedBy-txt": "Uploaded By",
+            "count-txt":"Count",
+            "dataAndTime-txt" : "Date And Time",
+            "failureDescription-txt":"Failure Description",
+            "placeHolder1-txt":"Table Name",
+            "placeHolder2-txt":"Operations"
         },
-        "source":[{"label":"Registration Client","value":"REGISTRATION_CLIENT"}],
-        "process":[{"label":"New","value":"NEW"},{"label":"Update UIN","value":"UPDATE"},{"label":"Lost","value":"LOST"},{"label":"Biometrics Correction","value":"BIOMETRIC_CORRECTION"}],
-        "supervisorStatus":[{"label":"Approved","value":"APPROVED"},{"label":"Rejected","value":"REJECTED"}]
-      }
+        "createView":{
+            "input-btn-text":"Choose File",
+            "input-text1":"Upload file...",
+            "input-text2":"Upload Your File",
+            "upload-btn":"UPLOAD",
+            "cancel-btn":"CANCEL",
+            "center": "Center",
+            "sourceLabel": "Source",
+            "processLabel": "Process",
+            "supervisorStatusLabel": "Supervisor Status",
+            "popupMessaages":{
+                "popup1":{
+                    "uploadConfirm":"Confirm Packet Upload",
+                    "message":"Packet will be processed.\n Please ensure that all information is correct.\n\n\n Transaction will start once you click on confirm.",
+                    "confirmBtnTxt":"CONFIRM",
+                    "cancelBtnTxt":"Cancel"
+                },
+                "popup2":{
+                    "title":"Failure",
+                    "btnTxt":"DONE"
+                },
+                "popup3":{
+                    "title":"Success",
+                    "message" :"Your file has been uploaded successfully. \n Data upload is currently in progress.\n\n\n Transaction ID :",
+                    "btnTxt":"DONE"
+                }
+
+            },
+            "source":[{"label":"Registration Client","value":"REGISTRATION_CLIENT"}],
+            "process":[{"label":"New","value":"NEW"},{"label":"Update UIN","value":"UPDATE"},{"label":"Lost","value":"LOST"},{"label":"Biometrics Correction","value":"BIOMETRIC_CORRECTION"}],
+            "supervisorStatus":[{"label":"Approved","value":"APPROVED"},{"label":"Rejected","value":"REJECTED"}]
+        }
     },
     "actionMessages" : {
         "decommission": {
@@ -761,7 +758,7 @@
         "errorLabel":"Error",
         "createMessage":"Created Successfully",
         "updateMessage":"Updated Successfully",
-        "mappingMessage":" Mapped Successfully"        
+        "mappingMessage":" Mapped Successfully"
     },
     "headermessage":{
         "vesion":"Admin UI version",
@@ -775,68 +772,32 @@
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",
-            "value": "PRE_REGISTRATION"
+            "value": "PRE_REGISTRATION 3years"
         }, {
             "id": "REGISTRATION_PROCESSOR",
-            "value": "REGISTRATION_PROCESSOR"
+            "value": "REGISTRATION_PROCESSOR 3years"
         }, {
             "id": "REGISTRATION",
-            "value": "REGISTRATION"
+            "value": "REGISTRATION 3years"
         }, {
             "id": "ID_REPO",
-            "value": "ID_REPO"
+            "value": "ID_REPO 3years"
         }, {
             "id": "KERNEL",
-            "value": "KERNEL"
+            "value": "KERNEL 3years"
         }, {
             "id": "ROOT",
-            "value": "ROOT"
+            "value": "ROOT 5years"
         }, {
             "id": "PMS",
-            "value": "PMS"
+            "value": "PMS 3years"
         }, {
             "id": "ADMIN_SERVICES",
-            "value": "ADMIN_SERVICES"
+            "value": "ADMIN_SERVICES 3years"
         }, {
             "id": "RESIDENT",
-            "value": "RESIDENT"
+            "value": "RESIDENT 3years"
         }]
-    },
-    "download-card": {
-        "header": "Download Card",
-        "text": "Please enter a Registration ID to download the digital card",
-        "error": "Invalid Registration ID Entered",
-        "id": "Registration ID",
-        "dob": "Date of Birth",
-        "verifyanddownload": "I have verified the face.",
-        "reject": "The face does not match.",
-        "submit": "Reject",
-        "download": "Download",
-        "searchLimit": "You are left with",
-        "outof": "searches out of",
-        "dailylimit": "from your daily limit",
-        "verify": "Can you confirm if the face verified?",
-        "placeholder":"Registration ID",
-        "errorMessages": {
-            "title": "Error",
-            "message": "RID Not Found",
-            "btnTxt": "Ok"
-        },
-        "popupMessages": {
-            "rejectMessages": {
-                "title": "Success",
-                "message": "You have rejected the verification.",
-                "btnTxt": "Ok"
-            },
-            "noData": {
-                "title": "Error",
-                "message": "No Data Found",
-                "btnTxt": "Ok"
-            }
-        },
-        "statuscheckFailed":"Failed",
-        "statuscheckCompleted":"Completed"
-
     },
 
     "serverError": {
@@ -1034,7 +995,7 @@
         "KER-MSD-437": "Machine ID %s does not exist for primary language",
         "KER-MSD-256": "Machine cannot Decommissioned as some Registration centers are mapped",
         "KER-MSD-257": "Invalid public key provided",
-		"KER-MSD-410": "Invalid sign public key provided",
+        "KER-MSD-410": "Invalid sign public key provided",
         "KER-MSD-031": "Error occured while fetching Machine History details",
         "KER-MSD-032": "Machine History not found",
         "KER-MSD-033": "Invalid date format",
@@ -1080,7 +1041,7 @@
         "KER-MSD-058": "Error occure while inserting reason details ",
         "KER-MSD-263": "error occured while searching the record : invalid rquest",
         "KER-MSD-364": "failed to resume packet",
-	"KER-MSD-365": "Device Specification is Inactive",
+        "KER-MSD-365": "Device Specification is Inactive",
         "ADM-DPM-032": "Device Provider ID/Name does not exist in the list of Registered Device Providers",
         "ADM-DPM-035": "Error occurred while storing Registered Device Details",
         "ADM-DPM-042": "%s Cannot register device as it is not a white-listed device",
@@ -1267,7 +1228,7 @@
         "KER-USR-007": "User Center mapping not found",
         "KER-USR-008": "Zone user mapping not exists or not active",
         "KER-USR-009": "Error occured while parsing auth service userdetails response",
-                                     "KER-USR-010": "Error occured while zone user mapping",
+        "KER-USR-010": "Error occured while zone user mapping",
         "KER-USR-011": "User Center mapping must be deleted before remapping user",
         "KER-USR-012": "Reg center is not exists for given language",
         "KER-USR-013": "User already exists",
@@ -1329,15 +1290,14 @@
         "KER-MSD-999": "Invalid request input",
         "ADMN-LRID-001" : "Unable to find the lost rid..",
         "ADM-BLK-004" : "Supported format are only csv file",
-		"ADM-BLK-005" : "Supported format is only zip file",
-		"ADM-BLK-006" : "Empty file is not acceptable please provide valid file",
-		"ADM-MSD-446" : "Location not found",
-		"KER-MSD-280"  : "Center Type not found for language",
+        "ADM-BLK-005" : "Supported format is only zip file",
+        "ADM-BLK-006" : "Empty file is not acceptable please provide valid file",
+        "ADM-MSD-446" : "Location not found",
+        "KER-MSD-280"  : "Center Type not found for language",
         "KER-DYN-001" : "The dynamic field is invalid, it must contain symbols and value keys",
         "ADM-BLK-007" : "No file uploaded",
         "ADM-BLK-008" :  "Entry found with same primary key values",
         "ADM-BLK-009": "Failed to process entry",
-        "ADM-BLK-010" : "Invalid delimiter used",
         "KER-MSD-413" : "Entry already found for the provided machine name",
         "KER-MSD-414" : "Entry already found for the provided public keys",
         "ADM-PKT-004" : "RID Not Found",
@@ -1457,8 +1417,6 @@
         "ADM-AVD-510" : "Applicant search limit exceeded",
         "ADM-AVD-511" : "Request id not found",
         "KER-USR-025" : "Center mapping is missing, the User cannot be Activated.",
-        "KER-MSD-281" : "Invalid number of kiosks",
-        "KER-MSD-023" : "Invalid language code",
-        "KER-MSD-444" : "Registration Center cannot be empty or null"
+        "KER-MSD-281" : "Invalid number of kiosks"
     }
 }

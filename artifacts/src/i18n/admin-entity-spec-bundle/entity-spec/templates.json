@@ -524,13 +524,13 @@
     {
       "filtername": "isActive",
       "filterlabel": {
-         "eng": "Status", 
-         "ara": "نشط", 
-         "fra": "Statut",
-         "hin": "स्थिति",
-         "kan": "ಸ್ಥಿತಿ",
-         "tam": "நிலை"
-         },
+        "eng": "Status",
+        "ara": "نشط",
+        "fra": "Statut",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "true",
