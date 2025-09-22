@@ -5,6 +5,13 @@ on:
     types: [published]
   pull_request:
     types: [opened, reopened, synchronize]
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Message for manually triggering'
+        required: false
+        default: 'Triggered for Updates'
+        type: string
   push:
     branches:
       - master
@@ -21,6 +28,7 @@ jobs:
           - SERVICE_LOCATION: 'artifacts'
             SERVICE_NAME: 'artifactory-server'
             SQUASH_LAYERS: '77'
+            PLATFORMS: "linux/amd64"
       fail-fast: false
     name: ${{ matrix.SERVICE_NAME }}
     uses: mosip/kattu/.github/workflows/docker-build.yml@master
@@ -28,6 +36,7 @@ jobs:
       SERVICE_LOCATION: ${{ matrix.SERVICE_LOCATION }}
       SERVICE_NAME: ${{ matrix.SERVICE_NAME }}
       SQUASH_LAYERS: ${{ matrix.SQUASH_LAYERS }}
+      PLATFORMS: ${{ matrix.PLATFORMS }}
     secrets:
       DEV_NAMESPACE_DOCKER_HUB: ${{ secrets.DEV_NAMESPACE_DOCKER_HUB }}
       ACTOR_DOCKER_HUB: ${{ secrets.ACTOR_DOCKER_HUB }}

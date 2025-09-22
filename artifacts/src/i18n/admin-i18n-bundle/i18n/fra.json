@@ -1038,39 +1038,39 @@
 		"applicationIds": [
 			{
 				"id": "PRE_REGISTRATION",
-				"value": "PRE_REGISTRATION 3 années"
+				"value": "PRÉ-INSCRIPTION"
 			},
 			{
 				"id": "REGISTRATION_PROCESSOR",
-				"value": "REGISTRATION_PROCESSOR 3ans"
+				"value": "PROCESSEUR D'INSCRIPTION"
 			},
 			{
 				"id": "REGISTRATION",
-				"value": "INSCRIPTION 3ans"
+				"value": "INSCRIPTION"
 			},
 			{
 				"id": "ID_REPO",
-				"value": "ID_REPO 3ans"
+				"value": "RÉFÉRENTIEL D'IDENTIFIANTS"
 			},
 			{
 				"id": "KERNEL",
-				"value": "KERNEL 3ans"
+				"value": "NŒUD CENTRAL"
 			},
 			{
 				"id": "ROOT",
-				"value": "RACINE 5ans"
+				"value": "RACINE"
 			},
 			{
 				"id": "PMS",
-				"value": "PMS 3ans"
+				"value": "SERVICE DE GESTION DES PARTENAIRES"
 			},
 			{
 				"id": "ADMIN_SERVICES",
-				"value": "ADMIN_SERVICES 3ans"
+				"value": "SERVICES ADMINISTRATIFS"
 			},
 			{
 				"id": "RESIDENT",
-				"value": "RÉSIDENT 3ans"
+				"value": "RÉSIDENT"
 			}
 		]
 	},
@@ -1608,6 +1608,7 @@
 		"ADM-BLK-007": "Aucun fichier téléchargé",
 		"ADM-BLK-008": "Entrée trouvée avec les mêmes valeurs de clé primaire",
 		"ADM-BLK-009": "Échec du traitement de l'entrée",
+		"ADM-BLK-010" : "Délimiteur invalide utilisé",
 		"KER-MSD-413": "Entrée déjà trouvée pour le nom de machine fourni",
 		"KER-MSD-414": "Entrée déjà trouvée pour les clés publiques fournies",
 		"ADM-PKT-004": "RID non trouvé",

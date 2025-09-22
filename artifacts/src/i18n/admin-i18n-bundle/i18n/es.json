@@ -817,31 +817,31 @@
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",
-            "value": "PRE_REGISTRATION 3 años"
+            "value": "PRE_REGISTRO"
         }, {
             "id": "REGISTRATION_PROCESSOR",
-            "value": "REGISTRATION_PROCESSOR 3 años"
+            "value": "PROCESADOR_DE_REGISTRO"
         }, {
             "id": "REGISTRATION",
-            "value": "REGISTRATION 3 años"
+            "value": "REGISTRO"
         }, {
             "id": "ID_REPO",
-            "value": "ID_REPO 3 años"
+            "value": "REPOSITORIO_ID"
         }, {
             "id": "KERNEL",
-            "value": "KERNEL 3 años"
+            "value": "NÚCLEO"
         }, {
             "id": "ROOT",
-            "value": "ROOT 5 años"
+            "value": "RAÍZ"
         }, {
             "id": "PMS",
-            "value": "PMS 3 años"
+            "value": "SERVICIO DE GESTIÓN DE SOCIOS"
         }, {
             "id": "ADMIN_SERVICES",
-            "value": "ADMIN_SERVICES 3 años"
+            "value": "SERVICIOS_ADMINISTRATIVOS"
         }, {
             "id": "RESIDENT",
-            "value": "RESIDENT 3 años"
+            "value": "RESIDENTE"
         }]
     },
 
@@ -1342,6 +1342,7 @@
         "ADM-BLK-007": "No se ha cargado ningún archivo",
         "ADM-BLK-008": "Se encontró una entrada con los mismos valores de clave primaria",
         "ADM-BLK-009": "Error al procesar la entrada",
+        "ADM-BLK-010" : "Se utilizó un delimitador no válido",
         "KER-MSD-413": "Ya se encontró una entrada para el nombre de máquina proporcionado",
         "KER-MSD-414": "Ya se encontró una entrada para las claves públicas proporcionadas",
         "ADM-PKT-004": "RID no encontrado",

@@ -775,31 +775,31 @@
     "keymanager": {
         "applicationIds": [{
             "id": "PRE_REGISTRATION",
-            "value": "PRE_REGISTRATION 3years"
+            "value": "PRE_REGISTRATION"
         }, {
             "id": "REGISTRATION_PROCESSOR",
-            "value": "REGISTRATION_PROCESSOR 3years"
+            "value": "REGISTRATION_PROCESSOR"
         }, {
             "id": "REGISTRATION",
-            "value": "REGISTRATION 3years"
+            "value": "REGISTRATION"
         }, {
             "id": "ID_REPO",
-            "value": "ID_REPO 3years"
+            "value": "ID_REPO"
         }, {
             "id": "KERNEL",
-            "value": "KERNEL 3years"
+            "value": "KERNEL"
         }, {
             "id": "ROOT",
-            "value": "ROOT 5years"
+            "value": "ROOT"
         }, {
             "id": "PMS",
-            "value": "PMS 3years"
+            "value": "PMS"
         }, {
             "id": "ADMIN_SERVICES",
-            "value": "ADMIN_SERVICES 3years"
+            "value": "ADMIN_SERVICES"
         }, {
             "id": "RESIDENT",
-            "value": "RESIDENT 3years"
+            "value": "RESIDENT"
         }]
     },
     "download-card": {
@@ -1337,6 +1337,7 @@
         "ADM-BLK-007" : "No file uploaded",
         "ADM-BLK-008" :  "Entry found with same primary key values",
         "ADM-BLK-009": "Failed to process entry",
+        "ADM-BLK-010" : "Invalid delimiter used",
         "KER-MSD-413" : "Entry already found for the provided machine name",
         "KER-MSD-414" : "Entry already found for the provided public keys",
         "ADM-PKT-004" : "RID Not Found",
