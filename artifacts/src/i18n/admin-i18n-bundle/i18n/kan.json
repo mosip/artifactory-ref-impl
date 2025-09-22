@@ -897,31 +897,31 @@
 	"keymanager": {
 		"applicationIds": [{
 			"id": "PRE_REGISTRATION",
-			"value": "ನೋಂದಣಿಗೆ ಪೂರ್ವ 3 ವರ್ಷಗಳು"
+			"value": "ನೋಂದಣಿಗೆ ಪೂರ್ವ"
 		}, {
 			"id": "REGISTRATION_PROCESSOR",
-			"value": "ನೋಂದಣಿ ಪ್ರಕ್ರಿಯೆ 3 ವರ್ಷಗಳು"
+			"value": "ನೋಂದಣಿ ಪ್ರಕ್ರಿಯೆ"
 		}, {
 			"id": "REGISTRATION",
-			"value": "ನೋಂದಣಿ 3 ವರ್ಷಗಳು"
+			"value": "ನೋಂದಣಿ"
 		}, {
 			"id": "ID_REPO",
-			"value": "ID_REPO 3 ವರ್ಷಗಳು"
+			"value": "ಐಡಿ ರಿಪೊ"
 		}, {
 			"id": "KERNEL",
-			"value": "ಕರ್ನಲ್ 3 ವರ್ಷಗಳು"
+			"value": "ಕರ್ನಲ್"
 		}, {
 			"id": "ROOT",
-			"value": "ರೂಟ್ 5 ವರ್ಷಗಳು"
+			"value": "ರೂಟ್"
 		}, {
 			"id": "PMS",
-			"value": "PMS 3 ವರ್ಷಗಳು"
+			"value": "ಪಾಲುದಾರ ನಿರ್ವಹಣಾ ಸೇವೆ"
 		}, {
 			"id": "ADMIN_SERVICES",
-			"value": "ನಿರ್ವಹಣೆ_ಸೇವೆಗಳು 3 ವರ್ಷಗಳು"
+			"value": "ನಿರ್ವಹಣಾ ಸೇವೆಗಳು"
 		}, {
 			"id": "RESIDENT",
-			"value": "ನಿವಾಸಿ 3 ವರ್ಷಗಳು"
+			"value": "ನಿವಾಸಿ"
 		}]
 	},
 
