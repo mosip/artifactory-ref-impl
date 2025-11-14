@@ -1461,6 +1461,7 @@
         "KER-USR-025": "Falta el mapeo central, el usuario no se puede activar.",
         "KER-MSD-281": "Número de quioscos no válido",
         "KER-MSD-023" : "Código de idioma no válido",
-        "KER-MSD-444" : "El centro de registro no puede estar vacío o nulo"
+        "KER-MSD-444" : "El centro de registro no puede estar vacío o nulo",
+        "KER-ADM-106" : "Error de validación al obtener el certificado"
     }
 }
