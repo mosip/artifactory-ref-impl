@@ -72,9 +72,9 @@
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
-		<auth-adapter-java-21.version>1.2.1-java21-SNAPSHOT</auth-adapter-java-21.version>
+		<!-- <auth-adapter-java-21.version>1.2.1-java21-SNAPSHOT</auth-adapter-java-21.version>
 		<auth-adapter-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/java21</auth-adapter-java-21.location>
-		<auth-adapter-java-21.fileName>kernel-auth-adapter.jar</auth-adapter-java-21.fileName>
+		<auth-adapter-java-21.fileName>kernel-auth-adapter.jar</auth-adapter-java-21.fileName> -->
 
 		<auth-adapter-lite.version>1.2.0.1-B4</auth-adapter-lite.version>
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
@@ -97,14 +97,14 @@
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 
 		<!-- kernel-smsserviceprovider java21-->
-		<kernel-smsserviceprovider-java-21.version>1.2.1-java21-SNAPSHOT</kernel-smsserviceprovider-java-21.version>
+		<!-- <kernel-smsserviceprovider-java-21.version>1.2.1-java21-SNAPSHOT</kernel-smsserviceprovider-java-21.version>
 		<kernel-smsserviceprovider-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider-java-21.location>
-		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider-java-21.fileName>	
+		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider-java-21.fileName>	 -->
 
 		<!-- kernel-smsserviceprovider-msg91 java21-->
-		<kernel-smsserviceprovider-java-21.version>1.2.1-java21-SNAPSHOT</kernel-smsserviceprovider-java-21.version>
+		<!-- <kernel-smsserviceprovider-java-21.version>1.2.1-java21-SNAPSHOT</kernel-smsserviceprovider-java-21.version>
 		<kernel-smsserviceprovider-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/java21</kernel-smsserviceprovider-java-21.location>
-		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider-java-21.fileName>
+		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider-java-21.fileName> -->
 		
 		<!-- kernel-ref-idobjectvalidator -->
 		<kernel-ref-idobjectvalidator.version>1.2.1-SNAPSHOT</kernel-ref-idobjectvalidator.version>
@@ -112,9 +112,9 @@
 		<kernel-ref-idobjectvalidator.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator.fileName>
 
 		<!-- kernel-ref-idobjectvalidator java21 -->
-		<kernel-ref-idobjectvalidator-java-21.version>1.2.1-java21-SNAPSHOT</kernel-ref-idobjectvalidator-java-21.version>
+		<!-- <kernel-ref-idobjectvalidator-java-21.version>1.2.1-java21-SNAPSHOT</kernel-ref-idobjectvalidator-java-21.version>
 		<kernel-ref-idobjectvalidator-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator/java21</kernel-ref-idobjectvalidator-java-21.location>
-		<kernel-ref-idobjectvalidator-java-21.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator-java-21.fileName>
+		<kernel-ref-idobjectvalidator-java-21.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator-java-21.fileName> -->
 		
 		<!-- kernel-virusscanner-clamav -->
 		<kernel-virusscanner-clamav.version>1.2.1-SNAPSHOT</kernel-virusscanner-clamav.version>
@@ -122,9 +122,9 @@
 		<kernel-virusscanner-clamav.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav.fileName>
 
 		<!-- kernel-virusscanner-clamav java21 -->
-		<kernel-virusscanner-clamav-java-21.version>1.2.1-java21-SNAPSHOT</kernel-virusscanner-clamav-java-21.version>
+		<!-- <kernel-virusscanner-clamav-java-21.version>1.2.1-java21-SNAPSHOT</kernel-virusscanner-clamav-java-21.version>
 		<kernel-virusscanner-clamav-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav/java21</kernel-virusscanner-clamav-java-21.location>
-		<kernel-virusscanner-clamav-java-21.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav-java-21.fileName>
+		<kernel-virusscanner-clamav-java-21.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav-java-21.fileName> -->
 		
 		<!-- registration-api-impl -->
 		<registration-api-impl.version>1.2.1-SNAPSHOT</registration-api-impl.version>
@@ -143,10 +143,10 @@
 		<biosdk-client.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client.fileName>
 
                 <!-- biosdk-client JAVA-21-->
-		<biosdk-client-java21.version>1.2.1-java21-SNAPSHOT</biosdk-client-java21.version>
+		<!-- <biosdk-client-java21.version>1.2.1-java21-SNAPSHOT</biosdk-client-java21.version>
 		<biosdk-client-java21.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/mock/0.9/java21/biosdk-client</biosdk-client-java21.location>
 		<biosdk-client-lib-java21.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/java21/biosdk-lib</biosdk-client-lib-java21.location>
-		<biosdk-client-java21.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client-java21.fileName>
+		<biosdk-client-java21.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client-java21.fileName> -->
 		
 		<!-- demosdk-client -->
 		<demosdk-client.version>1.2.1-SNAPSHOT</demosdk-client.version>
@@ -160,10 +160,10 @@
 		<mock-sdk-dep.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep.fileName>
 
 		<!-- mock-sdk -->
-		<mock-sdk-java21.version>1.2.1-java21-SNAPSHOT</mock-sdk-java21.version>
+		<!-- <mock-sdk-java21.version>1.2.1-java21-SNAPSHOT</mock-sdk-java21.version>
 		<mock-sdk-java21.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/java21/</mock-sdk-java21.location>
 		<mock-sdk-java21.fileName>mock-sdk.jar</mock-sdk-java21.fileName>
-		<mock-sdk-dep-java21.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep-java21.fileName>
+		<mock-sdk-dep-java21.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep-java21.fileName> -->
 		
 		<!-- mock-sdk-jpeg-extractor -->
 		<mock-sdk-jpeg-extractor.version>1.2.1-SNAPSHOT</mock-sdk-jpeg-extractor.version>
