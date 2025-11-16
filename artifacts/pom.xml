@@ -265,15 +265,15 @@
 					<type>jar</type>
 				</artifactItem>
 
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-auth-adapter</artifactId>
-					<version>${auth-adapter-java-21.version}</version>
-					<outputDirectory>${auth-adapter-java-21.location}</outputDirectory>
-						<!-- Keep the destination filename consistent with the original -->
-					<destFileName>kernel-auth-adapter.jar</destFileName>
-					<type>jar</type>
-				</artifactItem>
+<!--				<artifactItem>-->
+<!--					<groupId>io.mosip.kernel</groupId>-->
+<!--					<artifactId>kernel-auth-adapter</artifactId>-->
+<!--					<version>${auth-adapter-java-21.version}</version>-->
+<!--					<outputDirectory>${auth-adapter-java-21.location}</outputDirectory>-->
+<!--						&lt;!&ndash; Keep the destination filename consistent with the original &ndash;&gt;-->
+<!--					<destFileName>kernel-auth-adapter.jar</destFileName>-->
+<!--					<type>jar</type>-->
+<!--				</artifactItem>-->
 
 
 				<artifactItem>
@@ -285,23 +285,23 @@
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for smsserviceprovider java21 -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-smsserviceprovider-msg91</artifactId>
-					<version>${kernel-smsserviceprovider-java-21.version}</version>
-					 <outputDirectory>${kernel-smsserviceprovider-java-21.location}</outputDirectory> 
-					<destFileName>${kernel-smsserviceprovider-java-21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
+<!--				<artifactItem>-->
+<!--					<groupId>io.mosip.kernel</groupId>-->
+<!--					<artifactId>kernel-smsserviceprovider-msg91</artifactId>-->
+<!--					<version>${kernel-smsserviceprovider-java-21.version}</version>-->
+<!--					 <outputDirectory>${kernel-smsserviceprovider-java-21.location}</outputDirectory> -->
+<!--					<destFileName>${kernel-smsserviceprovider-java-21.fileName}</destFileName>-->
+<!--					<type>jar</type>-->
+<!--				</artifactItem>-->
 <!-- artifactItem section for ref-idobjectvaidator java21 -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-ref-idobjectvalidator</artifactId>
-					<version>${kernel-ref-idobjectvalidator-java-21.version}</version>
-					 <outputDirectory>${kernel-ref-idobjectvalidator-java-21.location}</outputDirectory> 
-					<destFileName>${kernel-ref-idobjectvalidator-java-21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>					
+<!--				<artifactItem>-->
+<!--					<groupId>io.mosip.kernel</groupId>-->
+<!--					<artifactId>kernel-ref-idobjectvalidator</artifactId>-->
+<!--					<version>${kernel-ref-idobjectvalidator-java-21.version}</version>-->
+<!--					 <outputDirectory>${kernel-ref-idobjectvalidator-java-21.location}</outputDirectory> -->
+<!--					<destFileName>${kernel-ref-idobjectvalidator-java-21.fileName}</destFileName>-->
+<!--					<type>jar</type>-->
+<!--				</artifactItem>					-->
 					
 <!-- artifactItem section for smsserviceprovider -->
 				<artifactItem>
@@ -324,14 +324,14 @@
                                 </artifactItem>
 
 <!-- artifactItem section for kernel-transliteration-icu4j java21 -->
-                                <artifactItem>
-                                        <groupId>io.mosip.kernel</groupId>
-                                        <artifactId>kernel-transliteration-icu4j</artifactId>
-                                        <version>${kernel-transliteration-java-21.version}</version>
-                                         <outputDirectory>${kernel-transliteration-java-21.location}</outputDirectory>
-                                        <destFileName>${kernel-transliteration-java-21.fileName}</destFileName>
-                                        <type>jar</type>
-                                </artifactItem>
+<!--                                <artifactItem>-->
+<!--                                        <groupId>io.mosip.kernel</groupId>-->
+<!--                                        <artifactId>kernel-transliteration-icu4j</artifactId>-->
+<!--                                        <version>${kernel-transliteration-java-21.version}</version>-->
+<!--                                         <outputDirectory>${kernel-transliteration-java-21.location}</outputDirectory>-->
+<!--                                        <destFileName>${kernel-transliteration-java-21.fileName}</destFileName>-->
+<!--                                        <type>jar</type>-->
+<!--                                </artifactItem>-->
 
 <!-- artifactItem section for smsserviceprovider -->
 				<artifactItem>
@@ -371,14 +371,14 @@
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for virusscanner java21-->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-virusscanner-clamav</artifactId>
-					<version>${kernel-virusscanner-clamav.version}</version>
-					 <outputDirectory>${kernel-virusscanner-clamav.location}</outputDirectory> 
-					<destFileName>${kernel-virusscanner-clamav-java-21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>					
+<!--				<artifactItem>-->
+<!--					<groupId>io.mosip.kernel</groupId>-->
+<!--					<artifactId>kernel-virusscanner-clamav</artifactId>-->
+<!--					<version>${kernel-virusscanner-clamav.version}</version>-->
+<!--					 <outputDirectory>${kernel-virusscanner-clamav.location}</outputDirectory> -->
+<!--					<destFileName>${kernel-virusscanner-clamav-java-21.fileName}</destFileName>-->
+<!--					<type>jar</type>-->
+<!--				</artifactItem>					-->
 <!-- artifactItem section for clamav client -->
 				<artifactItem>
 					<groupId>xyz.capybara</groupId>
@@ -408,24 +408,24 @@
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for mock-sdk -->
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk-java21.version}</version>
-					 <outputDirectory>${mock-sdk-java21.location}</outputDirectory> 
-					<destFileName>${mock-sdk-java21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
+<!--				<artifactItem>-->
+<!--					<groupId>io.mosip.mock.sdk</groupId>-->
+<!--					<artifactId>mock-sdk</artifactId>-->
+<!--					<version>${mock-sdk-java21.version}</version>-->
+<!--					 <outputDirectory>${mock-sdk-java21.location}</outputDirectory> -->
+<!--					<destFileName>${mock-sdk-java21.fileName}</destFileName>-->
+<!--					<type>jar</type>-->
+<!--				</artifactItem>-->
 <!-- artifactItem section for biosdk-client -->				
-				<artifactItem>
-					<groupId>io.mosip.biosdk</groupId>
-					<artifactId>biosdk-client</artifactId>
-					<version>${biosdk-client-java21.version}</version>
-					 <outputDirectory>${biosdk-client-java21.location}</outputDirectory> 
-					<destFileName>${biosdk-client-java21.fileName}</destFileName>
-					<classifier>jar-with-dependencies</classifier>
-					<type>jar</type>
-				</artifactItem>
+<!--				<artifactItem>-->
+<!--					<groupId>io.mosip.biosdk</groupId>-->
+<!--					<artifactId>biosdk-client</artifactId>-->
+<!--					<version>${biosdk-client-java21.version}</version>-->
+<!--					 <outputDirectory>${biosdk-client-java21.location}</outputDirectory> -->
+<!--					<destFileName>${biosdk-client-java21.fileName}</destFileName>-->
+<!--					<classifier>jar-with-dependencies</classifier>-->
+<!--					<type>jar</type>-->
+<!--				</artifactItem>-->
 <!-- artifactItem section for demosdk client -->
                	<artifactItem>
 					<groupId>io.mosip.demosdk</groupId>
@@ -512,14 +512,14 @@
 					<type>jar</type>
 				</artifactItem>
 <!-- artifactItem section for hazelcast java21 jar -->
-				<artifactItem>
-					<groupId>com.hazelcast</groupId>
-					<artifactId>hazelcast-all</artifactId>
-					<version>${hazelcast-java-21.version}</version>
-					 <outputDirectory>${hazelcast-java-21.location}</outputDirectory> 
-					<destFileName>${hazelcast-java-21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>					
+<!--				<artifactItem>-->
+<!--					<groupId>com.hazelcast</groupId>-->
+<!--					<artifactId>hazelcast-all</artifactId>-->
+<!--					<version>${hazelcast-java-21.version}</version>-->
+<!--					 <outputDirectory>${hazelcast-java-21.location}</outputDirectory> -->
+<!--					<destFileName>${hazelcast-java-21.fileName}</destFileName>-->
+<!--					<type>jar</type>-->
+<!--				</artifactItem>					-->
 <!-- artifactItem section for redis-cache jar -->
 				<artifactItem>
 					<groupId>io.mosip.cacheprovider</groupId>
