@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.mosip.artifactory</groupId>
 	<artifactId>artifactory-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.3.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>artifactory-parent</name>
@@ -73,29 +73,29 @@
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
 		<!-- This is auth-adapter-lite dependency and kept for backward compatibility and will be removed in future -->
-		<auth-adapter-lite.version>1.2.0.1-B4</auth-adapter-lite.version>
+		<auth-adapter-lite.version>1.3.0-SNAPSHOT</auth-adapter-lite.version>
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 
 		<!-- kernel-transliteration-jar -->
-		<kernel-transliteration.version>1.3.0-beta.2</kernel-transliteration.version>
+		<kernel-transliteration.version>1.3.0-SNAPSHOT</kernel-transliteration.version>
 		<kernel-transliteration.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j</kernel-transliteration.location>
 		<kernel-transliteration.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration.fileName>
 
 		<!-- kernel-smsserviceprovider-->
-		<kernel-smsserviceprovider.version>1.3.0-beta.2</kernel-smsserviceprovider.version>
+		<kernel-smsserviceprovider.version>1.3.0-SNAPSHOT</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 		<!-- kernel-ref-idobjectvalidator -->
-		<kernel-ref-idobjectvalidator.version>1.3.0-beta.2</kernel-ref-idobjectvalidator.version>
+		<kernel-ref-idobjectvalidator.version>1.3.0-SNAPSHOT</kernel-ref-idobjectvalidator.version>
 		<kernel-ref-idobjectvalidator.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator</kernel-ref-idobjectvalidator.location>
 		<kernel-ref-idobjectvalidator.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator.fileName>
 		<!-- kernel-virusscanner-clamav -->
-		<kernel-virusscanner-clamav.version>1.3.0-beta.2</kernel-virusscanner-clamav.version>
+		<kernel-virusscanner-clamav.version>1.3.0-SNAPSHOT</kernel-virusscanner-clamav.version>
 		<kernel-virusscanner-clamav.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</kernel-virusscanner-clamav.location>
 		<kernel-virusscanner-clamav.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav.fileName>
 		<!-- registration-api-impl -->
-		<registration-api-impl.version>1.3.0-beta.1</registration-api-impl.version>
+		<registration-api-impl.version>1.3.0-SNAPSHOT</registration-api-impl.version>
 		<registration-api-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/registration-client/registration-api-impl</registration-api-impl.location>
 		<registration-api-impl.fileName>registration-api-stub-impl.jar</registration-api-impl.fileName>
 		<!-- clamav-client -->
@@ -108,21 +108,21 @@
 		<biosdk-client-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/biosdk-lib</biosdk-client-lib.location>
 		<biosdk-client.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client.fileName>
 		<!-- demosdk-client -->
-		<demosdk-client.version>1.3.0-beta.1</demosdk-client.version>
+		<demosdk-client.version>1.3.0-SNAPSHOT</demosdk-client.version>
 		<demosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/demosdk/default/demosdk</demosdk-client.location>
 		<demosdk-client.fileName>demosdk-client-jar-with-dependencies.jar</demosdk-client.fileName>
 		<!-- mock-sdk -->
-		<mock-sdk.version>1.3.0-beta.1</mock-sdk.version>
+		<mock-sdk.version>1.3.0-SNAPSHOT</mock-sdk.version>
 		<mock-sdk.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/1.1.5</mock-sdk.location>
 		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
 		<mock-sdk-dep.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep.fileName>
 		<!-- image-compressor-->
-		<image-compressor.version>0.1.0-beta.1</image-compressor.version>
+		<image-compressor.version>1.3.0-SNAPSHOT</image-compressor.version>
 		<image-compressor.location>/usr/share/nginx/html/artifactory/libs-release-local/compressor/image-compressor</image-compressor.location>
 		<image-compressor.fileName>image-compressor-jar-with-dependencies.jar</image-compressor.fileName>
 
 		<!-- redis-cache -->
-		<redis-cache.version>1.3.0-beta.2</redis-cache.version>
+		<redis-cache.version>1.3.0-SNAPSHOT</redis-cache.version>
 		<redis-cache.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</redis-cache.location>
 		<redis-cache.fileName>redis-cache-provider.jar</redis-cache.fileName>
 
