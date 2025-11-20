@@ -73,7 +73,7 @@
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
 
 		<!-- This is auth-adapter-lite dependency and kept for backward compatibility and will be removed in future -->
-		<auth-adapter-lite.version>1.3.0-SNAPSHOT</auth-adapter-lite.version>
+		<auth-adapter-lite.version>1.2.0.1-B4</auth-adapter-lite.version>
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
 		<auth-adapter-lite.fileName>kernel-auth-adapter-lite.jar</auth-adapter-lite.fileName>
 
