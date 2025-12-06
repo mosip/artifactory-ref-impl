@@ -1,0 +1,104 @@
+================================================================================
+COPYRIGHT NOTICES
+================================================================================
+
+This software incorporates components from the projects listed below. The
+original copyright notices have been preserved in accordance with the terms
+of their respective licenses:
+
+Apache Maven Dependency Plugin
+  Copyright © 2002-2023 The Apache Software Foundation
+  Licensed under the Apache License, Version 2.0
+
+Hazelcast (Open Source Edition)
+  Copyright © 2008-2020 Hazelcast, Inc.
+  Licensed under the Apache License, Version 2.0
+
+ClamAV Client
+  Copyright © Clément Darras
+  Licensed under the MIT License
+
+MOSIP Kernel - Auth Adapter
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Kernel - Auth Adapter Lite
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Kernel - SMS Service Provider (MSG91)
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Kernel - Transliteration ICU4J
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Kernel - Ref ID Object Validator
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Kernel - Virus Scanner ClamAV
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Registration - API Stub Implementation
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP BioSDK - Client
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP DemoSDK
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Mock SDK
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Image Compressor
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Cache Provider - Redis
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP eSignet - Mock Integration Implementation
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP eSignet - Integration Implementation
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP eSignet - Sunbird RC Integration Implementation
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Certify - Sunbird RC Integration Implementation
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Certify - Identity Plugin
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+MOSIP Certify - Mock Plugin
+  Copyright © 2018-2025 IIIT-Bangalore / MOSIP
+  Licensed under the Mozilla Public License, Version 2.0
+
+GitHub Actions Workflows (mosip/kattu)
+  No copyright claimed - dedicated to the public domain under CC0-1.0
+  (Creative Commons Zero v1.0 Universal)
+  https://github.com/mosip/kattu
+
+For complete license texts, please refer to:
+  - Apache License 2.0: https://www.apache.org/licenses/LICENSE-2.0
+  - MIT License: https://opensource.org/licenses/MIT
+  - Mozilla Public License 2.0: https://www.mozilla.org/en-US/MPL/2.0/
+  - CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+
+================================================================================
