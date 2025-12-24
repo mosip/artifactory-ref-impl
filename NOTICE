@@ -1,0 +1,38 @@
+THIRD-PARTY-NOTICES
+
+Copyright © MOSIP.
+All rights reserved.
+
+This project includes third-party components distributed under licenses
+that require attribution. Only those components with attribution-required
+licenses are listed below.
+
+================================================================================
+License: Mozilla Public License 2.0 (MPL-2.0)
+=============================================
+
+• artifactory-ref-impl (Main Project)
+Version: release-1.3.x
+Homepage: [https://github.com/Rakshithasai123/artifactory-ref-impl](https://github.com/Rakshithasai123/artifactory-ref-impl)
+
+================================================================================
+License: MIT License
+====================
+
+• mosip/kattu – GitHub Actions Workflow (chart-lint-publish.yml)
+Version: master
+Homepage: [https://github.com/mosip/kattu](https://github.com/mosip/kattu)
+
+• mosip/kattu – GitHub Actions Workflow (docker-build.yml)
+Version: master
+Homepage: [https://github.com/mosip/kattu](https://github.com/mosip/kattu)
+
+• mosip/kattu – GitHub Actions Workflow (tag.yml)
+Version: master
+Homepage: [https://github.com/mosip/kattu](https://github.com/mosip/kattu)
+
+---
+
+Full license texts for these components are available in the `license/`
+directory of this repository.
+-----------------------------
