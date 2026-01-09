@@ -789,6 +789,17 @@
             "id": "zone_user",
             "value": "மண்டல பயனர் "
         }],
+        "validationMessages": {
+            "operation": {
+                "required": "செயல்பாடு தேவை"
+            },
+            "tableName": {
+                "required": "அட்டவணை தேவை"
+            },
+            "file": {
+                "required": "கோப்பு தேவை"
+            }
+        },
         "popupMessages": {
             "popup1": {
                 "title": "மொத்த முதன்மை தரவு பதிவேற்றத்தை உறுதிப்படுத்தவும்",
