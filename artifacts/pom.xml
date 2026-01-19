@@ -34,7 +34,16 @@
 		</developer>
 	</developers>
 
-    <repositories>
+     <repositories>
+        <repository>
+            <id>ossrh</id>
+            <name>CentralRepository</name>
+            <url>https://central.sonatype.com/repositories/snapshots</url>
+            <layout>default</layout>
+            <snapshots>
+            <enabled>true</enabled>
+            </snapshots>
+        </repository>
         <repository>
             <id>central</id>
             <name>MavenCentral</name>
@@ -44,25 +53,16 @@
             <enabled>false</enabled>
             </snapshots>
         </repository>
-        <repository>
-            <id>ossrh</id>
-            <name>MavenSnapshot</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-            <layout>default</layout>
-            <snapshots>
-            <enabled>true</enabled>
-            </snapshots>
-        </repository>
     </repositories>
 	
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<url>https://central.sonatype.com/repository/maven-snapshots/</url>
 		</snapshotRepository>
 		<repository>
 			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+			<url>https://central.sonatype.com/api/v1/publisher</url>
 		</repository>
 	</distributionManagement>
 
@@ -71,10 +71,6 @@
 		<auth-adapter.version>1.2.1-SNAPSHOT</auth-adapter.version>
 		<auth-adapter.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter.location>
 		<auth-adapter.fileName>kernel-auth-adapter.jar</auth-adapter.fileName>
-
-		<auth-adapter-java-21.version>1.2.1-java21-SNAPSHOT</auth-adapter-java-21.version>
-		<auth-adapter-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/java21</auth-adapter-java-21.location>
-		<auth-adapter-java-21.fileName>kernel-auth-adapter.jar</auth-adapter-java-21.fileName>
 
 		<auth-adapter-lite.version>1.2.0.1-B4</auth-adapter-lite.version>
 		<auth-adapter-lite.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</auth-adapter-lite.location>
@@ -85,47 +81,21 @@
                 <kernel-transliteration.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j</kernel-transliteration.location>
                 <kernel-transliteration.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration.fileName>
 
-                <!-- kernel-transliteration-jar java21-->
-                <kernel-transliteration-java-21.version>1.2.1-SNAPSHOT</kernel-transliteration-java-21.version>
-                <kernel-transliteration-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/icu4j/java21</kernel-transliteration-java-21.location>
-                <kernel-transliteration-java-21.fileName>kernel-transliteration-icu4j.jar</kernel-transliteration-java-21.fileName>
-
-
 		<!-- kernel-smsserviceprovider-->
 		<kernel-smsserviceprovider.version>1.2.1-SNAPSHOT</kernel-smsserviceprovider.version>
 		<kernel-smsserviceprovider.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider.location>
 		<kernel-smsserviceprovider.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider.fileName>
 
-		<!-- kernel-smsserviceprovider java21-->
-		<kernel-smsserviceprovider-java-21.version>1.2.1-java21-SNAPSHOT</kernel-smsserviceprovider-java-21.version>
-		<kernel-smsserviceprovider-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel</kernel-smsserviceprovider-java-21.location>
-		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider-java-21.fileName>	
-
-		<!-- kernel-smsserviceprovider-msg91 java21-->
-		<kernel-smsserviceprovider-java-21.version>1.2.1-java21-SNAPSHOT</kernel-smsserviceprovider-java-21.version>
-		<kernel-smsserviceprovider-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/java21</kernel-smsserviceprovider-java-21.location>
-		<kernel-smsserviceprovider-java-21.fileName>kernel-smsserviceprovider-msg91.jar</kernel-smsserviceprovider-java-21.fileName>
-		
 		<!-- kernel-ref-idobjectvalidator -->
 		<kernel-ref-idobjectvalidator.version>1.2.1-SNAPSHOT</kernel-ref-idobjectvalidator.version>
 		<kernel-ref-idobjectvalidator.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator</kernel-ref-idobjectvalidator.location>
 		<kernel-ref-idobjectvalidator.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator.fileName>
 
-		<!-- kernel-ref-idobjectvalidator java21 -->
-		<kernel-ref-idobjectvalidator-java-21.version>1.2.1-java21-SNAPSHOT</kernel-ref-idobjectvalidator-java-21.version>
-		<kernel-ref-idobjectvalidator-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/io/mosip/kernel/kernel-ref-idobjectvalidator/java21</kernel-ref-idobjectvalidator-java-21.location>
-		<kernel-ref-idobjectvalidator-java-21.fileName>kernel-ref-idobjectvalidator.jar</kernel-ref-idobjectvalidator-java-21.fileName>
-		
 		<!-- kernel-virusscanner-clamav -->
 		<kernel-virusscanner-clamav.version>1.2.1-SNAPSHOT</kernel-virusscanner-clamav.version>
 		<kernel-virusscanner-clamav.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav</kernel-virusscanner-clamav.location>
 		<kernel-virusscanner-clamav.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav.fileName>
 
-		<!-- kernel-virusscanner-clamav java21 -->
-		<kernel-virusscanner-clamav-java-21.version>1.2.1-java21-SNAPSHOT</kernel-virusscanner-clamav-java-21.version>
-		<kernel-virusscanner-clamav-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/clamav/java21</kernel-virusscanner-clamav-java-21.location>
-		<kernel-virusscanner-clamav-java-21.fileName>kernel-virusscanner-clamav.jar</kernel-virusscanner-clamav-java-21.fileName>
-		
 		<!-- registration-api-impl -->
 		<registration-api-impl.version>1.2.1-SNAPSHOT</registration-api-impl.version>
 		<registration-api-impl.location>/usr/share/nginx/html/artifactory/libs-release-local/registration-client/registration-api-impl</registration-api-impl.location>
@@ -142,12 +112,6 @@
 		<biosdk-client-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/biosdk-lib</biosdk-client-lib.location>
 		<biosdk-client.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client.fileName>
 
-                <!-- biosdk-client JAVA-21-->
-		<biosdk-client-java21.version>1.2.1-java21-SNAPSHOT</biosdk-client-java21.version>
-		<biosdk-client-java21.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/mock/0.9/java21/biosdk-client</biosdk-client-java21.location>
-		<biosdk-client-lib-java21.location>/usr/share/nginx/html/artifactory/libs-release-local/biosdk/java21/biosdk-lib</biosdk-client-lib-java21.location>
-		<biosdk-client-java21.fileName>biosdk-client-jar-with-dependencies.jar</biosdk-client-java21.fileName>
-		
 		<!-- demosdk-client -->
 		<demosdk-client.version>1.2.1-SNAPSHOT</demosdk-client.version>
 		<demosdk-client.location>/usr/share/nginx/html/artifactory/libs-release-local/demosdk/default/demosdk</demosdk-client.location>
@@ -159,12 +123,6 @@
 		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
 		<mock-sdk-dep.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep.fileName>
 
-		<!-- mock-sdk -->
-		<mock-sdk-java21.version>1.2.1-java21-SNAPSHOT</mock-sdk-java21.version>
-		<mock-sdk-java21.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/java21/</mock-sdk-java21.location>
-		<mock-sdk-java21.fileName>mock-sdk.jar</mock-sdk-java21.fileName>
-		<mock-sdk-dep-java21.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep-java21.fileName>
-		
 		<!-- mock-sdk-jpeg-extractor -->
 		<mock-sdk-jpeg-extractor.version>1.2.1-SNAPSHOT</mock-sdk-jpeg-extractor.version>
 		<mock-sdk-jpeg-extractor.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-mock-sdk/1.1.5</mock-sdk-jpeg-extractor.location>
@@ -185,11 +143,6 @@
 		<hazelcast.version>3.12.12</hazelcast.version>
 		<hazelcast.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast.location>
 		<hazelcast.fileName>cache-provider.jar</hazelcast.fileName>
-
-		<!-- hazelcast cast java21 -->
-		<hazelcast-java-21.version>3.12.12</hazelcast-java-21.version>
-		<hazelcast-java-21.location>/usr/share/nginx/html/artifactory/libs-release-local/cache/java21</hazelcast-java-21.location>
-		<hazelcast-java-21.fileName>cache-provider.jar</hazelcast-java-21.fileName>
 		
 		<!-- idp authentication wrapper -->
 		<authentication-wrapper.version>0.9.0</authentication-wrapper.version>
@@ -283,25 +236,7 @@
 					<outputDirectory>${auth-adapter-lite.location}</outputDirectory> 
 					<destFileName>${auth-adapter-lite.fileName}</destFileName>
 					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for smsserviceprovider java21 -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-smsserviceprovider-msg91</artifactId>
-					<version>${kernel-smsserviceprovider-java-21.version}</version>
-					 <outputDirectory>${kernel-smsserviceprovider-java-21.location}</outputDirectory> 
-					<destFileName>${kernel-smsserviceprovider-java-21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for ref-idobjectvaidator java21 -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-ref-idobjectvalidator</artifactId>
-					<version>${kernel-ref-idobjectvalidator-java-21.version}</version>
-					 <outputDirectory>${kernel-ref-idobjectvalidator-java-21.location}</outputDirectory> 
-					<destFileName>${kernel-ref-idobjectvalidator-java-21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>					
+				</artifactItem>				
 					
 <!-- artifactItem section for smsserviceprovider -->
 				<artifactItem>
@@ -320,16 +255,6 @@
                                         <version>${kernel-transliteration.version}</version>
                                          <outputDirectory>${kernel-transliteration.location}</outputDirectory>
                                         <destFileName>${kernel-transliteration.fileName}</destFileName>
-                                        <type>jar</type>
-                                </artifactItem>
-
-<!-- artifactItem section for kernel-transliteration-icu4j java21 -->
-                                <artifactItem>
-                                        <groupId>io.mosip.kernel</groupId>
-                                        <artifactId>kernel-transliteration-icu4j</artifactId>
-                                        <version>${kernel-transliteration-java-21.version}</version>
-                                         <outputDirectory>${kernel-transliteration-java-21.location}</outputDirectory>
-                                        <destFileName>${kernel-transliteration-java-21.fileName}</destFileName>
                                         <type>jar</type>
                                 </artifactItem>
 
@@ -369,16 +294,7 @@
 					 <outputDirectory>${kernel-virusscanner-clamav-java-21.location}</outputDirectory> 
 					<destFileName>${kernel-virusscanner-clamav.fileName}</destFileName>
 					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for virusscanner java21-->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-virusscanner-clamav</artifactId>
-					<version>${kernel-virusscanner-clamav.version}</version>
-					 <outputDirectory>${kernel-virusscanner-clamav.location}</outputDirectory> 
-					<destFileName>${kernel-virusscanner-clamav-java-21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>					
+				</artifactItem>				
 <!-- artifactItem section for clamav client -->
 				<artifactItem>
 					<groupId>xyz.capybara</groupId>
@@ -404,25 +320,6 @@
 					<version>${biosdk-client.version}</version>
 					 <outputDirectory>${biosdk-client.location}</outputDirectory> 
 					<destFileName>${biosdk-client.fileName}</destFileName>
-					<classifier>jar-with-dependencies</classifier>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for mock-sdk -->
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk-java21.version}</version>
-					 <outputDirectory>${mock-sdk-java21.location}</outputDirectory> 
-					<destFileName>${mock-sdk-java21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for biosdk-client -->				
-				<artifactItem>
-					<groupId>io.mosip.biosdk</groupId>
-					<artifactId>biosdk-client</artifactId>
-					<version>${biosdk-client-java21.version}</version>
-					 <outputDirectory>${biosdk-client-java21.location}</outputDirectory> 
-					<destFileName>${biosdk-client-java21.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
@@ -493,15 +390,6 @@
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
 				</artifactItem>
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk-java21.version}</version>
-					 <outputDirectory>${biosdk-client-lib-java21.location}</outputDirectory> 
-					<destFileName>${mock-sdk-dep.fileName}</destFileName>
-					<classifier>jar-with-dependencies</classifier>
-					<type>jar</type>
-				</artifactItem>
 <!-- artifactItem section for hazelcast-all jar -->
 				<artifactItem>
 					<groupId>com.hazelcast</groupId>
@@ -510,16 +398,7 @@
 					 <outputDirectory>${hazelcast.location}</outputDirectory> 
 					<destFileName>${hazelcast.fileName}</destFileName>
 					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for hazelcast java21 jar -->
-				<artifactItem>
-					<groupId>com.hazelcast</groupId>
-					<artifactId>hazelcast-all</artifactId>
-					<version>${hazelcast-java-21.version}</version>
-					 <outputDirectory>${hazelcast-java-21.location}</outputDirectory> 
-					<destFileName>${hazelcast-java-21.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>					
+				</artifactItem>				
 <!-- artifactItem section for redis-cache jar -->
 				<artifactItem>
 					<groupId>io.mosip.cacheprovider</groupId>
