@@ -135,16 +135,10 @@
 		<demosdk-client.fileName>demosdk-client-jar-with-dependencies.jar</demosdk-client.fileName>
 		
 		<!-- mock-sdk -->
-		<mock-sdk.version>1.2.1-SNAPSHOT</mock-sdk.version>
+		<mock-sdk.version>1.3.0-SNAPSHOT</mock-sdk.version>
 		<mock-sdk.location>/usr/share/nginx/html/artifactory/libs-release-local/mock-sdk/1.1.5</mock-sdk.location>
 		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
 		<mock-sdk-dep.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep.fileName>
-
-		<!-- mock-sdk-jpeg-extractor -->
-		<mock-sdk-jpeg-extractor.version>1.2.1-SNAPSHOT</mock-sdk-jpeg-extractor.version>
-		<mock-sdk-jpeg-extractor.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-mock-sdk/1.1.5</mock-sdk-jpeg-extractor.location>
-		<mock-sdk-jpeg-extractor-lib.location>/usr/share/nginx/html/artifactory/libs-release-local/jpeg-sdk/jpeg-sdk-lib</mock-sdk-jpeg-extractor-lib.location>
-		<mock-sdk-jpeg-extractor.fileName>mock-sdk-jpeg-extractor-jar-with-dependencies.jar</mock-sdk-jpeg-extractor.fileName>
 		
 		<!-- image-compressor-->
 		<image-compressor.version>0.0.1-SNAPSHOT</image-compressor.version>
@@ -152,7 +146,7 @@
 		<image-compressor.fileName>image-compressor-jar-with-dependencies.jar</image-compressor.fileName>
 		
 		<!-- redis-cache -->
-		<redis-cache.version>1.0-SNAPSHOT</redis-cache.version>
+		<redis-cache.version>1.3.0-SNAPSHOT</redis-cache.version>
 		<redis-cache.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</redis-cache.location>
 		<redis-cache.fileName>redis-cache-provider.jar</redis-cache.fileName>
 		
@@ -172,24 +166,24 @@
 		<esignet-mock-wrapper.fileName>esignet-mock-wrapper.jar</esignet-mock-wrapper.fileName>
 
 		<!-- esignet IDA wrapper -->
-		<esignet-ida-wrapper.version>1.2.1-SNAPSHOT</esignet-ida-wrapper.version>
+		<esignet-ida-wrapper.version>1.2.0.1</esignet-ida-wrapper.version>
 		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
 
 		<!-- esignet plugins -->
 		<esignet-plugins.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-plugins</esignet-plugins.location>
-		<esignet-mock-plugin.version>1.3.0-SNAPSHOT</esignet-mock-plugin.version>
+		<esignet-mock-plugin.version>1.4.0-SNAPSHOT</esignet-mock-plugin.version>
 		<esignet-mock-plugin.fileName>esignet-mock-plugin.jar</esignet-mock-plugin.fileName>
-		<mosip-identity-plugin.version>1.3.0-SNAPSHOT</mosip-identity-plugin.version>
+		<mosip-identity-plugin.version>1.4.0-SNAPSHOT</mosip-identity-plugin.version>
 		<mosip-identity-plugin.fileName>mosip-identity-plugin.jar</mosip-identity-plugin.fileName>
 
 		<!-- certify plugins -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
-		<certify-mosip-identity-plugin.version>0.3.0-SNAPSHOT</certify-mosip-identity-plugin.version>
+		<certify-mosip-identity-plugin.version>0.3.0</certify-mosip-identity-plugin.version>
 		<certify-mosip-identity-plugin.fileName>certify-mosip-identity-plugin.jar</certify-mosip-identity-plugin.fileName>
-		<certify-mock-plugin.version>0.3.1-SNAPSHOT</certify-mock-plugin.version>
+		<certify-mock-plugin.version>0.3.0</certify-mock-plugin.version>
 		<certify-mock-plugin.fileName>certify-mock-identity-plugin.jar</certify-mock-plugin.fileName>
-		<certify-mock-ida-dataprovider-plugin.version>0.3.0-SNAPSHOT</certify-mock-ida-dataprovider-plugin.version>
-		<certify-mock-ida-dataprovider-plugin.fileName>certify-mock-ida-dataprovider-plugin.jar</certify-mock-ida-dataprovider-plugin.fileName>
+		<certify-sunbird-plugin.version>0.3.0</certify-sunbird-plugin.version>
+		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
 	</properties>
 	
 	<build>
@@ -333,35 +327,7 @@
 					<destFileName>${image-compressor.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
-                </artifactItem>							
-<!-- artifactItem section for mock-sdk-jpeg-extractor -->
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk-jpeg-extractor</artifactId>
-					<version>${mock-sdk-jpeg-extractor.version}</version>
-					 <outputDirectory>${mock-sdk-jpeg-extractor.location}</outputDirectory> 
-					<destFileName>${mock-sdk-jpeg-extractor.fileName}</destFileName>
-					<classifier>jar-with-dependencies</classifier>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for mock-sdk-jpeg-extractor lib-->
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk.version}</version>
-					 <outputDirectory>${mock-sdk-jpeg-extractor-lib.location}</outputDirectory> 
-					<destFileName>${mock-sdk.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>	
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk-jpeg-extractor</artifactId>
-					<version>${mock-sdk-jpeg-extractor.version}</version>
-					 <outputDirectory>${mock-sdk-jpeg-extractor-lib.location}</outputDirectory> 
-					<destFileName>${mock-sdk-jpeg-extractor.fileName}</destFileName>
-					<classifier>jar-with-dependencies</classifier>
-					<type>jar</type>
-				</artifactItem>
+                </artifactItem>
 <!-- artifactItem section for biosdk library -->
 <!-- Commented as per discussion. as jar with dependencies will have components of jar as well.
 				<artifactItem>
@@ -469,13 +435,13 @@
 <!--						<destFileName>${certify-postgres-dataprovider-plugin.fileName}</destFileName>-->
 <!--						<type>jar</type>-->
 <!--					</artifactItem>-->
-<!-- artifactItem section for certify mock ida dataprovider plugin -->
+					<!-- artifactItem section for certify sunbird plugin -->
 					<artifactItem>
-						<groupId>io.mosip.certify</groupId>
-						<artifactId>mock-ida-dataprovider-plugin</artifactId>
-						<version>${certify-mock-ida-dataprovider-plugin.version}</version>
+						<groupId>io.mosip.certify.sunbirdrc</groupId>
+						<artifactId>sunbird-rc-certify-integration-impl</artifactId>
+						<version>${certify-sunbird-plugin.version}</version>
 						<outputDirectory>${certify-plugin.location}</outputDirectory>
-						<destFileName>${certify-mock-ida-dataprovider-plugin.fileName}</destFileName>
+						<destFileName>${certify-sunbird-plugin.fileName}</destFileName>
 						<type>jar</type>
 					</artifactItem>
 
