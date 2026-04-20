@@ -171,9 +171,9 @@
 
 		<!-- esignet plugins -->
 		<esignet-plugins.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-plugins</esignet-plugins.location>
-		<esignet-mock-plugin.version>1.3.4</esignet-mock-plugin.version>
+		<esignet-mock-plugin.version>1.4.0-SNAPSHOT</esignet-mock-plugin.version>
 		<esignet-mock-plugin.fileName>esignet-mock-plugin.jar</esignet-mock-plugin.fileName>
-		<mosip-identity-plugin.version>1.3.4</mosip-identity-plugin.version>
+		<mosip-identity-plugin.version>1.4.0-SNAPSHOT</mosip-identity-plugin.version>
 		<mosip-identity-plugin.fileName>mosip-identity-plugin.jar</mosip-identity-plugin.fileName>
 
 		<!-- certify plugins -->
@@ -446,7 +446,7 @@
 					</artifactItem>
 
 					<artifactItem>
-						<groupId>io.mosip.esignet.plugin</groupId>
+						<groupId>io.mosip.esignet</groupId>
 						<version>${mosip-identity-plugin.version}</version>
 						<artifactId>mosip-identity-plugin</artifactId>
 						<outputDirectory>${esignet-plugins.location}</outputDirectory>
@@ -455,7 +455,7 @@
 					</artifactItem>
 
 					<artifactItem>
-						<groupId>io.mosip.esignet.plugin</groupId>
+						<groupId>io.mosip.esignet</groupId>
 						<version>${esignet-mock-plugin.version}</version>
 						<artifactId>mock-plugin</artifactId>
 						<outputDirectory>${esignet-plugins.location}</outputDirectory>
