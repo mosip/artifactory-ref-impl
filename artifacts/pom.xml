@@ -47,7 +47,7 @@
 		</repository>
 		<repository>
 			<id>ossrh</id>
-			<name>CentralRepository</name>
+			<name>MavenCentralRepository</name>
 			<url>https://central.sonatype.com/repository/maven-snapshots</url>
 			<layout>default</layout>
 			<snapshots>
@@ -140,11 +140,6 @@
 		<hazelcast.location>/usr/share/nginx/html/artifactory/libs-release-local/cache</hazelcast.location>
 		<hazelcast.fileName>cache-provider.jar</hazelcast.fileName>
 		
-		<!-- idp authentication wrapper -->
-		<authentication-wrapper.version>0.9.0</authentication-wrapper.version>
-		<authentication-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/idp/idp-auth-wrapper</authentication-wrapper.location>
-		<authentication-wrapper.fileName>authentication-wrapper.jar</authentication-wrapper.fileName>
-		
 		<!-- esignet mock authentication wrapper -->
 		<esignet-wrapper.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-wrapper</esignet-wrapper.location>
 		<esignet-mock-wrapper.version>0.9.2</esignet-mock-wrapper.version>
@@ -154,289 +149,240 @@
 		<esignet-ida-wrapper.version>1.2.0.1</esignet-ida-wrapper.version>
 		<esignet-ida-wrapper.fileName>esignet-ida-wrapper.jar</esignet-ida-wrapper.fileName>
 
-		<!-- esignet plugins -->
-		<esignet-plugins.location>/usr/share/nginx/html/artifactory/libs-release-local/esignet/esignet-plugins</esignet-plugins.location>
-		<esignet-mock-plugin.version>1.4.0-SNAPSHOT</esignet-mock-plugin.version>
-		<esignet-mock-plugin.fileName>esignet-mock-plugin.jar</esignet-mock-plugin.fileName>
-		<mosip-identity-plugin.version>1.4.0-SNAPSHOT</mosip-identity-plugin.version>
-		<mosip-identity-plugin.fileName>mosip-identity-plugin.jar</mosip-identity-plugin.fileName>
+		<!-- esignet sunbird wrapper -->
+		<esignet-digital-credential-wrapper.version>0.2.1</esignet-digital-credential-wrapper.version>
+		<esignet-digital-credential-wrapper.fileName>sunbird-rc-esignet-integration-impl.jar</esignet-digital-credential-wrapper.fileName>
 
-		<!-- certify mosip identity plugin -->
 		<certify-plugin.location>/usr/share/nginx/html/artifactory/libs-release-local/certify/certify-plugin</certify-plugin.location>
+		<!-- certify sunbird plugin  -->
+		<certify-sunbird-plugin.version>0.3.0</certify-sunbird-plugin.version>
+		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
+		<!-- certify mosip identity plugin -->
 		<certify-mosip-identity-plugin.version>0.3.0</certify-mosip-identity-plugin.version>
 		<certify-mosip-identity-plugin.fileName>certify-mosip-identity-plugin.jar</certify-mosip-identity-plugin.fileName>
-
 		<!-- certify mock plugin -->
 		<certify-mock-plugin.version>0.3.0</certify-mock-plugin.version>
 		<certify-mock-plugin.fileName>certify-mock-identity-plugin.jar</certify-mock-plugin.fileName>
-		<certify-sunbird-plugin.version>0.3.0</certify-sunbird-plugin.version>
-		<certify-sunbird-plugin.fileName>certify-sunbird-plugin.jar</certify-sunbird-plugin.fileName>
 	</properties>
-	
+
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-        			<version>3.5.0</version>
-        <executions>
-          <execution>
-            <id>copy</id>
-            <phase>package</phase>
-            <goals>
-              <goal>copy</goal>
-            </goals>
-	  </execution>
-	</executions>
-			<configuration>
-				<artifactItems>
-<!-- artifactItem section for auth adapter -->
-				<artifactItem>
-	       	 	    <groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-auth-adapter</artifactId>
-					<version>${auth-adapter.version}</version>
-					 <outputDirectory>${auth-adapter.location}</outputDirectory> 
-					<destFileName>${auth-adapter.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
+				<version>3.5.0</version>
+				<executions>
+					<execution>
+						<id>copy</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<artifactItems>
+						<!-- artifactItem section for auth adapter -->
+						<artifactItem>
+							<groupId>io.mosip.kernel</groupId>
+							<artifactId>kernel-auth-adapter</artifactId>
+							<version>${auth-adapter.version}</version>
+							<outputDirectory>${auth-adapter.location}</outputDirectory>
+							<destFileName>${auth-adapter.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
 
+						<artifactItem>
+							<groupId>io.mosip.kernel</groupId>
+							<artifactId>kernel-auth-adapter-lite</artifactId>
+							<version>${auth-adapter-lite.version}</version>
+							<outputDirectory>${auth-adapter-lite.location}</outputDirectory>
+							<destFileName>${auth-adapter-lite.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
 
-				<artifactItem>
-	       	 	                <groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-auth-adapter-lite</artifactId>
-					<version>${auth-adapter-lite.version}</version>
-					<outputDirectory>${auth-adapter-lite.location}</outputDirectory> 
-					<destFileName>${auth-adapter-lite.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>				
-					
-<!-- artifactItem section for smsserviceprovider -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-smsserviceprovider-msg91</artifactId>
-					<version>${kernel-smsserviceprovider.version}</version>
-					 <outputDirectory>${kernel-smsserviceprovider.location}</outputDirectory> 
-					<destFileName>${kernel-smsserviceprovider.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
+						<!-- artifactItem section for smsserviceprovider -->
+						<artifactItem>
+							<groupId>io.mosip.kernel</groupId>
+							<artifactId>kernel-smsserviceprovider-msg91</artifactId>
+							<version>${kernel-smsserviceprovider.version}</version>
+							<outputDirectory>${kernel-smsserviceprovider.location}</outputDirectory>
+							<destFileName>${kernel-smsserviceprovider.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
 
-<!-- artifactItem section for kernel-transliteration-icu4j -->
-                                <artifactItem>
-                                        <groupId>io.mosip.kernel</groupId>
-                                        <artifactId>kernel-transliteration-icu4j</artifactId>
-                                        <version>${kernel-transliteration.version}</version>
-                                         <outputDirectory>${kernel-transliteration.location}</outputDirectory>
-                                        <destFileName>${kernel-transliteration.fileName}</destFileName>
-                                        <type>jar</type>
-                                </artifactItem>
-					
-<!-- artifactItem section for ref-idobjectvaidator -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-ref-idobjectvalidator</artifactId>
-					<version>${kernel-ref-idobjectvalidator.version}</version>
-					 <outputDirectory>${kernel-ref-idobjectvalidator.location}</outputDirectory> 
-					<destFileName>${kernel-ref-idobjectvalidator.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for registration-api-impl -->
-				<artifactItem>
-					<groupId>io.mosip.registration</groupId>
-					<artifactId>registration-api-stub-impl</artifactId>
-					<version>${registration-api-impl.version}</version>
-					 <outputDirectory>${registration-api-impl.location}</outputDirectory> 
-					<destFileName>${registration-api-impl.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for clamav client -->
-				<artifactItem>
-					<groupId>xyz.capybara</groupId>
-					<artifactId>clamav-client</artifactId>
-					<version>${clamav-client.version}</version>
-					 <outputDirectory>${clamav-client.location}</outputDirectory> 
-					<destFileName>${clamav-client.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for mock-sdk -->
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk.version}</version>
-					 <outputDirectory>${mock-sdk.location}</outputDirectory> 
-					<destFileName>${mock-sdk.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for biosdk-client -->				
-				<artifactItem>
-					<groupId>io.mosip.biosdk</groupId>
-					<artifactId>biosdk-client</artifactId>
-					<version>${biosdk-client.version}</version>
-					 <outputDirectory>${biosdk-client.location}</outputDirectory> 
-					<destFileName>${biosdk-client.fileName}</destFileName>
-					<classifier>jar-with-dependencies</classifier>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for demosdk client -->
-               	<artifactItem>
-					<groupId>io.mosip.demosdk</groupId>
-					<artifactId>demosdk</artifactId>
-					<version>${demosdk-client.version}</version>
-					 <outputDirectory>${demosdk-client.location}</outputDirectory> 
-					<destFileName>${demosdk-client.fileName}</destFileName>
-			 		<classifier>jar-with-dependencies</classifier>
-					<type>jar</type>
-                </artifactItem>
-<!-- artifactItem section for image-compressor dependency -->
-               	<artifactItem>
-					<groupId>io.mosip.image.compressor</groupId>
-					<artifactId>image-compressor</artifactId>
-					<version>${image-compressor.version}</version>
-					 <outputDirectory>${image-compressor.location}</outputDirectory> 
-					<destFileName>${image-compressor.fileName}</destFileName>
-					<classifier>jar-with-dependencies</classifier>
-					<type>jar</type>
-                </artifactItem>
-<!-- artifactItem section for biosdk library -->
-<!-- Commented as per discussion. as jar with dependencies will have components of jar as well.
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk.version}</version>
-					 <outputDirectory>${biosdk-client-lib.location}</outputDirectory> 
-					<destFileName>${mock-sdk.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>	-->
-				<artifactItem>
-					<groupId>io.mosip.mock.sdk</groupId>
-					<artifactId>mock-sdk</artifactId>
-					<version>${mock-sdk.version}</version>
-					 <outputDirectory>${biosdk-client-lib.location}</outputDirectory> 
-					<destFileName>${mock-sdk-dep.fileName}</destFileName>
-					<classifier>jar-with-dependencies</classifier>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for hazelcast-all jar -->
-				<artifactItem>
-					<groupId>com.hazelcast</groupId>
-					<artifactId>hazelcast-all</artifactId>
-					<version>${hazelcast.version}</version>
-					 <outputDirectory>${hazelcast.location}</outputDirectory> 
-					<destFileName>${hazelcast.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>				
-<!-- artifactItem section for redis-cache jar -->
-				<artifactItem>
-					<groupId>io.mosip.cacheprovider</groupId>
-					<artifactId>cache-provider-redis</artifactId>
-					<version>${redis-cache.version}</version>
-					 <outputDirectory>${redis-cache.location}</outputDirectory> 
-					<destFileName>${redis-cache.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for idp authentication wrapper - only required for idp v090-->
-				<artifactItem>
-					<groupId>io.mosip.idp</groupId>
-					<artifactId>authentication-wrapper</artifactId>
-					<version>${authentication-wrapper.version}</version>
-					 <outputDirectory>${authentication-wrapper.location}</outputDirectory> 
-					<destFileName>${authentication-wrapper.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-<!-- artifactItem section for esignet authentication wrapper -->
-				<artifactItem>
-					<groupId>io.mosip.esignet.mock</groupId>
-					<artifactId>mock-esignet-integration-impl</artifactId>
-					<version>${esignet-mock-wrapper.version}</version>
-					<outputDirectory>${esignet-wrapper.location}</outputDirectory>
-					<destFileName>${esignet-mock-wrapper.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>
-					<artifactItem>
-						<groupId>io.mosip.authentication</groupId>
-						<artifactId>esignet-integration-impl</artifactId>
-						<version>${esignet-ida-wrapper.version}</version>
-						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
-						<destFileName>${esignet-ida-wrapper.fileName}</destFileName>
-						<type>jar</type>
-					</artifactItem>
-<!-- 					<artifactItem>
-                                                <groupId>io.mosip.esignet.sunbirdrc</groupId>
-	                                        <artifactId>sunbird-rc-esignet-integration-impl</artifactId>
-						<version>${esignet-digital-credential-wrapper.version}</version>
-						<outputDirectory>${esignet-wrapper.location}</outputDirectory>
-						<destFileName>${esignet-digital-credential-wrapper.fileName}</destFileName>
-						<type>jar</type>
-					</artifactItem> -->
-<!-- artifactItem section for certify plugin -->				
-<!-- 					<artifactItem>
-                                                <groupId>io.mosip.certify.sunbirdrc</groupId>
-	                                        <artifactId>sunbird-rc-certify-integration-impl</artifactId>
-						<version>${certify-sunbird-plugin.version}</version>
-						<outputDirectory>${certify-plugin.location}</outputDirectory>
-						<destFileName>${certify-sunbird-plugin.fileName}</destFileName>
-						<type>jar</type>
-					</artifactItem> -->
-<!-- artifactItem section for certify mosip identity plugin -->
-<!--					<artifactItem>-->
-<!--						<groupId>io.mosip.certify</groupId>-->
-<!--						<artifactId>mosip-identity-certify-plugin</artifactId>-->
-<!--						<version>${certify-mosip-identity-plugin.version}</version>-->
-<!--						<outputDirectory>${certify-plugin.location}</outputDirectory>-->
-<!--						<destFileName>${certify-mosip-identity-plugin.fileName}</destFileName>-->
-<!--						<type>jar</type>-->
-<!--					</artifactItem>-->
-<!-- artifactItem section for certify mock identity plugin -->
-					<artifactItem>
-						<groupId>io.mosip.certify</groupId>
-						<artifactId>mock-certify-plugin</artifactId>
-						<version>${certify-mock-plugin.version}</version>
-						<outputDirectory>${certify-plugin.location}</outputDirectory>
-						<destFileName>${certify-mock-plugin.fileName}</destFileName>
-						<type>jar</type>
-					</artifactItem>
-<!-- artifactItem section for certify postgres dataprovider plugin -->
-<!--					<artifactItem>-->
-<!--						<groupId>io.mosip.certify</groupId>-->
-<!--						<artifactId>postgres-dataprovider-plugin</artifactId>-->
-<!--						<version>${certify-postgres-dataprovider-plugin.version}</version>-->
-<!--						<outputDirectory>${certify-plugin.location}</outputDirectory>-->
-<!--						<destFileName>${certify-postgres-dataprovider-plugin.fileName}</destFileName>-->
-<!--						<type>jar</type>-->
-<!--					</artifactItem>-->
-					<!-- artifactItem section for certify sunbird plugin -->
-					<artifactItem>
-						<groupId>io.mosip.certify.sunbirdrc</groupId>
-						<artifactId>sunbird-rc-certify-integration-impl</artifactId>
-						<version>${certify-sunbird-plugin.version}</version>
-						<outputDirectory>${certify-plugin.location}</outputDirectory>
-						<destFileName>${certify-sunbird-plugin.fileName}</destFileName>
-						<type>jar</type>
-					</artifactItem>
+						<!-- artifactItem section for kernel-transliteration-icu4j -->
+						<artifactItem>
+							<groupId>io.mosip.kernel</groupId>
+							<artifactId>kernel-transliteration-icu4j</artifactId>
+							<version>${kernel-transliteration.version}</version>
+							<outputDirectory>${kernel-transliteration.location}</outputDirectory>
+							<destFileName>${kernel-transliteration.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for ref-idobjectvaidator -->
+						<artifactItem>
+							<groupId>io.mosip.kernel</groupId>
+							<artifactId>kernel-ref-idobjectvalidator</artifactId>
+							<version>${kernel-ref-idobjectvalidator.version}</version>
+							<outputDirectory>${kernel-ref-idobjectvalidator.location}</outputDirectory>
+							<destFileName>${kernel-ref-idobjectvalidator.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
 
-					<artifactItem>
-						<groupId>io.mosip.esignet</groupId>
-						<version>${mosip-identity-plugin.version}</version>
-						<artifactId>mosip-identity-plugin</artifactId>
-						<outputDirectory>${esignet-plugins.location}</outputDirectory>
-						<destFileName>${mosip-identity-plugin.fileName}</destFileName>
-						<type>jar</type>
-					</artifactItem>
+						<!-- artifactItem section for registration-api-impl -->
+						<artifactItem>
+							<groupId>io.mosip.registration</groupId>
+							<artifactId>registration-api-stub-impl</artifactId>
+							<version>${registration-api-impl.version}</version>
+							<outputDirectory>${registration-api-impl.location}</outputDirectory>
+							<destFileName>${registration-api-impl.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for virusscanner -->
+						<artifactItem>
+							<groupId>io.mosip.kernel</groupId>
+							<artifactId>kernel-virusscanner-clamav</artifactId>
+							<version>${kernel-virusscanner-clamav.version}</version>
+							<outputDirectory>${kernel-virusscanner-clamav.location}</outputDirectory>
+							<destFileName>${kernel-virusscanner-clamav.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for clamav client -->
+						<artifactItem>
+							<groupId>xyz.capybara</groupId>
+							<artifactId>clamav-client</artifactId>
+							<version>${clamav-client.version}</version>
+							<outputDirectory>${clamav-client.location}</outputDirectory>
+							<destFileName>${clamav-client.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for mock-sdk -->
+						<artifactItem>
+							<groupId>io.mosip.mock.sdk</groupId>
+							<artifactId>mock-sdk</artifactId>
+							<version>${mock-sdk.version}</version>
+							<outputDirectory>${mock-sdk.location}</outputDirectory>
+							<destFileName>${mock-sdk.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for biosdk-client -->
+						<artifactItem>
+							<groupId>io.mosip.biosdk</groupId>
+							<artifactId>biosdk-client</artifactId>
+							<version>${biosdk-client.version}</version>
+							<outputDirectory>${biosdk-client.location}</outputDirectory>
+							<destFileName>${biosdk-client.fileName}</destFileName>
+							<classifier>jar-with-dependencies</classifier>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for demosdk client -->
+						<artifactItem>
+							<groupId>io.mosip.demosdk</groupId>
+							<artifactId>demosdk</artifactId>
+							<version>${demosdk-client.version}</version>
+							<outputDirectory>${demosdk-client.location}</outputDirectory>
+							<destFileName>${demosdk-client.fileName}</destFileName>
+							<classifier>jar-with-dependencies</classifier>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for image-compressor dependency -->
+						<artifactItem>
+							<groupId>io.mosip.image.compressor</groupId>
+							<artifactId>image-compressor</artifactId>
+							<version>${image-compressor.version}</version>
+							<outputDirectory>${image-compressor.location}</outputDirectory>
+							<destFileName>${image-compressor.fileName}</destFileName>
+							<classifier>jar-with-dependencies</classifier>
+							<type>jar</type>
+						</artifactItem>
+						<artifactItem>
+							<groupId>io.mosip.mock.sdk</groupId>
+							<artifactId>mock-sdk</artifactId>
+							<version>${mock-sdk.version}</version>
+							<outputDirectory>${biosdk-client-lib.location}</outputDirectory>
+							<destFileName>${mock-sdk-dep.fileName}</destFileName>
+							<classifier>jar-with-dependencies</classifier>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for hazelcast-all jar -->
+						<artifactItem>
+							<groupId>com.hazelcast</groupId>
+							<artifactId>hazelcast-all</artifactId>
+							<version>${hazelcast.version}</version>
+							<outputDirectory>${hazelcast.location}</outputDirectory>
+							<destFileName>${hazelcast.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
 
-					<artifactItem>
-						<groupId>io.mosip.esignet</groupId>
-						<version>${esignet-mock-plugin.version}</version>
-						<artifactId>mock-plugin</artifactId>
-						<outputDirectory>${esignet-plugins.location}</outputDirectory>
-						<destFileName>${esignet-mock-plugin.fileName}</destFileName>
-						<type>jar</type>
-					</artifactItem>
-					
-				</artifactItems>
-			<overWriteReleases>true</overWriteReleases>
-              		<overWriteSnapshots>true</overWriteSnapshots>
-              		<overWriteIfNewer>true</overWriteIfNewer>
-            </configuration>
-	  </plugin>
-	</plugins>
-       </build>
+						<!-- artifactItem section for redis-cache jar -->
+						<artifactItem>
+							<groupId>io.mosip.cacheprovider</groupId>
+							<artifactId>cache-provider-redis</artifactId>
+							<version>${redis-cache.version}</version>
+							<outputDirectory>${redis-cache.location}</outputDirectory>
+							<destFileName>${redis-cache.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for esignet authentication wrapper -->
+						<artifactItem>
+							<groupId>io.mosip.esignet.mock</groupId>
+							<artifactId>mock-esignet-integration-impl</artifactId>
+							<version>${esignet-mock-wrapper.version}</version>
+							<outputDirectory>${esignet-wrapper.location}</outputDirectory>
+							<destFileName>${esignet-mock-wrapper.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<artifactItem>
+							<groupId>io.mosip.authentication</groupId>
+							<artifactId>esignet-integration-impl</artifactId>
+							<version>${esignet-ida-wrapper.version}</version>
+							<outputDirectory>${esignet-wrapper.location}</outputDirectory>
+							<destFileName>${esignet-ida-wrapper.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+
+						<artifactItem>
+							<groupId>io.mosip.esignet.sunbirdrc</groupId>
+							<artifactId>sunbird-rc-esignet-integration-impl</artifactId>
+							<version>${esignet-digital-credential-wrapper.version}</version>
+							<outputDirectory>${esignet-wrapper.location}</outputDirectory>
+							<destFileName>${esignet-digital-credential-wrapper.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for certify sunbird plugin -->
+						<artifactItem>
+							<groupId>io.mosip.certify.sunbirdrc</groupId>
+							<artifactId>sunbird-rc-certify-integration-impl</artifactId>
+							<version>${certify-sunbird-plugin.version}</version>
+							<outputDirectory>${certify-plugin.location}</outputDirectory>
+							<destFileName>${certify-sunbird-plugin.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for certify mosip identity plugin -->
+						<artifactItem>
+							<groupId>io.mosip.certify</groupId>
+							<artifactId>mosip-identity-certify-plugin</artifactId>
+							<version>${certify-mosip-identity-plugin.version}</version>
+							<outputDirectory>${certify-plugin.location}</outputDirectory>
+							<destFileName>${certify-mosip-identity-plugin.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+						<!-- artifactItem section for certify mock identity plugin -->
+						<artifactItem>
+							<groupId>io.mosip.certify</groupId>
+							<artifactId>mock-certify-plugin</artifactId>
+							<version>${certify-mock-plugin.version}</version>
+							<outputDirectory>${certify-plugin.location}</outputDirectory>
+							<destFileName>${certify-mock-plugin.fileName}</destFileName>
+							<type>jar</type>
+						</artifactItem>
+					</artifactItems>
+					<overWriteReleases>true</overWriteReleases>
+					<overWriteSnapshots>true</overWriteSnapshots>
+					<overWriteIfNewer>true</overWriteIfNewer>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
