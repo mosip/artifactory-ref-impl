@@ -200,16 +200,6 @@
 					<type>jar</type>
 				</artifactItem>
 
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-auth-adapter</artifactId>
-					<version>${auth-adapter-java-21.version}</version>
-					<outputDirectory>${auth-adapter-java-21.location}</outputDirectory>
-						<!-- Keep the destination filename consistent with the original -->
-					<destFileName>kernel-auth-adapter.jar</destFileName>
-					<type>jar</type>
-				</artifactItem>
-
 
 				<artifactItem>
 	       	 	                <groupId>io.mosip.kernel</groupId>
@@ -258,15 +248,6 @@
 					<destFileName>${registration-api-impl.fileName}</destFileName>
 					<type>jar</type>
 				</artifactItem>
-<!-- artifactItem section for virusscanner -->
-				<artifactItem>
-					<groupId>io.mosip.kernel</groupId>
-					<artifactId>kernel-virusscanner-clamav</artifactId>
-					<version>${kernel-virusscanner-clamav-java-21.version}</version>
-					 <outputDirectory>${kernel-virusscanner-clamav-java-21.location}</outputDirectory> 
-					<destFileName>${kernel-virusscanner-clamav.fileName}</destFileName>
-					<type>jar</type>
-				</artifactItem>				
 <!-- artifactItem section for clamav client -->
 				<artifactItem>
 					<groupId>xyz.capybara</groupId>
