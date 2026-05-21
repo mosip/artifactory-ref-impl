@@ -117,7 +117,7 @@
 		<mock-sdk.fileName>mock-sdk.jar</mock-sdk.fileName>
 		<mock-sdk-dep.fileName>mock-sdk-jar-with-dependencies.jar</mock-sdk-dep.fileName>
 		<!-- image-compressor-->
-		<image-compressor.version>0.1.0-SNAPSHOT</image-compressor.version>
+		<image-compressor.version>0.1.0</image-compressor.version>
 		<image-compressor.location>/usr/share/nginx/html/artifactory/libs-release-local/compressor/image-compressor</image-compressor.location>
 		<image-compressor.fileName>image-compressor-jar-with-dependencies.jar</image-compressor.fileName>
 
