@@ -5,7 +5,7 @@ set -e
 # This scripts performs multiple commands to set up the libraries inside the artifactory server docker.
 # Activies performed are listed as below
 # 1. biosdk-client zip creation
-# 2. biosdk-lib zip creation
+# 2. biosdk-lib zip ceation
 # 3. image-compressor zip ceation
 # 4. demosdk-lib zip creation
 # 5. Create resources zip for reg-client
