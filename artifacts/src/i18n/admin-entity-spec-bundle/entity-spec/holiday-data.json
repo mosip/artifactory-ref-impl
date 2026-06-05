@@ -134,7 +134,10 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "text",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "styles": {
+        "width": "55%"
+      }
     },
     {
       "name": "holidayDesc",
@@ -158,7 +161,10 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "calendar",
-      "ismandatory": "true"
+      "ismandatory": "true",
+      "styles": {
+        "width": "20%"
+      }
     },
     {
       "name": "locationCode",
@@ -216,7 +222,10 @@
       "linkType": "",
       "LinkURL": "",
       "inputType": "dropdown",
-      "ismandatory": "false"
+      "ismandatory": "false",
+      "styles": {
+        "width": "20%"
+      }
     }
   ],
   "paginator": {
