@@ -705,6 +705,17 @@
             { "id": "zone", "value": "Zona" },
             { "id": "zone_user", "value": "Usuario de zona" }
         ],
+        "validationMessages": {
+            "operation": {
+                "required": "La operación es requerida"
+            },
+            "tableName": {
+                "required": "El nombre de la tabla es requerido"
+            },
+            "file": {
+                "required": "El archivo es requerido"
+            }
+        },
         "popupMessages": {
             "popup1": {
                 "title": "Confirmar carga masiva de datos maestros",
