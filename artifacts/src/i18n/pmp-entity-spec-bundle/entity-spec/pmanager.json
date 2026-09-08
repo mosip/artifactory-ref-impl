@@ -1,0 +1,308 @@
+{
+	"auditEventIds": ["ADM-030", "ADM-052"],
+	"actionButtons": [{
+			"buttonName": {
+				"eng": "Activate Partner",
+				"ara": "تفعيل الشريك",
+				"fra": "تفعيل الشريك",
+				"hin": "भागीदार सक्रिय करें",
+				"kan": "ಪಾಲುದಾರರನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "கூட்டாளரை செயல்படுத்தவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "activatePartner"
+		},
+		{
+			"buttonName": {
+				"eng": "Deactivate Partner",
+				"ara": "تعطيل الشريك",
+				"fra": "Désactiver le partenaire",
+				"hin": "साथी को निष्क्रिय करें",
+				"kan": "ಪಾಲುದಾರರನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "பார்ட்னரை செயலிழக்கச் செய்யவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "deactivatePartner"
+		},
+		{
+			"buttonName": {
+				"eng": "Approve ApikeyReq",
+				"ara": "الموافقة على ApikeyReq",
+				"fra": "Approuver ApikeyReq",
+				"hin": "ApikeyReq . को स्वीकृत करें",
+				"kan": "ApikeyReq ಅನ್ನು ಅನುಮೋದಿಸಿ",
+				"tam": "ApikeyReq ஐ அங்கீகரிக்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "approvePartnerRequestStatus"
+		},
+		{
+			"buttonName": {
+				"eng": "Reject ApikeyReq",
+				"ara": "رفض ApikeyReq",
+				"fra": "Rejeter ApikeyReq",
+				"hin": "एपीकेरेक को अस्वीकार करें",
+				"kan": "ApikeyReq ಅನ್ನು ತಿರಸ್ಕರಿಸಿ",
+				"tam": "Apikey Req ஐ நிராகரி"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "rejectPartnerRequestStatus"
+		},
+		{
+			"buttonName": {
+				"eng": "Deactivate APIKey",
+				"ara": "قم بإلغاء تنشيط APIKey",
+				"fra": "Désactiver la clé API",
+				"hin": "APIKey को निष्क्रिय करें",
+				"kan": "APIKey ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "APIKey ஐ செயலிழக்கச் செய்யவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "deactivateAPIKeyStatus"
+		},
+		{
+			"buttonName": {
+				"eng": "Activate APIKey",
+				"ara": "قم بتنشيط APIKey",
+				"fra": "Activer la clé API",
+				"hin": "एपीआई कुंजी सक्रिय करें",
+				"kan": "API ಕೀಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "API விசையை இயக்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "activateAPIKeyStatus"
+		},
+		{
+			"buttonName": {
+				"eng": "Change Policy",
+				"ara": "تغيير السياسة",
+				"fra": "Modifier la politique",
+				"hin": "नीति बदलें",
+				"kan": "ನೀತಿಯನ್ನು ಬದಲಾಯಿಸಿ",
+				"tam": "கொள்கையை மாற்றவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/pmanager/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "pmanagerEdit"
+		}
+	],
+	"columnsToDisplay": [{
+			"name": "partnerID",
+			"showInListView": "True",
+			"label": {
+				"eng": "partnerID",
+				"ara": "معرف الشريك",
+				"fra": "ID partenaire",
+				"hin": "साथी आईडी",
+				"kan": "ಪಾಲುದಾರ ID",
+				"tam": "கூட்டாளர் ஐடி"
+			},
+			"sortOrder": "3",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "policyName",
+			"showInListView": "true",
+			"label": {
+				"eng": "PolicyName",
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "partnerStatus",
+			"showInListView": "true",
+			"label": {
+				"eng": "partnerStatus",
+				"ara": "الشريك",
+				"fra": "partenaireStatut",
+				"hin": "साथीस्थिति",
+				"kan": "ಪಾಲುದಾರರ ಸ್ಥಿತಿ",
+				"tam": "பங்குதாரர் நிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "false",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "apikeyReqID",
+			"showInListView": "",
+			"label": {
+				"eng": "apikeyReqID",
+				"ara": "معرف طلب مفتاح api",
+				"fra": "ID de demande de clé API",
+				"hin": "एपीआई कुंजी अनुरोध आईडी",
+				"kan": "api ಕೀ ವಿನಂತಿ ID",
+				"tam": "api விசை கோரிக்கை ஐடி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "apikeyReqIDStatus",
+			"showInListView": "",
+			"label": {
+				"eng": "apikeyReqIDStatus",
+				"ara": "apikeyReqIDS حالة",
+				"fra": "apikeyReqIDStatus",
+				"hin": "apikeyReqIDस्थिति",
+				"kan": "apikeyReqID ಸ್ಥಿತಿ",
+				"tam": "apikeyReqIDநிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "partnerAPIKey",
+			"showInListView": "",
+			"label": {
+				"eng": "partnerAPIKey",
+				"ara": "شريك APIKey",
+				"fra": "partenaireAPIKey",
+				"hin": "पार्टनरAPIKey",
+				"kan": "ಪಾಲುದಾರAPIKey",
+				"tam": "கூட்டாளர்APIKey"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "partnerAPIKeyStatus",
+			"showInListView": "",
+			"label": {
+				"eng": "partnerAPIKeyStatus",
+				"ara": "الشريك APIKey",
+				"fra": "partenaireAPIKeyStatus",
+				"hin": "पार्टनरAPIKeyस्थिति",
+				"kan": "ಪಾಲುದಾರAPIKeyStatus",
+				"tam": "கூட்டாளர்APKeyStatus"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+	"filterColumns": [{
+			"filtername": "partnerID",
+			"filterlabel": "partnerID",
+			"filterType": "contains",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "devices",
+			"fieldName": "partnerID",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "name",
+			"filterlabel": "Device Name",
+			"filterType": "contains",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "devices",
+			"fieldName": "name",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "isActive",
+			"filterlabel": "Status",
+			"filterType": "contains",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "true",
+			"datePicker": "false",
+			"apiName": "devices",
+			"fieldName": "isActive",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "macAddress",
+			"filterlabel": "MAC Address",
+			"filterType": "equals",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "devices",
+			"fieldName": "macAddress",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "serialNum",
+			"filterlabel": "Serial Number",
+			"filterType": "equals",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "devices",
+			"fieldName": "serialNum",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "mapStatus",
+			"filterlabel": "Map Status",
+			"filterType": "equals",
+			"autocomplete": "false",
+			"dropdown": "true",
+			"datePicker": "false",
+			"apiName": "devices",
+			"fieldName": "mapStatus",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "deviceTypeName",
+			"filterlabel": "Device Type",
+			"filterType": "equals",
+			"autocomplete": "false",
+			"dropdown": "true",
+			"datePicker": "false",
+			"apiName": "devicetypes",
+			"fieldName": "name",
+			"methodCallName": ""
+		}
+	]
+}
