@@ -1,0 +1,206 @@
+{
+	"auditEventIds": ["ADM-028", "ADM-028"],
+	"actionButtons": [{
+			"buttonName": {
+				"eng": "Activate",
+				"ara": "تفعيل",
+				"fra": "Activer",
+				"hin": "सक्रिय",
+				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயல்படுத்த"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "activatePolicy"
+		},
+		{
+			"buttonName": {
+				"eng": "Deactivate",
+				"ara": "تعطيل",
+				"fra": "Désactiver",
+				"hin": "निष्क्रिय करें",
+				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயலிழக்கச் செய்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "deactivatePolicy"
+		},
+		{
+			"buttonName": {
+				"eng": "Edit",
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/policygroup/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "edit"
+		},
+		{
+			"buttonName": {
+				"eng": "Create Policy Group",
+				"ara": "إنشاء مجموعة نهج",
+				"fra": "Créer un groupe de stratégies",
+				"hin": "नीति समूह बनाएं",
+				"kan": "ನೀತಿ ಗುಂಪನ್ನು ರಚಿಸಿ",
+				"tam": "கொள்கை குழுவை உருவாக்கவும்"
+			},
+			"imagePath": "assets/images/add-icon.png",
+			"actionListType": "redirect",
+			"actionURL": "",
+			"redirectURL": "pmp/resources/policygroup/create",
+			"showIn": "Button",
+			"validations": ""
+		},
+		{
+			"buttonName": {
+				"eng": "Filter",
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
+			},
+			"imagePath": "assets/images/filter.png",
+			"actionListType": "action",
+			"actionURL": {
+				"case": "filter"
+			},
+			"redirectURL": "",
+			"showIn": "Button",
+			"validations": ""
+		}
+	],
+	"columnsToDisplay": [{
+			"name": "id",
+			"label": {
+				"eng": "ID",
+				"ara": "بطاقة تعريف",
+				"fra": "IDENTIFIANT",
+				"hin": "पहचान",
+				"kan": "ಐಡಿ",
+				"tam": "ஐடி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "false",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "name",
+			"label": {
+				"eng": "Name",
+				"ara": "اسم",
+				"fra": "Nom",
+				"hin": "नाम",
+				"kan": "ಹೆಸರು",
+				"tam": "பெயர்"
+			},
+			"sortOrder": "3",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true",
+			"maxLength": 128
+		},
+		{
+			"name": "desc",
+			"label": {
+				"eng": "Description",
+				"ara": "وصف",
+				"fra": "La description",
+				"hin": "विवरण",
+				"kan": "ವಿವರಣೆ",
+				"tam": "விளக்கம்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true",
+			"maxLength": 256
+		},
+		{
+			"name": "isActive",
+			"label": {
+				"eng": "Status",
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+	"filterColumns": [{
+			"filtername": "name",
+			"filterlabel": {
+				"eng": "Name",                                
+"ara": "اسم",                               
+"fra": "Nom",                               
+"hin": "नाम",                                
+"kan": "ಹೆಸರು",                              
+"tam": "பெயர்"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "name",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "desc",
+			"filterlabel": {
+				"eng": "Description",
+"ara": "وصف",
+"fra": "La description",
+"hin": "विवरण",
+"kan": "ವಿವರಣೆ",
+"tam": "விளக்கம்"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "desc",
+			"methodCallName": ""
+		}
+	]
+}

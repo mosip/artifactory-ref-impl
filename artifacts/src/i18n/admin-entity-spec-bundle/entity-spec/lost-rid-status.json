@@ -1,0 +1,173 @@
+{
+  "auditEventIds": ["ADM-030", "ADM-052"],
+  "actionButtons": [
+    {
+      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" ,
+        "hin": "पफ़िल्टर ",
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ     ",
+        "tam": "வடிகட்டி  "},
+      "imagePath": "assets/images/filter.png",
+      "actionListType": "action",
+      "actionURL": { "case": "filter" },
+      "redirectURL": "",
+      "showIn": "Button",
+      "validations": ""
+    }
+  ],
+  "columnsToDisplay": [
+    {
+      "name": "registrationId",
+      "showInListView": "True",
+      "label": { "eng": "Registration Id", "ara": "معرف تسجيل", "fra": "ID d'enregistrement" , "hin": "पंजीयन पहचान", "kan": "ನೋಂದಣಿ ಐಡಿ", "tam": "பதிவு ஐடி"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "noSort": "true"
+    },
+    {
+      "name": "registartionDate",
+      "showInListView": "True",
+      "label": { "eng": "Registartion Date", "ara": "تاريخ التسجيل", "fra": "Date d'enregistrement" , "hin": "पंजीकरण तिथि", "kan": "ನೋಂದಣಿ ದಿನಾಂಕ", "tam": "பதிவு தேதி"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "noSort": "true"
+    },
+    {
+      "name": "name",
+      "showInListView": "true",
+      "showInSingleView": "true",
+      "label": {"eng": "Name","ara": "اسم","fra": "prénom","tam": "பெயர்","hin": "नाम","kan": "ಹೆಸರು"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "noSort": "true"
+    }
+  ],
+  "paginator": {},
+  "filterColumns": [
+    {
+      "filtername": "registrationDateFrom",
+      "filterlabel": { "eng": "Registration From Date", "ara": "تاريخ التسجيل من", "fra": "Date d'inscription Du","hin": "पंजीकरण की तारीख", "kan": "ನೋಂದಣಿ ದಿನಾಂಕದಿಂದ", "tam": "பதிவு தேதி முதல்" },
+      "filterType": "between",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "true",
+      "apiName": "lostRid",
+      "fieldName": "registrationDate",
+      "methodCallName": "",
+      "ismandatory": "true"
+    },
+    {
+      "filtername": "registrationDateTo",
+      "filterlabel": { "eng": "Registration To Date", "ara": "التسجيل حتى تاريخه", "fra": "Inscription à ce jour","hin": "आज तक पंजीकरण", "kan": "ಇಲ್ಲಿಯವರೆಗೆ ನೋಂದಣಿ", "tam": "இன்றுவரை பதிவு" },
+      "filterType": "between",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "true",
+      "apiName": "lostRid",
+      "fieldName": "registrationDate",
+      "methodCallName": "",
+      "ismandatory": "true"
+    },
+    {
+      "filtername": "name",
+      "filterlabel": {
+        "eng": "Name",
+        "ara": "اسم",
+        "fra": "prénom",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "name",
+      "methodCallName": "",
+      "ismandatory": "true"
+    },
+    {
+      "filtername": "email",
+      "filterlabel": {
+        "eng": "Email",
+        "ara": "بريد الالكتروني",
+        "fra": "E-mail",
+        "hin": "ईमेल",
+        "kan": "ಇಮೇಲ್",
+        "tam": "மின்னஞ்சல்"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "email",
+      "methodCallName": "",
+      "ismandatory": "false"
+    },
+    {
+      "filtername": "phone",
+      "filterlabel": {
+        "eng": "Phone",
+        "ara": "هاتف",
+        "fra": "Téléphoner",
+        "hin": "फ़ोन",
+        "kan": "ದೂರವಾಣಿ",
+        "tam": "தொலைபேசி"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "phone",
+      "methodCallName": "",
+      "ismandatory": "false"
+    },
+    {
+      "filtername": "locationCode",
+      "filterlabel": {
+        "eng": "Location Code",
+        "ara": "نوع المركز",
+        "fra": "Type de centre",
+        "tam": "மைய வகை",
+        "hin": "केंद्र प्रकार",
+        "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ"
+      },
+      "filterType": "contains",
+      "fieldType": "mat-select",
+      "autocomplete": "false",
+      "dropdown": "true",
+      "datePicker": "false",
+      "apiName": "locations",
+      "fieldName": "locationCode",
+      "methodCallName": "",
+      "ismandatory": "true"
+    },
+    {
+      "filtername": "centerId",
+      "filterlabel": {
+        "eng": "Center",
+        "ara": "معرف المركز",
+        "fra": "Identifiant du centre",
+        "hin": "केंद्र आईडी",
+        "kan": "ಕೇಂದ್ರ ಐಡಿ",
+        "tam": "மைய ஐடி"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "true",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "centerId",
+      "methodCallName": "",
+      "ismandatory": "true"
+    }
+  ]
+}

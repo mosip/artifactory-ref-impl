@@ -1,0 +1,248 @@
+{
+	"auditEventIds": ["ADM-027", "ADM-049"],
+	"actionButtons": [{
+			"buttonName": {
+				"eng": "Edit",
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/partner/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "partnerEdit"
+		},
+		{
+			"buttonName": {
+				"eng": "Add Contacts",
+				"ara": "اضف جهات اتصال",
+				"fra": "Ajouter des contacts",
+				"hin": "संपर्क जोड़ें",
+				"kan": "ಸಂಪರ್ಕಗಳನ್ನು ಸೇರಿಸಿ",
+				"tam": "தொடர்புகளைச் சேர்க்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "submitPartnerAPIKeyRequest"
+		},
+		{
+			"buttonName": {
+				"eng": "Upload Certificate",
+				"ara": "تحميل الشهادة",
+				"fra": "Télécharger le certificat",
+				"hin": "प्रमाणपत्र अपलोड करें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+				"tam": "சான்றிதழை பதிவேற்றவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "submitPartnerAPIKeyRequest"
+		},
+		{
+			"buttonName": {
+				"eng": "View Certificate",
+				"ara": "مشاهدة الشهادة",
+				"fra": "Afficher le certificat",
+				"hin": "प्रमाणपत्र देखें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ವೀಕ್ಷಿಸಿ",
+				"tam": "சான்றிதழைப் பார்க்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "viewCertificate"
+		},
+		{
+			"buttonName": {
+				"eng": "Create Partner",
+				"ara": "إنشاء شريك",
+				"fra": "Créer un partenaire",
+				"hin": "पार्टनर बनाएं",
+				"kan": "ಪಾಲುದಾರರನ್ನು ರಚಿಸಿ",
+				"tam": "கூட்டாளரை உருவாக்கவும்"
+			},
+			"imagePath": "assets/images/add-icon.png",
+			"actionListType": "redirect",
+			"actionURL": "",
+			"redirectURL": "pmp/resources/partner/create",
+			"showIn": "Button",
+			"validations": ""
+		}
+	],
+	"columnsToDisplay": [
+
+		{
+			"name": "id",
+			"showInListView": "true",
+			"label": {
+				"eng": "ID",
+				"ara": "بطاقة تعريف",
+				"fra": "IDENTIFIANT",
+				"hin": "पहचान",
+				"kan": "ಐಡಿ",
+				"tam": "ஐடி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "name",
+			"showInListView": "true",
+			"label": {
+				"eng": "Name",
+				"ara": "اسم",
+				"fra": "Nom",
+				"hin": "नाम",
+				"kan": "ಹೆಸರು",
+				"tam": "பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "emailId",
+			"showInListView": "true",
+			"label": {
+				"eng": "Email id",
+				"ara": "عنوان الايميل",
+				"fra": "Identifiant de messagerie",
+				"hin": "ईमेल आईडी",
+				"kan": "ಇಮೇಲ್ ಐಡಿ",
+				"tam": "மின்னஞ்சல் முகவரி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "policyGroupId",
+			"showInListView": "true",
+			"label": {
+				"eng": "Policy Group",
+				"ara": "مجموعة السياسة",
+				"fra": "Groupe de politiques",
+				"hin": "नीति समूह",
+				"kan": "ನೀತಿ ಗುಂಪು",
+				"tam": "கொள்கை குழு"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "contactNo",
+			"showInListView": "true",
+			"label": {
+				"eng": "Contact Number",
+				"ara": "رقم الاتصال",
+				"fra": "Numéro de contact",
+				"hin": "संपर्क संख्या",
+				"kan": "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
+				"tam": "தொடர்பு எண்"
+			},
+			"sortOrder": "",
+			"showAsLink": "false",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "policyName",
+			"showInListView": "",
+			"label": {
+				"eng": "PolicyName",
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "emailId",
+			"showInListView": "",
+			"label": {
+				"eng": "Email",
+				"ara": "البريد الإلكتروني",
+				"fra": "E-mail",
+				"hin": "ईमेल",
+				"kan": "ಇಮೇಲ್",
+				"tam": "மின்னஞ்சல்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "status",
+			"showInListView": "",
+			"label": {
+				"eng": "Status",
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "address",
+			"showInListView": "",
+			"label": {
+				"eng": "Address",
+				"ara": "تبوك",
+				"fra": "Adresse",
+				"hin": "पता",
+				"kan": "ವಿಳಾಸ",
+				"tam": "முகவரி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "apiKeyRequestStatus",
+			"showInListView": "",
+			"label": {
+				"eng": "Submit Request Status",
+				"ara": "إرسال حالة الطلب",
+				"fra": "Soumettre le statut de la demande",
+				"hin": "अनुरोध स्थिति सबमिट करें",
+				"kan": "ವಿನಂತಿಯ ಸ್ಥಿತಿಯನ್ನು ಸಲ್ಲಿಸಿ",
+				"tam": "கோரிக்கை நிலையைச் சமர்ப்பிக்கவும்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	}
+}
