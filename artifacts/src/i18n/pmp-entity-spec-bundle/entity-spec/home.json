@@ -1,0 +1,27 @@
+{
+	"auditEventIds": ["ADM-028", "ADM-028"],
+	"actionButtons": [
+	],
+	"columnsToDisplay": [
+	],
+	"paginator": {
+	},
+	"filterColumns": [{
+      "filtername": "policyGroup",
+      "filterlabel": {
+        "eng": "Policy Group",
+        "ara": "نوع الجهاز",
+        "fra": "Type de machine",
+        "hin": "मशीन की तरह",
+        "kan": "ಯಂತ್ರ ಪ್ರಕಾರ",
+        "tam": "இயந்திர வகை"
+      },
+      "filterType": "equals",
+      "autocomplete": "true",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "v1/policymanager/policies/group/",
+      "fieldName": "name",
+      "methodCallName": ""
+    }]
+}

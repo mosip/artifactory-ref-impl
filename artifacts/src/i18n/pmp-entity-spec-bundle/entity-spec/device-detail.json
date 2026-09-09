@@ -1,0 +1,374 @@
+{
+	"auditEventIds": ["ADM-027", "ADM-049"],
+	"actionButtons": [{
+			"buttonName": {
+				"eng": "Approve",
+				"ara": "يوافق",
+				"fra": "Approuver",
+				"hin": "मंज़ूरी देना",
+				"kan": "ಅನುಮೋದಿಸಿ",
+				"tam": "ஒப்புதல்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "approve"
+		},
+		{
+			"buttonName": {
+				"eng": "Reject",
+				"ara": "رفض",
+				"fra": "Rejeter",
+				"hin": "अस्वीकार",
+				"kan": "ತಿರಸ್ಕರಿಸಿ",
+				"tam": "நிராகரிக்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "reject"
+		},
+		{
+			"buttonName": {
+				"eng": "Edit",
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/devicedetails/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "partnerEdit"
+		},
+		{
+			"buttonName": {
+				"eng": "Create Device",
+				"ara": "إنشاء الجهاز",
+				"fra": "Créer un appareil",
+				"hin": "डिवाइस बनाएं",
+				"kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ",
+				"tam": "சாதனத்தை உருவாக்கவும்"
+			},
+			"imagePath": "assets/images/add-icon.png",
+			"actionListType": "redirect",
+			"actionURL": "",
+			"redirectURL": "pmp/resources/devicedetails/create",
+			"showIn": "Button",
+			"validations": ""
+		},
+		{
+			"buttonName": {
+				"eng": "Filter",
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
+			},
+			"imagePath": "assets/images/filter.png",
+			"actionListType": "action",
+			"actionURL": {
+				"case": "filter"
+			},
+			"redirectURL": "",
+			"showIn": "Button",
+			"validations": ""
+		}
+	],
+	"columnsToDisplay": [{
+			"name": "id",
+			"label": {
+				"eng": "ID",
+				"ara": "بطاقة تعريف",
+				"fra": "IDENTIFIANT",
+				"hin": "पहचान",
+				"kan": "ಐಡಿ",
+				"tam": "ஐடி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "false",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "deviceProviderId",
+			"label": {
+				"eng": "Partner Name",
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "partnerOrganizationName",
+			"label": {
+				"eng": "Organization Name",
+				"ara": "اسم المنظمة",
+				"fra": "nom de l'organisation",
+				"hin": "संगठन का नाम",
+				"kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+				"tam": "நிறுவன பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "deviceTypeCode",
+			"label": {
+				"eng": "Device Type",
+				"ara": "نوع الجهاز",
+				"fra": "Type d'appareil",
+				"hin": "उपकरण का प्रकार",
+				"kan": "ಸಾಧನದ ಪ್ರಕಾರ",
+				"tam": "கருவியின் வகை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "deviceSubTypeCode",
+			"label": {
+				"eng": "Device Sub Type",
+				"ara": "نوع الجهاز الفرعي",
+				"fra": "Sous-type de périphérique",
+				"hin": "डिवाइस उप प्रकार",
+				"kan": "ಸಾಧನದ ಉಪ ಪ್ರಕಾರ",
+				"tam": "சாதனத்தின் துணை வகை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "make",
+			"label": {
+				"eng": "Make",
+				"ara": "يجعلون",
+				"fra": "Faire, construire",
+				"hin": "बनाना",
+				"kan": "ಮಾಡಿ",
+				"tam": "செய்ய"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true",
+			"maxLength": 36
+		},
+		{
+			"name": "model",
+			"label": {
+				"eng": "Model",
+				"ara": "نموذج",
+				"fra": "Modèle",
+				"hin": "नमूना",
+				"kan": "ಮಾದರಿ",
+				"tam": "மாதிரி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true",
+			"maxLength": 36
+		},
+		{
+			"name": "isItForRegistrationDevice",
+			"label": {
+				"eng": "ForRegistrationDevice",
+				"ara": "جهاز التسجيل",
+				"fra": "ForRegistrationDevice",
+				"hin": "पंजीकरण के लिएडिवाइस",
+				"kan": "ನೋಂದಣಿ ಸಾಧನಕ್ಕಾಗಿ",
+				"tam": "பதிவு சாதனத்திற்காக"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "false",
+			"showInListView": "false",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "approvalStatus",
+			"showInListView": "true",
+			"label": {
+				"eng": "Status",
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+	"filterColumns": [{
+			"filtername": "deviceProviderId",
+			"filterlabel": {                        
+                                "eng": "Partner Name",
+                                "ara": "اسم شريك",
+                                "fra": "Nom du partenaire",
+                                "hin": "साथी का नाम",
+                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
+                                "tam": "கூட்டாளர் பெயர்"
+                        },
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "deviceProviderId",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "partnerOrganizationName",
+			"filterlabel": {                        
+                                "eng": "Organization Name",
+                                "ara": "اسم المنظمة",
+                                "fra": "nom de l'organisation",
+                                "hin": "संगठन का नाम",
+                                "kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+                                "tam": "நிறுவன பெயர்"
+                        },
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "partnerOrganizationName",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "deviceTypeCode",
+			"filterlabel": {                        
+                                "eng": "Device Type",
+                                "ara": "نوع الجهاز",
+                                "fra": "Type d'appareil",
+                                "hin": "उपकरण का प्रकार",
+                                "kan": "ಸಾಧನದ ಪ್ರಕಾರ",
+                                "tam": "கருவியின் வகை"
+                        },
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "deviceTypeCode",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "deviceSubTypeCode",
+			"filterlabel": {                        
+                                "eng": "Device Sub Type",
+                                "ara": "نوع الجهاز الفرعي",
+                                "fra": "Sous-type de périphérique",
+                                "hin": "डिवाइस उप प्रकार",
+                                "kan": "ಸಾಧನದ ಉಪ ಪ್ರಕಾರ",
+                                "tam": "சாதனத்தின் துணை வகை"
+                        },
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "deviceSubTypeCode",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "make",
+			"filterlabel": {                     
+                                "eng": "Make",
+                                "ara": "يجعلون",
+                                "fra": "Faire, construire",
+                                "hin": "बनाना",
+                                "kan": "ಮಾಡಿ",
+                                "tam": "செய்ய"
+                        },
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "make",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "model",
+			"filterlabel": {                        
+                                "eng": "Model",
+                                "ara": "نموذج",
+                                "fra": "Modèle",
+                                "hin": "नमूना",
+                                "kan": "ಮಾದರಿ",
+                                "tam": "மாதிரி"
+                        },
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "model",
+			"methodCallName": ""
+		}
+	]
+}
