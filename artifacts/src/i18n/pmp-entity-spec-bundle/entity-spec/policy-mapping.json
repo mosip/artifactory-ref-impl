@@ -1,0 +1,264 @@
+{
+	"auditEventIds": ["ADM-027", "ADM-049"],
+	"actionButtons": [{
+			"buttonName": {
+				"eng": "Manage Policy",
+				"ara": "إدارة النهج",
+				"fra": "Gérer la politique",
+				"hin": "नीति प्रबंधित करें",
+				"kan": "ನೀತಿಯನ್ನು ನಿರ್ವಹಿಸಿ",
+				"tam": "கொள்கையை நிர்வகிக்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "ApproveorRejectPolicy"
+		},
+		{
+			"buttonName": {
+				"eng": "Map Policy",
+				"ara": "نهج الخريطة",
+				"fra": "Politique de carte",
+				"hin": "मानचित्र नीति",
+				"kan": "ನಕ್ಷೆ ನೀತಿ",
+				"tam": "வரைபடக் கொள்கை"
+			},
+			"imagePath": "assets/images/add-icon.png",
+			"actionListType": "redirect",
+			"actionURL": "",
+			"redirectURL": "pmp/resources/policymapping/create",
+			"showIn": "Button",
+			"validations": ""
+		},
+		{
+			"buttonName": {
+				"eng": "Filter",
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
+			},
+			"imagePath": "assets/images/filter.png",
+			"actionListType": "action",
+			"actionURL": {
+				"case": "filter"
+			},
+			"redirectURL": "",
+			"showIn": "Button",
+			"validations": ""
+		},
+		{
+			"buttonName": {
+				"eng": "Generate API Key",
+				"ara": "توليد مفتاح API",
+				"fra": "Générer une clé API",
+				"hin": "एपीआई कुंजी उत्पन्न करें",
+				"kan": "API ಕೀಯನ್ನು ರಚಿಸಿ",
+				"tam": "API விசையை உருவாக்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/policymapping/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "partnerEdit"
+		},
+		{
+			"buttonName": {
+				"eng": "Edit",
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/policymapping/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "partnerEdit"
+		}
+	],
+	"columnsToDisplay": [
+		{
+			"name": "partnerId",
+			"label": {
+				"eng": "Partner Name",
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "false",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "policyId",
+			"label": {
+				"eng": "Policy Name",
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿಯ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "false",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "partnerName",
+			"label": {
+				"eng": "Partner Name",
+				"ara": "கூட்டாளர் பெயர்",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "false",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "policyName",
+			"label": {
+				"eng": "Policy Name",
+				"ara": "اسم السياسة",
+				"fra": "Nom de la politique",
+				"hin": "पालिसी का नाम",
+				"kan": "ನೀತಿಯ ಹೆಸರು",
+				"tam": "கொள்கை பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "false",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "requestDetail",
+			"label": {
+				"eng": "Request Detail",
+				"ara": "طلب التفاصيل",
+				"fra": "Détail de la demande",
+				"hin": "अनुरोध विवरण",
+				"kan": "ವಿನಂತಿಯ ವಿವರ",
+				"tam": "கோரிக்கை விவரம்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true",
+			"maxLength": 4000
+		},
+		{
+			"name": "statusCode",
+			"label": {
+				"eng": "Status",
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "false",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+	"filterColumns": [
+		{
+			"filtername": "partnerName",
+			"filterlabel": {
+				"eng": "Partner Name",
+                                "ara": "اسم شريك",
+                                "fra": "Nom du partenaire",
+                                "hin": "साथी का नाम",
+                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
+                                "tam": "கூட்டாளர் பெயர்"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "partnerName",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "policyName",
+			"filterlabel": {
+				"eng": "Partner Name",
+                                "ara": "اسم السياسة",
+                                "fra": "Nom de la politique",
+                                "hin": "पालिसी का नाम",
+                                "kan": "ನೀತಿಯ ಹೆಸರು",
+                                "tam": "கொள்கை பெயர்"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "policyName",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "requestDetail",
+			"filterlabel": {
+				"eng": "Request Detail",
+                                "ara": "طلب التفاصيل",
+                                "fra": "Détail de la demande",
+                                "hin": "अनुरोध विवरण",
+                                "kan": "ವಿನಂತಿಯ ವಿವರ",
+                                "tam": "கோரிக்கை விவரம்"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "requestDetail",
+			"methodCallName": ""
+		}
+	]
+}
