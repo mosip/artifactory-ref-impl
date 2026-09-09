@@ -1,0 +1,207 @@
+{
+	"auditEventIds": ["ADM-027", "ADM-049"],
+	"actionButtons": [{
+			"buttonName": {
+				"eng": "Activate",
+				"ara": "تفعيل",
+				"fra": "Activer",
+				"hin": "सक्रिय",
+				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயல்படுத்த"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "activateMisp"
+		},
+		{
+			"buttonName": {
+				"eng": "Deactivate",
+				"ara": "تعطيل",
+				"fra": "Désactiver",
+				"hin": "निष्क्रिय करें",
+				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயலிழக்கச் செய்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "deactivateMisp"
+		},
+		{
+			"buttonName": {
+				"eng": "Approve",
+				"ara": "يوافق",
+				"fra": "Approuver",
+				"hin": "मंज़ूरी देना",
+				"kan": "ಅನುಮೋದಿಸಿ",
+				"tam": "ஒப்புதல்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "approveRegistredMisp"
+		},
+		{
+			"buttonName": {
+				"eng": "Edit",
+				"ara": "تعديل",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/misp/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "edit"
+		},
+		{
+			"buttonName": {
+				"eng": "Create MISP",
+				"ara": "إنشاء مجموعة خدمات MISP",
+				"fra": "Créer un MISP",
+				"hin": "MISP बनाएं",
+				"kan": "MISP ರಚಿಸಿ",
+				"tam": "MISP ஐ உருவாக்கவும்"
+			},
+			"imagePath": "assets/images/add-icon.png",
+			"actionListType": "redirect",
+			"actionURL": "",
+			"redirectURL": "pmp/resources/misp/create",
+			"showIn": "Button",
+			"validations": ""
+		}
+	],
+	"mispList": [{
+			"name": "name",
+			"showInListView": "true",
+			"label": {
+				"eng": "Name",
+				"ara": "اسم",
+				"fra": "Nom",
+				"hin": "नाम",
+				"kan": "ಹೆಸರು",
+				"tam": "பெயர்"
+			},
+			"sortOrder": "3",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "address",
+			"showInListView": "false",
+			"label": {
+				"eng": "Address",
+				"ara": "تبوك",
+				"fra": "Adresse",
+				"hin": "पता",
+				"kan": "ವಿಳಾಸ",
+				"tam": "முகவரி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "contactNumber",
+			"showInListView": "true",
+			"label": {
+				"eng": "Phone.No",
+				"ara": "رقم الهاتف",
+				"fra": "Pas de téléphone",
+				"hin": "फोन नंबर",
+				"kan": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+				"tam": "தொலைபேசி எண்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "emailId",
+			"showInListView": "true",
+			"label": {
+				"eng": "Email",
+				"ara": "البريد الإلكتروني",
+				"fra": "E-mail",
+				"hin": "ईमेल",
+				"kan": "ಇಮೇಲ್",
+				"tam": "மின்னஞ்சல்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "isActive",
+			"showInListView": "true",
+			"label": {
+				"eng": "IsActive",
+				"ara": "نشط",
+				"fra": "C'est actif",
+				"hin": "सक्रिय है",
+				"kan": "ಸಕ್ರಿಯವಾಗಿದೆ",
+				"tam": "செயலில் உள்ளது"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		},
+		{
+			"name": "status_code",
+			"showInListView": "true",
+			"label": {
+				"eng": "Status",
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
+			},
+			"sortOrder": "3",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+	"filterColumns": [{
+			"filtername": "name",
+			"filterlabel": "Name",
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "registrationcenters",
+			"fieldName": "name",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "isActive",
+			"filterlabel": "Status",
+			"filterType": "contains",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "true",
+			"datePicker": "false",
+			"apiName": "registrationcenters",
+			"fieldName": "isActive",
+			"methodCallName": ""
+		}
+	]
+}

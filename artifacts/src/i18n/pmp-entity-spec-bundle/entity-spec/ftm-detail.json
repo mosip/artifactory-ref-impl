@@ -1,0 +1,311 @@
+{
+	"auditEventIds": ["ADM-027", "ADM-049"],
+	"actionButtons": [
+		{
+			"buttonName": {
+				"eng": "Upload Certificate",
+				"ara": "تحميل الشهادة",
+				"fra": "Télécharger le certificat",
+				"hin": "प्रमाणपत्र अपलोड करें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+				"tam": "சான்றிதழை பதிவேற்றவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "uploadCertificatepopup"
+		},
+		{
+			"buttonName": {
+				"eng": "View Certificate",
+				"ara": "مشاهدة الشهادة",
+				"fra": "Afficher le certificat",
+				"hin": "प्रमाणपत्र देखें",
+				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ವೀಕ್ಷಿಸಿ",
+				"tam": "சான்றிதழைப் பார்க்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "viewCertificate"
+		},
+		{
+			"buttonName": {
+				"eng": "Activate",
+				"ara": "تفعيل",
+				"fra": "Activer",
+				"hin": "सक्रिय",
+				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயல்படுத்த"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "approve"
+		},
+		{
+			"buttonName": {
+				"eng": "Deactivate",
+				"ara": "تعطيل",
+				"fra": "Désactiver",
+				"hin": "निष्क्रिय करें",
+				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+				"tam": "செயலிழக்கச் செய்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "reject"
+		},
+		{
+			"buttonName": {
+				"eng": "Edit",
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
+			},
+			"actionURL": "",
+			"redirectURL": "pmp/resources/ftmdetails/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "partnerEdit"
+		},
+		{
+			"buttonName": {
+				"eng": "Create Device",
+				"ara": "إنشاء الجهاز",
+				"fra": "Créer un appareil",
+				"hin": "डिवाइस बनाएं",
+				"kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ",
+				"tam": "சாதனத்தை உருவாக்கவும்"
+			},
+			"imagePath": "assets/images/add-icon.png",
+			"actionListType": "redirect",
+			"actionURL": "",
+			"redirectURL": "pmp/resources/ftmdetails/create",
+			"showIn": "Button",
+			"validations": ""
+		},
+		{
+			"buttonName": {
+				"eng": "Filter",
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
+			},
+			"imagePath": "assets/images/filter.png",
+			"actionListType": "action",
+			"actionURL": {
+				"case": "filter"
+			},
+			"redirectURL": "",
+			"showIn": "Button",
+			"validations": ""
+		}
+	],
+	"columnsToDisplay": [{
+			"name": "ftpChipDetailId",
+			"label": {
+				"eng": "ID",
+				"ara": "بطاقة تعريف",
+				"fra": "IDENTIFIANT",
+				"hin": "पहचान",
+				"kan": "ಐಡಿ",
+				"tam": "ஐடி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "false",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "ftpProviderId",
+			"label": {
+				"eng": "Partner Name",
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "partnerOrganizationName",
+			"label": {
+				"eng": "Organization Name",
+				"ara": "اسم المنظمة",
+				"fra": "nom de l'organisation",
+				"hin": "संगठन का नाम",
+				"kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+				"tam": "நிறுவன பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "make",
+			"label": {
+				"eng": "Make",
+				"ara": "يجعلون",
+				"fra": "Faire, construire",
+				"hin": "बनाना",
+				"kan": "ಮಾಡಿ",
+				"tam": "செய்ய"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true",
+			"maxLength": 36
+		},
+		{
+			"name": "model",
+			"label": {
+				"eng": "Model",
+				"ara": "نموذج",
+				"fra": "Modèle",
+				"hin": "नमूना",
+				"kan": "ಮಾದರಿ",
+				"tam": "மாதிரி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true",
+			"maxLength": 36
+		},
+		{
+			"name": "active",
+			"showInListView": "true",
+			"label": {
+				"eng": "Status",
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+	"filterColumns": [{
+			"filtername": "ftpProviderId",
+			"filterlabel": {                    
+                                "eng": "Partner Name",
+                                "ara": "اسم شريك",
+                                "fra": "Nom du partenaire",
+                                "hin": "साथी का नाम",
+                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
+                                "tam": "கூட்டாளர் பெயர்"
+                        },
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "ftpProviderId",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "partnerOrganizationName",
+			"filterlabel": {
+				"eng": "Organization Name",
+                                "ara": "اسم المنظمة",
+                                "fra": "nom de l'organisation",
+                                "hin": "संगठन का नाम",
+                                "kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+                                "tam": "நிறுவன பெயர்"
+								},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "partnerOrganizationName",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "make",
+			"filterlabel": {
+				"eng": "Make",
+                                "ara": "يجعلون",
+                                "fra": "Faire, construire",
+                                "hin": "बनाना",
+                                "kan": "ಮಾಡಿ",
+                                "tam": "செய்ய"
+			},
+			
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "make",
+			"methodCallName": ""
+		},
+		{
+			"filtername": "model",
+			"filterlabel": {
+				 "eng": "Model",
+                                "ara": "نموذج",
+                                "fra": "Modèle",
+                                "hin": "नमूना",
+                                "kan": "ಮಾದರಿ",
+                                "tam": "மாதிரி"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "model",
+			"methodCallName": ""
+		}
+	]
+}

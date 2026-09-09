@@ -1,0 +1,316 @@
+{
+	"auditEventIds": ["ADM-027", "ADM-049"],
+	"actionButtons": [{
+			"buttonName": {
+				"eng": "Approve",
+				"ara": "يوافق",
+				"fra": "Approuver",
+				"hin": "मंज़ूरी देना",
+				"kan": "ಅನುಮೋದಿಸಿ",
+				"tam": "ஒப்புதல்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "approve"
+		},
+		{
+			"buttonName": {
+				"eng": "Reject",
+				"ara": "رفض",
+				"fra": "Rejeter",
+				"hin": "अस्वीकार",
+				"kan": "ತಿರಸ್ಕರಿಸಿ",
+				"tam": "நிராகரிக்கவும்"
+			},
+			"actionURL": "",
+			"redirectURL": "",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "reject"
+		},
+		{
+			"buttonName": {
+				"eng": "Edit",
+				"ara": "يحرر",
+				"fra": "Éditer",
+				"hin": "संपादन करना",
+				"kan": "ತಿದ್ದು",
+				"tam": "தொகு"
+			},
+			"actionURL": "",
+			"redirectURL": "/pmp/resources/sbidetails/single-view/$id",
+			"showIn": "Ellipsis",
+			"validations": "",
+			"callBackFunction": "partnerEdit"
+		},
+		{
+			"buttonName": {
+				"eng": "Create SBI",
+				"ara": "إنشاء الهيئة الفرعية للتنفيذ",
+				"fra": "Créer SBI",
+				"hin": "एसबीआई बनाएं",
+				"kan": "SBI ರಚಿಸಿ",
+				"tam": "எஸ்பிஐ உருவாக்கவும்"
+			},
+			"imagePath": "assets/images/add-icon.png",
+			"redirectURL": "/pmp/resources/sbidetails/create",
+			"showIn": "Button",
+			"actionListType": "redirect",
+			"actionURL": ""
+		},
+			  {
+			"buttonName": {
+				"eng": "Filter",
+				"ara": "منقي",
+				"fra": "Filtre",
+				"hin": "फ़िल्टर",
+				"kan": "ಫಿಲ್ಟರ್",
+				"tam": "வடிகட்டி"
+			},
+			"imagePath": "assets/images/filter.png",
+			"actionListType": "action",
+			"actionURL": {
+				"case": "filter"
+			},
+			"redirectURL": "",
+			"showIn": "Button",
+			"validations": ""
+		}
+	],
+	"columnsToDisplay": [{
+			"name": "id",
+			"label": {
+				"eng": "ID",
+				"ara": "بطاقة تعريف",
+				"fra": "IDENTIFIANT",
+				"hin": "पहचान",
+				"kan": "ID",
+				"tam": "ஐடி"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "",
+			"ismandatory": "",
+			"showInListView": "false",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "providerId",
+			"label": {
+				"eng": "Partner Name",
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "true",
+			"showInListView": "false",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "partnerOrganizationName",
+			"label": {
+				"eng": "Partner Name",
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "false",
+			"showInListView": "true",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "swVersion",
+			"label": {
+				"eng": "Version",
+				"ara": "إصدار",
+				"fra": "Version",
+				"hin": "संस्करण",
+				"kan": "ಆವೃತ್ತಿ",
+				"tam": "பதிப்பு"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true",
+			"maxLength": 64
+		},
+		{
+			"name": "swBinaryHash",
+			"label": {
+				"eng": "Binary Hash",
+				"ara": "تجزئة ثنائية",
+				"fra": "Hachage binaire",
+				"hin": "बाइनरी हैश",
+				"kan": "ಬೈನರಿ ಹ್ಯಾಶ್",
+				"tam": "பைனரி ஹாஷ்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "text",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true",
+			"maxLength": 64
+		},
+		{
+			"name": "swCreateDateTime",
+			"label": {
+				"eng": "Created DateTime",
+				"ara": "تاريخ الإنشاء والوقت",
+				"fra": "DateHeure de création",
+				"hin": "बनाया गया दिनांक समय",
+				"kan": "ದಿನಾಂಕ ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ",
+				"tam": "உருவாக்கப்பட்டது தேதி நேரம்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "calendar",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "swExpiryDateTime",
+			"label": {
+				"eng": "Expiry DateTime",
+				"ara": "تاريخ انتهاء الصلاحية",
+				"fra": "Date et heure d'expiration",
+				"hin": "समाप्ति तिथि समय",
+				"kan": "ಮುಕ್ತಾಯ ದಿನಾಂಕ ಸಮಯ",
+				"tam": "காலாவதி தேதி நேரம்"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "calendar",
+			"ismandatory": "true",
+			"showInListView": "true",
+			"showInSingleView": "true"
+		},
+		{
+			"name": "isItForRegistrationDevice",
+			"label": {
+				"eng": "ForRegistrationDevice",
+				"ara": "جهاز التسجيل",
+				"fra": "ForRegistrationDevice",
+				"hin": "पंजीकरण के लिएडिवाइस",
+				"kan": "ನೋಂದಣಿ ಸಾಧನಕ್ಕಾಗಿ",
+				"tam": "பதிவு சாதனத்திற்காக"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": "",
+			"inputType": "dropdown",
+			"ismandatory": "false",
+			"showInListView": "false",
+			"showInSingleView": "false"
+		},
+		{
+			"name": "approvalStatus",
+			"showInListView": "true",
+			"label": {
+				"eng": "Status",
+				"ara": "حالة",
+				"fra": "Statut",
+				"hin": "दर्जा",
+				"kan": "ಸ್ಥಿತಿ",
+				"tam": "நிலை"
+			},
+			"sortOrder": "",
+			"showAsLink": "",
+			"linkType": "",
+			"LinkURL": ""
+		}
+	],
+	"paginator": {
+		"totalEntries": null,
+		"pageSize": "10",
+		"pageSizeList": [10, 20, 30, 40, 50]
+	},
+        
+        "filterColumns": [{
+                "filtername": "providerId",
+                "filterlabel": {
+                        "eng": "Partner Name",
+                                "ara": "اسم شريك",
+                                "fra": "Nom du partenaire",
+                                "hin": "साथी का नाम",
+                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
+                                "tam": "கூட்டாளர் பெயர்"
+                },
+                "filterType": "equals",
+                "fieldType": "input",
+                "autocomplete": "false",
+                "dropdown": "false",
+                "datePicker": "false",
+                "apiName": "",
+                "fieldName": "providerId",
+                "methodCallName": ""
+        },{
+                "filtername": "swVersion",
+                "filterlabel": {
+                        "eng": "Version",
+                        "ara": "إصدار",
+                        "fra": "Version",
+                        "hin": "संस्करण",
+                        "kan": "ಆವೃತ್ತಿ",
+                        "tam": "பதிப்பு"
+                },
+                "filterType": "equals",
+                "fieldType": "input",
+                "autocomplete": "false",
+                "dropdown": "false",
+                "datePicker": "false",
+                "apiName": "",
+                "fieldName": "swVersion",
+                "methodCallName": ""
+        },{
+                "filtername": "approvalStatus",
+                "filterlabel": {
+                        "eng": "Status",
+                        "ara": "حالة",
+                        "fra": "Statut",
+                        "hin": "दर्जा",
+                        "kan": "ಸ್ಥಿತಿ",
+                        "tam": "நிலை"
+                },
+                "filterType": "equals",
+                "fieldType": "input",
+                "autocomplete": "false",
+                "dropdown": "false",
+                "datePicker": "false",
+                "apiName": "",
+                "fieldName": "approvalStatus",
+                "methodCallName": ""
+        }]
+}
+
+
