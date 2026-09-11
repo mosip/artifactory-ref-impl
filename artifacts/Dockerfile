@@ -21,6 +21,14 @@ ARG container_user_uid=1001
 # can be passed during Docker build as build time environment for github branch to pickup configuration from.
 ARG container_user_gid=1001
 
+# populated automatically by docker buildx for the platform being built
+ARG TARGETARCH
+
+# Temurin 11.0.32.1+1 vendor-published sha256 checksums, one per supported architecture,
+# see https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.32.1%2B1
+ARG TEMURIN_JDK_SHA256_AMD64=5c3f68887c325d36d852ba534303e1f5f1f5cae7d6cc1e951d73e0d8e98a058d
+ARG TEMURIN_JDK_SHA256_ARM64=f27033e6f7523c1b0b2565a78e9c0e0abe5596a854ce00ca04ec1b06ece7a935
+
 # install packages and create user
 RUN apt-get update -y && \
 apt-get install -y gnupg2 && \
@@ -32,7 +40,13 @@ wget https://dlcdn.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-
 tar -xzf apache-maven-3.9.16-bin.tar.gz && \
 mv apache-maven-3.9.16 /usr/local/maven && \
 rm apache-maven-3.9.16-bin.tar.gz && \
-wget https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz -O openjdk-11.tar.gz && \
+case "${TARGETARCH}" in \
+  amd64) jdk_arch=x64; jdk_sha256=${TEMURIN_JDK_SHA256_AMD64} ;; \
+  arm64) jdk_arch=aarch64; jdk_sha256=${TEMURIN_JDK_SHA256_ARM64} ;; \
+  *) echo "Unsupported TARGETARCH: ${TARGETARCH}" >&2 && exit 1 ;; \
+esac && \
+wget "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_${jdk_arch}_linux_hotspot_11.0.32.1_1.tar.gz" -O openjdk-11.tar.gz && \
+echo "${jdk_sha256}  openjdk-11.tar.gz" | sha256sum -c - && \
 tar -xzf openjdk-11.tar.gz && \
 mv jdk-11.0.32.1+1 /usr/local/java-11 && \
 rm openjdk-11.tar.gz && \

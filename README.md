@@ -50,8 +50,10 @@ downloads correctly (no missing, truncated, or corrupted files) with
 
 This enumerates every file nginx is serving from inside the running
 container (not a hardcoded list, so it can't go stale as `pom.xml` or
-`configure.sh` change), downloads each one into a fresh
-`/tmp/artifactory-verify-<container>-<timestamp>/` directory, and compares
+`configure.sh` change), downloads each one into a fresh,
+securely-created, randomly-suffixed
+`${TMPDIR:-/tmp}/artifactory-verify-<container>.XXXXXX/` directory (via
+`mktemp -d`), and compares
 size + sha256 against the copy inside the container. It prints a pass/fail
 summary and exits non-zero listing every failing path if anything doesn't
 match.

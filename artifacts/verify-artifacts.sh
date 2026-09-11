@@ -16,12 +16,13 @@
 # Optional: pass --start <image> to build/run the container for you, e.g.
 #   ./verify-artifacts.sh --start artifactory-server-test:bookworm
 #
-# Downloaded files are written under a fresh directory named
-# /tmp/artifactory-verify-<container>-<timestamp>/ (mirroring the served
-# path structure) so results from different runs never collide, and nothing
-# is silently overwritten. The directory is left in place on exit -- printed
-# at the end -- so you can inspect downloaded artifacts afterward; delete it
-# yourself when done.
+# Downloaded files are written under a fresh, securely-created directory
+# (via `mktemp -d`) named ${TMPDIR:-/tmp}/artifactory-verify-<container>.XXXXXX/
+# with a random suffix, mirroring the served path structure, so results from
+# different runs never collide and the path can't be pre-guessed by another
+# local user. The directory is left in place on exit -- printed at the end --
+# so you can inspect downloaded artifacts afterward; delete it yourself when
+# done.
 
 set -euo pipefail
 
@@ -63,8 +64,8 @@ if ! docker inspect "$CONTAINER_NAME" >/dev/null 2>&1; then
   exit 1
 fi
 
-TMP_DIR="/tmp/artifactory-verify-${CONTAINER_NAME}-$(date +%Y%m%d-%H%M%S)"
-mkdir -p "$TMP_DIR"
+umask 077
+TMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/artifactory-verify-${CONTAINER_NAME}.XXXXXX")"
 echo "Downloads will be saved under: $TMP_DIR"
 
 echo "Enumerating served files inside container '$CONTAINER_NAME'..."
