@@ -31,20 +31,22 @@ All these artifacts are released as a part of the Mosip Release with some of the
 ## Local build and testing
 
 To build and test the `artifactory-server` image locally without a full K8
-deployment:
+deployment, `artifacts/verify-artifacts.sh` can build the image for you:
 
 ```
   $ cd artifacts
+  $ ./verify-artifacts.sh --build
+```
+
+This builds `artifactory-server-test:local` (or the tag you pass as
+`./verify-artifacts.sh --build <image_tag>`), starts it, and then verifies
+that every artifact the image is supposed to serve actually downloads
+correctly (no missing, truncated, or corrupted files). If you already built
+the image separately, skip the build and just start/verify it with
+`--start`:
+
+```
   $ docker build -t artifactory-server-test:local .
-  $ docker run -d --name artifactory-test -p 8080:8080 artifactory-server-test:local
-```
-
-Then verify that every artifact the image is supposed to serve actually
-downloads correctly (no missing, truncated, or corrupted files) with
-`artifacts/verify-artifacts.sh`:
-
-```
-  $ cd artifacts
   $ ./verify-artifacts.sh --start artifactory-server-test:local
 ```
 

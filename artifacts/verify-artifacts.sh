@@ -13,8 +13,14 @@
 #   ./verify-artifacts.sh                                   # defaults below
 #   ./verify-artifacts.sh artifactory-test http://localhost:8080
 #
-# Optional: pass --start <image> to build/run the container for you, e.g.
+# Optional: pass --start <image> to run the container from an image you
+# already built, e.g.
 #   ./verify-artifacts.sh --start artifactory-server-test:bookworm
+#
+# Optional: pass --build [image_tag] to also build the image first (docker
+# build . -t <image_tag>) before running/verifying it, e.g.
+#   ./verify-artifacts.sh --build
+#   ./verify-artifacts.sh --build artifactory-server-test:local
 #
 # Downloaded files are written under a fresh, securely-created directory
 # (via `mktemp -d`) named ${TMPDIR:-/tmp}/artifactory-verify-<container>.XXXXXX/
@@ -30,6 +36,14 @@ DOC_ROOT="/usr/share/nginx/html/artifactory"
 CONTAINER_NAME="artifactory-test"
 BASE_URL="http://localhost:8080"
 STARTED_CONTAINER=0
+
+if [ "${1:-}" = "--build" ]; then
+  IMAGE="${2:-artifactory-server-test:local}"
+  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  echo "Building image '$IMAGE' from $SCRIPT_DIR ..."
+  docker build -t "$IMAGE" "$SCRIPT_DIR"
+  set -- --start "$IMAGE"
+fi
 
 if [ "${1:-}" = "--start" ]; then
   IMAGE="${2:?Usage: $0 --start <image>}"
