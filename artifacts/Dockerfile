@@ -1,4 +1,4 @@
-FROM nginx@sha256:af296b188c7b7df99ba960ca614439c99cb7cf252ed7bbc23e90cfda59092305
+FROM nginx@sha256:552e7481ca93ffccd046aa658dbbed22caefbc09c66fa7cd247cbb90b8a5c609
 
 ARG SOURCE
 ARG COMMIT_HASH
@@ -21,17 +21,35 @@ ARG container_user_uid=1001
 # can be passed during Docker build as build time environment for github branch to pickup configuration from.
 ARG container_user_gid=1001
 
+# populated automatically by docker buildx for the platform being built
+ARG TARGETARCH
+
+# Temurin 11.0.32.1+1 vendor-published sha256 checksums, one per supported architecture,
+# see https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.32.1%2B1
+ARG TEMURIN_JDK_SHA256_AMD64=5c3f68887c325d36d852ba534303e1f5f1f5cae7d6cc1e951d73e0d8e98a058d
+ARG TEMURIN_JDK_SHA256_ARM64=f27033e6f7523c1b0b2565a78e9c0e0abe5596a854ce00ca04ec1b06ece7a935
+
 # install packages and create user
 RUN apt-get update -y && \
 apt-get install -y gnupg2 && \
 apt-get update -y && \
-apt-get install -y --no-install-recommends unzip wget zip openjdk-11-jdk && \
+apt-get install -y --no-install-recommends unzip wget zip && \
 groupadd -g ${container_user_gid} ${container_user_group} &&\
 rm -rf /var/lib/apt/lists/* &&\
 wget https://dlcdn.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz && \
 tar -xzf apache-maven-3.9.16-bin.tar.gz && \
 mv apache-maven-3.9.16 /usr/local/maven && \
 rm apache-maven-3.9.16-bin.tar.gz && \
+case "${TARGETARCH}" in \
+  amd64) jdk_arch=x64; jdk_sha256=${TEMURIN_JDK_SHA256_AMD64} ;; \
+  arm64) jdk_arch=aarch64; jdk_sha256=${TEMURIN_JDK_SHA256_ARM64} ;; \
+  *) echo "Unsupported TARGETARCH: ${TARGETARCH}" >&2 && exit 1 ;; \
+esac && \
+wget "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_${jdk_arch}_linux_hotspot_11.0.32.1_1.tar.gz" -O openjdk-11.tar.gz && \
+echo "${jdk_sha256}  openjdk-11.tar.gz" | sha256sum -c - && \
+tar -xzf openjdk-11.tar.gz && \
+mv jdk-11.0.32.1+1 /usr/local/java-11 && \
+rm openjdk-11.tar.gz && \
 useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user} \
 && mkdir -p /var/run/nginx /var/tmp/nginx \
 && chown -R ${container_user}:${container_user} /usr/share/nginx /var/run/nginx /var/tmp/nginx
@@ -39,8 +57,8 @@ useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${cont
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
 ENV MAVEN_HOME /usr/local/maven
-ENV PATH $MAVEN_HOME/bin:$PATH
-ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64
+ENV JAVA_HOME /usr/local/java-11
+ENV PATH $JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH
 
 # set working directory for the user
 WORKDIR /home/${container_user}
