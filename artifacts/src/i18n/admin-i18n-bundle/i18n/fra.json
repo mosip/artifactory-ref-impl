@@ -921,6 +921,17 @@
 				"value": "ZoneUtilisateur"
 			}
 		],
+		"validationMessages": {
+            "operation": {
+                "required": "L'opération est requise"
+            },
+            "tableName": {
+                "required": "Le nom de la table est requis"
+            },
+            "file": {
+                "required": "Le fichier est requis"
+            }
+        },
 		"popupMessages": {
 			"popup1": {
 				"title": "Confirmer le téléchargement en bloc des données de base",

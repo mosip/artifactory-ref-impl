@@ -788,6 +788,17 @@
 			"id": "zone_user",
 			"value": "ವಲಯ ಬಳಕೆದಾರ"
 		}],
+		"validationMessages": {
+            "operation": {
+                "required": "ಕಾರ್ಯಾಚರಣೆ ಅಗತ್ಯ"
+            },
+            "tableName": {
+                "required": "ಅட்டಿಯ ಹೆಸರು ಅಗತ್ಯ"
+            },
+            "file": {
+                "required": "ಫೈಲ್ ಅಗತ್ಯವಿದೆ"
+            }
+        },
 		"popupMessages": {
 			"popup1": {
 				"title": "ಬೃಹತ್ ಮಾಸ್ಟರ್ ಡೇಟಾ ಅಪ್‌ಲೋಡ್ ಅನ್ನು ದೃirೀಕರಿಸಿ",

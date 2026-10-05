@@ -781,6 +781,17 @@
 			"id": "zone_user",
 			"value": "क्षेत्र उपयोगकर्ता "
 		}],
+		"validationMessages": {
+            "operation": {
+                "required": "कार्य आवश्यक है"
+            },
+            "tableName": {
+                "required": "तालिका का नाम आवश्यक है"
+            },
+            "file": {
+                "required": "फ़ाइल आवश्यक है"
+            }
+        },
 		"popupMessages": {
 			"popup1": {
 				"title": "बल्क मास्टर डेटा अपलोड की पुष्टि करें",
