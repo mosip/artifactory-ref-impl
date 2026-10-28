@@ -1417,6 +1417,9 @@
         "ADM-AVD-510" : "Applicant search limit exceeded",
         "ADM-AVD-511" : "Request id not found",
         "KER-USR-025" : "Center mapping is missing, the User cannot be Activated.",
-        "KER-MSD-281" : "Invalid number of kiosks"
+        "KER-MSD-281" : "Invalid number of kiosks",
+        "KER-MSD-023" : "Invalid language code",
+        "KER-MSD-444" : "Registration Center cannot be empty or null",
+        "KER-ADM-106" : "Validation error while fetching Certificate"
     }
 }
